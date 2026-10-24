@@ -20,6 +20,7 @@ import { useEffect, useRef, useState } from "react";
 import { COLLECTIONS, collectionPhrase, collectionsByIntent } from "@/lib/atlas-config";
 import { openAdvisor, ADVISOR_CTA_COLD } from "./AdvisorRequest";
 import { tourOpened } from "@/lib/analytics";
+import { startHowItWorks } from "@/lib/demo";
 import { useBucketCount } from "@/lib/bucket-list";
 
 export default function SiteNav() {
@@ -170,7 +171,8 @@ export default function SiteNav() {
         className="nav-link nav-how"
         onClick={() => {
           tourOpened();
-          window.dispatchEvent(new Event("bevvip:start-tour"));
+          // The globe demo first, the explainer slides from its end card.
+          startHowItWorks();
         }}
       >
         How this works

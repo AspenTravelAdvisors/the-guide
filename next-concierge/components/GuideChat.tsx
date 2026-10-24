@@ -29,7 +29,7 @@ import {
   type AskSource,
 } from "@/lib/analytics";
 import { collectionsSummary } from "@/lib/atlas-config";
-import { demoRequested } from "@/lib/demo";
+import { demoMode, isCapture, startHowItWorks } from "@/lib/demo";
 import { askAboutDays, registerGuideHost } from "@/lib/atlas/ask";
 import { leadPlace } from "@/lib/guide-meta";
 import { MAX_USER_CHARS } from "@/lib/guide-tokens";
@@ -98,17 +98,19 @@ export default function GuideChat() {
   // previous conversation can't write back into the freshly cleared transcript.
   const genRef = useRef(0);
   const abortRef = useRef<AbortController | null>(null);
-  /** Running under `/?demo` — set once, by the restore effect. */
+  /** Running a `/?demo` capture — set by the restore, cleared by the hand-off. */
   const demoRef = useRef(false);
 
   // Restore after mount (not during render) so server and first client paint
   // agree and React does not flag a hydration mismatch. A recent conversation
   // comes straight back; an older one is offered rather than imposed.
   useEffect(() => {
-    // A demo starts from an empty transcript and leaves the saved one alone:
-    // it is usually run on the advisor's own browser, whose real conversation
-    // must neither appear on camera nor be overwritten by the demo's.
-    if (demoRequested()) {
+    // A capture starts from an empty transcript and leaves the saved one
+    // alone: it is usually run on the advisor's own browser, whose real
+    // conversation must neither appear on camera nor be overwritten by the
+    // demo's. (The first-visit intro is an ordinary visit and restores as
+    // usual.) See the hand-off below for how a capture's chat is kept.
+    if (isCapture(demoMode())) {
       demoRef.current = true;
       setHydrated(true);
       return;
@@ -126,6 +128,27 @@ export default function GuideChat() {
   useEffect(() => {
     setLocalTrip(getTrip());
     return onTrip(setLocalTrip);
+  }, []);
+
+  /*
+   * A capture ending in "Continue in chat" (components/AtlasDemo).
+   *
+   * The demo's question was asked once, live, and its answer is already on
+   * screen — so the hand-off keeps this transcript as it stands and simply
+   * starts saving it, like any conversation. Never re-sent. A capture with no
+   * conversation in it (the layers cut) saves nothing, which leaves the
+   * traveller's own saved chat untouched for their next visit.
+   */
+  const turnsRef = useRef(turns);
+  turnsRef.current = turns;
+  useEffect(() => {
+    function onHandoff() {
+      if (!demoRef.current) return;
+      demoRef.current = false;
+      if (turnsRef.current.length) saveConversation(turnsRef.current);
+    }
+    window.addEventListener("bevvip:demo-handoff", onHandoff);
+    return () => window.removeEventListener("bevvip:demo-handoff", onHandoff);
   }, []);
 
   useEffect(() => {
@@ -512,7 +535,7 @@ export default function GuideChat() {
                   className="empty-tour"
                   onClick={() => {
                     tourOpened();
-                    window.dispatchEvent(new Event("bevvip:start-tour"));
+                    startHowItWorks();
                   }}
                 >
                   New here? See how this works

@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState, type CSSProperties, type ReactNode } from "react";
 import AtlasDock from "./AtlasDock";
-import { demoRequested, type DemoGuideDetail } from "@/lib/demo";
+import { demoMode, isCapture, type DemoGuideDetail } from "@/lib/demo";
 
 // Base Camp is atlas-first at every size: the Living Atlas owns the full stage
 // and The Guide floats over it.
@@ -93,10 +93,10 @@ export default function HomeSplit({ chat, atlas }: { chat: ReactNode; atlas: Rea
    *     an atlas card or a campaign — there is nothing to demonstrate to them
    *     and the streaming answer needs to be in view. Skips the tour wait
    *     entirely and cancels the fallback.
-   *  2. "bevvip:tour-ended" from the atlas — the normal path. Fires when the
-   *     tour finishes and the globe resumes its idle spin, AND when the visitor
-   *     interrupts it, AND when no tour was ever going to play (reduced motion,
-   *     a flat projection, a map that failed to boot).
+   *  2. The first-visit intro handing the Guide over (lib/demo.ts), when one
+   *     plays — at its end, or the moment the visitor skips it. Otherwise
+   *     "bevvip:tour-ended" from the atlas, which fires as soon as the map
+   *     boots (the home globe arms no tour any more) or fails to.
    *  3. The fallback timer. See TOUR_WAIT_CAP_MS.
    *
    * All three land on the same resting state — sheet at "half", desktop panel
@@ -104,23 +104,15 @@ export default function HomeSplit({ chat, atlas }: { chat: ReactNode; atlas: Rea
    * here can end with the Guide unreachable.
    */
   useEffect(() => {
-    /*
-     * Under `/?demo` the script owns the reveal: the Guide stays parked through
-     * the build and arrives on cue for the question (lib/demo.ts). None of the
-     * three paths below may fire — the tour's announcement comes the moment the
-     * map boots, because a demo arms no tour.
-     */
-    if (demoRequested()) {
-      const onDemoGuide = (e: Event) => {
-        const open = !!(e as CustomEvent<DemoGuideDetail>).detail?.open;
-        setTourWaiting(false);
-        setSheet(open ? "half" : "pill");
-        setPanelOpen(open);
-        requestRefit();
-      };
-      window.addEventListener("bevvip:demo-guide", onDemoGuide as EventListener);
-      return () => window.removeEventListener("bevvip:demo-guide", onDemoGuide as EventListener);
-    }
+    // Under a demo the script owns the reveal (see the demo-guide listener
+    // below), so the atlas's tour announcement — which comes the moment the
+    // map boots, since a demo arms no tour — is not a reason to show it. The
+    // first-visit intro keeps the dead man's switch: it is a visitor's page,
+    // and nothing it does may end with the Guide unreachable. A capture
+    // keeps no timer; its operator decides when the Guide appears.
+    const demo = demoMode();
+    if (isCapture(demo)) return;
+    const demoOwnsReveal = demo.kind !== "off";
 
     let done = false;
     // The composer is never auto-focused here, including in transaction mode:
@@ -139,7 +131,15 @@ export default function HomeSplit({ chat, atlas }: { chat: ReactNode; atlas: Rea
     };
 
     const fallback = window.setTimeout(reveal, TOUR_WAIT_CAP_MS);
-    window.addEventListener("bevvip:tour-ended", reveal);
+    if (!demoOwnsReveal) window.addEventListener("bevvip:tour-ended", reveal);
+    // The intro handing the Guide over is the reveal; the switch stands down
+    // so it cannot reopen a panel the visitor has since closed.
+    const onDemoGuide = (e: Event) => {
+      if (!(e as CustomEvent<DemoGuideDetail>).detail?.open) return;
+      done = true;
+      window.clearTimeout(fallback);
+    };
+    if (demoOwnsReveal) window.addEventListener("bevvip:demo-guide", onDemoGuide as EventListener);
 
     let askDeepLink = false;
     try {
@@ -147,12 +147,33 @@ export default function HomeSplit({ chat, atlas }: { chat: ReactNode; atlas: Rea
     } catch {
       /* no query / unavailable */
     }
-    if (askDeepLink) reveal();
+    // No intro playing means nothing to wait for: the home globe arms no tour
+    // any more, so holding the Guide for the atlas's announcement would only
+    // hide it for as long as Mapbox takes to boot.
+    if (askDeepLink || !demoOwnsReveal) reveal();
 
     return () => {
       window.clearTimeout(fallback);
       window.removeEventListener("bevvip:tour-ended", reveal);
+      window.removeEventListener("bevvip:demo-guide", onDemoGuide as EventListener);
     };
+  }, [requestRefit]);
+
+  /*
+   * The demo parks the Guide and brings it back (lib/demo.ts). Always wired:
+   * "How this works" starts the demo on a home page that has been open for a
+   * while, long after the arrival reveal above ran its course.
+   */
+  useEffect(() => {
+    const onDemoGuide = (e: Event) => {
+      const open = !!(e as CustomEvent<DemoGuideDetail>).detail?.open;
+      setTourWaiting(false);
+      setSheet(open ? "half" : "pill");
+      setPanelOpen(open);
+      requestRefit();
+    };
+    window.addEventListener("bevvip:demo-guide", onDemoGuide as EventListener);
+    return () => window.removeEventListener("bevvip:demo-guide", onDemoGuide as EventListener);
   }, [requestRefit]);
 
   // Starting over returns the phone stage to the idle home — which is now the
