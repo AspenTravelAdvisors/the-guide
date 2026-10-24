@@ -35,26 +35,22 @@ import {
 } from "@/lib/demo";
 
 /*
- * The beat, three ways.
+ * The beat, two ways.
  *
  * CAPTURE is tuned to be filmed at 1x and still read at 2x: every caption is
  * on screen for at least a second and a half, on a rhythm someone can cut
  * music to.
  *
- * INTRO is the same story told to someone who came to use the site and did
- * not ask to watch anything, so it is held to ten seconds: every beat it
- * spends is a beat between them and the composer. It barely waits on the
- * feeds — a collection still in flight when its beat comes fades in as it
- * lands (applyStage runs on every paint), which costs less than a stalled
- * title on a slow phone.
- *
- * HOWTO was asked for, so it can afford the slower read. All three finish well
- * inside HomeSplit's 22s dead man's switch, which reveals the Guide regardless.
+ * VISIT is the same story told to someone using the site — the first-visit
+ * intro and "How this works" alike. It was briefly held to ten seconds, and
+ * at 0.75s a beat the collections went by faster than their names could be
+ * read; a build nobody can follow teaches nothing, so it is back to the pace
+ * it shipped with (~16s, about the old ambient tour's 17.5s). Worst case,
+ * with every feed slow: 0.9 + 0.7 + 6 + 8 × 0.95 + 2.2 + 1.8 ≈ 19.2s, still
+ * inside HomeSplit's 22s dead man's switch.
  */
 const CAPTURE = { line: 1300, hold: 1200, beat: 1500, total: 3000, loadCap: 15000, handover: 1800 };
-// ≈ 0.6 + 0.4 + ≤1.0 + 8 × 0.75 + 1.4 + 1.2 = 9.6–10.6s
-const INTRO = { line: 600, hold: 400, beat: 750, total: 1400, loadCap: 1000, handover: 1200 };
-const HOWTO = { line: 900, hold: 700, beat: 950, total: 2200, loadCap: 6000, handover: 1800 };
+const VISIT = { line: 900, hold: 700, beat: 950, total: 2200, loadCap: 6000, handover: 1800 };
 const TYPE_CHAR_MS = 34;
 const QUESTION_HOLD_MS = 900;
 const ANSWER_HOLD_MS = 7000;
@@ -136,7 +132,7 @@ export default function AtlasDemo() {
     if (!run) return;
     const { mode } = run;
     const capture = isCapture(mode);
-    const pace = capture ? CAPTURE : mode.kind === "intro" ? INTRO : HOWTO;
+    const pace = capture ? CAPTURE : VISIT;
     const root = document.documentElement;
     const rootClass = capture ? "demo-on" : "intro-on";
     root.classList.add(rootClass);
