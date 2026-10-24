@@ -6433,6 +6433,17 @@ html.demo-on .atlas-dock,
 html.demo-on .site-nav {
   display: none !important;
 }
+/* A traveller's run (the first-visit intro, "How this works") clears the same
+   map chrome for its few seconds but keeps the site menu: this is someone's
+   visit, and the way to anywhere else stays where they expect it. */
+html.intro-on .home-atlas-head,
+html.intro-on .atlas-ctrls,
+html.intro-on .atlas-badge,
+html.intro-on .guide-pill,
+html.intro-on .guide-tab,
+html.intro-on .atlas-dock {
+  display: none !important;
+}
 .atlas-legend .lgi {
   transition: opacity 0.6s ease;
 }
@@ -6626,6 +6637,47 @@ html.demo-on .site-nav {
   font-family: var(--sans);
   font-size: 12px;
   cursor: pointer;
+}
+
+/* The intro gives way to any touch anyway; the button is there so nobody has
+   to discover that. Bottom centre, above the phone sheet's resting pill. */
+.ad-skip {
+  position: absolute;
+  bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+  right: 16px;
+  pointer-events: auto;
+  padding: 8px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(10, 10, 12, 0.72);
+  backdrop-filter: blur(8px);
+  color: var(--sub);
+  font-family: var(--sans);
+  font-size: 13px;
+  cursor: pointer;
+  animation: ad-fade 0.6s 0.8s ease both;
+}
+.ad-skip:hover {
+  color: var(--text);
+}
+/* "How this works" ends on a question for the visitor, not a crop line for
+   an editor: full strength, in the flow under the card, the next step gold. */
+.ad-ctrl.ad-ctrl-visit {
+  position: static;
+  margin-top: 26px;
+  opacity: 1;
+  animation: ad-rise 0.6s 1.4s ease both;
+}
+.ad-ctrl.ad-ctrl-visit button {
+  padding: 11px 22px;
+  font-size: 15px;
+  color: var(--text);
+}
+.ad-ctrl.ad-ctrl-visit button.primary {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #17130a;
+  font-weight: 600;
 }
 
 @keyframes ad-rise {

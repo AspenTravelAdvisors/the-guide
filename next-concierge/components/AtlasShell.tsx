@@ -1287,18 +1287,9 @@ const FLY_LABEL_MS = 2200;
 export default function AtlasShell({
   type, region, externalLink, scope, routesAlways, onRegionSelect,
   ambientRoutes = false, accent, initialStyle, initialGlobe, initialCamera, onViewChange,
-  selfShare = false, showLegend = true, ambientTour: ambientTourProp = false, photoreal,
+  selfShare = false, showLegend = true, ambientTour = false, photoreal,
 }: Props) {
   const allInventory = scope === "all";
-  /*
-   * `/?demo` runs its own script on this globe (lib/demo.ts), and two
-   * choreographers on one camera is how the tour's pins would land in the
-   * middle of the build — so a demo arms no tour. Read only inside the map
-   * effect, after mount, where the URL is there to read; the server's `false`
-   * from demoRequested never reaches a render. HomeSplit ignores the tour's
-   * end announcement under a demo, which owns the Guide's reveal itself.
-   */
-  const ambientTour = ambientTourProp && !demoRequested();
   const showsHotel = allInventory || type === "hotel";
   /*
    * Overlay collections, LOWEST rank first — the order a full repaint paints
@@ -6012,16 +6003,21 @@ export default function AtlasShell({
   /*
    * The demo's two wires, home globe only (see lib/demo.ts).
    *
-   * The empty stage is set HERE, on mount, rather than by the demo overlay's
-   * first event: the two mount as siblings and nothing orders their effects,
-   * and a stage that arrived after the first feed painted would flash that
-   * collection on and off before the build began. Feeds land seconds after
-   * mount, so a stage set now is in place before any of them.
+   * Listening on every home visit, not only a demo load: "How this works"
+   * starts the demo on a globe that has been fully drawn for minutes.
+   *
+   * When a demo plays on arrival, the empty stage is set HERE, on mount,
+   * rather than by the demo overlay's first event: the two mount as siblings
+   * and nothing orders their effects, and a stage that arrived after the first
+   * feed painted would flash that collection on and off before the build
+   * began. Feeds land seconds after mount, so a stage set now beats them all.
    */
   useEffect(() => {
-    if (!allInventory || !demoRequested()) return;
-    stageRef.current = new Set();
-    setStage(stageRef.current);
+    if (!allInventory) return;
+    if (demoRequested()) {
+      stageRef.current = new Set();
+      setStage(stageRef.current);
+    }
     function onStage(e: Event) {
       const keys = (e as CustomEvent<DemoStageDetail>).detail?.keys ?? null;
       stageRef.current = keys ? new Set(keys) : null;
@@ -6033,7 +6029,9 @@ export default function AtlasShell({
   }, [allInventory]);
 
   // …and back the other way: the build waits on the feeds, because a beat
-  // that switches on a collection still in flight switches on nothing.
+  // that switches on a collection still in flight switches on nothing. Sent
+  // again on every stage change, so a demo started long after the feeds
+  // landed hears about them from its own first step.
   useEffect(() => {
     if (!allInventory || !stage) return;
     window.dispatchEvent(

@@ -95,11 +95,11 @@ export default function Home() {
             // says. Turns on both the Share button and the shell's own reading
             // of those params on arrival.
             selfShare
-            // Four captioned pins, dropped while the globe walks west, ending
-            // the instant the visitor touches the map. The old IntroTour taught
-            // the chrome and had to dim the product to do it; this teaches the
-            // inventory using the product, and asks for nothing back.
-            ambientTour
+            // No `ambientTour`. The four captioned pins it walked the globe
+            // through are replaced by the demo below, which on a first visit
+            // builds the whole inventory one collection at a time — the same
+            // idea (teach the inventory with the product, ask for nothing
+            // back), told with all twelve thousand pins instead of four.
             // The collections panel is back, and it is a different control
             // than the one that was removed. That one was seven independent
             // hide/show switches over the most valuable corner of the only
@@ -110,9 +110,10 @@ export default function Home() {
             // collapses to a pill and gives the corner back entirely.
             showLegend
           />
-          {/* `/?demo` only — the scripted capture of this globe. Renders
-              nothing otherwise, and reads the URL after mount, so the static
-              prerender above is untouched. See lib/demo.ts. */}
+          {/* The globe's demonstration: the first-visit intro, "How this
+              works", and the `/?demo` captures. Reads the URL and storage
+              after mount, so the static prerender above is untouched. See
+              lib/demo.ts. */}
           <AtlasDemo />
         </>
       }
