@@ -100,7 +100,7 @@ export const expeditionAnswers = [
       "Quark's Ultramarine carries the deepest expedition bench in the polar fleet — 37 guides for 199 guests, roughly one per 5–6 — followed by Aurora Expeditions at about 1:7 and Quark's smaller ships at 1:7–1:9. Lindblad–National Geographic runs about 1:9 but adds a certified photo instructor and an undersea team on every polar sailing.",
     answer: [
       "Among the major polar fleets, Quark's Ultramarine carries the deepest bench — a 37-person expedition team for 199 guests, roughly one guide per 5–6 guests — followed by Aurora Expeditions (about 1:7 on Greg Mortimer and Sylvia Earle) and Quark's smaller ships at about 1:7–1:9. Lindblad–National Geographic runs about one naturalist per 9–10 guests but supplements the ratio with specialists: a certified photo instructor on every polar sailing and an undersea team on many.",
-      "In the Galápagos the math is regulated: the national park requires at least one licensed naturalist per 16 guests, and the luxury fleet beats it — Silver Origin advertises about 1:10, Aqua Mare's 16-guest superyacht runs private-guide territory, and HX's 90-guest Santa Cruz II staffs to the park standard with Ecuadorian naturalists.",
+      "In the Galápagos the math is regulated: the national park requires at least one licensed naturalist per 16 guests, and the luxury fleet beats it — Silver Origin advertises about 1:10, Aqua Mare's 16-guest superyacht runs private-guide territory, and HX's 90-guest Santa Cruz II runs about 1:11 with Ecuadorian naturalists, well above the park minimum.",
     ],
     sections: [
       {
@@ -117,8 +117,8 @@ export const expeditionAnswers = [
             ["World Explorer (Quark)", "172", "22", "1:8"],
             ["NG Endurance / NG Resolution (Lindblad)", "138", "16", "1:9"],
             ["Silver Origin (Silversea, Galápagos)", "100", "10", "1:10"],
-            ["Santa Cruz II (HX, Galápagos)", "90", "6", "1:15, park standard"],
             ["Silver Endeavour (Silversea)", "200 polar", "22", "1:9"],
+            ["Santa Cruz II (HX, Galápagos)", "90", "8", "1:11"],
             ["NG Explorer (Lindblad)", "148", "14", "1:11"],
             ["Seabourn Venture / Pursuit", "264", "24", "1:11"],
             ["SH Vega / SH Minerva (Swan Hellenic)", "152", "12", "1:13"],
