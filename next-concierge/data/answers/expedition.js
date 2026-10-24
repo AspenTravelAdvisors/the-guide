@@ -100,7 +100,7 @@ export const expeditionAnswers = [
       "Quark's Ultramarine carries the deepest expedition bench in the polar fleet — 37 guides for 199 guests, roughly one per 5–6 — followed by Aurora Expeditions at about 1:7 and Quark's smaller ships at 1:7–1:9. Lindblad–National Geographic runs about 1:9 but adds a certified photo instructor and an undersea team on every polar sailing.",
     answer: [
       "Among the major polar fleets, Quark's Ultramarine carries the deepest bench — a 37-person expedition team for 199 guests, roughly one guide per 5–6 guests — followed by Aurora Expeditions (about 1:7 on Greg Mortimer and Sylvia Earle) and Quark's smaller ships at about 1:7–1:9. Lindblad–National Geographic runs about one naturalist per 9–10 guests but supplements the ratio with specialists: a certified photo instructor on every polar sailing and an undersea team on many.",
-      "In the Galápagos the math is regulated: the national park requires at least one licensed naturalist per 16 guests, and the luxury fleet beats it — Silver Origin advertises about 1:10, and Aqua Mare's 16-guest superyacht runs private-guide territory.",
+      "In the Galápagos the math is regulated: the national park requires at least one licensed naturalist per 16 guests, and the luxury fleet beats it — Silver Origin advertises about 1:10, Aqua Mare's 16-guest superyacht runs private-guide territory, and HX's 90-guest Santa Cruz II staffs to the park standard with Ecuadorian naturalists.",
     ],
     sections: [
       {
@@ -117,6 +117,7 @@ export const expeditionAnswers = [
             ["World Explorer (Quark)", "172", "22", "1:8"],
             ["NG Endurance / NG Resolution (Lindblad)", "138", "16", "1:9"],
             ["Silver Origin (Silversea, Galápagos)", "100", "10", "1:10"],
+            ["Santa Cruz II (HX, Galápagos)", "90", "6", "1:15, park standard"],
             ["Silver Endeavour (Silversea)", "200 polar", "22", "1:9"],
             ["NG Explorer (Lindblad)", "148", "14", "1:11"],
             ["Seabourn Venture / Pursuit", "264", "24", "1:11"],
@@ -239,6 +240,7 @@ export const expeditionAnswers = [
     answer: [
       "The smallest true luxury expedition vessels are Aqua Mare (16 guests, Galápagos), National Geographic Islander II (48, Galápagos), Silver Origin (100, Galápagos), and in polar waters National Geographic Orion (102), Aurora's Sylvia Earle and Greg Mortimer (about 130), Quark's Ocean Explorer (134) and Lindblad's NG Endurance and NG Resolution (138).",
       "Size is not a taste question in Antarctica — it's arithmetic. IAATO rules allow a maximum of 100 guests ashore at any moment and bar ships over 500 guests from landing anyone at all. A 130-guest ship can put essentially everyone ashore in one go, twice a day; a 450-guest ship rotates you through the same window. Under 200 guests is the line that keeps the continent unrationed.",
+      "In the Galápagos, where every ship is small by law, HX's 90-guest Santa Cruz II sits in the same size band as Silver Origin at a lower price, and is the one to look at if the budget matters as much as the guest count.",
     ],
     sections: [
       {
@@ -258,6 +260,7 @@ export const expeditionAnswers = [
             ["Aqua Blu", "Aqua Expeditions", "30", "Indonesia"],
             ["Aria Amazon / Aqua Nera", "Aqua Expeditions", "32–40", "Amazon"],
             ["NG Islander II", "Lindblad", "48", "Galápagos"],
+            ["Santa Cruz II", "HX Expeditions", "90", "Galápagos"],
             ["NG Endeavour II", "Lindblad", "96", "Galápagos"],
             ["Silver Origin", "Silversea", "100", "Galápagos"],
             ["NG Orion", "Lindblad", "102", "Antarctica / South Pacific"],
@@ -379,7 +382,7 @@ export const expeditionAnswers = [
       },
       {
         q: "Which has the best Galápagos program?",
-        a: "Lindblad by depth — {{departures:collection=cruise&operator=National Geographic-Lindblad Expeditions&region=Galápagos}} tracked departures across its ships including the 48-guest Islander II. Silversea's Silver Origin is the single most luxurious ship in the islands. Ponant doesn't operate there.",
+        a: "Lindblad by depth — {{departures:collection=cruise&operator=National Geographic-Lindblad Expeditions&region=Galápagos}} tracked departures across its ships including the 48-guest Islander II. Silversea's Silver Origin is the single most luxurious ship in the islands. Ponant doesn't operate there. If value matters more than polish, HX's 90-guest Santa Cruz II is the alternative, and it comes with Quito and usually Machu Picchu in the fare.",
       },
       {
         q: "Is Le Commandant Charcot worth the premium?",
@@ -388,7 +391,7 @@ export const expeditionAnswers = [
     ],
     related: [
       { href: "/answers/best-antarctica-expedition-for-first-timers", label: "Best Antarctica expedition for first-timers" },
-      { href: "/answers/galapagos-lindblad-vs-silversea-vs-aqua", label: "Galápagos: Lindblad vs. Silversea vs. Aqua" },
+      { href: "/answers/galapagos-lindblad-vs-silversea-vs-aqua", label: "Galápagos: Lindblad vs. Silversea vs. Aqua vs. HX" },
       { href: "/answers/luxury-vs-classic-expedition-cruising", label: "Is luxury expedition 'real' expedition cruising?" },
       { href: "/atlas/cruise", label: "Compare their sailings in the expedition atlas" },
       { href: "/journeys/cruise", label: "Every expedition itinerary, day by day, with all its departures" },
@@ -398,15 +401,16 @@ export const expeditionAnswers = [
   {
     slug: "galapagos-lindblad-vs-silversea-vs-aqua",
     category: "Expedition",
-    question: "Galápagos: Lindblad vs. Silversea vs. Aqua Expeditions — how do you choose?",
-    title: "Galápagos Compared: Lindblad vs. Silversea vs. Aqua Expeditions",
+    question: "Galápagos: Lindblad vs. Silversea vs. Aqua Expeditions vs. HX — how do you choose?",
+    title: "Galápagos Compared: Lindblad vs. Silversea vs. Aqua vs. HX",
     description:
-      "Choosing a luxury Galápagos operator: Lindblad's three-ship program, Silversea's Silver Origin, and Aqua Mare's 16-guest superyacht — itineraries, guide ratios, and who each suits.",
-    updated: UPDATED,
+      "Choosing a Galápagos expedition ship: Lindblad's program, Silversea's Silver Origin, Aqua Mare's 16-guest superyacht and HX's 90-guest Santa Cruz II — itineraries, guide ratios, and who each suits.",
+    updated: "2026-10-24",
     capsule:
-      "The Galápagos choice is a size choice. Lindblad–National Geographic runs the deepest program with the strongest naturalist bench on ships of 48 and 96 guests. Silversea's 100-guest Silver Origin is the plushest purpose-built ship in the archipelago. Aqua Expeditions' 16-guest Aqua Mare is the closest thing to a private Galápagos.",
+      "The Galápagos choice is a size choice. Lindblad–National Geographic runs the deepest program on ships of 48 and 96 guests. Silversea's 100-guest Silver Origin is the plushest ship in the archipelago. Aqua Mare's 16 guests are the closest thing to a private Galápagos. HX's 90-guest Santa Cruz II is the value pick, and the only one sold with Quito and Machu Picchu in the fare.",
     answer: [
-      "The Galápagos choice is really a size choice. Lindblad–National Geographic runs the deepest program in the islands (635 departures tracked in our atlas across ships of 48 and 96 guests) with the strongest naturalist bench and family programming. Silversea's Silver Origin (100 guests) is the plushest purpose-built ship in the archipelago — butlers, a 1:10 guide ratio, Ecuadorian fine dining. Aqua Expeditions' Aqua Mare takes 16 guests on a genuine superyacht: the closest thing to a private Galápagos.",
+      "The Galápagos choice is really a size choice. Lindblad–National Geographic runs the deepest program in the islands ({{departures:collection=cruise&operator=National Geographic-Lindblad Expeditions&region=Galápagos}} departures tracked in our atlas across ships of 48 and 96 guests) with the strongest naturalist bench and family programming. Silversea's Silver Origin (100 guests) is the plushest purpose-built ship in the archipelago — butlers, a 1:10 guide ratio, Ecuadorian fine dining. Aqua Expeditions' Aqua Mare takes 16 guests on a genuine superyacht: the closest thing to a private Galápagos.",
+      "HX Expeditions is the fourth option and the one most often overlooked. Its 90-guest Santa Cruz II is run with Metropolitan Touring, the Ecuadorian company that has sailed these islands longer than anyone, and HX sells it as a complete journey: Quito, the islands, and on most departures Lima and Machu Picchu as well, with flights inside Ecuador included. It is less polished than Silver Origin and has less of a teaching program than Lindblad, but for travelers who want the islands and the Andes in one booking at a sensible price, it is often the best fit.",
       "Wildlife access is effectively identical — the national park assigns every vessel fixed itineraries and licensed naturalists, and the animals are equally indifferent to everyone. You're choosing the vessel you return to at lunch, not the islands you see.",
     ],
     sections: [
@@ -419,22 +423,29 @@ export const expeditionAnswers = [
       {
         h2: "Side by side",
         table: {
-          caption: "Sailing counts from our atlas, July 2026 (1,084 Galápagos departures tracked).",
-          columns: ["", "Lindblad–Nat Geo", "Silversea (Silver Origin)", "Aqua (Aqua Mare)"],
+          caption: "Sailing counts from our atlas ({{departures:collection=cruise&region=Galápagos}} Galápagos departures tracked).",
+          columns: ["", "Lindblad–Nat Geo", "Silversea (Silver Origin)", "Aqua (Aqua Mare)", "HX (Santa Cruz II)"],
           rows: [
-            ["Departures tracked", "635", "108", "202 (all Aqua ships)"],
-            ["Ships / guests", "Islander II (48), Endeavour II (96)", "Silver Origin (100)", "Aqua Mare (16)"],
-            ["Feel", "Field station with excellent food", "Boutique hotel afloat", "Private yacht"],
-            ["Guides", "Park-licensed + Lindblad naturalist culture, photo instructor", "~1:10 ratio, butler per suite", "Two naturalists for 16 guests"],
-            ["Families", "Best-in-class kids' programming", "Welcomed, less programmed", "Ideal as a full-boat family charter"],
-            ["Typical length", "7 nights (+ Ecuador extensions)", "7 nights", "7 nights; charterable"],
+            ["Departures tracked", "{{departures:collection=cruise&operator=National Geographic-Lindblad Expeditions&region=Galápagos}}", "{{departures:collection=cruise&operator=Silversea&region=Galápagos}}", "{{departures:collection=cruise&operator=Aqua Expeditions&region=Galápagos}}", "{{departures:collection=cruise&operator=HX Expeditions&region=Galápagos}}"],
+            ["Ships / guests", "Islander II (48), Endeavour II (96)", "Silver Origin (100)", "Aqua Mare (16)", "Santa Cruz II (90)"],
+            ["Feel", "Field station with excellent food", "Boutique hotel afloat", "Private yacht", "Comfortable, unfussy expedition ship"],
+            ["Guides", "Park-licensed + Lindblad naturalist culture, photo instructor", "~1:10 ratio, butler per suite", "Two naturalists for 16 guests", "Park-licensed Ecuadorian naturalists from Metropolitan Touring"],
+            ["Families", "Best-in-class kids' programming", "Welcomed, less programmed", "Ideal as a full-boat family charter", "Welcomed; good value for a family cabin count"],
+            ["Typical length", "7 nights (+ Ecuador extensions)", "7 nights", "7 nights; charterable", "8 nights with Quito, or 13 with Lima and Machu Picchu"],
           ],
         },
       },
       {
+        h2: "Where HX's Santa Cruz II fits",
+        paras: [
+          "Santa Cruz II is the largest of the four ships here, at 90 guests, and the one priced for travelers who care more about the islands than the thread count. What sets it apart is the packaging. Almost every departure in our atlas is HX's 13-night In Darwin's Footsteps Plus Machu Picchu, which starts in Lima, goes up to Cusco and Machu Picchu, then flies to Quito and on to the islands. Lindblad and Silversea sell the Andes as add-ons; HX puts them in the fare.",
+          "On board, expect a working expedition ship rather than a floating hotel: one main restaurant, a lecture lounge, glass-bottom boat and kayaks for the days ashore, and naturalists who have spent their careers in the islands. Departures run about twice a month, all year, so it is also the easiest of the four to book at short notice.",
+        ],
+      },
+      {
         h2: "How to choose in one paragraph",
         paras: [
-          "Traveling with kids or want the trip taught? Lindblad. Want the best suite, shower and ceviche in the archipelago? Silver Origin. Celebrating something, or eight to sixteen of you traveling together? Charter Aqua Mare and the Galápagos becomes yours. If the budget question decides it: Lindblad's Endeavour II departures are typically the value entry to the luxury tier, and December and early-June shoulder weeks price softest across all three.",
+          "Traveling with kids or want the trip taught? Lindblad. Want the best suite, shower and ceviche in the archipelago? Silver Origin. Celebrating something, or eight to sixteen of you traveling together? Charter Aqua Mare and the Galápagos becomes yours. Want Machu Picchu and the islands in one trip, with the logistics handled? HX on Santa Cruz II. If the budget question decides it: Santa Cruz II is usually the value entry, Lindblad's Endeavour II departures are the value entry to the luxury tier, and December and early-June shoulder weeks price softest across all four.",
         ],
       },
     ],
@@ -451,11 +462,16 @@ export const expeditionAnswers = [
         q: "How far ahead do these ships book up?",
         a: "9–15 months for the small ships; Aqua Mare full-boat charters and holiday weeks further out. The 48-guest Islander II is chronically the first to sell through.",
       },
+      {
+        q: "Can I combine the Galápagos with Machu Picchu?",
+        a: "Yes, and HX makes it simplest: most Santa Cruz II departures are sold as a 13-night journey that starts in Lima, goes to Cusco and Machu Picchu, then flies via Quito to the islands. With the other lines you add Peru as a separate extension, which works well but takes more planning.",
+      },
     ],
     related: [
       { href: "/answers/ponant-vs-lindblad-vs-silversea-expeditions", label: "Ponant vs. Lindblad vs. Silversea overall" },
       { href: "/answers/which-expedition-ships-have-the-highest-guide-ratio", label: "Guide ratios across the expedition fleet" },
-      { href: "/atlas/cruise", label: "All 1,084 Galápagos sailings in the atlas" },
+      { href: "/journeys/cruise/hx-expeditions-galapagos-islands-in-darwin-s-footsteps-plus-machu-picchu", label: "HX's Galápagos and Machu Picchu journey, day by day" },
+      { href: "/atlas/cruise", label: "Every Galápagos sailing in the atlas" },
       { href: "/journeys/cruise", label: "Every expedition itinerary, day by day, with all its departures" },
     ],
   },
