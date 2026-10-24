@@ -35,32 +35,26 @@ import {
 } from "@/lib/demo";
 
 /*
- * The beat, two ways.
+ * The beat, three ways.
  *
  * CAPTURE is tuned to be filmed at 1x and still read at 2x: every caption is
  * on screen for at least a second and a half, on a rhythm someone can cut
- * music to. VISIT is the same story told to someone who arrived to use the
- * site, and has to finish inside the ~17s the old ambient tour took — and
- * well inside HomeSplit's 22s dead man's switch, which reveals the Guide
- * regardless.
+ * music to.
+ *
+ * INTRO is the same story told to someone who came to use the site and did
+ * not ask to watch anything, so it is held to ten seconds: every beat it
+ * spends is a beat between them and the composer. It barely waits on the
+ * feeds — a collection still in flight when its beat comes fades in as it
+ * lands (applyStage runs on every paint), which costs less than a stalled
+ * title on a slow phone.
+ *
+ * HOWTO was asked for, so it can afford the slower read. All three finish well
+ * inside HomeSplit's 22s dead man's switch, which reveals the Guide regardless.
  */
-const CAPTURE = {
-  line: 1300,
-  hold: 1200,
-  beat: 1500,
-  total: 3000,
-  // How long the build waits for feeds still in flight before starting anyway.
-  loadCap: 15000,
-};
-const VISIT = {
-  line: 900,
-  hold: 700,
-  beat: 950,
-  total: 2200,
-  loadCap: 6000,
-};
-/** The intro's last line, on screen while the Guide slides in under it. */
-const HANDOVER_MS = 1800;
+const CAPTURE = { line: 1300, hold: 1200, beat: 1500, total: 3000, loadCap: 15000, handover: 1800 };
+// ≈ 0.6 + 0.4 + ≤1.0 + 8 × 0.75 + 1.4 + 1.2 = 9.6–10.6s
+const INTRO = { line: 600, hold: 400, beat: 750, total: 1400, loadCap: 1000, handover: 1200 };
+const HOWTO = { line: 900, hold: 700, beat: 950, total: 2200, loadCap: 6000, handover: 1800 };
 const TYPE_CHAR_MS = 34;
 const QUESTION_HOLD_MS = 900;
 const ANSWER_HOLD_MS = 7000;
@@ -105,7 +99,8 @@ const guide = (open: boolean) =>
 export default function AtlasDemo() {
   const [run, setRun] = useState<Run | null>(null);
   const [scene, setScene] = useState<Scene>(BLANK);
-  const shown = useCountUp(scene.total);
+  const [countMs, setCountMs] = useState(900);
+  const shown = useCountUp(scene.total, countMs);
   const loadedRef = useRef<Set<string>>(new Set());
   const plottedRef = useRef(false);
   /** Ends the current run in place; set by the run's own effect. */
@@ -141,10 +136,12 @@ export default function AtlasDemo() {
     if (!run) return;
     const { mode } = run;
     const capture = isCapture(mode);
-    const pace = capture ? CAPTURE : VISIT;
+    const pace = capture ? CAPTURE : mode.kind === "intro" ? INTRO : HOWTO;
     const root = document.documentElement;
     const rootClass = capture ? "demo-on" : "intro-on";
     root.classList.add(rootClass);
+    // The figure lands before the next collection does, at any pace.
+    setCountMs(Math.min(900, Math.round(pace.beat * 0.75)));
 
     let cancelled = false;
     let skippable = !capture;
@@ -271,7 +268,7 @@ export default function AtlasDemo() {
         // has gone: the last line and the composer are one beat.
         set({ total: null, caption: "Ask The Guide anything." });
         guide(true);
-        await sleep(HANDOVER_MS);
+        await sleep(pace.handover);
         finish();
         return;
       }
