@@ -52,27 +52,21 @@ export default function HomeSplit({ chat, atlas }: { chat: ReactNode; atlas: Rea
   // Desktop panel open/closed. Phones never toggle this (the tab and pill that
   // drive it are hidden there), so the sheet styles are unaffected by it.
   //
-  // STARTS CLOSED, and is opened by the atlas rather than by us — see the
-  // "bevvip:tour-ended" listener below. The globe runs a short ambient tour on
-  // arrival, and a panel covering a third of the stage while it plays is a
-  // caption card competing with the thing it captions.
+  // STARTS CLOSED, AND STAYS CLOSED. The Guide is offered, not opened at the
+  // visitor: it waits as the "Ask The Guide" pill until they reach for it, or
+  // until something they did needs it on screen — a question asked from a pin
+  // or a chip (see openChat), an ?ask= link, the demo's slides. A panel that
+  // slides over the map on its own is a pop-up, and pop-ups are stress.
   const [panelOpen, setPanelOpen] = useState(false);
 
   // Mobile chat-sheet detent.
   //
-  // "Opens at half, not pill" is still the rule — this now says WHEN, not
-  // whether. The reasoning that put the composer on screen at load stands
-  // unchanged: on a 390px screen the visitor should land able to type, and the
-  // globe is beautiful but is not the thing being sold. What changed is that
-  // there is now a ~17.5s ambient tour narrating the inventory, and on a phone
-  // the sheet covers the half of the map the tour is drawing on.
-  //
-  // So the sheet still arrives on its own, unprompted, at "half" — it is just
-  // sequenced after the tour instead of racing it, and any interaction with the
-  // map brings it immediately (the atlas announces an interrupted tour the same
-  // way it announces a finished one). The one thing this must never become is
-  // the old behaviour, where the conversation waited behind a pill for the
-  // visitor to go find it.
+  // Rests at "pill", and that reverses an older rule ("opens at half, not
+  // pill") on purpose. That rule put the composer on screen at load so a
+  // visitor could type at once; what it also did was cover half a 390px map
+  // with a sheet nobody asked for. The Guide is now one tap away on the atlas
+  // dock's pill, and comes up by itself only when something the visitor did
+  // needs it — a chip, a pin's "Ask The Guide", an ?ask= link.
   const [sheet, setSheet] = useState<SheetState>("pill");
   const [tourWaiting, setTourWaiting] = useState(true);
   // The detent, readable from event handlers that must not re-subscribe every
@@ -99,9 +93,11 @@ export default function HomeSplit({ chat, atlas }: { chat: ReactNode; atlas: Rea
    *     boots (the home globe arms no tour any more) or fails to.
    *  3. The fallback timer. See TOUR_WAIT_CAP_MS.
    *
-   * All three land on the same resting state — sheet at "half", desktop panel
-   * open — which is the state the home page used to load in directly. Nothing
-   * here can end with the Guide unreachable.
+   * All three land on the same resting state: the Guide collapsed but
+   * reachable — the "Ask The Guide" pill on a desktop, the dock's pill on a
+   * phone — with the waiting chrome released. Only the ?ask= link opens it,
+   * because that visitor arrived to read the answer it is about to stream.
+   * Nothing here can end with the Guide unreachable.
    */
   useEffect(() => {
     // Under a demo the script owns the reveal (see the demo-guide listener
@@ -118,24 +114,26 @@ export default function HomeSplit({ chat, atlas }: { chat: ReactNode; atlas: Rea
     // The composer is never auto-focused here, including in transaction mode:
     // raising the keyboard on a phone before the visitor has seen the answer
     // they were sent here for hides it behind the thing they'd type into.
-    const reveal = () => {
+    const reveal = (open = false) => {
       if (done) return;
       done = true;
       window.clearTimeout(fallback);
-      window.removeEventListener("bevvip:tour-ended", reveal);
+      window.removeEventListener("bevvip:tour-ended", release);
       setTourWaiting(false);
+      if (!open) return;
       setSheet("half");
       setPanelOpen(true);
       // The map has just resized under the panel; re-frame anything plotted.
       requestRefit();
     };
+    const release = () => reveal(false);
 
-    const fallback = window.setTimeout(reveal, TOUR_WAIT_CAP_MS);
-    if (!demoOwnsReveal) window.addEventListener("bevvip:tour-ended", reveal);
-    // The intro handing the Guide over is the reveal; the switch stands down
-    // so it cannot reopen a panel the visitor has since closed.
+    const fallback = window.setTimeout(release, TOUR_WAIT_CAP_MS);
+    if (!demoOwnsReveal) window.addEventListener("bevvip:tour-ended", release);
+    // The intro's last word on the Guide is the reveal; the switch stands
+    // down so it cannot override what the visitor has done since.
     const onDemoGuide = (e: Event) => {
-      if (!(e as CustomEvent<DemoGuideDetail>).detail?.open) return;
+      if (!(e as CustomEvent<DemoGuideDetail>).detail?.done) return;
       done = true;
       window.clearTimeout(fallback);
     };
@@ -150,11 +148,12 @@ export default function HomeSplit({ chat, atlas }: { chat: ReactNode; atlas: Rea
     // No intro playing means nothing to wait for: the home globe arms no tour
     // any more, so holding the Guide for the atlas's announcement would only
     // hide it for as long as Mapbox takes to boot.
-    if (askDeepLink || !demoOwnsReveal) reveal();
+    if (askDeepLink) reveal(true);
+    else if (!demoOwnsReveal) release();
 
     return () => {
       window.clearTimeout(fallback);
-      window.removeEventListener("bevvip:tour-ended", reveal);
+      window.removeEventListener("bevvip:tour-ended", release);
       window.removeEventListener("bevvip:demo-guide", onDemoGuide as EventListener);
     };
   }, [requestRefit]);
@@ -176,12 +175,14 @@ export default function HomeSplit({ chat, atlas }: { chat: ReactNode; atlas: Rea
     return () => window.removeEventListener("bevvip:demo-guide", onDemoGuide as EventListener);
   }, [requestRefit]);
 
-  // Starting over returns the phone stage to the idle home — which is now the
-  // composer at half height, not the map with the chat dismissed.
+  // Starting over, inside an open sheet, settles it back to half height.
   useEffect(() => {
     function onSession(e: Event) {
       const active = !!(e as CustomEvent<{ active?: boolean }>).detail?.active;
-      if (!active && !tourWaiting) setSheet("half");
+      // An open sheet settles back to half; a collapsed one stays collapsed —
+      // the transcript loading empty on arrival sends this too, and must not
+      // be what opens the Guide.
+      if (!active && !tourWaiting) setSheet((s) => (s === "pill" ? s : "half"));
     }
     window.addEventListener("bevvip:guide-session", onSession as EventListener);
     return () => window.removeEventListener("bevvip:guide-session", onSession as EventListener);
@@ -206,14 +207,24 @@ export default function HomeSplit({ chat, atlas }: { chat: ReactNode; atlas: Rea
     }, 460);
   }, []);
 
-  // Open the sheet from the mobile dock. Focusing the composer (pill tap)
-  // raises the keyboard; chip taps skip it so the streaming reply gets the room.
+  // Open the Guide because the visitor asked something. Focusing the composer
+  // (pill tap) raises the keyboard; chip taps skip it so the streaming reply
+  // gets the room.
+  //
+  // Both layouts, not just the phone sheet. The desktop panel used to be open
+  // whenever anyone could ask, so this never had to open it; now it rests
+  // collapsed, and a question from a pin would stream into a closed panel.
+  // Each breakpoint's CSS reads only its own state, so setting both is safe.
   const openChat = useCallback(
     (focus: boolean) => {
       setSheetAndRefit((s) => (s === "pill" ? "half" : s));
+      setPanelOpen((prev) => {
+        if (!prev) requestRefit();
+        return true;
+      });
       if (focus) focusComposer();
     },
-    [setSheetAndRefit, focusComposer],
+    [setSheetAndRefit, focusComposer, requestRefit],
   );
 
   /*

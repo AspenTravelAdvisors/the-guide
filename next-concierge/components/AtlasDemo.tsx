@@ -11,8 +11,8 @@
  *                 first, with each one's name and size and a running total.
  *   3. Question — capture only (`/?demo`): a question types itself, the real
  *                 Guide answers it, and the globe flies to the shortlist.
- *   4. Ending   — the first-visit intro hands the Guide over; "How this
- *                 works" offers the explainer slides; a capture ends on the
+ *   4. Ending   — the first-visit intro hands the page over, Guide
+ *                 collapsed; "How this works" offers the explainer slides; a capture ends on the
  *                 brand card, with the way into its conversation.
  *
  * A traveller's run (intro, howto) gives way to any touch, scroll or key. A
@@ -93,8 +93,8 @@ interface Run {
 
 const stage = (keys: string[] | null) =>
   window.dispatchEvent(new CustomEvent<DemoStageDetail>("bevvip:atlas-stage", { detail: { keys } }));
-const guide = (open: boolean) =>
-  window.dispatchEvent(new CustomEvent<DemoGuideDetail>("bevvip:demo-guide", { detail: { open } }));
+const guide = (open: boolean, done = false) =>
+  window.dispatchEvent(new CustomEvent<DemoGuideDetail>("bevvip:demo-guide", { detail: { open, done } }));
 
 export default function AtlasDemo() {
   const [run, setRun] = useState<Run | null>(null);
@@ -104,7 +104,7 @@ export default function AtlasDemo() {
   const loadedRef = useRef<Set<string>>(new Set());
   const plottedRef = useRef(false);
   /** Ends the current run in place; set by the run's own effect. */
-  const finishRef = useRef<() => void>(() => {});
+  const finishRef = useRef<(openGuide?: boolean) => void>(() => {});
 
   // What plays on arrival, and "How this works" for every run after it.
   useEffect(() => {
@@ -165,15 +165,17 @@ export default function AtlasDemo() {
 
     /**
      * Stop wherever the script is and leave the page as a visitor uses it:
-     * every collection drawn, the Guide out, the overlay gone. Every ending
-     * and every skip comes through here.
+     * every collection drawn, the overlay gone, and the Guide collapsed —
+     * there to open, not opened at them. Only an ending that needs the chat
+     * on screen (a conversation to read, slides that point at the composer)
+     * opens it. Every ending and every skip comes through here.
      */
-    const finish = () => {
+    const finish = (openGuide = false) => {
       if (cancelled) return;
       cancelled = true;
       timers.forEach((t) => window.clearTimeout(t));
       stage(null);
-      guide(true);
+      guide(openGuide, true);
       root.classList.remove(rootClass);
       setScene(BLANK);
       setRun(null);
@@ -264,10 +266,10 @@ export default function AtlasDemo() {
 
       // ── 4. Ending ───────────────────────────────────────────────────────
       if (mode.kind === "intro") {
-        // The Guide arrives under its own cue rather than after the overlay
-        // has gone: the last line and the composer are one beat.
+        // Said, not sprung: the line names the Guide and the Guide stays a
+        // collapsed button. A panel sliding over the map the visitor was just
+        // shown is one more thing happening to them.
         set({ total: null, caption: "Ask The Guide anything." });
-        guide(true);
         await sleep(pace.handover);
         finish();
         return;
@@ -297,11 +299,12 @@ export default function AtlasDemo() {
   function exitCapture() {
     stripParam(DEMO_PARAM);
     window.dispatchEvent(new Event("bevvip:demo-handoff"));
-    finishRef.current();
+    // Open only when there is a conversation to read in it.
+    finishRef.current(run?.mode.kind === "ask");
   }
 
   function openSlides() {
-    finishRef.current();
+    finishRef.current(true);
     // The first slide points at the composer, so it has to be on screen —
     // finish() just sent the panel sliding in.
     window.setTimeout(() => window.dispatchEvent(new Event("bevvip:start-tour")), PANEL_SETTLE_MS);
@@ -351,7 +354,7 @@ export default function AtlasDemo() {
           )}
 
           {!capture && !scene.end && (
-            <button type="button" className="ad-skip" onClick={() => finishRef.current()}>
+            <button type="button" className="ad-skip" onClick={() => finishRef.current(false)}>
               Skip intro
             </button>
           )}
@@ -369,7 +372,7 @@ export default function AtlasDemo() {
                   <button type="button" className="primary" onClick={openSlides}>
                     How to use it
                   </button>
-                  <button type="button" onClick={() => finishRef.current()}>
+                  <button type="button" onClick={() => finishRef.current(false)}>
                     Start exploring
                   </button>
                 </div>
