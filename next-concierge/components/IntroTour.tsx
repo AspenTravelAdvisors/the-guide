@@ -39,7 +39,7 @@ const SLIDES: Slide[] = [
     target: ".home-chat .composer",
     badge: "Asking",
     title: "Describe the trip in your own words",
-    body: "A region, a season, an occasion, a hotel you already like — whatever you'd say to a person. You don't have to pick a category first; The Guide searches all seven and works out which ones fit.",
+    body: "A region, a season, an occasion, a hotel you already like — whatever you'd say to a person. You don't have to pick a category first; The Guide searches all eight collections and works out which ones fit.",
   },
   {
     // The map is the full-bleed stage — a spotlight ring around the whole
@@ -54,7 +54,7 @@ const SLIDES: Slide[] = [
     target: ".nav-explore",
     badge: "Browsing",
     title: "Or browse the collection yourself",
-    body: "Hotels, villas, expedition sailings, world cruises, rail journeys, hotel yachts and private jets — each on its own map, if you'd rather look around than ask.",
+    body: "Hotels, villas, expedition sailings, world cruises, safaris, rail journeys, hotel yachts and private jets — each on its own map, if you'd rather look around than ask.",
     placement: "auto",
   },
   {

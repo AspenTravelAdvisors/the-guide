@@ -6,8 +6,8 @@
  * far", so the one story the globe tells best — watch it fill — cannot be
  * told by clicking. The demo stages that build itself.
  *
- *   intro    A first visit to `/`. Title, build, total, then the Guide is
- *            handed over. Any touch skips it. Plays once per browser, and
+ *   intro    A first visit to `/`. Title, build, total, then the page is
+ *            handed over with the Guide collapsed. Any touch skips it. Plays once per browser, and
  *            replaces the four-stop ambient tour that used to run on arrival.
  *   howto    "How this works" (or `/?howto` from any other page). The intro
  *            again, ending on a card that offers the explainer slides.
@@ -178,7 +178,11 @@ export interface DemoLoadedDetail {
   keys: string[];
 }
 
-/** Demo → home split: show or park The Guide. */
+/**
+ * Demo → home split: show The Guide, or leave it collapsed. `done` marks the
+ * demo's last word on it — the run is over and the page is the visitor's.
+ */
 export interface DemoGuideDetail {
   open: boolean;
+  done?: boolean;
 }
