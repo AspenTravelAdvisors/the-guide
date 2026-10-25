@@ -102,9 +102,9 @@ export const expeditionAnswers = [
       "Guide-to-guest ratios compared ship by ship across the luxury expedition fleet — Quark Ultramarine, Aurora, Lindblad, Seabourn, Silversea and more, with published expedition-team sizes.",
     updated: REFRESHED,
     capsule:
-      "Quark's Ultramarine carries the deepest expedition bench in the polar fleet — 37 guides for 199 guests, roughly one per 5–6 — followed by Aurora Expeditions and Quark's Ocean Explorer at about 1:7. Lindblad–National Geographic runs about 1:9 but adds a certified photo instructor and an undersea team on every polar sailing.",
+      "Quark runs the deepest expedition benches in the polar fleet — Ultramarine carries 37 guides for 199 guests, and World Voyager about one guide per 5 guests — followed by Aurora Expeditions and Quark's Ocean Explorer at about 1:7. Lindblad–National Geographic runs about 1:9 but adds a certified photo instructor and an undersea team on every polar sailing.",
     answer: [
-      "Among the major polar fleets, Quark's Ultramarine carries the deepest bench — a 37-person expedition team for 199 guests, roughly one guide per 5–6 guests — followed by Aurora Expeditions (about 1:7 on Greg Mortimer and Sylvia Earle) and Quark's Ocean Explorer (about 1:7). Lindblad–National Geographic runs about one naturalist per 9–10 guests but supplements the ratio with specialists: a certified photo instructor on every polar sailing and an undersea team on many.",
+      "Among the major polar fleets, Quark carries the deepest benches — a 37-person expedition team for 199 guests on Ultramarine, and about one guide per 5 guests on the 168-guest World Voyager — followed by Aurora Expeditions (about 1:7 on Greg Mortimer and Sylvia Earle) and Quark's Ocean Explorer (about 1:7). Lindblad–National Geographic runs about one naturalist per 9–10 guests but supplements the ratio with specialists: a certified photo instructor on every polar sailing and an undersea team on many.",
       "In the Galápagos the math is regulated: the national park requires at least one licensed naturalist per 16 guests, and the luxury fleet beats it — Silver Origin advertises about 1:10, Aqua Mare's 16-guest superyacht runs private-guide territory, and HX's 90-guest Santa Cruz II runs about 1:11 with Ecuadorian naturalists, well above the park minimum.",
     ],
     sections: [
@@ -117,6 +117,7 @@ export const expeditionAnswers = [
           rows: [
             ["Aqua Mare (Aqua Expeditions, Galápagos)", "16", "2 naturalists + crew", "1:8, near-private"],
             ["Ultramarine (Quark)", "199", "37", "1:5"],
+            ["World Voyager (Quark)", "168", "~34", "1:5"],
             ["Ocean Explorer (Quark)", "138", "20", "1:7"],
             ["Greg Mortimer / Sylvia Earle (Aurora)", "130–132", "18", "1:7"],
             ["NG Endurance / NG Resolution (Lindblad)", "138", "16", "1:9"],
