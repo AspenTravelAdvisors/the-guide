@@ -102,9 +102,9 @@ export const expeditionAnswers = [
       "Guide-to-guest ratios compared ship by ship across the luxury expedition fleet — Quark Ultramarine, Aurora, Lindblad, Seabourn, Silversea and more, with published expedition-team sizes.",
     updated: REFRESHED,
     capsule:
-      "Quark's Ultramarine carries the deepest expedition bench in the polar fleet — 37 guides for 199 guests, roughly one per 5–6 — followed by Aurora Expeditions at about 1:7 and Quark's smaller ships at 1:7–1:9. Lindblad–National Geographic runs about 1:9 but adds a certified photo instructor and an undersea team on every polar sailing.",
+      "Quark's Ultramarine carries the deepest expedition bench in the polar fleet — 37 guides for 199 guests, roughly one per 5–6 — followed by Aurora Expeditions and Quark's Ocean Explorer at about 1:7. Lindblad–National Geographic runs about 1:9 but adds a certified photo instructor and an undersea team on every polar sailing.",
     answer: [
-      "Among the major polar fleets, Quark's Ultramarine carries the deepest bench — a 37-person expedition team for 199 guests, roughly one guide per 5–6 guests — followed by Aurora Expeditions (about 1:7 on Greg Mortimer and Sylvia Earle) and Quark's smaller ships at about 1:7–1:9. Lindblad–National Geographic runs about one naturalist per 9–10 guests but supplements the ratio with specialists: a certified photo instructor on every polar sailing and an undersea team on many.",
+      "Among the major polar fleets, Quark's Ultramarine carries the deepest bench — a 37-person expedition team for 199 guests, roughly one guide per 5–6 guests — followed by Aurora Expeditions (about 1:7 on Greg Mortimer and Sylvia Earle) and Quark's Ocean Explorer (about 1:7). Lindblad–National Geographic runs about one naturalist per 9–10 guests but supplements the ratio with specialists: a certified photo instructor on every polar sailing and an undersea team on many.",
       "In the Galápagos the math is regulated: the national park requires at least one licensed naturalist per 16 guests, and the luxury fleet beats it — Silver Origin advertises about 1:10, Aqua Mare's 16-guest superyacht runs private-guide territory, and HX's 90-guest Santa Cruz II runs about 1:11 with Ecuadorian naturalists, well above the park minimum.",
     ],
     sections: [
@@ -117,9 +117,8 @@ export const expeditionAnswers = [
           rows: [
             ["Aqua Mare (Aqua Expeditions, Galápagos)", "16", "2 naturalists + crew", "1:8, near-private"],
             ["Ultramarine (Quark)", "199", "37", "1:5"],
-            ["Ocean Explorer (Quark)", "134", "20", "1:7"],
+            ["Ocean Explorer (Quark)", "138", "20", "1:7"],
             ["Greg Mortimer / Sylvia Earle (Aurora)", "130–132", "18", "1:7"],
-            ["World Explorer (Quark)", "172", "22", "1:8"],
             ["NG Endurance / NG Resolution (Lindblad)", "138", "16", "1:9"],
             ["Silver Origin (Silversea, Galápagos)", "100", "10", "1:10"],
             ["Silver Endeavour (Silversea)", "200 polar", "22", "1:9"],
@@ -243,9 +242,9 @@ export const expeditionAnswers = [
       "The smallest ships in the luxury expedition fleet, from a 16-guest Galápagos superyacht to 138-guest polar ships — and the IAATO rules that make ship size the most important booking decision in Antarctica.",
     updated: UPDATED,
     capsule:
-      "The smallest true luxury expedition ships are Aqua Mare (16 guests), National Geographic Islander II (48) and Silver Origin (100) in the Galápagos; and in polar waters National Geographic Orion (102), Aurora's Sylvia Earle and Greg Mortimer (about 130), Quark's Ocean Explorer (134) and Lindblad's Endurance and Resolution (138). Under 200 guests is where landings stop being rotated.",
+      "The smallest true luxury expedition ships are Aqua Mare (16 guests), National Geographic Islander II (48) and Silver Origin (100) in the Galápagos; and in polar waters National Geographic Orion (102), Aurora's Sylvia Earle and Greg Mortimer (about 130), and Quark's Ocean Explorer and Lindblad's Endurance and Resolution (138 each). Under 200 guests is where landings stop being rotated.",
     answer: [
-      "The smallest true luxury expedition vessels are Aqua Mare (16 guests, Galápagos), National Geographic Islander II (48, Galápagos), Silver Origin (100, Galápagos), and in polar waters National Geographic Orion (102), Aurora's Sylvia Earle and Greg Mortimer (about 130), Quark's Ocean Explorer (134) and Lindblad's NG Endurance and NG Resolution (138).",
+      "The smallest true luxury expedition vessels are Aqua Mare (16 guests, Galápagos), National Geographic Islander II (48, Galápagos), Silver Origin (100, Galápagos), and in polar waters National Geographic Orion (102), Aurora's Sylvia Earle and Greg Mortimer (about 130), and Quark's Ocean Explorer and Lindblad's NG Endurance and NG Resolution (138 each).",
       "Size is not a taste question in Antarctica — it's arithmetic. IAATO rules allow a maximum of 100 guests ashore at any moment and bar ships over 500 guests from landing anyone at all. A 130-guest ship can put essentially everyone ashore in one go, twice a day; a 450-guest ship rotates you through the same window. Under 200 guests is the line that keeps the continent unrationed.",
       "In the Galápagos, where every ship is small by law, HX's 90-guest Santa Cruz II sits in the same size band as Silver Origin at a lower price, and is the one to look at if the budget matters as much as the guest count.",
     ],
@@ -272,10 +271,10 @@ export const expeditionAnswers = [
             ["Silver Origin", "Silversea", "100", "Galápagos"],
             ["NG Orion", "Lindblad", "102", "Antarctica / South Pacific"],
             ["Sylvia Earle / Greg Mortimer", "Aurora", "130–132", "Polar"],
-            ["Ocean Explorer", "Quark", "134", "Polar"],
+            ["Ocean Explorer", "Quark", "138", "Polar"],
             ["NG Endurance / NG Resolution", "Lindblad", "138", "Polar"],
             ["SH Vega / SH Minerva", "Swan Hellenic", "152", "Polar"],
-            ["World Explorer", "Quark", "172", "Polar"],
+            ["World Voyager", "Quark", "168", "Polar"],
             ["Ponant Explorers class", "Ponant", "184", "Worldwide"],
             ["World Navigator class", "Atlas Ocean Voyages", "198", "Polar / Med"],
             ["Ultramarine", "Quark", "199", "Polar"],
