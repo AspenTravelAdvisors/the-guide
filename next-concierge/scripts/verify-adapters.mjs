@@ -318,7 +318,9 @@ function loadCruise() {
     const g = (n) => (idx[n] == null ? undefined : row[idx[n]]);
     const name = String(g("name") ?? "");
     return {
-      id: g("id"), operator: g("operator"), name, ship: g("ship") || "",
+      // Trimmed as the adapter trims it: the feed carries some ship names with
+      // a trailing space, which no `ships=` link could ever match.
+      id: g("id"), operator: g("operator"), name, ship: String(g("ship") ?? "").trim(),
       start: g("start") || null, nights: g("nights"),
       region: regionById[String(g("id"))] || correctedRegionName(String(g("region") ?? ""), name),
       monthKey: g("start") ? String(g("start")).slice(0, 7) : null,

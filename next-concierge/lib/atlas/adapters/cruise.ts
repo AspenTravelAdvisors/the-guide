@@ -130,7 +130,10 @@ export function adaptCruise(
     const sid = String(id);
     const name = String(get("name") ?? "");
     const operator = (get("operator") as string) || null;
-    const ship = (get("ship") as string) || null;
+    // Trimmed because the feed carries some names with a trailing space
+    // ("National Geographic Endurance "), and the `ships=` deep-link param is
+    // trimmed on parse — untrimmed, a link to those ships matched nothing.
+    const ship = String(get("ship") ?? "").trim() || null;
     // Supplier photograph; the column was appended by the Virtuoso merge, so an
     // older feed without it simply yields null.
     const image = (get("image") as string) || null;
