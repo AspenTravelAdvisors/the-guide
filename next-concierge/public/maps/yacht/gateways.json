@@ -5,9 +5,9 @@
   "atlas": "yacht",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 522,
-  "journeysWithStays": 521,
-  "journeysWithHouse": 521,
+  "journeysTotal": 520,
+  "journeysWithStays": 519,
+  "journeysWithHouse": 519,
   "gateways": 58,
   "hotels": 193,
   "houses": [
@@ -20,291 +20,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_01728": {
-   "n": "Serras Barcelona",
-   "house": null,
-   "aff": null,
-   "city": "Barcelona",
-   "country": "Spain",
-   "ll": [
-    41.3802,
-    2.18083
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15655359_2_0_0930.webp",
-   "rooms": 28,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00727": {
-   "n": "Grand Hotel Central",
-   "house": null,
-   "aff": null,
-   "city": "Barcelona",
-   "country": "Spain",
-   "ll": [
-    41.385,
-    2.17771
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18102186_2_0.webp",
-   "rooms": 146,
-   "perks": [
-    "Daily breakfast",
-    "$200 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01905": {
-   "n": "The Barcelona EDITION",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Barcelona",
-   "country": "Spain",
-   "ll": [
-    41.3859,
-    2.17781
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16921319_2_0.webp",
-   "rooms": 100,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01070": {
-   "n": "Kimpton Vividora Barcelona",
-   "house": "IHG Hotels & Resorts",
-   "aff": null,
-   "city": "Barcelona",
-   "country": "Spain",
-   "ll": [
-    41.3847,
-    2.17288
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16340283_2_0.webp",
-   "rooms": 151,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_v16768337": {
-   "n": "Torel Palace Lisbon",
-   "house": null,
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7185,
-    -9.14013
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16767555_2_0_1007.webp",
-   "rooms": 33,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01456": {
-   "n": "Palacio Ludovice Wine Experience Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7143,
-    -9.14414
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930052_2_0_1002.webp",
-   "rooms": 61,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01564": {
-   "n": "Pousada de Lisboa - Praca do Comercio",
-   "house": null,
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7082,
-    -9.13785
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15469516_2_0_0927.webp",
-   "rooms": 90,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02007": {
-   "n": "The Ivens, Autograph Collection",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7097,
-    -9.14033
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16895775_2_0_0926.webp",
-   "rooms": 86,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 0
-  },
-  "h_00668": {
-   "n": "Four Seasons Hotel Ritz Lisbon",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7256,
-    -9.15506
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4015_2_0_0927.webp",
-   "rooms": 282,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01711": {
-   "n": "Sant Francesc Hotel Singular",
-   "house": null,
-   "aff": null,
-   "city": "Majorca",
-   "country": "Spain",
-   "ll": [
-    39.569,
-    2.65261
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15434159_2_0.webp",
-   "rooms": 42,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00312": {
-   "n": "Cap Rocat",
-   "house": null,
-   "aff": null,
-   "city": "Majorca",
-   "country": "Spain",
-   "ll": [
-    39.4787,
-    2.73607
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16800715_2_0_0929.webp",
-   "rooms": 30,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00743": {
-   "n": "Grand Hotel Son Net, Mallorca",
-   "house": null,
-   "aff": null,
-   "city": "Majorca",
-   "country": "Spain",
-   "ll": [
-    39.6242,
-    2.52438
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16702530_2_32_1006.webp",
-   "rooms": 31,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 1
-  },
-  "h_01832": {
-   "n": "Son Bunyola Hotel & Villas",
-   "house": "Virgin Hotels Collection",
-   "aff": null,
-   "city": "Majorca",
-   "country": "Spain",
-   "ll": [
-    39.6941,
-    2.54123
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15578345_2_0.webp",
-   "rooms": 30,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00724": {
-   "n": "Gran Hotel Miramar",
-   "house": null,
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.7207,
-    -4.40818
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0_1006.webp",
-   "rooms": 200,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01124": {
-   "n": "La Zambra Resort",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.553,
-    -4.66678
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0_1001.webp",
-   "rooms": 196,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
   "h_01399": {
    "n": "O2 Beach Club & Spa",
    "house": null,
@@ -491,6 +206,101 @@
    ],
    "promo": 0
   },
+  "h_v16768337": {
+   "n": "Torel Palace Lisbon",
+   "house": null,
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7185,
+    -9.14013
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16767555_2_0_1007.webp",
+   "rooms": 33,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01456": {
+   "n": "Palacio Ludovice Wine Experience Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7143,
+    -9.14414
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930052_2_0_1002.webp",
+   "rooms": 61,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01564": {
+   "n": "Pousada de Lisboa - Praca do Comercio",
+   "house": null,
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7082,
+    -9.13785
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15469516_2_0.webp",
+   "rooms": 90,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02007": {
+   "n": "The Ivens, Autograph Collection",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7097,
+    -9.14033
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16895775_2_0.webp",
+   "rooms": 86,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 0
+  },
+  "h_00668": {
+   "n": "Four Seasons Hotel Ritz Lisbon",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7256,
+    -9.15506
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4015_2_0.webp",
+   "rooms": 282,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_00024": {
    "n": "Acqualina Resort & Residences on the Beach",
    "house": null,
@@ -577,7 +387,7 @@
     25.7907,
     -80.1281
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3973_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3973_2_0.webp",
    "rooms": 375,
    "perks": [
     "Daily breakfast",
@@ -719,6 +529,44 @@
    ],
    "promo": 1
   },
+  "h_00724": {
+   "n": "Gran Hotel Miramar",
+   "house": null,
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.7207,
+    -4.40818
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0_1006.webp",
+   "rooms": 200,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01124": {
+   "n": "La Zambra Resort",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.553,
+    -4.66678
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0_1001.webp",
+   "rooms": 196,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 1
+  },
   "h_01552": {
    "n": "Pier Sixty-Six",
    "house": null,
@@ -748,7 +596,7 @@
     26.1226,
     -80.1041
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4543_2_35_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4543_2_35.webp",
    "rooms": 193,
    "perks": [
     "Daily breakfast",
@@ -995,7 +843,7 @@
     22.2781,
     114.16
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16249505_2_0_0926.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16249505_2_0.webp",
    "rooms": 336,
    "perks": [
     "Daily breakfast",
@@ -1071,7 +919,7 @@
     8.97972,
     -79.5244
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0.webp",
    "rooms": 127,
    "perks": [
     "Daily breakfast",
@@ -1363,7 +1211,7 @@
     "$50 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01023": {
    "n": "Jade Mountain",
@@ -1413,7 +1261,7 @@
     -8.36799,
     115.236
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16268178_2_18_0926.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16268178_2_18.webp",
    "rooms": 16,
    "perks": [
     "Daily breakfast",
@@ -1508,7 +1356,7 @@
     -8.485725,
     115.245502
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15243248_2_42_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15243248_2_42.webp",
    "rooms": 60,
    "perks": [
     "Daily breakfast",
@@ -1859,6 +1707,82 @@
    ],
    "promo": 0
   },
+  "h_01711": {
+   "n": "Sant Francesc Hotel Singular",
+   "house": null,
+   "aff": null,
+   "city": "Majorca",
+   "country": "Spain",
+   "ll": [
+    39.569,
+    2.65261
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15434159_2_0.webp",
+   "rooms": 42,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00312": {
+   "n": "Cap Rocat",
+   "house": null,
+   "aff": null,
+   "city": "Majorca",
+   "country": "Spain",
+   "ll": [
+    39.4787,
+    2.73607
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16800715_2_0_0929.webp",
+   "rooms": 30,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00743": {
+   "n": "Grand Hotel Son Net, Mallorca",
+   "house": null,
+   "aff": null,
+   "city": "Majorca",
+   "country": "Spain",
+   "ll": [
+    39.6242,
+    2.52438
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16702530_2_32_1006.webp",
+   "rooms": 31,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 1
+  },
+  "h_01832": {
+   "n": "Son Bunyola Hotel & Villas",
+   "house": "Virgin Hotels Collection",
+   "aff": null,
+   "city": "Majorca",
+   "country": "Spain",
+   "ll": [
+    39.6941,
+    2.54123
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15578345_2_0.webp",
+   "rooms": 30,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
   "h_01876": {
    "n": "THE DOLLI® at Acropolis, A Hotel to Live®",
    "house": null,
@@ -1973,6 +1897,82 @@
    ],
    "promo": 1
   },
+  "h_01728": {
+   "n": "Serras Barcelona",
+   "house": null,
+   "aff": null,
+   "city": "Barcelona",
+   "country": "Spain",
+   "ll": [
+    41.3802,
+    2.18083
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15655359_2_0_0930.webp",
+   "rooms": 28,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00727": {
+   "n": "Grand Hotel Central",
+   "house": null,
+   "aff": null,
+   "city": "Barcelona",
+   "country": "Spain",
+   "ll": [
+    41.385,
+    2.17771
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18102186_2_0.webp",
+   "rooms": 146,
+   "perks": [
+    "Daily breakfast",
+    "$200 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01905": {
+   "n": "The Barcelona EDITION",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Barcelona",
+   "country": "Spain",
+   "ll": [
+    41.3859,
+    2.17781
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16921319_2_0.webp",
+   "rooms": 100,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01070": {
+   "n": "Kimpton Vividora Barcelona",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "Barcelona",
+   "country": "Spain",
+   "ll": [
+    41.3847,
+    2.17288
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16340283_2_0.webp",
+   "rooms": 151,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
   "h_v18047592": {
    "n": "The Shilla Seoul",
    "house": null,
@@ -2078,7 +2078,7 @@
     41.0402,
     28.9926
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3823_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3823_2_0.webp",
    "rooms": 239,
    "perks": [
     "Daily breakfast",
@@ -2382,7 +2382,7 @@
     43.5352,
     5.44916
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3914_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3914_2_0.webp",
    "rooms": 23,
    "perks": [
     "Daily breakfast",
@@ -2568,7 +2568,7 @@
     43.5495,
     7.02668
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4151_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4151_2_0.webp",
    "rooms": 325,
    "perks": [
     "Daily breakfast",
@@ -2663,7 +2663,7 @@
     49.2834,
     -123.119
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/9889788_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/9889788_2_0.webp",
    "rooms": 156,
    "perks": [
     "Daily breakfast",
@@ -3328,7 +3328,7 @@
     64.15,
     -21.9361
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235979_2_1_0926.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235979_2_1.webp",
    "rooms": 253,
    "perks": [
     "Daily breakfast",
@@ -3639,7 +3639,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01612": {
    "n": "Reid's Palace, A Belmond Hotel, Madeira",
@@ -3662,102 +3662,6 @@
   }
  },
  "GATES": {
-  "Barcelona, Spain": {
-   "n": "Barcelona, Spain",
-   "ll": [
-    41.3833,
-    2.1833
-   ],
-   "h": [
-    [
-     "h_01728",
-     0.4
-    ],
-    [
-     "h_00727",
-     0.5
-    ],
-    [
-     "h_01905",
-     0.5
-    ],
-    [
-     "h_01070",
-     0.9
-    ]
-   ]
-  },
-  "Lisbon, Portugal": {
-   "n": "Lisbon, Portugal",
-   "ll": [
-    38.7167,
-    -9.1333
-   ],
-   "h": [
-    [
-     "h_v16768337",
-     0.6
-    ],
-    [
-     "h_01456",
-     1
-    ],
-    [
-     "h_01564",
-     1
-    ],
-    [
-     "h_02007",
-     1
-    ],
-    [
-     "h_00668",
-     2.1
-    ]
-   ]
-  },
-  "Majorca, Spain": {
-   "n": "Majorca, Spain",
-   "ll": [
-    39.5667,
-    2.65
-   ],
-   "h": [
-    [
-     "h_01711",
-     0.3
-    ],
-    [
-     "h_00312",
-     12.3
-    ],
-    [
-     "h_00743",
-     12.5
-    ],
-    [
-     "h_01832",
-     17
-    ]
-   ]
-  },
-  "Málaga, Spain": {
-   "n": "Málaga, Spain",
-   "ll": [
-    36.7167,
-    -4.4167
-   ],
-   "h": [
-    [
-     "h_00724",
-     0.9
-    ],
-    [
-     "h_01124",
-     28.8
-    ]
-   ]
-  },
   "Bridgetown, Barbados": {
    "n": "Bridgetown, Barbados",
    "ll": [
@@ -3813,6 +3717,35 @@
     [
      "h_00695",
      28
+    ]
+   ]
+  },
+  "Lisbon, Portugal": {
+   "n": "Lisbon, Portugal",
+   "ll": [
+    38.7167,
+    -9.1333
+   ],
+   "h": [
+    [
+     "h_v16768337",
+     0.6
+    ],
+    [
+     "h_01456",
+     1
+    ],
+    [
+     "h_01564",
+     1
+    ],
+    [
+     "h_02007",
+     1
+    ],
+    [
+     "h_00668",
+     2.1
     ]
    ]
   },
@@ -3879,6 +3812,23 @@
     [
      "h_02204",
      2.6
+    ]
+   ]
+  },
+  "Málaga, Spain": {
+   "n": "Málaga, Spain",
+   "ll": [
+    36.7167,
+    -4.4167
+   ],
+   "h": [
+    [
+     "h_00724",
+     0.9
+    ],
+    [
+     "h_01124",
+     28.8
     ]
    ]
   },
@@ -4306,6 +4256,31 @@
     ]
    ]
   },
+  "Majorca, Spain": {
+   "n": "Majorca, Spain",
+   "ll": [
+    39.5667,
+    2.65
+   ],
+   "h": [
+    [
+     "h_01711",
+     0.3
+    ],
+    [
+     "h_00312",
+     12.3
+    ],
+    [
+     "h_00743",
+     12.5
+    ],
+    [
+     "h_01832",
+     17
+    ]
+   ]
+  },
   "Piraeus, Greece": {
    "n": "Piraeus, Greece",
    "ll": [
@@ -4345,6 +4320,31 @@
     [
      "h_02392",
      3.1
+    ]
+   ]
+  },
+  "Barcelona, Spain": {
+   "n": "Barcelona, Spain",
+   "ll": [
+    41.3833,
+    2.1833
+   ],
+   "h": [
+    [
+     "h_01728",
+     0.4
+    ],
+    [
+     "h_00727",
+     0.5
+    ],
+    [
+     "h_01905",
+     0.5
+    ],
+    [
+     "h_01070",
+     0.9
     ]
    ]
   },
@@ -5076,11 +5076,6 @@
    "post": null,
    "house": "Four Seasons"
   },
-  "16849341": {
-   "pre": "Majorca, Spain",
-   "post": "Málaga, Spain",
-   "house": "Four Seasons"
-  },
   "16869670": {
    "pre": "Castries (St. Lucia), Saint Lucia",
    "post": "Philipsburg, Sint Maarten",
@@ -5120,11 +5115,6 @@
    "pre": "Miami, FL, United States",
    "post": "Castries (St. Lucia), Saint Lucia",
    "house": "Four Seasons"
-  },
-  "16912911": {
-   "pre": "Barcelona, Spain",
-   "post": "Lisbon, Portugal",
-   "house": "Ritz-Carlton"
   },
   "18093617": {
    "pre": "Tokyo, Japan",

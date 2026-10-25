@@ -5,8 +5,8 @@
   "radiusKm": 25,
   "lodgesInCategory": 71,
   "lodgesInSafariCountries": 67,
-  "journeysWithCamps": 262,
-  "journeysTotal": 505,
+  "journeysWithCamps": 260,
+  "journeysTotal": 503,
   "campsMatched": 41
  },
  "radiusKm": 25,
@@ -208,7 +208,7 @@
     0.025387,
     37.0676
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16114504_2_0_0926.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16114504_2_0.webp",
    "rooms": 12,
    "perks": [
     "Daily breakfast",
@@ -1561,17 +1561,17 @@
     "km": 18.1
    }
   ],
-  "18050571": [
+  "16919310": [
    {
     "id": "h_02374",
     "stop": "Victoria Falls",
-    "day": 10,
+    "day": 1,
     "km": 3.4
    },
    {
     "id": "h_01349",
     "stop": "Victoria Falls",
-    "day": 10,
+    "day": 1,
     "km": 22.4
    }
   ],
@@ -1673,26 +1673,6 @@
     "stop": "Masai Mara National Reserve",
     "day": 9,
     "km": 18.1
-   }
-  ],
-  "18107126": [
-   {
-    "id": "h_01349",
-    "stop": "Livingstone",
-    "day": 2,
-    "km": 19.8
-   },
-   {
-    "id": "h_02374",
-    "stop": "Victoria Falls",
-    "day": 4,
-    "km": 3.4
-   },
-   {
-    "id": "h_02484",
-    "stop": "Okavango Delta",
-    "day": 6,
-    "km": 19.9
    }
   ],
   "18107132": [
@@ -2179,26 +2159,6 @@
     "stop": "Serengeti National Park",
     "day": 7,
     "km": 23.9
-   }
-  ],
-  "18360991": [
-   {
-    "id": "h_01349",
-    "stop": "Livingstone",
-    "day": 2,
-    "km": 19.8
-   },
-   {
-    "id": "h_02374",
-    "stop": "Victoria Falls",
-    "day": 4,
-    "km": 0.8
-   },
-   {
-    "id": "h_02484",
-    "stop": "Okavango Delta",
-    "day": 6,
-    "km": 19.9
    }
   ],
   "18361073": [

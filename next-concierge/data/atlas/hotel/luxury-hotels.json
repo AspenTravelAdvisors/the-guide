@@ -788,7 +788,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16253813_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16253813_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16253813_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16253813_2_1_0926.jpg",
@@ -2218,7 +2218,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15269073_2_2_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15269073_2_2.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15269073_2_2_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15269073_2_3_0927.jpg",
@@ -3691,7 +3691,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15268732_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15268732_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15268732_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15268732_2_2_0927.jpg",
@@ -4006,7 +4006,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16253823_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16253823_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16253823_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16253823_2_1_0926.jpg",
@@ -9266,7 +9266,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16343940_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16343940_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16343940_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16343940_2_1_0927.jpg",
@@ -10223,7 +10223,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15814641_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15814641_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15814641_2_0.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15814641_2_1.jpg",
@@ -11838,24 +11838,24 @@
     "description": "Enhance your Bangkok escape with exclusive privileges designed for an exceptional stay at Anantara Siam Bangkok. 1) Guaranteed Room Upgrade Enjoy a guaranteed upgrade to the next room category: Deluxe Room → Siam Room → Kasara Executive Room → Siam Suite → Kasara Executive Suite → Anantara Suite → Royal Suite * Guests upgraded to a Kasara Executive Room or higher will also enjoy full Kasara Executive Lounge privileges. 2) Exclusive Family Benefits Families travelling with one child under 12 years old will receive: Complimentary daily breakfast for the child Complimentary extra bed, if…"
    },
    {
-    "id": "18561761",
-    "name": "20% Saving on All Room Category",
-    "endDate": "2027-06-30",
-    "exclusive": false,
-    "description": "20% SAVINGS Enjoy 20 % savings across all room and suite categories. BOOKING PERIOD: 15 June 2026 - 30 June 2027 STAY PERIOD: 01 July 2026 - 30 June 2027 Term & conditions apply."
-   },
-   {
     "id": "18561758",
     "name": "Stay 3 Pay 2",
     "endDate": "2027-06-30",
     "exclusive": false,
     "description": "OFFER 1: STAY 3 PAY 2 Enjoy an additional night on us in selected room categories, including: 1) Deluxe Room 2) Siam Room 3) Kasara Executive Room 4) Siam Suite BOOKING PERIOD: 15 June 2026 - 30 June 2027 STAY PERIOD: 01 July 2026 - 30 June 2027"
+   },
+   {
+    "id": "18561761",
+    "name": "20% Saving on All Room Category",
+    "endDate": "2027-06-30",
+    "exclusive": false,
+    "description": "20% SAVINGS Enjoy 20 % savings across all room and suite categories. BOOKING PERIOD: 15 June 2026 - 30 June 2027 STAY PERIOD: 01 July 2026 - 30 June 2027 Term & conditions apply."
    }
   ],
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4244_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4244_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4244_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4244_2_1_0928.jpg",
@@ -14897,24 +14897,24 @@
     "description": "Make your next journey to Cappadocia even more memorable. Book your stay at Ariana Sustainable Luxury Lodge with all new bookings for 2026 and enjoy a complimentary guaranteed room upgrade, adding an extra touch of space, comfort, and exclusivity to your experience. OFFER HIGHLIGHTS Complimentary guaranteed room upgrade Valid across eligible room categories Valid for stays until December 24, 2026 Available for a limited time"
    },
    {
-    "id": "18230321",
-    "name": "Siduri Serenity Package: 3 Nights of Comfort, Culture & Culinary Art",
-    "endDate": "2026-12-25",
-    "exclusive": false,
-    "description": "Discover Cappadocia’s wonders with a 3-night stay including round-trip transfers, regional tour, and 4-course tasting menu. Details: Extend your Cappadocia experience with the Siduri Serenity package. Enjoy a 3-night stay with round-trip airport transfers, a private regional tour, and a 4-course tasting menu for two at The Plum, our authentic fine dining restaurant. Rates start from €1,225, varying by suite and season."
-   },
-   {
     "id": "18230320",
     "name": "Ariana Escape Package: 2-Night Journey of Relaxation & Taste",
     "endDate": "2026-12-25",
     "exclusive": false,
     "description": "Stay 2 nights at Ariana Lodge and indulge in a 4-course tasting menu for two. One-way airport transfer included. Starting from €810. Details: Unwind in the timeless serenity of Cappadocia with Ariana Escape — a 2-night package designed for two. Enjoy one-way private airport transfer and indulge in a 4-course tasting menu for two at our authentic fine dining restaurant, The Plum. Let comfort, gastronomy, and the charm of the valley views come together for an unforgettable stay. Rates start from €810, varying by suite and season."
+   },
+   {
+    "id": "18230321",
+    "name": "Siduri Serenity Package: 3 Nights of Comfort, Culture & Culinary Art",
+    "endDate": "2026-12-25",
+    "exclusive": false,
+    "description": "Discover Cappadocia’s wonders with a 3-night stay including round-trip transfers, regional tour, and 4-course tasting menu. Details: Extend your Cappadocia experience with the Siduri Serenity package. Enjoy a 3-night stay with round-trip airport transfers, a private regional tour, and a 4-course tasting menu for two at The Plum, our authentic fine dining restaurant. Rates start from €1,225, varying by suite and season."
    }
   ],
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16205553_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16205553_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16205553_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16205553_2_1_0927.jpg",
@@ -17716,7 +17716,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4372_2_2_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4372_2_2.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4372_2_2_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4372_2_27_0927.jpg",
@@ -19814,24 +19814,24 @@
   ],
   "promotions": [
    {
-    "id": "18586339",
-    "name": "Virtuoso Suite Life",
-    "endDate": "2027-03-31",
-    "exclusive": false,
-    "description": "Our Tufa Suites are named after the stone that was used on the original Bardessono family wine cellar. The tufa stone was repurposed and can be found within the architecture of the hotel. The Tufa Suites are 750 sq ft, offering one King bed dressed with luxury linens, two flat-screen televisions, expanded private courtyard - ideal for in-suite dining - a see-through gas fireplace, and bathroom featuring a soaking tub and steam shower. Enhance your Tufa suite experience of 2+ nights minimum stay including Virtuoso amenities plus an additional $150 resort credit."
-   },
-   {
     "id": "18481546",
     "name": "Stay 2 Nights and Get the Third Night on us!",
     "endDate": "2027-03-31",
     "exclusive": false,
     "description": "Stay a little longer ~ Another day at the spa? Another dining opportunity at Lucy? More time, more relaxation, more Yountville! Stay 2 nights and get the 3rd night free. Based upon availability and not combinable with any other offers or promotions. Restrictions and black-out dates may apply. Bookable through December, 2026 for travel through March, 31, 2027. **Virtuoso Amenities and Benefits Apply**"
+   },
+   {
+    "id": "18586339",
+    "name": "Virtuoso Suite Life",
+    "endDate": "2027-03-31",
+    "exclusive": false,
+    "description": "Our Tufa Suites are named after the stone that was used on the original Bardessono family wine cellar. The tufa stone was repurposed and can be found within the architecture of the hotel. The Tufa Suites are 750 sq ft, offering one King bed dressed with luxury linens, two flat-screen televisions, expanded private courtyard - ideal for in-suite dining - a see-through gas fireplace, and bathroom featuring a soaking tub and steam shower. Enhance your Tufa suite experience of 2+ nights minimum stay including Virtuoso amenities plus an additional $150 resort credit."
    }
   ],
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15274359_2_19_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15274359_2_19.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15274359_2_19_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15274359_2_20_0927.jpg",
@@ -22088,7 +22088,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4154_2_8_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4154_2_8.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4154_2_8_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4154_2_43_0928.jpg",
@@ -23318,16 +23318,8 @@
    "Safe",
    "Sitting Area"
   ],
-  "promotions": [
-   {
-    "id": "18257460",
-    "name": "Ultimate Wellness Villa Experience",
-    "endDate": "2026-10-24",
-    "exclusive": false,
-    "description": "Ultimate Wellness Villa Experience Experience BodyHoliday’s stunning Villa options as part of the ultimate wellness Villa getaway. In this offer, you will occupy one of the resort’s two Oasis Villas; Aurora and Calypso set over two stories and comprised of a junior suite and penthouse. You now have the option to further elevate your Villa experience with offerings such as private chef experiences, spa and fitness treatments and helicopter transfer to or from the property. Guests who book the ‘Ultimate Wellness Villa Experience’ package will also receive the following: Stay in the 2‐bedroom…"
-   }
-  ],
-  "hasPromotion": true,
+  "promotions": [],
+  "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15268564_2_0.webp",
@@ -25256,7 +25248,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4275_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4275_2_2_0927.jpg",
@@ -25477,7 +25469,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16229728_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16229728_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16229728_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16229728_2_1_0926.jpg",
@@ -25594,7 +25586,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16268178_2_18_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16268178_2_18.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16268178_2_18_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16268178_2_19_0926.jpg",
@@ -26960,7 +26952,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16780984_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16780984_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16780984_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16780984_2_1_0926.jpg",
@@ -27667,7 +27659,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4138_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4138_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4138_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4138_2_5_0928.jpg",
@@ -32261,7 +32253,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4151_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4151_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4151_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4151_2_13_0927.jpg",
@@ -36785,7 +36777,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15885201_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15885201_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15885201_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15885201_2_2_0926.jpg",
@@ -37016,7 +37008,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16239200_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16239200_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16239200_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16239200_2_4_0926.jpg",
@@ -38404,9 +38396,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11332534_2_2.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/11332534_2_2_0926.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/11332534_2_3_0926.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/11332534_2_4_0926.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/11332534_2_2.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/11332534_2_3.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/11332534_2_4.jpg"
   ],
   "imageCount": 43,
   "propertyType": "Hotel or Resort",
@@ -38460,7 +38452,7 @@
    "Complimentary round-trip private airport / train station / hotel transfers, with Meet & Greet service upon arrival at the airport",
    "Early check-in / Late check-out, subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "Bringing a contemporary edge to a historic art deco building, Cheval Blanc Paris is an address in the heart of Paris. Sitting at the edge of the Seine, near the Louvre and Notre-Dame, the Maison captures the spirit of the borough – and shows off the Seine through panoramic floor-to-ceiling windows. Guests are met with gracious service and thoughtful amenities. Each of the Maison’s 72 rooms and suites will welcome guests with a residential atmosphere and exceptional views of the city. Four restaurants will include a fine-dining eatery and French brasserie, as well as an all-day dining venue in the lobby.",
@@ -38525,9 +38517,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15873973_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/15873973_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15873973_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15873973_2_2_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/15873973_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15873973_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15873973_2_2.jpg"
   ],
   "imageCount": 25,
   "propertyType": "Hotel or Resort",
@@ -38544,7 +38536,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 28,
+   "total": 29,
    "recommendedPercent": 100
   },
   "tags": [
@@ -38581,7 +38573,7 @@
    "$150 USD equivalent Food & Beverage Credit to be utilized during the stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
    "Early Check-In / Late Check-Out, subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "Cheval Blanc Randheli’s signature art de recevoir welcomes couples and families with a unique sense of genuine warmth. A private seaplane carries you to this paradise north of Malé, where 46 villas take palm-roofed cabana living to a new level. Villas face the horizon for the utmost privacy; admire the views by your infinity pool while your Majordome fulfills your every wish and an Alchemist customizes your stay. Guerlain-designed treatments are on the Cheval Blanc Spa island, while fine dining at Le 1947 rivals international gastronomic restaurants. For an ultimate interlude, retreat to the Cheval Blanc Randheli private island.",
@@ -39138,11 +39130,11 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3958_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3958_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3958_2_0_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3958_2_1_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3958_2_2_0927.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3958_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3958_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3958_2_2.jpg"
   ],
   "imageCount": 32,
   "propertyType": "Hotel or Resort",
@@ -39927,9 +39919,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4039_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4039_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4039_2_1_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4039_2_2_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4039_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4039_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4039_2_2.jpg"
   ],
   "imageCount": 103,
   "propertyType": "Hotel or Resort",
@@ -40177,7 +40169,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 56,
+   "total": 57,
    "recommendedPercent": 98
   },
   "tags": [
@@ -40247,7 +40239,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15286673_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15286673_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15286673_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15286673_2_1_0927.jpg",
@@ -40480,11 +40472,11 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4422_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4422_2_0_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4422_2_2_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4422_2_26_0923.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4422_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4422_2_2.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4422_2_26.jpg"
   ],
-  "imageCount": 100,
+  "imageCount": 102,
   "propertyType": "Hotel or Resort",
   "numberOfRooms": 294,
   "nearestAirport": "Palm Beach International (PBI)",
@@ -40982,9 +40974,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18067791_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/18067791_2_0_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18067791_2_2_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18067791_2_1_0924.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/18067791_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18067791_2_2.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18067791_2_1.jpg"
   ],
   "imageCount": 31,
   "propertyType": "Hotel or Resort",
@@ -42154,7 +42146,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 1,
+   "total": 3,
    "recommendedPercent": 100
   },
   "tags": [
@@ -44243,8 +44235,8 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 4,
-   "recommendedPercent": 75
+   "total": 5,
+   "recommendedPercent": 80
   },
   "tags": [
    "indigenous",
@@ -44335,9 +44327,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3824_2_1.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3824_2_1_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3824_2_2_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3824_2_4_0923.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3824_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3824_2_2.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3824_2_4.jpg"
   ],
   "imageCount": 81,
   "propertyType": "Hotel or Resort",
@@ -44446,9 +44438,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16390038_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16390038_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16390038_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16390038_2_2_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16390038_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16390038_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16390038_2_2.jpg"
   ],
   "imageCount": 26,
   "propertyType": "Hotel or Resort",
@@ -44548,9 +44540,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15887443_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/15887443_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15887443_2_1_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15887443_2_2_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/15887443_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15887443_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15887443_2_2.jpg"
   ],
   "imageCount": 30,
   "propertyType": "Hotel or Resort",
@@ -44651,9 +44643,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16633731_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16633731_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16633731_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16633731_2_2_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16633731_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16633731_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16633731_2_2.jpg"
   ],
   "imageCount": 44,
   "propertyType": "Hotel or Resort",
@@ -44670,7 +44662,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 2,
+   "total": 3,
    "recommendedPercent": 100
   },
   "tags": [
@@ -44871,9 +44863,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14089788_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/14089788_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/14089788_2_1_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/14089788_2_2_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/14089788_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/14089788_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/14089788_2_2.jpg"
   ],
   "imageCount": 43,
   "propertyType": "Hotel or Resort",
@@ -45933,9 +45925,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3783_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3783_2_0_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3783_2_1_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3783_2_2_0923.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3783_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3783_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3783_2_2.jpg"
   ],
   "imageCount": 20,
   "propertyType": "Hotel or Resort",
@@ -46150,9 +46142,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16174866_2_6.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16174866_2_6_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16174866_2_1_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16174866_2_0_0925.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16174866_2_6.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16174866_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16174866_2_0.jpg"
   ],
   "imageCount": 8,
   "propertyType": "Hotel or Resort",
@@ -46429,7 +46421,7 @@
    "A complimentary 50-minute massage for up to two guests, per room, once during stay",
    "Early check-in / Late check-out, subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "Each activity invites you to create cherished memories and indulge in a bay of dreams, offering experiences truly beyond words and there is still so much more to discover.",
@@ -46491,9 +46483,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14654946_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/14654946_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/14654946_2_1_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/14654946_2_2_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/14654946_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/14654946_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/14654946_2_2.jpg"
   ],
   "imageCount": 66,
   "propertyType": "Hotel or Resort",
@@ -46602,9 +46594,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16053138_2_74.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16053138_2_74_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16053138_2_73_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16053138_2_78_0923.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16053138_2_74.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16053138_2_73.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16053138_2_78.jpg"
   ],
   "imageCount": 103,
   "propertyType": "Hotel or Resort",
@@ -46800,11 +46792,11 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3956_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3956_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3956_2_0_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3956_2_1_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3956_2_2_0927.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3956_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3956_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3956_2_2.jpg"
   ],
   "imageCount": 15,
   "propertyType": "Villa or Luxury Residence",
@@ -47328,7 +47320,7 @@
    "$100 USD equivalent Food & Beverage credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
    "Early Check-In / Late Check-Out, subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "Only 45 minutes from Manhattan, situated on the waterfront Delamar Greenwich Harbor is a stunning jewel for travelers with a taste for Old World elegance and bespoke services. Take in calming views of the harbor from your private balcony, explore our unique art collection throughout the hotel or just relish in a cozy nook in our lobby. Unwind and relax by treating yourself to a revitalizing massage or facial treatment at our award-winning Spa. Indulge in a culinary dining experience at l’escale restaurant, where you’ll feel transported to the French Riviera. Energize your senses with several of our seasonal experiences.",
@@ -47337,43 +47329,45 @@
   "rooms": [
    {
     "name": "Belle Haven Presidential Suite",
-    "description": "This distinctive corner suite located on the third floor has a separate living room with a gas-burning fireplace, a comfortable seating area, and a dining…"
+    "description": "The one-bedroom Presidential Suite provides a spacious and elegant escape. It features a separate living room with a relaxed seating area, a gas fireplace, a…"
    },
    {
-    "name": "Executive Presidential Suite",
-    "description": "The Executive Presidential Suite includes a separate living room with a gas-burning fireplace, a comfortable seating area, and a dining table. There is a…"
+    "name": "Belvedere Presidential Suite",
+    "description": "The one-bedroom Presidential Suite provides a spacious and elegant escape. Located on the top floor, it features a separate living room with a relaxed seating…"
    },
    {
-    "name": "Harbor View Suite",
-    "description": "This 850-square-foot suite offers panoramic views of Greenwich Harbor and stylish furnishings. Sleep soundly in a king-size bed and refresh in a spa-style…"
+    "name": "Vantage Penthouse Suite ",
+    "description": "https://www.delamar.com/hotels/delamar-greenwich-harbor/vantage-penthouse-suiteOur two-bedroom Penthouse Suite is a private rooftop residence above Greenwich…"
    },
    {
-    "name": "Executive Harbor View Suite",
-    "description": "Experience the grandeur of our top-floor Harbor View Suite. This 850-square-foot suite offers panoramic views of Greenwich Harbor and stylish furnishings.…"
+    "name": "Edeze Corner Suite ",
+    "description": "The Edeze Corner Suite offers three Juliet balconies overlooking the harbor, a spacious separate living room, and an elegant bedroom retreat with a king-size…"
    },
    {
-    "name": "Executive Town View",
-    "description": "Perfect for selective business travelers and located on our top Executive floor, our Executive Town View Rooms offer a privileged vantage point with town views…"
+    "name": "Greenwich Harbor Suite",
+    "description": "Our Greenwich Harbor View Suite, offers a tranquil setting with breathtaking views of Greenwich Harbor. This spacious suite includes a private balcony, a cozy…"
    },
    {
-    "name": "Executive Harbor View",
-    "description": "Located on the top floor, the Executive Harbor View Rooms provide guests with commanding views of Greenwich Harbor. Designed with luxury and comfort in mind,…"
+    "name": "Deluxe Town View",
+    "description": "Our Deluxe Town view rooms provide a king-size bed, and windows that open. Each room features versatile seating or workspace, a spa-inspired bathroom with a…"
    }
   ],
-  "roomTypeCount": 8,
+  "roomTypeCount": 9,
   "roomAmenities": [
    "Air Conditioning",
    "Balcony/Lanai/Terrace",
    "Bathrobe",
+   "Butler Service",
+   "Coffee/Tea Maker",
    "Complimentary Newspaper",
    "Connecting Rooms",
    "Fireplace",
    "Hair Dryer",
    "Internet Access",
-   "Iron/Ironing Board",
    "Jacuzzi/Whirlpool Tub",
    "Mini Bar",
    "Non-Smoking",
+   "Refrigerator",
    "Safe",
    "Sitting Area",
    "Slippers",
@@ -48019,9 +48013,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16519294_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16519294_2_0_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16519294_2_1_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16519294_2_2_0923.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16519294_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16519294_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16519294_2_2.jpg"
   ],
   "imageCount": 52,
   "propertyType": "Hotel or Resort",
@@ -48536,9 +48530,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14029140_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/14029140_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/14029140_2_1_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/14029140_2_2_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/14029140_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/14029140_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/14029140_2_2.jpg"
   ],
   "imageCount": 60,
   "propertyType": "Hotel or Resort",
@@ -48759,11 +48753,11 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4142_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4142_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4142_2_0_0928.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4142_2_1_0928.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4142_2_2_0928.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4142_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4142_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4142_2_2.jpg"
   ],
   "imageCount": 22,
   "propertyType": "Hotel or Resort",
@@ -49090,11 +49084,11 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16318857_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16318857_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16318857_2_0_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16318857_2_4_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16318857_2_10_0927.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16318857_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16318857_2_4.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16318857_2_10.jpg"
   ],
   "imageCount": 62,
   "propertyType": "Hotel or Resort",
@@ -50050,9 +50044,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18048722_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/18048722_2_0_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18048722_2_1_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18048722_2_18_0923.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/18048722_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18048722_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18048722_2_18.jpg"
   ],
   "imageCount": 37,
   "propertyType": "Hotel or Resort",
@@ -50366,9 +50360,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15797419_2_19.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/15797419_2_19_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15797419_2_2_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15797419_2_3_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/15797419_2_19.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15797419_2_2.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15797419_2_3.jpg"
   ],
   "imageCount": 34,
   "propertyType": "Hotel or Resort",
@@ -50504,9 +50498,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12724334_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/12724334_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/12724334_2_2_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/12724334_2_24_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/12724334_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/12724334_2_2.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/12724334_2_24.jpg"
   ],
   "imageCount": 27,
   "propertyType": "Hotel or Resort",
@@ -50803,7 +50797,7 @@
    "Bookings in our Villa Suites will receive the $100 Resort or Hotel credit per bedroom, once during stay",
    "Early Check-In / Late Check-Out, subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "Take your vacation sky-high at Edgewood Tahoe, the 154-room and 14-Villa lakefront resort. Edgewood is nestled on 235 unspoiled acres in the High Sierras, where you can play championship golf along the shores of this storied alpine lake; winter months bring world-class skiing, snowboarding, skating, snowshoeing, snowmobile tours and sleigh rides. After a Smoky Quartz gemstone ritual at the spa and dining on curated seasonal fare, cozy up by the room’s fireplace while admiring nature’s majesty beyond from a private balcony.",
@@ -51004,9 +50998,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3826_2_38.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3826_2_38_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3826_2_13_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3826_2_15_0923.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3826_2_38.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3826_2_13.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3826_2_15.jpg"
   ],
   "imageCount": 41,
   "propertyType": "Hotel or Resort",
@@ -51738,9 +51732,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15493511_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/15493511_2_0_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15493511_2_1_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15493511_2_2_0924.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/15493511_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15493511_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15493511_2_2.jpg"
   ],
   "imageCount": 26,
   "propertyType": "Lodge, Ranch, Camp",
@@ -51844,9 +51838,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14363714_2_1.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/14363714_2_1_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/14363714_2_0_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/14363714_2_2_0924.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/14363714_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/14363714_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/14363714_2_2.jpg"
   ],
   "imageCount": 56,
   "propertyType": "Hotel or Resort",
@@ -51863,7 +51857,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 12,
+   "total": 13,
    "recommendedPercent": 92
   },
   "tags": [
@@ -52106,9 +52100,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4285_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4285_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4285_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4285_2_2_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4285_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4285_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4285_2_2.jpg"
   ],
   "imageCount": 138,
   "propertyType": "Hotel or Resort",
@@ -52437,9 +52431,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4162_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4162_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4162_2_1_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4162_2_2_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4162_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4162_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4162_2_2.jpg"
   ],
   "imageCount": 66,
   "propertyType": "Hotel or Resort",
@@ -52497,9 +52491,9 @@
   "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
-  "description": "Emporium Hotel South Bank promises an unforgettable experience from the moment you arrive. Step through our iconic entrance beneath the striking ‘E’ and be swept up to the rooftop infinity pool, where Brisbane’s skyline stretches before you. Savour the flavours of Italy at FIRMA Italian, our signature restaurant, where every dish is crafted with authenticity and flair. Our 143 luxurious suites are designed to impress, with state-of-the-art in-room technology, sleek mirror-finish big-screen TVs, elegant marble bathrooms, and a bespoke pillow menu for your perfect night’s sleep.",
-  "inTheKnow": "Experience a curated journey of four exceptional wines paired with exquisite bites at The Reserve Wine Bar, guided by our expert sommelier, for $65 per person.",
-  "summary": "Discover a refined new benchmark in boutique luxury at Emporium Hotel South Bank, where sophisticated accommodations, exceptional dining, and memorable events await in Brisbane’s cultural heart. From the moment you step through our iconic entrance to your time at our stunning rooftop terrace and infinity pool, each thoughtfully curated detail offers a sensory experience that will linger long after your stay. Unwind in the elegance of your beautifully appointed suite, savour culinary delights at our acclaimed restaurants and bars, and take in breathtaking skyline views from the rooftop. Create cherished memories at one of our exclusive events, or elevate your own gathering in our…",
+  "description": "Discover a different side of Brisbane from Emporium Hotel South Bank. Take in uninterrupted city views from the spectacular rooftop infinity pool, retreat to one of 143 individually designed luxury suites, or indulge in exceptional dining and curated wine experiences. From the indulgent treatments at The Healing Stone Day Spa to the vibrant cultural attractions of South Bank just moments away, every stay offers something extraordinary. Thoughtful details, personalised service and a commitment to creating memorable experiences make Emporium a destination in its own right.",
+  "inTheKnow": "Discover The Reserve Experience, an intimate wine tasting journey featuring four or six rare Italian and French wines, complemented by a premium cheese and charcuterie board.",
+  "summary": "In a category of clones, we’re fiercely independent in our pursuit of delivering a luxury hotel experience that is as effortless for our guests as it is invigorating. In order to curate the world's finest furnishings, food styles, wines, cocktails and wellness treatments into a single location, we designed a completely bespoke, boutique hotel. Customised to the millimetre, what could be sensory overload, is the perfect blend of elegance and energy. From our captivating foyer to rooftop oasis, no stone is left unturned so that you can relax and revel in every moment. Where some destinations promise an escape from routine, our goal is to deliver experiences that help you rethink your reality.…",
   "rooms": [
    {
     "name": "Vista King Suite",
@@ -52552,9 +52546,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16122860_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16122860_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16122860_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16122860_2_2_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16122860_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16122860_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16122860_2_2.jpg"
   ],
   "imageCount": 11,
   "propertyType": "Hotel or Resort",
@@ -52676,9 +52670,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4171_2_11.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4171_2_11_0919.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4171_2_0_0919.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4171_2_18_0919.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4171_2_11.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4171_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4171_2_18.jpg"
   ],
   "imageCount": 28,
   "propertyType": "Hotel or Resort",
@@ -53194,7 +53188,7 @@
    "Departure gift of butter cookies from the famous bakery Poilâne",
    "Early Check-In / Late Check-Out subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "This boutique hotel designed to feel like a private residence is ideally situated on the Left Bank in the heart of the ultra chic Saint Germain des Prés. Esprit Saint Germain has been entirely renovated in 2022 with an authentic Parisien ambiance.This is exactly what you imagine a French hotel should be like – very intimate and warm, stunningly designed, with real loving care put into each of its 29 rooms, suites, apartments and lounges. Clients are welcomed as if they were Guests in a Friend’s Home with a personalized and dedicated service enjoying complimentary drinks anytime during their stay sitting in the living room by the fireplace.",
@@ -53274,9 +53268,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4269_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4269_2_0_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4269_2_1_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4269_2_2_0925.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4269_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4269_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4269_2_2.jpg"
   ],
   "imageCount": 46,
   "propertyType": "Hotel or Resort",
@@ -53295,7 +53289,7 @@
    "Green Key"
   ],
   "reviews": {
-   "total": 248,
+   "total": 249,
    "recommendedPercent": 98
   },
   "tags": [
@@ -53613,9 +53607,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16728286_2_18.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16728286_2_18_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16728286_2_0_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16728286_2_19_0924.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16728286_2_18.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16728286_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16728286_2_19.jpg"
   ],
   "imageCount": 23,
   "propertyType": "Hotel or Resort",
@@ -54066,9 +54060,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3916_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3916_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3916_2_1_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3916_2_2_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3916_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3916_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3916_2_2.jpg"
   ],
   "imageCount": 76,
   "propertyType": "Hotel or Resort",
@@ -54759,9 +54753,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3862_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3862_2_0_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3862_2_1_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3862_2_2_0925.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3862_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3862_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3862_2_2.jpg"
   ],
   "imageCount": 15,
   "propertyType": "Lodge, Ranch, Camp",
@@ -55020,11 +55014,11 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3972_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3972_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3972_2_0_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3972_2_5_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3972_2_17_0927.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3972_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3972_2_5.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3972_2_17.jpg"
   ],
   "imageCount": 22,
   "propertyType": "Hotel or Resort",
@@ -56000,7 +55994,7 @@
   "hideAmenities": false,
   "description": "Set against the breathtaking landscape of Banff National Park, Fairmont Chateau Lake Louise is an iconic mountain retreat where adventure and refined relaxation meet. Elevate your stay with Fairmont Gold, an exclusive hotel-within-a-hotel offering private check-in, dedicated concierge service, daily breakfast, and beautifully appointed accommodations. Beyond the Chateau, discover year-round adventures, from hiking and rafting in the warmer months to skiing and sleigh rides in winter. After a day exploring, unwind with a restorative visit to BASIN Glacial Waters, the immersive thermal wellness experience, or the Fairmont Spa Lake Louise.",
   "inTheKnow": "Experience the signature Lakeview Cosmopolitan while noshing in the Lakeview Lounge with an amazing vista of the lake. –June Griffith Mobile, Alabama",
-  "summary": "Surrounded by soaring mountain peaks, the majestic Victoria Glacier and a glistening emerald lake, the iconic Fairmont Chateau Lake Louise hotel is located in Alberta's Banff National Park, a UNESCO World Heritage Site, and is recognized globally for progressive environmental stewardship and responsible tourism. Originally built as a base for outdoor enthusiasts and alpinists over 100 years ago, the Fairmont Chateau Lake Louise is a year-round luxury mountain resort offering guided mountain tours, world-class skiing in the winter, scenic hiking and canoe activities in the summer, kid's camp, a luxury spa, and exceptional dining experiences. Enjoy renovated rooms and suites, an expansion to…",
+  "summary": "Set against the breathtaking landscape of Banff National Park, Fairmont Chateau Lake Louise is an iconic mountain retreat where adventure and refined relaxation meet. Elevate your stay with Fairmont Gold, an exclusive hotel-within-a-hotel offering private check-in, dedicated concierge service, daily breakfast, and beautifully appointed accommodations. Beyond the Chateau, discover year-round adventures, from hiking, canoeing, fishing, and rafting in the warmer months to skiing, ice-skating, and sleigh rides in the winter. After a day exploring the Rockies, unwind with a restorative visit to BASIN Glacial Waters, our immersive thermal wellness experience, or retreat to Fairmont Spa Lake…",
   "rooms": [
    {
     "name": "One-Bedroom Suite",
@@ -56072,7 +56066,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 71,
+   "total": 72,
    "recommendedPercent": 99
   },
   "tags": [
@@ -56256,7 +56250,7 @@
    "$100 USD equivalent Resort or Hotel credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
    "Early Check-In / Late Check-Out, subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "Supremely luxurious and effortlessly stylish, the 362 guest rooms & suites at Fairmont Doha offer everything a connoisseur of travel desires: an elegant decor in timeless surroundings, every contemporary amenity, the latest in-room technology for a personalised stay and spectacular Arabian Gulf or Lusail City views. Staying in a Fairmont Gold room grants you access to the ultra-exclusive Fairmont Gold Lounge and a private pool reserved for our Gold members. While our spacious suites are the very epitome of sumptuous comfort and unrivalled opulence, many with panoramic terraces and separate lounges.",
@@ -57015,7 +57009,10 @@
    "Sophisticated"
   ],
   "sustainability": [],
-  "reviews": null,
+  "reviews": {
+   "total": 1,
+   "recommendedPercent": 100
+  },
   "tags": [
    "city-life",
    "classic",
@@ -57175,7 +57172,7 @@
    "$100 USD equivalent Food & Beverage credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
    "Early check-in / Late check-out, subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "Tucked within a UNESCO World Heritage site and celebrated for its rustic elegance, Fairmont Jasper Park Lodge provides a majestic Rocky Mountain stay. Discover your own little scenic village of heritage cabins, with wildlife right outside the door of your homey guest room. Every green and tee on the spectacular golf course aligns with a mountain peak – just one reason the course ranks as Canada’s best. Go hiking, fishing, horseback riding – even explore the Columbia Icefield; winter months bring every snowy pleasure imaginable. The 10,000-square-foot spa induces serenity, no matter what the season.",
@@ -57299,7 +57296,7 @@
    "$100 USD equivalent Food & Beverage credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
    "Early Check-In / Late Check-Out, subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "A transformed experience awaits at Fairmont Kea Lani, Hawai‘i’s only all-suite and villa oceanfront resort. Fresh off an extensive transformation, this tropical paradise redefines luxury with the island’s most spacious suites, unrivaled culinary offerings and immersive experiences that embody true aloha. A newly unveiled Hawaiian cultural center and effortlessly elegant open-air cocktail lounge enhance the 22-acre property’s existing collection of distinct venues, along with award-winning dining options, unparalleled wellness offerings and three sprawling swimming pools – all within steps of the sunny shores and azure waters of Polo Beach.",
@@ -57619,7 +57616,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 81,
+   "total": 82,
    "recommendedPercent": 98
   },
   "tags": [
@@ -60551,9 +60548,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218772_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/18218772_2_0_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18218772_2_1_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18218772_2_2_0924.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/18218772_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18218772_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18218772_2_2.jpg"
   ],
   "imageCount": 26,
   "propertyType": "Hotel or Resort",
@@ -61292,6 +61289,10 @@
    "Upgrade on arrival, subject to availability",
    "Daily Full breakfast for up to two guests per bedroom, served in the restaurant",
    "$100 USD equivalent Food & Beverage credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
+   "Early check-in / Late check-out, subject to availability",
+   "Upgrade on arrival, subject to availability",
+   "Daily Buffet breakfast for up to two guests per bedroom, served in the restaurant",
+   "$100 USD equivalent Food & Beverage credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
    "Early check-in / Late check-out, subject to availability"
   ],
   "perksYear": null,
@@ -61508,7 +61509,7 @@
    "$100 USD equivalent Food & Beverage credit to be utilized during stay (not combinable, no cash value if not redeemed in full)",
    "Early check-in / Late check-out, subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "Immerse yourself in Fontainebleau Las Vegas, the newest luxury resort on the Las Vegas Strip, featuring modern and chic hotel rooms and suites, a collection of world-class restaurants and shops, exquisite pools, vibrant nightlife and transformative spa and wellness offerings.",
@@ -61805,7 +61806,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15474941_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15474941_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15474941_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15474941_2_1_0927.jpg",
@@ -61918,9 +61919,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18067799_2_21.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/18067799_2_21_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18067799_2_1_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18067799_2_2_0924.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/18067799_2_21.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18067799_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18067799_2_2.jpg"
   ],
   "imageCount": 21,
   "propertyType": "Hotel or Resort",
@@ -62194,7 +62195,7 @@
    "Early Check-In at 8:00am, confirmed at time of booking",
    "Late Check-Out at 4:00pm, confirmed at time of booking"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "Ideally located where the Champs-Élysées meets Avenue George V, Fouquet's Paris offers the perfect Parisian setting. Stay in one of the spacious 66 rooms or 35 suites, redesigned by Jacques Garcia. Savor fine dining at the Brasserie Fouquet’s Paris and enjoy a drink in the intimate garden of Joy Restaurant located in the heart of the hotel. Unwind in the Spa Decorté and its exclusive facilities, including a 50-feet-long indoor pool. Benefit from personalized service à la française with round-the-clock butler and concierge services.",
@@ -62254,9 +62255,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11223666_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/11223666_2_0_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/11223666_2_1_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/11223666_2_2_0924.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/11223666_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/11223666_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/11223666_2_2.jpg"
   ],
   "imageCount": 32,
   "propertyType": "Hotel or Resort",
@@ -62464,9 +62465,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15950053_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/15950053_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15950053_2_1_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15950053_2_2_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/15950053_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15950053_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15950053_2_2.jpg"
   ],
   "imageCount": 56,
   "propertyType": "Hotel or Resort",
@@ -62595,7 +62596,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 26,
+   "total": 27,
    "recommendedPercent": 100
   },
   "tags": [
@@ -62698,8 +62699,8 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 10,
-   "recommendedPercent": 90
+   "total": 11,
+   "recommendedPercent": 91
   },
   "tags": [
    "adventure",
@@ -62849,11 +62850,10 @@
    "Upgrade on arrival, subject to availability",
    "Daily Buffet breakfast for up to two guests per bedroom, served in the restaurant",
    "$100 USD equivalent Food & Beverage credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early Check-In / Late Check-Out, subject to availability",
-   "Complimentary Wi-Fi"
+   "Early Check-In / Late Check-Out, subject to availability"
   ],
-  "perksYear": 2025,
-  "perksStale": true,
+  "perksYear": 2027,
+  "perksStale": false,
   "hideAmenities": true,
   "description": "Taking a peaceful dip in the sunlit pool at Four Seasons Hotel Beijing, you just may forget that China’s bustling capital lies right outside the door. Centrally located in the city’s top commercial and entertainment area, this inviting sanctum exudes a residential feel in each of its 313 rooms and suites, with personal touches such as iPod stations and espresso machines. (Upgrade to an Executive Club Level for additional perks, including garment pressings and tablets for surfing the Internet.) Dim sum goes upscale at Cai Yi Xuan restaurant, while the award-winning Mio serves contemporary Italian fare from an open kitchen.",
   "inTheKnow": "China has become the world’s largest art market, and your hotel is near Beijing’s vibrant 798 Art Zone, often compared to New York’s SoHo district.",
@@ -63471,9 +63471,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3775_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3775_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3775_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3775_2_2_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3775_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3775_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3775_2_2.jpg"
   ],
   "imageCount": 22,
   "propertyType": "Hotel or Resort",
@@ -63850,9 +63850,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3921_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3921_2_0_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3921_2_1_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3921_2_2_0925.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3921_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3921_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3921_2_2.jpg"
   ],
   "imageCount": 33,
   "propertyType": "Hotel or Resort",
@@ -63907,8 +63907,8 @@
    "Early Check-In / Late Check-Out, subject to availability",
    "Complimentary Wi-Fi"
   ],
-  "perksYear": 2025,
-  "perksStale": true,
+  "perksYear": 2027,
+  "perksStale": false,
   "hideAmenities": true,
   "description": "Four Seasons Hotel Kyoto’s 123 luxury rooms and suites, and 57 residential suites – featuring open kitchens and the city’s largest in-suite entertaining spaces – are designed to maximize kutsurogi, the art of relaxation. Accessed by a glass bridge, the real stunner is the traditional tea house, Shakusui-tei, which hosts evening sake tastings. Indulge at the spa, indoor pool, or fitness center after a long day of city exploring.",
   "inTheKnow": "The clued-in, multilingual concierges can create such unique cultural encounters as a pottery class, maiko makeover, or Zen meditation session with a monk at the Shoden Eigen-in temple.",
@@ -64102,9 +64102,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3795_2_3.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3795_2_3_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3795_2_1_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3795_2_2_0923.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3795_2_3.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3795_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3795_2_2.jpg"
   ],
   "imageCount": 38,
   "propertyType": "Hotel or Resort",
@@ -64243,9 +64243,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3763_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3763_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3763_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3763_2_2_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3763_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3763_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3763_2_2.jpg"
   ],
   "imageCount": 56,
   "propertyType": "Hotel or Resort",
@@ -64367,9 +64367,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16181205_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16181205_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16181205_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16181205_2_2_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16181205_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16181205_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16181205_2_2.jpg"
   ],
   "imageCount": 41,
   "propertyType": "Hotel or Resort",
@@ -64482,9 +64482,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4278_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4278_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4278_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4278_2_2_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4278_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4278_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4278_2_2.jpg"
   ],
   "imageCount": 11,
   "propertyType": "Hotel or Resort",
@@ -64702,9 +64702,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15881114_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/15881114_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15881114_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15881114_2_2_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/15881114_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15881114_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15881114_2_2.jpg"
   ],
   "imageCount": 25,
   "propertyType": "Hotel or Resort",
@@ -64860,11 +64860,11 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16343913_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16343913_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16343913_2_0_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16343913_2_20_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16343913_2_1_0927.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16343913_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16343913_2_20.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16343913_2_1.jpg"
   ],
   "imageCount": 33,
   "propertyType": "Hotel or Resort",
@@ -65199,11 +65199,11 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15857466_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15857466_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/15857466_2_0_0926.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15857466_2_1_0926.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15857466_2_2_0926.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/15857466_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15857466_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15857466_2_2.jpg"
   ],
   "imageCount": 36,
   "propertyType": "Hotel or Resort",
@@ -65432,11 +65432,11 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4015_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4015_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4015_2_0_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4015_2_1_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4015_2_9_0927.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4015_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4015_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4015_2_9.jpg"
   ],
   "imageCount": 29,
   "propertyType": "Hotel or Resort",
@@ -65647,9 +65647,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3884_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3884_2_0_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3884_2_1_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3884_2_2_0925.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3884_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3884_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3884_2_2.jpg"
   ],
   "imageCount": 36,
   "propertyType": "Hotel or Resort",
@@ -65760,9 +65760,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4251_2_6.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4251_2_6_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4251_2_8_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4251_2_9_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4251_2_6.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4251_2_8.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4251_2_9.jpg"
   ],
   "imageCount": 12,
   "propertyType": "Hotel or Resort",
@@ -65873,9 +65873,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3801_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3801_2_0_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3801_2_1_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3801_2_2_0923.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3801_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3801_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3801_2_2.jpg"
   ],
   "imageCount": 4,
   "propertyType": "Hotel or Resort",
@@ -65892,7 +65892,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 72,
+   "total": 73,
    "recommendedPercent": 97
   },
   "tags": [
@@ -66495,9 +66495,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3755_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3755_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3755_2_4_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3755_2_1_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3755_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3755_2_4.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3755_2_1.jpg"
   ],
   "imageCount": 75,
   "propertyType": "Hotel or Resort",
@@ -66740,9 +66740,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3913_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3913_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3913_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3913_2_9_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3913_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3913_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3913_2_9.jpg"
   ],
   "imageCount": 72,
   "propertyType": "Hotel or Resort",
@@ -66883,7 +66883,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 143,
+   "total": 144,
    "recommendedPercent": 98
   },
   "tags": [
@@ -66970,9 +66970,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4222_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4222_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4222_2_2_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4222_2_10_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4222_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4222_2_2.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4222_2_10.jpg"
   ],
   "imageCount": 30,
   "propertyType": "Hotel or Resort",
@@ -67589,9 +67589,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14146171_2_2.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/14146171_2_2_0926.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/14146171_2_15_0926.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/14146171_2_1_0926.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/14146171_2_2.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/14146171_2_15.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/14146171_2_1.jpg"
   ],
   "imageCount": 39,
   "propertyType": "Hotel or Resort",
@@ -67608,7 +67608,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 161,
+   "total": 162,
    "recommendedPercent": 98
   },
   "tags": [
@@ -67831,9 +67831,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3875_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3875_2_0_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3875_2_1_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3875_2_2_0925.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3875_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3875_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3875_2_2.jpg"
   ],
   "imageCount": 19,
   "propertyType": "Hotel or Resort",
@@ -68089,7 +68089,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 42,
+   "total": 43,
    "recommendedPercent": 98
   },
   "tags": [
@@ -68390,11 +68390,10 @@
    "Daily Full breakfast for up to two guests per bedroom, served in the restaurant and via in-room dining",
    "$100 USD Resort or Hotel credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
    "Bookings in our Private Residences will also receive one $100 Food & Beverage credit, to be utilized during stay",
-   "Early check-in / Late check-out, subject to availability",
-   "Complimentary Wi-Fi"
+   "Early check-in / Late check-out, subject to availability"
   ],
-  "perksYear": 2025,
-  "perksStale": true,
+  "perksYear": 2026,
+  "perksStale": false,
   "hideAmenities": true,
   "description": "Four Seasons Resort and Residences Vail offer 110 guest rooms, including 18 suites and 23 private residences ranging from two to six bedrooms. All fuse contemporary mountain chic design with elevated comforts, such as fireplaces, walk-in closets, freestanding tubs, and private balconies. The ski concierge, located at the base of Vail Mountain, welcomes guests back from a day on the slopes with hot chocolate and private, heated ski lockers. Organic treatments at the award-winning spa are designed specifically to hydrate and nourish. Dining venues include Tavernetta Vail, local favorite The Remedy Bar, and bespoke in-room dining.",
   "inTheKnow": "After a day on the slopes, head to the cozy Remedy Bar; grab a leather chair by the fire and soak in the magnificent mountain views. –Jennifer Wilson-Buttigieg",
@@ -68872,7 +68871,10 @@
    "Zen"
   ],
   "sustainability": [],
-  "reviews": null,
+  "reviews": {
+   "total": 1,
+   "recommendedPercent": 100
+  },
   "tags": [
    "beach",
    "contemporary",
@@ -68960,9 +68962,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4196_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4196_2_0_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4196_2_1_0923.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4196_2_2_0923.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4196_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4196_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4196_2_2.jpg"
   ],
   "imageCount": 46,
   "propertyType": "Hotel or Resort",
@@ -69073,9 +69075,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16579933_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16579933_2_0_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16579933_2_1_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16579933_2_2_0925.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16579933_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16579933_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16579933_2_2.jpg"
   ],
   "imageCount": 53,
   "propertyType": "Hotel or Resort",
@@ -69302,9 +69304,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3590_2_1.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3590_2_1_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3590_2_6_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3590_2_0_0925.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3590_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3590_2_6.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3590_2_0.jpg"
   ],
   "imageCount": 34,
   "propertyType": "Hotel or Resort",
@@ -69421,9 +69423,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16699191_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16699191_2_0_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16699191_2_1_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16699191_2_2_0924.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16699191_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16699191_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16699191_2_2.jpg"
   ],
   "imageCount": 81,
   "propertyType": "Hotel or Resort",
@@ -69531,9 +69533,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15618295_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/15618295_2_0_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15618295_2_19_0924.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15618295_2_10_0924.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/15618295_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15618295_2_19.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15618295_2_10.jpg"
   ],
   "imageCount": 38,
   "propertyType": "Hotel or Resort",
@@ -69853,9 +69855,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15977170_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/15977170_2_0_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15977170_2_1_0921.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15977170_2_2_0921.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/15977170_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15977170_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15977170_2_2.jpg"
   ],
   "imageCount": 34,
   "propertyType": "Hotel or Resort",
@@ -69872,8 +69874,8 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 4,
-   "recommendedPercent": 100
+   "total": 5,
+   "recommendedPercent": 80
   },
   "tags": [
    "classic",
@@ -70090,9 +70092,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3860_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3860_2_0_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3860_2_1_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3860_2_2_0925.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3860_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3860_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3860_2_2.jpg"
   ],
   "imageCount": 17,
   "propertyType": "Hotel or Resort",
@@ -70653,9 +70655,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18088070_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/18088070_2_0_0920.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18088070_2_1_0920.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18088070_2_2_0920.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/18088070_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18088070_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18088070_2_2.jpg"
   ],
   "imageCount": 58,
   "propertyType": "Hotel or Resort",
@@ -70774,9 +70776,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18102186_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/18102186_2_0_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18102186_2_1_0925.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18102186_2_2_0925.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/18102186_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18102186_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18102186_2_2.jpg"
   ],
   "imageCount": 21,
   "propertyType": "Hotel or Resort",
@@ -70795,7 +70797,7 @@
    "Biosphere Responsible Tourism Standard"
   ],
   "reviews": {
-   "total": 17,
+   "total": 18,
    "recommendedPercent": 100
   },
   "tags": [
@@ -71168,9 +71170,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15590471_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/15590471_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15590471_2_1_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15590471_2_2_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/15590471_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15590471_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15590471_2_2.jpg"
   ],
   "imageCount": 47,
   "propertyType": "Hotel or Resort",
@@ -71457,7 +71459,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 12,
+   "total": 14,
    "recommendedPercent": 100
   },
   "tags": [
@@ -71790,7 +71792,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 18,
+   "total": 20,
    "recommendedPercent": 100
   },
   "tags": [
@@ -71888,9 +71890,9 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18052044_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/18052044_2_0_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18052044_2_1_0922.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/18052044_2_2_0922.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/18052044_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18052044_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18052044_2_2.jpg"
   ],
   "imageCount": 114,
   "propertyType": "Hotel or Resort",
@@ -72000,11 +72002,11 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4458_2_16_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4458_2_16.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/4458_2_16_0928.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4458_2_0_0928.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/4458_2_1_0928.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/4458_2_16.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4458_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/4458_2_1.jpg"
   ],
   "imageCount": 45,
   "propertyType": "Hotel or Resort",
@@ -72021,7 +72023,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 38,
+   "total": 39,
    "recommendedPercent": 97
   },
   "tags": [
@@ -72679,11 +72681,11 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3848_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3848_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/3848_2_0_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3848_2_1_0927.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/3848_2_2_0927.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/3848_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3848_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/3848_2_2.jpg"
   ],
   "imageCount": 32,
   "propertyType": "Hotel or Resort",
@@ -72700,7 +72702,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 35,
+   "total": 36,
    "recommendedPercent": 100
   },
   "tags": [
@@ -72814,7 +72816,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 68,
+   "total": 71,
    "recommendedPercent": 99
   },
   "tags": [
@@ -78882,7 +78884,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17903420_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17903420_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/17903420_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/17903420_2_1_0926.jpg",
@@ -80470,7 +80472,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3725_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3725_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3725_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3725_2_14_0927.jpg",
@@ -81926,7 +81928,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/1220908_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/1220908_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/1220908_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/1220908_2_1_0927.jpg",
@@ -86550,7 +86552,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15225505_2_2_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15225505_2_2.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15225505_2_2_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15225505_2_6_0927.jpg",
@@ -91264,7 +91266,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3768_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3768_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3768_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3768_2_1_0927.jpg",
@@ -92428,7 +92430,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18301842_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18301842_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/18301842_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/18301842_2_1_0926.jpg",
@@ -99866,7 +99868,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4181_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4181_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4181_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4181_2_1_0927.jpg",
@@ -100940,7 +100942,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16320122_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16320122_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16320122_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16320122_2_1_0927.jpg",
@@ -104388,18 +104390,18 @@
     "description": "Discover the refined spirit of Koenigshof, a Luxury Collection Hotel, Munich. From the captivating Latin American restaurant GRETA OTO Munich to the exclusive Private Spa and a bespoke luxury shopping experience, the hotel embodies modern sophistication and timeless Bavarian charm in the city’s historic heart. Adding a distinctive local touch, Koenigshof introduces an exclusive Luxury Shopping Experience in collaboration with the renowned luxury department store Breuninger. Guests are invited to enjoy a private shopping suite with champagne and fine finger food, a dedicated personal shopper,…"
    },
    {
-    "id": "18144310",
-    "name": "Experience Munich Package",
+    "id": "18144299",
+    "name": "Complimentary Third Night on Us!",
     "endDate": "2026-12-31",
     "exclusive": true,
-    "description": "Stay 2+ nights and receive up to 15% off the room rate."
+    "description": "Relax, unwind, and savor every moment of your stay! Book three nights and enjoy your third night complimentary. The 33.33% discount per night is already applied to your booking rate, no adjustments needed on-site."
    },
    {
-    "id": "18144302",
-    "name": "Confirmed Room Upgrade",
+    "id": "18144300",
+    "name": "Hotel Credit Offer",
     "endDate": "2026-12-31",
     "exclusive": true,
-    "description": "Confirmed upgrade upon booking Reserve your stay now and indulge in an exclusive room upgrade to the next category upon booking. Enjoy a confirmed upgrade, available up to the exquisite Grand Junior Suite, for an elevated and unforgettable experience. Please contact hotel directly to book."
+    "description": "Stay 2+ nights and receive an extra $100 hotel credit Upgrade your stay and elevate your experience today! Book an Executive Room or hogher room category for 2+ nights and receive an additional $100 hotel credit per stay — use it for luxurious spa treatments or gourmet dining. Make the most of your stay and elevate your time in Munich with this special offer."
    }
   ],
   "hasPromotion": true,
@@ -104821,7 +104823,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16879689_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16879689_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16879689_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16879689_2_1_0926.jpg",
@@ -105475,7 +105477,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4089_2_16_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4089_2_16.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4089_2_16_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4089_2_0_0928.jpg",
@@ -107401,7 +107403,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4126_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4126_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4126_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4126_2_1_0928.jpg",
@@ -112185,7 +112187,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3896_2_20_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3896_2_20.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3896_2_20_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3896_2_69_0928.jpg",
@@ -113306,7 +113308,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16340281_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16340281_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16340281_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16340281_2_1_0927.jpg",
@@ -114535,7 +114537,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4096_2_1_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4096_2_1.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4096_2_1_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4096_2_0_0928.jpg",
@@ -114633,7 +114635,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4002_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4002_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4002_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4002_2_1_0927.jpg",
@@ -115301,7 +115303,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16328231_2_15_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16328231_2_15.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16328231_2_15_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16328231_2_7_0927.jpg",
@@ -117392,24 +117394,24 @@
   ],
   "promotions": [
    {
-    "id": "18154187",
-    "name": "Resort credit Offer 2026",
-    "endDate": "2027-06-30",
-    "exclusive": false,
-    "description": "Stay 2 nights and enjoy an additional USD 400 Resort Credit, cumulative with the program USD 100 Resort Credit Reserve a minimum of 2 consecutive nights through Virtuoso rates to enjoy a USD 500 Resort Credit, per room per stay. Not combinable with Luxury Sanctuary Offer and must be secured upon reservation by stating the offer name. Applicable on Reserve Suite, Mandapa Suite, One Bedroom Villa, Two Bedroom Villa and Three Bedroom Villa categories. Eligible for Virtuoso amenities. Terms & Conditions: Minimum 2-night stay is required. Resort credit is deducted from the final guest’s folio upon…"
-   },
-   {
     "id": "18154186",
     "name": "Luxury Sanctuary Offer - Complimentary 3rd Night",
     "endDate": "2027-06-30",
     "exclusive": false,
     "description": "Stay 3 nights and receive 1 complimentary night including Daily Half Board Reserve a minimum of 3 consecutive nights through Virtuoso rates to enjoy Daily Half Board inclusion and complimentary 3rd night at our courtesy. Not combinable with Resort Credit Offer and must be secured upon reservation by stating the offer name. Applicable on Reserve Suite, Mandapa Suite, One Bedroom Villa, Two Bedroom Villa and Three Bedroom Villa categories. Eligible for Virtuoso amenities."
+   },
+   {
+    "id": "18154187",
+    "name": "Resort credit Offer 2026",
+    "endDate": "2027-06-30",
+    "exclusive": false,
+    "description": "Stay 2 nights and enjoy an additional USD 400 Resort Credit, cumulative with the program USD 100 Resort Credit Reserve a minimum of 2 consecutive nights through Virtuoso rates to enjoy a USD 500 Resort Credit, per room per stay. Not combinable with Luxury Sanctuary Offer and must be secured upon reservation by stating the offer name. Applicable on Reserve Suite, Mandapa Suite, One Bedroom Villa, Two Bedroom Villa and Three Bedroom Villa categories. Eligible for Virtuoso amenities. Terms & Conditions: Minimum 2-night stay is required. Resort credit is deducted from the final guest’s folio upon…"
    }
   ],
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15243248_2_42_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15243248_2_42.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15243248_2_42_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15243248_2_0_0927.jpg",
@@ -117519,7 +117521,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16328212_2_47_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16328212_2_47.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16328212_2_47_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16328212_2_20_0927.jpg",
@@ -118180,7 +118182,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16310322_2_3_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16310322_2_3.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16310322_2_3_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16310322_2_0_0926.jpg",
@@ -119299,16 +119301,8 @@
    "Turn Down Service",
    "Voicemail"
   ],
-  "promotions": [
-   {
-    "id": "18262675",
-    "name": "VIRTUOSO PLAN AHEAD",
-    "endDate": "2026-10-24",
-    "exclusive": false,
-    "description": "Enjoy a stay in the heart of Barcelona with up to 15% off stays booked 7 days or more in advance. Book 7 days or more in advance and enjoy up to 15% off a stay in one of our beautifully appointed rooms and suites. Combinable with Virtuoso Amenities and T&Cs Subject to availability and black-out dates Virtuoso Amenities Breakfast served at Blanc Restaurant USD100 Food and Beverage credit once per stay (MOments Restaurant excluded) Personalized welcome amenity and note Room upgrade upon check-in subject to availability (Room to Room, Suite to Suite. Excludes specialty suites) Hi-speed Internet…"
-   }
-  ],
-  "hasPromotion": true,
+  "promotions": [],
+  "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3452902_2_0_1004.webp",
@@ -121421,7 +121415,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4010_2_1_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4010_2_1.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4010_2_1_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4010_2_0_0927.jpg",
@@ -125379,7 +125373,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15375365_2_19_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15375365_2_19.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15375365_2_19_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15375365_2_2_0927.jpg",
@@ -125796,24 +125790,24 @@
   ],
   "promotions": [
    {
-    "id": "18528791",
-    "name": "Miraval Ultimate Wellbeing Package",
-    "endDate": "2028-12-31",
-    "exclusive": true,
-    "description": "Embrace limitless possibilities with an all-inclusive wellness journey and turn your intentions into reality. Every fee-based activity and workshop is yours to explore with our Ultimate Wellbeing Package. Plus, enjoy a $175 nightly resort credit per person for spa treatments and private sessions to elevate your wellbeing. Nourish your mind, body, and soul while indulging in the ultimate self-care experience at Miraval Berkshires. *Private sessions and culinary workshops are not included. $175 nightly per person resort credit may be used toward spa services, private sessions, and culinary…"
-   },
-   {
     "id": "18528783",
     "name": "Miraval Package",
     "endDate": "2028-12-31",
     "exclusive": true,
     "description": "Enjoy $175 resort credit, per person-per night, savor healthful cuisine, and indulge in the most innovative spa treatments in the world. Experience a daily schedule of complimentary wellness activities including yoga, meditation, fitness, outdoor adventures, and wellness lectures – endless choices are tailored to your intentions. Your Miraval Package Includes: Our package inclusions keep you present to what matters most. It’s all about your intentions and giving you the best value for your wellbeing journey. $175 nightly resort credit, per person to use toward spa & fee-based activities…"
+   },
+   {
+    "id": "18528791",
+    "name": "Miraval Ultimate Wellbeing Package",
+    "endDate": "2028-12-31",
+    "exclusive": true,
+    "description": "Embrace limitless possibilities with an all-inclusive wellness journey and turn your intentions into reality. Every fee-based activity and workshop is yours to explore with our Ultimate Wellbeing Package. Plus, enjoy a $175 nightly resort credit per person for spa treatments and private sessions to elevate your wellbeing. Nourish your mind, body, and soul while indulging in the ultimate self-care experience at Miraval Berkshires. *Private sessions and culinary workshops are not included. $175 nightly per person resort credit may be used toward spa services, private sessions, and culinary…"
    }
   ],
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3737_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3737_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3737_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3737_2_1_0928.jpg",
@@ -129019,7 +129013,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235590_2_2_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235590_2_2.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16235590_2_2_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16235590_2_4_0926.jpg",
@@ -135603,7 +135597,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16874068_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16874068_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16874068_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16874068_2_1_0926.jpg",
@@ -136175,7 +136169,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16114504_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16114504_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16114504_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16114504_2_1_0926.jpg",
@@ -136358,7 +136352,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4190_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4190_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4190_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4190_2_1_0928.jpg",
@@ -137104,7 +137098,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16568520_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16568520_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16568520_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16568520_2_1_0926.jpg",
@@ -137226,7 +137220,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3947_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3947_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3947_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3947_2_43_0927.jpg",
@@ -138121,7 +138115,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4088_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4088_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4088_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4088_2_1_0928.jpg",
@@ -140358,7 +140352,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4119_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4119_2_1_0928.jpg",
@@ -151384,7 +151378,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15469516_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15469516_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15469516_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15469516_2_1_0927.jpg",
@@ -153692,7 +153686,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4071_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4071_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4071_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4071_2_1_0928.jpg",
@@ -156453,7 +156447,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16218668_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16218668_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16218668_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16218668_2_1_0926.jpg",
@@ -156885,7 +156879,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16319120_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16319120_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16319120_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16319120_2_1_0927.jpg",
@@ -158764,18 +158758,18 @@
     "description": "Immerse yourself in the heart of global electronic music culture, where rhythm and energy meet restorative luxury. Settle into an elegant canal-side sanctuary at Rosewood Amsterdam, perfectly positioned to navigate the city’s electric atmosphere. Experience seamless festival living with priority access to curated ADE programming, late-night in-room dining menus, and an invigorating post-festival recovery treatment at Asaya Spa. Enjoy the ultimate balance of high-energy celebration and effortless relaxation. WHAT'S INCLUDED Guaranteed 2 p.m. checkout Complimentary recovery wellness treatment…"
    },
    {
-    "id": "18459165",
-    "name": "Suite Sojourn",
-    "endDate": "2026-12-31",
-    "exclusive": false,
-    "description": "Enjoy a 15% discount on the best available rate of one of our generously proportioned and characterful suites. A Suite is the ultimate room of one’s own, a place where the rush of the city fades and a journey of self-discovery begins. Nestle into one of our 41 generously proportioned and characterful suites for a true taste of canal side living. What's included: 15% savings on our best available rate for all Suite categories Complimentary daily breakfast for 2 Complimentary access to Asaya Spa"
-   },
-   {
     "id": "18399109",
     "name": "More Rosewood",
     "endDate": "2026-12-31",
     "exclusive": false,
     "description": "Extend your escape in Amsterdam with an exclusive invitation to indulge a little longer at Rosewood Amsterdam. With our More Rosewood offer, stay two nights and enjoy a complimentary third night on us, giving you more time to savor every unforgettable moment. Relax in refined, luxurious accommodations designed for comfort and elegance, and restore your senses with access to the serene Asaya Spa. From world class museums and iconic canals to vibrant boutiques and cafés, the very best of Amsterdam awaits just beyond our doors. More time. More indulgence. More Rosewood. Your extraordinary…"
+   },
+   {
+    "id": "18459165",
+    "name": "Suite Sojourn",
+    "endDate": "2026-12-31",
+    "exclusive": false,
+    "description": "Enjoy a 15% discount on the best available rate of one of our generously proportioned and characterful suites. A Suite is the ultimate room of one’s own, a place where the rush of the city fades and a journey of self-discovery begins. Nestle into one of our 41 generously proportioned and characterful suites for a true taste of canal side living. What's included: 15% savings on our best available rate for all Suite categories Complimentary daily breakfast for 2 Complimentary access to Asaya Spa"
    }
   ],
   "hasPromotion": true,
@@ -159835,7 +159829,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/9889788_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/9889788_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/9889788_2_2_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/9889788_2_1_0927.jpg",
@@ -160765,7 +160759,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3842_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3842_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3842_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3842_2_2_0928.jpg",
@@ -161900,7 +161894,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4086_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4086_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4086_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4086_2_1_0928.jpg",
@@ -163557,7 +163551,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16253825_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16253825_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16253825_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16253825_2_7_0926.jpg",
@@ -165666,8 +165660,16 @@
    "Slippers",
    "Turn Down Service"
   ],
-  "promotions": [],
-  "hasPromotion": false,
+  "promotions": [
+   {
+    "id": "18637928",
+    "name": "Virtuoso promotional rate 4=3",
+    "endDate": "2027-03-19",
+    "exclusive": false,
+    "description": "Enjoy an exceptional getaway with our Stay 4 Nights Pay 3 offer, complemented by exclusive privileges designed to make your stay even more memorable Breakfast for Two Included Start each morning with a delicious breakfast for two Complimentary WiFi Stay connected throughout your stay Complimentary Room Upgrade Enjoy an upgraded room category upon arrival subject to availability 100 USD Food and Beverage Credit Savour exceptional dining and drinks during your stay Early Check In and Late Check Out Make the most of every moment subject to availability"
+   }
+  ],
+  "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16613933_2_0_1001.webp",
@@ -169854,7 +169856,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17898666_2_5_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17898666_2_5.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/17898666_2_5_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/17898666_2_1_0926.jpg",
@@ -173069,16 +173071,8 @@
    "Slippers",
    "Turn Down Service"
   ],
-  "promotions": [
-   {
-    "id": "18459163",
-    "name": "Five Nights Plus",
-    "endDate": "2026-10-31",
-    "exclusive": false,
-    "description": "Stay a minimum of 5 nights and receive a 15% discount(Not Valid for Junior Suite Sea View, Ridge Terrace Family Sea View and Ridge Terrace Family Sea View with Pool in Premium High Season and Peak Season. Not combinable with any other valid offers.)"
-   }
-  ],
-  "hasPromotion": true,
+  "promotions": [],
+  "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16707500_2_0_1006.webp",
@@ -182230,7 +182224,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15561427_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15561427_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15561427_2_2_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15561427_2_0_0927.jpg",
@@ -185690,7 +185684,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16328233_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16328233_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16328233_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16328233_2_1_0927.jpg",
@@ -187843,7 +187837,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4016_2_22_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4016_2_22.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4016_2_22_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4016_2_6_0927.jpg",
@@ -188922,7 +188916,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16898551_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16898551_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16898551_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16898551_2_1_0926.jpg",
@@ -194297,7 +194291,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16895775_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16895775_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16895775_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16895775_2_1_0926.jpg",
@@ -195433,7 +195427,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16202586_2_14_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16202586_2_14.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16202586_2_14_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16202586_2_2_0926.jpg",
@@ -196362,7 +196356,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3785_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3785_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3785_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3785_2_1_0928.jpg",
@@ -197088,7 +197082,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4150_2_22_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4150_2_22.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4150_2_22_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4150_2_23_0928.jpg",
@@ -198030,11 +198024,11 @@
   ],
   "promotions": [
    {
-    "id": "16698521",
-    "name": "ENHANCED CREDIT",
+    "id": "16543080",
+    "name": "STAY LONGER ON US",
     "endDate": "2027-03-31",
     "exclusive": false,
-    "description": "ENHANCED CREDIT Receive an Extra $250 USD Hotel Credit plus Virtuoso Amenities with a 2-night minimum stay. Offer available on all room categories. Offer valid until 30th November 2026. The VIRTUOSO benefits at The London EDITION include the following: $100 USD* equivalent Hotel Credit (to be utilized only in Food and Beverage outlets) A la carte breakfast daily for two guests in Berners Tavern or In-Room Dining Guaranteed complimentary late check-out until 4pm Priority early check-in, subject to availability Room upgrade upon arrival subject to availability Welcome amenity and handwritten…"
+    "description": "STAY LONGER ON US! Stay 3 to 6 nights enjoy savings from 10% Stay 7 or more nights and enjoy savings from 20% Offer valid on all room categories. Offer valid until 30th November 2026. The VIRTUOSO benefits at The London EDITION include the following: $100 USD* equivalent Hotel Credit (to be utilized only in Food and Beverage outlets) A la carte breakfast daily for two guests in Berners Tavern or In-Room Dining Guaranteed complimentary late check-out until 4pm Priority early check-in, subject to availability Room upgrade upon arrival subject to availability Welcome amenity and handwritten note…"
    },
    {
     "id": "16583285",
@@ -198044,17 +198038,17 @@
     "description": "SUITE DREAMS Elevate your London EDITION experience in one of our unique suites with a minimum 2-night stay and receive: An additional £100 GBP* Hotel Credit (to be utilized only in Food and Beverage outlets) Complimentary in-room SEVENTY ONE Gin Trolley A one-way airport transfer Penthouse booking will receive: An additional £200 GBP* Hotel Credit (to be utilized only in Food and Beverage outlets) Complimentary in-room SEVENTY ONE Gin Trolley A two-way airport transfer Offer valid on selected room categories; Fitzrovia Suite and above. Offer valid until 30th November 2026. The VIRTUOSO…"
    },
    {
-    "id": "16543080",
-    "name": "STAY LONGER ON US",
+    "id": "16698521",
+    "name": "ENHANCED CREDIT",
     "endDate": "2027-03-31",
     "exclusive": false,
-    "description": "STAY LONGER ON US! Stay 3 to 6 nights enjoy savings from 10% Stay 7 or more nights and enjoy savings from 20% Offer valid on all room categories. Offer valid until 30th November 2026. The VIRTUOSO benefits at The London EDITION include the following: $100 USD* equivalent Hotel Credit (to be utilized only in Food and Beverage outlets) A la carte breakfast daily for two guests in Berners Tavern or In-Room Dining Guaranteed complimentary late check-out until 4pm Priority early check-in, subject to availability Room upgrade upon arrival subject to availability Welcome amenity and handwritten note…"
+    "description": "ENHANCED CREDIT Receive an Extra $250 USD Hotel Credit plus Virtuoso Amenities with a 2-night minimum stay. Offer available on all room categories. Offer valid until 30th November 2026. The VIRTUOSO benefits at The London EDITION include the following: $100 USD* equivalent Hotel Credit (to be utilized only in Food and Beverage outlets) A la carte breakfast daily for two guests in Berners Tavern or In-Room Dining Guaranteed complimentary late check-out until 4pm Priority early check-in, subject to availability Room upgrade upon arrival subject to availability Welcome amenity and handwritten…"
    }
   ],
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15466555_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15466555_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15466555_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15466555_2_1_0927.jpg",
@@ -198868,7 +198862,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16301729_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16301729_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16301729_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16301729_2_30_0926.jpg",
@@ -199734,7 +199728,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5791440_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5791440_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/5791440_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/5791440_2_17_0927.jpg",
@@ -199843,7 +199837,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16249505_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16249505_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16249505_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16249505_2_1_0926.jpg",
@@ -200768,7 +200762,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16208282_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16208282_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16208282_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16208282_2_1_0926.jpg",
@@ -201054,7 +201048,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4139_2_1_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4139_2_1.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4139_2_1_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4139_2_0_0928.jpg",
@@ -202681,7 +202675,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3989_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3989_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3989_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3989_2_1_0927.jpg",
@@ -203635,7 +203629,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4004_2_1_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4004_2_1.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4004_2_1_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4004_2_0_0927.jpg",
@@ -205964,7 +205958,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235979_2_1_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235979_2_1.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16235979_2_1_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16235979_2_11_0926.jpg",
@@ -207482,7 +207476,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4001_2_52_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4001_2_52.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4001_2_52_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4001_2_37_0927.jpg",
@@ -209750,7 +209744,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4543_2_35_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4543_2_35.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4543_2_35_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4543_2_2_0927.jpg",
@@ -210011,7 +210005,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3839_2_28_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3839_2_28.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3839_2_28_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3839_2_0_0928.jpg",
@@ -210482,11 +210476,11 @@
   ],
   "promotions": [
    {
-    "id": "16868210",
-    "name": "Extend Your Stay, Enjoy 15% Off",
+    "id": "16868203",
+    "name": "Extend Your Stay, Enjoy 10% Off",
     "endDate": "2026-12-31",
     "exclusive": false,
-    "description": "Extend Your Stay, Enjoy 15 % Off when you stay 4 nights or longer. Personalized welcome amenity Complimentary breakfast daily for two guests per room $100 USD hotel credit (once per stay) Complimentary basic Wi-Fi daily Early check-in and late check-out (when available) Complimentary upgrade (if available at check-in) In-person warm welcome Personalized welcome note from GM acknowledging Virtuoso agency/advisor"
+    "description": "Extend Your Stay, Enjoy 10% Off when you stay 3 nights or longer Personalized welcome amenity Complimentary breakfast daily for two guests per room $100 USD hotel credit (once per stay) Complimentary basic Wi-Fi daily Early check-in and late check-out (when available) Complimentary upgrade (if available at check-in) In-person warm welcome Personalized welcome note from GM acknowledging Virtuoso agency/advisor"
    },
    {
     "id": "16868205",
@@ -210496,17 +210490,17 @@
     "description": "Book a Suite and get complimentary Club Lounge Access with $150 USD Hotel Credit. Personalized welcome amenity Complimentary breakfast daily for two guests per room $150 USD Food and Beverage credit per stay. (not combinable, not valid on room rate, no cash value if not redeemed in full, not valid for In Room Dining, Minibar, Nobu) Complimentary basic Wi-Fi daily Early check-in and late check-out (when available) Complimentary upgrade (if available at check-in) In-person warm welcome Personalized welcome note from GM acknowledging Virtuoso agency/advisor"
    },
    {
-    "id": "16868203",
-    "name": "Extend Your Stay, Enjoy 10% Off",
+    "id": "16868210",
+    "name": "Extend Your Stay, Enjoy 15% Off",
     "endDate": "2026-12-31",
     "exclusive": false,
-    "description": "Extend Your Stay, Enjoy 10% Off when you stay 3 nights or longer Personalized welcome amenity Complimentary breakfast daily for two guests per room $100 USD hotel credit (once per stay) Complimentary basic Wi-Fi daily Early check-in and late check-out (when available) Complimentary upgrade (if available at check-in) In-person warm welcome Personalized welcome note from GM acknowledging Virtuoso agency/advisor"
+    "description": "Extend Your Stay, Enjoy 15 % Off when you stay 4 nights or longer. Personalized welcome amenity Complimentary breakfast daily for two guests per room $100 USD hotel credit (once per stay) Complimentary basic Wi-Fi daily Early check-in and late check-out (when available) Complimentary upgrade (if available at check-in) In-person warm welcome Personalized welcome note from GM acknowledging Virtuoso agency/advisor"
    }
   ],
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3823_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3823_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3823_2_4_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3823_2_9_0927.jpg",
@@ -211234,7 +211228,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16273056_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16273056_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16273056_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16273056_2_1_0926.jpg",
@@ -211740,6 +211734,13 @@
   ],
   "promotions": [
    {
+    "id": "18375066",
+    "name": "Stay 3 and Save More",
+    "endDate": "2026-12-18",
+    "exclusive": false,
+    "description": "Stay 3 and Save More - Enjoy 20% off our Best Available Rate Make your next getaway even more rewarding with our Stay 3 and Save More offer. Whether you're seeking a relaxing retreat, a culinary escape, or a chance to reconnect with nature, extending your stay brings exclusive benefits. Reserve three consecutive nights or more and enjoy 20% off our Best Available Rate—the perfect invitation to slow down, unwind, and experience your destination at a deeper level."
+   },
+   {
     "id": "18375068",
     "name": "The Nikko-Tokyo Espace - 15% off, RC Tokyo must be booked as well",
     "endDate": "2026-12-18",
@@ -211752,19 +211753,12 @@
     "endDate": "2026-12-18",
     "exclusive": false,
     "description": "Japan Trilogy - 15% off BAR - RC Tokyo & Kyoto must be booked as well Discover Japan through exclusive Ritz-Carlton experiences in Nikko, Tokyo and Kyoto. Embark on a journey that seamlessly blends captivating history with vibrant modernity. This is a joint package, and 2 nights Deluxe or Suite accommodations in each hotel (The Ritz-Carlton, Nikko, Tokyo and Nikko) must be booked to be eligible for the benefits: 15% discounted rate from the Best Available Rate Two-night minimum length of stay in deluxe or suite accommodations at each hotel (The Ritz-Carlton, Nikko / The Ritz-Carlton, Tokyo /…"
-   },
-   {
-    "id": "18375066",
-    "name": "Stay 3 and Save More",
-    "endDate": "2026-12-18",
-    "exclusive": false,
-    "description": "Stay 3 and Save More - Enjoy 20% off our Best Available Rate Make your next getaway even more rewarding with our Stay 3 and Save More offer. Whether you're seeking a relaxing retreat, a culinary escape, or a chance to reconnect with nature, extending your stay brings exclusive benefits. Reserve three consecutive nights or more and enjoy 20% off our Best Available Rate—the perfect invitation to slow down, unwind, and experience your destination at a deeper level."
    }
   ],
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16312796_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16312796_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16312796_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16312796_2_1_0927.jpg",
@@ -212705,7 +212699,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4136_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4136_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4136_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4136_2_1_0928.jpg",
@@ -212962,7 +212956,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3973_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3973_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3973_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3973_2_3_0927.jpg",
@@ -215949,7 +215943,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16135544_2_7_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16135544_2_7.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16135544_2_7_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16135544_2_0_0926.jpg",
@@ -218568,7 +218562,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18280766_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18280766_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/18280766_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/18280766_2_1_0926.jpg",
@@ -221559,7 +221553,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16230997_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16230997_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16230997_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16230997_2_1_0926.jpg",
@@ -221899,7 +221893,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4100_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4100_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/4100_2_0_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/4100_2_1_0928.jpg",
@@ -222006,7 +222000,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16307770_2_2_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16307770_2_2.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16307770_2_2_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16307770_2_1_0926.jpg",
@@ -222415,7 +222409,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235537_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235537_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16235537_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16235537_2_1_0926.jpg",
@@ -223567,7 +223561,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15224441_2_1_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15224441_2_1.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15224441_2_1_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15224441_2_4_0927.jpg",
@@ -224040,7 +224034,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3628847_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3628847_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3628847_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3628847_2_1_0927.jpg",
@@ -227394,13 +227388,6 @@
   ],
   "promotions": [
    {
-    "id": "18382054",
-    "name": "CARIBBEAN NIGHTS 2026 STAY LONGER FOR LESS",
-    "endDate": "2026-10-31",
-    "exclusive": false,
-    "description": "STAY LONGER FOR LESS 4 nights for the price of 3 / 7 nights for the price of 5 Any day arrivals and up to 2 nights free on selected villa-only stays in 2026 Experience the Caribbean’s best villa vacation with our exclusive offer. Enjoy any day arrivals and up to two complimentary nights on selected villa only stays - perfect for unwinding with family or friends in effortless luxury. Relax in your fully staffed villa set on Jamaica’s historic, number one 18-hole golf course. Enjoy delicious cuisine prepared by your private chef, explore forest hikes, play tennis and pickleball, and enjoy a…"
-   },
-   {
     "id": "18634427",
     "name": "CARIBBEAN NIGHTS OFFER 2027",
     "endDate": "2027-10-31",
@@ -229685,11 +229672,11 @@
     "description": "Set off on a coast-to-coast Sicilian journey with a complimentary one-way transfer from the Liberty era elegance of Villa Igiea to the sunlit serenity of Verdura Resort. Experience two of the most beautiful places to stay in Sicily with a journey spanning the breadth of the island. Explore Palermo’s Baroque landmarks, vibrant markets, and authentic soul, balancing the cultural richness of the island’s capital with the spaciousness of our beachside resort. Here, championship golf courses, sporting activities, and a vast spa set among olive groves and orchards await. Cultural palazzo and…"
    },
    {
-    "id": "18363798",
-    "name": "Falling In Love With Italy",
-    "endDate": "2026-11-01",
-    "exclusive": false,
-    "description": "A unique opportunity to journey through Italy, discovering its regional charms and nuances. Choose your own combination of Rocco Forte hotel stays, spending as much time at each location as you wish to soak up the sites and experiences on offer. Combine a chic city break with an elegant beach holiday, or integrate an indulgent spa and golf retreat with a sensory adventure uncovering the terroirs of Italy’s extraordinary wines.With full flexibility, customise your stay based on your interests and pace.Experience the charm of staying at the Hotel de Russie or Hotel de la Ville in Rome, offering…"
+    "id": "18397060",
+    "name": "In Love with Sicily",
+    "endDate": "2026-11-14",
+    "exclusive": true,
+    "description": "The beauty of Sicily lies in its ease - time spent outdoors among ancient orchards with the sea never far away. Each day invites you to slow down and follow the natural pace of island life, beginning with a complimentary breakfast enjoyed without hurry. Choose a room or suite and save up to 20% on your stay. When reserving a suite, you'll also receive thoughtful benefits from our Suites & Beyond programme, including personalised amenities and unique cultural excursions. Details: Save up to 20% Terms and Conditions: Minimum length of stay and blackout dates apply"
    },
    {
     "id": "18397061",
@@ -229702,7 +229689,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/592094_2_0_0928.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/592094_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/592094_2_74_0928.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/592094_2_73_0928.jpg",
@@ -229815,7 +229802,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15290371_2_13_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15290371_2_13.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15290371_2_13_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15290371_2_1_0927.jpg",
@@ -231592,7 +231579,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16291838_2_87_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16291838_2_87.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16291838_2_87_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16291838_2_0_0926.jpg",
@@ -232969,7 +232956,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3914_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3914_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3914_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3914_2_1_0927.jpg",
@@ -233215,7 +233202,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16218438_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16218438_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16218438_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16218438_2_1_0926.jpg",
@@ -241146,7 +241133,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3954_2_0_0927.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3954_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/3954_2_0_0927.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/3954_2_1_0927.jpg",
@@ -242507,7 +242494,7 @@
   "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15802913_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15802913_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15802913_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/15802913_2_1_0926.jpg",
@@ -243075,7 +243062,7 @@
   "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
-  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16287382_2_0_0926.webp",
+  "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16287382_2_0.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/16287382_2_0_0926.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16287382_2_3_0926.jpg",

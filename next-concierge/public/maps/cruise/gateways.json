@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4451,
-  "journeysWithStays": 3750,
+  "journeysTotal": 4443,
+  "journeysWithStays": 3744,
   "journeysWithHouse": 0,
   "gateways": 109,
   "hotels": 291,
@@ -15,500 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_02500": {
-   "n": "the Nines, a Luxury Collection Hotel, Portland",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Portland",
-   "country": "United States",
-   "ll": [
-    45.5189,
-    -122.678
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/213002_2_0_1003.webp",
-   "rooms": 331,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02196": {
-   "n": "The Ritz-Carlton, Portland",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Portland",
-   "country": "United States",
-   "ll": [
-    45.5211,
-    -122.681
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17901793_2_0_1004.webp",
-   "rooms": 251,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02037": {
-   "n": "The Legian Seminyak, Bali",
-   "house": null,
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.68414,
-    115.159
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16636575_2_0.webp",
-   "rooms": 80,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00125": {
-   "n": "Andaz Bali",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.69948,
-    115.264
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16597012_2_0_1003.webp",
-   "rooms": 149,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01562": {
-   "n": "Desa Potato Head Bali",
-   "house": null,
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.67908,
-    115.151
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15803682_2_0.webp",
-   "rooms": 88,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02076": {
-   "n": "The Oberoi, Bali",
-   "house": "The Oberoi Group",
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.69201,
-    115.158
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3742_2_0.webp",
-   "rooms": 74,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01598": {
-   "n": "Raffles Singapore",
-   "house": "Accor",
-   "aff": null,
-   "city": "Singapore",
-   "country": "Singapore",
-   "ll": [
-    1.29489,
-    103.854
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4066_2_0_0930.webp",
-   "rooms": 115,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_v16675647": {
-   "n": "Fairmont Singapore South Tower",
-   "house": null,
-   "aff": null,
-   "city": "Singapore",
-   "country": "Singapore",
-   "ll": [
-    1.2934,
-    103.853
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16667940_2_1.webp",
-   "rooms": 450,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01280": {
-   "n": "Mandarin Oriental, Singapore",
-   "house": "Mandarin Oriental",
-   "aff": null,
-   "city": "Singapore",
-   "country": "Singapore",
-   "ll": [
-    1.2906,
-    103.858
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6147630_2_0.webp",
-   "rooms": 510,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02189": {
-   "n": "The Ritz-Carlton, Millenia Singapore",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Singapore",
-   "country": "Singapore",
-   "ll": [
-    1.29084,
-    103.86
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3812_2_0.webp",
-   "rooms": 608,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01912": {
-   "n": "The Brando",
-   "house": null,
-   "aff": null,
-   "city": "Arue",
-   "country": "French Polynesia",
-   "ll": [
-    -17.5332,
-    -149.512
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14408912_2_43.webp",
-   "rooms": 36,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
-  "h_01811": {
-   "n": "Sofitel Kia Ora Moorea Beach Resort",
-   "house": "Accor",
-   "aff": null,
-   "city": "Moorea",
-   "country": "French Polynesia",
-   "ll": [
-    -17.4831,
-    -149.798
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395455_2_0_1001.webp",
-   "rooms": 113,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_v16336359": {
-   "n": "Shangri-La The Marina Cairns",
-   "house": null,
-   "aff": null,
-   "city": "Cairns",
-   "country": "Australia",
-   "ll": [
-    -16.9209,
-    145.78
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16332828_2_0_1001.webp",
-   "rooms": 255,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_v16298570": {
-   "n": "The Reef House Adults Retreat",
-   "house": null,
-   "aff": null,
-   "city": "Cairns",
-   "country": "Australia",
-   "ll": [
-    -16.745,
-    145.671
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16298565_2_0_1001.webp",
-   "rooms": 67,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v16768337": {
-   "n": "Torel Palace Lisbon",
-   "house": null,
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7185,
-    -9.14013
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16767555_2_0_1007.webp",
-   "rooms": 33,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01456": {
-   "n": "Palacio Ludovice Wine Experience Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7143,
-    -9.14414
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930052_2_0_1002.webp",
-   "rooms": 61,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01564": {
-   "n": "Pousada de Lisboa - Praca do Comercio",
-   "house": null,
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7082,
-    -9.13785
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15469516_2_0_0927.webp",
-   "rooms": 90,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02007": {
-   "n": "The Ivens, Autograph Collection",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7097,
-    -9.14033
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16895775_2_0_0926.webp",
-   "rooms": 86,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 0
-  },
-  "h_00055": {
-   "n": "Alvear Palace Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5876,
-    -58.3889
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
-   "rooms": 207,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01455": {
-   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5883,
-    -58.3862
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0_0928.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v16828211": {
-   "n": "Sofitel Buenos Aires Recoleta",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5896,
-    -58.3841
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0_1001.webp",
-   "rooms": 175,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00641": {
-   "n": "Four Seasons Hotel Buenos Aires",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5899,
-    -58.3824
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94_1003.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01876": {
-   "n": "THE DOLLI® at Acropolis, A Hotel to Live®",
-   "house": null,
-   "aff": null,
-   "city": "Athens",
-   "country": "Greece",
-   "ll": [
-    37.9758,
-    23.7281
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16877378_2_0.webp",
-   "rooms": 46,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01362": {
-   "n": "NEW Hotel, a Member of Design Hotels, Athens",
-   "house": null,
-   "aff": null,
-   "city": "Athens",
-   "country": "Greece",
-   "ll": [
-    37.9734,
-    23.7337
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16158625_2_0.webp",
-   "rooms": 79,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00867": {
-   "n": "Hotel Grande Bretagne, a Luxury Collection Hotel, Athens",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Athens",
-   "country": "Greece",
-   "ll": [
-    37.9762,
-    23.7353
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4377_2_0_1009.webp",
-   "rooms": 320,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
-  "h_01073": {
-   "n": "King George, a Luxury Collection Hotel, Athens",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Athens",
-   "country": "Greece",
-   "ll": [
-    37.9763,
-    23.7349
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13072676_2_0_1009.webp",
-   "rooms": 102,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
   "h_00141": {
    "n": "Arakur Ushuaia Resort & Spa",
    "house": null,
@@ -641,6 +147,82 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_02037": {
+   "n": "The Legian Seminyak, Bali",
+   "house": null,
+   "aff": null,
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.68414,
+    115.159
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16636575_2_0.webp",
+   "rooms": 80,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00125": {
+   "n": "Andaz Bali",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.69948,
+    115.264
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16597012_2_0_1003.webp",
+   "rooms": 149,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01562": {
+   "n": "Desa Potato Head Bali",
+   "house": null,
+   "aff": null,
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.67908,
+    115.151
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15803682_2_0.webp",
+   "rooms": 88,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02076": {
+   "n": "The Oberoi, Bali",
+   "house": "The Oberoi Group",
+   "aff": null,
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.69201,
+    115.158
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3742_2_0.webp",
+   "rooms": 74,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
   },
   "h_01293": {
    "n": "Mashpi Lodge",
@@ -793,6 +375,82 @@
     "Early check-in"
    ],
    "promo": 1
+  },
+  "h_00055": {
+   "n": "Alvear Palace Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5876,
+    -58.3889
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
+   "rooms": 207,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01455": {
+   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5883,
+    -58.3862
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v16828211": {
+   "n": "Sofitel Buenos Aires Recoleta",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5896,
+    -58.3841
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0_1001.webp",
+   "rooms": 175,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00641": {
+   "n": "Four Seasons Hotel Buenos Aires",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5899,
+    -58.3824
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94_1003.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_01553": {
    "n": "Pikaia Lodge",
@@ -1047,7 +705,7 @@
     8.97972,
     -79.5244
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0.webp",
    "rooms": 127,
    "perks": [
     "Daily breakfast",
@@ -1170,6 +828,120 @@
    ],
    "promo": 0
   },
+  "h_01876": {
+   "n": "THE DOLLI® at Acropolis, A Hotel to Live®",
+   "house": null,
+   "aff": null,
+   "city": "Athens",
+   "country": "Greece",
+   "ll": [
+    37.9758,
+    23.7281
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16877378_2_0.webp",
+   "rooms": 46,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01362": {
+   "n": "NEW Hotel, a Member of Design Hotels, Athens",
+   "house": null,
+   "aff": null,
+   "city": "Athens",
+   "country": "Greece",
+   "ll": [
+    37.9734,
+    23.7337
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16158625_2_0.webp",
+   "rooms": 79,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00867": {
+   "n": "Hotel Grande Bretagne, a Luxury Collection Hotel, Athens",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Athens",
+   "country": "Greece",
+   "ll": [
+    37.9762,
+    23.7353
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4377_2_0_1009.webp",
+   "rooms": 320,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 1
+  },
+  "h_01073": {
+   "n": "King George, a Luxury Collection Hotel, Athens",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Athens",
+   "country": "Greece",
+   "ll": [
+    37.9763,
+    23.7349
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13072676_2_0_1009.webp",
+   "rooms": 102,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01912": {
+   "n": "The Brando",
+   "house": null,
+   "aff": null,
+   "city": "Arue",
+   "country": "French Polynesia",
+   "ll": [
+    -17.5332,
+    -149.512
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14408912_2_43.webp",
+   "rooms": 36,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Early check-in"
+   ],
+   "promo": 1
+  },
+  "h_01811": {
+   "n": "Sofitel Kia Ora Moorea Beach Resort",
+   "house": "Accor",
+   "aff": null,
+   "city": "Moorea",
+   "country": "French Polynesia",
+   "ll": [
+    -17.4831,
+    -149.798
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395455_2_0_1001.webp",
+   "rooms": 113,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
   "h_00937": {
    "n": "Hotel del Parque",
    "house": null,
@@ -1256,7 +1028,7 @@
     -33.416,
     -70.5952
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4136_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4136_2_0.webp",
    "rooms": 205,
    "perks": [
     "Daily breakfast",
@@ -1353,6 +1125,82 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18117848_2_0.webp",
    "rooms": 465,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01598": {
+   "n": "Raffles Singapore",
+   "house": "Accor",
+   "aff": null,
+   "city": "Singapore",
+   "country": "Singapore",
+   "ll": [
+    1.29489,
+    103.854
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4066_2_0_0930.webp",
+   "rooms": 115,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_v16675647": {
+   "n": "Fairmont Singapore South Tower",
+   "house": null,
+   "aff": null,
+   "city": "Singapore",
+   "country": "Singapore",
+   "ll": [
+    1.2934,
+    103.853
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16667940_2_1.webp",
+   "rooms": 450,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01280": {
+   "n": "Mandarin Oriental, Singapore",
+   "house": "Mandarin Oriental",
+   "aff": null,
+   "city": "Singapore",
+   "country": "Singapore",
+   "ll": [
+    1.2906,
+    103.858
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6147630_2_0.webp",
+   "rooms": 510,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02189": {
+   "n": "The Ritz-Carlton, Millenia Singapore",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Singapore",
+   "country": "Singapore",
+   "ll": [
+    1.29084,
+    103.86
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3812_2_0.webp",
+   "rooms": 608,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -1505,6 +1353,44 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16625139_2_0.webp",
    "rooms": 25,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v16336359": {
+   "n": "Shangri-La The Marina Cairns",
+   "house": null,
+   "aff": null,
+   "city": "Cairns",
+   "country": "Australia",
+   "ll": [
+    -16.9209,
+    145.78
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16332828_2_0_1001.webp",
+   "rooms": 255,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_v16298570": {
+   "n": "The Reef House Adults Retreat",
+   "house": null,
+   "aff": null,
+   "city": "Cairns",
+   "country": "Australia",
+   "ll": [
+    -16.745,
+    145.671
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16298565_2_0_1001.webp",
+   "rooms": 67,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -2530,6 +2416,82 @@
    ],
    "promo": 0
   },
+  "h_v16768337": {
+   "n": "Torel Palace Lisbon",
+   "house": null,
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7185,
+    -9.14013
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16767555_2_0_1007.webp",
+   "rooms": 33,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01456": {
+   "n": "Palacio Ludovice Wine Experience Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7143,
+    -9.14414
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930052_2_0_1002.webp",
+   "rooms": 61,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01564": {
+   "n": "Pousada de Lisboa - Praca do Comercio",
+   "house": null,
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7082,
+    -9.13785
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15469516_2_0.webp",
+   "rooms": 90,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02007": {
+   "n": "The Ivens, Autograph Collection",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7097,
+    -9.14033
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16895775_2_0.webp",
+   "rooms": 86,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 0
+  },
   "h_01428": {
    "n": "One&Only Palmilla",
    "house": "One&Only Resorts",
@@ -2578,7 +2540,7 @@
     23.0694,
     -109.64768
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15802913_2_0_0926.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15802913_2_0.webp",
    "rooms": 113,
    "perks": [
     "Daily breakfast",
@@ -3091,7 +3053,7 @@
     47.6054,
     -122.331
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16328231_2_15_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16328231_2_15.webp",
    "rooms": 189,
    "perks": [
     "Daily breakfast",
@@ -3159,7 +3121,7 @@
     64.15,
     -21.9361
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235979_2_1_0926.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235979_2_1.webp",
    "rooms": 253,
    "perks": [
     "Daily breakfast",
@@ -3520,7 +3482,7 @@
     49.2834,
     -123.119
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/9889788_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/9889788_2_0.webp",
    "rooms": 156,
    "perks": [
     "Daily breakfast",
@@ -4185,7 +4147,7 @@
     37.7761,
     -25.3104
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16874068_2_0_0926.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16874068_2_0.webp",
    "rooms": 55,
    "perks": [
     "Daily breakfast",
@@ -4638,6 +4600,44 @@
    ],
    "promo": 0
   },
+  "h_02500": {
+   "n": "the Nines, a Luxury Collection Hotel, Portland",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Portland",
+   "country": "United States",
+   "ll": [
+    45.5189,
+    -122.678
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/213002_2_0_1003.webp",
+   "rooms": 331,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02196": {
+   "n": "The Ritz-Carlton, Portland",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Portland",
+   "country": "United States",
+   "ll": [
+    45.5211,
+    -122.681
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17901793_2_0_1004.webp",
+   "rooms": 251,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_02108": {
    "n": "The Peninsula Istanbul",
    "house": "The Peninsula",
@@ -4667,7 +4667,7 @@
     41.0402,
     28.9926
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3823_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3823_2_0.webp",
    "rooms": 239,
    "perks": [
     "Daily breakfast",
@@ -4857,7 +4857,7 @@
     22.2781,
     114.16
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16249505_2_0_0926.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16249505_2_0.webp",
    "rooms": 336,
    "perks": [
     "Daily breakfast",
@@ -5218,7 +5218,7 @@
     44.3279,
     9.2151
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4458_2_16_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4458_2_16.webp",
    "rooms": 70,
    "perks": [
     "Daily breakfast",
@@ -5294,7 +5294,7 @@
     48.6332,
     -2.05187
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17903420_2_0_0926.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17903420_2_0.webp",
    "rooms": 86,
    "perks": [
     "Daily breakfast",
@@ -5332,7 +5332,7 @@
     37.6081,
     24.2721
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16568520_2_0_0926.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16568520_2_0.webp",
    "rooms": 71,
    "perks": [
     "Daily breakfast",
@@ -5514,182 +5514,6 @@
   }
  },
  "GATES": {
-  "Portland, OR, United States": {
-   "n": "Portland, OR, United States",
-   "ll": [
-    45.4691,
-    -122.553
-   ],
-   "h": [
-    [
-     "h_02500",
-     11.2
-    ],
-    [
-     "h_02196",
-     11.5
-    ]
-   ]
-  },
-  "Denpasar, Indonesia": {
-   "n": "Denpasar, Indonesia",
-   "ll": [
-    -8.65,
-    115.217
-   ],
-   "h": [
-    [
-     "h_02037",
-     7.4
-    ],
-    [
-     "h_00125",
-     7.5
-    ],
-    [
-     "h_01562",
-     7.9
-    ],
-    [
-     "h_02076",
-     8
-    ]
-   ]
-  },
-  "Singapore, Singapore": {
-   "n": "Singapore, Singapore",
-   "ll": [
-    1.2931,
-    103.856
-   ],
-   "h": [
-    [
-     "h_01598",
-     0.3
-    ],
-    [
-     "h_v16675647",
-     0.3
-    ],
-    [
-     "h_01280",
-     0.4
-    ],
-    [
-     "h_02189",
-     0.5
-    ]
-   ]
-  },
-  "Papeete, French Polynesia": {
-   "n": "Papeete, French Polynesia",
-   "ll": [
-    -17.5333,
-    -149.567
-   ],
-   "h": [
-    [
-     "h_01912",
-     5.8
-    ],
-    [
-     "h_01811",
-     25.1
-    ]
-   ]
-  },
-  "Cairns, Australia": {
-   "n": "Cairns, Australia",
-   "ll": [
-    -16.9167,
-    145.767
-   ],
-   "h": [
-    [
-     "h_v16336359",
-     1.5
-    ],
-    [
-     "h_v16298570",
-     21.7
-    ]
-   ]
-  },
-  "Lisbon, Portugal": {
-   "n": "Lisbon, Portugal",
-   "ll": [
-    38.7167,
-    -9.1333
-   ],
-   "h": [
-    [
-     "h_v16768337",
-     0.6
-    ],
-    [
-     "h_01456",
-     1
-    ],
-    [
-     "h_01564",
-     1
-    ],
-    [
-     "h_02007",
-     1
-    ]
-   ]
-  },
-  "Buenos Aires, Argentina": {
-   "n": "Buenos Aires, Argentina",
-   "ll": [
-    -34.5875,
-    -58.6725
-   ],
-   "h": [
-    [
-     "h_00055",
-     26
-    ],
-    [
-     "h_01455",
-     26.2
-    ],
-    [
-     "h_v16828211",
-     26.4
-    ],
-    [
-     "h_00641",
-     26.6
-    ]
-   ]
-  },
-  "Piraeus, Greece": {
-   "n": "Piraeus, Greece",
-   "ll": [
-    37.9614,
-    23.6389
-   ],
-   "h": [
-    [
-     "h_01876",
-     8
-    ],
-    [
-     "h_01362",
-     8.4
-    ],
-    [
-     "h_00867",
-     8.6
-    ],
-    [
-     "h_01073",
-     8.6
-    ]
-   ]
-  },
   "Ushuaia, Argentina": {
    "n": "Ushuaia, Argentina",
    "ll": [
@@ -5742,6 +5566,31 @@
     [
      "h_00856",
      11.5
+    ]
+   ]
+  },
+  "Denpasar, Indonesia": {
+   "n": "Denpasar, Indonesia",
+   "ll": [
+    -8.65,
+    115.217
+   ],
+   "h": [
+    [
+     "h_02037",
+     7.4
+    ],
+    [
+     "h_00125",
+     7.5
+    ],
+    [
+     "h_01562",
+     7.9
+    ],
+    [
+     "h_02076",
+     8
     ]
    ]
   },
@@ -5801,6 +5650,31 @@
     [
      "h_01124",
      28.8
+    ]
+   ]
+  },
+  "Buenos Aires, Argentina": {
+   "n": "Buenos Aires, Argentina",
+   "ll": [
+    -34.5875,
+    -58.6725
+   ],
+   "h": [
+    [
+     "h_00055",
+     26
+    ],
+    [
+     "h_01455",
+     26.2
+    ],
+    [
+     "h_v16828211",
+     26.4
+    ],
+    [
+     "h_00641",
+     26.6
     ]
    ]
   },
@@ -5959,6 +5833,48 @@
     ]
    ]
   },
+  "Piraeus, Greece": {
+   "n": "Piraeus, Greece",
+   "ll": [
+    37.9614,
+    23.6389
+   ],
+   "h": [
+    [
+     "h_01876",
+     8
+    ],
+    [
+     "h_01362",
+     8.4
+    ],
+    [
+     "h_00867",
+     8.6
+    ],
+    [
+     "h_01073",
+     8.6
+    ]
+   ]
+  },
+  "Papeete, French Polynesia": {
+   "n": "Papeete, French Polynesia",
+   "ll": [
+    -17.5333,
+    -149.567
+   ],
+   "h": [
+    [
+     "h_01912",
+     5.8
+    ],
+    [
+     "h_01811",
+     25.1
+    ]
+   ]
+  },
   "Guayaquil, Ecuador": {
    "n": "Guayaquil, Ecuador",
    "ll": [
@@ -6035,6 +5951,31 @@
     ]
    ]
   },
+  "Singapore, Singapore": {
+   "n": "Singapore, Singapore",
+   "ll": [
+    1.2931,
+    103.856
+   ],
+   "h": [
+    [
+     "h_01598",
+     0.3
+    ],
+    [
+     "h_v16675647",
+     0.3
+    ],
+    [
+     "h_01280",
+     0.4
+    ],
+    [
+     "h_02189",
+     0.5
+    ]
+   ]
+  },
   "Helsinki, Finland": {
    "n": "Helsinki, Finland",
    "ll": [
@@ -6100,6 +6041,23 @@
     [
      "h_02129",
      38.8
+    ]
+   ]
+  },
+  "Cairns, Australia": {
+   "n": "Cairns, Australia",
+   "ll": [
+    -16.9167,
+    145.767
+   ],
+   "h": [
+    [
+     "h_v16336359",
+     1.5
+    ],
+    [
+     "h_v16298570",
+     21.7
     ]
    ]
   },
@@ -6516,6 +6474,31 @@
     [
      "h_v16149147",
      11
+    ]
+   ]
+  },
+  "Lisbon, Portugal": {
+   "n": "Lisbon, Portugal",
+   "ll": [
+    38.7167,
+    -9.1333
+   ],
+   "h": [
+    [
+     "h_v16768337",
+     0.6
+    ],
+    [
+     "h_01456",
+     1
+    ],
+    [
+     "h_01564",
+     1
+    ],
+    [
+     "h_02007",
+     1
     ]
    ]
   },
@@ -7371,6 +7354,23 @@
     [
      "h_01334",
      1.3
+    ]
+   ]
+  },
+  "Portland, OR, United States": {
+   "n": "Portland, OR, United States",
+   "ll": [
+    45.4691,
+    -122.553
+   ],
+   "h": [
+    [
+     "h_02500",
+     11.2
+    ],
+    [
+     "h_02196",
+     11.5
     ]
    ]
   },
@@ -8705,10 +8705,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
-  "16872156": {
-   "pre": "Denpasar, Indonesia",
-   "post": "Singapore, Singapore"
-  },
   "16875636": {
    "pre": "Santiago, Chile",
    "post": "Santiago, Chile"
@@ -8965,10 +8961,6 @@
    "pre": "Cairns, Australia",
    "post": null
   },
-  "16918985": {
-   "pre": "Lisbon, Portugal",
-   "post": "Buenos Aires, Argentina"
-  },
   "16918986": {
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
@@ -9064,10 +9056,6 @@
   "18047391": {
    "pre": "Helsinki, Finland",
    "post": null
-  },
-  "18048756": {
-   "pre": null,
-   "post": "Portland, OR, United States"
   },
   "18048757": {
    "pre": "Buenos Aires, Argentina",
@@ -9665,10 +9653,6 @@
    "pre": "Puerto Natales, Chile",
    "post": "Buenos Aires, Argentina"
   },
-  "18065084": {
-   "pre": "Piraeus, Greece",
-   "post": "Piraeus, Greece"
-  },
   "18067521": {
    "pre": "Piraeus, Greece",
    "post": "Piraeus, Greece"
@@ -9811,10 +9795,6 @@
   },
   "18091634": {
    "pre": "Victoria, Seychelles",
-   "post": null
-  },
-  "18091639": {
-   "pre": "Cairns, Australia",
    "post": null
   },
   "18091647": {
@@ -15794,10 +15774,6 @@
    "post": "Papeete, French Polynesia"
   },
   "18486227": {
-   "pre": "Papeete, French Polynesia",
-   "post": "Papeete, French Polynesia"
-  },
-  "18486231": {
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
   },

@@ -5,9 +5,9 @@
   "atlas": "train",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 107,
-  "journeysWithStays": 103,
-  "journeysWithHouse": 49,
+  "journeysTotal": 106,
+  "journeysWithStays": 102,
+  "journeysWithHouse": 48,
   "gateways": 45,
   "hotels": 154,
   "houses": [
@@ -408,7 +408,7 @@
     46.4437,
     6.88456
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15286673_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15286673_2_0.webp",
    "rooms": 38,
    "perks": [
     "Daily breakfast",
@@ -655,7 +655,7 @@
     38.7082,
     -9.13785
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15469516_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15469516_2_0.webp",
    "rooms": 90,
    "perks": [
     "Daily breakfast",
@@ -674,7 +674,7 @@
     38.7097,
     -9.14033
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16895775_2_0_0926.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16895775_2_0.webp",
    "rooms": 86,
    "perks": [
     "Daily breakfast",
@@ -731,7 +731,7 @@
     49.2834,
     -123.119
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/9889788_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/9889788_2_0.webp",
    "rooms": 156,
    "perks": [
     "Daily breakfast",
@@ -1259,7 +1259,7 @@
     41.0402,
     28.9926
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3823_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3823_2_0.webp",
    "rooms": 239,
    "perks": [
     "Daily breakfast",
@@ -4241,11 +4241,6 @@
   "18535397": {
    "pre": "Venice",
    "post": "Paris",
-   "house": "Belmond"
-  },
-  "18535429": {
-   "pre": "Paris",
-   "post": "Florence",
    "house": "Belmond"
   },
   "18535436": {
