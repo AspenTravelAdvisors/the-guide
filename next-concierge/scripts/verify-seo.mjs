@@ -79,7 +79,10 @@ const collections = Object.fromEntries(
 const journeyFacts = fs.existsSync(path.join(repoRoot, 'data/atlas/shared/journey-facts.json'))
   ? read('data/atlas/shared/journey-facts.json')
   : { rows: [] };
-const facts = makeFacts(hotels, collections, journeyFacts.rows);
+// The villas as the site normalises them, so a price term reads the same
+// published rate a villa card shows.
+const { loadVillas } = require('../lib/villas.js');
+const facts = makeFacts(hotels, collections, journeyFacts.rows, loadVillas().villas);
 
 // ── the answers, via the module list lib/answers.js actually imports ────────
 const registrySrc = fs.readFileSync(path.join(repoRoot, 'lib/answers.js'), 'utf8');
@@ -134,6 +137,14 @@ for (const a of answers) {
     const spec = body.slice(body.indexOf(':') + 1).trim();
     if (facts.countJourneys(spec) === 0) {
       fail(a.slug, `{{${body}}} matches no itinerary — a typo, or an operator the feed no longer carries`);
+    }
+  }
+  // And the villa feed. (`villaFrom:` needs no line here: it throws on an empty
+  // match, which the resolve above already reports.)
+  for (const [, body] of JSON.stringify(a).matchAll(/\{\{(villas:[^}]+)\}\}/g)) {
+    const spec = body.slice('villas:'.length).trim();
+    if (facts.countVillas(spec) === 0) {
+      fail(a.slug, `{{${body}}} matches no villa — a typo, or a destination the feed no longer carries`);
     }
   }
 }
@@ -233,6 +244,10 @@ const JOURNEYS = {
 
 let journeyPages = 0;
 let journeyDepartures = 0;
+// Kept for the answer-link check below, which needs the real page slugs and
+// the real cruise offerings rather than a second derivation of either.
+const journeySlugs = new Map();
+let cruiseOfferings = [];
 const artifactByCollection = new Map();
 for (const row of journeyFacts.rows || []) {
   artifactByCollection.set(row.c, [...(artifactByCollection.get(row.c) || []), row]);
@@ -240,6 +255,7 @@ for (const row of journeyFacts.rows || []) {
 
 for (const [collection, adapt] of Object.entries(JOURNEYS)) {
   const offerings = adapt();
+  if (collection === 'cruise') cruiseOfferings = offerings;
   // The SHARED grouping rule, not a transcription of it. This script used to
   // carry its own copy of the key and the slug tie-break, which is a verifier
   // that can pass while the thing it verifies is broken.
@@ -249,6 +265,7 @@ for (const [collection, adapt] of Object.entries(JOURNEYS)) {
   journeyDepartures += offerings.length;
 
   const taken = new Set();
+  journeySlugs.set(collection, taken);
   for (const g of groups) {
     if (taken.has(g.slug)) {
       fail('journey-urls', `two itineraries resolve to /journeys/${collection}/${g.slug} after the id tiebreak`);
@@ -346,6 +363,73 @@ for (const a of answers) {
   }
 }
 ok();
+
+/*
+ * ...and every other related link too, not only the hubs.
+ *
+ * An /answers/<slug> typo, an itinerary page the feed has since dropped, or an
+ * atlas filter naming a ship the feed spells differently all render as a
+ * perfectly good link. The first two 404; the third is worse, because the
+ * atlas opens fine and shows nothing — the deep-link parser drops values it
+ * cannot resolve, and a ship it can resolve may still match no sailing. So
+ * cruise atlas links are parsed with the atlas's own parser and run through
+ * its own filter, and every value in them must survive the parse.
+ */
+const { parseDeepLink } = await import(pathToFileURL(path.join(ADAPTERS, 'adapters', 'params.js')).href);
+const { matchesOffering } = await import(pathToFileURL(path.join(ADAPTERS, 'adapters', 'filter.js')).href);
+const { CRUISE_DESCRIPTOR } = await import(adapterUrl('cruise'));
+const cruiseCtx = {
+  brands: [...new Set(cruiseOfferings.map(o => o.operator).filter(Boolean))].map(k => ({ key: k, short: k })),
+  regions: [...new Set(cruiseOfferings.flatMap(o => o.regions))].map(k => ({ key: k, name: k })),
+  stopNames: [...new Set(cruiseOfferings.flatMap(o => o.stops.map(st => st.name)))],
+};
+const today = new Date().toISOString().slice(0, 10);
+const answerSlugs = new Set(answers.map(a => a.slug));
+const atlasTypes = new Set(Object.keys(COLLECTION_SOURCES));
+const STATIC_PAGES = new Set(['/', '/answers', '/hotels', '/villas', '/journeys', '/bucket-list', '/atlas/villa']);
+const listOf = v => String(v ?? '').split(',').map(x => x.trim()).filter(Boolean);
+
+function relatedLinkProblem(href) {
+  const [pathname, query = ''] = href.split('?');
+  if (STATIC_PAGES.has(pathname)) return null;
+  let m;
+  if ((m = /^\/answers\/([^/]+)$/.exec(pathname))) {
+    return answerSlugs.has(m[1]) ? null : 'an answer that does not exist';
+  }
+  if ((m = /^\/journeys\/([^/]+)\/([^/]+)$/.exec(pathname))) {
+    return journeySlugs.get(m[1])?.has(m[2]) ? null : 'an itinerary page the feed does not build';
+  }
+  if ((m = /^\/hotels\/([^/]+)\/([^/]+)$/.exec(pathname))) {
+    return seen.has(`${m[1]}/${m[2]}`) ? null : 'a hotel page that does not exist';
+  }
+  if (/^\/(hotels|journeys|villas)\/[^/]+$/.test(pathname)) return null; // the hub check above
+  if ((m = /^\/atlas\/([^/]+)\/?$/.exec(pathname))) {
+    if (!atlasTypes.has(m[1])) return 'an atlas that does not exist';
+    if (m[1] !== 'cruise' || !query) return null;
+    const params = new URLSearchParams(query);
+    const { state } = parseDeepLink(params, CRUISE_DESCRIPTOR, cruiseCtx);
+    const asked = {
+      operator: listOf(params.get('operator')).length,
+      regions: listOf(params.get('regions') || params.get('region')).length,
+    };
+    if (state.brands.size !== asked.operator) return 'an operator the cruise atlas does not recognise';
+    if (state.regions.size !== asked.regions) return 'a region the cruise atlas does not recognise';
+    for (const ship of state.vessels) {
+      if (!cruiseOfferings.some(o => o.vessel === ship)) return `a ship ("${ship}") that matches no sailing`;
+    }
+    const n = cruiseOfferings.filter(o => matchesOffering(o, state, CRUISE_DESCRIPTOR, today)).length;
+    return n ? null : 'an atlas view with no sailings in it';
+  }
+  return 'a route this check does not know — add it here if it is real';
+}
+
+for (const a of answers) {
+  for (const r of a.related || []) {
+    ok();
+    const why = relatedLinkProblem(r.href || '');
+    if (why) fail(a.slug, `related link ${r.href} points at ${why}`);
+  }
+}
 
 // ── 7. every answer's category can actually appear ──────────────────────────
 /*

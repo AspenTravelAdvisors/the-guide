@@ -1,8 +1,8 @@
 // Answer pages — cross-category: advisors, world cruises, trains, yachts.
-// Counts cited were computed from data/atlas/world|train|yacht/itinerary.json
-// and the hotel/cruise atlases on the `updated` date.
+// Counts are `{{…}}` tokens resolved from the shipped feeds at render (see
+// lib/seo/facts.mjs); line lists and prices are prose, current as of `updated`.
 
-const UPDATED = "2026-07-21";
+const UPDATED = "2026-10-25";
 
 export const journeyAnswers = [
   {
@@ -11,7 +11,7 @@ export const journeyAnswers = [
     question: "Do travel advisors cost more than booking it yourself?",
     title: "Do Travel Advisors Cost More Than Booking Yourself?",
     description:
-      "How travel advisors are paid, when they cost nothing extra, when fees apply, and the benefit math at 2,500 luxury hotels — an honest answer to the most-asked question in luxury travel.",
+      "How travel advisors are paid, when they cost nothing extra, when fees apply, and the benefit math at {{collection:hotel}} luxury hotels — an honest answer to the most-asked question in luxury travel.",
     updated: UPDATED,
     capsule:
       "No. For luxury hotels, cruises and villas you pay the same published rate, the supplier pays the advisor a commission out of its marketing budget, and the advisor's programs add benefits on top — upgrade priority, daily breakfast and property credits typically worth $100 or more a night. Complex custom itineraries are the exception, where a planning fee is normal.",
@@ -79,12 +79,12 @@ export const journeyAnswers = [
     question: "World cruises compared: which lines, what they cost, and how far ahead to book?",
     title: "World Cruises Compared — Lines, Costs, and Booking Windows",
     description:
-      "The 250 world cruise and grand voyage departures we track across 13 lines — Regent, Silversea, Seabourn, Crystal, Oceania, Viking, Cunard and more — with realistic pricing and the 12–24 month booking reality.",
+      "The {{departures:collection=worldcruise}} world cruise and grand voyage departures we track across 12 lines — Regent, Silversea, Seabourn, Crystal, Oceania, Viking, Cunard and more — with realistic pricing and the 12–24 month booking reality.",
     updated: UPDATED,
     capsule:
       "A full circumnavigation runs 110–180 days and is sold by roughly a dozen lines, from Princess and Holland America at the accessible end through Viking and Oceania in the middle to Regent, Silversea, Seabourn and Crystal at the top. Most guests sail a 15–60 day segment instead. Book 18–24 months ahead; the best cabins go at launch.",
     answer: [
-      "Our world-cruise atlas currently tracks {{collection:worldcruise}} world cruises and grand voyages across 13 lines — Oceania, Azamara, Regent, Viking, Crystal, Silversea, Seabourn, Holland America, Princess, Explora, Cunard, Windstar and Lindblad. Full circumnavigations run roughly 110–180 days (the current longest in our data: Oceania Vista's 245-day Epic Global Adventure); most lines also sell them in 15–60 day segments, which is how the majority of guests actually experience them.",
+      "Our world-cruise atlas currently tracks {{collection:worldcruise}} world cruises and grand voyages across 12 lines — Oceania, Azamara, Regent, Viking, Crystal, Silversea, Seabourn, Holland America, Princess, Explora, Cunard and Windstar. Full circumnavigations run roughly 110–180 days (the current longest in our data: Oceania Vista's 245-day Epic Global Adventure); most lines also sell them in 15–60 day segments, which is how the majority of guests actually experience them.",
       "Money, honestly: entry-level full world cruises start around $40,000–$60,000 per person (Princess, Holland America, mainstream Cunard cabins); the premium tier (Oceania, Viking, Azamara) runs roughly $60,000–$100,000; and the luxury all-inclusives (Regent, Silversea, Seabourn, Crystal, Explora) begin near $100,000 and climb past $400,000 in top suites. Book 12–24 months out — the best cabins on marquee sailings sell on opening day, with past-guest waitlists ahead of you.",
     ],
     sections: [
@@ -140,7 +140,7 @@ export const journeyAnswers = [
     question: "What are the best luxury train journeys in the world?",
     title: "The Best Luxury Train Journeys in the World, Ranked",
     description:
-      "The great sleeper trains ranked and compared — Venice Simplon-Orient-Express, La Dolce Vita, Belmond's Scotland and Peru trains, Rocky Mountaineer and Asia's classics — from 135 tracked rail journeys.",
+      "The great sleeper trains ranked and compared — Venice Simplon-Orient-Express, La Dolce Vita, Belmond's Scotland and Peru trains, Rocky Mountaineer and Asia's classics — from {{journeys:collection=train}} tracked rail journeys.",
     updated: UPDATED,
     capsule:
       "The luxury rail canon: the Venice Simplon-Orient-Express for the definitive one-night journey, La Dolce Vita Orient Express for Italy, Belmond's Royal Scotsman for the Highlands and Andean Explorer for Peru, Rovos Rail and the Blue Train in South Africa, Japan's ballot-only Seven Stars and Shiki-shima, and the Glacier Express Excellence Class through the Alps.",

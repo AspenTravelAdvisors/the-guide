@@ -92,6 +92,21 @@ const JOURNEY_TERMS = {
   promo: (j, v) => Boolean(j.p) === (v !== "false"),
 };
 
+/**
+ * And over the villa feed, as lib/villas.js normalises it — so `priceMax` reads
+ * the same published nightly rate a villa card shows, never the base rate
+ * behind it, and a "Call for Pricing" villa has no price to be under.
+ */
+const VILLA_TERMS = {
+  region: (v, x) => fold(v.region) === x,
+  destination: (v, x) => fold(v.destination) === x,
+  location: (v, x) => fold(v.location) === x,
+  name: (v, x) => fold(v.name) === x,
+  sleepsMin: (v, x) => Number.isFinite(v.sleeps) && v.sleeps >= Number(x),
+  priceMax: (v, x) => Number.isFinite(v.nightlyFromUsd) && v.nightlyFromUsd <= Number(x),
+  priced: (v, x) => Number.isFinite(v.nightlyFromUsd) === (x !== "false"),
+};
+
 export class UnknownFactTerm extends Error {}
 
 /**
@@ -151,9 +166,10 @@ const SORTS = {
  * audit-listings.mjs already gates against lib/atlas-config.ts, so a token and
  * the home-page headline cannot drift apart either.
  */
-export function makeFacts(hotels, collections = {}, journeys = []) {
+export function makeFacts(hotels, collections = {}, journeys = [], villas = []) {
   const rows = Array.isArray(hotels) ? hotels : [];
   const journeyRows = Array.isArray(journeys) ? journeys : [];
+  const villaRows = Array.isArray(villas) ? villas : [];
 
   function select(spec, { limit = 0, sort = "name" } = {}) {
     const match = parseSpec(spec);
@@ -188,11 +204,30 @@ export function makeFacts(hotels, collections = {}, journeys = []) {
   const countDepartures = (spec) =>
     journeyRows.filter(parseSpec(spec, JOURNEY_TERMS)).reduce((n, j) => n + j.n, 0);
 
+  const countVillas = (spec) => villaRows.filter(parseSpec(spec, VILLA_TERMS)).length;
+
+  /**
+   * The lowest published nightly rate among the matching villas. Throws when
+   * none match — which is the point when the spec names one villa: a villa
+   * the copy recommends that has left the feed fails the build instead of
+   * staying on the page at last season's price.
+   */
+  function villaFrom(spec) {
+    const rates = villaRows
+      .filter(parseSpec(spec, VILLA_TERMS))
+      .map((v) => v.nightlyFromUsd)
+      .filter(Number.isFinite);
+    if (!rates.length) throw new UnknownFactTerm(`no priced villa matches "${spec}"`);
+    return `$${nf.format(Math.round(Math.min(...rates)))}`;
+  }
+
   /**
    * Replace every `{{…}}` token in a string.
    *
    *   {{hotels:program=Marriott STARS}}   the count matching a spec
    *   {{collection:cruise}}               a collection's shipped total
+   *   {{villas:region=Caribbean&sleepsMin=12}}   villas matching a spec
+   *   {{villaFrom:name=Loblolly}}         lowest published nightly rate, "$728"
    *
    * An unresolvable token throws. The alternative — leaving `{{…}}` in the
    * rendered HTML — publishes the template to the crawler that was supposed to
@@ -212,6 +247,8 @@ export function makeFacts(hotels, collections = {}, journeys = []) {
       // kind of near-miss that makes a page look wrong to someone checking.
       if (kind === "journeys") return nf.format(countJourneys(arg));
       if (kind === "departures") return nf.format(countDepartures(arg));
+      if (kind === "villas") return nf.format(countVillas(arg));
+      if (kind === "villaFrom") return villaFrom(arg);
       if (kind === "collection") {
         const n = collections[arg];
         if (!Number.isFinite(n)) {
@@ -237,7 +274,7 @@ export function makeFacts(hotels, collections = {}, journeys = []) {
 
   return {
     count, select, resolve, resolveDeep,
-    countJourneys, countDepartures, selectJourneys,
+    countJourneys, countDepartures, selectJourneys, countVillas, villaFrom,
     total: rows.length,
     totalJourneys: journeyRows.length,
   };

@@ -1,8 +1,11 @@
-// Answer pages — villas. All figures queried directly from
-// data/villas-of-distinction.json (3,902 villas) on the `updated` date;
-// nightly rates are supplier from-rates in USD and move with season.
+// Answer pages — villas. Counts and from-rates are `{{villas:…}}` and
+// `{{villaFrom:…}}` tokens resolved from data/villas-of-distinction.json at
+// render (lib/seo/facts.mjs), reading the published nightly rate a villa card
+// shows. A villa named by `villaFrom:name=…` that leaves the feed fails
+// verify:seo rather than staying on the page. Sleeps and bedroom figures in the
+// tables, and the worked example's ranges, are prose as of `updated`.
 
-const UPDATED = "2026-07-21";
+const UPDATED = "2026-10-25";
 
 export const villaAnswers = [
   {
@@ -11,36 +14,37 @@ export const villaAnswers = [
     question: "What are the best luxury villas in the Caribbean for 12+ guests?",
     title: "Best Caribbean Villas for 12+ Guests",
     description:
-      "371 Caribbean villas sleeping 12 or more, from $458/night — St. Martin, St. Lucia, Barbados, BVI and beyond, with real from-rates and how to choose an island for a big group.",
+      "{{villas:region=Caribbean&sleepsMin=12}} Caribbean villas sleeping 12 or more, from {{villaFrom:region=Caribbean&sleepsMin=12}}/night — Turks & Caicos, the Dominican Republic, Barbados, Jamaica, St. Martin and beyond, with real from-rates and how to choose an island for a big group.",
     updated: UPDATED,
     capsule:
-      "The Caribbean islands with the deepest inventory of villas sleeping 12 or more are St. Martin (the Terres Basses estate zone), Barbados' west coast, St. Lucia's Cap Estate, the Dominican Republic's resort peninsulas and the British Virgin Islands. For a dozen guests a villa routinely costs less per bedroom than two hotel rooms.",
+      "The Caribbean islands with the deepest inventory of villas sleeping 12 or more are Turks & Caicos, the Dominican Republic, Barbados and Jamaica, with St. Barths and St. Martin close behind; St. Martin and Martinique hold the best-priced big houses. For a dozen guests a villa routinely costs less per bedroom than two hotel rooms.",
     answer: [
-      "Our villa atlas currently holds 371 Caribbean villas that sleep 12 or more guests, with from-rates starting under $500 a night — proof that a villa for a dozen people routinely costs less per bedroom than two hotel rooms. The islands with the deepest big-group inventory are St. Martin (especially the Terres Basses estate zone), Barbados' west coast, St. Lucia's Cap Estate, the Dominican Republic's resort peninsulas, and the British Virgin Islands.",
-      "For groups of twelve, the honest starting shortlist from the data: Tamarind Villa in St. Lucia (sleeps 14, 7 bedrooms, from $499/night), La Maison L'Ile in St. Martin (sleeps 12, from $458), Loblolly in the BVI (sleeps 14, from $728), Casabella in Barbados (sleeps 12, from $750), and Alizee in St. Martin, which stretches to 18 guests from $930. All are staffed or serviced, and all book through your advisor with the supplier's concierge included.",
+      "Our villa atlas currently holds {{villas:region=Caribbean&sleepsMin=12}} Caribbean villas that sleep 12 or more guests, with published from-rates starting at {{villaFrom:region=Caribbean&sleepsMin=12}} a night — proof that a villa for a dozen people routinely costs less per bedroom than two hotel rooms. The islands with the deepest big-group inventory are Turks & Caicos ({{villas:destination=Turks %26 Caicos&sleepsMin=12}}), the Dominican Republic ({{villas:destination=Dominican Republic&sleepsMin=12}}), Barbados ({{villas:destination=Barbados&sleepsMin=12}}) and Jamaica ({{villas:destination=Jamaica&sleepsMin=12}}), with St. Barths and St. Martin close behind.",
+      "For groups of twelve, the honest value shortlist from the data: Caribbean Heritage in Martinique (sleeps 12, 5 bedrooms, from {{villaFrom:name=Caribbean Heritage&destination=Martinique}}/night), La Maison L'Ile in St. Martin (sleeps 12, from {{villaFrom:name=La Maison L'Ile&destination=St. Martin}}), Colibri Cottage in St. Lucia (sleeps 12, from {{villaFrom:name=Colibri Cottage&destination=St. Lucia}}), Loblolly in the BVI (sleeps 14, from {{villaFrom:name=Loblolly&destination=British Virgin Islands}}), Casabella in Barbados (sleeps 12, from {{villaFrom:name=Casabella&destination=Barbados}}), and Alizee in St. Martin, which stretches to 18 guests from {{villaFrom:name=Alizee&destination=St. Martin}}. All are staffed or serviced, and all book through your advisor with the supplier's concierge included.",
     ],
     sections: [
       {
         h2: "The value math nobody runs",
         paras: [
-          "Twelve guests at a luxury Caribbean resort means six rooms at $800–$1,500 each in season — $4,800–$9,000 a night before breakfast. The villas above land between $458 and $1,000 a night total, with full kitchens, pools, and the option of a private chef at roughly $150–$300 a day plus groceries. Even tripling the villa budget for a marquee estate leaves margin for a chef, a boat day and a driver.",
+          "Twelve guests at a luxury Caribbean resort means six rooms at $800–$1,500 each in season — $4,800–$9,000 a night before breakfast. The villas above land between {{villaFrom:name=Caribbean Heritage&destination=Martinique}} and about $1,000 a night total, with full kitchens, pools, and the option of a private chef at roughly $150–$300 a day plus groceries. Even tripling the villa budget for a marquee estate leaves margin for a chef, a boat day and a driver.",
           "What you trade: the resort's restaurants-and-towel-boy infrastructure. What you gain: one table big enough for everyone, nobody negotiating pool chairs, and grandparents with their own wing.",
         ],
       },
       {
         h2: "Big-group villas worth knowing, from the atlas",
         table: {
-          caption: "Supplier from-rates (USD/night, whole villa) as of July 2026 — seasonal; holiday weeks price higher.",
+          caption: "Published from-rates (USD/night, whole villa), read live from the supplier feed — seasonal; holiday weeks price higher.",
           columns: ["Villa", "Island", "Sleeps", "Bedrooms", "From"],
           rows: [
-            ["La Maison L'Ile", "St. Martin", "12", "6", "$458"],
-            ["Tamarind Villa (Cap Estate)", "St. Lucia", "14", "7", "$499"],
-            ["Colibri Cottage", "St. Lucia", "12", "6", "$695"],
-            ["Loblolly", "British Virgin Islands", "14", "6", "$728"],
-            ["Casabella", "Barbados", "12", "6", "$750"],
-            ["Villa Nirvana, Terres Basses", "St. Martin", "12", "6", "$885"],
-            ["Alizee", "St. Martin", "18", "7", "$930"],
-            ["Tortuga B19", "Dominican Republic", "12", "5", "$1,000"],
+            ["Caribbean Heritage", "Martinique", "12", "5", "{{villaFrom:name=Caribbean Heritage&destination=Martinique}}"],
+            ["La Maison L'Ile", "St. Martin", "12", "6", "{{villaFrom:name=La Maison L'Ile&destination=St. Martin}}"],
+            ["Colibri Cottage", "St. Lucia", "12", "6", "{{villaFrom:name=Colibri Cottage&destination=St. Lucia}}"],
+            ["Loblolly", "British Virgin Islands", "14", "6", "{{villaFrom:name=Loblolly&destination=British Virgin Islands}}"],
+            ["Casabella", "Barbados", "12", "6", "{{villaFrom:name=Casabella&destination=Barbados}}"],
+            ["Villa Nirvana, Terres Basses", "St. Martin", "12", "6", "{{villaFrom:name=Villa Nirvana - Terres Basses&destination=St. Martin}}"],
+            ["Alizee", "St. Martin", "18", "7", "{{villaFrom:name=Alizee&destination=St. Martin}}"],
+            ["Tortuga B19", "Dominican Republic", "12", "5", "{{villaFrom:name=Tortuga B19&destination=Dominican Republic}}"],
+            ["Coach House at Good Hope", "Jamaica", "14", "7", "{{villaFrom:name=Coach House at Good Hope&destination=Jamaica}}"],
           ],
         },
         paras: [
@@ -50,11 +54,12 @@ export const villaAnswers = [
       {
         h2: "Picking the island for a group of twelve",
         list: [
-          "St. Martin — deepest villa inventory in the region, two nations of restaurants, easy nonstops. Default answer.",
+          "St. Martin — with Martinique, the best-priced big houses in the region; two nations of restaurants, easy nonstops. The default answer for a value-minded group.",
           "Barbados — polished staff culture (most villas come cooked-for), calm west-coast swimming, direct flights from both coasts and London.",
-          "St. Lucia — drama (Pitons, rainforest) at the friendliest big-villa pricing; roads are winding, plan drivers.",
+          "St. Lucia — drama (Pitons, rainforest) at friendly pricing, but only a handful of houses sleep twelve: book early, and plan drivers for the winding roads.",
+          "Dominican Republic / Jamaica — deep big-house inventory: Punta Cana estates (from {{villaFrom:destination=Dominican Republic&sleepsMin=12}} a night) and Montego Bay great houses (from {{villaFrom:destination=Jamaica&sleepsMin=12}}).",
           "BVI — sailing-centric groups; pair the villa with a day-charter catamaran.",
-          "Turks & Caicos / Grand Cayman — the splurge tier: Grace Bay/Seven Mile beachfront estates at $3,000–$28,000/night for milestone events.",
+          "Turks & Caicos / Grand Cayman — the most big houses and the splurge tier: Grace Bay and Seven Mile beachfront estates from {{villaFrom:destination=Turks %26 Caicos&sleepsMin=12}} to well over $20,000 a night, for milestone events.",
         ],
       },
     ],
@@ -73,7 +78,7 @@ export const villaAnswers = [
       },
     ],
     related: [
-      { href: "/atlas/villa", label: "Search all 371 Caribbean 12+ villas on the map" },
+      { href: "/atlas/villa?region=Caribbean&sleeps=12", label: "Search all {{villas:region=Caribbean&sleepsMin=12}} Caribbean 12+ villas on the map" },
       { href: "/villas", label: "Every villa in the atlas, by destination" },
       { href: "/answers/villa-vs-resort-for-a-family-of-10", label: "Villa vs. resort for a family of 10 — the cost math" },
       { href: "/answers/best-villas-under-2000-that-sleep-8", label: "Best villas under $2,000 that sleep 8+" },
@@ -86,27 +91,27 @@ export const villaAnswers = [
     question: "Villa or five-star resort for a family of 10 — which actually costs less?",
     title: "Villa vs. Five-Star Resort for a Family of 10: The Real Cost Math",
     description:
-      "Running the real numbers on a 10-person family trip: five hotel rooms vs. one staffed villa, using live from-rates from 3,902 tracked villas — plus when the resort is still worth it.",
+      "Running the real numbers on a 10-person family trip: five hotel rooms vs. one staffed villa, using live from-rates from {{collection:villa}} tracked villas — plus when the resort is still worth it.",
     updated: UPDATED,
     capsule:
       "For ten people the villa usually wins by a wide margin: five luxury-resort rooms at $700–$1,200 each run $3,500–$6,000 a night, while villas sleeping eight or more are widely available under $2,000 a night in total. Add a private chef at $200–$300 a day and the villa still lands at a third to a half of the resort bill.",
     answer: [
-      "For ten people, the villa usually wins the arithmetic by a wide margin: five luxury-resort rooms at $700–$1,200 each run $3,500–$6,000 a night, while our atlas holds 1,541 villas that sleep eight or more for under $2,000 a night total — hundreds of them under $1,000. Add a private chef (roughly $200–$300/day plus groceries) and the villa still typically lands at a third to a half of the resort bill, with a kitchen, laundry, and no one sleeping on a rollaway.",
+      "For ten people, the villa usually wins the arithmetic by a wide margin: five luxury-resort rooms at $700–$1,200 each run $3,500–$6,000 a night, while our atlas holds {{villas:sleepsMin=8&priceMax=2000}} villas that sleep eight or more for $2,000 a night or less in total — {{villas:sleepsMin=8&priceMax=1000}} of them at $1,000 or less. Add a private chef (roughly $200–$300/day plus groceries) and the villa still typically lands at a third to a half of the resort bill, with a kitchen, laundry, and no one sleeping on a rollaway.",
       "The resort wins on different axes: kids' clubs and instant friends for children, restaurants without decisions, service that materializes without being organized, and — non-trivially — nobody in the family is the de facto innkeeper. The honest answer is usually a split trip: villa for the together-time, two resort nights at the end for the towel-boy decompression.",
     ],
     sections: [
       {
         h2: "The worked example",
         table: {
-          caption: "Seven nights, family of 10, high-season Caribbean, real from-rates from the atlas (July 2026).",
+          caption: "Seven nights, family of 10, high-season Caribbean. The villa column spans the published from-rates of the cheaper half of 6-bedroom Caribbean villas in the atlas, October 2026.",
           columns: ["", "Five-star resort (5 rooms)", "Staffed villa (6BR)"],
           rows: [
-            ["Lodging", "$3,500–6,000/night → $24,500–42,000", "$750–1,500/night → $5,250–10,500"],
+            ["Lodging", "$3,500–6,000/night → $24,500–42,000", "$1,100–2,250/night → $7,700–15,750"],
             ["Breakfast for 10", "$400–600/day → ~$3,500", "In the kitchen"],
             ["Chef + provisioning", "—", "~$250/day + ~$1,500 groceries → ~$3,250"],
             ["Dinners out (half the nights)", "Included in resort life? No — add $2,500+", "$1,500 (chef covers rest)"],
             ["Service/staff gratuities", "Resort fees + tips ~$1,500", "Villa staff gratuity ~$700–1,000"],
-            ["Realistic week total", "$30,000–50,000", "$11,500–16,500"],
+            ["Realistic week total", "$30,000–50,000", "$13,500–21,500"],
           ],
         },
         paras: [
@@ -129,7 +134,7 @@ export const villaAnswers = [
       },
       {
         q: "What about connecting rooms or a resort residence instead?",
-        a: "Resort residences (the 60 villas/residences properties in our hotel atlas — Forte Village, Rocco Forte Private Villas and kin) are exactly the hybrid: villa space with resort infrastructure. They price between the two columns and are the right answer for families who want both and will pay for it.",
+        a: "Resort residences (the {{hotels:category=Villas / Residences}} villas/residences properties in our hotel atlas — Rocco Forte Private Villas at Verdura and kin) are exactly the hybrid: villa space with resort infrastructure. They price between the two columns and are the right answer for families who want both and will pay for it.",
       },
       {
         q: "Is a villa riskier — what if it's not as pictured?",
@@ -138,7 +143,7 @@ export const villaAnswers = [
     ],
     related: [
       { href: "/answers/best-caribbean-villas-for-12-guests", label: "The Caribbean big-group shortlist with real rates" },
-      { href: "/answers/best-villas-under-2000-that-sleep-8", label: "1,541 villas under $2,000 that sleep 8+" },
+      { href: "/answers/best-villas-under-2000-that-sleep-8", label: "{{villas:sleepsMin=8&priceMax=2000}} villas under $2,000 that sleep 8+" },
       { href: "/atlas/villa", label: "Search the villa atlas map" },
       { href: "/villas", label: "Every villa in the atlas, by destination" },
     ],
@@ -150,30 +155,30 @@ export const villaAnswers = [
     question: "What are the best private villas under $2,000/night that sleep 8+?",
     title: "Best Villas Under $2,000/Night That Sleep 8+",
     description:
-      "1,541 villas under $2,000 a night sleeping eight or more — where they cluster (Colorado, Hawaii, Italy, Barbados, St. Martin) and how to pick well at this price point.",
+      "{{villas:sleepsMin=8&priceMax=2000}} villas at $2,000 a night or less sleeping eight or more — where they cluster (Hawaii, Colorado, Italy, St. Martin, Barbados) and how to pick well at this price point.",
     updated: UPDATED,
     capsule:
-      "Villas that sleep eight or more under $2,000 a night are the sweet spot of the market, and the inventory clusters in Colorado ski country, Hawaii, Italy, Florida, France and the value Caribbean — Barbados, St. Martin and St. Barths. Per person per night that is a private staffed house below the price of a mid-tier hotel room.",
+      "Villas that sleep eight or more under $2,000 a night are the sweet spot of the market, and the inventory clusters in Hawaii, Colorado ski country, Italy and the value Caribbean — St. Martin, Barbados and St. Barths — with Florida and France close behind. Per person per night that is a private staffed house below the price of a mid-tier hotel room.",
     answer: [
-      "This is the sweetest spot in the villa market: our atlas currently lists 1,541 villas that sleep eight or more with from-rates under $2,000 a night — which per-person, per-night puts a private staffed house below a mid-tier hotel room. The inventory clusters where you'd hope: Colorado ski country (200 villas — Vail, Beaver Creek, Breckenridge), Hawaii (189), Italy (112 — Tuscany and points south), Florida (108), France (93), and the Caribbean's value islands, led by Barbados (73), St. Martin (69) and — at the style end — St. Barths (54).",
-      "At this price the skill isn't finding a villa; it's filtering 1,541 of them. The three questions that do most of the work: walk-to-something or gated-privacy? staffed-daily or weekly-service? and — the one people skip — how far is the beach/lift/town in minutes, not miles.",
+      "This is the sweetest spot in the villa market: our atlas currently lists {{villas:sleepsMin=8&priceMax=2000}} villas that sleep eight or more with from-rates of $2,000 a night or less — which per-person, per-night puts a private staffed house below a mid-tier hotel room. The inventory clusters where you'd hope: Hawaii ({{villas:destination=Hawaii&sleepsMin=8&priceMax=2000}} villas), Colorado ski country ({{villas:destination=Colorado&sleepsMin=8&priceMax=2000}} — Vail, Beaver Creek, Breckenridge), Italy ({{villas:destination=Italy&sleepsMin=8&priceMax=2000}} — Tuscany and points south), the Caribbean's value islands, led by St. Martin ({{villas:destination=St. Martin&sleepsMin=8&priceMax=2000}}), Barbados ({{villas:destination=Barbados&sleepsMin=8&priceMax=2000}}) and — at the style end — St. Barths ({{villas:destination=St. Barthélemy&sleepsMin=8&priceMax=2000}}), then Florida ({{villas:destination=Florida&sleepsMin=8&priceMax=2000}}) and France ({{villas:destination=France&sleepsMin=8&priceMax=2000}}).",
+      "At this price the skill isn't finding a villa; it's filtering {{villas:sleepsMin=8&priceMax=2000}} of them. The three questions that do most of the work: walk-to-something or gated-privacy? staffed-daily or weekly-service? and — the one people skip — how far is the beach/lift/town in minutes, not miles.",
     ],
     sections: [
       {
         h2: "Where $2,000/night lands you, by destination",
         table: {
-          caption: "Counts of 8+-sleeper villas under $2,000/night by destination, from the atlas, July 2026.",
+          caption: "Villas sleeping 8+ at $2,000/night or less, by destination, counted live from the atlas.",
           columns: ["Destination", "Villas available", "What the money buys"],
           rows: [
-            ["Colorado", "200", "4–6BR ski homes; ski-in/out enters the budget outside festive weeks"],
-            ["Hawaii", "189", "Big Island and Maui homes with pools; oceanfront needs timing or luck"],
-            ["Italy", "112", "Tuscan/Umbrian farmhouses with pools; Amalfi at this price means hillside, not waterfront"],
-            ["Florida", "108", "30A, Keys and Orlando estates — the domestic easy button"],
-            ["France", "93", "Provence and Côte d'Azur hinterland; Alps in summer are a steal"],
-            ["Barbados", "73", "Staffed west-coast houses — cooked breakfast included culture"],
-            ["St. Martin", "69", "Terres Basses and Orient Bay; the Caribbean's best villa value"],
-            ["St. Barths", "54", "2–3BR design villas — bring fewer friends, better sunglasses"],
-            ["Greece / Costa Rica / Croatia", "49 / 45 / 40", "The rising class: new-build infinity-pool territory"],
+            ["Hawaii", "{{villas:destination=Hawaii&sleepsMin=8&priceMax=2000}}", "Big Island and Maui homes with pools; oceanfront needs timing or luck"],
+            ["Colorado", "{{villas:destination=Colorado&sleepsMin=8&priceMax=2000}}", "4–6BR ski homes; ski-in/out enters the budget outside festive weeks"],
+            ["Italy", "{{villas:destination=Italy&sleepsMin=8&priceMax=2000}}", "Tuscan/Umbrian farmhouses with pools; Amalfi at this price means hillside, not waterfront"],
+            ["St. Martin", "{{villas:destination=St. Martin&sleepsMin=8&priceMax=2000}}", "Terres Basses and Orient Bay; the Caribbean's best villa value"],
+            ["Barbados", "{{villas:destination=Barbados&sleepsMin=8&priceMax=2000}}", "Staffed west-coast houses — cooked breakfast included culture"],
+            ["Florida", "{{villas:destination=Florida&sleepsMin=8&priceMax=2000}}", "30A, Keys and Orlando estates — the domestic easy button"],
+            ["St. Barths", "{{villas:destination=St. Barthélemy&sleepsMin=8&priceMax=2000}}", "2–3BR design villas — bring fewer friends, better sunglasses"],
+            ["France", "{{villas:destination=France&sleepsMin=8&priceMax=2000}}", "Provence and Côte d'Azur hinterland; Alps in summer are a steal"],
+            ["Costa Rica / Croatia / Greece", "{{villas:destination=Costa Rica&sleepsMin=8&priceMax=2000}} / {{villas:destination=Croatia&sleepsMin=8&priceMax=2000}} / {{villas:destination=Greece&sleepsMin=8&priceMax=2000}}", "The rising class: new-build infinity-pool territory"],
           ],
         },
       },
@@ -203,7 +208,7 @@ export const villaAnswers = [
       },
     ],
     related: [
-      { href: "/atlas/villa", label: "Filter the 1,541 on the villa atlas map" },
+      { href: "/atlas/villa?sleeps=8&priceMax=2000", label: "Open the {{villas:sleepsMin=8&priceMax=2000}} on the villa atlas map" },
       { href: "/villas", label: "Every villa in the atlas, by destination" },
       { href: "/answers/best-caribbean-villas-for-12-guests", label: "Caribbean villas for 12+ guests" },
       { href: "/answers/villa-vs-resort-for-a-family-of-10", label: "Villa vs. resort cost math" },

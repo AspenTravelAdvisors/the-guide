@@ -173,9 +173,12 @@ for (const [collection, file] of [["train", "data/atlas/train/itinerary.json"], 
     let placed = 0;
     for (const day of routes[id] || []) {
       for (const p of day.p || []) {
-        if (p[1] == null || p[2] == null) continue;
-        const r = portRegion(p[0], p[1], p[2]);
-        if (!r) continue;
+        // Antarctic days carry no coordinates but name themselves ("Antarctica
+        // (Cruising), Antarctica"); the builder counts them, so this does too.
+        // Without them a Peninsula trip reads as its Ushuaia gateway.
+        const geocoded = p[1] != null && p[2] != null;
+        const r = geocoded ? portRegion(p[0], p[1], p[2]) : portRegion(p[0], null, null);
+        if (!r || (!geocoded && r !== "Antarctica")) continue;
         placed++;
         tally[r] = (tally[r] || 0) + 1;
       }

@@ -17,7 +17,7 @@
 // itinerary pages is the kind of near-miss that makes a page look wrong to
 // somebody checking it.
 
-const UPDATED = "2026-08-28";
+const UPDATED = "2026-10-25";
 
 export const safariAnswers = [
   {
@@ -26,7 +26,7 @@ export const safariAnswers = [
     question: "Which safari operator should you actually book — andBeyond, Wilderness, A&K or Ker & Downey?",
     title: "Choosing a Safari Operator: andBeyond vs Wilderness vs A&K vs Ker & Downey",
     description:
-      "How the major safari operators really differ — who owns their camps, who charters their own aircraft, who builds bespoke versus scheduled departures — across the 274 safari itineraries in our atlas.",
+      "How the major safari operators really differ — who owns their camps, who charters their own aircraft, who builds bespoke versus scheduled departures — across the {{journeys:collection=safari}} safari itineraries in our atlas.",
     updated: UPDATED,
     capsule:
       "Book Wilderness or andBeyond when you want the operator to own the camps you sleep in, which is what buys consistency and access in Botswana and the Okavango. Book Abercrombie & Kent or Micato for East Africa logistics and scheduled departures, and Ker & Downey or Artisans of Leisure when the itinerary should be built around you rather than chosen from a list.",
