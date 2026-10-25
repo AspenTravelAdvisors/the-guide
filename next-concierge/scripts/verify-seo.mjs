@@ -79,7 +79,10 @@ const collections = Object.fromEntries(
 const journeyFacts = fs.existsSync(path.join(repoRoot, 'data/atlas/shared/journey-facts.json'))
   ? read('data/atlas/shared/journey-facts.json')
   : { rows: [] };
-const facts = makeFacts(hotels, collections, journeyFacts.rows);
+// The villas as the site normalises them, so a price term reads the same
+// published rate a villa card shows.
+const { loadVillas } = require('../lib/villas.js');
+const facts = makeFacts(hotels, collections, journeyFacts.rows, loadVillas().villas);
 
 // ── the answers, via the module list lib/answers.js actually imports ────────
 const registrySrc = fs.readFileSync(path.join(repoRoot, 'lib/answers.js'), 'utf8');
@@ -134,6 +137,14 @@ for (const a of answers) {
     const spec = body.slice(body.indexOf(':') + 1).trim();
     if (facts.countJourneys(spec) === 0) {
       fail(a.slug, `{{${body}}} matches no itinerary — a typo, or an operator the feed no longer carries`);
+    }
+  }
+  // And the villa feed. (`villaFrom:` needs no line here: it throws on an empty
+  // match, which the resolve above already reports.)
+  for (const [, body] of JSON.stringify(a).matchAll(/\{\{(villas:[^}]+)\}\}/g)) {
+    const spec = body.slice('villas:'.length).trim();
+    if (facts.countVillas(spec) === 0) {
+      fail(a.slug, `{{${body}}} matches no villa — a typo, or a destination the feed no longer carries`);
     }
   }
 }

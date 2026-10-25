@@ -1,9 +1,11 @@
-// Answer pages — expedition cruising. Content is a snapshot grounded in the
-// atlas (data/atlas/cruise/sailings.json + ships.json); counts cited
-// in copy were computed from those files on the `updated` date. When the
-// sailing data is refreshed, re-run the counts and bump `updated`.
+// Answer pages — expedition cruising. Counts of sailings are `{{departures:…}}`
+// tokens, resolved from data/atlas/shared/journey-facts.json at render, so they
+// move with the feed. Ship capacities, team sizes and add-on programmes come
+// from operator materials and are dated in their captions; re-check those and
+// bump `updated` when they are reviewed.
 
 const UPDATED = "2026-07-21";
+const REFRESHED = "2026-10-25";
 
 export const expeditionAnswers = [
   {
@@ -12,13 +14,13 @@ export const expeditionAnswers = [
     question: "What's the best Antarctica expedition for first-timers?",
     title: "Best Antarctica Expedition for First-Timers",
     description:
-      "How to pick a first Antarctica cruise: fly-the-Drake vs. sailing, which month, which ship size, and which operators we recommend — from a fleet of 555 tracked Antarctic sailings.",
-    updated: UPDATED,
+      "How to pick a first Antarctica cruise: fly-the-Drake vs. sailing, which month, which ship size, and which operators we recommend — from a fleet of {{departures:collection=cruise&region=Antarctica}} tracked Antarctic sailings.",
+    updated: REFRESHED,
     capsule:
       "For a first Antarctica trip, book a 10–12 day Antarctic Peninsula expedition on a ship carrying 200 guests or fewer, departing in December or January. Choose Lindblad–National Geographic, Quark or Aurora for the adventure-forward version, or Silversea, Seabourn or Ponant if the polar day should end with a butler and a wine list.",
     answer: [
       "For a first Antarctica trip, book a classic 10–12 day Antarctic Peninsula expedition on a ship carrying 200 guests or fewer, in December or January, with an operator whose expedition team — not just the ship — is the product: Lindblad–National Geographic, Quark, or Aurora for the adventure-forward version; Silversea, Seabourn or Ponant if you want the polar day to end with a butler and a proper wine list.",
-      "Skip the longer South Georgia + Falklands combinations the first time (magnificent, but 18–23 days), and decide early on the one question that shapes everything else: sail the Drake Passage both ways, or fly over it from Punta Arenas and board in Antarctica. The Expedition Bucket List atlas currently tracks 555 Antarctic departures across eight expedition lines, so there is almost always a sailing that fits your dates.",
+      "Skip the longer South Georgia + Falklands combinations the first time (magnificent, but 18–23 days), and decide early on the one question that shapes everything else: sail the Drake Passage both ways, or fly over it from Punta Arenas and board in Antarctica. The Expedition Bucket List atlas currently tracks {{departures:collection=cruise&region=Antarctica}} Antarctic departures across nine expedition lines, so there is almost always a sailing that fits your dates.",
     ],
     sections: [
       {
@@ -33,21 +35,22 @@ export const expeditionAnswers = [
         h2: "Which line fits which first-timer",
         table: {
           caption:
-            "Antarctic departures tracked in our atlas, July 2026 snapshot",
+            "Antarctic departures tracked in our atlas, counted live from the sailing feed.",
           columns: ["Operator", "Antarctic sailings tracked", "Best first-timer fit"],
           rows: [
-            ["Lindblad–National Geographic", "104", "Learning-first travelers; photo instruction on every sailing"],
-            ["Seabourn", "102", "Luxury-first; all-suite ships with submarines"],
-            ["Quark Expeditions", "68", "Adventure add-ons: helicopters (Ultramarine), camping, kayaks"],
-            ["HX Expeditions", "67", "Value on larger hybrid-powered ships"],
-            ["Swan Hellenic", "66", "Quiet, small, culturally minded"],
-            ["Aurora Expeditions", "56", "Small ships, big activity menu, strong guide ratio"],
-            ["Ponant", "47", "French luxury; Le Commandant Charcot for the ice-obsessed"],
-            ["Atlas Ocean Voyages", "45", "Yacht-styled ships under the 200-guest threshold"],
+            ["Lindblad–National Geographic", "{{departures:collection=cruise&operator=National Geographic-Lindblad Expeditions&region=Antarctica}}", "Learning-first travelers; photo instruction on every sailing"],
+            ["Seabourn", "{{departures:collection=cruise&operator=Seabourn&region=Antarctica}}", "Luxury-first; all-suite ships with submarines"],
+            ["HX Expeditions", "{{departures:collection=cruise&operator=HX Expeditions&region=Antarctica}}", "Value on larger hybrid-powered ships"],
+            ["Quark Expeditions", "{{departures:collection=cruise&operator=Quark Expeditions&region=Antarctica}}", "Adventure add-ons: helicopters (Ultramarine), camping, kayaks"],
+            ["Atlas Ocean Voyages", "{{departures:collection=cruise&operator=Atlas Ocean Voyages&region=Antarctica}}", "Yacht-styled ships under the 200-guest threshold"],
+            ["Ponant", "{{departures:collection=cruise&operator=PONANT EXPLORATIONS&region=Antarctica}}", "French luxury; Le Commandant Charcot for the ice-obsessed"],
+            ["Swan Hellenic", "{{departures:collection=cruise&operator=Swan Hellenic&region=Antarctica}}", "Quiet, small, culturally minded"],
+            ["Aurora Expeditions", "{{departures:collection=cruise&operator=Aurora Expeditions&region=Antarctica}}", "Small ships, big activity menu, strong guide ratio"],
+            ["Silversea", "{{departures:collection=cruise&operator=Silversea&region=Antarctica}}", "Butler-service luxury, with fly-the-Drake programs"],
           ],
         },
         paras: [
-          "All eight operators above run reputable Peninsula programs; the differences are staffing depth, activity menu, and how the evenings feel. If you want the trip narrated by scientists, weight Lindblad and Aurora. If you want the wilderness with the edges sanded off, weight Silversea, Seabourn and Ponant.",
+          "All nine operators above run reputable Peninsula programs; the differences are staffing depth, activity menu, and how the evenings feel. If you want the trip narrated by scientists, weight Lindblad and Aurora. If you want the wilderness with the edges sanded off, weight Silversea, Seabourn and Ponant.",
         ],
       },
       {
@@ -80,7 +83,7 @@ export const expeditionAnswers = [
       },
     ],
     related: [
-      { href: "/atlas/cruise?q=Antarctica", label: "Browse every Antarctic sailing in the expedition atlas" },
+      { href: "/atlas/cruise?region=Antarctica", label: "Browse every Antarctic sailing in the expedition atlas" },
       { href: "/journeys/cruise/aurora-expeditions-antarctic-explorer", label: "A classic 11-day Peninsula trip on a small ship: Aurora's Antarctic Explorer" },
       { href: "/journeys/cruise/national-geographic-lindblad-expeditions-antarctica-direct-fly-the-drake-passage", label: "Flying the Drake instead: Lindblad's Antarctica Direct, day by day" },
       { href: "/journeys/cruise", label: "Every expedition itinerary, day by day, with all its departures" },
@@ -96,8 +99,8 @@ export const expeditionAnswers = [
     question: "Which expedition ships have the highest guide-to-guest ratio?",
     title: "Expedition Ships With the Highest Guide-to-Guest Ratio",
     description:
-      "Guide-to-guest ratios compared across 29 luxury expedition ships — Quark Ultramarine, Aurora, Lindblad, Seabourn, Silversea and more, with published expedition-team sizes.",
-    updated: UPDATED,
+      "Guide-to-guest ratios compared ship by ship across the luxury expedition fleet — Quark Ultramarine, Aurora, Lindblad, Seabourn, Silversea and more, with published expedition-team sizes.",
+    updated: REFRESHED,
     capsule:
       "Quark's Ultramarine carries the deepest expedition bench in the polar fleet — 37 guides for 199 guests, roughly one per 5–6 — followed by Aurora Expeditions at about 1:7 and Quark's smaller ships at 1:7–1:9. Lindblad–National Geographic runs about 1:9 but adds a certified photo instructor and an undersea team on every polar sailing.",
     answer: [
@@ -490,13 +493,13 @@ export const expeditionAnswers = [
     question: "What's the best Arctic expedition — Svalbard, Greenland, or the Northwest Passage?",
     title: "Best Arctic Expedition: Svalbard vs. Greenland vs. Northwest Passage",
     description:
-      "How the three great Arctic itineraries differ — polar bears in Svalbard, ice-fjord Greenland, and the historic Northwest Passage — and which to book first, from 416 tracked Arctic sailings.",
-    updated: UPDATED,
+      "How the three great Arctic itineraries differ — polar bears in Svalbard, ice-fjord Greenland, and the historic Northwest Passage — and which to book first, from {{departures:collection=cruise&region=Arctic}} tracked Arctic sailings.",
+    updated: REFRESHED,
     capsule:
       "Book Svalbard first: it concentrates the most Arctic per day — bears on pack ice, walrus haul-outs, bird cliffs, glacier fronts — into a 7–10 day circumnavigation from Longyearbyen. Greenland is the scenery trip, best at 9–14 days. The Northwest Passage is the 17–24 day expedition-of-a-lifetime tier, and the one to leave for last.",
     answer: [
       "Book Svalbard first. It concentrates the most Arctic per day — polar bears hunting on pack ice, walrus haul-outs, bird cliffs, glacier fronts — into a 7–10 day circumnavigation from an easy gateway (Longyearbyen, three hours from Oslo). Greenland is the scenery trip: the biggest fjords, icebergs and Inuit settlements, best as a 9–14 day west-coast or east-coast run. The Northwest Passage is the expedition-of-a-lifetime tier: 17–24 days of genuine route-finding through Canadian High Arctic history, for travelers who've already done a polar trip and want the real thing.",
-      "Our atlas currently tracks 416 Arctic-region departures, with the season compressed into roughly May–September — Svalbard bears peak June–July, Greenland light peaks August, and the Passage runs late August–September when the ice opens.",
+      "Our atlas currently tracks {{departures:collection=cruise&region=Arctic}} Arctic departures, plus {{departures:collection=cruise&region=Northwest Passage}} through the Northwest Passage, with the season compressed into roughly May–September — Svalbard bears peak June–July, Greenland light peaks August, and the Passage runs late August–September when the ice opens.",
     ],
     sections: [
       {
@@ -610,8 +613,8 @@ export const expeditionAnswers = [
     related: [
       { href: "/answers/which-expedition-ships-have-the-highest-guide-ratio", label: "The teams that run these programs — guide ratios compared" },
       { href: "/answers/best-antarctica-expedition-for-first-timers", label: "Best Antarctica expedition for first-timers" },
-      { href: "/atlas/cruise?operator=Quark+Expeditions,Aurora+Expeditions&q=Antarctica", label: "Quark and Aurora's Antarctic sailings, where ice camping runs" },
-      { href: "/atlas/cruise?operator=Seabourn&q=Antarctica", label: "Seabourn's Antarctic sailings, two submarines aboard" },
+      { href: "/atlas/cruise?operator=Quark+Expeditions,Aurora+Expeditions&region=Antarctica", label: "Quark and Aurora's Antarctic sailings, where ice camping runs" },
+      { href: "/atlas/cruise?operator=Seabourn&region=Antarctica", label: "Seabourn's Antarctic sailings, two submarines aboard" },
       { href: "/journeys/cruise/quark-expeditions-antarctica-by-helicopter-crossing-the-circle-and-the-peninsula", label: "Antarctica by helicopter on Quark's Ultramarine, day by day" },
       { href: "/journeys/cruise", label: "Every expedition itinerary, day by day, with all its departures" },
     ],

@@ -9,6 +9,7 @@ import { COLLECTIONS } from "@/lib/atlas-config";
 import { ALL_ANSWERS, getAnswer, answersByCategory } from "@/lib/answers";
 import { allHotels, hotelPath } from "@/lib/seo/hotels";
 import journeyFacts from "@/data/atlas/shared/journey-facts.json";
+import { loadVillas } from "@/lib/villas.js";
 
 // The hotels the entity pages serve, so a row in an evidence table and the page
 // it links to are the same record — program overrides and slugs included.
@@ -27,7 +28,7 @@ const COLLECTION_COUNTS = Object.fromEntries(
  * same grouping the /journeys pages serve from — so a count in a sentence and
  * the page it links to cannot disagree about what an itinerary is.
  */
-export const facts = makeFacts(HOTELS, COLLECTION_COUNTS, journeyFacts.rows);
+export const facts = makeFacts(HOTELS, COLLECTION_COUNTS, journeyFacts.rows, loadVillas().villas);
 
 /**
  * Resolve an answer's `evidence` block into real, linkable properties.

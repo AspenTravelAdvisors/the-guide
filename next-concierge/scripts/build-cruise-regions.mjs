@@ -225,6 +225,18 @@ for (const row of sailings.rows || []) {
     placed++;
     tally[r] = (tally[r] || 0) + 1;
   }
+  // Antarctic days carry no coordinates — "Antarctica (Cruising), Antarctica",
+  // "Drake Passage (Cruising)" — so the tally above saw only the gateways, and
+  // a 12-day Peninsula trip from Buenos Aires via Ushuaia was filed under South
+  // America. Those names place themselves without coordinates, so count them.
+  for (const day of routes[id] || []) {
+    for (const p of day.p || []) {
+      if (p[1] != null && p[2] != null) continue;
+      if (portRegion(p[0], null, null) !== "Antarctica") continue;
+      placed++;
+      tally.Antarctica = (tally.Antarctica || 0) + 1;
+    }
+  }
   if (!placed) {
     decided.push({ id, name, feed, region: keywordRegion(name) || feed, why: "title (ports unplaced)", share: null, ranked: [] });
     continue;
