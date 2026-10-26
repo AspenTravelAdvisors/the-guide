@@ -448,8 +448,10 @@ export default function AtlasCollection({
 
   // "Search as I move the map" (lib/map-area): the list follows the
   // visitor's own pans and zooms, never the shell's refits and flights. The
-  // filtering is local, so following costs nothing but the debounce.
-  const { follow, available: followAvailable, setFollow } = useFollowMap();
+  // filtering is local, so following costs nothing but the debounce. Every
+  // collection but hotels is a route atlas, where it starts off so zooming in
+  // on a route doesn't keep narrowing the list.
+  const { follow, available: followAvailable, setFollow } = useFollowMap({ routes: type !== "hotel" });
   const followTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   useEffect(() => () => clearTimeout(followTimer.current), []);
   // The tagline over the map is a first-visit hint: once the visitor has moved

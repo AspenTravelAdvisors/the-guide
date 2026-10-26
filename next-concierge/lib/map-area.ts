@@ -16,33 +16,42 @@
  *   wheel, pinch, keyboard, the zoom buttons) with `originalEvent`; programmatic
  *   ones carry none, and that is the whole test.
  *
- * The preference is per viewer and per device (localStorage), shared by every
- * atlas: someone who switches it off has said how they like to browse.
+ * The preference is per viewer and per device (localStorage). The route
+ * atlases (cruises, rail, jets, yachts, safaris) keep their own preference and
+ * start with it OFF: there the visitor zooms in to inspect a route, and a list
+ * that narrows to the frame on every zoom fights that. The place atlases
+ * (villas, hotels) share the other one and start with it on.
  */
 
 import { useCallback, useEffect, useState } from "react";
 
 const KEY = "atlas.followMap";
+const ROUTE_KEY = "atlas.followMap.routes";
 
 /** How long the camera must sit still before the list follows it. */
 export const FOLLOW_DELAY_MS = 450;
 
 /**
- * Whether the list follows the map, and the setter for the toggle. Defaults
- * to on everywhere; switching it off brings the "Search this area" button back.
+ * Whether the list follows the map, and the setter for the toggle. On by
+ * default for the place atlases, off for the route atlases (`routes`); while
+ * it is off the "Search this area" button stands in.
  */
-export function useFollowMap(): { follow: boolean; available: boolean; setFollow: (on: boolean) => void } {
-  const [pref, setPref] = useState(true);
+export function useFollowMap(
+  { routes = false }: { routes?: boolean } = {},
+): { follow: boolean; available: boolean; setFollow: (on: boolean) => void } {
+  const key = routes ? ROUTE_KEY : KEY;
+  const [pref, setPref] = useState(!routes);
   useEffect(() => {
     try {
-      const v = window.localStorage.getItem(KEY);
+      const v = window.localStorage.getItem(key);
       if (v === "0") setPref(false);
+      else if (v === "1") setPref(true);
     } catch { /* storage is a convenience, never required */ }
-  }, []);
+  }, [key]);
   const setFollow = useCallback((on: boolean) => {
     setPref(on);
-    try { window.localStorage.setItem(KEY, on ? "1" : "0"); } catch { /* noop */ }
-  }, []);
+    try { window.localStorage.setItem(key, on ? "1" : "0"); } catch { /* noop */ }
+  }, [key]);
   return { follow: pref, available: true, setFollow };
 }
 
