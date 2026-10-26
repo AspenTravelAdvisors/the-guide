@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "prebuild": "npm run build:atlas",
-    "build:atlas": "npm run merge:virtuoso-hotels && npm run merge:virtuoso-journeys && npm run fix:ports && npm run build:hotel-points && npm run build:safari-camps && npm run build:gateway-hotels && npm run build:sea-routes && npm run build:cruise-regions && npm run build:journey-facts && npm run build:collection-counts",
+    "build:atlas": "npm run merge:virtuoso-hotels && npm run merge:virtuoso-journeys && npm run fix:ports && npm run place:waters && npm run build:hotel-points && npm run build:safari-camps && npm run build:gateway-hotels && npm run build:sea-routes && npm run build:cruise-regions && npm run build:journey-facts && npm run build:collection-counts",
     "build:hotel-points": "node scripts/build-hotel-points.mjs",
     "build:journey-facts": "node scripts/build-journey-facts.mjs",
     "verify:journey-facts": "node scripts/build-journey-facts.mjs --check",
@@ -45,6 +45,8 @@
     "verify:atlas-ui": "node scripts/verify-atlas-ui.mjs",
     "audit:ports": "node scripts/audit-port-locations.mjs",
     "fix:ports": "node scripts/fix-port-locations.mjs",
+    "place:waters": "node scripts/place-named-waters.mjs",
+    "verify:waters": "node scripts/place-named-waters.mjs --check",
     "verify:ports": "node scripts/fix-port-locations.mjs --check && node scripts/audit-port-locations.mjs --strict",
     "verify:photoreal": "node scripts/verify-photoreal.mjs",
     "sync:virtuoso-hotels": "node scripts/sync-virtuoso-hotels.mjs",

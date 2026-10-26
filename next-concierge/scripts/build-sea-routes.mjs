@@ -192,13 +192,17 @@ for (const [type, file] of [["yacht", "public/maps/yacht/itinerary.json"], ["wor
 // fetchRouteLines expected — that branch was dead. See STATE.md.
 {
   const j = read("public/maps/cruise/data/itinerary-routes.json");
+  // Cruising days the feed leaves unplaced carry a named-waters key in their
+  // fourth slot (scripts/place-named-waters.mjs); the route sails through it.
+  const WATERS = j.waters || {};
   let trips = 0;
   for (const [sailingId, days] of Object.entries(j.routes || {})) {
     const pts = [];
     const dayOf = [];
     for (const day of days) {
       for (const p of day.p || []) {
-        const lat = p[1], lng = p[2];
+        const anchor = p[1] == null && WATERS[p[3]]?.ll;
+        const lat = anchor ? anchor[0] : p[1], lng = anchor ? anchor[1] : p[2];
         // ~14,500 ports in this file carry null coordinates. Number(null) is 0,
         // so a lazy guard plots them in the Gulf of Guinea. Drop them.
         if (lat === null || lng === null || !Number.isFinite(Number(lat)) || !Number.isFinite(Number(lng))) {

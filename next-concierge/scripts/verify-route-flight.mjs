@@ -88,6 +88,10 @@ const K = Object.fromEntries(
 );
 const FS_NOW_NONE_DECL = /^const FS_NOW_NONE.*$/m.exec(SRC);
 if (!FS_NOW_NONE_DECL) throw new Error("verify-route-flight: FS_NOW_NONE moved");
+// The calls' labels ("3. Days 4–8 · Antarctic Peninsula") are shared with the
+// stop dots, so the module-scope helper rides along too.
+const LABEL_FN = /^function focusStopLabel\([\s\S]*?^}$/m.exec(SRC);
+if (!LABEL_FN) throw new Error("verify-route-flight: focusStopLabel moved");
 
 const DEPS = [
   "node", "map", "mapboxgl", "escapeHtml", "addLayer", "fitPad", "stopSpin", "type",
@@ -107,6 +111,7 @@ writeFileSync(
     `import { splitAntimeridian } from "./route-frame.js";\n` +
     `type MapboxModule = any;\n` +
     `${FS_NOW_NONE_DECL[0].replace(": unknown[]", ": any")}\n${decls}\n` +
+    `type FocusStop = any;\n${LABEL_FN[0]}\n` +
     `export function makeFlight(dep: any) {\n` +
     `  const { ${DEPS.join(", ")} } = dep;\n` +
     `  const routePalette: () => any = dep.routePalette;\n` +

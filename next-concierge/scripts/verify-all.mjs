@@ -41,6 +41,7 @@ const CHECKS = [
   'verify:layer-order',
   'verify:legend-focus',
   'verify:ports',
+  'verify:waters',
   'verify:landmask',
   'verify:sea-routes',
   'verify:route-order',

@@ -76,7 +76,9 @@ export interface RawCruiseMeta {
   REGIONS?: Record<string, { name?: string; coord?: [number, number] }>;
 }
 export interface RawCruiseRoutes {
-  routes?: Record<string, { d?: number; s?: number; p?: [string, number | null, number | null][] }[]>;
+  /** p[3], when present, is a key into `waters` (scripts/place-named-waters.mjs). */
+  routes?: Record<string, { d?: number; s?: number; p?: [string, number | null, number | null, string?][] }[]>;
+  waters?: Record<string, { ll: [number, number]; label: string; r?: number; note?: string }>;
 }
 /** region-overrides.json — every sailing's region, grouped by region name. */
 export interface RawCruiseRegionOverrides {
@@ -115,6 +117,7 @@ export function adaptCruise(
   const idx: Record<string, number> = {};
   schema.forEach((n, i) => { idx[n] = i; });
   const ROUTES = routes.routes || {};
+  const WATERS = routes.waters || {};
   // Grouped by region on the wire, inverted here into id → region.
   const REGION_BY_ID: Record<string, string> = {};
   for (const [region, ids] of Object.entries(regionOverrides?.byRegion || {})) {
@@ -161,6 +164,34 @@ export function adaptCruise(
       }
     }
 
+    /*
+     * The traced sequence: those ports, plus the named waters between them.
+     *
+     * A cruising day the feed leaves unplaced may carry a named-waters key,
+     * and the route calls there too, under the ledger's label. Consecutive
+     * days at one water are one call ("Days 4-8 · Antarctic Peninsula"), and
+     * so are consecutive days at one port. Kept apart from `stops` so none of
+     * this ever reaches the port filter.
+     */
+    let route: AtlasStop[] | undefined;
+    if (days.some((day) => (day.p || []).some((p) => p[1] == null && p[3] && WATERS[p[3]]))) {
+      route = [];
+      for (const day of days) {
+        for (const p of day.p || []) {
+          const w = p[1] == null && p[3] ? WATERS[p[3]] : undefined;
+          const lat = w ? w.ll[0] : p[1], lng = w ? w.ll[1] : p[2];
+          if (lat == null || lng == null || !isFinitePair([lat, lng])) continue;
+          const name = w ? w.label : p[0];
+          const last = route[route.length - 1];
+          if (last && last.name === name && !!last.water === !!w) { last.endDay = day.d ?? last.endDay; continue; }
+          route.push({
+            name, region: null, at: fromLatLngPair([lat, lng]), day: day.d ?? null,
+            ...(w ? { water: { zoneKm: w.r || 0, note: w.note ?? null } } : {}),
+          });
+        }
+      }
+    }
+
     const monthKey = start ? `${start.slice(0, 4)}-${start.slice(5, 7)}` : null;
 
     /*
@@ -203,6 +234,7 @@ export function adaptCruise(
       country: null,
       vessel: ship,
       stops,
+      ...(route ? { route } : {}),
       path: stops.map((s) => s.at!).filter(Boolean),
       itinerary: (() => {
         const rows: AtlasOffering["itinerary"] = [];

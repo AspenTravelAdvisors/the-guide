@@ -602,10 +602,13 @@ export default function AtlasCollection({
         return;
       }
       const real = routeFor.fn?.(o) ?? null;
+      // What the route calls at: the ports, plus any named waters between them
+      // (an expedition sailing's Drake Passage and peninsula days).
+      const seq = o.route ?? o.stops;
       const legs: RouteLegOut[] = real ?? (() => {
         // No shipped geometry: draw straight legs between located stops rather
         // than inventing a curve the vehicle does not travel.
-        const pts = o.stops.filter((s) => s.at).map((s) => [s.at![0], s.at![1]] as [number, number]);
+        const pts = seq.filter((s) => s.at).map((s) => [s.at![0], s.at![1]] as [number, number]);
         return pts.length >= 2 ? [{ mode: "arc", coordinates: pts }] : [];
       })();
       // A click always moves the camera. When a trip has no drawable geometry
@@ -613,12 +616,16 @@ export default function AtlasCollection({
       // never a no-op.
       const fallback = legs.length
         ? []
-        : o.stops.filter((s) => s.at).map((s) => [s.at![0], s.at![1]] as [number, number]);
+        : seq.filter((s) => s.at).map((s) => [s.at![0], s.at![1]] as [number, number]);
       // Stops travel with the route: the globe draws them as numbered dots with
       // hover labels, as the Leaflet atlas did.
-      const stops = o.stops
+      const stops = seq
         .filter((s) => s.at)
-        .map((s) => ({ name: s.name, at: [s.at![0], s.at![1]] as [number, number], day: s.day ?? null }));
+        .map((s) => ({
+          name: s.name, at: [s.at![0], s.at![1]] as [number, number], day: s.day ?? null,
+          ...(s.endDay != null && s.endDay !== s.day ? { endDay: s.endDay } : {}),
+          ...(s.water ? { water: s.water } : {}),
+        }));
       window.dispatchEvent(
         new CustomEvent("bevvip:atlas-route", {
           detail: {
@@ -1562,7 +1569,7 @@ export default function AtlasCollection({
                    * nothing at all, which is worse than not offering it.
                    */
                   const seen = new Set(
-                    o.stops.filter((st) => st.at).map((st) => `${st.at![0]},${st.at![1]}`),
+                    (o.route ?? o.stops).filter((st) => st.at).map((st) => `${st.at![0]},${st.at![1]}`),
                   );
                   return seen.size > 1;
                 })() && routeVerbLong(type) && (

@@ -36,6 +36,15 @@ export interface AtlasStop {
    * the stop, not decoration.
    */
   day?: number | null;
+  /** Last day at this stop, when consecutive days collapse into one call. */
+  endDay?: number | null;
+  /**
+   * Set on a stop the feed names but does not place: open water or a coast
+   * given a representative position (data/atlas/shared/named-waters.json).
+   * `zoneKm` above 0 draws a soft zone, for an area whose landings are chosen
+   * on the day; `note` is the label's second clause.
+   */
+  water?: { zoneKm: number; note?: string | null } | null;
 }
 
 export interface AtlasOffering {
@@ -127,6 +136,16 @@ export interface AtlasOffering {
 
   /** Ordered itinerary stops. Empty when the source has no route for this trip. */
   stops: AtlasStop[];
+  /**
+   * The sequence a traced route calls at, when it is more than `stops`.
+   *
+   * Expedition sailings only: `stops` stays the feed's real ports, because the
+   * port filter, the stop count and the "N stops" line all mean ports, and the
+   * Drake Passage is not one. This adds the named waters between them, so an
+   * Ushuaia round trip whose every landing is a cruising day still has a route
+   * to draw. Omitted means trace `stops`.
+   */
+  route?: AtlasStop[];
   /** Route geometry for drawing. Sea collections get this precomputed. */
   path: LngLat[];
 

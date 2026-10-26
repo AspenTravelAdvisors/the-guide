@@ -542,21 +542,31 @@ function boot(a){
      Routes live in the slim data/itinerary-routes.json, lazy-loaded in the
      background so the atlas paints instantly. Each route is an ordered list of
      days: {d:dayNumber, s:1 sea/cruising day, p:[[name,lat,lng],...] stops}. */
-  let ROUTES=null;
+  let ROUTES=null, WATERS={};
   function loadRoutes(){
     return fetch('data/itinerary-routes.json').then(r=>{ if(!r.ok) throw new Error('routes HTTP '+r.status); return r.json(); })
-      .then(j=>{ ROUTES=j.routes||{}; })
+      .then(j=>{ ROUTES=j.routes||{}; WATERS=j.waters||{}; })
       .catch(err=>{ console.warn('Expedition Atlas: day-by-day routes unavailable —',err); ROUTES={}; });
   }
-  /* Ordered itinerary entries for one sailing: port = {n,ll,day}; sea day = {sea:true}. */
+  /* Ordered itinerary entries for one sailing: port = {n,ll,day}; sea day = {sea:true}.
+     A cruising day the feed leaves unplaced may name a water in p[3]
+     (scripts/place-named-waters.mjs): it joins the route as {n,ll,day,water},
+     consecutive days there collapsing into one entry with an endDay. */
   function sailingStops(s){
     const days=ROUTES&&ROUTES[String(s.id)];
     if(!days||!days.length) return [];
     const out=[];
     days.forEach(day=>{
       const geocoded=(day.p||[]).filter(p=>p[1]!=null&&p[2]!=null);
-      if(day.s&&!geocoded.length){ out.push({sea:true}); return; }
-      geocoded.forEach(p=>out.push({n:p[0],ll:[p[1],p[2]],day:day.d}));
+      const waters=(day.p||[]).filter(p=>p[1]==null&&WATERS[p[3]]);
+      if(day.s&&!geocoded.length&&!waters.length){ out.push({sea:true}); return; }
+      (day.p||[]).forEach(p=>{
+        if(p[1]!=null&&p[2]!=null){ out.push({n:p[0],ll:[p[1],p[2]],day:day.d}); return; }
+        const w=WATERS[p[3]]; if(!w) return;
+        const last=out[out.length-1];
+        if(last&&last.water===w){ last.endDay=day.d; return; }
+        out.push({n:w.label,ll:w.ll,day:day.d,water:w});
+      });
     });
     return out;
   }
@@ -567,14 +577,14 @@ function boot(a){
   }
   /* embark = first named port, disembark = last named port (for the card route line) */
   function sailingEnds(s){
-    const ports=sailingStops(s).filter(e=>e.n);
+    const ports=sailingStops(s).filter(e=>e.n&&!e.water);
     if(!ports.length) return null;
     return {from:ports[0].n, to:ports.length>1?ports[ports.length-1].n:ports[0].n, count:ports.length};
   }
   /* Port roles for a sailing: embark = first named port, disembark = last,
      calls (day visits) = everything in between. Powers the port filter. */
   function sailingPortRoles(s){
-    const names=sailingStops(s).filter(e=>e.n).map(e=>e.n);
+    const names=sailingStops(s).filter(e=>e.n&&!e.water).map(e=>e.n);
     const embark=names[0]||null, disembark=names.length>1?names[names.length-1]:null;
     const calls=new Set(names.slice(1,-1));
     return {embark,disembark,calls,all:new Set(names)};
@@ -802,10 +812,12 @@ function boot(a){
       segs.push({base:base._path,fade:[line._path]});
     }
     revealRoute(segs);
+    // named waters with a zone (the peninsula, the Falklands): a soft area, not a pin
+    ports.forEach(e=>{ if(e.water&&e.water.r>0) L.circle(e.ll,{radius:e.water.r*1000,color:ACC2,weight:1,opacity:.5,fillColor:ACC2,fillOpacity:.14,interactive:false}).addTo(routeLayer); });
     // numbered port dots, tooltip shows the day + port
     ports.forEach((e,i)=>{
       const dot=L.divIcon({className:'',html:'<div class="stopdot">'+(i+1)+'</div>',iconSize:[0,0]});
-      const lbl=(e.day?('Day '+e.day+' · '):'')+e.n;
+      const lbl=(e.day?((e.endDay&&e.endDay!==e.day?'Days '+e.day+'–'+e.endDay:'Day '+e.day)+' · '):'')+e.n+(e.water&&e.water.note?' — '+e.water.note:'');
       const m2=L.marker(lls[i],{icon:dot,riseOnHover:true}).addTo(routeLayer)
         .bindTooltip((i+1)+'. '+lbl,{direction:'top',offset:[0,-9],className:'stoptip',opacity:1});
       m2.on('click',()=>m2.openTooltip());

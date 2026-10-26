@@ -641,6 +641,51 @@ export interface FocusStop {
   name: string;
   at: [number, number];
   day?: number | null;
+  /** Last day of a call that spans several ("Days 4–8"). */
+  endDay?: number | null;
+  /**
+   * A named water rather than a port (an expedition's Drake Passage or
+   * peninsula days, given a representative position). `zoneKm` above 0 shades
+   * a zone round it: the landings there are chosen on the day, so the map
+   * shows the area, not a pin pretending to be a port.
+   */
+  water?: { zoneKm: number; note?: string | null } | null;
+}
+
+/** "3. Days 4–8 · Antarctic Peninsula — landings chosen daily…" */
+function focusStopLabel(st: FocusStop, n: number): string {
+  const days = st.day
+    ? st.endDay && st.endDay !== st.day ? `Days ${st.day}–${st.endDay} · ` : `Day ${st.day} · `
+    : "";
+  const note = st.water?.note ? ` — ${st.water.note}` : "";
+  return `${n}. ${days}${st.name}${note}`;
+}
+
+/**
+ * The shaded zones of a traced route's named waters, as polygons.
+ *
+ * Real polygons, not a circle layer with a pixel radius: a zone is a stated
+ * distance on the ground, so it should hold its size as the camera zooms and
+ * stay round on the globe at -64° as well as at the equator.
+ */
+function focusZones(stops: FocusStop[]) {
+  const features = [];
+  for (const st of stops) {
+    const r = st.water?.zoneKm ?? 0;
+    if (!(r > 0)) continue;
+    const [lng0, lat0] = st.at;
+    const ring: [number, number][] = [];
+    const d = r / 6371;
+    const la = (lat0 * Math.PI) / 180, lo = (lng0 * Math.PI) / 180;
+    for (let i = 0; i <= 64; i++) {
+      const b = (i / 64) * 2 * Math.PI;
+      const la2 = Math.asin(Math.sin(la) * Math.cos(d) + Math.cos(la) * Math.sin(d) * Math.cos(b));
+      const lo2 = lo + Math.atan2(Math.sin(b) * Math.sin(d) * Math.cos(la), Math.cos(d) - Math.sin(la) * Math.sin(la2));
+      ring.push([(lo2 * 180) / Math.PI, (la2 * 180) / Math.PI]);
+    }
+    features.push({ type: "Feature" as const, geometry: { type: "Polygon" as const, coordinates: [ring] }, properties: {} });
+  }
+  return { type: "FeatureCollection" as const, features };
 }
 
 /** The payload of `bevvip:atlas-route` — one trip to trace, or a clear. */
@@ -3293,9 +3338,7 @@ export default function AtlasShell({
                 // A lone stop is a PLACE (a hotel), not stop 1 of an itinerary.
                 // Numbering it reads as the start of a route that isn't there.
                 n: stops.length > 1 ? String(i + 1) : "",
-                label: stops.length === 1
-                  ? st.name
-                  : st.day ? `${i + 1}. Day ${st.day} · ${st.name}` : `${i + 1}. ${st.name}`,
+                label: stops.length === 1 ? st.name : focusStopLabel(st, i + 1),
                 // Single selections carry their name on the map permanently —
                 // the whole point of clicking is to find out WHICH pin it is,
                 // and a hover-only label can't answer that on a touch screen.
@@ -3305,6 +3348,23 @@ export default function AtlasShell({
           };
           if (!map.getSource("focus-stops")) map.addSource("focus-stops", { type: "geojson", data });
           else map.getSource("focus-stops")?.setData(data);
+
+          /*
+           * Named waters with a zone — the peninsula, the Falklands, Scoresby
+           * Sund — drawn as a soft area under the dots. Its own source, so the
+           * stop count of focus-stops still means stops.
+           */
+          const zones = focusZones(stops);
+          if (!map.getSource("focus-zones")) map.addSource("focus-zones", { type: "geojson", data: zones });
+          else map.getSource("focus-zones")?.setData(zones);
+          addLayer(map, {
+            id: "fs_zone", type: "fill", source: "focus-zones",
+            paint: { "fill-color": p.line, "fill-opacity": 0.16, "fill-outline-color": p.line },
+          }, map.getLayer("fr_casing") ? "fr_casing" : undefined);   // under the route line
+          try {
+            map.setPaintProperty("fs_zone", "fill-color", p.line);
+            map.setPaintProperty("fs_zone", "fill-outline-color", p.line);
+          } catch { /* layer missing mid-restyle */ }
 
           // Sized against the line, not independently of it. A 10px bead on a
           // 1.4px thread is a pin dropped on a route; a 6px one is a call on
@@ -3484,6 +3544,7 @@ export default function AtlasShell({
           const empty = { type: "FeatureCollection" as const, features: [] };
           if (map.getSource("focus-route")) map.getSource("focus-route")?.setData(empty);
           if (map.getSource("focus-stops")) map.getSource("focus-stops")?.setData(empty);
+          if (map.getSource("focus-zones")) map.getSource("focus-zones")?.setData(empty);
           stopPinned = false;
           stopPopup.remove();
         }
@@ -4420,9 +4481,7 @@ export default function AtlasShell({
             return {
               at: [st.at[0], st.at[1]],
               n: stops.length > 1 ? String(n) : "",
-              label: stops.length === 1
-                ? st.name
-                : st.day ? `${n}. Day ${st.day} · ${st.name}` : `${n}. ${st.name}`,
+              label: stops.length === 1 ? st.name : focusStopLabel(st, n),
             };
           };
 
