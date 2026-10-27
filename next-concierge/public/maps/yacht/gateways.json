@@ -5,9 +5,9 @@
   "atlas": "yacht",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 520,
-  "journeysWithStays": 519,
-  "journeysWithHouse": 519,
+  "journeysTotal": 518,
+  "journeysWithStays": 517,
+  "journeysWithHouse": 517,
   "gateways": 58,
   "hotels": 193,
   "houses": [
@@ -20,401 +20,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_01399": {
-   "n": "O2 Beach Club & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Christ Church",
-   "country": "Barbados",
-   "ll": [
-    13.0656,
-    -59.5657
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930957_2_0_1004.webp",
-   "rooms": 116,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
-  "h_01709": {
-   "n": "Sandy Lane Hotel",
-   "house": "Sandy Lane",
-   "aff": null,
-   "city": "Holetown",
-   "country": "Barbados",
-   "ll": [
-    13.1731,
-    -59.6369
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3861_2_0.webp",
-   "rooms": 114,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 1
-  },
-  "h_00603": {
-   "n": "Fairmont Royal Pavilion",
-   "house": "Accor",
-   "aff": null,
-   "city": "Porters",
-   "country": "Barbados",
-   "ll": [
-    13.178,
-    -59.549
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15739548_2_0_0930.webp",
-   "rooms": 75,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00421": {
-   "n": "Cobblers Cove",
-   "house": null,
-   "aff": null,
-   "city": "Speightstown",
-   "country": "Barbados",
-   "ll": [
-    13.2531,
-    -59.6377
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4571_2_0_1003.webp",
-   "rooms": 41,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00428": {
-   "n": "Condado Vanderbilt Hotel",
-   "house": null,
-   "aff": null,
-   "city": "San Juan",
-   "country": "Puerto Rico",
-   "ll": [
-    18.4586,
-    -66.0761
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656083_2_0_1003.webp",
-   "rooms": 317,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00852": {
-   "n": "Hotel El Convento",
-   "house": null,
-   "aff": null,
-   "city": "Old San Juan",
-   "country": "Puerto Rico",
-   "ll": [
-    18.4662,
-    -66.1183
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3806_2_0_1007.webp",
-   "rooms": 81,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00583": {
-   "n": "Fairmont El San Juan Hotel",
-   "house": "Accor",
-   "aff": null,
-   "city": "Carolina",
-   "country": "Puerto Rico",
-   "ll": [
-    18.4435,
-    -66.0185
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16158609_2_0_1001.webp",
-   "rooms": 388,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02199": {
-   "n": "The Ritz-Carlton, San Juan",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Carolina",
-   "country": "Puerto Rico",
-   "ll": [
-    18.443,
-    -66.0134
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4197_2_0_0929.webp",
-   "rooms": 416,
-   "perks": [],
-   "promo": 0
-  },
-  "h_00509": {
-   "n": "Dorado Beach, a Ritz-Carlton Reserve",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Dorado",
-   "country": "Puerto Rico",
-   "ll": [
-    18.4775,
-    -66.2702
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11976827_2_17_1008.webp",
-   "rooms": 96,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00695": {
-   "n": "Four Seasons Resort and Residences Puerto Rico",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Rio Grande",
-   "country": "Puerto Rico",
-   "ll": [
-    18.3861,
-    -65.8282
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4777245_2_0_1006.webp",
-   "rooms": 139,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v16768337": {
-   "n": "Torel Palace Lisbon",
-   "house": null,
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7185,
-    -9.14013
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16767555_2_0_1007.webp",
-   "rooms": 33,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01456": {
-   "n": "Palacio Ludovice Wine Experience Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7143,
-    -9.14414
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930052_2_0_1002.webp",
-   "rooms": 61,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01564": {
-   "n": "Pousada de Lisboa - Praca do Comercio",
-   "house": null,
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7082,
-    -9.13785
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15469516_2_0.webp",
-   "rooms": 90,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02007": {
-   "n": "The Ivens, Autograph Collection",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7097,
-    -9.14033
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16895775_2_0.webp",
-   "rooms": 86,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 0
-  },
-  "h_00668": {
-   "n": "Four Seasons Hotel Ritz Lisbon",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Lisbon",
-   "country": "Portugal",
-   "ll": [
-    38.7256,
-    -9.15506
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4015_2_0.webp",
-   "rooms": 282,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00024": {
-   "n": "Acqualina Resort & Residences on the Beach",
-   "house": null,
-   "aff": null,
-   "city": "Miami Beach",
-   "country": "United States",
-   "ll": [
-    25.9429,
-    -80.1234
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3886_2_4_1003.webp",
-   "rooms": 98,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02136": {
-   "n": "The Ritz-Carlton Bal Harbour, Miami",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Bal Harbour",
-   "country": "United States",
-   "ll": [
-    25.8988,
-    -80.1233
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14388867_2_4.webp",
-   "rooms": 95,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02245": {
-   "n": "The St. Regis Bal Harbour Resort",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Bal Harbour",
-   "country": "United States",
-   "ll": [
-    25.8888,
-    -80.1225
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6655670_2_19.webp",
-   "rooms": 216,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00672": {
-   "n": "Four Seasons Hotel at The Surf Club",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Surfside",
-   "country": "United States",
-   "ll": [
-    25.8776,
-    -80.1216
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5_0929.webp",
-   "rooms": 103,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02202": {
-   "n": "The Ritz-Carlton, South Beach",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Miami Beach",
-   "country": "United States",
-   "ll": [
-    25.7907,
-    -80.1281
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3973_2_0.webp",
-   "rooms": 375,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00657": {
-   "n": "Four Seasons Hotel Miami",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Miami",
-   "country": "United States",
-   "ll": [
-    25.7587,
-    -80.1914
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4278_2_0.webp",
-   "rooms": 221,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_00135": {
    "n": "Andaz Tokyo Toranomon Hills",
    "house": "Hyatt Hotels Corporation",
@@ -643,6 +248,44 @@
    ],
    "promo": 1
   },
+  "h_02136": {
+   "n": "The Ritz-Carlton Bal Harbour, Miami",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Bal Harbour",
+   "country": "United States",
+   "ll": [
+    25.8988,
+    -80.1233
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14388867_2_4.webp",
+   "rooms": 95,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00672": {
+   "n": "Four Seasons Hotel at The Surf Club",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Surfside",
+   "country": "United States",
+   "ll": [
+    25.8776,
+    -80.1216
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5.webp",
+   "rooms": 103,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_01117": {
    "n": "La Samanna, A Belmond Hotel, St Martin",
    "house": "Belmond",
@@ -653,7 +296,7 @@
     18.0593,
     -63.1435
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4276_2_151_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4276_2_151.webp",
    "rooms": 84,
    "perks": [
     "Daily breakfast",
@@ -890,6 +533,192 @@
    ],
    "promo": 1
   },
+  "h_00024": {
+   "n": "Acqualina Resort & Residences on the Beach",
+   "house": null,
+   "aff": null,
+   "city": "Miami Beach",
+   "country": "United States",
+   "ll": [
+    25.9429,
+    -80.1234
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3886_2_4_1003.webp",
+   "rooms": 98,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02245": {
+   "n": "The St. Regis Bal Harbour Resort",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Bal Harbour",
+   "country": "United States",
+   "ll": [
+    25.8888,
+    -80.1225
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6655670_2_19.webp",
+   "rooms": 216,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02202": {
+   "n": "The Ritz-Carlton, South Beach",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Miami Beach",
+   "country": "United States",
+   "ll": [
+    25.7907,
+    -80.1281
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3973_2_0.webp",
+   "rooms": 375,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00657": {
+   "n": "Four Seasons Hotel Miami",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Miami",
+   "country": "United States",
+   "ll": [
+    25.7587,
+    -80.1914
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4278_2_0.webp",
+   "rooms": 221,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00428": {
+   "n": "Condado Vanderbilt Hotel",
+   "house": null,
+   "aff": null,
+   "city": "San Juan",
+   "country": "Puerto Rico",
+   "ll": [
+    18.4586,
+    -66.0761
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656083_2_0_1003.webp",
+   "rooms": 317,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00852": {
+   "n": "Hotel El Convento",
+   "house": null,
+   "aff": null,
+   "city": "Old San Juan",
+   "country": "Puerto Rico",
+   "ll": [
+    18.4662,
+    -66.1183
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3806_2_0_1007.webp",
+   "rooms": 81,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00583": {
+   "n": "Fairmont El San Juan Hotel",
+   "house": "Accor",
+   "aff": null,
+   "city": "Carolina",
+   "country": "Puerto Rico",
+   "ll": [
+    18.4435,
+    -66.0185
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16158609_2_0_1001.webp",
+   "rooms": 388,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02199": {
+   "n": "The Ritz-Carlton, San Juan",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Carolina",
+   "country": "Puerto Rico",
+   "ll": [
+    18.443,
+    -66.0134
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4197_2_0.webp",
+   "rooms": 416,
+   "perks": [],
+   "promo": 0
+  },
+  "h_00509": {
+   "n": "Dorado Beach, a Ritz-Carlton Reserve",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Dorado",
+   "country": "Puerto Rico",
+   "ll": [
+    18.4775,
+    -66.2702
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11976827_2_17_1008.webp",
+   "rooms": 96,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00695": {
+   "n": "Four Seasons Resort and Residences Puerto Rico",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Rio Grande",
+   "country": "Puerto Rico",
+   "ll": [
+    18.3861,
+    -65.8282
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4777245_2_0_1006.webp",
+   "rooms": 139,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_02459": {
    "n": "Waldorf Astoria Panama",
    "house": "Hilton Luxury Brands",
@@ -976,7 +805,7 @@
     17.8944,
     -62.8476
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16190622_2_15_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16190622_2_15.webp",
    "rooms": 21,
    "perks": [
     "Daily breakfast",
@@ -1031,6 +860,82 @@
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4623_2_0_1003.webp",
    "rooms": 405,
    "perks": [
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_01399": {
+   "n": "O2 Beach Club & Spa",
+   "house": null,
+   "aff": null,
+   "city": "Christ Church",
+   "country": "Barbados",
+   "ll": [
+    13.0656,
+    -59.5657
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930957_2_0_1004.webp",
+   "rooms": 116,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 1
+  },
+  "h_01709": {
+   "n": "Sandy Lane Hotel",
+   "house": "Sandy Lane",
+   "aff": null,
+   "city": "Holetown",
+   "country": "Barbados",
+   "ll": [
+    13.1731,
+    -59.6369
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3861_2_0.webp",
+   "rooms": 114,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 1
+  },
+  "h_00603": {
+   "n": "Fairmont Royal Pavilion",
+   "house": "Accor",
+   "aff": null,
+   "city": "Porters",
+   "country": "Barbados",
+   "ll": [
+    13.178,
+    -59.549
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15739548_2_0_0930.webp",
+   "rooms": 75,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00421": {
+   "n": "Cobblers Cove",
+   "house": null,
+   "aff": null,
+   "city": "Speightstown",
+   "country": "Barbados",
+   "ll": [
+    13.2531,
+    -59.6377
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4571_2_0_1003.webp",
+   "rooms": 41,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
     "Early check-in"
    ],
    "promo": 0
@@ -1128,7 +1033,7 @@
     21.3395,
     -158.126
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15268048_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15268048_2_0.webp",
    "rooms": 371,
    "perks": [
     "Daily breakfast",
@@ -1318,7 +1223,7 @@
     -8.34054,
     115.092
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15644200_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15644200_2_0.webp",
    "rooms": 45,
    "perks": [
     "Daily breakfast",
@@ -1337,7 +1242,7 @@
     -8.47032,
     115.25
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3745_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3745_2_0.webp",
    "rooms": 31,
    "perks": [
     "Daily breakfast",
@@ -1470,7 +1375,7 @@
     7.98746,
     98.2719
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3855_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3855_2_0.webp",
    "rooms": 80,
    "perks": [
     "Daily breakfast",
@@ -1554,6 +1459,101 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_v16768337": {
+   "n": "Torel Palace Lisbon",
+   "house": null,
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7185,
+    -9.14013
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16767555_2_0_1007.webp",
+   "rooms": 33,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01456": {
+   "n": "Palacio Ludovice Wine Experience Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7143,
+    -9.14414
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930052_2_0_1002.webp",
+   "rooms": 61,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01564": {
+   "n": "Pousada de Lisboa - Praca do Comercio",
+   "house": null,
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7082,
+    -9.13785
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15469516_2_0.webp",
+   "rooms": 90,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02007": {
+   "n": "The Ivens, Autograph Collection",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7097,
+    -9.14033
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16895775_2_0.webp",
+   "rooms": 86,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 0
+  },
+  "h_00668": {
+   "n": "Four Seasons Hotel Ritz Lisbon",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Lisbon",
+   "country": "Portugal",
+   "ll": [
+    38.7256,
+    -9.15506
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4015_2_0.webp",
+   "rooms": 282,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_00613": {
    "n": "Fairmont Tokyo",
@@ -1736,7 +1736,7 @@
     39.4787,
     2.73607
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16800715_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16800715_2_0.webp",
    "rooms": 30,
    "perks": [
     "Daily breakfast",
@@ -1888,7 +1888,7 @@
     38.1449,
     13.3694
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15974827_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15974827_2_0.webp",
    "rooms": 100,
    "perks": [
     "Daily breakfast",
@@ -2097,7 +2097,7 @@
     41.0478,
     28.9928
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15871840_2_14_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15871840_2_14.webp",
    "rooms": 118,
    "perks": [
     "Daily breakfast",
@@ -2363,7 +2363,7 @@
     43.2117,
     5.52956
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16769758_2_10_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16769758_2_10.webp",
    "rooms": 45,
    "perks": [
     "Daily breakfast",
@@ -2777,7 +2777,7 @@
     40.8149,
     14.1643
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930347_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930347_2_0.webp",
    "rooms": 5000,
    "perks": [
     "Daily breakfast",
@@ -2872,7 +2872,7 @@
     40.6497,
     14.6129
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4312_2_47_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4312_2_47.webp",
    "rooms": 43,
    "perks": [
     "Daily breakfast",
@@ -3081,7 +3081,7 @@
     51.5166,
     -0.080845
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18377278_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18377278_2_0.webp",
    "rooms": 237,
    "perks": [
     "Daily breakfast",
@@ -3214,7 +3214,7 @@
     55.6734,
     12.5659
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4374_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4374_2_0.webp",
    "rooms": 38,
    "perks": [
     "Daily breakfast",
@@ -3423,7 +3423,7 @@
     42.3868,
     18.6641
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16691813_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16691813_2_0.webp",
    "rooms": 111,
    "perks": [
     "Daily breakfast",
@@ -3518,7 +3518,7 @@
     43.2653,
     6.62494
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15848298_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15848298_2_0.webp",
    "rooms": 32,
    "perks": [
     "Daily breakfast",
@@ -3556,7 +3556,7 @@
     12.5642,
     -70.0512
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16905434_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16905434_2_0.webp",
    "rooms": 252,
    "perks": [
     "Daily breakfast",
@@ -3662,126 +3662,6 @@
   }
  },
  "GATES": {
-  "Bridgetown, Barbados": {
-   "n": "Bridgetown, Barbados",
-   "ll": [
-    13.1,
-    -59.6167
-   ],
-   "h": [
-    [
-     "h_01399",
-     6.7
-    ],
-    [
-     "h_01709",
-     8.4
-    ],
-    [
-     "h_00603",
-     11.4
-    ],
-    [
-     "h_00421",
-     17.2
-    ]
-   ]
-  },
-  "San Juan, Puerto Rico": {
-   "n": "San Juan, Puerto Rico",
-   "ll": [
-    18.4504,
-    -66.0849
-   ],
-   "h": [
-    [
-     "h_00428",
-     1.3
-    ],
-    [
-     "h_00852",
-     3.9
-    ],
-    [
-     "h_00583",
-     7
-    ],
-    [
-     "h_02199",
-     7.6
-    ],
-    [
-     "h_00509",
-     19.8
-    ],
-    [
-     "h_00695",
-     28
-    ]
-   ]
-  },
-  "Lisbon, Portugal": {
-   "n": "Lisbon, Portugal",
-   "ll": [
-    38.7167,
-    -9.1333
-   ],
-   "h": [
-    [
-     "h_v16768337",
-     0.6
-    ],
-    [
-     "h_01456",
-     1
-    ],
-    [
-     "h_01564",
-     1
-    ],
-    [
-     "h_02007",
-     1
-    ],
-    [
-     "h_00668",
-     2.1
-    ]
-   ]
-  },
-  "Miami, FL, United States": {
-   "n": "Miami, FL, United States",
-   "ll": [
-    25.9388,
-    -80.2144
-   ],
-   "h": [
-    [
-     "h_00024",
-     9.1
-    ],
-    [
-     "h_02136",
-     10.1
-    ],
-    [
-     "h_02245",
-     10.7
-    ],
-    [
-     "h_00672",
-     11.5
-    ],
-    [
-     "h_02202",
-     18.6
-    ],
-    [
-     "h_00657",
-     20.2
-    ]
-   ]
-  },
   "Tokyo, Japan": {
    "n": "Tokyo, Japan",
    "ll": [
@@ -3944,6 +3824,72 @@
     ]
    ]
   },
+  "Miami, FL, United States": {
+   "n": "Miami, FL, United States",
+   "ll": [
+    25.9388,
+    -80.2144
+   ],
+   "h": [
+    [
+     "h_00024",
+     9.1
+    ],
+    [
+     "h_02136",
+     10.1
+    ],
+    [
+     "h_02245",
+     10.7
+    ],
+    [
+     "h_00672",
+     11.5
+    ],
+    [
+     "h_02202",
+     18.6
+    ],
+    [
+     "h_00657",
+     20.2
+    ]
+   ]
+  },
+  "San Juan, Puerto Rico": {
+   "n": "San Juan, Puerto Rico",
+   "ll": [
+    18.4504,
+    -66.0849
+   ],
+   "h": [
+    [
+     "h_00428",
+     1.3
+    ],
+    [
+     "h_00852",
+     3.9
+    ],
+    [
+     "h_00583",
+     7
+    ],
+    [
+     "h_02199",
+     7.6
+    ],
+    [
+     "h_00509",
+     19.8
+    ],
+    [
+     "h_00695",
+     28
+    ]
+   ]
+  },
   "Panama City, Panama": {
    "n": "Panama City, Panama",
    "ll": [
@@ -4020,6 +3966,31 @@
     [
      "h_00692",
      21.3
+    ]
+   ]
+  },
+  "Bridgetown, Barbados": {
+   "n": "Bridgetown, Barbados",
+   "ll": [
+    13.1,
+    -59.6167
+   ],
+   "h": [
+    [
+     "h_01399",
+     6.7
+    ],
+    [
+     "h_01709",
+     8.4
+    ],
+    [
+     "h_00603",
+     11.4
+    ],
+    [
+     "h_00421",
+     17.2
     ]
    ]
   },
@@ -4186,6 +4157,35 @@
     [
      "h_02189",
      0.5
+    ]
+   ]
+  },
+  "Lisbon, Portugal": {
+   "n": "Lisbon, Portugal",
+   "ll": [
+    38.7167,
+    -9.1333
+   ],
+   "h": [
+    [
+     "h_v16768337",
+     0.6
+    ],
+    [
+     "h_01456",
+     1
+    ],
+    [
+     "h_01564",
+     1
+    ],
+    [
+     "h_02007",
+     1
+    ],
+    [
+     "h_00668",
+     2.1
     ]
    ]
   },
@@ -5305,11 +5305,6 @@
    "pre": "Philipsburg, Sint Maarten",
    "post": "Philipsburg, Sint Maarten",
    "house": "Four Seasons"
-  },
-  "18192132": {
-   "pre": "Lisbon, Portugal",
-   "post": "Miami, FL, United States",
-   "house": "Ritz-Carlton"
   },
   "18192133": {
    "pre": "Miami, FL, United States",
@@ -6495,11 +6490,6 @@
    "pre": "Tokyo, Japan",
    "post": "Tokyo, Japan",
    "house": "Ritz-Carlton"
-  },
-  "18459765": {
-   "pre": "Bridgetown, Barbados",
-   "post": "San Juan, Puerto Rico",
-   "house": "Orient Express"
   },
   "18459768": {
    "pre": "Marigot, Saint Martin",

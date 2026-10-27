@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4443,
-  "journeysWithStays": 3744,
+  "journeysTotal": 4435,
+  "journeysWithStays": 3735,
   "journeysWithHouse": 0,
   "gateways": 109,
   "hotels": 291,
@@ -15,253 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00141": {
-   "n": "Arakur Ushuaia Resort & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.7864,
-    -68.2575
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
-   "rooms": 129,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 0
-  },
-  "h_01191": {
-   "n": "Los Cauquenes Resort + Spa + Experiences",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.8364,
-    -68.3502
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0_1005.webp",
-   "rooms": 48,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00860": {
-   "n": "Hotel Fasano Salvador",
-   "house": "Fasano Hotels",
-   "aff": null,
-   "city": "Salvador Bahia",
-   "country": "Brazil",
-   "ll": [
-    -12.9768,
-    -38.5142
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16423047_2_0_0928.webp",
-   "rooms": 70,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_01715": {
-   "n": "Santa Teresa Hotel RJ - MGallery",
-   "house": "Accor",
-   "aff": null,
-   "city": "Rio De Janeiro",
-   "country": "Brazil",
-   "ll": [
-    -22.9454,
-    -43.242
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11062664_2_0_1007.webp",
-   "rooms": 43,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00455": {
-   "n": "Copacabana Palace, A Belmond Hotel, Rio de Janeiro",
-   "house": "Belmond",
-   "aff": "Belmond",
-   "city": "Rio De Janeiro",
-   "country": "Brazil",
-   "ll": [
-    -22.9675,
-    -43.1784
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3824_2_1.webp",
-   "rooms": 220,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_00541": {
-   "n": "Emiliano Rio",
-   "house": null,
-   "aff": null,
-   "city": "Rio De Janeiro",
-   "country": "Brazil",
-   "ll": [
-    -22.9822,
-    -43.1902
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15495388_2_0.webp",
-   "rooms": 90,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00856": {
-   "n": "Hotel Fairmont Rio de Janeiro Copacabana",
-   "house": "Accor",
-   "aff": null,
-   "city": "Rio De Janeiro",
-   "country": "Brazil",
-   "ll": [
-    -22.9861,
-    -43.1894
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395453_2_0_1008.webp",
-   "rooms": 375,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02037": {
-   "n": "The Legian Seminyak, Bali",
-   "house": null,
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.68414,
-    115.159
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16636575_2_0.webp",
-   "rooms": 80,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00125": {
-   "n": "Andaz Bali",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.69948,
-    115.264
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16597012_2_0_1003.webp",
-   "rooms": 149,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01562": {
-   "n": "Desa Potato Head Bali",
-   "house": null,
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.67908,
-    115.151
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15803682_2_0.webp",
-   "rooms": 88,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02076": {
-   "n": "The Oberoi, Bali",
-   "house": "The Oberoi Group",
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.69201,
-    115.158
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3742_2_0.webp",
-   "rooms": 74,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01293": {
-   "n": "Mashpi Lodge",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.223252,
-    -78.5141
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0_0930.webp",
-   "rooms": 24,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00347": {
-   "n": "Casa Gangotena",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.194181,
-    -78.4532
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
-   "rooms": 30,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
   "h_01667": {
    "n": "Rosselli AX Privilege",
    "house": null,
@@ -375,6 +128,82 @@
     "Early check-in"
    ],
    "promo": 1
+  },
+  "h_01715": {
+   "n": "Santa Teresa Hotel RJ - MGallery",
+   "house": "Accor",
+   "aff": null,
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9454,
+    -43.242
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11062664_2_0_1007.webp",
+   "rooms": 43,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00455": {
+   "n": "Copacabana Palace, A Belmond Hotel, Rio de Janeiro",
+   "house": "Belmond",
+   "aff": "Belmond",
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9675,
+    -43.1784
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3824_2_1.webp",
+   "rooms": 220,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00541": {
+   "n": "Emiliano Rio",
+   "house": null,
+   "aff": null,
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9822,
+    -43.1902
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15495388_2_0.webp",
+   "rooms": 90,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00856": {
+   "n": "Hotel Fairmont Rio de Janeiro Copacabana",
+   "house": "Accor",
+   "aff": null,
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9861,
+    -43.1894
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395453_2_0_1008.webp",
+   "rooms": 375,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_00055": {
    "n": "Alvear Palace Hotel",
@@ -534,12 +363,50 @@
     30.09,
     31.2072
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4198_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4198_2_0.webp",
    "rooms": 262,
    "perks": [
     "Daily breakfast",
     "Room upgrade",
     "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_01293": {
+   "n": "Mashpi Lodge",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.223252,
+    -78.5141
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0_0930.webp",
+   "rooms": 24,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00347": {
+   "n": "Casa Gangotena",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.194181,
+    -78.4532
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
+   "rooms": 30,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
    ],
    "promo": 0
   },
@@ -942,6 +809,44 @@
    ],
    "promo": 1
   },
+  "h_00141": {
+   "n": "Arakur Ushuaia Resort & Spa",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.7864,
+    -68.2575
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
+   "rooms": 129,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 0
+  },
+  "h_01191": {
+   "n": "Los Cauquenes Resort + Spa + Experiences",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.8364,
+    -68.3502
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0_1005.webp",
+   "rooms": 48,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
   "h_00937": {
    "n": "Hotel del Parque",
    "house": null,
@@ -1208,6 +1113,82 @@
    ],
    "promo": 1
   },
+  "h_02037": {
+   "n": "The Legian Seminyak, Bali",
+   "house": null,
+   "aff": null,
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.68414,
+    115.159
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16636575_2_0.webp",
+   "rooms": 80,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00125": {
+   "n": "Andaz Bali",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.69948,
+    115.264
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16597012_2_0_1003.webp",
+   "rooms": 149,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01562": {
+   "n": "Desa Potato Head Bali",
+   "house": null,
+   "aff": null,
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.67908,
+    115.151
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15803682_2_0.webp",
+   "rooms": 88,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02076": {
+   "n": "The Oberoi, Bali",
+   "house": "The Oberoi Group",
+   "aff": null,
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.69201,
+    115.158
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3742_2_0.webp",
+   "rooms": 74,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
   "h_00877": {
    "n": "Hotel Kamp",
    "house": null,
@@ -1275,7 +1256,7 @@
     -4.784,
     55.4993
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18103339_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18103339_2_0.webp",
    "rooms": 52,
    "perks": [
     "Daily breakfast",
@@ -1571,7 +1552,7 @@
     22.9018,
     -109.852
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4406_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4406_2_0.webp",
    "rooms": 97,
    "perks": [
     "Daily breakfast",
@@ -1628,7 +1609,7 @@
     45.4992,
     -73.5757
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15542901_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15542901_2_0.webp",
    "rooms": 90,
    "perks": [
     "Daily breakfast",
@@ -1666,7 +1647,7 @@
     18.0593,
     -63.1435
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4276_2_151_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4276_2_151.webp",
    "rooms": 84,
    "perks": [
     "Daily breakfast",
@@ -1894,7 +1875,7 @@
     28.6042,
     77.2238
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3931_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3931_2_0.webp",
    "rooms": 213,
    "perks": [
     "Daily breakfast",
@@ -2122,7 +2103,7 @@
     -36.8436,
     174.767
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18246258_2_1_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18246258_2_1.webp",
    "rooms": 139,
    "perks": [
     "Daily breakfast",
@@ -2806,7 +2787,7 @@
     55.9541,
     -3.19168
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16508164_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16508164_2_0.webp",
    "rooms": 33,
    "perks": [
     "Daily breakfast",
@@ -3254,7 +3235,7 @@
     40.8149,
     14.1643
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930347_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930347_2_0.webp",
    "rooms": 5000,
    "perks": [
     "Daily breakfast",
@@ -3330,7 +3311,7 @@
     55.6734,
     12.5659
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4374_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4374_2_0.webp",
    "rooms": 38,
    "perks": [
     "Daily breakfast",
@@ -3425,7 +3406,7 @@
     41.9024,
     12.4789
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16635407_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16635407_2_0.webp",
    "rooms": 60,
    "perks": [
     "Daily breakfast",
@@ -3881,7 +3862,7 @@
     51.5166,
     -0.080845
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18377278_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18377278_2_0.webp",
    "rooms": 237,
    "perks": [
     "Daily breakfast",
@@ -3957,7 +3938,7 @@
     38.1449,
     13.3694
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15974827_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15974827_2_0.webp",
    "rooms": 100,
    "perks": [
     "Daily breakfast",
@@ -4090,7 +4071,7 @@
     40.7148,
     -73.9921
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18405612_2_3_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18405612_2_3.webp",
    "rooms": 113,
    "perks": [
     "Daily breakfast",
@@ -4257,7 +4238,7 @@
     43.6693,
     -79.395
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3732_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3732_2_0.webp",
    "rooms": 219,
    "perks": [
     "Daily breakfast",
@@ -4367,7 +4348,7 @@
     52.3658,
     4.88237
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16767640_2_1_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16767640_2_1.webp",
    "rooms": 134,
    "perks": [
     "Daily breakfast",
@@ -4496,7 +4477,7 @@
     42.352,
     -71.0733
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16383239_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16383239_2_0.webp",
    "rooms": 286,
    "perks": [
     "Daily breakfast",
@@ -4522,7 +4503,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00869": {
    "n": "Hotel Hermitage Monte-Carlo",
@@ -4686,7 +4667,7 @@
     41.0478,
     28.9928
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15871840_2_14_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15871840_2_14.webp",
    "rooms": 118,
    "perks": [
     "Daily breakfast",
@@ -4713,6 +4694,25 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00860": {
+   "n": "Hotel Fasano Salvador",
+   "house": "Fasano Hotels",
+   "aff": null,
+   "city": "Salvador Bahia",
+   "country": "Brazil",
+   "ll": [
+    -12.9768,
+    -38.5142
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16423047_2_0.webp",
+   "rooms": 70,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
   },
   "h_00808": {
    "n": "Hotel AWA",
@@ -5189,6 +5189,25 @@
    ],
    "promo": 1
   },
+  "h_00997": {
+   "n": "InterContinental Porto - Palacio das Cardosas",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "Porto",
+   "country": "Portugal",
+   "ll": [
+    41.1458,
+    -8.61145
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/10883108_2_0.webp",
+   "rooms": 113,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 1
+  },
   "h_00330": {
    "n": "Capitolo Riviera",
    "house": null,
@@ -5264,25 +5283,6 @@
     "Room upgrade"
    ],
    "promo": 0
-  },
-  "h_00997": {
-   "n": "InterContinental Porto - Palacio das Cardosas",
-   "house": "IHG Hotels & Resorts",
-   "aff": null,
-   "city": "Porto",
-   "country": "Portugal",
-   "ll": [
-    41.1458,
-    -8.61145
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/10883108_2_0.webp",
-   "rooms": 113,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 1
   },
   "h_00821": {
    "n": "Hotel Barriere Le Grand Hotel Dinard",
@@ -5389,7 +5389,7 @@
     12.5642,
     -70.0512
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16905434_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16905434_2_0.webp",
    "rooms": 252,
    "perks": [
     "Daily breakfast",
@@ -5514,103 +5514,6 @@
   }
  },
  "GATES": {
-  "Ushuaia, Argentina": {
-   "n": "Ushuaia, Argentina",
-   "ll": [
-    -54.8,
-    -68.3
-   ],
-   "h": [
-    [
-     "h_00141",
-     3.1
-    ],
-    [
-     "h_01191",
-     5.2
-    ]
-   ]
-  },
-  "Salvador, Brazil": {
-   "n": "Salvador, Brazil",
-   "ll": [
-    -12.9833,
-    -38.5167
-   ],
-   "h": [
-    [
-     "h_00860",
-     0.8
-    ]
-   ]
-  },
-  "Rio De Janeiro, Brazil": {
-   "n": "Rio De Janeiro, Brazil",
-   "ll": [
-    -22.8833,
-    -43.2
-   ],
-   "h": [
-    [
-     "h_01715",
-     8.1
-    ],
-    [
-     "h_00455",
-     9.6
-    ],
-    [
-     "h_00541",
-     11
-    ],
-    [
-     "h_00856",
-     11.5
-    ]
-   ]
-  },
-  "Denpasar, Indonesia": {
-   "n": "Denpasar, Indonesia",
-   "ll": [
-    -8.65,
-    115.217
-   ],
-   "h": [
-    [
-     "h_02037",
-     7.4
-    ],
-    [
-     "h_00125",
-     7.5
-    ],
-    [
-     "h_01562",
-     7.9
-    ],
-    [
-     "h_02076",
-     8
-    ]
-   ]
-  },
-  "Quito, Ecuador": {
-   "n": "Quito, Ecuador",
-   "ll": [
-    -0.2167,
-    -78.5
-   ],
-   "h": [
-    [
-     "h_01293",
-     1.7
-    ],
-    [
-     "h_00347",
-     5.8
-    ]
-   ]
-  },
   "Valletta, Malta": {
    "n": "Valletta, Malta",
    "ll": [
@@ -5650,6 +5553,31 @@
     [
      "h_01124",
      28.8
+    ]
+   ]
+  },
+  "Rio De Janeiro, Brazil": {
+   "n": "Rio De Janeiro, Brazil",
+   "ll": [
+    -22.8833,
+    -43.2
+   ],
+   "h": [
+    [
+     "h_01715",
+     8.1
+    ],
+    [
+     "h_00455",
+     9.6
+    ],
+    [
+     "h_00541",
+     11
+    ],
+    [
+     "h_00856",
+     11.5
     ]
    ]
   },
@@ -5713,6 +5641,23 @@
     [
      "h_00644",
      6.1
+    ]
+   ]
+  },
+  "Quito, Ecuador": {
+   "n": "Quito, Ecuador",
+   "ll": [
+    -0.2167,
+    -78.5
+   ],
+   "h": [
+    [
+     "h_01293",
+     1.7
+    ],
+    [
+     "h_00347",
+     5.8
     ]
    ]
   },
@@ -5875,6 +5820,23 @@
     ]
    ]
   },
+  "Ushuaia, Argentina": {
+   "n": "Ushuaia, Argentina",
+   "ll": [
+    -54.8,
+    -68.3
+   ],
+   "h": [
+    [
+     "h_00141",
+     3.1
+    ],
+    [
+     "h_01191",
+     5.2
+    ]
+   ]
+  },
   "Guayaquil, Ecuador": {
    "n": "Guayaquil, Ecuador",
    "ll": [
@@ -5973,6 +5935,31 @@
     [
      "h_02189",
      0.5
+    ]
+   ]
+  },
+  "Denpasar, Indonesia": {
+   "n": "Denpasar, Indonesia",
+   "ll": [
+    -8.65,
+    115.217
+   ],
+   "h": [
+    [
+     "h_02037",
+     7.4
+    ],
+    [
+     "h_00125",
+     7.5
+    ],
+    [
+     "h_01562",
+     7.9
+    ],
+    [
+     "h_02076",
+     8
     ]
    ]
   },
@@ -7399,6 +7386,19 @@
     ]
    ]
   },
+  "Salvador, Brazil": {
+   "n": "Salvador, Brazil",
+   "ll": [
+    -12.9833,
+    -38.5167
+   ],
+   "h": [
+    [
+     "h_00860",
+     0.8
+    ]
+   ]
+  },
   "Puerto Montt, Chile": {
    "n": "Puerto Montt, Chile",
    "ll": [
@@ -7575,31 +7575,6 @@
     ]
    ]
   },
-  "Genoa, Italy": {
-   "n": "Genoa, Italy",
-   "ll": [
-    44.4167,
-    8.95
-   ],
-   "h": [
-    [
-     "h_00330",
-     8.1
-    ],
-    [
-     "h_00738",
-     23.3
-    ],
-    [
-     "h_00562",
-     23.7
-    ],
-    [
-     "h_01848",
-     24.1
-    ]
-   ]
-  },
   "Porto, Portugal": {
    "n": "Porto, Portugal",
    "ll": [
@@ -7622,6 +7597,31 @@
     [
      "h_v16767614",
      0.7
+    ]
+   ]
+  },
+  "Genoa, Italy": {
+   "n": "Genoa, Italy",
+   "ll": [
+    44.4167,
+    8.95
+   ],
+   "h": [
+    [
+     "h_00330",
+     8.1
+    ],
+    [
+     "h_00738",
+     23.3
+    ],
+    [
+     "h_00562",
+     23.7
+    ],
+    [
+     "h_01848",
+     24.1
     ]
    ]
   },
@@ -8509,10 +8509,6 @@
    "pre": "Santiago, Chile",
    "post": "Santiago, Chile"
   },
-  "16852249": {
-   "pre": "Quito, Ecuador",
-   "post": "Quito, Ecuador"
-  },
   "16852250": {
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
@@ -9089,10 +9085,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Santiago, Chile"
   },
-  "18048906": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
   "18048907": {
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
@@ -9136,6 +9128,10 @@
   "18049042": {
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
+  },
+  "18049051": {
+   "pre": null,
+   "post": "Buenos Aires, Argentina"
   },
   "18049054": {
    "pre": null,
@@ -9418,10 +9414,6 @@
    "post": "Baltra Island, Ecuador"
   },
   "18052292": {
-   "pre": "Benoa (Bali), Indonesia",
-   "post": "Labuan Bajo, Flores, Indonesia"
-  },
-  "18052293": {
    "pre": "Benoa (Bali), Indonesia",
    "post": "Labuan Bajo, Flores, Indonesia"
   },
@@ -9761,10 +9753,6 @@
    "pre": "Valletta, Malta",
    "post": "Málaga, Spain"
   },
-  "18091609": {
-   "pre": null,
-   "post": "Málaga, Spain"
-  },
   "18091610": {
    "pre": null,
    "post": "Casablanca, Morocco"
@@ -9844,10 +9832,6 @@
   "18091673": {
    "pre": "Benoa (Bali), Indonesia",
    "post": "Cairns, Australia"
-  },
-  "18092123": {
-   "pre": "Denpasar, Indonesia",
-   "post": "Denpasar, Indonesia"
   },
   "18092129": {
    "pre": "Papeete, French Polynesia",
@@ -10156,10 +10140,6 @@
   "18129649": {
    "pre": "Glasgow, United Kingdom",
    "post": "Copenhagen, Denmark"
-  },
-  "18131918": {
-   "pre": "Salvador, Brazil",
-   "post": "Rio De Janeiro, Brazil"
   },
   "18131919": {
    "pre": "Ushuaia, Argentina",
@@ -11937,10 +11917,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
-  "18153088": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Papeete, French Polynesia"
-  },
   "18153089": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -12066,10 +12042,6 @@
    "post": "Reykjavík, Iceland"
   },
   "18153226": {
-   "pre": "Reykjavík, Iceland",
-   "post": "Reykjavík, Iceland"
-  },
-  "18153227": {
    "pre": "Reykjavík, Iceland",
    "post": "Reykjavík, Iceland"
   },
@@ -13809,6 +13781,10 @@
    "pre": "Baltra Island, Ecuador",
    "post": "Baltra Island, Ecuador"
   },
+  "18352420": {
+   "pre": "Baltra Island, Ecuador",
+   "post": "Baltra Island, Ecuador"
+  },
   "18352422": {
    "pre": "Benoa (Bali), Indonesia",
    "post": "Labuan Bajo, Flores, Indonesia"
@@ -15009,10 +14985,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Reykjavík, Iceland"
   },
-  "18479822": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Leith, United Kingdom"
-  },
   "18479823": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -15217,10 +15189,6 @@
    "pre": "Reykjavík, Iceland",
    "post": "Reykjavík, Iceland"
   },
-  "18479874": {
-   "pre": "Reykjavík, Iceland",
-   "post": "Reykjavík, Iceland"
-  },
   "18479875": {
    "pre": "Reykjavík, Iceland",
    "post": "Halifax, NS, Canada"
@@ -15236,10 +15204,6 @@
   "18479878": {
    "pre": "Reykjavík, Iceland",
    "post": "Rio De Janeiro, Brazil"
-  },
-  "18479879": {
-   "pre": "Reykjavík, Iceland",
-   "post": "Halifax, NS, Canada"
   },
   "18479880": {
    "pre": "Oranjestad, Aruba",
@@ -15268,10 +15232,6 @@
   "18479886": {
    "pre": "Rio De Janeiro, Brazil",
    "post": "Buenos Aires, Argentina"
-  },
-  "18479887": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Genoa, Italy"
   },
   "18479888": {
    "pre": "Bridgetown, Barbados",
@@ -15413,10 +15373,6 @@
    "pre": "Leith, United Kingdom",
    "post": "Reykjavík, Iceland"
   },
-  "18479924": {
-   "pre": "Belfast, Ireland",
-   "post": "Reykjavík, Iceland"
-  },
   "18479925": {
    "pre": "Leith, United Kingdom",
    "post": "Reykjavík, Iceland"
@@ -15426,6 +15382,10 @@
    "post": "Reykjavík, Iceland"
   },
   "18479927": {
+   "pre": "Belfast, Ireland",
+   "post": "Reykjavík, Iceland"
+  },
+  "18479928": {
    "pre": "Belfast, Ireland",
    "post": "Reykjavík, Iceland"
   },
@@ -15748,10 +15708,6 @@
   "18486220": {
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
-  },
-  "18486221": {
-   "pre": null,
-   "post": "Lautoka, Fiji"
   },
   "18486222": {
    "pre": "Lautoka, Fiji",
@@ -22645,14 +22601,6 @@
    "pre": "Lima, Peru",
    "post": "Lima, Peru"
   },
-  "18638152": {
-   "pre": "Seattle, WA, United States",
-   "post": "Seattle, WA, United States"
-  },
-  "18638159": {
-   "pre": "Seattle, WA, United States",
-   "post": "Seattle, WA, United States"
-  },
   "18645869": {
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
@@ -22736,6 +22684,22 @@
   "18645928": {
    "pre": "Oslo, Norway",
    "post": "Oslo, Norway"
+  },
+  "18646697": {
+   "pre": "Seattle, WA, United States",
+   "post": "Seattle, WA, United States"
+  },
+  "18646698": {
+   "pre": null,
+   "post": "La Romana, Dominican Republic"
+  },
+  "18646705": {
+   "pre": "Seattle, WA, United States",
+   "post": "Seattle, WA, United States"
+  },
+  "18646707": {
+   "pre": "Papeete, French Polynesia",
+   "post": "Papeete, French Polynesia"
   }
  }
 }

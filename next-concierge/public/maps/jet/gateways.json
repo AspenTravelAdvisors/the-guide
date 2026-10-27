@@ -5,8 +5,8 @@
   "atlas": "jet",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 125,
-  "journeysWithStays": 122,
+  "journeysTotal": 124,
+  "journeysWithStays": 121,
   "journeysWithHouse": 21,
   "gateways": 84,
   "hotels": 292,
@@ -187,7 +187,7 @@
     21.3395,
     -158.126
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15268048_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15268048_2_0.webp",
    "rooms": 371,
    "perks": [
     "Daily breakfast",
@@ -415,7 +415,7 @@
     41.0478,
     28.9928
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15871840_2_14_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15871840_2_14.webp",
    "rooms": 118,
    "perks": [
     "Daily breakfast",
@@ -624,7 +624,7 @@
     48.85,
     2.36246
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16438079_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16438079_2_0.webp",
    "rooms": 162,
    "perks": [
     "Daily breakfast",
@@ -681,7 +681,7 @@
     48.8688,
     2.3009
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4287_2_31_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4287_2_31.webp",
    "rooms": 243,
    "perks": [
     "Daily breakfast",
@@ -1118,7 +1118,7 @@
     28.6042,
     77.2238
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3931_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3931_2_0.webp",
    "rooms": 213,
    "perks": [
     "Daily breakfast",
@@ -1232,7 +1232,7 @@
     24.572,
     73.679
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14158257_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14158257_2_0.webp",
    "rooms": 88,
    "perks": [
     "Daily breakfast",
@@ -1361,7 +1361,7 @@
     42.352,
     -71.0733
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16383239_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16383239_2_0.webp",
    "rooms": 286,
    "perks": [
     "Daily breakfast",
@@ -1387,7 +1387,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00666": {
    "n": "Four Seasons Hotel One Dalton Street, Boston",
@@ -1509,7 +1509,7 @@
     39.950448,
     116.467235
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12069873_2_106_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12069873_2_106.webp",
    "rooms": 313,
    "perks": [
     "Daily breakfast",
@@ -1661,7 +1661,7 @@
     51.5166,
     -0.080845
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18377278_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18377278_2_0.webp",
    "rooms": 237,
    "perks": [
     "Daily breakfast",
@@ -2189,7 +2189,7 @@
     -23.5646,
     -46.6697
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4379_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4379_2_0.webp",
    "rooms": 60,
    "perks": [
     "Daily breakfast",
@@ -2284,7 +2284,7 @@
     25.8776,
     -80.1216
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5.webp",
    "rooms": 103,
    "perks": [
     "Daily breakfast",
@@ -2360,7 +2360,7 @@
     40.8149,
     14.1643
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930347_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930347_2_0.webp",
    "rooms": 5000,
    "perks": [
     "Daily breakfast",
@@ -2455,7 +2455,7 @@
     31.6277,
     -7.99963
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3865_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3865_2_0.webp",
    "rooms": 40,
    "perks": [
     "Daily breakfast",
@@ -2531,7 +2531,7 @@
     13.7088,
     100.499
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4258_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4258_2_0.webp",
    "rooms": 367,
    "perks": [
     "Daily breakfast",
@@ -2588,7 +2588,7 @@
     13.7189,
     100.515
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16429637_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16429637_2_0.webp",
    "rooms": 101,
    "perks": [
     "Daily breakfast",
@@ -2607,7 +2607,7 @@
     13.712,
     100.51
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16430888_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16430888_2_0.webp",
    "rooms": 299,
    "perks": [
     "Daily breakfast",
@@ -2759,7 +2759,7 @@
     -33.875,
     151.208
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16352953_2_0_0927.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16352953_2_0.webp",
    "rooms": 172,
    "perks": [
     "Daily breakfast",
@@ -3135,7 +3135,7 @@
     55.9541,
     -3.19168
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16508164_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16508164_2_0.webp",
    "rooms": 33,
    "perks": [
     "Daily breakfast",
@@ -3762,7 +3762,7 @@
     -8.34054,
     115.092
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15644200_2_0_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15644200_2_0.webp",
    "rooms": 45,
    "perks": [
     "Daily breakfast",
@@ -3781,7 +3781,7 @@
     -8.47032,
     115.25
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3745_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3745_2_0.webp",
    "rooms": 31,
    "perks": [
     "Daily breakfast",
@@ -3925,7 +3925,7 @@
     55.6734,
     12.5659
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4374_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4374_2_0.webp",
    "rooms": 38,
    "perks": [
     "Daily breakfast",
@@ -4077,7 +4077,7 @@
     45.4992,
     -73.5757
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15542901_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15542901_2_0.webp",
    "rooms": 90,
    "perks": [
     "Daily breakfast",
@@ -4153,7 +4153,7 @@
     45.4694,
     9.19496
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4330_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4330_2_0.webp",
    "rooms": 118,
    "perks": [
     "Daily breakfast",
@@ -4244,7 +4244,7 @@
     30.09,
     31.2072
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4198_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4198_2_0.webp",
    "rooms": 262,
    "perks": [
     "Daily breakfast",
@@ -4396,7 +4396,7 @@
     21.0749,
     -89.6289
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4215_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4215_2_0.webp",
    "rooms": 54,
    "perks": [
     "Daily breakfast",
@@ -4643,7 +4643,7 @@
     22.9018,
     -109.852
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4406_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4406_2_0.webp",
    "rooms": 97,
    "perks": [
     "Daily breakfast",
@@ -4677,7 +4677,7 @@
     19.8279,
     -155.992
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12866139_2_19_0928.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12866139_2_19.webp",
    "rooms": 243,
    "perks": [
     "Daily breakfast",
@@ -4688,7 +4688,7 @@
   },
   "h_01080": {
    "n": "Kona Village, A Rosewood Resort",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Kailua Kona",
    "country": "United States",
@@ -4753,7 +4753,7 @@
     29.9547,
     -90.0708
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4206_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4206_2_0.webp",
    "rooms": 528,
    "perks": [
     "Daily breakfast",
@@ -5000,7 +5000,7 @@
     7.98746,
     98.2719
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3855_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3855_2_0.webp",
    "rooms": 80,
    "perks": [
     "Daily breakfast",
@@ -5064,7 +5064,7 @@
     "$200 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00685": {
    "n": "Four Seasons Resort Peninsula Papagayo, Costa Rica",
@@ -5433,7 +5433,7 @@
     10.503,
     -84.689
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16520789_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16520789_2_0.webp",
    "rooms": 35,
    "perks": [
     "Daily breakfast",
@@ -7734,10 +7734,6 @@
   "17901102": {
    "pre": "Miami",
    "post": "Miami"
-  },
-  "18107023": {
-   "pre": "Athens",
-   "post": "Cairo"
   },
   "18107034": {
    "pre": "Mumbai",

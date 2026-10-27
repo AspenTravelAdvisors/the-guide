@@ -5,8 +5,8 @@
   "radiusKm": 25,
   "lodgesInCategory": 71,
   "lodgesInSafariCountries": 67,
-  "journeysWithCamps": 260,
-  "journeysTotal": 503,
+  "journeysWithCamps": 263,
+  "journeysTotal": 509,
   "campsMatched": 41
  },
  "radiusKm": 25,
@@ -309,7 +309,7 @@
     -27.1421,
     -109.357
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4326_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4326_2_0.webp",
    "rooms": 30,
    "perks": [
     "Daily breakfast",
@@ -560,7 +560,7 @@
     -38.6497,
     175.932
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15783239_2_26_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15783239_2_26.webp",
    "rooms": 14,
    "perks": [
     "Daily breakfast",
@@ -645,7 +645,7 @@
     -38.216765,
     176.159132
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4322_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4322_2_0.webp",
    "rooms": 13,
    "perks": [
     "Daily breakfast",
@@ -662,7 +662,7 @@
     -33.4779,
     26.0362
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15980889_2_0_0929.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15980889_2_0.webp",
    "rooms": 68,
    "perks": [
     "Daily breakfast",
@@ -1561,20 +1561,6 @@
     "km": 18.1
    }
   ],
-  "16919310": [
-   {
-    "id": "h_02374",
-    "stop": "Victoria Falls",
-    "day": 1,
-    "km": 3.4
-   },
-   {
-    "id": "h_01349",
-    "stop": "Victoria Falls",
-    "day": 1,
-    "km": 22.4
-   }
-  ],
   "18092022": [
    {
     "id": "h_01207",
@@ -1661,6 +1647,14 @@
     "km": 19.9
    }
   ],
+  "18106955": [
+   {
+    "id": "h_00971",
+    "stop": "Machu Picchu",
+    "day": 5,
+    "km": 16.2
+   }
+  ],
   "18107045": [
    {
     "id": "h_00537",
@@ -1673,6 +1667,26 @@
     "stop": "Masai Mara National Reserve",
     "day": 9,
     "km": 18.1
+   }
+  ],
+  "18107126": [
+   {
+    "id": "h_01349",
+    "stop": "Livingstone",
+    "day": 2,
+    "km": 19.8
+   },
+   {
+    "id": "h_02374",
+    "stop": "Victoria Falls",
+    "day": 4,
+    "km": 3.4
+   },
+   {
+    "id": "h_02484",
+    "stop": "Okavango Delta",
+    "day": 6,
+    "km": 19.9
    }
   ],
   "18107132": [
@@ -2161,6 +2175,26 @@
     "km": 23.9
    }
   ],
+  "18360991": [
+   {
+    "id": "h_01349",
+    "stop": "Livingstone",
+    "day": 2,
+    "km": 19.8
+   },
+   {
+    "id": "h_02374",
+    "stop": "Victoria Falls",
+    "day": 4,
+    "km": 0.8
+   },
+   {
+    "id": "h_02484",
+    "stop": "Okavango Delta",
+    "day": 6,
+    "km": 19.9
+   }
+  ],
   "18361073": [
    {
     "id": "h_02374",
@@ -2547,6 +2581,50 @@
     "stop": "Masai Mara National Reserve",
     "day": 9,
     "km": 18.1
+   }
+  ],
+  "18460017": [
+   {
+    "id": "h_02484",
+    "stop": "Okavango Delta",
+    "day": 2,
+    "km": 19.9
+   },
+   {
+    "id": "h_02374",
+    "stop": "Livingstone",
+    "day": 8,
+    "km": 10.1
+   },
+   {
+    "id": "h_01349",
+    "stop": "Livingstone",
+    "day": 8,
+    "km": 19.8
+   },
+   {
+    "id": "h_01781",
+    "stop": "Sabi Sand Game Reserve",
+    "day": 10,
+    "km": 1.9
+   },
+   {
+    "id": "h_01181",
+    "stop": "Sabi Sand Game Reserve",
+    "day": 10,
+    "km": 6.2
+   },
+   {
+    "id": "h_01212",
+    "stop": "Sabi Sand Game Reserve",
+    "day": 10,
+    "km": 22.7
+   },
+   {
+    "id": "h_02327",
+    "stop": "Sabi Sand Game Reserve",
+    "day": 10,
+    "km": 24.8
    }
   ],
   "18460819": [
