@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4435,
-  "journeysWithStays": 3735,
+  "journeysTotal": 4436,
+  "journeysWithStays": 3737,
   "journeysWithHouse": 0,
   "gateways": 109,
   "hotels": 291,
@@ -667,7 +667,7 @@
     10.4294,
     -75.544
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4316_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4316_2_0.webp",
    "rooms": 126,
    "perks": [
     "Daily breakfast",
@@ -1047,7 +1047,7 @@
     1.29489,
     103.854
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4066_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4066_2_0.webp",
    "rooms": 115,
    "perks": [
     "Daily breakfast",
@@ -1559,7 +1559,7 @@
     "$150 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01622": {
    "n": "Ritz-Carlton Montreal",
@@ -1666,7 +1666,7 @@
     18.1779,
     -63.1166
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4527_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4527_2_0.webp",
    "rooms": 178,
    "perks": [
     "Daily breakfast",
@@ -1997,44 +1997,6 @@
     "Room upgrade"
    ],
    "promo": 1
-  },
-  "h_00811": {
-   "n": "Hotel Alfonso XIII, a Luxury Collection Hotel, Seville",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Seville",
-   "country": "Spain",
-   "ll": [
-    37.381585,
-    -5.992905
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11170223_2_0.webp",
-   "rooms": 148,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00845": {
-   "n": "Hotel Colón, a Gran Meliá Hotel",
-   "house": "Meliá Hotels International",
-   "aff": null,
-   "city": "Seville",
-   "country": "Spain",
-   "ll": [
-    37.3909,
-    -5.99867
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15876916_2_5.webp",
-   "rooms": 176,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
   },
   "h_v18378979": {
    "n": "AYANA Komodo Waecicu Beach",
@@ -2397,6 +2359,44 @@
    ],
    "promo": 0
   },
+  "h_00811": {
+   "n": "Hotel Alfonso XIII, a Luxury Collection Hotel, Seville",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Seville",
+   "country": "Spain",
+   "ll": [
+    37.381585,
+    -5.992905
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11170223_2_0.webp",
+   "rooms": 148,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00845": {
+   "n": "Hotel Colón, a Gran Meliá Hotel",
+   "house": "Meliá Hotels International",
+   "aff": null,
+   "city": "Seville",
+   "country": "Spain",
+   "ll": [
+    37.3909,
+    -5.99867
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15876916_2_5.webp",
+   "rooms": 176,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_v16768337": {
    "n": "Torel Palace Lisbon",
    "house": null,
@@ -2532,7 +2532,7 @@
   },
   "h_01138": {
    "n": "Las Ventanas Al Paraiso, A Rosewood Resort",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "San José del Cabo",
    "country": "Mexico",
@@ -4876,7 +4876,7 @@
     22.2771,
     114.164
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4339_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4339_2_0.webp",
    "rooms": 544,
    "perks": [
     "Daily breakfast",
@@ -5189,25 +5189,6 @@
    ],
    "promo": 1
   },
-  "h_00997": {
-   "n": "InterContinental Porto - Palacio das Cardosas",
-   "house": "IHG Hotels & Resorts",
-   "aff": null,
-   "city": "Porto",
-   "country": "Portugal",
-   "ll": [
-    41.1458,
-    -8.61145
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/10883108_2_0.webp",
-   "rooms": 113,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 1
-  },
   "h_00330": {
    "n": "Capitolo Riviera",
    "house": null,
@@ -5256,7 +5237,7 @@
     44.3426,
     9.22994
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4166_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4166_2_0.webp",
    "rooms": 119,
    "perks": [
     "Daily breakfast",
@@ -5283,6 +5264,25 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_00997": {
+   "n": "InterContinental Porto - Palacio das Cardosas",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "Porto",
+   "country": "Portugal",
+   "ll": [
+    41.1458,
+    -8.61145
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/10883108_2_0.webp",
+   "rooms": 113,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 1
   },
   "h_00821": {
    "n": "Hotel Barriere Le Grand Hotel Dinard",
@@ -6304,23 +6304,6 @@
     ]
    ]
   },
-  "Seville, Spain": {
-   "n": "Seville, Spain",
-   "ll": [
-    37.3772,
-    -5.9869
-   ],
-   "h": [
-    [
-     "h_00811",
-     0.7
-    ],
-    [
-     "h_00845",
-     1.8
-    ]
-   ]
-  },
   "Labuan Bajo, Flores, Indonesia": {
    "n": "Labuan Bajo, Flores, Indonesia",
    "ll": [
@@ -6461,6 +6444,23 @@
     [
      "h_v16149147",
      11
+    ]
+   ]
+  },
+  "Seville, Spain": {
+   "n": "Seville, Spain",
+   "ll": [
+    37.3772,
+    -5.9869
+   ],
+   "h": [
+    [
+     "h_00811",
+     0.7
+    ],
+    [
+     "h_00845",
+     1.8
     ]
    ]
   },
@@ -7575,31 +7575,6 @@
     ]
    ]
   },
-  "Porto, Portugal": {
-   "n": "Porto, Portugal",
-   "ll": [
-    41.15,
-    -8.6167
-   ],
-   "h": [
-    [
-     "h_00801",
-     0.4
-    ],
-    [
-     "h_02090",
-     0.5
-    ],
-    [
-     "h_00997",
-     0.6
-    ],
-    [
-     "h_v16767614",
-     0.7
-    ]
-   ]
-  },
   "Genoa, Italy": {
    "n": "Genoa, Italy",
    "ll": [
@@ -7622,6 +7597,31 @@
     [
      "h_01848",
      24.1
+    ]
+   ]
+  },
+  "Porto, Portugal": {
+   "n": "Porto, Portugal",
+   "ll": [
+    41.15,
+    -8.6167
+   ],
+   "h": [
+    [
+     "h_00801",
+     0.4
+    ],
+    [
+     "h_02090",
+     0.5
+    ],
+    [
+     "h_00997",
+     0.6
+    ],
+    [
+     "h_v16767614",
+     0.7
     ]
    ]
   },
@@ -11917,6 +11917,10 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
+  "18153088": {
+   "pre": "Buenos Aires, Argentina",
+   "post": "Papeete, French Polynesia"
+  },
   "18153089": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -12037,11 +12041,11 @@
    "pre": "Reykjavík, Iceland",
    "post": "Rio De Janeiro, Brazil"
   },
-  "18153225": {
+  "18153226": {
    "pre": "Reykjavík, Iceland",
    "post": "Reykjavík, Iceland"
   },
-  "18153226": {
+  "18153227": {
    "pre": "Reykjavík, Iceland",
    "post": "Reykjavík, Iceland"
   },
@@ -12052,10 +12056,6 @@
   "18153229": {
    "pre": "Reykjavík, Iceland",
    "post": "Bridgetown, Barbados"
-  },
-  "18153230": {
-   "pre": "Reykjavík, Iceland",
-   "post": "Halifax, NS, Canada"
   },
   "18153235": {
    "pre": "Lautoka, Fiji",
@@ -12100,10 +12100,6 @@
   "18153246": {
    "pre": "Buenos Aires, Argentina",
    "post": "Rio De Janeiro, Brazil"
-  },
-  "18153247": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Seville, Spain"
   },
   "18153260": {
    "pre": "Rio De Janeiro, Brazil",
@@ -15189,6 +15185,10 @@
    "pre": "Reykjavík, Iceland",
    "post": "Reykjavík, Iceland"
   },
+  "18479874": {
+   "pre": "Reykjavík, Iceland",
+   "post": "Reykjavík, Iceland"
+  },
   "18479875": {
    "pre": "Reykjavík, Iceland",
    "post": "Halifax, NS, Canada"
@@ -15204,6 +15204,10 @@
   "18479878": {
    "pre": "Reykjavík, Iceland",
    "post": "Rio De Janeiro, Brazil"
+  },
+  "18479879": {
+   "pre": "Reykjavík, Iceland",
+   "post": "Halifax, NS, Canada"
   },
   "18479880": {
    "pre": "Oranjestad, Aruba",
@@ -15232,6 +15236,10 @@
   "18479886": {
    "pre": "Rio De Janeiro, Brazil",
    "post": "Buenos Aires, Argentina"
+  },
+  "18479887": {
+   "pre": "Buenos Aires, Argentina",
+   "post": "Genoa, Italy"
   },
   "18479888": {
    "pre": "Bridgetown, Barbados",
@@ -15373,6 +15381,10 @@
    "pre": "Leith, United Kingdom",
    "post": "Reykjavík, Iceland"
   },
+  "18479924": {
+   "pre": "Belfast, Ireland",
+   "post": "Reykjavík, Iceland"
+  },
   "18479925": {
    "pre": "Leith, United Kingdom",
    "post": "Reykjavík, Iceland"
@@ -15382,10 +15394,6 @@
    "post": "Reykjavík, Iceland"
   },
   "18479927": {
-   "pre": "Belfast, Ireland",
-   "post": "Reykjavík, Iceland"
-  },
-  "18479928": {
    "pre": "Belfast, Ireland",
    "post": "Reykjavík, Iceland"
   },

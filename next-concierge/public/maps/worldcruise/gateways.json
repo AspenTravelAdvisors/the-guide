@@ -5,11 +5,11 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 307,
-  "journeysWithStays": 303,
+  "journeysTotal": 308,
+  "journeysWithStays": 304,
   "journeysWithHouse": 0,
-  "gateways": 52,
-  "hotels": 172,
+  "gateways": 51,
+  "hotels": 170,
   "houses": []
  },
  "radiusKm": 40,
@@ -595,7 +595,7 @@
     22.2771,
     114.164
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4339_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4339_2_0.webp",
    "rooms": 544,
    "perks": [
     "Daily breakfast",
@@ -1085,7 +1085,7 @@
     32.9382,
     -117.197
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4189_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4189_2_0.webp",
    "rooms": 249,
    "perks": [
     "Daily breakfast",
@@ -1237,7 +1237,7 @@
     1.29489,
     103.854
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4066_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4066_2_0.webp",
    "rooms": 115,
    "perks": [
     "Daily breakfast",
@@ -1720,44 +1720,6 @@
     "Room upgrade"
    ],
    "promo": 1
-  },
-  "h_00811": {
-   "n": "Hotel Alfonso XIII, a Luxury Collection Hotel, Seville",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Seville",
-   "country": "Spain",
-   "ll": [
-    37.381585,
-    -5.992905
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11170223_2_0.webp",
-   "rooms": 148,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00845": {
-   "n": "Hotel Colón, a Gran Meliá Hotel",
-   "house": "Meliá Hotels International",
-   "aff": null,
-   "city": "Seville",
-   "country": "Spain",
-   "ll": [
-    37.3909,
-    -5.99867
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15876916_2_5.webp",
-   "rooms": 176,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
   },
   "h_01415": {
    "n": "One&Only Cape Town",
@@ -2745,7 +2707,7 @@
     -37.8115,
     144.976
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4438_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4438_2_0.webp",
    "rooms": 245,
    "perks": [
     "Daily breakfast",
@@ -2963,44 +2925,6 @@
    ],
    "promo": 1
   },
-  "h_00877": {
-   "n": "Hotel Kamp",
-   "house": null,
-   "aff": null,
-   "city": "Helsinki",
-   "country": "Finland",
-   "ll": [
-    60.1679,
-    24.9472
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15422578_2_0.webp",
-   "rooms": 179,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v18535557": {
-   "n": "Waldorf Astoria Helsinki",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Helsinki",
-   "country": "Finland",
-   "ll": [
-    60.1738,
-    24.9567
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0_1001.webp",
-   "rooms": 116,
-   "perks": [
-    "Daily breakfast",
-    "Property credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
   "h_00330": {
    "n": "Capitolo Riviera",
    "house": null,
@@ -3049,7 +2973,7 @@
     44.3426,
     9.22994
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4166_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4166_2_0.webp",
    "rooms": 119,
    "perks": [
     "Daily breakfast",
@@ -3076,6 +3000,44 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_00877": {
+   "n": "Hotel Kamp",
+   "house": null,
+   "aff": null,
+   "city": "Helsinki",
+   "country": "Finland",
+   "ll": [
+    60.1679,
+    24.9472
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15422578_2_0.webp",
+   "rooms": 179,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v18535557": {
+   "n": "Waldorf Astoria Helsinki",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Helsinki",
+   "country": "Finland",
+   "ll": [
+    60.1738,
+    24.9567
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0_1001.webp",
+   "rooms": 116,
+   "perks": [
+    "Daily breakfast",
+    "Property credit",
+    "Room upgrade"
+   ],
+   "promo": 1
   },
   "h_01576": {
    "n": "Pulitzer Amsterdam",
@@ -3850,23 +3812,6 @@
     ]
    ]
   },
-  "Seville, Spain": {
-   "n": "Seville, Spain",
-   "ll": [
-    37.3772,
-    -5.9869
-   ],
-   "h": [
-    [
-     "h_00811",
-     0.7
-    ],
-    [
-     "h_00845",
-     1.8
-    ]
-   ]
-  },
   "Cape Town, South Africa": {
    "n": "Cape Town, South Africa",
    "ll": [
@@ -4328,23 +4273,6 @@
     ]
    ]
   },
-  "Helsinki, Finland": {
-   "n": "Helsinki, Finland",
-   "ll": [
-    60.1712,
-    24.9326
-   ],
-   "h": [
-    [
-     "h_00877",
-     0.9
-    ],
-    [
-     "h_v18535557",
-     1.4
-    ]
-   ]
-  },
   "Genoa, Italy": {
    "n": "Genoa, Italy",
    "ll": [
@@ -4367,6 +4295,23 @@
     [
      "h_01848",
      24.1
+    ]
+   ]
+  },
+  "Helsinki, Finland": {
+   "n": "Helsinki, Finland",
+   "ll": [
+    60.1712,
+    24.9326
+   ],
+   "h": [
+    [
+     "h_00877",
+     0.9
+    ],
+    [
+     "h_v18535557",
+     1.4
     ]
    ]
   },
@@ -4522,10 +4467,6 @@
   "16922513": {
    "pre": "Sydney, Australia",
    "post": "Tokyo, Japan"
-  },
-  "16923907": {
-   "pre": "Miami, FL, United States",
-   "post": "Miami, FL, United States"
   },
   "16931844": {
    "pre": "Sydney, Australia",
@@ -4898,10 +4839,6 @@
   "18153244": {
    "pre": "Reykjavík, Iceland",
    "post": "Reykjavík, Iceland"
-  },
-  "18153247": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Seville, Spain"
   },
   "18153290": {
    "pre": "Reykjavík, Iceland",
@@ -5363,6 +5300,10 @@
    "pre": "Reykjavík, Iceland",
    "post": "Rio De Janeiro, Brazil"
   },
+  "18479887": {
+   "pre": "Buenos Aires, Argentina",
+   "post": "Genoa, Italy"
+  },
   "18479891": {
    "pre": "Genoa, Italy",
    "post": "Reykjavík, Iceland"
@@ -5650,6 +5591,14 @@
   "18637058": {
    "pre": "Yokohama, Japan",
    "post": "Auckland, New Zealand"
+  },
+  "18647296": {
+   "pre": "Fort Lauderdale, FL, United States",
+   "post": "Fort Lauderdale, FL, United States"
+  },
+  "18647535": {
+   "pre": "Southampton, United Kingdom",
+   "post": null
   }
  }
 }

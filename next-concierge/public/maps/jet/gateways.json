@@ -5,8 +5,8 @@
   "atlas": "jet",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 124,
-  "journeysWithStays": 121,
+  "journeysTotal": 125,
+  "journeysWithStays": 122,
   "journeysWithHouse": 21,
   "gateways": 84,
   "hotels": 292,
@@ -2417,7 +2417,7 @@
     38.8834,
     -77.0304
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4095_2_1_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4095_2_0.webp",
    "rooms": 373,
    "perks": [
     "Daily breakfast",
@@ -2462,7 +2462,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01389": {
    "n": "Nobu Hotel Marrakech",
@@ -2702,7 +2702,7 @@
     -37.8115,
     144.976
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4438_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4438_2_0.webp",
    "rooms": 245,
    "perks": [
     "Daily breakfast",
@@ -3420,7 +3420,7 @@
     10.4294,
     -75.544
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4316_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4316_2_0.webp",
    "rooms": 126,
    "perks": [
     "Daily breakfast",
@@ -3686,7 +3686,7 @@
     -7.63696,
     110.203
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4496_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4496_2_0.webp",
    "rooms": 31,
    "perks": [
     "Daily breakfast",
@@ -4567,7 +4567,7 @@
     22.2771,
     114.164
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4339_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4339_2_0.webp",
    "rooms": 544,
    "perks": [
     "Daily breakfast",
@@ -4650,7 +4650,7 @@
     "$150 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01443": {
    "n": "Outrigger Kona Resort & Spa",
@@ -4810,7 +4810,7 @@
     29.9495,
     -90.0662
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4144_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4144_2_0.webp",
    "rooms": 316,
    "perks": [
     "Daily breakfast",
@@ -7734,6 +7734,10 @@
   "17901102": {
    "pre": "Miami",
    "post": "Miami"
+  },
+  "18105543": {
+   "pre": "Athens",
+   "post": "Cairo"
   },
   "18107034": {
    "pre": "Mumbai",

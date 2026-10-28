@@ -4178,7 +4178,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18124860_2_40_1001.webp",
    "from": "Tokyo, Japan",
    "to": "Seoul, South Korea",
-   "country": "South Korea",
+   "country": "Japan",
    "train": null,
    "world": false,
    "mks": [
@@ -4521,7 +4521,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18069724_2_222.webp",
    "from": "Barcelona, Spain",
    "to": "Lisbon, Portugal",
-   "country": "Spain",
+   "country": "Portugal",
    "train": null,
    "world": false,
    "mks": [
@@ -4652,7 +4652,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18124860_2_37_1001.webp",
    "from": "Seoul, South Korea",
    "to": "Tokyo, Japan",
-   "country": "South Korea",
+   "country": "Japan",
    "train": null,
    "world": false,
    "mks": [
@@ -5369,7 +5369,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_15_1002.webp",
    "from": "Singapore, Singapore",
    "to": "Singapore, Singapore",
-   "country": "Singapore",
+   "country": "Malaysia",
    "train": "Eastern & Oriental Express",
    "world": true,
    "mks": [
@@ -6122,7 +6122,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_19_1002.webp",
    "from": "Istanbul, Türkiye",
    "to": "Paris, France",
-   "country": "Türkiye",
+   "country": "France",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -6694,7 +6694,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_15_1002.webp",
    "from": "Singapore, Singapore",
    "to": "Singapore, Singapore",
-   "country": "Malaysia",
+   "country": "Singapore",
    "train": "Eastern & Oriental Express",
    "world": true,
    "mks": [
@@ -7282,7 +7282,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_19_1002.webp",
    "from": "Paris, France",
    "to": "Budapest, Hungary",
-   "country": "Hungary",
+   "country": "France",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -7482,7 +7482,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_19_1002.webp",
    "from": "Paris, France",
    "to": "Istanbul, Türkiye",
-   "country": "Bulgaria",
+   "country": "Hungary",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -7557,7 +7557,7 @@
    "img": null,
    "from": "Paris, France",
    "to": "Prague, Czech Republic",
-   "country": "France",
+   "country": "Czech Republic",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -8014,7 +8014,7 @@
    "img": null,
    "from": "Prague, Czech Republic",
    "to": "Paris, France",
-   "country": "Czech Republic",
+   "country": "France",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -9000,7 +9000,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15687445_2_4.webp",
    "from": "Pretoria, South Africa",
    "to": "Victoria Falls, Zimbabwe",
-   "country": "South Africa",
+   "country": "Zimbabwe",
    "train": "Rovos Rail",
    "world": true,
    "mks": [
@@ -9495,7 +9495,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3374_2_275.webp",
    "from": "Stockholm, Sweden",
    "to": "Bergen, Norway",
-   "country": "Denmark",
+   "country": "Norway",
    "train": null,
    "world": false,
    "mks": [
@@ -10280,7 +10280,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_15_1002.webp",
    "from": "Singapore, Singapore",
    "to": "Langkawi, Malaysia",
-   "country": "Malaysia",
+   "country": "Singapore",
    "train": "Eastern & Oriental Express",
    "world": true,
    "d": "5/10/2027",
@@ -11142,7 +11142,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_15_1002.webp",
    "from": "Singapore, Singapore",
    "to": "Singapore, Singapore",
-   "country": "Singapore",
+   "country": "Malaysia",
    "train": "Eastern & Oriental Express",
    "world": true,
    "mks": [
