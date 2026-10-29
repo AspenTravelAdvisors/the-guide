@@ -3679,24 +3679,6 @@
     ]
    }
   ],
-  "16297936": [
-   {
-    "n": "Nairobi",
-    "r": "EASTAFRICA",
-    "ll": [
-     -1.2833,
-     36.8167
-    ]
-   },
-   {
-    "n": "Masai Mara National Reserve",
-    "r": "EASTAFRICA",
-    "ll": [
-     -1.4999,
-     35.1527
-    ]
-   }
-  ],
   "16301673": [
    {
     "n": "Nairobi",
@@ -6100,6 +6082,32 @@
     "ll": [
      -1.2833,
      36.8167
+    ]
+   }
+  ],
+  "18116045": [
+   {
+    "n": "Winnipeg",
+    "r": "CHURCHILL",
+    "ll": [
+     49.8833,
+     -97.1667
+    ]
+   },
+   {
+    "n": "Churchill",
+    "r": "CHURCHILL",
+    "ll": [
+     58.7667,
+     -94.1667
+    ]
+   },
+   {
+    "n": "Winnipeg",
+    "r": "CHURCHILL",
+    "ll": [
+     49.8833,
+     -97.1667
     ]
    }
   ],
@@ -19429,7 +19437,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Johannesburg, South Africa",
    "to": "Cape Town, South Africa",
-   "country": "Botswana",
+   "country": "South Africa",
    "world": false,
    "mks": [
     "2026-10",
@@ -19495,7 +19503,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/14280199_2_113.webp",
    "from": "Masai Mara National Reserve, Kenya",
    "to": "andBeyond Mnemba Island, Tanzania",
-   "country": "Tanzania",
+   "country": "Kenya",
    "world": false,
    "mks": [
     "2026-10",
@@ -19543,7 +19551,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_4_1008.webp",
    "from": "Nairobi, Kenya",
    "to": "Arusha, Tanzania",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2026-10",
@@ -19875,7 +19883,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_104.webp",
    "from": "Johannesburg, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "Zambia",
+   "country": "South Africa",
    "world": false,
    "mks": [
     "2026-10",
@@ -20062,7 +20070,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3703_2_0_1009.webp",
    "from": "Nairobi, Kenya",
    "to": "Chobe National Park, Botswana",
-   "country": "Kenya",
+   "country": "Zambia",
    "world": false,
    "mks": [
     "2026-10",
@@ -20719,7 +20727,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2825_2_300_1003.webp",
    "from": "Hwange National Park, Zimbabwe",
    "to": "Kafue, Zambia",
-   "country": "Zimbabwe",
+   "country": "Zambia",
    "world": false,
    "mks": [
     "2026-10",
@@ -20828,7 +20836,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_296_1008.webp",
    "from": "Kafue, Zambia",
    "to": "Hwange National Park, Zimbabwe",
-   "country": "Zimbabwe",
+   "country": "Zambia",
    "world": false,
    "mks": [
     "2026-10",
@@ -20881,7 +20889,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Johannesburg, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "South Africa",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2027-01",
@@ -20955,7 +20963,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Johannesburg, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "Zambia",
+   "country": "South Africa",
    "world": false,
    "mks": [
     "2026-10",
@@ -21024,7 +21032,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Johannesburg, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "Zambia",
+   "country": "South Africa",
    "world": false,
    "mks": [
     "2027-01",
@@ -21307,7 +21315,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_306.webp",
    "from": "Arusha, Tanzania",
    "to": "Nairobi, Kenya",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2027-01",
@@ -21822,7 +21830,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_306.webp",
    "from": "Arusha, Tanzania",
    "to": "Nairobi, Kenya",
-   "country": "Tanzania",
+   "country": "Kenya",
    "world": false,
    "mks": [
     "2026-10",
@@ -21964,7 +21972,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Johannesburg, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "Zambia",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -22027,7 +22035,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_306.webp",
    "from": "Arusha, Tanzania",
    "to": "Nairobi, Kenya",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2026-10",
@@ -22094,7 +22102,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15690947_2_0.webp",
    "from": "Arusha, Tanzania",
    "to": "Nairobi, Kenya",
-   "country": "Tanzania",
+   "country": "Kenya",
    "world": false,
    "mks": [
     "2026-10",
@@ -22870,7 +22878,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3580_2_6.webp",
    "from": "En Route",
    "to": "Homeward bound",
-   "country": "Zambia",
+   "country": "Kenya",
    "world": false,
    "mks": [
     "2026-10",
@@ -23520,7 +23528,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/16810276_2_8.webp",
    "from": "Washington, DC, United States",
    "to": "Washington, DC, United States",
-   "country": "Chile",
+   "country": "Peru",
    "world": true,
    "mks": [
     "2028-02",
@@ -23778,7 +23786,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_0_1005.webp",
    "from": "Kyoto, Japan",
    "to": "Marrakech, Morocco",
-   "country": "Indonesia",
+   "country": "Japan",
    "world": true,
    "d": "10/17/2027",
    "r": "11/7/2027",
@@ -23848,7 +23856,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/16810276_2_112.webp",
    "from": "Tokyo, Japan",
    "to": "Bangkok Noi, Thailand",
-   "country": "Thailand",
+   "country": "Maldives",
    "world": false,
    "d": "2/15/2028",
    "r": "3/2/2028",
@@ -23924,7 +23932,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_94_1008.webp",
    "from": "La Paz, Bolivia",
    "to": "Atacama, Chile",
-   "country": "Chile",
+   "country": "Bolivia",
    "world": false,
    "mks": [
     "2026-10",
@@ -24634,7 +24642,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/11690551_2_23_1008.webp",
    "from": "Lima, Peru",
    "to": "Quito, Ecuador",
-   "country": "Peru",
+   "country": "Ecuador",
    "world": false,
    "mks": [
     "2026-10",
@@ -24950,16 +24958,16 @@
      "description": "Experience the serene beauty of Bhutan with an exclusive stay at &Beyond Punakha River Lodge Stay for three nights or more at &Beyond Punakha River Lodge, and we’ll cover your Sustainable Development Fee (SDF), allowing you to immerse yourself in the wonders of this Himalayan kingdom without the added cost. Validity dates: 03 Jan – 28 Feb 2026 01 Jun – 31 Aug 2026 01 – 22 Dec 2026 Book your journey today and discover the magic of Bhutan—stress-free!"
     },
     {
-     "name": "Punakha Honeymoon",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "An idyllic and spiritually enriching honeymoon destination nestled amidst the majestic Himalaya mountains Punakha, situated in the heart of the Himalaya, invites couples to experience its secluded and picturesque valley, characterised by awe-inspiring natural beauty, captivating landscapes, and a rich cultural heritage. Immerse guests in the serenity of the Himalaya, strolling hand in hand through lush paddy fields, exploring historic monasteries together, and sharing moments of tranquility beside glistening rivers. With its unique blend of romance, adventure, and culture, Punakha promises an…"
-    },
-    {
      "name": "Milestone Celebrations Offer",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding…"
+    },
+    {
+     "name": "Punakha Honeymoon",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "An idyllic and spiritually enriching honeymoon destination nestled amidst the majestic Himalaya mountains Punakha, situated in the heart of the Himalaya, invites couples to experience its secluded and picturesque valley, characterised by awe-inspiring natural beauty, captivating landscapes, and a rich cultural heritage. Immerse guests in the serenity of the Himalaya, strolling hand in hand through lush paddy fields, exploring historic monasteries together, and sharing moments of tranquility beside glistening rivers. With its unique blend of romance, adventure, and culture, Punakha promises an…"
     }
    ],
    "itin": [
@@ -25767,7 +25775,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_208.webp",
    "from": "Johannesburg, South Africa",
    "to": "Makgadikgadi Pans – Desert Denizens Up Close",
-   "country": "South Africa",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -25959,7 +25967,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3580_2_6.webp",
    "from": "En Route",
    "to": "Homeward bound",
-   "country": "South Africa",
+   "country": "Zambia",
    "world": false,
    "mks": [
     "2026-10",
@@ -26769,7 +26777,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2631_2_10.webp",
    "from": "Cape Town, South Africa",
    "to": "Cairo, Egypt",
-   "country": "Zambia",
+   "country": "Egypt",
    "world": false,
    "mks": [
     "2026-10",
@@ -26975,7 +26983,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2825_2_300_1003.webp",
    "from": "Cape Town, South Africa",
    "to": "Livingstone, Zambia",
-   "country": "Zambia",
+   "country": "South Africa",
    "world": false,
    "mks": [
     "2026-10",
@@ -27634,7 +27642,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_239_1008.webp",
    "from": "Lima, Peru",
    "to": "Quito, Ecuador",
-   "country": "Peru",
+   "country": "Ecuador",
    "world": false,
    "mks": [
     "2026-10",
@@ -28308,7 +28316,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_3.webp",
    "from": "Quito, Ecuador",
    "to": "Lima, Peru",
-   "country": "Peru",
+   "country": "Ecuador",
    "world": false,
    "mks": [
     "2026-10",
@@ -28625,7 +28633,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0_1005.webp",
    "from": "Hanoi, Vietnam",
    "to": "Bangkok, Thailand",
-   "country": "Cambodia",
+   "country": "Thailand",
    "world": false,
    "mks": [
     "2026-10",
@@ -28787,7 +28795,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2631_2_5.webp",
    "from": "Okavango Delta, Botswana",
    "to": "Lower Zambezi National Park, Zambia",
-   "country": "Zambia",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2027-04",
@@ -29029,7 +29037,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_80_1005.webp",
    "from": "Ninh Thuân, Vietnam",
    "to": "Bangkok, Thailand",
-   "country": "Laos",
+   "country": "Thailand",
    "world": false,
    "d": "11/1/2026",
    "r": "11/14/2026",
@@ -29085,7 +29093,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_80_1005.webp",
    "from": "Ninh Thuân, Vietnam",
    "to": "Bangkok, Thailand",
-   "country": "Vietnam",
+   "country": "Laos",
    "world": false,
    "d": "2/21/2027",
    "r": "3/6/2027",
@@ -29142,7 +29150,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_80_1005.webp",
    "from": "Ninh Thuân, Vietnam",
    "to": "Bangkok, Thailand",
-   "country": "Vietnam",
+   "country": "Laos",
    "world": false,
    "d": "11/7/2027",
    "r": "11/20/2027",
@@ -29467,7 +29475,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3580_2_0.webp",
    "from": "Nairobi, Kenya",
    "to": "Nairobi, Kenya",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2026-10",
@@ -30023,7 +30031,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/16810276_2_2.webp",
    "from": "Anchorage, AK, United States",
    "to": "Singapore  , Singapore",
-   "country": "Singapore",
+   "country": "Papua New Guinea",
    "world": false,
    "d": "6/29/2027",
    "r": "7/20/2027",
@@ -30264,7 +30272,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/11690551_2_23_1008.webp",
    "from": "Quito, Ecuador",
    "to": "Lima, Peru",
-   "country": "Ecuador",
+   "country": "Peru",
    "world": false,
    "mks": [
     "2026-10",
@@ -30714,7 +30722,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_180.webp",
    "from": "Nairobi, Kenya",
    "to": "Nairobi, Kenya",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2026-12"
@@ -30783,7 +30791,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_180.webp",
    "from": "Nairobi, Kenya",
    "to": "Nairobi, Kenya",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2027-06",
@@ -30859,7 +30867,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_180.webp",
    "from": "Nairobi, Kenya",
    "to": "Nairobi, Kenya",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2028-06",
@@ -33602,7 +33610,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2631_2_10.webp",
    "from": "Cape Town, South Africa",
    "to": "Victoria Falls, Zambia",
-   "country": "South Africa",
+   "country": "Zambia",
    "world": false,
    "mks": [
     "2026-10",
@@ -33822,7 +33830,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/16810276_2_6.webp",
    "from": "Seattle, WA, United States",
    "to": "Paris, France",
-   "country": "Tanzania",
+   "country": "Vietnam",
    "world": true,
    "d": "3/21/2028",
    "r": "4/10/2028",
@@ -33904,7 +33912,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/16810276_2_6.webp",
    "from": "Seattle, WA, United States",
    "to": "Paris, France",
-   "country": "Italy",
+   "country": "Vietnam",
    "world": true,
    "mks": [
     "2027-03"
@@ -34554,8 +34562,6 @@
    "country": "Tanzania",
    "world": false,
    "mks": [
-    "2026-10",
-    "2026-11",
     "2026-12"
    ],
    "onDemand": true,
@@ -34690,7 +34696,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_180.webp",
    "from": "Nairobi, Kenya",
    "to": "Nairobi, Kenya",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2026-11",
@@ -34769,7 +34775,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_180.webp",
    "from": "Nairobi, Kenya",
    "to": "Nairobi, Kenya",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2027-01",
@@ -35081,7 +35087,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_306.webp",
    "from": "Nairobi, Kenya",
    "to": "Arusha, Tanzania",
-   "country": "Tanzania",
+   "country": "Kenya",
    "world": false,
    "d": "12/20/2026",
    "r": "12/29/2026",
@@ -35225,7 +35231,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_306.webp",
    "from": "Nairobi, Kenya",
    "to": "Arusha, Tanzania",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2028-01",
@@ -35876,7 +35882,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2825_2_677_1003.webp",
    "from": "Nairobi, Kenya",
    "to": "Parc National des Volcans, Rwanda",
-   "country": "Kenya",
+   "country": "Rwanda",
    "world": false,
    "mks": [
     "2026-10",
@@ -35994,51 +36000,6 @@
     }
    ],
    "route": "18530626"
-  },
-  {
-   "id": "16297936",
-   "n": "Kenya Walking Safari",
-   "b": "andbeyond",
-   "g": [
-    "EASTAFRICA"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/16297936/kenyawalkingsafari",
-   "days": 7,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/14280199_2_2.webp",
-   "from": "Nairobi, Kenya",
-   "to": "Masai Mara National Reserve, Kenya",
-   "country": "Kenya",
-   "world": false,
-   "mks": [
-    "2026-10"
-   ],
-   "onDemand": true,
-   "win": "Valid for Departures Now Through: 29 Oct 2026",
-   "description": "Your journey at a glance Rediscover the spirit of adventure as you explore the magnificent Laikipia Plateau on foot, following in the footsteps of explorers of old and camping beneath open skies Learn the finer details of the bush and experience the traditional lore of your local Samburu guide. Follow the tracks of kudu or zebra and listen to the ancient songs of the Samburu as they water their livestock Swim in the cool waters of Africa’s rivers and spend warm nights beneath unbelievably starry skies Climb to the top of rocky outcrops to admire vast views of endless open spaces and feel your sense reawaken as your nostrils fill with the scent of Africa’s dust Gain a feel for the land and…",
-   "included": [
-    "Accommodation inclusions as per itinerary above",
-    "All scheduled road transfers: Jomo Kenyatta International Airport / Hemingways Nairobi Hemingways Nairobi to Wilson Airport",
-    "All scheduled road transfers: Nanyuki to Loisaba Airstrip Loisaba Airstrip to Nanyuki Airport Wilson Airport to Jomo Kenyatta International Airport"
-   ],
-   "promotions": [
-    {
-     "name": "Milestone Celebrations Offer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
-    }
-   ],
-   "itin": [
-    {
-     "d": 1,
-     "n": "Nairobi"
-    },
-    {
-     "d": 5,
-     "n": "Masai Mara National Reserve"
-    }
-   ],
-   "route": "16297936"
   },
   {
    "id": "18631189",
@@ -36609,7 +36570,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_260_1008.webp",
    "from": "Lisbon, Portugal",
    "to": "Praia Sundy, Príncipe, São Tomé and Príncipe, Sao Tome And Principe",
-   "country": "Sao Tome And Principe",
+   "country": "Portugal",
    "world": false,
    "mks": [
     "2026-10",
@@ -37033,7 +36994,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Cape Town, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "South Africa",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -37341,7 +37302,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Johannesburg, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "Zambia",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -37572,7 +37533,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_269_1008.webp",
    "from": "Tirana, Albania",
    "to": "Corfu, Greece",
-   "country": "Albania",
+   "country": "Greece",
    "world": false,
    "mks": [
     "2026-10",
@@ -38206,6 +38167,54 @@
    "route": "11922887"
   },
   {
+   "id": "18116045",
+   "n": "Manitoba: Polar Bear Adventure",
+   "b": "tauck",
+   "g": [
+    "CHURCHILL"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18116045/manitobapolarbearadventure",
+   "days": 6,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_329.webp",
+   "from": "Winnipeg, Canada",
+   "to": "Winnipeg, Canada",
+   "country": "Canada",
+   "world": false,
+   "d": "11/5/2026",
+   "r": "11/10/2026",
+   "mks": [
+    "2026-11"
+   ],
+   "win": "Dates: 05 Nov 2026 - 10 Nov 2026",
+   "description": "Get up close to astonishing Arctic life in Churchill, from polar bears to snowy owls, white foxes, or sled dogs as you explore the Manitoba landscapes and learn about the environment of the migrating polar bears on their annual trek across the tundra.",
+   "included": [
+    "Manitoba's vast open spaces are filled with unique wonders, stories, and adventures on this awe-inspiring journey to the far reaches of the Canadian wilderness. Embrace your inner explorer on a once-in-a-lifetime journey to Manitoba in \"Polar Bear Season,\" when these great white carnivores lumber across the plains toward Hudson Bay to prepare for winter... One of our most popular trips provides you with a rare look into the world of the polar bear in their natural habitat. Late October and November is polar bear season in Churchill, Manitoba, the start of the long-awaited migration of these great white creatures. Over icy rivers and across the subarctic plains, they make their way towards the coast and the seal-rich waters of the Hudson Bay to fulfill their need for food for the winter ahead. Normally elusive, these bears are plentiful in this remote location of northern Canada at this time of the year, giving travelers seeking an up-close look at arctic life an exciting glimpse into their world. You'll stay in a cozy lodge where family-style meals, warm camaraderie and two-footed locals share stories about Hudson Bay history, past and present, in front of a crackling fire. You'll also learn more about Manitoba and early fur-trading history during a special private evening with the Hudson's Bay Company of Adventurers at the Manitoba Museum... at a dog sledding demonstration... on a dog sled ride... and much more."
+   ],
+   "promotions": [
+    {
+     "name": "Tauck Bridges: Save When You Travel As A Group",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Winnipeg"
+    },
+    {
+     "d": 2,
+     "n": "Churchill"
+    },
+    {
+     "d": 1,
+     "n": "Winnipeg"
+    }
+   ],
+   "route": "18116045"
+  },
+  {
    "id": "18575489",
    "n": "Marshes & Islands of the Okavango",
    "b": "wilderness",
@@ -38485,7 +38494,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/14280199_2_7.webp",
    "from": "Wilson Airport, Kenya",
    "to": "Kilimanjaro International Airport, Tanzania",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2026-10",
@@ -38644,7 +38653,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_104.webp",
    "from": "Arusha, Tanzania",
    "to": "Kigali, Rwanda",
-   "country": "Tanzania",
+   "country": "Rwanda",
    "world": false,
    "d": "10/6/2027",
    "r": "10/21/2027",
@@ -38782,7 +38791,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_243_1008.webp",
    "from": "Hanoi, Vietnam",
    "to": "Bangkok Noi, Thailand",
-   "country": "Thailand",
+   "country": "Cambodia",
    "world": false,
    "mks": [
     "2026-10",
@@ -40259,7 +40268,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_0_1008.webp",
    "from": "Johannesburg, South Africa",
    "to": "Cape Town, South Africa",
-   "country": "Zambia",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -40603,7 +40612,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18537979_2_20.webp",
    "from": "Sacred Valley, Peru",
    "to": "La Paz, Bolivia",
-   "country": "Bolivia",
+   "country": "Peru",
    "world": false,
    "mks": [
     "2026-10",
@@ -40686,7 +40695,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_7.webp",
    "from": "Lima, Peru",
    "to": "Journey Home",
-   "country": "Peru",
+   "country": "Ecuador",
    "world": false,
    "mks": [
     "2027-04",
@@ -40853,7 +40862,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_196.webp",
    "from": "Lima, Peru",
    "to": "Lima, Peru",
-   "country": "Peru",
+   "country": "Brazil",
    "world": false,
    "d": "12/4/2026",
    "r": "12/16/2026",
@@ -41335,7 +41344,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/11690551_2_72_1008.webp",
    "from": "Nairobi, Kenya",
    "to": "Zanzibar, Tanzania",
-   "country": "Tanzania",
+   "country": "Kenya",
    "world": false,
    "mks": [
     "2026-10",
@@ -41421,7 +41430,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/11690551_2_61_1008.webp",
    "from": "Cape Winelands, South Africa",
    "to": "Beau Champ, Mauritius",
-   "country": "South Africa",
+   "country": "Seychelles",
    "world": false,
    "mks": [
     "2026-10",
@@ -41768,7 +41777,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_180.webp",
    "from": "Kigali, Rwanda",
    "to": "Arusha, Tanzania",
-   "country": "Rwanda",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2026-10",
@@ -42128,7 +42137,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2825_2_16_1003.webp",
    "from": "Okavango Delta, Botswana",
    "to": "Skeleton Coast, Namibia",
-   "country": "Namibia",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -42334,7 +42343,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Johannesburg, South Africa",
    "to": "Windhoek | Peaceful Returns",
-   "country": "Namibia",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -42567,7 +42576,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_95_1008.webp",
    "from": "La Paz, Bolivia",
    "to": "Santiago, Chile",
-   "country": "Bolivia",
+   "country": "Chile",
    "world": false,
    "mks": [
     "2026-10",
@@ -42763,7 +42772,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2565_2_12_1007.webp",
    "from": "Livingstone, Zambia",
    "to": "Maun, Botswana",
-   "country": "Zambia",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -42815,7 +42824,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_225_1008.webp",
    "from": "Geneva, Switzerland",
    "to": "Milan, Italy",
-   "country": "Switzerland",
+   "country": "Italy",
    "world": false,
    "mks": [
     "2026-10",
@@ -43346,7 +43355,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_110_1008.webp",
    "from": "Cape Town, South Africa",
    "to": "Vilanculos, Mozambique",
-   "country": "Mozambique",
+   "country": "South Africa",
    "world": false,
    "mks": [
     "2026-10",
@@ -44095,7 +44104,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Cape Town, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "Zambia",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2027-03",
@@ -44175,7 +44184,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Cape Town, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "South Africa",
+   "country": "Zambia",
    "world": false,
    "mks": [
     "2028-03",
@@ -44255,7 +44264,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15690947_2_0.webp",
    "from": "Cape Town, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "Zimbabwe",
+   "country": "South Africa",
    "world": false,
    "mks": [
     "2026-12",
@@ -44326,7 +44335,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Cape Town, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "South Africa",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -44393,7 +44402,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2631_2_10.webp",
    "from": "Cape Town, South Africa",
    "to": "Victoria Falls, Zambia",
-   "country": "South Africa",
+   "country": "Zambia",
    "world": false,
    "mks": [
     "2026-10",
@@ -44585,7 +44594,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15781367_2_0.webp",
    "from": "Victoria Falls, Zimbabwe",
    "to": "Maun, Botswana",
-   "country": "Botswana",
+   "country": "Zimbabwe",
    "world": false,
    "mks": [
     "2026-10",
@@ -45956,7 +45965,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_35_1008.webp",
    "from": "Johannesburg, South Africa",
    "to": "Kalahari Desert, Botswana",
-   "country": "South Africa",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -46016,7 +46025,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_295_1008.webp",
    "from": "Johannesburg, South Africa",
    "to": "Livingstone, Zambia",
-   "country": "Zambia",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -46277,7 +46286,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_2_1005.webp",
    "from": "Tokyo, Japan",
    "to": "Argolida, Greece",
-   "country": "India",
+   "country": "Uzbekistan",
    "world": true,
    "d": "4/11/2027",
    "r": "5/1/2027",
@@ -46496,7 +46505,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2631_2_17.webp",
    "from": "Nairobi, Kenya",
    "to": "Ngorongoro, Tanzania",
-   "country": "Tanzania",
+   "country": "Kenya",
    "world": false,
    "mks": [
     "2027-02",
@@ -46775,7 +46784,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_45.webp",
    "from": "Chiang Mai, Thailand",
    "to": "Phnom Penh, Cambodia",
-   "country": "Thailand",
+   "country": "Laos",
    "world": false,
    "mks": [
     "2026-10",
@@ -46902,7 +46911,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2963_2_49.webp",
    "from": "Arusha, Tanzania",
    "to": "Ngorongoro Crater, Tanzania",
-   "country": "Tanzania",
+   "country": "Kenya",
    "world": false,
    "mks": [
     "2026-10",
@@ -47235,7 +47244,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Cape Town, South Africa",
    "to": "Nairobi, Kenya",
-   "country": "Botswana",
+   "country": "Kenya",
    "world": false,
    "mks": [
     "2026-10",
@@ -47427,7 +47436,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2825_2_300_1003.webp",
    "from": "Livingstone, Zambia",
    "to": "Okavango Delta, Botswana",
-   "country": "Zambia",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -47597,7 +47606,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2631_2_11.webp",
    "from": "Nairobi, Kenya",
    "to": "Masai Mara National Reserve, Kenya",
-   "country": "Tanzania",
+   "country": "Kenya",
    "world": false,
    "mks": [
     "2027-02",
@@ -48166,7 +48175,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Johannesburg, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "Botswana",
+   "country": "Zambia",
    "world": false,
    "mks": [
     "2027-01",
@@ -48248,7 +48257,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
    "from": "Johannesburg, South Africa",
    "to": "Johannesburg, South Africa",
-   "country": "Zambia",
+   "country": "South Africa",
    "world": false,
    "mks": [
     "2028-01",
@@ -48554,7 +48563,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_180.webp",
    "from": "Nairobi, Kenya",
    "to": "Nairobi, Kenya",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2027-01",
@@ -48639,7 +48648,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_180.webp",
    "from": "Nairobi, Kenya",
    "to": "Nairobi, Kenya",
-   "country": "Tanzania",
+   "country": "Kenya",
    "world": false,
    "mks": [
     "2028-01",
@@ -48871,7 +48880,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_180.webp",
    "from": "Nairobi, Kenya",
    "to": "Nairobi, Kenya",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2027-01",
@@ -49392,7 +49401,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/16810276_2_7.webp",
    "from": "Los Angeles, CA, United States",
    "to": "Papagayo Peninsula, Costa Rica, Costa Rica",
-   "country": "Argentina",
+   "country": "Colombia",
    "world": false,
    "d": "1/20/2027",
    "r": "2/9/2027",
@@ -50351,7 +50360,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/16810276_2_2.webp",
    "from": "Big Sky, MT, United States",
    "to": "Sea of Cortez, Mexico",
-   "country": "Costa Rica",
+   "country": "Brazil",
    "world": false,
    "d": "6/15/2027",
    "r": "6/30/2027",
@@ -50408,7 +50417,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2825_2_234_1003.webp",
    "from": "Linyanti, Botswana",
    "to": "Johannesburg, South Africa",
-   "country": "Mozambique",
+   "country": "Botswana",
    "world": false,
    "mks": [
     "2026-10",
@@ -50565,7 +50574,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_221.webp",
    "from": "Victoria Falls, Zambia",
    "to": "Cape Town, South Africa",
-   "country": "Botswana",
+   "country": "South Africa",
    "world": false,
    "mks": [
     "2027-03",
@@ -50761,7 +50770,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_62.webp",
    "from": "Portland, OR, United States",
    "to": "Boston, MA, United States",
-   "country": "Japan",
+   "country": "Rwanda",
    "world": true,
    "d": "2/8/2028",
    "r": "3/4/2028",
@@ -50838,7 +50847,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18537979_2_0.webp",
    "from": "Santiago, Chile",
    "to": "La Paz, Bolivia",
-   "country": "Bolivia",
+   "country": "Chile",
    "world": false,
    "mks": [
     "2026-10",
@@ -51121,7 +51130,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2382_2_5.webp",
    "from": "Guayaquil, Ecuador",
    "to": "Lima, Peru",
-   "country": "Peru",
+   "country": "Ecuador",
    "world": false,
    "mks": [
     "2026-10",
@@ -51264,7 +51273,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_196.webp",
    "from": "Guayaquil, Ecuador",
    "to": "Lima, Peru",
-   "country": "Ecuador",
+   "country": "Peru",
    "world": false,
    "d": "11/15/2026",
    "r": "11/26/2026",
@@ -51349,7 +51358,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_196.webp",
    "from": "Guayaquil, Ecuador",
    "to": "Lima, Peru",
-   "country": "Ecuador",
+   "country": "Peru",
    "world": false,
    "mks": [
     "2027-02",
@@ -51590,7 +51599,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/16810276_2_7.webp",
    "from": "Seattle, WA, United States",
    "to": "Los Angeles, CA, United States",
-   "country": "Rwanda",
+   "country": "Seychelles",
    "world": true,
    "d": "8/10/2027",
    "r": "9/2/2027",
@@ -51750,7 +51759,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2631_2_11.webp",
    "from": "Nairobi, Kenya",
    "to": "Serengeti, Tanzania",
-   "country": "Kenya",
+   "country": "Tanzania",
    "world": false,
    "mks": [
     "2026-10",
@@ -52504,7 +52513,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2825_2_300_1003.webp",
    "from": "Livingstone, Zambia",
    "to": "Vilanculos, Mozambique",
-   "country": "Zambia",
+   "country": "South Africa",
    "world": false,
    "mks": [
     "2026-10",

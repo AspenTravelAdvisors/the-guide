@@ -806,7 +806,7 @@
   },
   "h_01664": {
    "n": "Rosewood Vienna",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Vienna",
    "country": "Austria",
@@ -890,7 +890,7 @@
     35.6848,
     139.691
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4427_2_102_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4427_2_0.webp",
    "rooms": 171,
    "perks": [
     "Daily breakfast",
@@ -1380,7 +1380,7 @@
     42.3488,
     -71.0817
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3924_2_3_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3924_2_3.webp",
    "rooms": 148,
    "perks": [
     "Daily breakfast",
@@ -1547,7 +1547,7 @@
     6.00924,
     80.778
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4648_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4648_2_0.webp",
    "rooms": 30,
    "perks": [
     "Daily breakfast",
@@ -2143,7 +2143,7 @@
   },
   "h_01661": {
    "n": "Rosewood Sao Paulo",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "São Paulo",
    "country": "Brazil",
@@ -3621,7 +3621,7 @@
   },
   "h_01665": {
    "n": "Rosewood Villa Magna",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Madrid",
    "country": "Spain",
@@ -4096,7 +4096,7 @@
     45.5006,
     -73.5685
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4667_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4667_2_0.webp",
    "rooms": 950,
    "perks": [
     "Daily breakfast",
@@ -4954,7 +4954,7 @@
   },
   "h_01658": {
    "n": "Rosewood Phuket",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Phuket",
    "country": "Thailand",
@@ -5182,7 +5182,7 @@
   },
   "h_01646": {
    "n": "Rosewood Hotel Georgia",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Vancouver",
    "country": "Canada",

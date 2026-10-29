@@ -1172,7 +1172,7 @@
   },
   "h_01646": {
    "n": "Rosewood Hotel Georgia",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Vancouver",
    "country": "Canada",
@@ -3079,7 +3079,7 @@
   },
   "h_01637": {
    "n": "Rosewood Amsterdam",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Amsterdam",
    "country": "Netherlands",
@@ -3216,7 +3216,7 @@
     42.3488,
     -71.0817
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3924_2_3_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3924_2_3.webp",
    "rooms": 148,
    "perks": [
     "Daily breakfast",

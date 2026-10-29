@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4436,
-  "journeysWithStays": 3737,
+  "journeysTotal": 4434,
+  "journeysWithStays": 3735,
   "journeysWithHouse": 0,
   "gateways": 109,
   "hotels": 291,
@@ -15,196 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_01667": {
-   "n": "Rosselli AX Privilege",
-   "house": null,
-   "aff": null,
-   "city": "Valletta",
-   "country": "Malta",
-   "ll": [
-    35.8989,
-    14.5154
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18089362_2_0_1004.webp",
-   "rooms": 25,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00969": {
-   "n": "Iniala Valletta",
-   "house": null,
-   "aff": null,
-   "city": "Valletta",
-   "country": "Malta",
-   "ll": [
-    35.8962,
-    14.5144
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16564575_2_0_1001.webp",
-   "rooms": 33,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02109": {
-   "n": "The Phoenicia Malta",
-   "house": null,
-   "aff": null,
-   "city": "Floriana",
-   "country": "Malta",
-   "ll": [
-    35.8936,
-    14.5054
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16579930_2_0.webp",
-   "rooms": 132,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00992": {
-   "n": "InterContinental Malta",
-   "house": "IHG Hotels & Resorts",
-   "aff": null,
-   "city": "St. Julian's Bay",
-   "country": "Malta",
-   "ll": [
-    35.9258,
-    14.4878
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15431092_2_55.webp",
-   "rooms": 481,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00724": {
-   "n": "Gran Hotel Miramar",
-   "house": null,
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.7207,
-    -4.40818
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0_1006.webp",
-   "rooms": 200,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01124": {
-   "n": "La Zambra Resort",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.553,
-    -4.66678
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0_1001.webp",
-   "rooms": 196,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
-  "h_01715": {
-   "n": "Santa Teresa Hotel RJ - MGallery",
-   "house": "Accor",
-   "aff": null,
-   "city": "Rio De Janeiro",
-   "country": "Brazil",
-   "ll": [
-    -22.9454,
-    -43.242
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11062664_2_0_1007.webp",
-   "rooms": 43,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00455": {
-   "n": "Copacabana Palace, A Belmond Hotel, Rio de Janeiro",
-   "house": "Belmond",
-   "aff": "Belmond",
-   "city": "Rio De Janeiro",
-   "country": "Brazil",
-   "ll": [
-    -22.9675,
-    -43.1784
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3824_2_1.webp",
-   "rooms": 220,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_00541": {
-   "n": "Emiliano Rio",
-   "house": null,
-   "aff": null,
-   "city": "Rio De Janeiro",
-   "country": "Brazil",
-   "ll": [
-    -22.9822,
-    -43.1902
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15495388_2_0.webp",
-   "rooms": 90,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00856": {
-   "n": "Hotel Fairmont Rio de Janeiro Copacabana",
-   "house": "Accor",
-   "aff": null,
-   "city": "Rio De Janeiro",
-   "country": "Brazil",
-   "ll": [
-    -22.9861,
-    -43.1894
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395453_2_0_1008.webp",
-   "rooms": 375,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_00055": {
    "n": "Alvear Palace Hotel",
    "house": null,
@@ -466,6 +276,120 @@
     "Spa treatment"
    ],
    "promo": 0
+  },
+  "h_01667": {
+   "n": "Rosselli AX Privilege",
+   "house": null,
+   "aff": null,
+   "city": "Valletta",
+   "country": "Malta",
+   "ll": [
+    35.8989,
+    14.5154
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18089362_2_0_1004.webp",
+   "rooms": 25,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00969": {
+   "n": "Iniala Valletta",
+   "house": null,
+   "aff": null,
+   "city": "Valletta",
+   "country": "Malta",
+   "ll": [
+    35.8962,
+    14.5144
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16564575_2_0_1001.webp",
+   "rooms": 33,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02109": {
+   "n": "The Phoenicia Malta",
+   "house": null,
+   "aff": null,
+   "city": "Floriana",
+   "country": "Malta",
+   "ll": [
+    35.8936,
+    14.5054
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16579930_2_0.webp",
+   "rooms": 132,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00992": {
+   "n": "InterContinental Malta",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "St. Julian's Bay",
+   "country": "Malta",
+   "ll": [
+    35.9258,
+    14.4878
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15431092_2_55.webp",
+   "rooms": 481,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00724": {
+   "n": "Gran Hotel Miramar",
+   "house": null,
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.7207,
+    -4.40818
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0_1006.webp",
+   "rooms": 200,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01124": {
+   "n": "La Zambra Resort",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.553,
+    -4.66678
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0_1001.webp",
+   "rooms": 196,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 1
   },
   "h_00510": {
    "n": "Downtown L.A. Proper",
@@ -1628,7 +1552,7 @@
     45.5006,
     -73.5685
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4667_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4667_2_0.webp",
    "rooms": 950,
    "perks": [
     "Daily breakfast",
@@ -1921,6 +1845,82 @@
     "Airport transfer"
    ],
    "promo": 1
+  },
+  "h_01715": {
+   "n": "Santa Teresa Hotel RJ - MGallery",
+   "house": "Accor",
+   "aff": null,
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9454,
+    -43.242
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11062664_2_0_1007.webp",
+   "rooms": 43,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00455": {
+   "n": "Copacabana Palace, A Belmond Hotel, Rio de Janeiro",
+   "house": "Belmond",
+   "aff": "Belmond",
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9675,
+    -43.1784
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3824_2_1.webp",
+   "rooms": 220,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00541": {
+   "n": "Emiliano Rio",
+   "house": null,
+   "aff": null,
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9822,
+    -43.1902
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15495388_2_0.webp",
+   "rooms": 90,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00856": {
+   "n": "Hotel Fairmont Rio de Janeiro Copacabana",
+   "house": "Accor",
+   "aff": null,
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9861,
+    -43.1894
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395453_2_0_1008.webp",
+   "rooms": 375,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_00976": {
    "n": "InterContinental Amstel Amsterdam",
@@ -3455,7 +3455,7 @@
   },
   "h_01646": {
    "n": "Rosewood Hotel Georgia",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Vancouver",
    "country": "Canada",
@@ -4340,7 +4340,7 @@
   },
   "h_01637": {
    "n": "Rosewood Amsterdam",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Amsterdam",
    "country": "Netherlands",
@@ -4496,7 +4496,7 @@
     42.3488,
     -71.0817
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3924_2_3_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3924_2_3.webp",
    "rooms": 148,
    "perks": [
     "Daily breakfast",
@@ -4773,7 +4773,7 @@
   },
   "h_01658": {
    "n": "Rosewood Phuket",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Phuket",
    "country": "Thailand",
@@ -5514,73 +5514,6 @@
   }
  },
  "GATES": {
-  "Valletta, Malta": {
-   "n": "Valletta, Malta",
-   "ll": [
-    35.8997,
-    14.5147
-   ],
-   "h": [
-    [
-     "h_01667",
-     0.1
-    ],
-    [
-     "h_00969",
-     0.4
-    ],
-    [
-     "h_02109",
-     1.1
-    ],
-    [
-     "h_00992",
-     3.8
-    ]
-   ]
-  },
-  "Málaga, Spain": {
-   "n": "Málaga, Spain",
-   "ll": [
-    36.7167,
-    -4.4167
-   ],
-   "h": [
-    [
-     "h_00724",
-     0.9
-    ],
-    [
-     "h_01124",
-     28.8
-    ]
-   ]
-  },
-  "Rio De Janeiro, Brazil": {
-   "n": "Rio De Janeiro, Brazil",
-   "ll": [
-    -22.8833,
-    -43.2
-   ],
-   "h": [
-    [
-     "h_01715",
-     8.1
-    ],
-    [
-     "h_00455",
-     9.6
-    ],
-    [
-     "h_00541",
-     11
-    ],
-    [
-     "h_00856",
-     11.5
-    ]
-   ]
-  },
   "Buenos Aires, Argentina": {
    "n": "Buenos Aires, Argentina",
    "ll": [
@@ -5700,6 +5633,48 @@
     [
      "h_01317",
      15.4
+    ]
+   ]
+  },
+  "Valletta, Malta": {
+   "n": "Valletta, Malta",
+   "ll": [
+    35.8997,
+    14.5147
+   ],
+   "h": [
+    [
+     "h_01667",
+     0.1
+    ],
+    [
+     "h_00969",
+     0.4
+    ],
+    [
+     "h_02109",
+     1.1
+    ],
+    [
+     "h_00992",
+     3.8
+    ]
+   ]
+  },
+  "Málaga, Spain": {
+   "n": "Málaga, Spain",
+   "ll": [
+    36.7167,
+    -4.4167
+   ],
+   "h": [
+    [
+     "h_00724",
+     0.9
+    ],
+    [
+     "h_01124",
+     28.8
     ]
    ]
   },
@@ -6276,6 +6251,31 @@
     [
      "h_02000",
      3.3
+    ]
+   ]
+  },
+  "Rio De Janeiro, Brazil": {
+   "n": "Rio De Janeiro, Brazil",
+   "ll": [
+    -22.8833,
+    -43.2
+   ],
+   "h": [
+    [
+     "h_01715",
+     8.1
+    ],
+    [
+     "h_00455",
+     9.6
+    ],
+    [
+     "h_00541",
+     11
+    ],
+    [
+     "h_00856",
+     11.5
     ]
    ]
   },
@@ -8785,10 +8785,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
-  "16897983": {
-   "pre": "Rio De Janeiro, Brazil",
-   "post": "Buenos Aires, Argentina"
-  },
   "16897988": {
    "pre": null,
    "post": "Buenos Aires, Argentina"
@@ -9744,10 +9740,6 @@
   "18091606": {
    "pre": "Piraeus, Greece",
    "post": "Valletta, Malta"
-  },
-  "18091607": {
-   "pre": "Valletta, Malta",
-   "post": "Málaga, Spain"
   },
   "18091608": {
    "pre": "Valletta, Malta",

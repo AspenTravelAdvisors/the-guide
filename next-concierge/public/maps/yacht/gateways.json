@@ -5,9 +5,9 @@
   "atlas": "yacht",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 520,
-  "journeysWithStays": 519,
-  "journeysWithHouse": 519,
+  "journeysTotal": 519,
+  "journeysWithStays": 518,
+  "journeysWithHouse": 518,
   "gateways": 58,
   "hotels": 193,
   "houses": [
@@ -20,120 +20,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00135": {
-   "n": "Andaz Tokyo Toranomon Hills",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.6833,
-    139.75
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656837_2_0_1001.webp",
-   "rooms": 164,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01452": {
-   "n": "Palace Hotel Tokyo",
-   "house": null,
-   "aff": null,
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.6832,
-    139.761
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12991056_2_1_1009.webp",
-   "rooms": 284,
-   "perks": [
-    "Daily breakfast",
-    "$200 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00896": {
-   "n": "Hotel New Otani Tokyo EXECUTIVE HOUSE ZEN",
-   "house": null,
-   "aff": null,
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.683,
-    139.738
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16383214_2_0_1007.webp",
-   "rooms": 84,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_v16589873": {
-   "n": "The Prince Gallery Tokyo Kioicho, a Luxury Collection Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.6799,
-    139.738
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16587174_2_0_1003.webp",
-   "rooms": 250,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00062": {
-   "n": "Aman Tokyo",
-   "house": "Aman",
-   "aff": "Aman",
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.6824,
-    139.765
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14839596_2_0_1001.webp",
-   "rooms": 84,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02204": {
-   "n": "The Ritz-Carlton, Tokyo",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.6662,
-    139.731
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3452896_2_3_1007.webp",
-   "rooms": 245,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
   "h_00724": {
    "n": "Gran Hotel Miramar",
    "house": null,
@@ -437,6 +323,120 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_00135": {
+   "n": "Andaz Tokyo Toranomon Hills",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.6833,
+    139.75
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656837_2_0_1001.webp",
+   "rooms": 164,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01452": {
+   "n": "Palace Hotel Tokyo",
+   "house": null,
+   "aff": null,
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.6832,
+    139.761
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12991056_2_1_1009.webp",
+   "rooms": 284,
+   "perks": [
+    "Daily breakfast",
+    "$200 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00896": {
+   "n": "Hotel New Otani Tokyo EXECUTIVE HOUSE ZEN",
+   "house": null,
+   "aff": null,
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.683,
+    139.738
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16383214_2_0_1007.webp",
+   "rooms": 84,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_v16589873": {
+   "n": "The Prince Gallery Tokyo Kioicho, a Luxury Collection Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.6799,
+    139.738
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16587174_2_0_1003.webp",
+   "rooms": 250,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00062": {
+   "n": "Aman Tokyo",
+   "house": "Aman",
+   "aff": "Aman",
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.6824,
+    139.765
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14839596_2_0_1001.webp",
+   "rooms": 84,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02204": {
+   "n": "The Ritz-Carlton, Tokyo",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.6662,
+    139.731
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3452896_2_3_1007.webp",
+   "rooms": 245,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
   },
   "h_02021": {
    "n": "Mandarin Oriental The Landmark, Hong Kong",
@@ -1329,7 +1329,7 @@
   },
   "h_01658": {
    "n": "Rosewood Phuket",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Phuket",
    "country": "Thailand",
@@ -2655,7 +2655,7 @@
   },
   "h_01646": {
    "n": "Rosewood Hotel Georgia",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Vancouver",
    "country": "Canada",
@@ -2834,7 +2834,7 @@
     45.4317,
     12.333
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4579_2_109_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4579_2_109.webp",
    "rooms": 82,
    "perks": [
     "Daily breakfast",
@@ -3662,39 +3662,6 @@
   }
  },
  "GATES": {
-  "Tokyo, Japan": {
-   "n": "Tokyo, Japan",
-   "ll": [
-    35.6833,
-    139.75
-   ],
-   "h": [
-    [
-     "h_00135",
-     0
-    ],
-    [
-     "h_01452",
-     1
-    ],
-    [
-     "h_00896",
-     1.1
-    ],
-    [
-     "h_v16589873",
-     1.1
-    ],
-    [
-     "h_00062",
-     1.4
-    ],
-    [
-     "h_02204",
-     2.6
-    ]
-   ]
-  },
   "Málaga, Spain": {
    "n": "Málaga, Spain",
    "ll": [
@@ -3792,6 +3759,39 @@
     [
      "h_00334",
      11.3
+    ]
+   ]
+  },
+  "Tokyo, Japan": {
+   "n": "Tokyo, Japan",
+   "ll": [
+    35.6833,
+    139.75
+   ],
+   "h": [
+    [
+     "h_00135",
+     0
+    ],
+    [
+     "h_01452",
+     1
+    ],
+    [
+     "h_00896",
+     1.1
+    ],
+    [
+     "h_v16589873",
+     1.1
+    ],
+    [
+     "h_00062",
+     1.4
+    ],
+    [
+     "h_02204",
+     2.6
     ]
    ]
   },
@@ -5115,11 +5115,6 @@
    "pre": "Miami, FL, United States",
    "post": "Castries (St. Lucia), Saint Lucia",
    "house": "Four Seasons"
-  },
-  "18093617": {
-   "pre": "Tokyo, Japan",
-   "post": "Tokyo, Japan",
-   "house": "Ritz-Carlton"
   },
   "18120917": {
    "pre": "Hong Kong, China",

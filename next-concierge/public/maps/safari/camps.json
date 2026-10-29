@@ -5,7 +5,7 @@
   "radiusKm": 25,
   "lodgesInCategory": 71,
   "lodgesInSafariCountries": 67,
-  "journeysWithCamps": 263,
+  "journeysWithCamps": 262,
   "journeysTotal": 508,
   "campsMatched": 41
  },
@@ -486,7 +486,7 @@
   },
   "h_01643": {
    "n": "Rosewood Cape Kidnappers",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood ",
    "country": "New Zealand",
    "ll": [
     -39.6675,
@@ -520,7 +520,7 @@
   },
   "h_01654": {
    "n": "Rosewood Matakauri",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood ",
    "country": "New Zealand",
    "ll": [
     -44.9448,
@@ -1287,14 +1287,6 @@
     "stop": "Tswalu Game Reserve",
     "day": 3,
     "km": 12
-   }
-  ],
-  "16297936": [
-   {
-    "id": "h_01207",
-    "stop": "Masai Mara National Reserve",
-    "day": 5,
-    "km": 18.1
    }
   ],
   "16301673": [

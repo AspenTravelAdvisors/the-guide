@@ -522,7 +522,7 @@
     47.3664,
     8.53612
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4450_2_59.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4450_2_0.webp",
    "rooms": 138,
    "perks": [
     "Daily breakfast",
@@ -723,7 +723,7 @@
   },
   "h_01646": {
    "n": "Rosewood Hotel Georgia",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Vancouver",
    "country": "Canada",
@@ -2125,7 +2125,7 @@
   },
   "h_01664": {
    "n": "Rosewood Vienna",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Vienna",
    "country": "Austria",
@@ -2763,7 +2763,7 @@
   },
   "h_01657": {
    "n": "Rosewood Munich",
-   "house": "Rosewood Hotels & Resorts",
+   "house": "Rosewood",
    "aff": null,
    "city": "Munich",
    "country": "Germany",
