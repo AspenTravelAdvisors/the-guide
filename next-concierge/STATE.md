@@ -2789,3 +2789,34 @@ Two things were checked against the build output rather than assumed, because
   be generated on request and 404 through `notFound()` is now a page that does
   not exist. `notFound()` stays in all three, as the guard for a param pair the
   feed carried at build and the lookup cannot resolve.
+
+## A hotel flyover for reels and leads (2026-10-29)
+
+`/demo/hotel?hotel=<id>` films one property in Google Photorealistic 3D as a
+single continuous shot: a short glide down onto the building, a close orbit at
+~240 m pushing in to ~200 m (inside the atlas's 450 m `INSPECT_RANGE`, where the
+mesh holds façade-level detail), then a pull-back to ~3.4 km that brings the
+setting in around it. Lower-third name, one line on the reveal, and the globe
+demo's end card ("We make them VIP." / Book with Aspen Travel Advisors). Default
+hotel is Ritz Paris (`h_01621`).
+
+- **The shot** is `lib/atlas/flyover.ts`, a pure function of time, driven per
+  frame by `components/HotelFlyover.tsx` — not `flyCameraTo`/`flyCameraAround`,
+  which can do the turn or the range change but not both at once.
+- **The warm-up is what makes the take usable.** Behind the cover card the
+  camera visits the hotel from four sides at hover range and from the reveal's
+  height, waiting on `gmp-steadychange` (4 s cap) at each, so the orbit never
+  shows low-detail mesh refining. Then Play / Space rolls; `autoplay=1` rolls on
+  its own for a link sent to a lead.
+- **Tuning by URL:** `lat`/`lng` (the feed's 3–4 decimals can be 30–50 m off,
+  which shows at 200 m), `lift` and `range` for towers (Burj Al Arab wants about
+  `lift=150&range=600`), `tilt`, `reveal`, `heading`, `turn`, `speed`,
+  `labels=1`, `clean=1` (no text, for an editor), `warm=0`, `pin=0`. All listed
+  in `app/demo/hotel/page.tsx`.
+- `verify:flyover` (in `npm run verify`) plays the shot at 60 fps at three
+  speeds and checks for jumps, reversals, a hover that is really inside 450 m,
+  a 10× reveal, and that nonsense tuning still clamps to a valid shot.
+
+**Not verified here, and worth one look with a key:** the real render — that
+the default Ritz Paris framing lands on the building, and that four warm-up
+stops are enough on a phone. Exercised only against a stand-in engine.
