@@ -17,7 +17,7 @@
     "incremental": false,
     "tsBuildInfoFile": "./.next/check.tsbuildinfo"
   },
-  "include": ["next-env.d.ts", "components/**/*.tsx", "lib/*.ts", "app/*.tsx", "app/atlas/**/*.tsx"],
+  "include": ["next-env.d.ts", "components/**/*.tsx", "lib/*.ts", "app/*.tsx", "app/atlas/**/*.tsx", "app/demo/**/*.tsx"],
   "exclude": [
     "node_modules",
     ".next",

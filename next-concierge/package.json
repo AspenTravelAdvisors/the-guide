@@ -49,6 +49,7 @@
     "verify:waters": "node scripts/place-named-waters.mjs --check",
     "verify:ports": "node scripts/fix-port-locations.mjs --check && node scripts/audit-port-locations.mjs --strict",
     "verify:photoreal": "node scripts/verify-photoreal.mjs",
+    "verify:flyover": "node --no-warnings scripts/verify-flyover.mjs",
     "sync:virtuoso-hotels": "node scripts/sync-virtuoso-hotels.mjs",
     "match:virtuoso-hotels": "node scripts/match-virtuoso-hotels.mjs",
     "merge:virtuoso-hotels": "node scripts/merge-virtuoso-hotels.mjs",

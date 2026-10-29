@@ -58,6 +58,7 @@ interface Maps3DLib {
   Map3DElement: new (opts: Record<string, unknown>) => Map3DElement;
   MapMode: { HYBRID: string; SATELLITE: string };
   Marker3DInteractiveElement: new (opts: Record<string, unknown>) => Marker3D;
+  Marker3DElement: new (opts: Record<string, unknown>) => Marker3D;
   AltitudeMode: { RELATIVE_TO_MESH: string; ABSOLUTE: string; CLAMP_TO_GROUND: string };
 }
 

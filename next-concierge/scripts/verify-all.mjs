@@ -33,6 +33,7 @@ const CHECKS = [
   'verify:deeplinks',
   'verify:hotels',
   'verify:photoreal',
+  'verify:flyover',
   'verify:villas',
   'verify:offering-shape',
   'verify:fit-binding',
