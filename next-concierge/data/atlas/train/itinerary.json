@@ -4178,7 +4178,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18124860_2_40_1001.webp",
    "from": "Tokyo, Japan",
    "to": "Seoul, South Korea",
-   "country": "South Korea",
+   "country": "Japan",
    "train": null,
    "world": false,
    "mks": [
@@ -4652,7 +4652,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18124860_2_37_1001.webp",
    "from": "Seoul, South Korea",
    "to": "Tokyo, Japan",
-   "country": "Japan",
+   "country": "South Korea",
    "train": null,
    "world": false,
    "mks": [
@@ -5197,7 +5197,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_15_1002.webp",
    "from": "Singapore, Singapore",
    "to": "Singapore, Singapore",
-   "country": "Malaysia",
+   "country": "Singapore",
    "train": "Eastern & Oriental Express",
    "world": true,
    "mks": [
@@ -6122,7 +6122,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_19_1002.webp",
    "from": "Istanbul, Türkiye",
    "to": "Paris, France",
-   "country": "Türkiye",
+   "country": "France",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -7482,7 +7482,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_19_1002.webp",
    "from": "Paris, France",
    "to": "Istanbul, Türkiye",
-   "country": "France",
+   "country": "Bulgaria",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -7557,7 +7557,7 @@
    "img": null,
    "from": "Paris, France",
    "to": "Prague, Czech Republic",
-   "country": "Czech Republic",
+   "country": "France",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -7622,7 +7622,7 @@
    "img": null,
    "from": "Paris, France",
    "to": "Amalfi, Italy",
-   "country": "France",
+   "country": "Italy",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "d": "4/22/2027",
@@ -8014,7 +8014,7 @@
    "img": null,
    "from": "Prague, Czech Republic",
    "to": "Paris, France",
-   "country": "Czech Republic",
+   "country": "France",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [

@@ -5,278 +5,16 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4434,
-  "journeysWithStays": 3735,
+  "journeysTotal": 4424,
+  "journeysWithStays": 3726,
   "journeysWithHouse": 0,
-  "gateways": 109,
+  "gateways": 108,
   "hotels": 291,
   "houses": []
  },
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00055": {
-   "n": "Alvear Palace Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5876,
-    -58.3889
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
-   "rooms": 207,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01455": {
-   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5883,
-    -58.3862
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v16828211": {
-   "n": "Sofitel Buenos Aires Recoleta",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5896,
-    -58.3841
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0_1001.webp",
-   "rooms": 175,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00641": {
-   "n": "Four Seasons Hotel Buenos Aires",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5899,
-    -58.3824
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94_1003.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01553": {
-   "n": "Pikaia Lodge",
-   "house": null,
-   "aff": null,
-   "city": "Galápagos",
-   "country": "Ecuador",
-   "ll": [
-    -0.639359,
-    -90.3372
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15221359_2_0.webp",
-   "rooms": 14,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_00597": {
-   "n": "Fairmont Nile City, Cairo",
-   "house": "Accor",
-   "aff": null,
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.0417,
-    31.2314
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18101431_2_0.webp",
-   "rooms": 543,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00643": {
-   "n": "Four Seasons Hotel Cairo at Nile Plaza",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.0361,
-    31.2284
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4242_2_0_1006.webp",
-   "rooms": 371,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_00642": {
-   "n": "Four Seasons Hotel Cairo",
-   "house": "Four Seasons",
-   "aff": "Four Seasons",
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.024305,
-    31.216831
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
-  },
-  "h_00644": {
-   "n": "Four Seasons Hotel Cairo, at The First Residence",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.09,
-    31.2072
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4198_2_0.webp",
-   "rooms": 262,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_01293": {
-   "n": "Mashpi Lodge",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.223252,
-    -78.5141
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0_0930.webp",
-   "rooms": 24,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00347": {
-   "n": "Casa Gangotena",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.194181,
-    -78.4532
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
-   "rooms": 30,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00464": {
-   "n": "Country Club Lima Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Lima",
-   "country": "Peru",
-   "ll": [
-    -12.098,
-    -77.0488
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4662_2_8_1004.webp",
-   "rooms": 83,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_v18394870": {
-   "n": "Hotel Real InterContinental Lima Miraflores",
-   "house": "IHG Hotels & Resorts",
-   "aff": null,
-   "city": "Lima",
-   "country": "Peru",
-   "ll": [
-    -12.1329,
-    -77.0293
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18385799_2_47.webp",
-   "rooms": 321,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01317": {
-   "n": "Miraflores Park, A Belmond Hotel, Lima",
-   "house": "Belmond",
-   "aff": "Belmond",
-   "city": "Lima",
-   "country": "Peru",
-   "ll": [
-    -12.1353,
-    -77.0273
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4636_2_0_1003.webp",
-   "rooms": 89,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
   "h_01667": {
    "n": "Rosselli AX Privilege",
    "house": null,
@@ -467,6 +205,120 @@
    ],
    "promo": 0
   },
+  "h_01293": {
+   "n": "Mashpi Lodge",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.223252,
+    -78.5141
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0_0930.webp",
+   "rooms": 24,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00347": {
+   "n": "Casa Gangotena",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.194181,
+    -78.4532
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
+   "rooms": 30,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00055": {
+   "n": "Alvear Palace Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5876,
+    -58.3889
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
+   "rooms": 207,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01455": {
+   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5883,
+    -58.3862
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v16828211": {
+   "n": "Sofitel Buenos Aires Recoleta",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5896,
+    -58.3841
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0_1001.webp",
+   "rooms": 175,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00641": {
+   "n": "Four Seasons Hotel Buenos Aires",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5899,
+    -58.3824
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94_1003.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_02459": {
    "n": "Waldorf Astoria Panama",
    "house": "Hilton Luxury Brands",
@@ -616,6 +468,78 @@
     "Daily breakfast",
     "$100 credit",
     "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00597": {
+   "n": "Fairmont Nile City, Cairo",
+   "house": "Accor",
+   "aff": null,
+   "city": "Cairo",
+   "country": "Egypt",
+   "ll": [
+    30.0417,
+    31.2314
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18101431_2_0.webp",
+   "rooms": 543,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00643": {
+   "n": "Four Seasons Hotel Cairo at Nile Plaza",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Cairo",
+   "country": "Egypt",
+   "ll": [
+    30.0361,
+    31.2284
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4242_2_0_1006.webp",
+   "rooms": 371,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00642": {
+   "n": "Four Seasons Hotel Cairo",
+   "house": "Four Seasons",
+   "aff": "Four Seasons",
+   "city": "Cairo",
+   "country": "Egypt",
+   "ll": [
+    30.024305,
+    31.216831
+   ],
+   "thumb": null,
+   "rooms": null,
+   "perks": [],
+   "promo": 0
+  },
+  "h_00644": {
+   "n": "Four Seasons Hotel Cairo, at The First Residence",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Cairo",
+   "country": "Egypt",
+   "ll": [
+    30.09,
+    31.2072
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4198_2_0.webp",
+   "rooms": 262,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
    ],
    "promo": 0
   },
@@ -828,6 +752,63 @@
    ],
    "promo": 1
   },
+  "h_00464": {
+   "n": "Country Club Lima Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.098,
+    -77.0488
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4662_2_8_1004.webp",
+   "rooms": 83,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_v18394870": {
+   "n": "Hotel Real InterContinental Lima Miraflores",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.1329,
+    -77.0293
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18385799_2_47.webp",
+   "rooms": 321,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01317": {
+   "n": "Miraflores Park, A Belmond Hotel, Lima",
+   "house": "Belmond",
+   "aff": "Belmond",
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.1353,
+    -77.0273
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4636_2_0_1003.webp",
+   "rooms": 89,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
   "h_02434": {
    "n": "W Santiago",
    "house": "Luxury Group at Marriott International",
@@ -882,6 +863,25 @@
     "Daily breakfast",
     "$100 credit",
     "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01553": {
+   "n": "Pikaia Lodge",
+   "house": null,
+   "aff": null,
+   "city": "Galápagos",
+   "country": "Ecuador",
+   "ll": [
+    -0.639359,
+    -90.3372
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15221359_2_0.webp",
+   "rooms": 14,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
    ],
    "promo": 0
   },
@@ -1037,6 +1037,25 @@
    ],
    "promo": 1
   },
+  "h_v18647165": {
+   "n": "Casa Tuya - A Virtuoso Preview Property",
+   "house": null,
+   "aff": null,
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.68379,
+    115.188
+   ],
+   "thumb": null,
+   "rooms": 12,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_02037": {
    "n": "The Legian Seminyak, Bali",
    "house": null,
@@ -1087,25 +1106,6 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15803682_2_0.webp",
    "rooms": 88,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02076": {
-   "n": "The Oberoi, Bali",
-   "house": "The Oberoi Group",
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.69201,
-    115.158
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3742_2_0.webp",
-   "rooms": 74,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -1419,7 +1419,7 @@
     22.8748,
     -109.912
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4751938_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4751938_2_0.webp",
    "rooms": 112,
    "perks": [
     "Daily breakfast",
@@ -1628,7 +1628,7 @@
     18.181287,
     -63.137276
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6404896_2_19_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6404896_2_19.webp",
    "rooms": 180,
    "perks": [
     "Daily breakfast",
@@ -1998,6 +1998,44 @@
    ],
    "promo": 1
   },
+  "h_00811": {
+   "n": "Hotel Alfonso XIII, a Luxury Collection Hotel, Seville",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Seville",
+   "country": "Spain",
+   "ll": [
+    37.381585,
+    -5.992905
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11170223_2_0.webp",
+   "rooms": 148,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00845": {
+   "n": "Hotel Colón, a Gran Meliá Hotel",
+   "house": "Meliá Hotels International",
+   "aff": null,
+   "city": "Seville",
+   "country": "Spain",
+   "ll": [
+    37.3909,
+    -5.99867
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15876916_2_5.webp",
+   "rooms": 176,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_v18378979": {
    "n": "AYANA Komodo Waecicu Beach",
    "house": null,
@@ -2352,44 +2390,6 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16149145_2_4_1006.webp",
    "rooms": 260,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00811": {
-   "n": "Hotel Alfonso XIII, a Luxury Collection Hotel, Seville",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Seville",
-   "country": "Spain",
-   "ll": [
-    37.381585,
-    -5.992905
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11170223_2_0.webp",
-   "rooms": 148,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00845": {
-   "n": "Hotel Colón, a Gran Meliá Hotel",
-   "house": "Meliá Hotels International",
-   "aff": null,
-   "city": "Seville",
-   "country": "Spain",
-   "ll": [
-    37.3909,
-    -5.99867
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15876916_2_5.webp",
-   "rooms": 176,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -3482,7 +3482,7 @@
     49.2837,
     -123.12
    ],
-   "thumb": null,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4291_2_0.webp",
    "rooms": 557,
    "perks": [
     "Daily breakfast",
@@ -4686,7 +4686,7 @@
     41.0551,
     28.9829
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5300660_2_0_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5300660_2_0.webp",
    "rooms": 90,
    "perks": [
     "Daily breakfast",
@@ -5514,128 +5514,6 @@
   }
  },
  "GATES": {
-  "Buenos Aires, Argentina": {
-   "n": "Buenos Aires, Argentina",
-   "ll": [
-    -34.5875,
-    -58.6725
-   ],
-   "h": [
-    [
-     "h_00055",
-     26
-    ],
-    [
-     "h_01455",
-     26.2
-    ],
-    [
-     "h_v16828211",
-     26.4
-    ],
-    [
-     "h_00641",
-     26.6
-    ]
-   ]
-  },
-  "Baltra Island, Ecuador": {
-   "n": "Baltra Island, Ecuador",
-   "ll": [
-    -0.45,
-    -90.2667
-   ],
-   "h": [
-    [
-     "h_01553",
-     22.5
-    ]
-   ]
-  },
-  "Cairo, Egypt": {
-   "n": "Cairo, Egypt",
-   "ll": [
-    30.05,
-    31.25
-   ],
-   "h": [
-    [
-     "h_00597",
-     2
-    ],
-    [
-     "h_00643",
-     2.6
-    ],
-    [
-     "h_00642",
-     4.3
-    ],
-    [
-     "h_00644",
-     6.1
-    ]
-   ]
-  },
-  "Quito, Ecuador": {
-   "n": "Quito, Ecuador",
-   "ll": [
-    -0.2167,
-    -78.5
-   ],
-   "h": [
-    [
-     "h_01293",
-     1.7
-    ],
-    [
-     "h_00347",
-     5.8
-    ]
-   ]
-  },
-  "Lima, Peru": {
-   "n": "Lima, Peru",
-   "ll": [
-    -12.05,
-    -77.05
-   ],
-   "h": [
-    [
-     "h_00464",
-     5.3
-    ],
-    [
-     "h_v18394870",
-     9.5
-    ],
-    [
-     "h_01317",
-     9.8
-    ]
-   ]
-  },
-  "Callao, Peru": {
-   "n": "Callao, Peru",
-   "ll": [
-    -12.0667,
-    -77.15
-   ],
-   "h": [
-    [
-     "h_00464",
-     11.5
-    ],
-    [
-     "h_v18394870",
-     15
-    ],
-    [
-     "h_01317",
-     15.4
-    ]
-   ]
-  },
   "Valletta, Malta": {
    "n": "Valletta, Malta",
    "ll": [
@@ -5703,6 +5581,48 @@
     ]
    ]
   },
+  "Quito, Ecuador": {
+   "n": "Quito, Ecuador",
+   "ll": [
+    -0.2167,
+    -78.5
+   ],
+   "h": [
+    [
+     "h_01293",
+     1.7
+    ],
+    [
+     "h_00347",
+     5.8
+    ]
+   ]
+  },
+  "Buenos Aires, Argentina": {
+   "n": "Buenos Aires, Argentina",
+   "ll": [
+    -34.5875,
+    -58.6725
+   ],
+   "h": [
+    [
+     "h_00055",
+     26
+    ],
+    [
+     "h_01455",
+     26.2
+    ],
+    [
+     "h_v16828211",
+     26.4
+    ],
+    [
+     "h_00641",
+     26.6
+    ]
+   ]
+  },
   "Panama City, Panama": {
    "n": "Panama City, Panama",
    "ll": [
@@ -5750,6 +5670,31 @@
     [
      "h_v18575535",
      4.9
+    ]
+   ]
+  },
+  "Cairo, Egypt": {
+   "n": "Cairo, Egypt",
+   "ll": [
+    30.05,
+    31.25
+   ],
+   "h": [
+    [
+     "h_00597",
+     2
+    ],
+    [
+     "h_00643",
+     2.6
+    ],
+    [
+     "h_00642",
+     4.3
+    ],
+    [
+     "h_00644",
+     6.1
     ]
    ]
   },
@@ -5842,6 +5787,27 @@
     ]
    ]
   },
+  "Lima, Peru": {
+   "n": "Lima, Peru",
+   "ll": [
+    -12.05,
+    -77.05
+   ],
+   "h": [
+    [
+     "h_00464",
+     5.3
+    ],
+    [
+     "h_v18394870",
+     9.5
+    ],
+    [
+     "h_01317",
+     9.8
+    ]
+   ]
+  },
   "Santiago, Chile": {
    "n": "Santiago, Chile",
    "ll": [
@@ -5860,6 +5826,19 @@
     [
      "h_01279",
      10.2
+    ]
+   ]
+  },
+  "Baltra Island, Ecuador": {
+   "n": "Baltra Island, Ecuador",
+   "ll": [
+    -0.45,
+    -90.2667
+   ],
+   "h": [
+    [
+     "h_01553",
+     22.5
     ]
    ]
   },
@@ -5921,6 +5900,10 @@
    ],
    "h": [
     [
+     "h_v18647165",
+     4.9
+    ],
+    [
      "h_02037",
      7.4
     ],
@@ -5931,10 +5914,6 @@
     [
      "h_01562",
      7.9
-    ],
-    [
-     "h_02076",
-     8
     ]
    ]
   },
@@ -6304,6 +6283,23 @@
     ]
    ]
   },
+  "Seville, Spain": {
+   "n": "Seville, Spain",
+   "ll": [
+    37.3772,
+    -5.9869
+   ],
+   "h": [
+    [
+     "h_00811",
+     0.7
+    ],
+    [
+     "h_00845",
+     1.8
+    ]
+   ]
+  },
   "Labuan Bajo, Flores, Indonesia": {
    "n": "Labuan Bajo, Flores, Indonesia",
    "ll": [
@@ -6444,23 +6440,6 @@
     [
      "h_v16149147",
      11
-    ]
-   ]
-  },
-  "Seville, Spain": {
-   "n": "Seville, Spain",
-   "ll": [
-    37.3772,
-    -5.9869
-   ],
-   "h": [
-    [
-     "h_00811",
-     0.7
-    ],
-    [
-     "h_00845",
-     1.8
     ]
    ]
   },
@@ -7761,10 +7740,6 @@
   }
  },
  "BYTRIP": {
-  "16817864": {
-   "pre": "Baltra Island, Ecuador",
-   "post": "Baltra Island, Ecuador"
-  },
   "16817865": {
    "pre": "Baltra Island, Ecuador",
    "post": "Baltra Island, Ecuador"
@@ -7782,10 +7757,6 @@
    "post": "Baltra Island, Ecuador"
   },
   "16817888": {
-   "pre": "Baltra Island, Ecuador",
-   "post": "Baltra Island, Ecuador"
-  },
-  "16817909": {
    "pre": "Baltra Island, Ecuador",
    "post": "Baltra Island, Ecuador"
   },
@@ -7880,10 +7851,6 @@
   "16845329": {
    "pre": "Puerto Natales, Chile",
    "post": "Puerto Natales, Chile"
-  },
-  "16845337": {
-   "pre": "Quito, Ecuador",
-   "post": "Quito, Ecuador"
   },
   "16845343": {
    "pre": "Quito, Ecuador",
@@ -8085,10 +8052,6 @@
    "pre": "Panama City, Panama",
    "post": "Panama City, Panama"
   },
-  "16845652": {
-   "pre": "Quito, Ecuador",
-   "post": "Quito, Ecuador"
-  },
   "16845654": {
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
@@ -8100,10 +8063,6 @@
   "16845689": {
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
-  },
-  "16845700": {
-   "pre": "Cairo, Egypt",
-   "post": "Cairo, Egypt"
   },
   "16845705": {
    "pre": "Santiago, Chile",
@@ -8200,10 +8159,6 @@
   "16845856": {
    "pre": "Los Angeles, CA, United States",
    "post": "Los Angeles, CA, United States"
-  },
-  "16847819": {
-   "pre": "Quito, Ecuador",
-   "post": "Lima, Peru"
   },
   "16847821": {
    "pre": "Quito, Ecuador",
@@ -8358,10 +8313,6 @@
    "post": "Lima, Peru"
   },
   "16847862": {
-   "pre": "Quito, Ecuador",
-   "post": "Lima, Peru"
-  },
-  "16847952": {
    "pre": "Quito, Ecuador",
    "post": "Lima, Peru"
   },
@@ -9061,10 +9012,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
-  "18048829": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
-  },
   "18048830": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -9128,10 +9075,6 @@
   "18049051": {
    "pre": null,
    "post": "Buenos Aires, Argentina"
-  },
-  "18049054": {
-   "pre": null,
-   "post": "Ushuaia, Argentina"
   },
   "18049076": {
    "pre": "Buenos Aires, Argentina",
@@ -12033,6 +11976,10 @@
    "pre": "Reykjavík, Iceland",
    "post": "Rio De Janeiro, Brazil"
   },
+  "18153225": {
+   "pre": "Reykjavík, Iceland",
+   "post": "Reykjavík, Iceland"
+  },
   "18153226": {
    "pre": "Reykjavík, Iceland",
    "post": "Reykjavík, Iceland"
@@ -12048,6 +11995,10 @@
   "18153229": {
    "pre": "Reykjavík, Iceland",
    "post": "Bridgetown, Barbados"
+  },
+  "18153230": {
+   "pre": "Reykjavík, Iceland",
+   "post": "Halifax, NS, Canada"
   },
   "18153235": {
    "pre": "Lautoka, Fiji",
@@ -12092,6 +12043,10 @@
   "18153246": {
    "pre": "Buenos Aires, Argentina",
    "post": "Rio De Janeiro, Brazil"
+  },
+  "18153247": {
+   "pre": "Buenos Aires, Argentina",
+   "post": "Seville, Spain"
   },
   "18153260": {
    "pre": "Rio De Janeiro, Brazil",
@@ -12727,10 +12682,6 @@
   },
   "18240817": {
    "pre": "Reykjavík, Iceland",
-   "post": null
-  },
-  "18240849": {
-   "pre": "Callao, Peru",
    "post": null
   },
   "18240996": {
@@ -14045,10 +13996,6 @@
    "pre": null,
    "post": "Labuan Bajo, Flores, Indonesia"
   },
-  "18354200": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
-  },
   "18356326": {
    "pre": "Labuan Bajo, Flores, Indonesia",
    "post": "Benoa (Bali), Indonesia"
@@ -14973,6 +14920,10 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Reykjavík, Iceland"
   },
+  "18479822": {
+   "pre": "Buenos Aires, Argentina",
+   "post": "Leith, United Kingdom"
+  },
   "18479823": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -15386,6 +15337,10 @@
    "post": "Reykjavík, Iceland"
   },
   "18479927": {
+   "pre": "Belfast, Ireland",
+   "post": "Reykjavík, Iceland"
+  },
+  "18479928": {
    "pre": "Belfast, Ireland",
    "post": "Reykjavík, Iceland"
   },
@@ -16245,10 +16200,6 @@
    "pre": "New York City, NY, United States",
    "post": null
   },
-  "18492271": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
-  },
   "18492272": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -16997,10 +16948,6 @@
    "pre": "Papeete, French Polynesia",
    "post": "Lautoka, Fiji"
   },
-  "18529589": {
-   "pre": "Tokyo, Japan",
-   "post": "Busan, South Korea"
-  },
   "18529590": {
    "pre": null,
    "post": "Reykjavík, Iceland"
@@ -17148,10 +17095,6 @@
   "18546640": {
    "pre": "Montevideo, Uruguay",
    "post": "Santiago, Chile"
-  },
-  "18548074": {
-   "pre": "Busan, South Korea",
-   "post": "Tokyo, Japan"
   },
   "18548096": {
    "pre": "Cape Town, South Africa",
@@ -17944,10 +17887,6 @@
   "18578766": {
    "pre": null,
    "post": "Vancouver, BC, Canada"
-  },
-  "18578767": {
-   "pre": "Edinburgh, United Kingdom",
-   "post": null
   },
   "18578768": {
    "pre": "London, United Kingdom",
@@ -22700,6 +22639,10 @@
   "18646707": {
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
+  },
+  "18648389": {
+   "pre": "Copenhagen, Denmark",
+   "post": null
   }
  }
 }

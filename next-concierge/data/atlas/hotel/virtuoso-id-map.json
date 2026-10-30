@@ -1,10 +1,10 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-10-27T15:17:57.616Z",
+  "generated": "2026-10-30T15:48:18.802Z",
   "feedSynced": null,
   "localCount": 2475,
-  "feedCount": 2089,
+  "feedCount": 2090,
   "matchedCount": 2332
  },
  "overrides": {
@@ -26368,6 +26368,12 @@
    "name": "Casa J.K. Place Roma",
    "city": "Rome",
    "country": "Italy"
+  },
+  {
+   "vid": "18647165",
+   "name": "Casa Tuya - A Virtuoso Preview Property",
+   "city": "Bali",
+   "country": "Indonesia"
   },
   {
    "vid": "18535040",

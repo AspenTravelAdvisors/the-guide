@@ -5,11 +5,11 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 308,
-  "journeysWithStays": 304,
+  "journeysTotal": 310,
+  "journeysWithStays": 306,
   "journeysWithHouse": 0,
-  "gateways": 51,
-  "hotels": 170,
+  "gateways": 52,
+  "hotels": 172,
   "houses": []
  },
  "radiusKm": 40,
@@ -1199,7 +1199,7 @@
     49.2837,
     -123.12
    ],
-   "thumb": null,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4291_2_0.webp",
    "rooms": 557,
    "perks": [
     "Daily breakfast",
@@ -1446,7 +1446,7 @@
     35.6618,
     139.742
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6616328_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6616328_2_0.webp",
    "rooms": 387,
    "perks": [
     "Daily breakfast",
@@ -1720,6 +1720,44 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00811": {
+   "n": "Hotel Alfonso XIII, a Luxury Collection Hotel, Seville",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Seville",
+   "country": "Spain",
+   "ll": [
+    37.381585,
+    -5.992905
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11170223_2_0.webp",
+   "rooms": 148,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00845": {
+   "n": "Hotel Colón, a Gran Meliá Hotel",
+   "house": "Meliá Hotels International",
+   "aff": null,
+   "city": "Seville",
+   "country": "Spain",
+   "ll": [
+    37.3909,
+    -5.99867
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15876916_2_5.webp",
+   "rooms": 176,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_01415": {
    "n": "One&Only Cape Town",
@@ -2016,7 +2054,7 @@
     41.0551,
     28.9829
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5300660_2_0_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5300660_2_0.webp",
    "rooms": 90,
    "perks": [
     "Daily breakfast",
@@ -2830,25 +2868,6 @@
    ],
    "promo": 1
   },
-  "h_00476": {
-   "n": "Culloden Estate and Spa",
-   "house": null,
-   "aff": null,
-   "city": "Belfast",
-   "country": "United Kingdom",
-   "ll": [
-    54.6436,
-    -5.82914
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4195_2_0_1003.webp",
-   "rooms": 98,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
   "h_02428": {
    "n": "W Edinburgh",
    "house": "Luxury Group at Marriott International",
@@ -2924,6 +2943,25 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00476": {
+   "n": "Culloden Estate and Spa",
+   "house": null,
+   "aff": null,
+   "city": "Belfast",
+   "country": "United Kingdom",
+   "ll": [
+    54.6436,
+    -5.82914
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4195_2_0_1003.webp",
+   "rooms": 98,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
   },
   "h_00330": {
    "n": "Capitolo Riviera",
@@ -3812,6 +3850,23 @@
     ]
    ]
   },
+  "Seville, Spain": {
+   "n": "Seville, Spain",
+   "ll": [
+    37.3772,
+    -5.9869
+   ],
+   "h": [
+    [
+     "h_00811",
+     0.7
+    ],
+    [
+     "h_00845",
+     1.8
+    ]
+   ]
+  },
   "Cape Town, South Africa": {
    "n": "Cape Town, South Africa",
    "ll": [
@@ -4235,19 +4290,6 @@
     ]
    ]
   },
-  "Belfast, Ireland": {
-   "n": "Belfast, Ireland",
-   "ll": [
-    54.5833,
-    -5.9333
-   ],
-   "h": [
-    [
-     "h_00476",
-     9.5
-    ]
-   ]
-  },
   "Leith, United Kingdom": {
    "n": "Leith, United Kingdom",
    "ll": [
@@ -4270,6 +4312,19 @@
     [
      "h_01963",
      3.1
+    ]
+   ]
+  },
+  "Belfast, Ireland": {
+   "n": "Belfast, Ireland",
+   "ll": [
+    54.5833,
+    -5.9333
+   ],
+   "h": [
+    [
+     "h_00476",
+     9.5
     ]
    ]
   },
@@ -4840,6 +4895,10 @@
    "pre": "Reykjavík, Iceland",
    "post": "Reykjavík, Iceland"
   },
+  "18153247": {
+   "pre": "Buenos Aires, Argentina",
+   "post": "Seville, Spain"
+  },
   "18153290": {
    "pre": "Reykjavík, Iceland",
    "post": "Reykjavík, Iceland"
@@ -5195,6 +5254,10 @@
   "18479821": {
    "pre": "Buenos Aires, Argentina",
    "post": "Reykjavík, Iceland"
+  },
+  "18479822": {
+   "pre": "Buenos Aires, Argentina",
+   "post": "Leith, United Kingdom"
   },
   "18479826": {
    "pre": "Buenos Aires, Argentina",

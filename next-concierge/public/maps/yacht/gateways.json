@@ -5,9 +5,9 @@
   "atlas": "yacht",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 519,
-  "journeysWithStays": 518,
-  "journeysWithHouse": 518,
+  "journeysTotal": 517,
+  "journeysWithStays": 516,
+  "journeysWithHouse": 516,
   "gateways": 58,
   "hotels": 193,
   "houses": [
@@ -239,7 +239,7 @@
     18.181287,
     -63.137276
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6404896_2_19_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6404896_2_19.webp",
    "rooms": 180,
    "perks": [
     "Daily breakfast",
@@ -1584,7 +1584,7 @@
     35.6618,
     139.742
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6616328_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6616328_2_0.webp",
    "rooms": 387,
    "perks": [
     "Daily breakfast",
@@ -2116,7 +2116,7 @@
     41.0551,
     28.9829
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5300660_2_0_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5300660_2_0.webp",
    "rooms": 90,
    "perks": [
     "Daily breakfast",
@@ -2682,7 +2682,7 @@
     49.2837,
     -123.12
    ],
-   "thumb": null,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4291_2_0.webp",
    "rooms": 557,
    "perks": [
     "Daily breakfast",
@@ -3164,7 +3164,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v18513512": {
    "n": "VILLA Copenhagen",
@@ -3537,7 +3537,7 @@
     43.2707,
     6.64118
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3628804_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3628804_2_0.webp",
    "rooms": 12,
    "perks": [
     "Daily breakfast",
@@ -7121,11 +7121,6 @@
    "post": "Philipsburg, Sint Maarten",
    "house": "Four Seasons"
   },
-  "18592280": {
-   "pre": "Philipsburg, Sint Maarten",
-   "post": null,
-   "house": "Four Seasons"
-  },
   "18599875": {
    "pre": "Majorca, Spain",
    "post": "Nice, France",
@@ -7144,11 +7139,6 @@
   "18599878": {
    "pre": "Nice, France",
    "post": "Majorca, Spain",
-   "house": "Four Seasons"
-  },
-  "18599880": {
-   "pre": "Salerno, Italy",
-   "post": "Piraeus, Greece",
    "house": "Four Seasons"
   },
   "18605541": {

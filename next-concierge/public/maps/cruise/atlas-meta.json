@@ -101,7 +101,7 @@
     66,
     12
    ],
-   "count": 86
+   "count": 87
   },
   "Amazon & South America": {
    "name": "Amazon & South America",
@@ -109,7 +109,7 @@
     -14,
     -66
    ],
-   "count": 221
+   "count": 220
   },
   "Central America & Panama": {
    "name": "Central America & Panama",
@@ -117,7 +117,7 @@
     9,
     -80
    ],
-   "count": 101
+   "count": 100
   },
   "Alaska & Yukon": {
    "name": "Alaska & Yukon",
@@ -141,7 +141,7 @@
     74,
     -95
    ],
-   "count": 41
+   "count": 43
   },
   "Antarctica": {
    "name": "Antarctica",
@@ -149,7 +149,7 @@
     -64.5,
     -62
    ],
-   "count": 728
+   "count": 726
   },
   "Caribbean & Bermuda": {
    "name": "Caribbean & Bermuda",
@@ -165,7 +165,7 @@
     -0.7,
     -90.5
    ],
-   "count": 1480
+   "count": 1475
   },
   "Mediterranean": {
    "name": "Mediterranean",
@@ -173,7 +173,7 @@
     39,
     14
    ],
-   "count": 239
+   "count": 238
   },
   "Other": {
    "name": "Other & Repositioning",
@@ -189,7 +189,7 @@
     58,
     -3
    ],
-   "count": 130
+   "count": 129
   },
   "Asia & Mekong": {
    "name": "Asia & Mekong",
@@ -197,7 +197,7 @@
     14,
     105
    ],
-   "count": 204
+   "count": 202
   },
   "Atlantic Islands": {
    "name": "Atlantic Islands",
