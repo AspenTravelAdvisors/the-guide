@@ -232,6 +232,28 @@ export async function groundAltitude(lat: number, lng: number): Promise<number> 
   return alt;
 }
 
+/**
+ * Ground elevation for many points in one request (the service takes up to
+ * 512). `null` when the service is unavailable — the key may not have the
+ * Elevation API enabled — so a caller can tell "flat" from "unknown".
+ */
+export async function groundAltitudes(
+  locations: { lat: number; lng: number }[],
+): Promise<number[] | null> {
+  if (!locations.length) return [];
+  try {
+    if (!elevSvc) {
+      const lib = await window.google!.maps!.importLibrary("elevation");
+      elevSvc = new lib.ElevationService();
+    }
+    const r = await elevSvc.getElevationForLocations({ locations: locations.slice(0, 512) });
+    const out = (r?.results ?? []).map((e) => Number(e?.elevation));
+    return out.length === locations.length && out.every(Number.isFinite) ? out : null;
+  } catch {
+    return null;
+  }
+}
+
 /* ── Camera arithmetic ─────────────────────────────────────────────────────
  *
  * DETAIL_RANGE / DETAIL_TILT and the tilt easing are the standalone atlas's

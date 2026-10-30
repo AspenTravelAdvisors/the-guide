@@ -2820,3 +2820,29 @@ hotel is Ritz Paris (`h_01621`).
 **Not verified here, and worth one look with a key:** the real render — that
 the default Ritz Paris framing lands on the building, and that four warm-up
 stops are enough on a phone. Exercised only against a stand-in engine.
+
+### The flyover learns when to look down (2026-10-30)
+
+Real takes found two failures the fixed 62° angle could not handle: Ritz Paris
+drew as a roofless shell (cause not pinned down — the Paris mesh, or a
+building round courtyards), and the Palace in San Francisco and the Aspen
+hotels were hidden by what stands around them. So:
+
+- **Default hotel is now Hotel del Coronado** (`h_00936`): free-standing, no
+  taller neighbours, the roof is the building. Its feed coordinate is not
+  verified against the building; check it once in tune mode.
+- **The survey.** Before the warm-up the page fetches building footprints and
+  heights within 420 m from OpenStreetMap (public Overpass API, 7 s deadline)
+  and rings of terrain samples from Google's elevation service, then
+  `bestApproach` in `lib/atlas/flyover.ts` picks the side the ~150° hover walks
+  round and the tilt that clears it (down to 30°). The reveal tilts back
+  toward the horizon regardless. A mapped tall hotel also sets its own lift
+  and keeps its distance. Any value in the URL beats the survey; `auto=0`
+  turns it off. The Play card says when it steepened the angle.
+- **Tune mode, `?tune=1`.** The camera is handed to the operator with a panel
+  saying what the survey found and chose; Preview plays the shot through the
+  frame they set, and Copy link saves it (lat/lng, lift, range, tilt,
+  heading). This is also the fix for feed coordinates that miss the building.
+- Overpass and the elevation service are unreachable from the sandbox this
+  was built in; both were exercised against stand-ins in a real browser, and
+  the geometry in `verify:flyover`. The first real run is still to be done.

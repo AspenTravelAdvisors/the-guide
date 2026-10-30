@@ -136,6 +136,95 @@ for (const opts of [
   );
 }
 
+// ── Clearance: the automatic angle ──────────────────────────────────────────
+{
+  const {
+    clearanceProfile,
+    bestApproach,
+    optionsForView,
+    MIN_AUTO_TILT,
+  } = await import(pathToFileURL(join(ROOT, "lib/atlas/flyover.ts")).href);
+  const plan = flyoverPlan();
+  const reach = plan.keys[1].range * 1.15;
+  const norm = (d) => ((d % 360) + 360) % 360;
+  /** Camera bearings (from the hotel) the hover passes through for a heading. */
+  const hoverBearings = (h) => {
+    const p = flyoverPlan({ heading: h });
+    const out = [];
+    for (let i = 0; i <= 24; i++) {
+      const t = p.marks.hover + ((p.marks.reveal - p.marks.hover) * i) / 24;
+      out.push(norm(flyoverCamera(p, t).heading + 180));
+    }
+    return out;
+  };
+
+  // Nothing around it: the framing asked for is kept exactly.
+  const open = bestApproach(plan, clearanceProfile([], reach));
+  check("an open site keeps the requested heading and tilt", open.heading === plan.heading && open.tilt === plan.keys[1].tilt && open.clear);
+
+  // Obstacles beyond the camera are behind it and must not steepen anything.
+  const far = bestApproach(plan, clearanceProfile([{ from: 0, to: 359, distance: reach + 50, rise: 300 }], reach));
+  check("towers behind the camera are ignored", far.tilt === plan.keys[1].tilt);
+
+  // The Palace case: towers close to the north, mid-rise blocks either side,
+  // and only 100° of the south open — narrower than the ~150° the hover walks,
+  // so the sides have to be cleared by looking down over them.
+  const boxed = [
+    { from: 270, to: 90, distance: 35, rise: 100 },
+    { from: 60, to: 130, distance: 60, rise: 60 },
+    { from: 230, to: 300, distance: 60, rise: 60 },
+  ];
+  const prof = clearanceProfile(boxed, reach);
+  const a = bestApproach(plan, prof);
+  const bearings = hoverBearings(a.heading);
+  check(
+    "a hotel boxed in on three sides is shot from its open side",
+    bearings.every((b) => b > 85 && b < 275),
+    `hover passes bearings ${Math.round(Math.min(...bearings))}–${Math.round(Math.max(...bearings))}`,
+  );
+  check("…and steeper than the default, to clear the side buildings", a.tilt < plan.keys[1].tilt && a.tilt >= MIN_AUTO_TILT, `tilt ${a.tilt}`);
+  // Whatever it chose actually clears: camera elevation over every obstacle it passes.
+  const elev = 90 - (a.tilt + (plan.keys[2].tilt - plan.keys[1].tilt));
+  const worstNeed = Math.max(...bearings.map((b) => prof[Math.floor(b / 5) % 72]));
+  check("…and the chosen tilt clears everything the hover passes", !a.clear || elev >= worstNeed, `${elev}° vs ${worstNeed}°`);
+
+  // Hemmed in everywhere: steepest allowed, and it says so rather than pretending.
+  const canyon = bestApproach(plan, clearanceProfile([{ from: 0, to: 359.9, distance: 25, rise: 150 }], reach));
+  check("a canyon on every side stops at the steepest allowed tilt and says so", canyon.tilt === MIN_AUTO_TILT && !canyon.clear);
+
+  // A narrow tower between bin centres still counts.
+  const thin = clearanceProfile([{ from: 101, to: 102, distance: 50, rise: 80 }], reach);
+  check("a tower narrower than one bin still blocks its bearing", thin[20] > 50);
+
+  // A heading pinned by hand is kept; only the tilt is worked out.
+  const pinned = bestApproach(plan, prof, 123);
+  check("a hand-set heading is kept", pinned.heading === 123);
+
+  // Tune mode's round trip: the saved options put the mid-hover on the view.
+  for (const view of [{ range: 300, tilt: 50, heading: 200 }, { range: 180, tilt: 40, heading: 5 }]) {
+    const p2 = flyoverPlan(optionsForView(plan, view));
+    const mid = flyoverCamera(p2, (p2.marks.hover + p2.marks.reveal) / 2);
+    check(
+      `tune link for ${JSON.stringify(view)} passes back through it`,
+      Math.abs(mid.range - view.range) / view.range < 0.01 &&
+        Math.abs(mid.tilt - view.tilt) < 0.2 &&
+        Math.abs(norm(mid.heading - view.heading + 180) - 180) < 1,
+      JSON.stringify(mid),
+    );
+  }
+
+  // A steep auto tilt still makes a smooth shot that lifts toward the horizon on the way out.
+  const steep = flyoverPlan({ closeTilt: MIN_AUTO_TILT });
+  const sf = play(steep);
+  let jump = 0;
+  for (let i = 1; i < sf.length; i++) jump = Math.max(jump, Math.abs(sf[i].tilt - sf[i - 1].tilt));
+  check("a steep hover still never jumps in tilt", jump < 0.2, `${jump}`);
+  check(
+    "a steep hover's reveal lifts back toward the horizon",
+    flyoverCamera(steep, steep.marks.end).tilt > flyoverCamera(steep, steep.marks.reveal).tilt + 10,
+  );
+}
+
 if (failed) {
   console.error(`\nverify-flyover: ${failed} check(s) failed`);
   process.exit(1);

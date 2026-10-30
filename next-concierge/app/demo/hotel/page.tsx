@@ -7,17 +7,28 @@ import HotelFlyover, { type FlyoverHotel, type FlyoverSettings } from "@/compone
  * reel or a link to a lead. See components/HotelFlyover for the stage and
  * lib/atlas/flyover.ts for the shot.
  *
- * Tuning, all optional, for when a building needs it:
+ * By default the page measures what stands around the hotel first — building
+ * heights from OpenStreetMap, terrain from Google — and picks the open side
+ * and a steep enough angle to see over the rest (lib/atlas/flyover.ts,
+ * "Clearance"). A short hotel among towers, or under a mountain, needs it.
  *
+ * The quickest way to get a hotel right is `tune=1`: frame it by eye on the
+ * real tiles, Preview, and Copy link — the link carries every value below.
+ *
+ * Tuning, all optional; anything set here beats the survey:
+ *
+ *   tune=1     Frame by hand and copy a link that keeps the framing.
  *   lat, lng   Re-centre on the building. The feed's coordinates are 3–4
  *              decimals, which can be 30–50 m off — nothing at the atlas's
  *              450 m, but the hover is half that.
- *   lift       Metres above the ground to look at (default 15). A tower wants
- *              roughly half its height, with `range` opened up to match.
- *   range      Closest hover range in metres (default 240).
- *   tilt       Hover tilt, degrees from straight down (default 62).
+ *   lift       Metres above the ground to look at (default: ~45% of the
+ *              hotel's mapped height, else 15).
+ *   range      Closest hover range in metres (default 240; more for a tower).
+ *   tilt       Hover tilt, degrees from straight down (default 62, steeper
+ *              when the neighbours need it).
  *   reveal     Range the pull-back ends at, metres (default 3200).
- *   heading    The first frame's compass heading (default 30).
+ *   heading    The first frame's compass heading (default: the open side).
+ *   auto=0     Skip the survey: the reel's fixed default angle.
  *   turn       Degrees per second of turn (default 9).
  *   speed      0.75 slower, 1.5 faster (default 1).
  *   labels=1   Google's place labels over the imagery.
@@ -34,8 +45,15 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-/** Ritz Paris: low-rise, on Place Vendôme, and the reveal is Paris. */
-const DEFAULT_HOTEL = "h_01621";
+/**
+ * Hotel del Coronado: free-standing on the beach with nothing taller beside
+ * it, a roof that is the whole point of the building, and San Diego's skyline
+ * across the bay for the reveal. Ritz Paris was the first default and drew as
+ * a roofless shell in the first real takes (2026-10-30). The cause was not
+ * pinned down from here; the Ritz is built round courtyards, which a coarse
+ * mesh can render as walls with nothing between them.
+ */
+const DEFAULT_HOTEL = "h_00936";
 
 type Params = Record<string, string | string[] | undefined>;
 
@@ -96,12 +114,14 @@ export default async function HotelFlyoverPage({ searchParams }: { searchParams:
     heading: numberParam(sp, "heading"),
     turn: numberParam(sp, "turn"),
     speed: numberParam(sp, "speed"),
-    lift: Math.max(0, numberParam(sp, "lift") ?? 15),
+    lift: numberParam(sp, "lift") != null ? Math.max(0, numberParam(sp, "lift")!) : undefined,
     labels: flag(sp, "labels", false),
     clean: flag(sp, "clean", false),
     autoplay: flag(sp, "autoplay", false),
     warm: flag(sp, "warm", true),
     pin: flag(sp, "pin", true),
+    auto: flag(sp, "auto", true),
+    tune: flag(sp, "tune", false),
   };
 
   return <HotelFlyover hotel={hotel} settings={settings} />;
