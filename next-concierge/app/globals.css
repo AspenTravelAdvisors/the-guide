@@ -6887,6 +6887,87 @@ html.flyover-on body {
 .fo-ctrl:hover {
   opacity: 1;
 }
+.fo-cover-note {
+  max-width: 34em;
+  margin-top: 6px !important;
+  color: var(--sub);
+}
+
+/* Tune mode: the operator's panel. Top left, compact, and over the map rather
+   than beside it, so what is framed is the full-bleed frame the take uses. */
+.fo-tune {
+  position: absolute;
+  z-index: 4;
+  top: calc(12px + env(safe-area-inset-top, 0px));
+  left: 12px;
+  width: min(360px, calc(100% - 24px));
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(10, 10, 12, 0.86);
+  backdrop-filter: blur(8px);
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--sub);
+}
+.fo-tune h2 {
+  margin: 0 0 8px;
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--gold-light);
+}
+.fo-tune ul {
+  margin: 0;
+  padding-left: 16px;
+}
+.fo-tune .fo-tune-auto {
+  margin-top: 4px;
+  color: var(--text);
+}
+.fo-tune p {
+  margin: 10px 0 0;
+}
+.fo-tune-live {
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.fo-tune-hint {
+  color: var(--muted);
+}
+.fo-tune-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+.fo-tune-btns button {
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 13px;
+  cursor: pointer;
+}
+.fo-tune-btns button.primary {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #17130a;
+  font-weight: 600;
+}
+.fo-tune-link {
+  width: 100%;
+  margin-top: 10px;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--sub);
+  font-family: var(--sans);
+  font-size: 11px;
+}
 .fo-ctrl button,
 .fo-ctrl a {
   padding: 7px 14px;

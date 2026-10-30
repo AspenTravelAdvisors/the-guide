@@ -3,19 +3,31 @@
 /**
  * `/demo/hotel` — one property in photoreal 3D, filmed as a single shot.
  *
- * The camera work is lib/atlas/flyover.ts; this is the stage around it. The
- * part that decides whether the take is usable is the warm-up: Google streams
- * the mesh for what the camera is looking at, so a cold orbit at 200 m shows
- * the building as melted low-detail shapes refining as it turns. Behind the
- * cover card the camera visits the hotel from four sides and from the reveal's
- * height first, so by the time the shot rolls every frame of it is drawn.
+ * The camera work is lib/atlas/flyover.ts; this is the stage around it. Two
+ * things happen before the take, behind the cover card, and both decide
+ * whether it is usable:
+ *
+ *   survey  What stands around the hotel (lib/atlas/surroundings.ts). A short
+ *           building among towers, or under a mountain, is hidden from the
+ *           reel's default angle; the heights say which side is open and how
+ *           steeply the camera has to look down to clear the rest
+ *           (bestApproach). A tall hotel also gets its own height back as the
+ *           point to look at and the distance to keep.
+ *   warm    Google streams the mesh for what the camera is looking at, so a
+ *           cold orbit at 200 m shows the building as melted low-detail shapes
+ *           refining as it turns. The camera visits the hotel from four sides
+ *           and from the reveal's height first.
  *
  * Then the operator presses Space (or Play) and starts recording on their own
  * beat; `?autoplay=1` rolls as soon as the tiles are in, for a link sent to a
- * lead. The camera is driven per frame rather than by flyCameraTo/Around,
- * because the shot is one continuous move — a turn that never stops while the
- * range closes in and then opens up — and the engine's own animations can do
- * either half of that but not both at once.
+ * lead. `?tune=1` hands the camera to the operator instead: they frame the
+ * hotel by eye on the real tiles, preview the shot through that frame, and
+ * copy a link that keeps it.
+ *
+ * The camera is driven per frame rather than by flyCameraTo/Around, because
+ * the shot is one continuous move — a turn that never stops while the range
+ * closes in and then opens up — and the engine's own animations can do either
+ * half of that but not both at once.
  */
 
 import { useEffect, useRef, useState } from "react";
@@ -28,12 +40,19 @@ import {
   type Marker3D,
 } from "@/lib/atlas/google3d";
 import {
+  FLYOVER_CLOSE_RANGE,
+  bestApproach,
+  clearanceProfile,
   flyoverCamera,
   flyoverPlan,
   flyoverWarmup,
+  optionsForView,
+  type Approach,
   type FlyoverCamera,
   type FlyoverOptions,
+  type FlyoverPlan,
 } from "@/lib/atlas/flyover";
+import { compass, obstaclesFrom, surveySurroundings, tallestNear, type Survey } from "@/lib/atlas/surroundings";
 
 export interface FlyoverHotel {
   id: string;
@@ -44,8 +63,8 @@ export interface FlyoverHotel {
 }
 
 export interface FlyoverSettings extends FlyoverOptions {
-  /** Metres above the ground the camera looks at — raise it for a tower. */
-  lift: number;
+  /** Metres above the ground the camera looks at; unset, the survey decides. */
+  lift?: number;
   /** Google's road and place labels over the imagery. */
   labels: boolean;
   /** No captions or end card, for an editor adding their own. */
@@ -56,9 +75,13 @@ export interface FlyoverSettings extends FlyoverOptions {
   warm: boolean;
   /** Mark the hotel once the reveal has pulled back far enough to lose it. */
   pin: boolean;
+  /** Measure the surroundings and choose the side and angle from them. */
+  auto: boolean;
+  /** Hand the camera to the operator to frame by eye. */
+  tune: boolean;
 }
 
-type Phase = "loading" | "warming" | "ready" | "playing" | "ended" | "unavailable";
+type Phase = "loading" | "surveying" | "warming" | "ready" | "playing" | "ended" | "tuning" | "unavailable";
 type Beat = "name" | "reveal" | "end" | null;
 
 /** The longest a warm-up stop waits for the tiles. Steady often never re-fires
@@ -68,6 +91,52 @@ const SETTLE_CAP_MS = 4000;
 const SETTLE_MIN_MS = 250;
 /** Where the reveal has pulled back enough that the building needs a marker. */
 const PIN_AT = 0.3;
+/** Looked-at height with nothing better to go on: a low-rise façade. */
+const DEFAULT_LIFT = 15;
+/** Above this a hotel is a tower, and the hover keeps its distance. */
+const TOWER = 45;
+/** The survey's radius, and how far past the hover range an obstacle counts. */
+const SURVEY_RADIUS = 420;
+const REACH = 1.15;
+
+const clamp = (n: number, lo: number, hi: number) => Math.min(Math.max(n, lo), hi);
+const round = (n: number) => Math.round(n);
+
+interface Framing {
+  plan: FlyoverPlan;
+  options: FlyoverOptions;
+  lift: number;
+  approach: Approach | null;
+}
+
+/**
+ * The shot for this hotel: what the URL asked for, with everything it left
+ * unset filled in from the survey. A value in the URL always wins — it is
+ * someone's judgement made on the real tiles.
+ */
+function frameShot(settings: FlyoverSettings, survey: Survey | null): Framing {
+  const h = survey?.hotelHeight ?? null;
+  const lift = settings.lift ?? (h != null ? clamp(h * 0.45, 10, 200) : DEFAULT_LIFT);
+  const closeRange =
+    settings.closeRange ?? (h != null && h > TOWER ? Math.max(FLYOVER_CLOSE_RANGE, h * 1.9) : undefined);
+  let options: FlyoverOptions = { ...settings, closeRange };
+  let approach: Approach | null = null;
+  if (survey && (settings.closeTilt == null || settings.heading == null)) {
+    const base = flyoverPlan(options);
+    const profile = clearanceProfile(obstaclesFrom(survey, lift), base.keys[1].range * REACH);
+    approach = bestApproach(base, profile, settings.heading);
+    options = {
+      ...options,
+      closeTilt: settings.closeTilt ?? approach.tilt,
+      heading: settings.heading ?? approach.heading,
+    };
+  }
+  return { plan: flyoverPlan(options), options, lift, approach };
+}
+
+const midHover = (plan: FlyoverPlan) => (plan.marks.hover + plan.marks.reveal) / 2;
+/** The side of the building the hover looks at: the camera stands opposite its heading. */
+const sideOf = (plan: FlyoverPlan) => compass(flyoverCamera(plan, midHover(plan)).heading + 180);
 
 export default function HotelFlyover({
   hotel,
@@ -80,14 +149,19 @@ export default function HotelFlyover({
   const mapRef = useRef<Map3DElement | null>(null);
   const pinRef = useRef<Marker3D | null>(null);
   const rafRef = useRef(0);
+  const groundRef = useRef(0);
   const [phase, setPhase] = useState<Phase>("loading");
   const [beat, setBeat] = useState<Beat>(null);
   const [warmed, setWarmed] = useState<[number, number]>([0, 0]);
+  const [survey, setSurvey] = useState<Survey | null>(null);
+  const [framing, setFraming] = useState<Framing>(() => frameShot(settings, null));
+  const [live, setLive] = useState<FlyoverCamera | null>(null);
+  const [link, setLink] = useState("");
   const phaseRef = useRef<Phase>("loading");
   phaseRef.current = phase;
 
-  const planRef = useRef(flyoverPlan(settings));
-  const plan = planRef.current;
+  /** The plan the next take plays — the framing's, until a tune preview replaces it. */
+  const planRef = useRef<FlyoverPlan>(framing.plan);
   const atlasHref = `/atlas/hotel?hotel=${encodeURIComponent(hotel.id)}`;
 
   /* ── The camera ───────────────────────────────────────────────────────── */
@@ -101,6 +175,16 @@ export default function HotelFlyover({
       map.heading = cam.heading;
     } catch {
       /* detached mid-frame */
+    }
+  };
+
+  const centre = (lift: number) => {
+    const map = mapRef.current;
+    if (!map) return;
+    try {
+      map.center = { lat: hotel.lat, lng: hotel.lng, altitude: groundRef.current + lift };
+    } catch {
+      /* detached */
     }
   };
 
@@ -123,6 +207,7 @@ export default function HotelFlyover({
     showPin(false);
     setBeat(null);
     setPhase("playing");
+    const plan = planRef.current;
     const { marks, durationMs, speed } = plan;
     const pinAt = marks.reveal + (marks.end - marks.reveal) * PIN_AT;
     const s = (ms: number) => ms / speed;
@@ -154,10 +239,74 @@ export default function HotelFlyover({
     rafRef.current = requestAnimationFrame(frame);
   };
 
+  /* ── Tune mode ────────────────────────────────────────────────────────── */
+
+  const readView = () => {
+    const map = mapRef.current;
+    if (!map) return null;
+    const c = map.center;
+    const view = { range: Number(map.range), tilt: Number(map.tilt), heading: Number(map.heading) };
+    if (!c || ![c.lat, c.lng, view.range, view.tilt, view.heading].every(Number.isFinite)) return null;
+    return { ...view, lat: c.lat, lng: c.lng, lift: Math.max(0, Number(c.altitude) - groundRef.current) };
+  };
+
+  /** Back to the operator, framed where the middle of the current hover is. */
+  const tune = () => {
+    stop();
+    showPin(false);
+    setBeat(null);
+    aim(flyoverCamera(planRef.current, midHover(planRef.current)));
+    setPhase("tuning");
+  };
+
+  /** The shot as it would play through what the operator has framed. */
+  const previewView = () => {
+    const view = readView();
+    if (!view) return;
+    planRef.current = flyoverPlan({ ...framing.options, ...optionsForView(planRef.current, view) });
+    play();
+  };
+
+  const copyView = () => {
+    const view = readView();
+    if (!view) return;
+    const o = optionsForView(planRef.current, view);
+    const url = new URL(window.location.href);
+    url.searchParams.delete("tune");
+    url.searchParams.set("hotel", hotel.id);
+    url.searchParams.set("lat", view.lat.toFixed(6));
+    url.searchParams.set("lng", view.lng.toFixed(6));
+    url.searchParams.set("lift", String(round(view.lift)));
+    url.searchParams.set("range", String(o.closeRange));
+    url.searchParams.set("tilt", String(o.closeTilt));
+    url.searchParams.set("heading", String(o.heading));
+    const text = url.toString();
+    setLink(text);
+    navigator.clipboard?.writeText(text).catch(() => {
+      /* the link is on screen to copy by hand */
+    });
+  };
+
+  const resetToAuto = () => {
+    planRef.current = framing.plan;
+    centre(framing.lift);
+    tune();
+  };
+
   const playRef = useRef(play);
   playRef.current = play;
+  const tuneRef = useRef(tune);
+  tuneRef.current = tune;
 
-  /* ── Mount, warm, roll ────────────────────────────────────────────────── */
+  // The live camera, for the operator to read while framing.
+  useEffect(() => {
+    if (phase !== "tuning") return;
+    const timer = window.setInterval(() => setLive(readView()), 300);
+    return () => window.clearInterval(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase]);
+
+  /* ── Mount, survey, warm, roll ────────────────────────────────────────── */
 
   useEffect(() => {
     let cancelled = false;
@@ -191,12 +340,26 @@ export default function HotelFlyover({
         return;
       }
       if (cancelled) return;
-      const { Map3DElement, MapMode, Marker3DElement, AltitudeMode } = libs.maps3d;
       const ground = await groundAltitude(hotel.lat, hotel.lng);
+      groundRef.current = ground;
       if (cancelled) return;
-      const first = flyoverCamera(plan, 0);
+
+      let found: Survey | null = null;
+      if (settings.auto) {
+        setPhase("surveying");
+        found = await surveySurroundings(hotel.lat, hotel.lng, ground, SURVEY_RADIUS);
+        if (cancelled) return;
+        setSurvey(found);
+      }
+      const framed = frameShot(settings, found);
+      setFraming(framed);
+      planRef.current = framed.plan;
+      const plan = framed.plan;
+
+      const { Map3DElement, MapMode, Marker3DElement, AltitudeMode } = libs.maps3d;
+      const first = settings.tune ? flyoverCamera(plan, midHover(plan)) : flyoverCamera(plan, 0);
       const map = new Map3DElement({
-        center: { lat: hotel.lat, lng: hotel.lng, altitude: ground + settings.lift },
+        center: { lat: hotel.lat, lng: hotel.lng, altitude: ground + framed.lift },
         range: first.range,
         tilt: first.tilt,
         heading: first.heading,
@@ -222,6 +385,11 @@ export default function HotelFlyover({
         /* no pin is a reveal without a marker, not a broken take */
       }
 
+      if (settings.tune) {
+        // The operator is about to fly round it by hand; that is the warm-up.
+        setPhase("tuning");
+        return;
+      }
       if (settings.warm) {
         const stops = flyoverWarmup(plan);
         setPhase("warming");
@@ -257,6 +425,7 @@ export default function HotelFlyover({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.target instanceof HTMLInputElement) return;
       const p = phaseRef.current;
       if ((e.key === " " || e.key === "Enter") && (p === "ready" || p === "ended")) {
         e.preventDefault();
@@ -264,6 +433,7 @@ export default function HotelFlyover({
       } else if ((e.key === "r" || e.key === "R") && (p === "playing" || p === "ended")) {
         playRef.current();
       } else if (e.key === "Escape" && p === "playing") {
+        if (settings.tune) return tuneRef.current();
         stop();
         setBeat(null);
         setPhase("ended");
@@ -271,9 +441,12 @@ export default function HotelFlyover({
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const words = !settings.clean;
+  const { approach } = framing;
+  const steepened = approach && approach.tilt < (settings.closeTilt ?? flyoverPlan({}).keys[1].tilt) - 0.5;
 
   return (
     <div className="flyover">
@@ -283,14 +456,16 @@ export default function HotelFlyover({
           camera; the shield takes them instead of the map. */}
       {phase === "playing" && <div className="fo-shield" aria-hidden="true" />}
 
-      {(phase === "loading" || phase === "warming") && (
+      {(phase === "loading" || phase === "surveying" || phase === "warming") && (
         <div className="fo-cover">
           <p className="fo-cover-name">{hotel.name}</p>
           <p className="fo-cover-place">{hotel.place}</p>
           <p className="fo-cover-status">
             {phase === "loading"
               ? "Loading photoreal 3D…"
-              : `Drawing the hotel in 3D · ${warmed[0] + 1} of ${warmed[1]}`}
+              : phase === "surveying"
+                ? "Measuring what stands around it…"
+                : `Drawing the hotel in 3D · ${warmed[0] + 1} of ${warmed[1]}`}
           </p>
         </div>
       )}
@@ -303,6 +478,12 @@ export default function HotelFlyover({
             Play
           </button>
           <p className="fo-cover-status">Space to play · R to replay · Esc to stop</p>
+          {steepened && approach && (
+            <p className="fo-cover-status fo-cover-note">
+              Angle steepened to {round(approach.tilt)}° to clear what stands around it · hover on the{" "}
+              {sideOf(framing.plan)} side
+            </p>
+          )}
         </div>
       )}
 
@@ -314,6 +495,19 @@ export default function HotelFlyover({
             Open on the atlas
           </a>
         </div>
+      )}
+
+      {phase === "tuning" && (
+        <TunePanel
+          hotel={hotel}
+          survey={survey}
+          framing={framing}
+          live={live}
+          link={link}
+          onPreview={previewView}
+          onCopy={copyView}
+          onReset={resetToAuto}
+        />
       )}
 
       {words && beat === "name" && (
@@ -343,12 +537,118 @@ export default function HotelFlyover({
 
       {phase === "ended" && (
         <div className="fo-ctrl">
-          <button type="button" onClick={() => playRef.current()}>
-            Replay
-          </button>
-          <a href={atlasHref}>Explore this hotel</a>
+          {settings.tune ? (
+            <>
+              <button type="button" onClick={() => tuneRef.current()}>
+                Back to tuning
+              </button>
+              <button type="button" onClick={() => playRef.current()}>
+                Replay
+              </button>
+            </>
+          ) : (
+            <>
+              <button type="button" onClick={() => playRef.current()}>
+                Replay
+              </button>
+              <a href={atlasHref}>Explore this hotel</a>
+            </>
+          )}
         </div>
       )}
     </div>
+  );
+}
+
+/**
+ * The operator's panel in tune mode: what the survey found, what it chose,
+ * where the camera is now, and the two things to do with it.
+ */
+function TunePanel({
+  hotel,
+  survey,
+  framing,
+  live,
+  link,
+  onPreview,
+  onCopy,
+  onReset,
+}: {
+  hotel: FlyoverHotel;
+  survey: Survey | null;
+  framing: Framing;
+  live: FlyoverCamera | null;
+  link: string;
+  onPreview: () => void;
+  onCopy: () => void;
+  onReset: () => void;
+}) {
+  const reach = framing.plan.keys[1].range * REACH;
+  const tallest = survey ? tallestNear(survey, reach) : null;
+  const terrainTop = survey?.terrain.length ? Math.max(...survey.terrain.map((t) => t.top)) : null;
+  const { approach } = framing;
+
+  return (
+    <aside className="fo-tune">
+      <h2>{hotel.name}</h2>
+      <ul>
+        {!survey ? (
+          <li>Survey off — the reel’s default angle.</li>
+        ) : (
+          <>
+            <li>
+              {survey.sources.buildings
+                ? `${survey.buildings.length} buildings mapped within ${SURVEY_RADIUS} m`
+                : "OpenStreetMap did not answer — no building heights"}
+            </li>
+            <li>
+              {survey.hotelHeight != null
+                ? `Hotel about ${round(survey.hotelHeight)} m tall — looking ${round(framing.lift)} m up`
+                : `Hotel height unknown — looking ${round(framing.lift)} m up`}
+            </li>
+            {tallest && tallest.top > framing.lift && (
+              <li>
+                Tallest within {round(reach)} m: {tallest.kind === "terrain" ? "ground rising to " : ""}
+                {round(tallest.top)} m, {round(tallest.distance)} m to the {compass(tallest.bearing)}
+              </li>
+            )}
+            <li>
+              {!survey.sources.terrain
+                ? "Terrain unavailable"
+                : terrainTop != null && terrainTop > 10
+                  ? `Ground rises up to ${round(terrainTop)} m within ${SURVEY_RADIUS} m`
+                  : "Terrain flat"}
+            </li>
+          </>
+        )}
+        <li className="fo-tune-auto">
+          {approach
+            ? `Auto: tilt ${round(approach.tilt)}° on the ${sideOf(framing.plan)} side${
+                approach.clear ? "" : " — boxed in; the best there is"
+              }`
+            : `Shot: tilt ${round(framing.plan.keys[1].tilt)}° on the ${sideOf(framing.plan)} side`}
+        </li>
+      </ul>
+      <p className="fo-tune-live">
+        {live
+          ? `Now: ${round(live.range)} m · tilt ${round(live.tilt)}° · heading ${round(live.heading)}°`
+          : "Now: —"}
+      </p>
+      <p className="fo-tune-hint">
+        Frame the hotel the way the middle of the hover should see it. The shot turns through this view.
+      </p>
+      <div className="fo-tune-btns">
+        <button type="button" className="primary" onClick={onPreview}>
+          Preview
+        </button>
+        <button type="button" onClick={onCopy}>
+          Copy link
+        </button>
+        <button type="button" onClick={onReset}>
+          Reset to auto
+        </button>
+      </div>
+      {link && <input className="fo-tune-link" readOnly value={link} onFocus={(e) => e.currentTarget.select()} />}
+    </aside>
   );
 }

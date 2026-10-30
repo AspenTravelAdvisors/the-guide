@@ -29,6 +29,13 @@ export interface FlyoverOptions {
   closeRange?: number;
   /** Tilt through the hover, degrees from straight down. */
   closeTilt?: number;
+  /**
+   * Tilt the reveal settles to. Kept apart from closeTilt because a hover that
+   * had to look steeply down over its neighbours (see bestApproach) has no
+   * neighbours left to clear at 3 km, and the reveal should lift toward the
+   * horizon there rather than carry the plan view out with it.
+   */
+  revealTilt?: number;
   /** Range the reveal pulls back to, metres. */
   revealRange?: number;
   /** Heading of the first frame, degrees. */
@@ -107,6 +114,7 @@ export function flyoverPlan(opts: FlyoverOptions = {}): FlyoverPlan {
   const close = clamp(num(opts.closeRange, FLYOVER_CLOSE_RANGE), MIN_RANGE / PUSH, 2000);
   const tilt = clamp(num(opts.closeTilt, FLYOVER_CLOSE_TILT), 20, MAX_TILT - 3);
   const reveal = clamp(num(opts.revealRange, FLYOVER_REVEAL_RANGE), close * 4, 40000);
+  const revealTilt = clamp(num(opts.revealTilt, FLYOVER_CLOSE_TILT - 12), 10, MAX_TILT - 3);
   const speed = clamp(num(opts.speed, 1), 0.25, 4);
   const turn = clamp(num(opts.turn, FLYOVER_TURN), 0, 45);
   const heading = ((num(opts.heading, 30) % 360) + 360) % 360;
@@ -120,8 +128,8 @@ export function flyoverPlan(opts: FlyoverOptions = {}): FlyoverPlan {
     { t: 0, range: close * 2.2, tilt: tilt - 6 },
     { t: 6, range: close, tilt },
     { t: 22, range: close * PUSH, tilt: Math.min(tilt + 3, MAX_TILT) },
-    { t: 34, range: reveal, tilt: tilt - 12 },
-    { t: 40, range: reveal * 1.08, tilt: tilt - 14 },
+    { t: 34, range: reveal, tilt: revealTilt },
+    { t: 40, range: reveal * 1.08, tilt: revealTilt - 2 },
   ];
   const ms = (s: number) => Math.round((s * 1000) / speed);
   return {
@@ -191,4 +199,151 @@ export function flyoverWarmup(plan: FlyoverPlan): FlyoverCamera[] {
     flyoverCamera(plan, plan.durationMs),
     flyoverCamera(plan, 0),
   ];
+}
+
+/* ── Clearance: when a hotel needs a steeper angle ──────────────────────────
+ *
+ * A short building in a tall city (the Palace in San Francisco) or at the foot
+ * of a mountain (Aspen) is hidden by its surroundings from a camera at the
+ * reel's 62°: the line from the camera to the hotel passes through a
+ * neighbour. Whether it does is geometry, not taste. Anything standing `rise`
+ * metres above the point the camera looks at, `distance` metres away, hides
+ * that point from every camera on its side lower than atan(rise / distance)
+ * above the horizontal. The camera's own elevation angle is 90° − tilt.
+ *
+ * So from the heights around the hotel (components/HotelFlyover gathers them:
+ * buildings from OpenStreetMap, terrain from Google's elevation service) this
+ * builds the angle each side of the building needs, then picks the side the
+ * hover should walk round and the tilt that clears it. The orbit only covers
+ * ~150° of the building, so a hotel boxed in on three sides can still be shot
+ * from its open fourth — Market Street, the beach, the valley floor.
+ */
+
+export interface Obstacle {
+  /** Bearings from the hotel, degrees clockwise from north, of its two edges. */
+  from: number;
+  to: number;
+  /** Horizontal distance from the hotel to its nearest point, metres. */
+  distance: number;
+  /** Height of its top above the point the camera looks at, metres. */
+  rise: number;
+}
+
+export interface Approach {
+  /** The `heading` option that puts the hover on the clearest side. */
+  heading: number;
+  /** The hover tilt that clears that side, never steeper than MIN_AUTO_TILT. */
+  tilt: number;
+  /** Elevation angle the worst point of that side needs, degrees. */
+  need: number;
+  /** False when even MIN_AUTO_TILT does not clear it: the best there is. */
+  clear: boolean;
+}
+
+export const CLEARANCE_BINS = 72;
+/** Degrees of daylight kept over the top of whatever is in the way. */
+const CLEARANCE_MARGIN = 5;
+/** The steepest the automatic angle goes. Steeper is a plan view, not a hotel. */
+export const MIN_AUTO_TILT = 30;
+
+const norm = (deg: number) => ((deg % 360) + 360) % 360;
+const DEG = 180 / Math.PI;
+
+/**
+ * The elevation angle a camera needs to see over everything on each side of
+ * the hotel, in CLEARANCE_BINS bins by bearing from the hotel. Only what
+ * stands within `reach` counts: anything further away is behind the camera.
+ */
+export function clearanceProfile(obstacles: Obstacle[], reach: number): number[] {
+  const width = 360 / CLEARANCE_BINS;
+  const need = new Array<number>(CLEARANCE_BINS).fill(0);
+  for (const o of obstacles) {
+    if (!(o.distance <= reach) || !(o.rise > 0)) continue;
+    const angle = Math.atan2(o.rise, Math.max(o.distance, 1)) * DEG;
+    const start = norm(o.from);
+    const span = norm(o.to - o.from);
+    for (let b = 0; b < CLEARANCE_BINS; b++) {
+      const centre = (b + 0.5) * width;
+      const inside = norm(centre - start) <= span;
+      // A narrow tower can fall between two bin centres; it still blocks.
+      const edge = b === Math.floor(start / width) || b === Math.floor(norm(o.to) / width);
+      if ((inside || edge) && angle > need[b]) need[b] = angle;
+    }
+  }
+  return need;
+}
+
+/** Bearings the hover covers, relative to the plan's `heading`. */
+function hoverOffsets(plan: FlyoverPlan): number[] {
+  const out: number[] = [];
+  const { hover, reveal } = plan.marks;
+  for (let i = 0; i <= 24; i++) {
+    const cam = flyoverCamera(plan, hover + ((reveal - hover) * i) / 24);
+    out.push(norm(cam.heading - plan.heading));
+  }
+  return out;
+}
+
+/**
+ * The side to hover on and the tilt to hover at.
+ *
+ * Every starting heading is tried in 5° steps; the one whose hover arc needs
+ * the least elevation wins, then the one needing least on average, then the
+ * one nearest the heading asked for — so a hotel with nothing around it keeps
+ * the framing it was given instead of being turned for no reason. `only`
+ * pins the heading (one set by hand) and asks just for the tilt it needs.
+ */
+export function bestApproach(plan: FlyoverPlan, profile: number[], only?: number): Approach {
+  const base = plan.keys[1].tilt;
+  const push = plan.keys[2].tilt - base;
+  const offsets = hoverOffsets(plan);
+  const width = 360 / profile.length;
+  let best = { heading: plan.heading, worst: Infinity, mean: Infinity, off: Infinity };
+  const candidates =
+    only != null && Number.isFinite(only) ? [norm(only)] : Array.from({ length: 72 }, (_, i) => i * 5);
+  for (const h of candidates) {
+    let worst = 0;
+    let sum = 0;
+    for (const o of offsets) {
+      // The camera stands opposite the way it faces.
+      const bearing = norm(h + o + 180);
+      const n = profile[Math.floor(bearing / width) % profile.length] || 0;
+      worst = Math.max(worst, n);
+      sum += n;
+    }
+    const mean = sum / offsets.length;
+    const off = Math.abs(norm(h - plan.heading + 180) - 180);
+    const better =
+      worst < best.worst - 0.5 ||
+      (Math.abs(worst - best.worst) <= 0.5 &&
+        (mean < best.mean - 0.5 || (Math.abs(mean - best.mean) <= 0.5 && off < best.off)));
+    if (better) best = { heading: h, worst, mean, off };
+  }
+  // The hover tilts up by `push` as it closes in; clear the steeper end of it.
+  const wanted = 90 - best.worst - CLEARANCE_MARGIN - push;
+  return {
+    heading: best.heading,
+    tilt: clamp(Math.min(base, wanted), MIN_AUTO_TILT, base),
+    need: best.worst,
+    clear: wanted >= MIN_AUTO_TILT,
+  };
+}
+
+/**
+ * The options that make the middle of the hover pass through `view` — what
+ * tune mode saves when the operator has found the frame by hand. The middle,
+ * not the start, so the shot turns through the chosen frame rather than
+ * leaving it.
+ */
+export function optionsForView(
+  plan: FlyoverPlan,
+  view: FlyoverCamera,
+): Required<Pick<FlyoverOptions, "closeRange" | "closeTilt" | "heading">> {
+  const mid = flyoverCamera(plan, (plan.marks.hover + plan.marks.reveal) / 2);
+  const close = plan.keys[1];
+  return {
+    closeRange: Math.round(view.range * (close.range / mid.range)),
+    closeTilt: Math.round((view.tilt - (mid.tilt - close.tilt)) * 10) / 10,
+    heading: Math.round(norm(view.heading - (mid.heading - plan.heading))),
+  };
 }
