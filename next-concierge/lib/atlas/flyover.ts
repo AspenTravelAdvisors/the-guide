@@ -68,6 +68,12 @@ export interface FlyoverPlan {
   heading: number;
   turn: number;
   speed: number;
+  /**
+   * A heading correction eased out over the opening `until` seconds: how the
+   * in-atlas cut starts from wherever the camera already faces and still
+   * reaches the side it should hover on, without a swing at either end.
+   */
+  lead?: { delta: number; until: number };
 }
 
 /*
@@ -100,6 +106,7 @@ const MIN_RANGE = 80;
 const MAX_TILT = 67;
 
 const clamp = (n: number, lo: number, hi: number) => Math.min(Math.max(n, lo), hi);
+const norm = (deg: number) => ((deg % 360) + 360) % 360;
 const num = (v: unknown, fallback: number) => {
   const n = Number(v);
   return Number.isFinite(n) ? n : fallback;
@@ -174,7 +181,8 @@ export function flyoverCamera(plan: FlyoverPlan, ms: number): FlyoverCamera {
   const range = Math.exp(Math.log(a.range) + (Math.log(b.range) - Math.log(a.range)) * p);
   const tilt = a.tilt + (b.tilt - a.tilt) * p;
   const total = keys[keys.length - 1].t;
-  const heading = (plan.heading + plan.turn * turnedSeconds(t, total)) % 360;
+  const lead = plan.lead && t < plan.lead.until ? plan.lead.delta * (1 - smooth(t / plan.lead.until)) : 0;
+  const heading = norm(plan.heading + plan.turn * turnedSeconds(t, total) + lead);
   return { range: Math.max(MIN_RANGE, range), tilt: clamp(tilt, 0, MAX_TILT), heading };
 }
 
@@ -246,7 +254,6 @@ const CLEARANCE_MARGIN = 5;
 /** The steepest the automatic angle goes. Steeper is a plan view, not a hotel. */
 export const MIN_AUTO_TILT = 30;
 
-const norm = (deg: number) => ((deg % 360) + 360) % 360;
 const DEG = 180 / Math.PI;
 
 /**
@@ -346,4 +353,64 @@ export function optionsForView(
     closeTilt: Math.round((view.tilt - (mid.tilt - close.tilt)) * 10) / 10,
     heading: Math.round(norm(view.heading - (mid.heading - plan.heading))),
   };
+}
+
+/* ── Bearings ──────────────────────────────────────────────────────────────
+ *
+ * A heading is where the camera LOOKS; which side of the building it sees
+ * depends on the shot, because the shot turns. What a hotel's framing stores
+ * is the side itself — the bearing from the hotel to the camera at the middle
+ * of the hover — and each shot works out the heading that puts its own hover
+ * there.
+ */
+
+const midHoverOffset = (plan: FlyoverPlan) =>
+  norm(flyoverCamera({ ...plan, lead: undefined }, (plan.marks.hover + plan.marks.reveal) / 2).heading - plan.heading);
+
+/** The side of the building a plan's hover looks at, as a bearing from the hotel. */
+export function hoverBearing(plan: FlyoverPlan): number {
+  return norm(plan.heading + midHoverOffset(plan) + 180);
+}
+
+/** The `heading` option that puts this plan's hover on `bearing`. */
+export function headingForBearing(plan: FlyoverPlan, bearing: number): number {
+  return Math.round(norm(bearing - 180 - midHoverOffset(plan)));
+}
+
+/* ── The atlas cut ─────────────────────────────────────────────────────────
+ *
+ * The same shot, shortened for the Flyover button on the hotel panel. Nobody
+ * there asked for a film: no cover card and no warm-up wait, no captions, no
+ * end card — about twenty seconds that start from wherever the atlas camera
+ * already is, close in on the building, turn round its open side and pull
+ * back far enough to show where it is. The atlas's slow orbit takes over from
+ * the last frame, and any touch on the map ends it, as it ends the orbit.
+ */
+export function flyoverShortPlan(from: FlyoverCamera, opts: FlyoverOptions & { bearing?: number } = {}): FlyoverPlan {
+  const base = flyoverPlan(opts);
+  const close = base.keys[1];
+  const pushed = base.keys[2];
+  const start = clamp(num(from.range, close.range * 2), MIN_RANGE, 40000);
+  // Four seconds from the atlas's own 450 m arrival; longer from further out,
+  // so a camera left at city height comes down rather than drops.
+  const glide = clamp(3 + 1.5 * Math.log(Math.max(start, close.range) / close.range), 4, 8);
+  const keys: Key[] = [
+    { t: 0, range: start, tilt: clamp(num(from.tilt, close.tilt), 0, MAX_TILT) },
+    { t: glide, range: close.range, tilt: close.tilt },
+    { t: glide + 9, range: pushed.range, tilt: pushed.tilt },
+    { t: glide + 17, range: Math.min(base.keys[3].range, 2600), tilt: base.keys[3].tilt },
+  ];
+  const ms = (sec: number) => Math.round((sec * 1000) / base.speed);
+  const plan: FlyoverPlan = {
+    ...base,
+    keys,
+    durationMs: ms(glide + 17),
+    marks: { hover: ms(glide), reveal: ms(glide + 9), end: ms(glide + 17) },
+    heading: norm(num(from.heading, 0)),
+  };
+  if (opts.bearing == null || !Number.isFinite(opts.bearing)) return plan;
+  // Aim the hover at the open side; the glide in absorbs the difference.
+  const target = headingForBearing(plan, opts.bearing);
+  const delta = norm(plan.heading - target + 180) - 180;
+  return { ...plan, heading: target, lead: { delta, until: glide } };
 }

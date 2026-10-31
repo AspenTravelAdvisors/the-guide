@@ -225,6 +225,41 @@ for (const opts of [
   );
 }
 
+// ── The atlas cut: the hotel panel's Flyover ────────────────────────────────
+{
+  const { flyoverShortPlan, hoverBearing } = await import(pathToFileURL(join(ROOT, "lib/atlas/flyover.ts")).href);
+  const norm = (d) => ((d % 360) + 360) % 360;
+  for (const [from, bearing] of [
+    [{ range: 450, tilt: 55, heading: 300 }, undefined],
+    [{ range: 450, tilt: 55, heading: 300 }, 180],
+    [{ range: 3000, tilt: 20, heading: 10 }, 350],
+  ]) {
+    const plan = flyoverShortPlan(from, { bearing });
+    const frames = play(plan);
+    const tag = `atlas cut from ${from.range} m @${from.heading}°${bearing != null ? ` to the ${bearing}° side` : ""}`;
+    const f0 = frames[0];
+    check(
+      `${tag}: starts exactly where the atlas camera is`,
+      Math.abs(f0.range - from.range) < 1e-6 && Math.abs(f0.tilt - from.tilt) < 1e-6 && Math.abs(turnDelta(f0.heading, from.heading)) < 1e-6,
+    );
+    let jr = 0, jt = 0, jh = 0;
+    for (let i = 1; i < frames.length; i++) {
+      jr = Math.max(jr, Math.abs(Math.log(frames[i].range / frames[i - 1].range)));
+      jt = Math.max(jt, Math.abs(frames[i].tilt - frames[i - 1].tilt));
+      jh = Math.max(jh, Math.abs(turnDelta(frames[i - 1].heading, frames[i].heading)));
+    }
+    check(`${tag}: no jumps`, jr < 0.03 && jt < 0.3 && jh < 1, `range ${jr.toFixed(3)}, tilt ${jt.toFixed(2)}, turn ${jh.toFixed(2)}`);
+    check(`${tag}: about twenty seconds`, plan.durationMs >= 18000 && plan.durationMs <= 26000);
+    const hover = frames.filter((f) => f.t >= plan.marks.hover && f.t <= plan.marks.reveal);
+    check(`${tag}: the hover is close`, Math.max(...hover.map((f) => f.range)) <= 300);
+    check(`${tag}: and it pulls back to show the setting`, frames.at(-1).range >= 2000);
+    if (bearing != null) {
+      const mid = flyoverCamera(plan, (plan.marks.hover + plan.marks.reveal) / 2);
+      check(`${tag}: the hover is on the side asked for`, Math.abs(turnDelta(norm(mid.heading + 180), bearing)) < 3, `${norm(mid.heading + 180)}`);
+    }
+  }
+}
+
 if (failed) {
   console.error(`\nverify-flyover: ${failed} check(s) failed`);
   process.exit(1);

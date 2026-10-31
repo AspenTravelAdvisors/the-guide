@@ -28,7 +28,8 @@ import { getTrip, onTrip } from "@/lib/trip-state";
 import { programDomain } from "@/lib/atlas/adapters/hotel-programs";
 import { hotelBrandDomain } from "@/lib/atlas/adapters/hotel-brands";
 import { askAboutDays, askAboutProperty, askGuide, askGuideHref } from "@/lib/atlas/ask";
-import { bookingClicked, experiencesAsked } from "@/lib/analytics";
+import { bookingClicked, experiencesAsked, hotelFlyover } from "@/lib/analytics";
+import { flyoverLink, flyoverState, onFlyoverState, requestFlyover, type FlyoverState } from "@/lib/atlas/flyover-bus";
 import { openAdvisor, ADVISOR_CTA_COLD } from "./AdvisorRequest";
 import BucketListButton from "./BucketListButton";
 import type { TripState } from "@/lib/types";
@@ -228,6 +229,7 @@ export default function HotelDossier({
           {record?.category && <p className="hd-cat">{record.category}</p>}
           <h2>{name}</h2>
           {where && <p className="hd-where">{where}</p>}
+          <FlyoverRow id={id} />
         </div>
         <button type="button" className="hd-close" onClick={onClose} aria-label="Close details">
           ✕
@@ -441,5 +443,66 @@ export default function HotelDossier({
         </button>
       </footer>
     </aside>
+  );
+}
+
+/**
+ * Flyover · Copy flyover link — one slim line under the property's name.
+ *
+ * Not in the action footer: that is a stack of full-width decisions (keep it,
+ * ask, talk to someone) and two more would bury them. These are about the
+ * building on the map beside the panel, so they sit with the building's name.
+ *
+ * Flyover exists only while the photoreal engine is drawing — on the flat map
+ * there is nothing to fly round — and while one plays it is the way to stop
+ * it. The link is for sending: the full reel at /demo/hotel, on the public
+ * domain, rolling by itself.
+ */
+function FlyoverRow({ id }: { id: string }) {
+  const [fly, setFly] = useState<FlyoverState>(flyoverState);
+  const [copied, setCopied] = useState(false);
+  useEffect(() => onFlyoverState(setFly), []);
+  useEffect(() => setCopied(false), [id]);
+  useEffect(() => {
+    if (!copied) return;
+    const t = window.setTimeout(() => setCopied(false), 2400);
+    return () => window.clearTimeout(t);
+  }, [copied]);
+
+  const playing = fly.playing === id;
+  const copy = async () => {
+    const link = flyoverLink(id);
+    try {
+      await navigator.clipboard.writeText(link);
+      setCopied(true);
+    } catch {
+      // No clipboard (an insecure origin, a refused permission): still give
+      // them the link, in a box they can copy from by hand.
+      window.prompt("Copy this flyover link:", link);
+    }
+    hotelFlyover(id, "link");
+  };
+
+  return (
+    <p className="hd-fly">
+      {fly.available && (
+        <button
+          type="button"
+          className={`hd-fly-play${playing ? " on" : ""}`}
+          onClick={() => requestFlyover(id, !playing)}
+          title="Circle the building up close, then pull back to see what is around it"
+        >
+          {playing ? "■ Stop flyover" : "▶ Flyover"}
+        </button>
+      )}
+      <button
+        type="button"
+        className="hd-fly-link"
+        onClick={copy}
+        title="Copy a link to a filmed flyover of this hotel, to send to someone"
+      >
+        {copied ? "Link copied ✓" : "Copy flyover link"}
+      </button>
+    </p>
   );
 }

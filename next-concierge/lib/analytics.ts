@@ -118,6 +118,15 @@ export function hotel3dOpened(hotelId: string, source: "card" | "popup" | "engin
 }
 
 /**
+ * The hotel panel's two flyover controls. `played` is a traveller watching the
+ * short in-atlas cut; `link` is someone copying the full reel to send on —
+ * the second is the one that says whether the reel works as a sales tool.
+ */
+export function hotelFlyover(hotelId: string, action: "played" | "link") {
+  emit("hotel_flyover", { hotelId, action });
+}
+
+/**
  * The photoreal engine was chosen on a map that offers it.
  *
  * `hotel_3d_opened` counts arrivals at ONE property's view; this counts someone
