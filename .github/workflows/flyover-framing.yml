@@ -1,0 +1,61 @@
+# Surveys hotels for their photoreal framing and commits the result.
+#
+# scripts/build-flyover-framing.mjs asks OpenStreetMap what stands round each
+# hotel and stores how the 3D views should frame it (open side, angle, range)
+# in data/atlas/hotel/flyover-framing.json. It cannot run inside a deploy: one
+# Overpass query per hotel, spaced as its usage policy asks, is the better part
+# of an hour for the whole catalogue. So it runs here, in batches, and each run
+# carries on where the last stopped — daily until every hotel has a framing,
+# and after that it re-surveys the few that have aged past six months.
+#
+# No secrets: Overpass and the AWS terrain tiles are both public.
+name: Flyover framing
+
+on:
+  schedule:
+    - cron: '40 11 * * *'     # after the 09:00 Virtuoso sync has committed, so new hotels are in
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Most hotels to survey this run'
+        default: '600'
+
+concurrency:
+  group: flyover-framing
+  cancel-in-progress: false
+
+jobs:
+  survey:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v5
+
+      # The script imports the app's TypeScript directly; Node 22 strips the
+      # types itself, so there is nothing to install.
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Survey hotels
+        working-directory: next-concierge
+        run: npm run build:flyover-framing -- --limit ${{ inputs.limit || '600' }}
+
+      - name: Commit the framings
+        run: |
+          FILE="next-concierge/data/atlas/hotel/flyover-framing.json"
+          if git diff --quiet -- "$FILE"; then
+            echo "No framing changed."
+            exit 0
+          fi
+          COUNT=$(node -e "console.log(Object.keys(require('./$FILE').hotels).length)")
+          git config user.name  "flyover-framing[bot]"
+          git config user.email "flyover-framing@users.noreply.github.com"
+          git add -- "$FILE"
+          git commit -m "Refresh hotel flyover framing" -m "$COUNT hotels now carry a photoreal framing."
+          # The nightly data sync may have pushed while this ran.
+          git pull --rebase
+          git push

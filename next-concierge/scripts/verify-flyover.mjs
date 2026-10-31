@@ -256,6 +256,65 @@ for (const opts of [
   }
 }
 
+// ── The survey and the stored framing ───────────────────────────────────────
+{
+  const { register } = await import("node:module");
+  // framing.ts imports its neighbours without extensions, as the bundler allows.
+  register(
+    "data:text/javascript," +
+      encodeURIComponent(`export async function resolve(s, c, n) { try { return await n(s, c); } catch (e) {
+        if (/^\\.\\.?\\//.test(s) && !/\\.[cm]?[jt]s$/.test(s)) return n(s + ".ts", c); throw e; } }`),
+  );
+  const core = await import(pathToFileURL(join(ROOT, "lib/atlas/surroundings-core.ts")).href);
+  const { framingFromSurvey } = await import(pathToFileURL(join(ROOT, "lib/atlas/framing.ts")).href);
+
+  check("height: metres", core.parseHeight({ height: "70 m" }) === 70);
+  check("height: feet", Math.abs(core.parseHeight({ height: "230 ft" }) - 70.1) < 0.1);
+  check("height: levels and roof levels", Math.abs(core.parseHeight({ "building:levels": "20", "roof:levels": "1" }) - 67.2) < 0.01);
+  check("height: nothing to go on", core.parseHeight({ building: "yes" }) === null);
+
+  const LAT = 37.788, LNG = -122.402;
+  const kx = 111320 * Math.cos((LAT * Math.PI) / 180), ky = 110540;
+  const box = (x0, y0, x1, y1, tags) => ({
+    type: "way",
+    tags,
+    geometry: [[x0, y0], [x1, y0], [x1, y1], [x0, y1], [x0, y0]].map(([x, y]) => ({ lat: LAT + y / ky, lon: LNG + x / kx })),
+  });
+  const { buildings, hotelHeight } = core.buildingsFrom(
+    [
+      box(-20, -20, 20, 20, { building: "hotel", height: "30" }),
+      box(-80, 35, 80, 90, { building: "yes", height: "120" }),
+      box(40, -10, 60, 10, { building: "yes" }),
+      box(-5, 30, 5, 40, { "building:part": "yes" }),
+    ],
+    LAT,
+    LNG,
+  );
+  check("the footprint round the point is the hotel, and gives its height", hotelHeight === 30);
+  check("a part with no height is not an obstacle", buildings.length === 2);
+  const north = buildings.find((b) => b.top === 120);
+  check(
+    "a block straddling north spans the wrap, from NW round to NE",
+    north && north.from > 270 && north.to < 90 && Math.abs(north.distance - 35) < 1,
+    JSON.stringify(north),
+  );
+  check("a footprint with no height counts as two storeys", buildings.some((b) => b.top === 7));
+  const street = core.buildingsFrom([box(8, -10, 40, 10, { building: "hotel", "building:levels": "6" })], LAT, LNG);
+  check("a point in the street takes the footprint beside it as the hotel", Math.abs(street.hotelHeight - 19.2) < 0.01 && !street.buildings.length);
+
+  const empty = { buildings: [], terrain: [], hotelHeight: null, sources: { buildings: true, terrain: true } };
+  const open = framingFromSurvey(empty);
+  check("an open site arrives closer than the 380 m fallback, at the default tilt", open.arrive.range < 380 && open.arrive.tilt === 55 && open.clear);
+  const tower = framingFromSurvey({ ...empty, hotelHeight: 200 });
+  check("a tower is looked at halfway up and from further back", tower.lift >= 80 && tower.range >= 380 && tower.arrive.range >= 440, JSON.stringify(tower));
+  const canyon = framingFromSurvey({
+    ...empty,
+    hotelHeight: 25,
+    buildings: [{ from: 0, to: 359.9, distance: 30, top: 150 }],
+  });
+  check("a hotel in a canyon looks down steeply and says it is boxed in", canyon.tilt <= 35 && canyon.arrive.tilt === 35 && !canyon.clear, JSON.stringify(canyon));
+}
+
 if (failed) {
   console.error(`\nverify-flyover: ${failed} check(s) failed`);
   process.exit(1);
