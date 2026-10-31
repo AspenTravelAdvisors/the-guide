@@ -5,8 +5,8 @@
   "radiusKm": 25,
   "lodgesInCategory": 71,
   "lodgesInSafariCountries": 67,
-  "journeysWithCamps": 262,
-  "journeysTotal": 510,
+  "journeysWithCamps": 259,
+  "journeysTotal": 505,
   "campsMatched": 41
  },
  "radiusKm": 25,
@@ -225,7 +225,7 @@
     -1.23185,
     35.0051
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11398249_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11398249_2_0.webp",
    "rooms": 38,
    "perks": [
     "Daily breakfast",
@@ -411,7 +411,7 @@
     -18.5683,
     24.067
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/2376776_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/2376776_2_0.webp",
    "rooms": 12,
    "perks": [
     "Daily breakfast",
@@ -2221,40 +2221,12 @@
     "km": 19.9
    }
   ],
-  "18362041": [
-   {
-    "id": "h_02374",
-    "stop": "Livingstone",
-    "day": 2,
-    "km": 10.1
-   },
-   {
-    "id": "h_01349",
-    "stop": "Livingstone",
-    "day": 2,
-    "km": 19.8
-   },
-   {
-    "id": "h_02484",
-    "stop": "Okavango Delta",
-    "day": 6,
-    "km": 19.9
-   }
-  ],
   "18363151": [
    {
     "id": "h_00971",
     "stop": "Machu Picchu",
     "day": 9,
     "km": 16.2
-   }
-  ],
-  "18363205": [
-   {
-    "id": "h_01207",
-    "stop": "Maasai Mara",
-    "day": 5,
-    "km": 17.4
    }
   ],
   "18363882": [
@@ -2625,20 +2597,6 @@
     "stop": "Arenal Volcano National Park",
     "day": 4,
     "km": 7.3
-   }
-  ],
-  "18473611": [
-   {
-    "id": "h_01409",
-    "stop": "Ol Pejeta Conservancy",
-    "day": 4,
-    "km": 9.1
-   },
-   {
-    "id": "h_01207",
-    "stop": "Masai Mara National Reserve",
-    "day": 6,
-    "km": 18.1
    }
   ],
   "18473617": [

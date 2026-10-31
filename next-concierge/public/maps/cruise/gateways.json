@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4424,
-  "journeysWithStays": 3726,
+  "journeysTotal": 4432,
+  "journeysWithStays": 3735,
   "journeysWithHouse": 0,
   "gateways": 108,
   "hotels": 291,
@@ -44,7 +44,7 @@
     35.8962,
     14.5144
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16564575_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16564575_2_0.webp",
    "rooms": 33,
    "perks": [
     "Daily breakfast",
@@ -158,7 +158,7 @@
     34.0552,
     -118.249
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16610092_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16610092_2_0.webp",
    "rooms": 305,
    "perks": [
     "Daily breakfast",
@@ -202,44 +202,6 @@
     "Daily breakfast",
     "$100 credit",
     "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01293": {
-   "n": "Mashpi Lodge",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.223252,
-    -78.5141
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0_0930.webp",
-   "rooms": 24,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00347": {
-   "n": "Casa Gangotena",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.194181,
-    -78.4532
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
-   "rooms": 30,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
    ],
    "promo": 0
   },
@@ -291,7 +253,7 @@
     -34.5896,
     -58.3841
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0.webp",
    "rooms": 175,
    "perks": [
     "Daily breakfast",
@@ -329,7 +291,7 @@
     8.97686,
     -79.5251
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14146773_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14146773_2_0.webp",
    "rooms": 135,
    "perks": [
     "Daily breakfast",
@@ -648,7 +610,7 @@
     -17.4831,
     -149.798
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395455_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395455_2_0.webp",
    "rooms": 113,
    "perks": [
     "Daily breakfast",
@@ -688,6 +650,44 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0_1005.webp",
    "rooms": 48,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_01293": {
+   "n": "Mashpi Lodge",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.223252,
+    -78.5141
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0.webp",
+   "rooms": 24,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00347": {
+   "n": "Casa Gangotena",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.194181,
+    -78.4532
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
+   "rooms": 30,
    "perks": [
     "Daily breakfast",
     "Room upgrade",
@@ -1275,7 +1275,7 @@
     -16.9209,
     145.78
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16332828_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16332828_2_0.webp",
    "rooms": 255,
    "perks": [
     "Daily breakfast",
@@ -1294,7 +1294,7 @@
     -16.745,
     145.671
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16298565_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16298565_2_0.webp",
    "rooms": 67,
    "perks": [
     "Daily breakfast",
@@ -1438,7 +1438,7 @@
     22.8948,
     -109.915
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16393086_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16393086_2_0.webp",
    "rooms": 259,
    "perks": [
     "Daily breakfast",
@@ -1685,7 +1685,7 @@
     13.178,
     -59.549
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15739548_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15739548_2_0.webp",
    "rooms": 75,
    "perks": [
     "Daily breakfast",
@@ -1970,7 +1970,7 @@
     52.3646,
     4.89643
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14475060_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14475060_2_0.webp",
    "rooms": 93,
    "perks": [
     "Daily breakfast",
@@ -2065,7 +2065,7 @@
     -36.8455,
     174.768
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15991908_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15991908_2_0.webp",
    "rooms": 130,
    "perks": [
     "Daily breakfast",
@@ -2084,7 +2084,7 @@
     -36.8452,
     174.758
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16307777_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16307777_2_0.webp",
    "rooms": 172,
    "perks": [
     "Daily breakfast",
@@ -2122,7 +2122,7 @@
     -36.8419,
     174.759
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16142636_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16142636_2_0.webp",
    "rooms": 195,
    "perks": [
     "Daily breakfast",
@@ -2179,7 +2179,7 @@
     34.6933,
     135.495
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15782759_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15782759_2_0.webp",
    "rooms": 164,
    "perks": [
     "Daily breakfast",
@@ -2369,7 +2369,7 @@
     35.1565,
     129.142
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16872825_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16872825_2_0.webp",
    "rooms": 269,
    "perks": [
     "Daily breakfast",
@@ -2559,7 +2559,7 @@
     41.3802,
     2.18083
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15655359_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15655359_2_0.webp",
    "rooms": 28,
    "perks": [
     "Daily breakfast",
@@ -2692,7 +2692,7 @@
     59.9154,
     10.7207
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16780947_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16780947_2_0.webp",
    "rooms": 231,
    "perks": [
     "Daily breakfast",
@@ -3121,7 +3121,7 @@
     51.5051,
     -0.125658
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395467_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395467_2_0.webp",
    "rooms": 120,
    "perks": [
     "Daily breakfast",
@@ -3330,7 +3330,7 @@
     55.6806,
     12.584
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13833544_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13833544_2_0.webp",
    "rooms": 92,
    "perks": [
     "Daily breakfast",
@@ -3615,14 +3615,14 @@
     53.3345,
     -6.25827
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16597028_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16597028_2_0.webp",
    "rooms": 192,
    "perks": [
     "Daily breakfast",
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02063": {
    "n": "The Merrion Hotel",
@@ -3691,7 +3691,7 @@
     45.437,
     12.3315
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12608627_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12608627_2_0.webp",
    "rooms": 24,
    "perks": [
     "Daily breakfast",
@@ -3805,7 +3805,7 @@
     51.9112,
     -8.0633
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16877373_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16877373_2_0.webp",
    "rooms": 108,
    "perks": [
     "Daily breakfast",
@@ -3843,7 +3843,7 @@
     51.5044,
     -0.086601
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14782716_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14782716_2_0.webp",
    "rooms": 202,
    "perks": [
     "Daily breakfast",
@@ -3995,7 +3995,7 @@
     59.3355,
     18.0778
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16625127_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16625127_2_0.webp",
    "rooms": 70,
    "perks": [
     "Daily breakfast",
@@ -4245,7 +4245,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01995": {
    "n": "The Hazelton Hotel",
@@ -4310,7 +4310,7 @@
     52.373,
     4.88338
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15409263_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15409263_2_0.webp",
    "rooms": 223,
    "perks": [
     "Daily breakfast",
@@ -4458,7 +4458,7 @@
     42.3485,
     -71.0748
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16508159_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16508159_2_0.webp",
    "rooms": 147,
    "perks": [
     "Daily breakfast",
@@ -4743,7 +4743,7 @@
     7.90972,
     98.3956
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16328227_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16328227_2_0.webp",
    "rooms": 72,
    "perks": [
     "Daily breakfast",
@@ -5066,7 +5066,7 @@
     35.6833,
     139.75
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656837_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656837_2_0.webp",
    "rooms": 164,
    "perks": [
     "Daily breakfast",
@@ -5581,23 +5581,6 @@
     ]
    ]
   },
-  "Quito, Ecuador": {
-   "n": "Quito, Ecuador",
-   "ll": [
-    -0.2167,
-    -78.5
-   ],
-   "h": [
-    [
-     "h_01293",
-     1.7
-    ],
-    [
-     "h_00347",
-     5.8
-    ]
-   ]
-  },
   "Buenos Aires, Argentina": {
    "n": "Buenos Aires, Argentina",
    "ll": [
@@ -5754,6 +5737,23 @@
     [
      "h_01191",
      5.2
+    ]
+   ]
+  },
+  "Quito, Ecuador": {
+   "n": "Quito, Ecuador",
+   "ll": [
+    -0.2167,
+    -78.5
+   ],
+   "h": [
+    [
+     "h_01293",
+     1.7
+    ],
+    [
+     "h_00347",
+     5.8
     ]
    ]
   },
@@ -8423,10 +8423,6 @@
   "16852211": {
    "pre": "Puerto Natales, Chile",
    "post": "Puerto Natales, Chile"
-  },
-  "16852224": {
-   "pre": "Quito, Ecuador",
-   "post": "Quito, Ecuador"
   },
   "16852225": {
    "pre": "Quito, Ecuador",
@@ -15664,6 +15660,10 @@
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
   },
+  "18486221": {
+   "pre": null,
+   "post": "Lautoka, Fiji"
+  },
   "18486222": {
    "pre": "Lautoka, Fiji",
    "post": "Benoa (Bali), Indonesia"
@@ -22643,6 +22643,42 @@
   "18648389": {
    "pre": "Copenhagen, Denmark",
    "post": null
+  },
+  "18648845": {
+   "pre": "Papeete, French Polynesia",
+   "post": "Lautoka, Fiji"
+  },
+  "18648846": {
+   "pre": "Lautoka, Fiji",
+   "post": "Papeete, French Polynesia"
+  },
+  "18648847": {
+   "pre": "Papeete, French Polynesia",
+   "post": "Papeete, French Polynesia"
+  },
+  "18648848": {
+   "pre": "Papeete, French Polynesia",
+   "post": "Papeete, French Polynesia"
+  },
+  "18648849": {
+   "pre": "Papeete, French Polynesia",
+   "post": "Papeete, French Polynesia"
+  },
+  "18648850": {
+   "pre": "Papeete, French Polynesia",
+   "post": "Papeete, French Polynesia"
+  },
+  "18648851": {
+   "pre": "Papeete, French Polynesia",
+   "post": "Papeete, French Polynesia"
+  },
+  "18648852": {
+   "pre": "Papeete, French Polynesia",
+   "post": "Papeete, French Polynesia"
+  },
+  "18648853": {
+   "pre": "Papeete, French Polynesia",
+   "post": "Papeete, French Polynesia"
   }
  }
 }

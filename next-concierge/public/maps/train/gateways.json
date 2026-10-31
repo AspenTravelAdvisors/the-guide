@@ -5,9 +5,9 @@
   "atlas": "train",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 107,
-  "journeysWithStays": 103,
-  "journeysWithHouse": 49,
+  "journeysTotal": 104,
+  "journeysWithStays": 100,
+  "journeysWithHouse": 47,
   "gateways": 44,
   "hotels": 153,
   "houses": [
@@ -142,7 +142,7 @@
     35.6833,
     139.75
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656837_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656837_2_0.webp",
    "rooms": 164,
    "perks": [
     "Daily breakfast",
@@ -275,7 +275,7 @@
     37.5254,
     126.927
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15683930_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15683930_2_0.webp",
    "rooms": 434,
    "perks": [
     "Daily breakfast",
@@ -389,7 +389,7 @@
     46.4386,
     6.9068
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16110422_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16110422_2_0.webp",
    "rooms": 236,
    "perks": [
     "Daily breakfast",
@@ -541,7 +541,7 @@
     41.3802,
     2.18083
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15655359_2_0_0930.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15655359_2_0.webp",
    "rooms": 28,
    "perks": [
     "Daily breakfast",
@@ -883,7 +883,7 @@
     51.5051,
     -0.125658
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395467_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395467_2_0.webp",
    "rooms": 120,
    "perks": [
     "Daily breakfast",
@@ -902,7 +902,7 @@
     51.5099,
     -0.130485
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16800043_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16800043_2_0.webp",
    "rooms": 350,
    "perks": [
     "Daily breakfast",
@@ -1247,7 +1247,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01757": {
    "n": "Shangri-La Toronto",
@@ -1487,7 +1487,7 @@
     45.437,
     12.3315
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12608627_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12608627_2_0.webp",
    "rooms": 24,
    "perks": [
     "Daily breakfast",
@@ -1677,7 +1677,7 @@
     59.9154,
     10.7207
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16780947_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16780947_2_0.webp",
    "rooms": 231,
    "perks": [
     "Daily breakfast",
@@ -1715,7 +1715,7 @@
     47.4974,
     19.0532
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15262894_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15262894_2_0.webp",
    "rooms": 199,
    "perks": [
     "Daily breakfast",
@@ -1943,7 +1943,7 @@
     40.6329,
     14.5973
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16752134_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16752134_2_0.webp",
    "rooms": 52,
    "perks": [
     "Daily breakfast",
@@ -2361,7 +2361,7 @@
     40.6838,
     -111.556
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16391575_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16391575_2_0.webp",
    "rooms": 152,
    "perks": [
     "Daily breakfast",
@@ -2380,7 +2380,7 @@
     40.6909,
     -111.55
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13794166_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13794166_2_0.webp",
    "rooms": 159,
    "perks": [
     "Daily breakfast",
@@ -2646,7 +2646,7 @@
     59.3355,
     18.0778
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16625127_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16625127_2_0.webp",
    "rooms": 70,
    "perks": [
     "Daily breakfast",
@@ -3977,10 +3977,6 @@
    "pre": "Halifax",
    "post": "Vancouver"
   },
-  "16517339": {
-   "pre": null,
-   "post": "Cape Town"
-  },
   "16517350": {
    "pre": "Cape Town",
    "post": null
@@ -4261,11 +4257,6 @@
    "post": "London",
    "house": "Belmond"
   },
-  "18535748": {
-   "pre": "London",
-   "post": "London",
-   "house": "Belmond"
-  },
   "18535776": {
    "pre": "London",
    "post": "London",
@@ -4317,11 +4308,6 @@
    "house": "Belmond"
   },
   "18536039": {
-   "pre": "Edinburgh",
-   "post": "Edinburgh",
-   "house": "Belmond"
-  },
-  "18536054": {
    "pre": "Edinburgh",
    "post": "Edinburgh",
    "house": "Belmond"

@@ -1,10 +1,10 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-10-30T15:48:18.802Z",
+  "generated": "2026-10-31T15:16:21.018Z",
   "feedSynced": null,
   "localCount": 2475,
-  "feedCount": 2090,
+  "feedCount": 2092,
   "matchedCount": 2332
  },
  "overrides": {
@@ -26484,6 +26484,12 @@
    "country": "France"
   },
   {
+   "vid": "18646976",
+   "name": "FORESTIS",
+   "city": "Brixen",
+   "country": "Italy"
+  },
+  {
    "vid": "6164132",
    "name": "Four Seasons Resort Scottsdale at Troon North",
    "city": "Scottsdale",
@@ -27034,6 +27040,12 @@
    "name": "THE GRAND LOTTE SEOUL - Executive Tower.",
    "city": "Seoul",
    "country": "South Korea"
+  },
+  {
+   "vid": "18647181",
+   "name": "The Hotel Seiryu Kyoto Kiyomizu",
+   "city": "Kyoto",
+   "country": "Japan"
   },
   {
    "vid": "16202588",
