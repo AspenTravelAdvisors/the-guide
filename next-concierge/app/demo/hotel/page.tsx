@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import atlasDispatch from "@/lib/atlas/index.js";
+import framings from "@/data/atlas/hotel/flyover-framing.json";
+import type { HotelFraming } from "@/lib/atlas/framing";
 import HotelFlyover, { type FlyoverHotel, type FlyoverSettings } from "@/components/HotelFlyover";
 
 /**
@@ -124,5 +126,6 @@ export default async function HotelFlyoverPage({ searchParams }: { searchParams:
     tune: flag(sp, "tune", false),
   };
 
-  return <HotelFlyover hotel={hotel} settings={settings} />;
+  const stored = ((framings.hotels as Record<string, HotelFraming>)[rec.id] ?? null) as HotelFraming | null;
+  return <HotelFlyover hotel={hotel} settings={settings} stored={stored} />;
 }

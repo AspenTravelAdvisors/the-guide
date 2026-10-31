@@ -5555,6 +5555,33 @@ button.card-book {
 .hotel-dossier .hd-ups li em {
   margin-right: 4px;
 }
+.hotel-dossier .hd-fly {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin: 8px 0 0;
+}
+.hotel-dossier .hd-fly button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--gold-light);
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+.hotel-dossier .hd-fly .hd-fly-link {
+  color: var(--sub);
+}
+.hotel-dossier .hd-fly button:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.hotel-dossier .hd-fly button.on {
+  color: var(--text);
+}
 .hotel-dossier .hd-actions {
   position: sticky;
   bottom: 0;

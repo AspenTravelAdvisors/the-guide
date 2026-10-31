@@ -2846,3 +2846,39 @@ hotels were hidden by what stands around them. So:
 - Overpass and the elevation service are unreachable from the sandbox this
   was built in; both were exercised against stand-ins in a real browser, and
   the geometry in `verify:flyover`. The first real run is still to be done.
+
+## The flyover joins the atlas (2026-10-31)
+
+The reel stays a film for leads at `/demo/hotel`; the atlas borrows from it in
+three places rather than playing it.
+
+- **Flyover and Copy flyover link** on the hotel panel — one slim text row
+  under the name, not in the action footer. Flyover plays a ~20 s cut
+  (`flyoverShortPlan`) in place, starting from wherever the 3D camera is,
+  ending in the usual slow orbit; any touch, card click or search stops it,
+  and it only appears while the photoreal engine is drawing
+  (`lib/atlas/flyover-bus.ts`). The link is the full reel on the public domain
+  with `autoplay=1`. Both are counted as `hotel_flyover`.
+- **The 3D arrival is per hotel.** `lib/atlas/framing.ts` turns a survey into
+  a framing: open side, hover tilt and range, lift, and the atlas arrival —
+  340 m with room round it, further for a tower, as steep as the worst 15% of
+  bearings need. Atlas3DLayer fetches every framing once
+  (`/api/hotel/framing`) and arrives on the hotel's open side; the Flyover and
+  the reel read the same numbers. Hotels without one arrive at 380 m (was
+  450 m).
+- **The framings are built, not surveyed live.**
+  `scripts/build-flyover-framing.mjs` (Overpass for buildings, AWS Terrarium
+  tiles for terrain — the Maps key is referrer-locked and will not serve a
+  build) writes `data/atlas/hotel/flyover-framing.json`, resumable, one hotel
+  a line. `.github/workflows/flyover-framing.yml` runs it daily at 11:40 UTC,
+  600 hotels a run, until all ~2,200 are done, then re-surveys any older than
+  180 days. The file starts empty; until the first runs land, everything
+  arrives on the defaults.
+- **Aspen is not terrain.** Real Terrarium profiles: the ground behind The
+  Little Nell rises 38 m in 240 m — too gentle to block the camera; Aspen
+  Mountain steepens beyond the hover's reach. What hides Aspen hotels is
+  neighbouring buildings (often unmeasured in OSM, counted as two storeys) and
+  trees (not in OSM at all). Tune mode is the fix there.
+- Overpass is unreachable from the sandbox this was built in: the build was
+  run against a stand-in Overpass with real terrain, and the geometry is in
+  `verify:flyover`. The first real run is the workflow's.

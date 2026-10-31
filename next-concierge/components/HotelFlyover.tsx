@@ -7,12 +7,13 @@
  * things happen before the take, behind the cover card, and both decide
  * whether it is usable:
  *
- *   survey  What stands around the hotel (lib/atlas/surroundings.ts). A short
- *           building among towers, or under a mountain, is hidden from the
- *           reel's default angle; the heights say which side is open and how
- *           steeply the camera has to look down to clear the rest
- *           (bestApproach). A tall hotel also gets its own height back as the
- *           point to look at and the distance to keep.
+ *   framing What stands around the hotel decides the shot (lib/atlas/
+ *           framing.ts): a short building among towers, or under a mountain,
+ *           is hidden from the reel's default angle, so the hover goes round
+ *           the open side and looks down steeply enough to clear the rest; a
+ *           tall one is looked at halfway up, from further back. Most hotels
+ *           carry a stored framing from the build; for the rest the page
+ *           surveys live (lib/atlas/surroundings.ts) behind the cover card.
  *   warm    Google streams the mesh for what the camera is looking at, so a
  *           cold orbit at 200 m shows the building as melted low-detail shapes
  *           refining as it turns. The camera visits the hotel from four sides
@@ -40,19 +41,17 @@ import {
   type Marker3D,
 } from "@/lib/atlas/google3d";
 import {
-  FLYOVER_CLOSE_RANGE,
-  bestApproach,
-  clearanceProfile,
   flyoverCamera,
   flyoverPlan,
   flyoverWarmup,
+  headingForBearing,
   optionsForView,
-  type Approach,
   type FlyoverCamera,
   type FlyoverOptions,
   type FlyoverPlan,
 } from "@/lib/atlas/flyover";
-import { compass, obstaclesFrom, surveySurroundings, tallestNear, type Survey } from "@/lib/atlas/surroundings";
+import { DEFAULT_LIFT, framingFromSurvey, type HotelFraming } from "@/lib/atlas/framing";
+import { SURVEY_RADIUS, compass, surveySurroundings, tallestNear, type Survey } from "@/lib/atlas/surroundings";
 
 export interface FlyoverHotel {
   id: string;
@@ -91,47 +90,33 @@ const SETTLE_CAP_MS = 4000;
 const SETTLE_MIN_MS = 250;
 /** Where the reveal has pulled back enough that the building needs a marker. */
 const PIN_AT = 0.3;
-/** Looked-at height with nothing better to go on: a low-rise façade. */
-const DEFAULT_LIFT = 15;
-/** Above this a hotel is a tower, and the hover keeps its distance. */
-const TOWER = 45;
-/** The survey's radius, and how far past the hover range an obstacle counts. */
-const SURVEY_RADIUS = 420;
+/** How far past the hover range an obstacle counts (as in lib/atlas/framing). */
 const REACH = 1.15;
 
-const clamp = (n: number, lo: number, hi: number) => Math.min(Math.max(n, lo), hi);
 const round = (n: number) => Math.round(n);
 
 interface Framing {
   plan: FlyoverPlan;
   options: FlyoverOptions;
   lift: number;
-  approach: Approach | null;
+  /** The hotel's framing the shot was built from, stored or surveyed live. */
+  hotelFraming: HotelFraming | null;
 }
 
 /**
  * The shot for this hotel: what the URL asked for, with everything it left
- * unset filled in from the survey. A value in the URL always wins — it is
- * someone's judgement made on the real tiles.
+ * unset filled in from the hotel's framing. A value in the URL always wins —
+ * it is someone's judgement made on the real tiles.
  */
-function frameShot(settings: FlyoverSettings, survey: Survey | null): Framing {
-  const h = survey?.hotelHeight ?? null;
-  const lift = settings.lift ?? (h != null ? clamp(h * 0.45, 10, 200) : DEFAULT_LIFT);
-  const closeRange =
-    settings.closeRange ?? (h != null && h > TOWER ? Math.max(FLYOVER_CLOSE_RANGE, h * 1.9) : undefined);
-  let options: FlyoverOptions = { ...settings, closeRange };
-  let approach: Approach | null = null;
-  if (survey && (settings.closeTilt == null || settings.heading == null)) {
-    const base = flyoverPlan(options);
-    const profile = clearanceProfile(obstaclesFrom(survey, lift), base.keys[1].range * REACH);
-    approach = bestApproach(base, profile, settings.heading);
-    options = {
-      ...options,
-      closeTilt: settings.closeTilt ?? approach.tilt,
-      heading: settings.heading ?? approach.heading,
-    };
-  }
-  return { plan: flyoverPlan(options), options, lift, approach };
+function frameShot(settings: FlyoverSettings, f: HotelFraming | null): Framing {
+  const lift = settings.lift ?? f?.lift ?? DEFAULT_LIFT;
+  let options: FlyoverOptions = {
+    ...settings,
+    closeRange: settings.closeRange ?? f?.range,
+    closeTilt: settings.closeTilt ?? f?.tilt,
+  };
+  if (settings.heading == null && f) options = { ...options, heading: headingForBearing(flyoverPlan(options), f.bearing) };
+  return { plan: flyoverPlan(options), options, lift, hotelFraming: f };
 }
 
 const midHover = (plan: FlyoverPlan) => (plan.marks.hover + plan.marks.reveal) / 2;
@@ -141,9 +126,12 @@ const sideOf = (plan: FlyoverPlan) => compass(flyoverCamera(plan, midHover(plan)
 export default function HotelFlyover({
   hotel,
   settings,
+  stored,
 }: {
   hotel: FlyoverHotel;
   settings: FlyoverSettings;
+  /** The hotel's framing from the build, when it has been surveyed. */
+  stored: HotelFraming | null;
 }) {
   const hostRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<Map3DElement | null>(null);
@@ -154,7 +142,7 @@ export default function HotelFlyover({
   const [beat, setBeat] = useState<Beat>(null);
   const [warmed, setWarmed] = useState<[number, number]>([0, 0]);
   const [survey, setSurvey] = useState<Survey | null>(null);
-  const [framing, setFraming] = useState<Framing>(() => frameShot(settings, null));
+  const [framing, setFraming] = useState<Framing>(() => frameShot(settings, settings.auto ? stored : null));
   const [live, setLive] = useState<FlyoverCamera | null>(null);
   const [link, setLink] = useState("");
   const phaseRef = useRef<Phase>("loading");
@@ -344,14 +332,17 @@ export default function HotelFlyover({
       groundRef.current = ground;
       if (cancelled) return;
 
-      let found: Survey | null = null;
-      if (settings.auto) {
+      // A stored framing needs no survey; tune mode surveys anyway, because
+      // the operator wants to see what stands there.
+      let f: HotelFraming | null = settings.auto ? stored : null;
+      if (settings.auto && (!stored || settings.tune)) {
         setPhase("surveying");
-        found = await surveySurroundings(hotel.lat, hotel.lng, ground, SURVEY_RADIUS);
+        const found = await surveySurroundings(hotel.lat, hotel.lng, ground, SURVEY_RADIUS);
         if (cancelled) return;
         setSurvey(found);
+        f ??= framingFromSurvey(found);
       }
-      const framed = frameShot(settings, found);
+      const framed = frameShot(settings, f);
       setFraming(framed);
       planRef.current = framed.plan;
       const plan = framed.plan;
@@ -445,8 +436,9 @@ export default function HotelFlyover({
   }, []);
 
   const words = !settings.clean;
-  const { approach } = framing;
-  const steepened = approach && approach.tilt < (settings.closeTilt ?? flyoverPlan({}).keys[1].tilt) - 0.5;
+  const { hotelFraming } = framing;
+  const steepened =
+    settings.closeTilt == null && hotelFraming && hotelFraming.tilt < flyoverPlan({}).keys[1].tilt - 0.5;
 
   return (
     <div className="flyover">
@@ -478,9 +470,9 @@ export default function HotelFlyover({
             Play
           </button>
           <p className="fo-cover-status">Space to play · R to replay · Esc to stop</p>
-          {steepened && approach && (
+          {steepened && hotelFraming && (
             <p className="fo-cover-status fo-cover-note">
-              Angle steepened to {round(approach.tilt)}° to clear what stands around it · hover on the{" "}
+              Angle steepened to {round(hotelFraming.tilt)}° to clear what stands around it · hover on the{" "}
               {sideOf(framing.plan)} side
             </p>
           )}
@@ -501,6 +493,7 @@ export default function HotelFlyover({
         <TunePanel
           hotel={hotel}
           survey={survey}
+          stored={!!stored}
           framing={framing}
           live={live}
           link={link}
@@ -567,6 +560,7 @@ export default function HotelFlyover({
 function TunePanel({
   hotel,
   survey,
+  stored,
   framing,
   live,
   link,
@@ -576,6 +570,7 @@ function TunePanel({
 }: {
   hotel: FlyoverHotel;
   survey: Survey | null;
+  stored: boolean;
   framing: Framing;
   live: FlyoverCamera | null;
   link: string;
@@ -586,7 +581,7 @@ function TunePanel({
   const reach = framing.plan.keys[1].range * REACH;
   const tallest = survey ? tallestNear(survey, reach) : null;
   const terrainTop = survey?.terrain.length ? Math.max(...survey.terrain.map((t) => t.top)) : null;
-  const { approach } = framing;
+  const f = framing.hotelFraming;
 
   return (
     <aside className="fo-tune">
@@ -622,9 +617,9 @@ function TunePanel({
           </>
         )}
         <li className="fo-tune-auto">
-          {approach
-            ? `Auto: tilt ${round(approach.tilt)}° on the ${sideOf(framing.plan)} side${
-                approach.clear ? "" : " — boxed in; the best there is"
+          {f
+            ? `${stored ? "Stored" : "Auto"}: tilt ${round(f.tilt)}° on the ${sideOf(framing.plan)} side${
+                f.clear ? "" : " — boxed in; the best there is"
               }`
             : `Shot: tilt ${round(framing.plan.keys[1].tilt)}° on the ${sideOf(framing.plan)} side`}
         </li>

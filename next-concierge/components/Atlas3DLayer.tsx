@@ -44,6 +44,10 @@ import {
   type Map3DElement,
   type Marker3D,
 } from "@/lib/atlas/google3d";
+import { flyoverCamera, flyoverShortPlan } from "@/lib/atlas/flyover";
+import type { HotelFraming } from "@/lib/atlas/framing";
+import { FLYOVER_EVENT, setFlyoverState, type FlyoverRequest } from "@/lib/atlas/flyover-bus";
+import { hotelFlyover } from "@/lib/analytics";
 
 /** One property on the photoreal map. */
 export interface Point3D {
@@ -105,6 +109,31 @@ const MAX_MARKERS = 1200;
  * cached never reports steady again; this is that case's start, not a timeout.
  */
 const ORBIT_STEADY_WAIT = 3500;
+/** Looked-at height for the Flyover with nothing better known: a low-rise façade. */
+const FLYOVER_LIFT = 15;
+/** The atlas's slow orbit, which also takes over when a flyover ends. */
+const ORBIT_MS = 240000;
+const ORBIT_ROUNDS = 3;
+/** How long the engine waits on the stored framings before drawing without them. */
+const FRAMING_WAIT = 1500;
+
+/*
+ * Every hotel's stored framing (lib/atlas/framing.ts), fetched once per page
+ * and shared by every mount of the engine. A hotel missing from it — or a
+ * fetch that fails — arrives on the INSPECT_RANGE/INSPECT_TILT defaults.
+ */
+let framingsPromise: Promise<Record<string, HotelFraming>> | null = null;
+function loadFramings(): Promise<Record<string, HotelFraming>> {
+  framingsPromise ||= fetch("/api/hotel/framing")
+    .then((r) => (r.ok ? r.json() : {}))
+    .catch(() => ({}));
+  return framingsPromise;
+}
+
+const ease = (x: number) => {
+  const c = Math.min(Math.max(x, 0), 1);
+  return c * c * (3 - 2 * c);
+};
 
 export default function Atlas3DLayer({
   ref,
@@ -135,6 +164,9 @@ export default function Atlas3DLayer({
   const orbitArm = useRef<(() => void) | null>(null);
   const orbitHold = useRef<(() => void) | null>(null);
   const tiltTimer = useRef<number>(0);
+  /** The Flyover's frame loop, while one is playing. */
+  const flyoverRaf = useRef(0);
+  const framingsRef = useRef<Record<string, HotelFraming>>({});
 
   pointsRef.current = points;
   onSelectRef.current = onSelect;
@@ -142,6 +174,12 @@ export default function Atlas3DLayer({
   /* ── Camera ─────────────────────────────────────────────────────────── */
 
   const stopOrbit = useCallback(() => {
+    // The Flyover is camera motion like the orbit, and yields to the same things.
+    if (flyoverRaf.current) {
+      cancelAnimationFrame(flyoverRaf.current);
+      flyoverRaf.current = 0;
+      setFlyoverState({ playing: null });
+    }
     const map = mapRef.current;
     if (!map) return;
     if (orbitArm.current) {
@@ -166,6 +204,8 @@ export default function Atlas3DLayer({
       duration?: number;
       orbit?: boolean;
       altitude?: number;
+      /** Metres above the ground to look at, when the altitude is looked up. */
+      lift?: number;
     }) => {
       const map = mapRef.current;
       if (!map) return;
@@ -225,8 +265,8 @@ export default function Atlas3DLayer({
                   try {
                     map.flyCameraAround?.({
                       camera: endCamera,
-                      durationMillis: 240000,
-                      rounds: 3,
+                      durationMillis: ORBIT_MS,
+                      rounds: ORBIT_ROUNDS,
                     });
                   } catch {
                     /* orbit is decoration; the arrival already happened */
@@ -258,7 +298,7 @@ export default function Atlas3DLayer({
       // Terrain only matters up close; on wide framings a few km of elevation
       // is negligible, so skip the lookup and fly immediately.
       if (range > 120000) return go(0);
-      groundAltitude(opts.lat, opts.lng).then(go);
+      groundAltitude(opts.lat, opts.lng).then((ground) => go(ground + (opts.lift ?? 0)));
     },
     [stopOrbit],
   );
@@ -313,13 +353,21 @@ export default function Atlas3DLayer({
        * across the ground, and a fixed 1.8s made it a cut. Measured live rather
        * than from the previous selection, so a second click mid-flight measures
        * from wherever the camera has got to and stays proportionate.
+       *
+       * A hotel with a stored framing arrives on its own terms instead: as
+       * close as its surroundings allow, as steep as they need, on the side
+       * that is open and looking at the middle of the building rather than its
+       * foot (lib/atlas/framing.ts).
        */
       const here = mapRef.current?.center;
+      const f = framingsRef.current[id];
       flyTo({
         lat: p.lat,
         lng: p.lng,
-        range: INSPECT_RANGE,
-        tilt: INSPECT_TILT,
+        range: f?.arrive.range ?? INSPECT_RANGE,
+        tilt: f?.arrive.tilt ?? INSPECT_TILT,
+        heading: f ? (f.bearing + 180) % 360 : undefined,
+        lift: f?.lift,
         duration: flightDuration(
           Number(here?.lat),
           Number(here?.lng),
@@ -331,6 +379,102 @@ export default function Atlas3DLayer({
     },
     [flyTo],
   );
+
+  /**
+   * The hotel panel's Flyover: lib/atlas/flyover.ts's short cut, played in place.
+   *
+   * Driven per frame for the same reason as the reel — one continuous move,
+   * turning while the range closes and opens — and starting from wherever the
+   * camera is, so pressing it mid-orbit continues the motion instead of cutting.
+   * The centre eases onto the building during the glide in, which also covers
+   * a camera the traveller has panned away. It takes a flight sequence number
+   * like any flight, so a card click, a gesture or a new search ends it exactly
+   * as they end the orbit; when it runs out, the slow orbit carries on from its
+   * last frame.
+   */
+  const flyover = useCallback(
+    (id: string) => {
+      const p = pointsRef.current.find((x) => x.id === id);
+      if (!mapRef.current || !p) return;
+      stopOrbit();
+      const seq = ++flySeq.current;
+      groundAltitude(p.lat, p.lng).then((ground) => {
+        const map = mapRef.current;
+        if (seq !== flySeq.current || !map) return;
+        const f = framingsRef.current[id];
+        const target = { lat: p.lat, lng: p.lng, altitude: ground + (f?.lift ?? FLYOVER_LIFT) };
+        const c0 = map.center;
+        const from0 =
+          c0 && [c0.lat, c0.lng, c0.altitude].every((n) => Number.isFinite(Number(n)))
+            ? { lat: Number(c0.lat), lng: Number(c0.lng), altitude: Number(c0.altitude) }
+            : target;
+        const plan = flyoverShortPlan(
+          { range: Number(map.range), tilt: Number(map.tilt), heading: Number(map.heading) },
+          f ? { closeRange: f.range, closeTilt: f.tilt, bearing: f.bearing } : {},
+        );
+        setFlyoverState({ playing: id });
+        hotelFlyover(id, "played");
+        let start = 0;
+        const frame = (now: number) => {
+          if (seq !== flySeq.current || mapRef.current !== map) return;
+          if (!start) start = now;
+          const t = now - start;
+          const cam = flyoverCamera(plan, t);
+          try {
+            // Eased onto the building during the glide, then left alone.
+            if (t <= plan.marks.hover + 100) {
+              const k = ease(t / plan.marks.hover);
+              map.center = {
+                lat: from0.lat + (target.lat - from0.lat) * k,
+                lng: from0.lng + (target.lng - from0.lng) * k,
+                altitude: from0.altitude + (target.altitude - from0.altitude) * k,
+              };
+            }
+            map.range = cam.range;
+            map.tilt = cam.tilt;
+            map.heading = cam.heading;
+          } catch {
+            /* detached mid-frame */
+          }
+          if (t < plan.durationMs) {
+            flyoverRaf.current = requestAnimationFrame(frame);
+            return;
+          }
+          flyoverRaf.current = 0;
+          setFlyoverState({ playing: null });
+          try {
+            map.flyCameraAround?.({
+              camera: { center: target, range: cam.range, tilt: cam.tilt, heading: cam.heading },
+              durationMillis: ORBIT_MS,
+              rounds: ORBIT_ROUNDS,
+            });
+          } catch {
+            /* the orbit is decoration; the flyover already happened */
+          }
+        };
+        flyoverRaf.current = requestAnimationFrame(frame);
+      });
+    },
+    [stopOrbit],
+  );
+
+  // The panel's button reaches the engine through lib/atlas/flyover-bus, and
+  // the engine tells it whether there is anything to press.
+  useEffect(() => {
+    if (!live) return;
+    setFlyoverState({ available: true, playing: null });
+    const onRequest = (e: Event) => {
+      const { id, play } = (e as CustomEvent<FlyoverRequest>).detail ?? {};
+      if (!id) return;
+      if (play) flyover(id);
+      else stopOrbit();
+    };
+    window.addEventListener(FLYOVER_EVENT, onRequest);
+    return () => {
+      window.removeEventListener(FLYOVER_EVENT, onRequest);
+      setFlyoverState({ available: false, playing: null });
+    };
+  }, [live, flyover, stopOrbit]);
 
   useImperativeHandle(
     ref,
@@ -361,9 +505,20 @@ export default function Atlas3DLayer({
     const host = hostRef.current;
     if (!host) return;
 
-    loadGoogle3D()
-      .then((libs) => {
+    // The framings ride along with the engine's own load, capped, so the first
+    // card a deep link opens already knows its hotel's arrival.
+    const framings = Promise.race([
+      loadFramings(),
+      new Promise<Record<string, HotelFraming>>((r) => window.setTimeout(() => r({}), FRAMING_WAIT)),
+    ]);
+    loadFramings().then((all) => {
+      framingsRef.current = all;
+    });
+
+    Promise.all([loadGoogle3D(), framings])
+      .then(([libs, all]) => {
         if (cancelled) return;
+        if (Object.keys(all).length) framingsRef.current = all;
         libsRef.current = libs;
         const { Map3DElement, MapMode } = libs.maps3d;
         const map = new Map3DElement({
@@ -441,6 +596,8 @@ export default function Atlas3DLayer({
     return () => {
       cancelled = true;
       if (tiltTimer.current) window.clearTimeout(tiltTimer.current);
+      if (flyoverRaf.current) cancelAnimationFrame(flyoverRaf.current);
+      flyoverRaf.current = 0;
       const map = mapRef.current;
       if (map) {
         const yieldCamera = (map as unknown as { _yieldCamera?: (e: Event) => void })._yieldCamera;
