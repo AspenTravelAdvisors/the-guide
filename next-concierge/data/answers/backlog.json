@@ -52,11 +52,11 @@
       "angle": "Norway, Finnish Lapland, Iceland, Canada: probability, season (September to March), weather, glass igloos vs. real luxury, pairing with a Norway coastal voyage."
     },
     {
-      "id": "four-seasons-yachts-vs-ritz-carlton-yachts",
+      "id": "hotel-brand-yachts-compared",
       "category": "Yachts",
       "status": "queued",
-      "question": "Four Seasons Yachts or Ritz-Carlton Yacht Collection: which should you book?",
-      "angle": "Ship size and suite size, itineraries, dining, who each suits. Use journey tokens for operators. Do not state launch dates or ship specifications you are not certain of."
+      "question": "Ritz-Carlton, Four Seasons, Orient Express or Aman: which hotel-brand yacht should you book?",
+      "angle": "All four brands in the yacht atlas, side by side: Ritz-Carlton Yacht Collection (Evrima, Ilma, Luminara), Four Seasons Yachts (Four Seasons I, Four Seasons II), Orient Express Sailing Yachts (Corinthian, Olympian; sail-assisted) and Aman at Sea (Amangati, the smallest). Ship size and suite count, space per guest, regions and seasons, dining, who each suits, and how the newer brands differ from Ritz-Carlton's head start. One comparison table with a column per brand. Use journey tokens per operator (operator=Ritz-Carlton Yacht Collection, Four Seasons Yachts, Orient Express Sailing Yachts, Aman at Sea) and vessel=. Published specs to use (brand materials, July 2026): Evrima 149 suites, Ilma 224, Luminara 226; Four Seasons I 95 suites; Corinthian and Olympian 54 suites each; Amangati about 50 suites. Amangati and Olympian figures are pre-launch, so say so. State nothing about Four Seasons II beyond its sailings, and no other launch dates or specifications. Link to the charter-vs-cruise answer rather than repeating it."
     },
     {
       "id": "botswana-okavango-water-vs-land-camps",
@@ -140,7 +140,7 @@
       "category": "Yachts",
       "status": "queued",
       "question": "What's the best small ship for a Mediterranean cruise?",
-      "angle": "Yacht-style ships (Ritz-Carlton, Four Seasons, Orient Express, Sea Cloud) vs. small luxury cruise ships (Seabourn, Silversea); marina ports, tender ports, season."
+      "angle": "Yacht-style ships (Ritz-Carlton, Four Seasons, Orient Express, Aman, Sea Cloud) vs. small luxury cruise ships (Seabourn, Silversea); marina ports, tender ports, season."
     },
     {
       "id": "villa-with-staff-what-to-expect",
