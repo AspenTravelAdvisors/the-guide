@@ -8,7 +8,8 @@
  *      the feed's 604-value `region` nor its 7-value `marqueeRegion`
  *   2. the UI axis labelled "Brand / Program" is the `program` param; `brand`
  *      is a separate deep-link-only axis
- *   3. `ids=` HIGHLIGHTS, it does not filter
+ *   3. `ids=` / `hotel=` narrow to the linked properties. The original only
+ *      highlighted them; a shared link now shows just the cards it names
  *   4. `q` is a raw substring over name+city+region+country — not tokenised,
  *      and `country` is a facet rather than a search term
  *   5. `region=caribbean` also matches by country alias
@@ -108,7 +109,7 @@ for (let iter = 0; iter < 700; iter++) {
   const brand = rnd() < 0.25 ? pick(BRANDS) : null;
   const region = rnd() < 0.25 ? pick(MARQUEES) : null;
   const q = rnd() < 0.5 ? pick(QUERIES) : "";
-  // ids is exercised on purpose: it must NOT narrow anything.
+  // ids is exercised on purpose: it narrows to exactly the linked hotel.
   const ids = rnd() < 0.3 ? new Set([pick(FEATURES).properties.id]) : new Set();
 
   const orig = { cats, regions, brands: programs, countries, brand, region, q: q.toLowerCase() };
@@ -124,7 +125,8 @@ for (let iter = 0; iter < 700; iter++) {
   };
 
   for (let i = 0; i < FEATURES.length; i++) {
-    const a = originalMatches(FEATURES[i], orig);
+    const a = originalMatches(FEATURES[i], orig)
+      && (!ids.size || ids.has(FEATURES[i].properties.id));
     const b = matchesOffering(offerings[i], ours, HOTEL_DESCRIPTOR, TODAY);
     comparisons++;
     if (a !== b) {
@@ -149,12 +151,12 @@ const base = () => ({
   terms: [], rawQuery: "", facets: {},
 });
 
-// 1. ids highlights, never filters
+// 1. ids narrows to the linked hotel, so a shared link shows only its card
 {
   const st = base();
   st.ids = new Set([offerings[0].id]);
-  const kept = offerings.filter((o) => matchesOffering(o, st, HOTEL_DESCRIPTOR, TODAY)).length;
-  checks.push(["ids= keeps the whole field visible", kept === offerings.length, `kept ${kept}`]);
+  const kept = offerings.filter((o) => matchesOffering(o, st, HOTEL_DESCRIPTOR, TODAY));
+  checks.push(["ids= shows only the linked hotel", kept.length === 1 && kept[0] === offerings[0], `kept ${kept.length}`]);
 }
 // 2. the visible region axis is macro, so it is small
 {

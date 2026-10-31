@@ -941,8 +941,8 @@ export default function AtlasCollection({
     const explicit = parsed?.view.trip;
     if (!explicit && !state.ids.size) return;
 
-    // For collections where `ids` filters, `filtered` IS the shortlist; for
-    // highlight-only ones (hotels) it is the whole field, so match explicitly.
+    // `ids` filters, so `filtered` is already the shortlist; matching again
+    // keeps this honest if the ids ever stop narrowing.
     const shortlist = state.ids.size
       ? filtered.filter((o) => o.idAliases.some((a) => state.ids.has(a)))
       : [];
