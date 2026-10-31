@@ -531,7 +531,20 @@ export default function AtlasCollection({
 
   // The cards actually rendered. Named once so the list and the batch that
   // resolves their primary CTAs can never disagree about which those are.
-  const visible = useMemo(() => filtered.slice(0, CARD_LIMIT), [filtered]);
+  //
+  // Linked offerings lead. On hotels `ids=`/`hotel=` highlight without
+  // filtering, so a property linked from the main atlas was somewhere in 2,222
+  // cards — usually past the first 120, with no card to find at all. Putting
+  // it first lands its card directly under the map with the field intact.
+  // Collections whose ids filter are unchanged: every card is linked.
+  const visible = useMemo(() => {
+    const ids = state?.ids;
+    if (!ids?.size) return filtered.slice(0, CARD_LIMIT);
+    const linked = filtered.filter((o) => o.idAliases.some((a) => ids.has(a)));
+    if (!linked.length || linked.length === filtered.length) return filtered.slice(0, CARD_LIMIT);
+    const lead = new Set(linked);
+    return [...linked, ...filtered.filter((o) => !lead.has(o))].slice(0, CARD_LIMIT);
+  }, [filtered, state]);
   const visibleKey = useMemo(() => visible.map((o) => o.id).join(","), [visible]);
   useEffect(() => {
     if (!onVisibleIds) return;
