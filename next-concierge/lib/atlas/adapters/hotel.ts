@@ -45,9 +45,9 @@ export const HOTEL_DESCRIPTOR: AtlasFilterDescriptor = {
   // Hotels are the first collection with supplier offers attached; the cruise
   // and tour promotions in the same feed belong to the journey atlases.
   supportsPromotionFilter: true,
-  // `q` is a raw substring over name/city/region/country, unlike the five.
-  // `ids=` and `hotel=` narrow to the linked properties like every other atlas:
-  // a link to one hotel shows that hotel's card, not all 2,475 of them.
+  // `ids=` frames the shortlist without hiding the rest of the field, and `q`
+  // is a raw substring over name/city/region/country. Both differ from the five.
+  idsHighlightOnly: true,
   searchMode: "substring",
   extraIdParams: ["hotel"],
   facets: [
