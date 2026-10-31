@@ -45,6 +45,7 @@ import {
   type Marker3D,
 } from "@/lib/atlas/google3d";
 import { flyoverCamera, flyoverShortPlan } from "@/lib/atlas/flyover";
+import type { HotelFraming } from "@/lib/atlas/framing";
 import { FLYOVER_EVENT, setFlyoverState, type FlyoverRequest } from "@/lib/atlas/flyover-bus";
 import { hotelFlyover } from "@/lib/analytics";
 
@@ -113,6 +114,22 @@ const FLYOVER_LIFT = 15;
 /** The atlas's slow orbit, which also takes over when a flyover ends. */
 const ORBIT_MS = 240000;
 const ORBIT_ROUNDS = 3;
+/** How long the engine waits on the stored framings before drawing without them. */
+const FRAMING_WAIT = 1500;
+
+/*
+ * Every hotel's stored framing (lib/atlas/framing.ts), fetched once per page
+ * and shared by every mount of the engine. A hotel missing from it — or a
+ * fetch that fails — arrives on the INSPECT_RANGE/INSPECT_TILT defaults.
+ */
+let framingsPromise: Promise<Record<string, HotelFraming>> | null = null;
+function loadFramings(): Promise<Record<string, HotelFraming>> {
+  framingsPromise ||= fetch("/api/hotel/framing")
+    .then((r) => (r.ok ? r.json() : {}))
+    .catch(() => ({}));
+  return framingsPromise;
+}
+
 const ease = (x: number) => {
   const c = Math.min(Math.max(x, 0), 1);
   return c * c * (3 - 2 * c);
@@ -149,6 +166,7 @@ export default function Atlas3DLayer({
   const tiltTimer = useRef<number>(0);
   /** The Flyover's frame loop, while one is playing. */
   const flyoverRaf = useRef(0);
+  const framingsRef = useRef<Record<string, HotelFraming>>({});
 
   pointsRef.current = points;
   onSelectRef.current = onSelect;
@@ -186,6 +204,8 @@ export default function Atlas3DLayer({
       duration?: number;
       orbit?: boolean;
       altitude?: number;
+      /** Metres above the ground to look at, when the altitude is looked up. */
+      lift?: number;
     }) => {
       const map = mapRef.current;
       if (!map) return;
@@ -278,7 +298,7 @@ export default function Atlas3DLayer({
       // Terrain only matters up close; on wide framings a few km of elevation
       // is negligible, so skip the lookup and fly immediately.
       if (range > 120000) return go(0);
-      groundAltitude(opts.lat, opts.lng).then(go);
+      groundAltitude(opts.lat, opts.lng).then((ground) => go(ground + (opts.lift ?? 0)));
     },
     [stopOrbit],
   );
@@ -333,13 +353,21 @@ export default function Atlas3DLayer({
        * across the ground, and a fixed 1.8s made it a cut. Measured live rather
        * than from the previous selection, so a second click mid-flight measures
        * from wherever the camera has got to and stays proportionate.
+       *
+       * A hotel with a stored framing arrives on its own terms instead: as
+       * close as its surroundings allow, as steep as they need, on the side
+       * that is open and looking at the middle of the building rather than its
+       * foot (lib/atlas/framing.ts).
        */
       const here = mapRef.current?.center;
+      const f = framingsRef.current[id];
       flyTo({
         lat: p.lat,
         lng: p.lng,
-        range: INSPECT_RANGE,
-        tilt: INSPECT_TILT,
+        range: f?.arrive.range ?? INSPECT_RANGE,
+        tilt: f?.arrive.tilt ?? INSPECT_TILT,
+        heading: f ? (f.bearing + 180) % 360 : undefined,
+        lift: f?.lift,
         duration: flightDuration(
           Number(here?.lat),
           Number(here?.lng),
@@ -373,17 +401,17 @@ export default function Atlas3DLayer({
       groundAltitude(p.lat, p.lng).then((ground) => {
         const map = mapRef.current;
         if (seq !== flySeq.current || !map) return;
-        const target = { lat: p.lat, lng: p.lng, altitude: ground + FLYOVER_LIFT };
+        const f = framingsRef.current[id];
+        const target = { lat: p.lat, lng: p.lng, altitude: ground + (f?.lift ?? FLYOVER_LIFT) };
         const c0 = map.center;
         const from0 =
           c0 && [c0.lat, c0.lng, c0.altitude].every((n) => Number.isFinite(Number(n)))
             ? { lat: Number(c0.lat), lng: Number(c0.lng), altitude: Number(c0.altitude) }
             : target;
-        const plan = flyoverShortPlan({
-          range: Number(map.range),
-          tilt: Number(map.tilt),
-          heading: Number(map.heading),
-        });
+        const plan = flyoverShortPlan(
+          { range: Number(map.range), tilt: Number(map.tilt), heading: Number(map.heading) },
+          f ? { closeRange: f.range, closeTilt: f.tilt, bearing: f.bearing } : {},
+        );
         setFlyoverState({ playing: id });
         hotelFlyover(id, "played");
         let start = 0;
@@ -477,9 +505,20 @@ export default function Atlas3DLayer({
     const host = hostRef.current;
     if (!host) return;
 
-    loadGoogle3D()
-      .then((libs) => {
+    // The framings ride along with the engine's own load, capped, so the first
+    // card a deep link opens already knows its hotel's arrival.
+    const framings = Promise.race([
+      loadFramings(),
+      new Promise<Record<string, HotelFraming>>((r) => window.setTimeout(() => r({}), FRAMING_WAIT)),
+    ]);
+    loadFramings().then((all) => {
+      framingsRef.current = all;
+    });
+
+    Promise.all([loadGoogle3D(), framings])
+      .then(([libs, all]) => {
         if (cancelled) return;
+        if (Object.keys(all).length) framingsRef.current = all;
         libsRef.current = libs;
         const { Map3DElement, MapMode } = libs.maps3d;
         const map = new Map3DElement({

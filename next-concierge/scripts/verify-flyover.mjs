@@ -196,10 +196,6 @@ for (const opts of [
   const thin = clearanceProfile([{ from: 101, to: 102, distance: 50, rise: 80 }], reach);
   check("a tower narrower than one bin still blocks its bearing", thin[20] > 50);
 
-  // A heading pinned by hand is kept; only the tilt is worked out.
-  const pinned = bestApproach(plan, prof, 123);
-  check("a hand-set heading is kept", pinned.heading === 123);
-
   // Tune mode's round trip: the saved options put the mid-hover on the view.
   for (const view of [{ range: 300, tilt: 50, heading: 200 }, { range: 180, tilt: 40, heading: 5 }]) {
     const p2 = flyoverPlan(optionsForView(plan, view));

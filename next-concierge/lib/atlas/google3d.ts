@@ -283,12 +283,18 @@ export const DETAIL_TILT = 67;
  * tall property starts to overrun the frame; further than ~800 m and you are
  * back to looking at a block.
  *
+ * Since 2026-10-31 this is the FALLBACK, and a little closer (380 m): a hotel
+ * with a stored framing (lib/atlas/framing.ts) arrives at the range its own
+ * surroundings allow — 340 m with room round it, further for a tower — on its
+ * open side. The fallback is for hotels not surveyed yet, which could be
+ * anything, so it stays far enough back for a mid-size tower.
+ *
  * Tilt deliberately stays DETAIL_TILT. `maxTiltForRange` caps everything below
  * TILT_RESET_START_RANGE at that angle, and the debounced tilt sync in
  * Atlas3DLayer would flatten anything steeper back down within 160 ms — so a
  * steeper inspection tilt is not a tuning choice here, it is a fight.
  */
-export const INSPECT_RANGE = 450;
+export const INSPECT_RANGE = 380;
 
 /**
  * The inspection tilt: shallower than DETAIL_TILT, never steeper (see above).

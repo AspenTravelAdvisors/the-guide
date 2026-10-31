@@ -297,18 +297,15 @@ function hoverOffsets(plan: FlyoverPlan): number[] {
  * Every starting heading is tried in 5° steps; the one whose hover arc needs
  * the least elevation wins, then the one needing least on average, then the
  * one nearest the heading asked for — so a hotel with nothing around it keeps
- * the framing it was given instead of being turned for no reason. `only`
- * pins the heading (one set by hand) and asks just for the tilt it needs.
+ * the framing it was given instead of being turned for no reason.
  */
-export function bestApproach(plan: FlyoverPlan, profile: number[], only?: number): Approach {
+export function bestApproach(plan: FlyoverPlan, profile: number[]): Approach {
   const base = plan.keys[1].tilt;
   const push = plan.keys[2].tilt - base;
   const offsets = hoverOffsets(plan);
   const width = 360 / profile.length;
   let best = { heading: plan.heading, worst: Infinity, mean: Infinity, off: Infinity };
-  const candidates =
-    only != null && Number.isFinite(only) ? [norm(only)] : Array.from({ length: 72 }, (_, i) => i * 5);
-  for (const h of candidates) {
+  for (let h = 0; h < 360; h += 5) {
     let worst = 0;
     let sum = 0;
     for (const o of offsets) {
