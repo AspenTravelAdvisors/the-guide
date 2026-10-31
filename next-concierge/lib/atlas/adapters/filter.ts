@@ -167,9 +167,7 @@ export function matchesExceptRegion(
     if (!o.months.some((m) => state.months.has(m))) return false;
   }
 
-  // Highlight-only collections keep the whole field visible; the shortlist is
-  // rendered as emphasis by the caller instead. See idsHighlightOnly.
-  if (!d.idsHighlightOnly && state.ids.size) {
+  if (state.ids.size) {
     if (!o.idAliases.some((a) => state.ids.has(a))) return false;
   }
 

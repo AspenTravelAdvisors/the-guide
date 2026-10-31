@@ -326,17 +326,6 @@ export interface AtlasFilterDescriptor {
   searchMode?: "tokens" | "substring";
 
   /**
-   * `ids=` highlights rather than filters.
-   *
-   * Every other atlas narrows to the shortlist. The hotel atlas deliberately
-   * does not — its own comment: ids and hotel "are highlight-only — they
-   * enlarge and frame their pins but never hide the rest of the field, so a
-   * shared hotel is always seen in context." A shared property should be seen
-   * among its neighbours, which is most of the argument for sending it.
-   */
-  idsHighlightOnly?: boolean;
-
-  /**
    * Additional params that contribute ids. The hotel atlas accepts `hotel=` for
    * "a shared selected hotel: opens its detail panel and starts the orbit on
    * load" — a single-property link, distinct from an `ids=` shortlist but
