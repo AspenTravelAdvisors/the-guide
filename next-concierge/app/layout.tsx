@@ -51,10 +51,10 @@ export const metadata: Metadata = {
   // nothing.
   //
   // Google Search Console the same way: GOOGLE_SITE_VERIFICATION is the content
-  // value of the google-site-verification tag it offers. Unneeded if the
-  // property is verified by DNS instead. As of 1 November 2026 neither was set
-  // and Google sent 7 visitors in three weeks, so the sitemap had likely never
-  // been submitted to either console.
+  // value of the google-site-verification tag it offers. Unneeded while the
+  // property is verified another way: as of November 2026 both consoles are
+  // verified without either tag (Search Console shows the sitemap indexed,
+  // Bing shows search performance), so both variables are unset on purpose.
   ...((process.env.BING_SITE_VERIFICATION || process.env.GOOGLE_SITE_VERIFICATION) && {
     verification: {
       ...(process.env.GOOGLE_SITE_VERIFICATION && {
