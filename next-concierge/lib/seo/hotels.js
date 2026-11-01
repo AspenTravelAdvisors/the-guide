@@ -19,6 +19,7 @@ import { applyHotelOverlays } from "@/lib/atlas/hotel-overlays.js";
 import { isNotAPlace } from "@/lib/atlas/country-overrides.js";
 import { SITE_URL } from "@/lib/answers";
 import { orgRef } from "@/lib/seo/site";
+import { isTravelerOffer } from "@/lib/seo/snippets";
 
 // The same overlays the API and the map apply, through the same function, for
 // the same reason: a property's programme and its country are each decided in
@@ -167,7 +168,7 @@ export function relatedHotels(h, limit = 6) {
 /** Live supplier offers that have not expired as of `on`. */
 export function activePromotions(h, on = new Date()) {
   const today = on.toISOString().slice(0, 10);
-  return (h.promotions || []).filter((p) => !p.endDate || p.endDate >= today);
+  return (h.promotions || []).filter((p) => (!p.endDate || p.endDate >= today) && isTravelerOffer(p));
 }
 
 const clean = (s) =>

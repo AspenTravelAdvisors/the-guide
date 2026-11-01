@@ -8,6 +8,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   getJourney,
+  journeysIn,
+  JOURNEY_COLLECTIONS,
   journeyDetailParams,
   relatedJourneys,
   collectionMeta,
@@ -15,6 +17,15 @@ import {
   journeyBreadcrumbJsonLd,
 } from "@/lib/seo/journeys";
 import { SITE_URL } from "@/lib/answers";
+import { journeySnippet, sharedHeads } from "@/lib/seo/snippets";
+
+// Once per build: which subtitle-less names several itineraries share, across
+// every collection (Seabourn files one route as a cruise and its longer version
+// as a world cruise), so no title is shortened into another page's
+// (lib/seo/snippets.js).
+let SHARED = null;
+const sharedHeadsAll = () =>
+  (SHARED ??= sharedHeads(JOURNEY_COLLECTIONS.flatMap((c) => journeysIn(c).map((x) => x.title))));
 import { jsonLd } from "@/lib/seo/json-ld";
 import { SITE_OG_IMAGE } from "@/lib/seo/site";
 import SiteFooter from "@/components/SiteFooter";
@@ -44,17 +55,13 @@ export async function generateMetadata({ params }) {
   const { collection, slug } = await params;
   const j = getJourney(collection, slug);
   if (!j) return {};
-  const meta = collectionMeta(collection);
-  const where = j.regions.join(", ");
+  // The search snippet says what this page has that the operator's own does
+  // not: every departure on one page, and the offers running now
+  // (lib/seo/snippets.js).
+  const { title, description } = journeySnippet(j, { shared: sharedHeadsAll() });
   return {
-    title: `${j.title}${j.operator ? ` — ${j.operator}` : ""}`,
-    description:
-      (j.description || "").slice(0, 240) ||
-      `${j.title}: ${j.days ? `${j.days} days, ` : ""}${
-        j.departures.length
-      } departure${j.departures.length === 1 ? "" : "s"}${
-        where ? ` in ${where}` : ""
-      }, day by day — a ${meta.noun} in the Expedition Bucket List atlas.`,
+    title,
+    description,
     alternates: { canonical: `${SITE_URL}${j.path}` },
     openGraph: {
       title: j.title,

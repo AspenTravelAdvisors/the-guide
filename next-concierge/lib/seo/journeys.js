@@ -32,6 +32,7 @@
 
 import { SITE_URL } from "@/lib/answers";
 import { orgRef } from "@/lib/seo/site";
+import { isTravelerOffer } from "@/lib/seo/snippets";
 import { groupItineraries } from "@/lib/seo/journey-key.mjs";
 
 import { adaptCruise } from "@/lib/atlas/adapters/cruise";
@@ -215,7 +216,7 @@ function buildCollection(type) {
     for (const d of g.departures) {
       for (const p of (extras.get(String(d.id)) || {}).promotions || []) {
         const name = clean(p?.name);
-        if (!name || seenOffer.has(name)) continue;
+        if (!name || seenOffer.has(name) || !isTravelerOffer(p)) continue;
         seenOffer.add(name);
         promotions.push(p);
       }

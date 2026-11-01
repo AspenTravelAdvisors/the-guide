@@ -23,6 +23,7 @@ import {
   hotelBreadcrumbJsonLd,
 } from "@/lib/seo/hotels";
 import { SITE_URL } from "@/lib/answers";
+import { hotelSnippet } from "@/lib/seo/snippets";
 import { jsonLd } from "@/lib/seo/json-ld";
 import { SITE_OG_IMAGE } from "@/lib/seo/site";
 import SiteFooter from "@/components/SiteFooter";
@@ -52,12 +53,12 @@ export async function generateMetadata({ params }) {
   const { destination, slug } = await params;
   const h = getHotelBySlug(destination, slug);
   if (!h) return {};
-  const where = [h.city, h.adminRegion, h.country].filter(Boolean).join(", ");
+  // The search snippet says what this page has that the hotel's own does not:
+  // the amenities a booking through us carries (lib/seo/snippets.js).
+  const { title, description } = hotelSnippet({ ...h, activeOffers: activePromotions(h) });
   return {
-    title: `${h.name} — ${where}`,
-    description:
-      (h.summary || h.description || "").slice(0, 240) ||
-      `${h.name} in ${where}: VIP benefits, rooms and what our advisors know about it.`,
+    title,
+    description,
     alternates: { canonical: `${SITE_URL}${h.path}` },
     openGraph: {
       title: h.name,

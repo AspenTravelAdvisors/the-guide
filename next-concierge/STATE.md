@@ -2918,3 +2918,39 @@ Verified against stand-ins for Formspree and Upstash: sign-up, de-duplication,
 a quiet night, a night with new offers and departures (one email, then quiet),
 unknown and malformed partner codes, and a non-hotel id dropped from the reels.
 Not verified: a real Vercel Cron run and the real Upstash store.
+
+## Search snippets that say why to click (2026-11-01)
+
+Bing's query report showed the Guide at positions 2–7 for hundreds of searches
+naming a specific trip ("hx ultimate norway", "national geographic around the
+world by private jet") and almost no clicks. Journey titles were the trip name
+plus operator and descriptions were the supplier's own copy, so each result
+read as a copy of the supplier's page.
+
+`lib/seo/snippets.js` now writes both, from the record:
+
+- **Journeys:** `Ultimate Norway (HX Expeditions): 47 departures, 2026–29`, and
+  a description naming the date range, the day-by-day map and live offers.
+  Long names are shortened before the suffix is, keeping the operator (people
+  search by it); a name is cut to the part before its subtitle only when no
+  other itinerary in any collection shares that part (`sharedHeads`), because
+  Ponant's "Ocean Voyage – A to B" and Seabourn's "(82 days)" versions are told
+  apart only by what would be cut.
+- **Hotels:** `1 Hotel Hanalei Bay, Princeville: 2027 Virtuoso perks`, and the
+  amenities in a few words (`shortPerk`). Properties flagged
+  `hideAmenities` (Virtuoso's "hide amenities from consumers") get the programme
+  name and never the list.
+
+**Agent-only offers are filtered** (`isTravelerOffer`), in `activePromotions`
+and the journey promotions union, so pages, JSON-LD and snippets all lose them:
+"2% Bonus Commission" was on 76 sailings and shown to travelers as a supplier
+offer, along with "Enhanced Commission: 20% on rooms" and an invitation for New
+York advisors. The atlas and Guide read the feeds through other paths and were
+not checked for the same leak.
+
+Checked over all 4,461 pages: no empty description, 26 shared titles (records
+the feed itself duplicates), 380 titles past 76 characters (long hotel names).
+`verify:seo` all clear; rendered pages checked in dev.
+
+**Open:** hotel pages list `vipUpgrades` even where `hideAmenities` is set
+(55 properties). The snippet respects the flag; the page does not.
