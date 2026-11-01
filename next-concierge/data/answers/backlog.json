@@ -139,37 +139,47 @@
     {
       "id": "african-safari-cost-what-drives-it",
       "category": "Safari",
-      "status": "queued",
+      "status": "drafted",
       "question": "Why do luxury safaris cost so much?",
-      "angle": "Park and conservation fees, exclusive concessions, bush flights, low guest numbers, full board; where the money goes and where you can save (green season, fewer camps)."
+      "angle": "Park and conservation fees, exclusive concessions, bush flights, low guest numbers, full board; where the money goes and where you can save (green season, fewer camps).",
+      "drafted": "2026-11-01",
+      "slug": "why-luxury-safaris-cost-so-much"
     },
     {
       "id": "private-island-resorts",
       "category": "Hotels",
-      "status": "queued",
+      "status": "drafted",
       "question": "What are the best private-island resorts?",
-      "angle": "Genuinely one-resort islands vs. resorts that just call themselves private; transfers; what exclusivity actually means. Evidence: tag=private-island."
+      "angle": "Genuinely one-resort islands vs. resorts that just call themselves private; transfers; what exclusivity actually means. Evidence: tag=private-island.",
+      "drafted": "2026-11-01",
+      "slug": "best-private-island-resorts"
     },
     {
       "id": "honeymoon-first-luxury",
       "category": "Planning",
-      "status": "queued",
+      "status": "drafted",
       "question": "How should you plan a luxury honeymoon?",
-      "angle": "Pairing a city with a beach or safari, timing and seasons, how honeymoon amenities really work, when to book. Link to relevant existing answers."
+      "angle": "Pairing a city with a beach or safari, timing and seasons, how honeymoon amenities really work, when to book. Link to relevant existing answers.",
+      "drafted": "2026-11-01",
+      "slug": "how-to-plan-a-luxury-honeymoon"
     },
     {
       "id": "small-ship-mediterranean-yacht-cruise",
       "category": "Yachts",
-      "status": "queued",
+      "status": "drafted",
       "question": "What's the best small ship for a Mediterranean cruise?",
-      "angle": "Yacht-style ships (Ritz-Carlton, Four Seasons, Orient Express, Aman, Sea Cloud) vs. small luxury cruise ships (Seabourn, Silversea); marina ports, tender ports, season."
+      "angle": "Yacht-style ships (Ritz-Carlton, Four Seasons, Orient Express, Aman, Sea Cloud) vs. small luxury cruise ships (Seabourn, Silversea); marina ports, tender ports, season.",
+      "drafted": "2026-11-01",
+      "slug": "best-small-ship-for-mediterranean-cruise"
     },
     {
       "id": "villa-with-staff-what-to-expect",
       "category": "Villas",
-      "status": "queued",
+      "status": "drafted",
       "question": "What does a fully staffed luxury villa actually include?",
-      "angle": "Chef, housekeeping, concierge, what costs extra (groceries, drinks, staff gratuity), how it differs by region. No evidence block; villas are not in the hotel query engine."
+      "angle": "Chef, housekeeping, concierge, what costs extra (groceries, drinks, staff gratuity), how it differs by region. No evidence block; villas are not in the hotel query engine.",
+      "drafted": "2026-11-01",
+      "slug": "what-does-a-fully-staffed-luxury-villa-include"
     },
     {
       "id": "patagonia-luxury-lodges",
