@@ -190,7 +190,7 @@ function Row({ item, router }: { item: SavedItem; router: ReturnType<typeof useR
           )}
           {item.url && (
             <a className="bl-link" href={item.url} target="_blank" rel="noopener noreferrer">
-              View details ↗
+              More information ↗
             </a>
           )}
           <button

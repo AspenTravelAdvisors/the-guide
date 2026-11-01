@@ -1624,7 +1624,7 @@ export default function AtlasCollection({
                   </button>
                 )}
                 {/* The two boxed actions sit together, then the plain links.
-                    Splitting them with "View details" made a matched pair read as
+                    Splitting them with "More information" made a matched pair read as
                     two unrelated controls. */}
                 {cardPrimary?.(o)}
                 {cardAction && (() => {
@@ -1690,7 +1690,11 @@ export default function AtlasCollection({
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
                   >
-                    View details ↗
+                    {/* "More information", not "View details": on a phone the card
+                        also offers "Trip details", which opens the panel here,
+                        and the two read as the same thing. This one leaves for
+                        the supplier's page. */}
+                    More information ↗
                   </a>
                 )}
                 {/*

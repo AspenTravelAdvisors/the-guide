@@ -314,7 +314,7 @@ export default function JourneyDossier({
 
         {record.href && (
           <a className="jd-book" href={record.href} target="_blank" rel="noopener noreferrer">
-            View this journey ↗
+            More information ↗
           </a>
         )}
       </div>

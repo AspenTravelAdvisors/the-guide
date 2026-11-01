@@ -109,7 +109,7 @@ export default function AtlasHotel() {
       )
       .catch(() => {
         // A miss just means no rate link on those cards — "See it in 3D",
-        // "View details" and "Ask The Guide" all still work. Let them be
+        // "More information" and "Ask The Guide" all still work. Let them be
         // retried on the next filter change rather than sticking.
         for (const id of missing) askedRef.current.delete(id);
       });
