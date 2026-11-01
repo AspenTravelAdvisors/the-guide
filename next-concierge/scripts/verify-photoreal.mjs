@@ -60,7 +60,7 @@ function build() {
     cfgPath,
     JSON.stringify({
       compilerOptions: {
-        target: "es2020",
+        target: "es2022",
         module: "esnext",
         moduleResolution: "bundler",
         skipLibCheck: true,
