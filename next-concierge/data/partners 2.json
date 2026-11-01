@@ -1,0 +1,9 @@
+{
+  "_about": "Referral partners: wealth managers, private bankers, family offices, attorneys, clubs. Each key is the code in a partner's link, https://guide.expeditionbucketlist.com/?ref=<code>, which works on any page, including a flyover reel (/demo/hotel?hotel=<id>&autoplay=1&ref=<code>). A visitor who arrives on one is credited to that partner for 90 days, and the advisor email for their request names the partner. `name` and `firm` show in the 'Shared with you by' ribbon, so only list a partner who has agreed to be named. Codes are lowercase letters, digits and hyphens. A code that is not listed here is still recorded on the lead, but shows no ribbon.",
+  "partners": {
+    "ata-team": {
+      "name": "the Aspen Travel Advisors team",
+      "firm": null
+    }
+  }
+}
