@@ -2974,5 +2974,638 @@ export const generatedAnswers = [
         "label": "Private villas under $2,000 a night that sleep eight"
       }
     ]
+  },
+  {
+    "slug": "where-to-stay-in-patagonia-torres-del-paine-vs-el-calafate-el-chalten",
+    "category": "Hotels",
+    "question": "Where should you stay in Patagonia?",
+    "title": "Where to Stay in Patagonia: Torres del Paine vs. El Calafate and El Chaltén",
+    "description": "Torres del Paine or the Argentine side? How the all-inclusive lodges work, which base suits which traveler, and how wind and season from October to April should shape the trip, across the {{hotels:region=patagonia}} Patagonia properties in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "For a first trip, base yourself in Torres del Paine, Chile, at an all-inclusive lodge such as explora, Awasi or Tierra Patagonia, where guided hikes, meals and transfers are built in. Add El Calafate and El Chaltén in Argentina if you want the Perito Moreno Glacier and the Fitz Roy trails. Travel between October and April, and plan around the wind rather than the temperature.",
+    "answer": [
+      "Torres del Paine is the better single base. The granite towers, the Cuernos and the lakes sit close together, and the lodges there were built for exactly this trip: you arrive, a guide sits down with you each evening to choose the next day's outing, and everything from the packed lunch to the van to the trailhead is handled. explora sits inside the park on Lake Pehoé, Tierra Patagonia on Lake Sarmiento at the park's edge, and Awasi on a private reserve where each villa has its own guide and vehicle. If you would rather sleep in a town and dip in, The Singular near Puerto Natales is the polished option, at the cost of a longer drive into the park each day.",
+      "The Argentine side is two different places. El Calafate is a glacier town: you go for Perito Moreno, boat trips on Lago Argentino and an estancia or two, and two nights is usually enough. El Chaltén is a trekking village under Fitz Roy and Cerro Torre, where the trails leave from the edge of town and the hotels are comfortable rather than grand. Doing both countries works well on a trip of ten days or more, connected by road across the border. On anything shorter, pick one side and give it the days, because Patagonian weather rewards people who have a spare morning to wait out a storm."
+    ],
+    "sections": [
+      {
+        "h2": "The three bases compared",
+        "table": {
+          "caption": "Patagonia's main luxury bases, by what each is actually good for.",
+          "columns": [
+            "Base",
+            "Best for",
+            "Where you sleep",
+            "Getting there",
+            "Trade-off"
+          ],
+          "rows": [
+            [
+              "Torres del Paine, Chile",
+              "A first visit, varied guided outings, wildlife including guanaco and puma tracking",
+              "All-inclusive lodges inside or on the edge of the park",
+              "Fly to Punta Arenas, or seasonally to Puerto Natales, then drive",
+              "Lodges are remote and sold as multi-night packages, so there is little to do but the programme"
+            ],
+            [
+              "El Calafate, Argentina",
+              "Perito Moreno Glacier, lake boat trips, estancia days",
+              "Lodges and hotels in or near town, plus estancias on Lago Argentino",
+              "Direct flights to El Calafate from Buenos Aires",
+              "The town itself is busy and the glacier is the main event, so it does not need many nights"
+            ],
+            [
+              "El Chaltén, Argentina",
+              "Serious day hiking to Laguna de los Tres and Laguna Torre",
+              "Smaller hotels and lodges in or near the village",
+              "Road from El Calafate, roughly three hours",
+              "Fewer full-service options, and cloud can hide Fitz Roy for days"
+            ]
+          ]
+        },
+        "paras": [
+          "Most first trips are Torres del Paine alone, or Torres del Paine plus one Argentine base. The table is the honest version of how they differ."
+        ]
+      },
+      {
+        "h2": "How the all-inclusive lodges work",
+        "paras": [
+          "The top Torres del Paine lodges are priced and run more like a safari camp than a hotel. That is the reason to choose them, and also the reason some travelers find them confining. The rate covers the whole day, so the sensible comparison is against a hotel plus private guide plus driver plus meals, not against a hotel room alone."
+        ],
+        "list": [
+          "Meals and drinks are usually included, along with airport transfers from Punta Arenas or Puerto Natales.",
+          "Excursions are chosen the evening before with the guiding team, graded from easy walks and boat outings to full-day hikes such as the Base of the Towers.",
+          "Most lodges run shared small-group outings; Awasi gives each villa a private guide and vehicle, which matters if your group walks at different speeds.",
+          "Stays are normally sold as packages of several nights, and that minimum is worth respecting, since one lost day to wind can wipe out a short visit.",
+          "A town hotel in Puerto Natales costs less and gives you restaurants and freedom, but you will spend a couple of hours a day driving to and from the park's best areas."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "Patagonia properties in the atlas, smallest first",
+      "note": "Every property the supplier files under Patagonia, across Chile and Argentina, with the smallest lodges first, since a few dozen rooms and a few hundred are different trips. Each links to its own page, where the benefits currently on file for it are listed in full.",
+      "query": "region=patagonia",
+      "sort": "smallest",
+      "limit": 15
+    },
+    "faqs": [
+      {
+        "q": "When is the best time to go, and how bad is the wind?",
+        "a": "October to April is the season; many lodges close or scale back in the southern winter. December to February brings the longest days and the most people, and spring and summer are generally the windiest months, with gusts strong enough to close exposed trails or stop boats. March and April are often calmer, quieter and turn the beech forests red and gold, at the cost of shorter days and colder mornings. Pack for four seasons in one day whenever you go."
+      },
+      {
+        "q": "Can you combine Torres del Paine and El Calafate in one trip?",
+        "a": "Yes. The usual link is by road across the Chile and Argentina border, a drive of several hours with passport control on both sides. Chile restricts bringing in fresh food, so finish the snacks before you cross. Booking a private transfer rather than a scheduled bus makes the day far easier, and it is one of the pieces worth arranging through an advisor so the timings line up with both lodges' check-in."
+      },
+      {
+        "q": "Do you need to be a serious hiker?",
+        "a": "No. The Torres del Paine lodges offer gentle walks, boat trips, horse riding and wildlife drives alongside the long hikes, and a moderately fit traveler will have a full week. The Base of the Towers and the Fitz Roy viewpoints are long, steep days, so if those are the goal, arrive with some recent hill walking behind you."
+      }
+    ],
+    "related": [
+      {
+        "href": "/hotels/argentina",
+        "label": "Every Argentina property in the hotel atlas"
+      },
+      {
+        "href": "/answers/best-antarctica-expedition-for-first-timers",
+        "label": "Pairing Patagonia with a first Antarctica expedition"
+      },
+      {
+        "href": "/answers/virtuoso-perks-vs-booking-direct",
+        "label": "What advisor perks add at all-inclusive lodges"
+      },
+      {
+        "href": "/atlas/hotel",
+        "label": "The hotel atlas, on the map"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-prepare-for-a-world-cruise",
+    "category": "Voyages",
+    "question": "How do you prepare for a world cruise?",
+    "title": "How to Prepare for a World Cruise: Visas, Medications, Home and Life On Board",
+    "description": "A calm, practical guide to preparing for a world cruise: passports and visas, a full voyage's medication, mail and banking at home, dress codes, laundry and staying connected, with the {{journeys:collection=worldcruise}} world cruise itineraries in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "Start nine to twelve months out with the passport, which should be valid at least six months beyond the voyage and have plenty of blank pages. Most lines work with a visa service that sequences entry permits for you. Bring every medication for the whole voyage plus a margin, move mail and bills online, fix two-factor codes so they reach you abroad, and pack for two weeks, not four months.",
+    "answer": [
+      "Preparing for a world cruise is mostly paperwork and household logistics, done early and in the right order. The passport comes first, because almost everything else depends on it: visa applications need it, and some countries will not issue a visa on a passport that expires too soon after your visit. Then visas, which your cruise line will usually route through a partner visa service that knows which countries need one, which accept an electronic authorisation, and how close to arrival each can be issued. Then health: a travel clinic visit, any vaccinations, and enough of every prescription to last the full voyage with a margin, because refills at sea or in port are unreliable.",
+      "The home side is where people get caught out. Mail needs a destination, bills need to pay themselves, and banking needs to work from a ship in the Indian Ocean, which mostly means making sure the security codes your bank sends can actually reach you. On board, the questions are simpler than they look: how dressed up the evenings are, how laundry works, and how you stay in touch. Our atlas lists {{journeys:collection=worldcruise}} world cruise itineraries with {{departures:collection=worldcruise}} departures between them, and the preparation below applies to all of them, whether you sail the full circuit or a long segment."
+    ],
+    "sections": [
+      {
+        "h2": "A timeline that works",
+        "table": {
+          "columns": [
+            "When",
+            "What to do",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "9 to 12 months out",
+              "Check or renew your passport. Ask for the larger book if your country issues one.",
+              "It should be valid at least six months beyond the final day of the voyage, with several blank pages for stamps and visas."
+            ],
+            [
+              "6 to 9 months out",
+              "Book a travel clinic appointment and review the line's visa guidance.",
+              "Some vaccines need more than one dose, and a yellow fever certificate may be required depending on the order of ports."
+            ],
+            [
+              "3 to 6 months out",
+              "Apply for visas through the line's recommended service, in the order it suggests.",
+              "Some visas and electronic authorisations can only be issued within a set window before arrival, so timing matters as much as paperwork."
+            ],
+            [
+              "3 months out",
+              "Arrange the full medication supply, travel medical and evacuation insurance, mail forwarding, autopay and power of attorney.",
+              "Pharmacies and insurers need lead time for an unusually long supply or policy."
+            ],
+            [
+              "1 month out",
+              "Sort phone plans, banking security, luggage shipping and a document folder, both paper and digital.",
+              "These are the things that fail quietly in the first week at sea."
+            ]
+          ]
+        },
+        "paras": [
+          "Most full world cruises leave in January, so the timeline below counts back from a winter departure. Shift it to match your own sailing date."
+        ]
+      },
+      {
+        "h2": "Home, money and paperwork",
+        "paras": [
+          "The goal is a household that runs without you for three or four months, and a way to fix things from a ship if it does not."
+        ],
+        "list": [
+          "Mail: use a mail scanning or forwarding service, or a trusted person who will open everything and photograph what matters. Stop the newspapers and anything else that signals an empty house.",
+          "Bills: move every recurring bill to autopay and check the balance on the paying account will cover the whole period.",
+          "Two-factor codes: if your bank texts a code to your phone, that phone must receive texts abroad. Where the bank allows it, switch to an authenticator app before you leave, and test logging in from a different network.",
+          "Cards: carry at least two cards on different networks, kept separately. Many banks no longer need travel notices, but confirm yours does not.",
+          "Cash: a modest supply of small US dollar notes is useful for tips and taxis in many ports; draw local currency from ATMs as you go.",
+          "Taxes: a January departure usually means you are at sea in April. US travellers should file early or arrange an extension before leaving.",
+          "Legal: leave a power of attorney and copies of key documents with someone at home, and make sure they know how to reach the ship.",
+          "Medications: carry them in original packaging with prescriptions that show generic names. Some countries restrict medicines that are routine at home, Japan's rules on stimulant-based ADHD medication being the usual example, so check each country on the route.",
+          "Insurance: confirm your health cover works abroad. US Medicare generally does not, so a travel medical and evacuation policy is worth having for a voyage this long."
+        ]
+      },
+      {
+        "h2": "On board: dress, laundry and staying connected",
+        "paras": [
+          "Dress codes vary more between lines than travellers expect. Cunard sits at the formal end, with several gala evenings on a long voyage where dinner jackets and long dresses are common. Viking and Oceania sit at the other end, with no formal nights at all. Most other luxury lines fall in between, with an elegant-casual standard and the occasional optional dressier evening. Read your line's current dress code before packing, because it decides whether you need one smart outfit or several.",
+          "Laundry is the reason you do not need to pack for four months. Many luxury lines have free self-service launderettes, and world cruise fares often include some laundry or pressing service, so pack for ten days to two weeks and plan to wash as you go. The bigger packing problem is climate: a single voyage can cross tropical heat, a southern-hemisphere summer and a cool northern spring, so layers beat volume.",
+          "Connectivity has improved a great deal. Most major lines now use low-orbit satellite internet such as Starlink, which makes video calls from mid-ocean realistic, and many luxury fares include Wi-Fi. For your phone, turn off cellular data and roaming once at sea, since ships run their own expensive cellular network, and use a regional eSIM or your carrier's international plan on port days."
+        ],
+        "list": [
+          "Pack for ten to fourteen days, then wash.",
+          "Bring layers for heat, cool evenings and wind on deck.",
+          "Check the dress code and count the gala evenings before choosing formal wear.",
+          "Set your phone to Wi-Fi only at sea, and use an eSIM or international plan ashore."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can I get prescriptions refilled during the voyage?",
+        "a": "Not reliably. The ship's medical centre treats illness and carries a stock of common drugs, but it is not a pharmacy for long-term prescriptions, and sending medication to a foreign port can be held up in customs. Bring the full supply plus a margin of a couple of weeks, split between two bags."
+      },
+      {
+        "q": "How much luggage can I bring?",
+        "a": "Ships are generous on long voyages. The real limit is usually the flights at each end. Some lines include luggage delivery from your door to the ship on world cruise fares, and independent luggage shipping services cover the rest, which lets you fly with a single bag."
+      },
+      {
+        "q": "Is preparing for a segment any different?",
+        "a": "The steps are the same, only smaller: visas for fewer countries, a shorter medication supply, and less to arrange at home. Check the passport and visa rules for your embarkation and disembarkation countries carefully, since segments often start and finish in places that need entry permits even for a short stay."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/world-cruise-segments-explained",
+        "label": "Full world cruise or a segment?"
+      },
+      {
+        "href": "/answers/world-cruises-compared",
+        "label": "World cruises compared, line by line"
+      },
+      {
+        "href": "/journeys/worldcruise",
+        "label": "Every world cruise itinerary in the atlas"
+      },
+      {
+        "href": "/atlas/worldcruise",
+        "label": "The world cruise atlas, on the map"
+      }
+    ]
+  },
+  {
+    "slug": "japan-by-luxury-train-shinkansen-seven-stars",
+    "category": "Rails",
+    "question": "Can you see Japan by luxury train?",
+    "title": "Japan by Luxury Train: Green Car, Gran Class and the Cruise Trains",
+    "description": "How to see Japan by train in comfort: Shinkansen Green Car and Gran Class for the main legs, how hard Seven Stars in Kyushu, Shiki-shima and Twilight Express Mizukaze are to book, and how operators build Japan rail itineraries.",
+    "updated": "2026-11-01",
+    "capsule": "Yes, but mostly by Shinkansen. The main legs run in Green Car, Japan's first class, or in Gran Class on the northern and Hokuriku lines, which is comfortable rather than lavish. The true luxury trains, Seven Stars in Kyushu, Train Suite Shiki-shima and Twilight Express Mizukaze, are short sleeper cruises sold by lottery, so treat a berth as a bonus, not the plan.",
+    "answer": [
+      "Japan is the easiest country in the world to cross by train and one of the hardest in which to book a luxury train. The everyday answer is the Shinkansen. Green Car, the first-class carriage on almost every bullet train, gives you wider seats, more legroom and a quieter carriage, and it is enough for Tokyo to Kyoto, Osaka, Hiroshima and on to Kyushu. Gran Class, a small premium carriage above Green, exists only on the lines running north and northwest from Tokyo: the Tohoku and Hokkaido Shinkansen towards Aomori and Hakodate, and the Hokuriku Shinkansen towards Kanazawa. If your route is the classic Tokyo, Kyoto, Osaka line, Gran Class is simply not available, and Green Car is the top of the market.",
+      "The cruise trains are a different thing entirely. Seven Stars in Kyushu, Shiki-shima and Twilight Express Mizukaze are run by JR Kyushu, JR East and JR West as short all-inclusive journeys of a few days, with suites, dining cars and excursions off the train. They carry very few guests, applications open in windows months ahead, and when demand exceeds space, which is normal, places are drawn by lottery. Nobody can promise you one. The sensible Japan rail trip is built on Shinkansen legs with good hotels and ryokan at each stop, with a cruise train or a day excursion train added if the draw goes your way. Our atlas holds {{journeys:country=Japan}} Japan itineraries and {{hotels:country=Japan}} Japanese hotels to build around."
+    ],
+    "sections": [
+      {
+        "h2": "The Shinkansen classes, compared",
+        "table": {
+          "caption": "What each Shinkansen class gives you on the main legs.",
+          "columns": [
+            "Class",
+            "Layout",
+            "Where you find it",
+            "Worth it when"
+          ],
+          "rows": [
+            [
+              "Ordinary reserved",
+              "Mostly 3-2 on the Tokaido and Sanyo lines",
+              "Every Shinkansen",
+              "Short hops of an hour or so, or the Kyushu trains where reserved cars are already 2-2"
+            ],
+            [
+              "Green Car",
+              "2-2, wider seats, more legroom",
+              "Almost every Shinkansen",
+              "Any leg over two hours, and always on the busy Tokyo to Osaka corridor"
+            ],
+            [
+              "Gran Class",
+              "2-1, a small carriage with the fewest seats on the train",
+              "Tohoku and Hokkaido Shinkansen, Hokuriku Shinkansen; not Tokaido, Sanyo or Kyushu",
+              "Long northern runs such as Tokyo to Aomori or Hakodate, or Tokyo to Kanazawa, on trains with attendant service"
+            ]
+          ]
+        },
+        "paras": [
+          "Seat layout is the clearest way to tell the classes apart. Gran Class is the only one with a single seat on one side of the aisle, and on some trains it comes with an attendant serving food and drink, while on others it is sold as seat-only. Check which service your train runs before paying for it, because without the attendant it is a better seat and little more."
+        ]
+      },
+      {
+        "h2": "The cruise trains, and the day trains that are easier to get",
+        "table": {
+          "caption": "Japan's three cruise trains.",
+          "columns": [
+            "Train",
+            "Run by",
+            "Where it goes",
+            "Booking reality"
+          ],
+          "rows": [
+            [
+              "Seven Stars in Kyushu",
+              "JR Kyushu",
+              "Loops around Kyushu, starting from Hakata",
+              "The oldest of the three and the most oversubscribed; lottery"
+            ],
+            [
+              "Train Suite Shiki-shima",
+              "JR East",
+              "Eastern Japan and Hokkaido, from Ueno in Tokyo",
+              "Lottery, application windows months ahead"
+            ],
+            [
+              "Twilight Express Mizukaze",
+              "JR West",
+              "Western Japan, the San'in and Sanyo coasts, from Osaka and Kyoto",
+              "Lottery, application windows months ahead"
+            ]
+          ]
+        },
+        "paras": [
+          "All three cruise trains work the same way: a fixed route of a few days, meals and excursions included, application in a set window, and a lottery when they are oversubscribed. Much of the process is in Japanese, and overseas access, where it exists, comes through a small number of authorized agents. Apply for one if it fits your dates, but never build a trip around the outcome.",
+          "If the lottery goes against you, several day trains give much of the pleasure with ordinary booking. They are worth an afternoon in the itinerary on their own merits."
+        ],
+        "list": [
+          "Aru Ressha, JR Kyushu's dessert-course train, designed by Eiji Mitooka, who also designed Seven Stars.",
+          "Yufuin no Mori, a JR Kyushu sightseeing train from Hakata to the onsen town of Yufuin.",
+          "Shimakaze, Kintetsu's premium limited express from Osaka, Kyoto and Nagoya to Ise-Shima, with a dining car and semi-private compartments."
+        ]
+      },
+      {
+        "h2": "How operators build a Japan rail itinerary",
+        "paras": [
+          "Good Japan operators, Inside Travel among them with {{journeys:operator=Inside Travel (Japan)}} itineraries in our atlas, treat the train as the easy part and spend their effort on everything around it. This is one of the few rail trips where an advisor changes the outcome: not by finding a better seat, but by knowing which station exit the guide should meet you at and which ryokan sends a car."
+        ],
+        "list": [
+          "Green Car reservations on every long leg, booked as soon as seats open, with Gran Class only where the route and the service justify it.",
+          "Luggage forwarded hotel to hotel by courier, so you board with a day bag. Large suitcases on the Tokaido, Sanyo and Kyushu Shinkansen need a reserved seat with an oversized baggage area, which forwarding avoids.",
+          "A private guide meeting you on the platform in each city, often travelling with you on the first leg.",
+          "Cars and drivers for the places rail does not reach well, such as rural Kyushu, the Kiso Valley or the Noto Peninsula.",
+          "A ryokan night or two between city hotels, timed so the arrival train lands before dinner, which ryokan serve at a set hour.",
+          "A cruise train or day train slotted in only once a place is confirmed, with a fallback plan already priced."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "Japanese hotels to build a rail trip around",
+      "note": "Every property in Japan in the hotel atlas, those with the most benefits on file first. Most sit within a short drive of a Shinkansen station. Each links to its own page, where the benefits currently on file are listed in full.",
+      "query": "country=Japan",
+      "sort": "perks",
+      "limit": 15
+    },
+    "faqs": [
+      {
+        "q": "Is the Japan Rail Pass worth it in Green Car?",
+        "a": "Less often than it used to be. The pass rose sharply in price in 2023, and for a classic Tokyo, Kyoto, Osaka and Hiroshima trip, point-to-point Green Car tickets frequently come out close or cheaper. Price the specific route both ways before buying; the pass still wins on long, dense itineraries that cover the north as well."
+      },
+      {
+        "q": "Can an advisor guarantee a place on Seven Stars or Shiki-shima?",
+        "a": "No. Places are allocated by lottery when oversubscribed, and nobody can buy their way past it. An advisor can make sure you apply in the right window through a channel that accepts overseas guests, and can build the rest of the trip so it works whether or not you win."
+      },
+      {
+        "q": "Is there an Orient Express-style train across Japan?",
+        "a": "Not in the European sense. There is no long-distance luxury sleeper crossing the country; the three cruise trains each stay within their own railway's region on short routes. A comfortable cross-country trip in Japan is Shinkansen Green Car between good hotels, which is quicker and, honestly, very pleasant."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/best-luxury-train-journeys",
+        "label": "The best luxury train journeys in the world"
+      },
+      {
+        "href": "/answers/ryokan-vs-luxury-hotel-japan",
+        "label": "Ryokan or luxury hotel in Japan"
+      },
+      {
+        "href": "/hotels/japan",
+        "label": "Every Japanese hotel in the atlas"
+      },
+      {
+        "href": "/journeys/train",
+        "label": "Every train itinerary in the atlas"
+      }
+    ]
+  },
+  {
+    "slug": "travel-insurance-for-expensive-trips-cfar-evacuation",
+    "category": "Planning",
+    "question": "What travel insurance do you need for an expensive trip?",
+    "title": "Travel Insurance for an Expensive Trip: Cancel For Any Reason, Evacuation and When to Buy",
+    "description": "What insurance a high-value trip actually needs: standard trip cancellation versus Cancel For Any Reason, why evacuation limits matter on expeditions and safari, and why buying soon after your first deposit protects the most.",
+    "updated": "2026-11-01",
+    "capsule": "For an expensive trip you need three things: trip cancellation covering the nonrefundable money you have prepaid, medical cover that works abroad, and a high emergency evacuation limit if you are going anywhere remote. Add Cancel For Any Reason only if you might cancel for reasons a standard policy excludes. Buy within days of your first deposit, because several of the best benefits depend on it.",
+    "answer": [
+      "Most people shop for travel insurance as one product. It is really three. Trip cancellation and interruption protects the money you cannot get back if you have to call the trip off or come home early. Medical cover pays for treatment abroad, where many domestic plans pay little or nothing, and US Medicare generally pays nothing at all. Emergency evacuation pays to move you from a remote place to adequate care, and on an Antarctic ship, a Botswana camp or a Galápagos yacht it is the line that matters most, because the bill for a long-distance air ambulance can be far larger than the trip itself.",
+      "Cancel For Any Reason, usually shortened to CFAR, is an upgrade to cancellation cover, not a replacement for it. A standard policy only pays when you cancel for a reason it lists, such as serious illness, injury or a death in the family. CFAR pays a portion of your nonrefundable costs whatever the reason, provided you cancel early enough before departure and bought the policy on time. It costs noticeably more and reimburses only part of the loss, so it earns its place when your reasons for possibly cancelling are ones a standard policy would refuse: work, a wobbly family situation, or simply not wanting to go any more."
+    ],
+    "sections": [
+      {
+        "h2": "Standard cancellation vs. Cancel For Any Reason",
+        "table": {
+          "caption": "How the two kinds of cancellation cover usually compare.",
+          "columns": [
+            "",
+            "Standard trip cancellation",
+            "Cancel For Any Reason upgrade"
+          ],
+          "rows": [
+            [
+              "What triggers a payout",
+              "Only the covered reasons listed in the policy",
+              "Any reason, including a change of heart"
+            ],
+            [
+              "How much it repays",
+              "Usually the full insured nonrefundable cost",
+              "A stated percentage of the insured cost, never all of it"
+            ],
+            [
+              "When you must buy",
+              "Any time before departure, though some benefits need early purchase",
+              "Within a short window after your first trip deposit"
+            ],
+            [
+              "Insuring the full trip cost",
+              "Recommended",
+              "Almost always required"
+            ],
+            [
+              "Latest cancellation date",
+              "Any time a covered reason arises, even mid-trip as interruption",
+              "A set number of days or hours before departure"
+            ],
+            [
+              "Who it suits",
+              "Most travellers on most trips",
+              "Those whose likely reasons for cancelling are excluded elsewhere"
+            ]
+          ]
+        },
+        "paras": [
+          "Terms vary by policy and by state, so treat this as the typical shape rather than a promise. Read the actual certificate before you rely on any of it."
+        ]
+      },
+      {
+        "h2": "Evacuation on expeditions and safari",
+        "paras": [
+          "Remote travel changes the arithmetic. On an expedition ship two days from the nearest hospital, or at a camp reached only by light aircraft, a serious injury means a charter or air ambulance, and evacuation home from a distant region can cost more than most people expect. Many polar and some safari operators therefore require proof of emergency medical evacuation cover before they will let you board, often with a stated minimum amount. Check your operator's requirement first, then buy comfortably above it.",
+          "Evacuation insurance and evacuation membership programs are different things. Insurance typically moves you to the nearest adequate hospital, as decided by the insurer's medical team. A membership program may move you to a hospital of your choice at home once you are stable, but is not health insurance and pays no medical bills. On a serious trip many travellers carry both. Some safari arrangements include a regional flying-doctor membership, which is useful but usually only gets you to a city hospital in the region, not home."
+        ],
+        "list": [
+          "Choose a high evacuation limit, well above the operator's minimum, for polar and deep-wilderness trips.",
+          "Look for primary medical cover, which pays first rather than waiting on your home insurer.",
+          "Confirm cover for the activities you will actually do: kayaking, snowshoeing, diving, high-altitude trekking and light-aircraft flights are sometimes excluded or capped.",
+          "Check whether a pre-existing condition waiver is available, and what you must do to qualify for it.",
+          "Keep the insurer's emergency assistance number with your passport, and call them before arranging transport yourself where you can."
+        ]
+      },
+      {
+        "h2": "When to buy it",
+        "paras": [
+          "The single most useful habit is buying soon after your first deposit. Several time-sensitive benefits, including CFAR eligibility and pre-existing condition waivers, are typically only available if you purchase within a short window of that first payment, often a matter of days. Expedition cruises and safaris also take large deposits and charge rising cancellation penalties as departure approaches, so the money at risk is real long before you travel. This is where an advisor genuinely changes the outcome: they know the deposit date, the operator's penalty schedule and when the window closes."
+        ],
+        "list": [
+          "Day of first deposit: note the date and look at policies.",
+          "Within the policy's early-purchase window: buy, insuring the full nonrefundable trip cost if you want CFAR or a pre-existing condition waiver.",
+          "As you add flights, charters or pre-trip hotels: update the insured amount so later payments are covered too.",
+          "Before departure: re-read the CFAR cancellation deadline, the evacuation limit and the emergency contact procedure."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is the insurance from my credit card enough?",
+        "a": "Sometimes for a modest trip, rarely for an expensive or remote one. Card benefits often cap trip cancellation per person or per trip, may offer little or no medical or evacuation cover, and usually only apply to the portion charged to that card. Read the benefit guide and compare its limits with your nonrefundable total and your operator's evacuation requirement."
+      },
+      {
+        "q": "Is the cruise line's or operator's own insurance a good option?",
+        "a": "It is convenient but worth comparing. Some supplier policies repay cancellations as a credit toward a future trip rather than cash, and they generally only cover what you booked with that supplier, not your flights or pre-trip hotels. A comprehensive independent policy usually covers the whole trip in one place."
+      },
+      {
+        "q": "Do I need trip cancellation if my booking is refundable?",
+        "a": "Only for the parts that are not. Insure what you would actually lose, which on a refundable hotel stay may be nothing. You still want medical and evacuation cover, because those protect you during the trip, not the money you paid for it."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/best-antarctica-expedition-for-first-timers",
+        "label": "Choosing a first Antarctica expedition"
+      },
+      {
+        "href": "/answers/why-luxury-safaris-cost-so-much",
+        "label": "Why luxury safaris cost so much"
+      },
+      {
+        "href": "/answers/caribbean-hurricane-season-travel-by-month-and-island",
+        "label": "Travelling in Caribbean hurricane season"
+      },
+      {
+        "href": "/answers/do-travel-advisors-cost-more",
+        "label": "Do travel advisors cost more?"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-choose-an-expedition-cruise-advisor",
+    "category": "Expedition",
+    "question": "How do you choose an expedition cruise advisor?",
+    "title": "How to Choose an Expedition Cruise Advisor: The Questions That Matter",
+    "description": "What to ask an expedition cruise advisor before booking Antarctica, the Arctic or the Galápagos: sailings booked and sailed, preferred status with several lines, whether they compare ships across brands, and what happens when a voyage is cancelled or rerouted.",
+    "updated": "2026-11-01",
+    "capsule": "Choose an advisor who has booked, and ideally sailed, the region you want. They should hold preferred status with several expedition lines rather than one, and put ships from different operators side by side. They should also explain plainly what happens to your money when ice, weather or the operator changes the voyage. Polar and Galápagos track record matters more than general cruise volume.",
+    "answer": [
+      "Expedition cruising is a narrow specialty inside a broad trade, and most of the questions that decide whether a trip goes well are not the ones a general cruise seller is used to answering. Which ship carries few enough guests to land everyone at once? Is the Drake Passage worth crossing, or should you fly it? What does the contract say when pack ice closes a fjord? Can you make the Galápagos flight from the mainland on the day you arrive? Start by asking how many polar or Galápagos sailings the advisor has booked recently and which they have sailed themselves. Specific ships, seasons and cabin categories in the answer tell you more than any title on a business card.",
+      "Then test whether they will compare. Our atlas alone holds {{journeys:region=Antarctica}} Antarctica itineraries, {{journeys:region=Arctic}} Arctic itineraries and {{journeys:region=GALAPAGOS}} Galápagos itineraries. They are spread across PONANT ({{journeys:operator=PONANT EXPLORATIONS}}), Lindblad ({{journeys:operator=National Geographic-Lindblad Expeditions}}), HX ({{journeys:operator=HX Expeditions}}), Swan Hellenic ({{journeys:operator=Swan Hellenic}}), Aurora ({{journeys:operator=Aurora Expeditions}}), Quark ({{journeys:operator=Quark Expeditions}}) and others. An advisor with preferred status at several of these lines can put two or three ships in front of you with honest trade-offs. One who sells a single brand can only tell you why that brand is right. The last test is the dull one: ask what happens when the voyage is cancelled, rerouted or cut short, and listen for an answer that comes from having read the operator's terms."
+    ],
+    "sections": [
+      {
+        "h2": "The questions to ask, and what a good answer sounds like",
+        "table": {
+          "caption": "Six questions for any expedition cruise advisor",
+          "columns": [
+            "Ask",
+            "A good answer",
+            "A warning sign"
+          ],
+          "rows": [
+            [
+              "How many polar or Galápagos sailings have you booked in the last few years, and which have you sailed?",
+              "Rough numbers, named ships and seasons, and first-hand detail such as which deck the mudroom is on or how the Zodiac boarding works",
+              "Talk of cruising in general, or only big-ship ocean experience"
+            ],
+            [
+              "Which expedition lines do you hold preferred status with, and what does it get me?",
+              "Several lines, named, with what the status adds: an onboard amenity on some sailings, access to group space, a direct contact at the line",
+              "One line only, or a vague 'we work with everyone'"
+            ],
+            [
+              "Will you compare ships across brands?",
+              "Two or three options from different operators, with what each is better and worse at for your month, budget and mobility",
+              "A ship recommended before they have asked your dates, your budget or what you want to see"
+            ],
+            [
+              "What happens if the voyage is cancelled or rerouted?",
+              "A clear account of the operator's terms: refund or future credit, what the captain may change without compensation, and which of your flights and hotels are protected",
+              "'That rarely happens' or 'the cruise line handles it'"
+            ],
+            [
+              "Who arranges flights, the pre-cruise night and any charter?",
+              "They know whether the operator's charter to the ship is included and build in a buffer night before embarkation",
+              "You are left to book your own flights to the embarkation port"
+            ],
+            [
+              "What insurance do you recommend, and by when must I buy it?",
+              "Emergency evacuation cover, the operator's requirement for it, and the purchase window for cancel-for-any-reason cover",
+              "Insurance mentioned once, at final payment"
+            ]
+          ]
+        },
+        "paras": [
+          "None of these is a trick question. A specialist answers them quickly and specifically. A generalist tends to answer in adjectives."
+        ]
+      },
+      {
+        "h2": "What specialist knowledge sounds like",
+        "paras": [
+          "A good expedition advisor raises points like these without being asked. If you have to bring them up yourself, you are doing the advisor's job. Our comparisons of PONANT, Lindblad and Silversea, and of the Galápagos operators, go further on the ships themselves."
+        ],
+        "list": [
+          "Antarctica: under IAATO guidelines, ships carrying more than 500 passengers do not land guests, and no more than 100 people may be ashore at one site at a time. A smaller ship means more time ashore, not just a quieter dining room.",
+          "The Drake Passage: most voyages cross it by sea from Ushuaia, and some operators fly guests over it to King George Island instead. The flight saves days and seasickness, but it can itself be delayed by weather.",
+          "The Galápagos: the national park caps ships at 100 guests, assigns each ship its itinerary, and requires a certified naturalist for every group of up to 16 visitors. Foreign adults pay a park entrance fee of $200, usually on arrival in the islands.",
+          "The Arctic: early-summer sea ice can stop a ship from circumnavigating Svalbard, so an advisor should tell you which weeks favour a full circuit and which favour ice and the wildlife that comes with it.",
+          "Seasons inside seasons: the right month for penguin chicks, whale activity or Galápagos sea conditions differs from the right month for the lowest fare, and a specialist will tell you which you are trading away."
+        ]
+      },
+      {
+        "h2": "When the voyage changes: cancelled, rerouted or cut short",
+        "table": {
+          "columns": [
+            "What happens",
+            "What usually follows",
+            "What your advisor should do"
+          ],
+          "rows": [
+            [
+              "Landings changed for weather, ice or wildlife rules",
+              "Normal and written into the contract; missed landings are not usually refunded",
+              "Set expectations beforehand, and favour longer itineraries that leave room for substitutes"
+            ],
+            [
+              "The operator cancels the voyage",
+              "A refund or a future cruise credit, sometimes with a bonus for taking the credit",
+              "Lay out refund against credit plainly, rebook or recover flights and hotels, and file insurance claims"
+            ],
+            [
+              "Your flight to embarkation is delayed",
+              "Ships generally sail on schedule; an included operator charter is the strongest protection",
+              "Book a buffer night or two at the embarkation port, and check before booking whether the charter is included"
+            ],
+            [
+              "You cancel",
+              "Penalties rise as departure nears, and expedition final payment usually falls earlier than on ordinary cruises",
+              "Give you the penalty schedule in writing and time insurance so cancel-for-any-reason cover is still available"
+            ],
+            [
+              "Medical evacuation at sea",
+              "Costly, and often impossible to arrange quickly in polar waters",
+              "Confirm your policy meets the operator's evacuation requirement before final payment"
+            ]
+          ]
+        },
+        "paras": [
+          "Expedition contracts give the captain and expedition leader wide discretion, and that is a safety feature rather than a loophole. The advisor's job is to explain it before you pay, and to work for you when it happens. That second part is the one place the choice of advisor genuinely changes the outcome. It is why we at Aspen Travel Advisors ask ourselves every question on this page before we put a client on a ship."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does an expedition specialist cost more than booking directly with the line?",
+        "a": "Usually not. Expedition lines pay advisors a commission at the same published fare, so the price is normally the same either way. A few advisors charge a planning fee for complex trips. Ask about fees at the first conversation, before any work is done."
+      },
+      {
+        "q": "Is it a problem if an advisor mostly sells one expedition line?",
+        "a": "Not if that line is right for you, but you will not find that out from them. Ask what they would recommend if that line had nothing in your month. A specialist with several preferred relationships can answer that, and the answer is often a ship you had not considered."
+      },
+      {
+        "q": "How far ahead should I start with an advisor for Antarctica or the Galápagos?",
+        "a": "For peak Antarctic months and the smallest ships, start a year or more ahead, because the cabins people want sell first. The Galápagos can work on shorter notice outside school holidays. Either way, start early enough that insurance can be bought within its purchase window after your deposit."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/ponant-vs-lindblad-vs-silversea-expeditions",
+        "label": "Ponant vs. Lindblad vs. Silversea: the main expedition lines compared"
+      },
+      {
+        "href": "/answers/best-antarctica-expedition-for-first-timers",
+        "label": "The best Antarctica expedition for first-timers"
+      },
+      {
+        "href": "/answers/galapagos-lindblad-vs-silversea-vs-aqua",
+        "label": "Choosing a Galápagos operator"
+      },
+      {
+        "href": "/answers/best-arctic-expedition-svalbard-greenland-northwest-passage",
+        "label": "Svalbard, Greenland or the Northwest Passage"
+      }
+    ]
   }
 ];

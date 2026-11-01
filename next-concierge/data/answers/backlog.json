@@ -184,37 +184,47 @@
     {
       "id": "patagonia-luxury-lodges",
       "category": "Hotels",
-      "status": "queued",
+      "status": "drafted",
       "question": "Where should you stay in Patagonia?",
-      "angle": "Torres del Paine vs. El Calafate/El Chaltén, all-inclusive lodges with guided excursions, wind and season (October to April). Evidence: Chile and Argentina properties."
+      "angle": "Torres del Paine vs. El Calafate/El Chaltén, all-inclusive lodges with guided excursions, wind and season (October to April). Evidence: Chile and Argentina properties.",
+      "drafted": "2026-11-01",
+      "slug": "where-to-stay-in-patagonia-torres-del-paine-vs-el-calafate-el-chalten"
     },
     {
       "id": "world-cruise-what-to-pack-and-plan",
       "category": "Voyages",
-      "status": "queued",
+      "status": "drafted",
       "question": "How do you prepare for a world cruise?",
-      "angle": "Visas, medications, mail and banking at home, formal nights, laundry, staying connected; practical and calm."
+      "angle": "Visas, medications, mail and banking at home, formal nights, laundry, staying connected; practical and calm.",
+      "drafted": "2026-11-01",
+      "slug": "how-to-prepare-for-a-world-cruise"
     },
     {
       "id": "japan-by-train-luxury",
       "category": "Rails",
-      "status": "queued",
+      "status": "drafted",
       "question": "Can you see Japan by luxury train?",
-      "angle": "Shinkansen Green and Gran Class for the main legs; the cruise trains (Seven Stars in Kyushu, Shiki-shima, Twilight Express Mizukaze) and how hard they are to book; how operators build rail itineraries in Japan."
+      "angle": "Shinkansen Green and Gran Class for the main legs; the cruise trains (Seven Stars in Kyushu, Shiki-shima, Twilight Express Mizukaze) and how hard they are to book; how operators build rail itineraries in Japan.",
+      "drafted": "2026-11-01",
+      "slug": "japan-by-luxury-train-shinkansen-seven-stars"
     },
     {
       "id": "travel-insurance-luxury-trips",
       "category": "Planning",
-      "status": "queued",
+      "status": "drafted",
       "question": "What travel insurance do you need for an expensive trip?",
-      "angle": "Cancel For Any Reason vs. standard, medical evacuation for expeditions and safari, when to buy it. General guidance only; no specific insurer recommendations or prices."
+      "angle": "Cancel For Any Reason vs. standard, medical evacuation for expeditions and safari, when to buy it. General guidance only; no specific insurer recommendations or prices.",
+      "drafted": "2026-11-01",
+      "slug": "travel-insurance-for-expensive-trips-cfar-evacuation"
     },
     {
       "id": "how-to-choose-expedition-cruise-advisor",
       "category": "Expedition",
-      "status": "queued",
+      "status": "drafted",
       "question": "How do you choose an expedition cruise advisor?",
-      "angle": "What to ask: how many polar or Galápagos sailings they have booked or sailed, which operators they hold preferred status with, whether they will compare ships across brands rather than sell one, and what happens when a voyage is cancelled or rerouted. Name no advisor but our own; link to the expedition answers."
+      "angle": "What to ask: how many polar or Galápagos sailings they have booked or sailed, which operators they hold preferred status with, whether they will compare ships across brands rather than sell one, and what happens when a voyage is cancelled or rerouted. Name no advisor but our own; link to the expedition answers.",
+      "drafted": "2026-11-01",
+      "slug": "how-to-choose-an-expedition-cruise-advisor"
     }
   ]
 }
