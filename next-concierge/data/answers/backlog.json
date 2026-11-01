@@ -85,44 +85,56 @@
     {
       "id": "galapagos-best-time",
       "category": "Expedition",
-      "status": "queued",
+      "status": "drafted",
       "question": "When is the best time to visit the Galápagos?",
-      "angle": "Warm wet season vs. cool dry Garúa season, sea conditions, what wildlife is doing month by month, why there is no bad month. Name the ships that sail all year, including HX's Santa Cruz II (about two departures a month), and link to the Galápagos comparison."
+      "angle": "Warm wet season vs. cool dry Garúa season, sea conditions, what wildlife is doing month by month, why there is no bad month. Name the ships that sail all year, including HX's Santa Cruz II (about two departures a month), and link to the Galápagos comparison.",
+      "drafted": "2026-11-01",
+      "slug": "best-time-to-visit-galapagos"
     },
     {
       "id": "italy-lakes-como-vs-garda",
       "category": "Hotels",
-      "status": "queued",
+      "status": "drafted",
       "question": "Lake Como, Lake Garda or Lake Maggiore?",
-      "angle": "Character of each lake, best towns to base in, boats vs. roads, season. Evidence: Lombardia properties."
+      "angle": "Character of each lake, best towns to base in, boats vs. roads, season. Evidence: Lombardia properties.",
+      "drafted": "2026-11-01",
+      "slug": "lake-como-vs-lake-garda-vs-lake-maggiore"
     },
     {
       "id": "arctic-polar-bear-best-trip",
       "category": "Expedition",
-      "status": "queued",
+      "status": "drafted",
       "question": "What's the best trip for seeing polar bears?",
-      "angle": "Svalbard by ship (June to August) vs. Churchill by tundra vehicle (October to November); odds, ship size, what a sighting is actually like."
+      "angle": "Svalbard by ship (June to August) vs. Churchill by tundra vehicle (October to November); odds, ship size, what a sighting is actually like.",
+      "drafted": "2026-11-01",
+      "slug": "polar-bear-trip-svalbard-vs-churchill"
     },
     {
       "id": "family-safari-kids-age",
       "category": "Safari",
-      "status": "queued",
+      "status": "drafted",
       "question": "How old should children be for a luxury safari?",
-      "angle": "Camp minimum ages, private vehicles, malaria-free options in South Africa, family tents, what works at 6, 10 and teens."
+      "angle": "Camp minimum ages, private vehicles, malaria-free options in South Africa, family tents, what works at 6, 10 and teens.",
+      "drafted": "2026-11-01",
+      "slug": "safari-with-children-minimum-ages"
     },
     {
       "id": "venice-simplon-orient-express-worth-it",
       "category": "Rails",
-      "status": "queued",
+      "status": "drafted",
       "question": "Is the Venice Simplon-Orient-Express worth it?",
-      "angle": "What one night aboard is actually like: cabin types (historic cabins, suites, Grand Suites), shared vs. private bathrooms, dinner, the dress code, the routes. Honest about who it disappoints."
+      "angle": "What one night aboard is actually like: cabin types (historic cabins, suites, Grand Suites), shared vs. private bathrooms, dinner, the dress code, the routes. Honest about who it disappoints.",
+      "drafted": "2026-11-01",
+      "slug": "venice-simplon-orient-express-worth-it"
     },
     {
       "id": "caribbean-hurricane-season-travel",
       "category": "Planning",
-      "status": "queued",
+      "status": "drafted",
       "question": "Should you travel to the Caribbean in hurricane season?",
-      "angle": "June to November risk by month and by island (ABC islands lower), insurance, resort closures in September and October, the value in June and early December."
+      "angle": "June to November risk by month and by island (ABC islands lower), insurance, resort closures in September and October, the value in June and early December.",
+      "drafted": "2026-11-01",
+      "slug": "caribbean-hurricane-season-travel-by-month-and-island"
     },
     {
       "id": "african-safari-cost-what-drives-it",

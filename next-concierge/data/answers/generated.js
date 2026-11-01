@@ -1266,5 +1266,920 @@ export const generatedAnswers = [
         "label": "Virtuoso perks vs. booking direct"
       }
     ]
+  },
+  {
+    "slug": "best-time-to-visit-galapagos",
+    "category": "Expedition",
+    "question": "When is the best time to visit the Galápagos?",
+    "title": "Best Time to Visit the Galápagos: Season by Season, Month by Month",
+    "description": "Warm season or garúa season? How Galápagos weather, sea conditions and wildlife change through the year, why there is no bad month, and which expedition ships sail the islands year-round.",
+    "updated": "2026-11-01",
+    "capsule": "There is no bad month in the Galápagos, only a trade. December to May is the warm season: calmer seas, warmer water, sunshine broken by short showers. June to November is the cooler garúa season: misty skies, choppier seas, water cold enough for a wetsuit, and the busiest wildlife, fed by the nutrient-rich Humboldt Current. May and November often split the difference best.",
+    "answer": [
+      "The Galápagos sit on the equator, so day length barely changes and the resident animals, giant tortoises, sea lions, marine iguanas, blue-footed boobies, are there every month and do not fear people in any of them. What shifts is the ocean. From roughly December to May warm currents dominate: the water is at its warmest, the seas are usually at their calmest, and the weather is hot and bright with brief afternoon downpours that turn the lowlands green. It is the easier season for snorkelling, for anyone prone to seasickness, and for travellers who want sun on deck.",
+      "From roughly June to November the cold Humboldt Current takes over. Skies are often grey, a fine mist called garúa hangs over the highlands, the water drops to wetsuit temperatures and the seas pick up, typically at their roughest from about August to October. The counterintuitive part is that this 'dry' season is the richer one for wildlife: the cold water carries nutrients, so seabirds are busy nesting, sea lions are pupping, penguins are easier to find and whales are more likely. Choose by what you care about more, comfort in the water or activity on land and around the boat, and then pick the itinerary, because which islands a ship visits shapes the trip more than the month does."
+    ],
+    "sections": [
+      {
+        "h2": "Warm season vs. garúa season",
+        "table": {
+          "caption": "Approximate conditions; individual years vary.",
+          "columns": [
+            "",
+            "Warm season (about Dec–May)",
+            "Garúa season (about Jun–Nov)"
+          ],
+          "rows": [
+            [
+              "Weather",
+              "Hot, humid, sunny spells with short afternoon showers",
+              "Cooler, often overcast, misty drizzle in the highlands, little rain in the lowlands"
+            ],
+            [
+              "Water",
+              "Warmest of the year; many snorkel without a wetsuit",
+              "Cool to cold, especially in the west; a wetsuit is the norm"
+            ],
+            [
+              "Seas",
+              "Generally calmer",
+              "Choppier, typically roughest around August to October"
+            ],
+            [
+              "Landscape",
+              "Lowlands turn green",
+              "Lowlands dry and brown, highlands green and misty"
+            ],
+            [
+              "Wildlife emphasis",
+              "Turtle and iguana nesting, albatross arrival, land birds breeding",
+              "Seabird nesting, sea lion pupping, penguins, better odds of whales"
+            ],
+            [
+              "Crowds",
+              "Busy at Christmas, New Year and Easter",
+              "Busy June to August with school holidays"
+            ]
+          ]
+        },
+        "paras": [
+          "The two seasons blur at the edges, and El Niño years can stretch the warm season and dampen marine life, but the general pattern holds well enough to plan around. May and November are the transition months and often the best balance: reasonable water, settling seas, and fewer families than the June to August school holidays."
+        ]
+      },
+      {
+        "h2": "What the wildlife is doing, month by month",
+        "table": {
+          "columns": [
+            "Month",
+            "Conditions",
+            "Wildlife highlights"
+          ],
+          "rows": [
+            [
+              "January",
+              "Warm season under way, seas calm",
+              "Green sea turtles nesting; land iguanas breeding on Isabela; land birds start nesting"
+            ],
+            [
+              "February",
+              "Among the warmest water of the year",
+              "Greater flamingos nesting on Floreana; marine iguanas nesting on Santa Cruz"
+            ],
+            [
+              "March",
+              "Hottest and most humid, rain at its peak, seas usually calmest",
+              "Marine iguanas nesting on Fernandina; first waved albatrosses return to Española late in the month"
+            ],
+            [
+              "April",
+              "Still warm, rains easing, islands at their greenest",
+              "Waved albatross courtship on Española; green turtle hatchlings; land iguana hatchlings on Isabela"
+            ],
+            [
+              "May",
+              "Transition, drier, water still pleasant",
+              "Blue-footed booby courtship on North Seymour; waved albatrosses laying eggs"
+            ],
+            [
+              "June",
+              "Garúa begins, water cooling, winds rising",
+              "Giant tortoises on Santa Cruz move down to lowland nesting areas; whales may start to appear"
+            ],
+            [
+              "July",
+              "Cool and overcast, seas building",
+              "Blue-footed boobies nesting on Española; flightless cormorants courting on Fernandina"
+            ],
+            [
+              "August",
+              "Cool, among the choppiest months",
+              "Sea lion pupping under way; Galápagos hawks courting; Nazca boobies nesting"
+            ],
+            [
+              "September",
+              "Coolest water of the year",
+              "Penguins active around Bartolomé and the western islands; sea lions at their most playful"
+            ],
+            [
+              "October",
+              "Cool, garúa persists",
+              "Galápagos fur seals mating; blue-footed booby chicks; lava herons nesting"
+            ],
+            [
+              "November",
+              "Transition, seas settling, water starting to warm",
+              "Young sea lions curious in the water, good for snorkelling; brown noddies breeding"
+            ],
+            [
+              "December",
+              "Warm season returns, first rains",
+              "Giant tortoise eggs begin hatching; green turtles mating; young waved albatrosses leave Española"
+            ]
+          ]
+        },
+        "paras": [
+          "A broad calendar, not a timetable. Animals keep their own schedules and the park assigns which sites each ship visits, so check that the islands you care about are on the itinerary. Waved albatrosses, for example, breed almost only on Española and are largely absent from about January to March."
+        ]
+      },
+      {
+        "h2": "The ships that sail all year",
+        "paras": [
+          "The Galápagos National Park caps cruise ships at 100 guests, limits shore groups to 16 per naturalist guide, and assigns each vessel its itineraries, so the luxury ships are based in the islands permanently rather than visiting for a season. The main breaks in their calendars are dry-dock periods of a few weeks, which shift from year to year.",
+          "The ships most often compared, each sailing year-round:"
+        ],
+        "list": [
+          "Silver Origin (Silversea): the most hotel-like of the group, with butler service in every suite. {{journeys:vessel=Silver Origin}} itineraries in the atlas.",
+          "National Geographic Endeavour II and National Geographic Islander II (Lindblad Expeditions with National Geographic): the strongest naturalist and photography programme. {{journeys:vessel=National Geographic Islander II}} Islander II itineraries in the atlas.",
+          "Aqua Mare (Aqua Expeditions): a small, private-yacht-style vessel for a handful of guests. {{journeys:vessel=Aqua Mare}} itineraries in the atlas.",
+          "Santa Cruz II (HX Expeditions): a larger, more relaxed expedition ship, with HX departures about twice a month.",
+          "How they differ in cabins, guiding and price is covered in our Galápagos comparison, linked below."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "Hotels in Ecuador, for the nights either side of the cruise",
+      "note": "Every Ecuador property in the atlas. Galápagos cruises fly in from Quito or Guayaquil, and a night on the mainland beforehand protects against a missed connection. Each links to its own page, where the benefits on file for it are listed in full.",
+      "query": "country=Ecuador",
+      "sort": "name",
+      "limit": 10
+    },
+    "faqs": [
+      {
+        "q": "Do I need a wetsuit for snorkelling?",
+        "a": "From about June to November, yes, and the water in the west around Fernandina and Isabela is the coldest. In the warm season many people go without, though a thin shorty helps on longer swims. Most expedition ships carry wetsuits for guests; confirm sizes and whether there is a charge before you go."
+      },
+      {
+        "q": "Will I get seasick?",
+        "a": "Possibly, more so from about August to October. Most of the longer passages happen overnight, and larger ships ride the swell better than small yachts. If seasickness worries you, sail between February and May and choose one of the bigger vessels."
+      },
+      {
+        "q": "How far ahead should I book?",
+        "a": "For Christmas, New Year, Easter and June to August, a year ahead is sensible, because the ships are small and the best cabins go first. Other months usually have space six months out. This is where an advisor helps, by holding cabins on more than one ship while you decide."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/galapagos-lindblad-vs-silversea-vs-aqua",
+        "label": "Galápagos: Lindblad vs. Silversea vs. Aqua vs. HX"
+      },
+      {
+        "href": "/answers/smallest-luxury-expedition-ships",
+        "label": "The smallest luxury expedition ships, and why size matters"
+      },
+      {
+        "href": "/journeys/cruise",
+        "label": "Every cruise and expedition itinerary in the atlas"
+      },
+      {
+        "href": "/hotels/ecuador",
+        "label": "Hotels in Ecuador"
+      }
+    ]
+  },
+  {
+    "slug": "lake-como-vs-lake-garda-vs-lake-maggiore",
+    "category": "Hotels",
+    "question": "Lake Como, Lake Garda or Lake Maggiore: which Italian lake should you choose?",
+    "title": "Lake Como vs Lake Garda vs Lake Maggiore: Which Italian Lake to Book",
+    "description": "How Italy's three great lakes differ in character, where to base on each, when boats beat roads, and which months to go, with the {{hotels:region=Lombardia}} Lombardy properties in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "Choose Lake Como for grand villa hotels, steep wooded shores and the deepest choice of top-end rooms. Choose Lake Garda for space, sailing, spa resorts and an easy link to Verona and Venice. Choose Lake Maggiore for gardens, the Borromean Islands and a quieter Belle Époque pace near Malpensa. Base mid-lake on Como, on Garda's western shore, and at Stresa on Maggiore.",
+    "answer": [
+      "Lake Como is the one most people picture: narrow, deep and shaped like an inverted Y, with mountains dropping straight into the water and old villas along the shore, several of them now hotels. It has the densest concentration of serious luxury hotels of the three, and the summer crowds and prices that come with that. Lake Garda is the largest lake in Italy and really two lakes. The south, around Sirmione and Desenzano, is broad, flat and resort-like. The north, around Limone, Malcesine and Riva del Garda, is narrow and mountainous, with reliable winds that make it a sailing and windsurfing centre. Lake Maggiore is long, partly Swiss at its northern end, and noticeably calmer, known for its gardens and the three Borromean Islands off Stresa.",
+      "Where you sleep matters as much as which lake. On Como, base in the central lake, in Bellagio, Varenna, Tremezzina or Menaggio, where the boats tie everything together. Cernobbio and the southern shore put you close to Como town and Milan, at the cost of a longer ride to the middle of the lake. On Garda, the western shore between Salò and Gargnano holds the quieter high-end hotels, and Sirmione is better as a day or a night than a week. On Maggiore, Stresa is the practical base for the islands and the railway, with Verbania and Pallanza a calmer alternative across the gulf."
+    ],
+    "sections": [
+      {
+        "h2": "The three lakes side by side",
+        "table": {
+          "caption": "How the lakes compare for a stay of four nights or more.",
+          "columns": [
+            "",
+            "Lake Como",
+            "Lake Garda",
+            "Lake Maggiore"
+          ],
+          "rows": [
+            [
+              "Character",
+              "Narrow, steep, villas and gardens to the waterline",
+              "Wide and resort-like in the south, fjord-like in the north",
+              "Long and open, gardens, islands, Belle Époque hotels"
+            ],
+            [
+              "Regions",
+              "Lombardy",
+              "Lombardy (west), Veneto (east), Trentino (north tip)",
+              "Piedmont (west), Lombardy (east), Switzerland (north)"
+            ],
+            [
+              "Best bases",
+              "Bellagio, Varenna, Tremezzina, Menaggio; Cernobbio for Milan access",
+              "Gardone Riviera, Gargnano, Salò; Malcesine or Riva for the mountains",
+              "Stresa; Verbania and Pallanza for quiet"
+            ],
+            [
+              "Nearest airports",
+              "Milan Malpensa, Milan Linate, Bergamo",
+              "Verona; Bergamo and Venice are workable",
+              "Milan Malpensa, unusually close"
+            ],
+            [
+              "By train",
+              "Milan to Como, or Milan to Varenna",
+              "Desenzano and Peschiera, on the Milan to Venice line",
+              "Stresa, on the Milan to Domodossola line toward Switzerland"
+            ],
+            [
+              "Getting around",
+              "Boats, mostly; the shore roads are slow",
+              "Car, mostly; boats are scenic but slow end to end",
+              "Boats for the islands, car for the hills and Lake Orta"
+            ],
+            [
+              "Best for",
+              "Couples, villa gardens, a first lake trip",
+              "Families, sport, spa weeks, pairing with Verona or Venice",
+              "Garden lovers, repeat visitors, a quieter week"
+            ],
+            [
+              "Skip if",
+              "You dislike crowds in July and August",
+              "You want old-world grandeur on every corner",
+              "You want nightlife or a scene"
+            ]
+          ]
+        },
+        "paras": [
+          "The honest summary: Como is the most beautiful and the most crowded, Garda the most varied and the easiest with children, Maggiore the most restful and the least fashionable. None of them is a mistake, but they suit different trips."
+        ]
+      },
+      {
+        "h2": "Boats or roads",
+        "paras": [
+          "On Como the boat is the answer. The lake is narrow and the shore roads, especially the western one, are slow, twisting and congested in summer, with little parking in Bellagio or Varenna. On Garda it is the reverse: the lake is too big for boats to be practical end to end, and a car is the realistic way to see both shores. Maggiore sits between the two."
+        ],
+        "list": [
+          "Como: public ferries link Bellagio, Varenna and Menaggio frequently in season, so a mid-lake base needs no car at all. Car ferries cross between those towns and Cadenabbia, and faster hydrofoil services run up from Como town.",
+          "Como: a private boat with a driver, arranged through your hotel, is the most pleasant way to visit villas such as Balbianello and Carlotta, and it avoids the busiest ferry hours.",
+          "Garda: the western shore road runs through a long series of tunnels and is slow in summer. A car ferry between Toscolano-Maderno and Torri del Benaco saves the drive around the southern end.",
+          "Maggiore: public boats and private water taxis leave Stresa for Isola Bella, Isola Madre and Isola dei Pescatori. A car ferry links Intra and Laveno, and in season boats reach the Swiss shore at Locarno and Ascona.",
+          "Arriving: Maggiore and Como are easy from Malpensa by car or train. Garda is better approached from Verona."
+        ]
+      },
+      {
+        "h2": "When to go",
+        "paras": [
+          "May, June and September are the best months on all three lakes: warm enough to swim from a hotel lido, gardens in good shape, ferries on their full timetable. July and August are hot, humid and busy, with afternoon thunderstorms, and the weeks around Ferragosto on 15 August are the peak of the Italian holiday. April and early May are the time for the azaleas and rhododendrons at Villa Carlotta, Isola Madre and Villa Taranto.",
+          "Many of the best-known lake hotels close for winter, typically from around November to March or April, and ferry timetables shrink sharply outside summer, so check opening dates before planning anything at the edges of the season. On Como in June and September the hotels people want fill early and the difference between a true lake-view room and the rest is large; that is the one place where an advisor who knows the room plans changes the result."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "Lombardy properties in the atlas, smallest first",
+      "note": "Every property the supplier files under Lombardy: {{hotels:region=Lombardia}} in all, {{hotels:region=Lombardia&category=City Hotel}} of them city hotels. Lombardy covers Lake Como, Garda's western shore and Maggiore's eastern shore, but also Milan, so expect city hotels in the list. Stresa and Maggiore's Piedmont shore, and Garda's Veneto shore, sit outside it. Each links to its own page with the benefits currently on file.",
+      "query": "region=Lombardia",
+      "sort": "smallest",
+      "limit": 15
+    },
+    "faqs": [
+      {
+        "q": "Can you combine two lakes in one trip?",
+        "a": "Como and Maggiore pair easily, since both sit close to Milan and Malpensa, and small, quiet Lake Orta is just west of Maggiore if you want a third. Garda is further east and combines more naturally with Verona and Venice than with the other two lakes."
+      },
+      {
+        "q": "Do you need a car?",
+        "a": "Not on Como if you base in the central lake, where boats do everything better than a car. On Garda, largely yes, because the lake is big and the boats are slow over distance. On Maggiore you can manage the islands from Stresa without one, but a car helps for Lake Orta and the hills."
+      },
+      {
+        "q": "Which lake is best for families?",
+        "a": "Garda, usually. It has more beaches and flat shoreline, sailing and windsurfing in the north, and the Gardaland theme park near the south-eastern shore. Como's steep shores and couple-oriented villa hotels make it a better fit for adults, though it works for older children who enjoy boats."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/quietest-luxury-resorts-italy",
+        "label": "The quietest luxury resorts in Italy"
+      },
+      {
+        "href": "/answers/amalfi-coast-positano-vs-ravello-vs-amalfi",
+        "label": "Amalfi Coast: Positano, Ravello or Amalfi?"
+      },
+      {
+        "href": "/hotels/italy",
+        "label": "Every Italian hotel in the atlas"
+      },
+      {
+        "href": "/atlas/hotel",
+        "label": "The hotel atlas, on the map"
+      }
+    ]
+  },
+  {
+    "slug": "polar-bear-trip-svalbard-vs-churchill",
+    "category": "Expedition",
+    "question": "What's the best trip for seeing polar bears?",
+    "title": "Polar Bears: Svalbard by Ship or Churchill by Tundra Vehicle?",
+    "description": "Where to see polar bears: Churchill in October and November for near-certain, close sightings, or Svalbard by small expedition ship from June to August for wilder, more distant ones. Odds, ship size and what a sighting is actually like, across {{journeys:region=Arctic}} Arctic voyages and {{journeys:region=CHURCHILL}} Churchill itineraries in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "For the surest sighting, go to Churchill, Manitoba, in late October or early November, when bears gather on the Hudson Bay shore waiting for the sea ice and you watch them from tundra vehicles, often close. For a bear in a wilder setting, on pack ice or patrolling a coast, take a small expedition ship around Svalbard between June and August and accept fewer, more distant sightings.",
+    "answer": [
+      "If seeing polar bears is the whole point, Churchill is the answer. Each autumn the bears of western Hudson Bay come ashore near the town and wait for the bay to freeze so they can return to hunting seals. For a few weeks they are concentrated in a small area of flat, snowy tundra, and specially built tundra vehicles drive out among them. In a good week you see bears every day, sometimes many in a day, and some walk right up to the vehicle. The trade-off is that the setting is the same each day, the trip is short and cold, and you are watching from behind glass or from an open viewing platform rather than exploring.",
+      "Svalbard is a different holiday that happens to include polar bears. A small expedition ship circles the archipelago or pushes north to the edge of the pack ice, and the bears are one sighting among walrus, Arctic fox, reindeer, seabird cliffs and glaciers, under round-the-clock daylight. Most voyages see bears, but not every one, and the bear is often a cream-coloured shape on the ice watched through binoculars or a long lens. Our atlas holds {{journeys:region=Arctic}} Arctic voyages and {{journeys:region=CHURCHILL}} Churchill itineraries, the latter led by operators such as Natural Habitat ({{journeys:operator=Natural Habitat}} itineraries in all), so both are easy to book. The choice is really between certainty and closeness on one side and wildness and variety on the other."
+    ],
+    "sections": [
+      {
+        "h2": "Churchill and Svalbard side by side",
+        "table": {
+          "caption": "The two classic polar bear trips compared. Seasons are typical, and ice conditions shift them year to year.",
+          "columns": [
+            "",
+            "Churchill, Manitoba",
+            "Svalbard, Norway"
+          ],
+          "rows": [
+            [
+              "Best season",
+              "Late October to mid-November",
+              "June to August"
+            ],
+            [
+              "How you watch",
+              "From a tundra vehicle on the ground",
+              "From the ship's deck and by Zodiac"
+            ],
+            [
+              "Typical distance",
+              "Often close, sometimes beside the vehicle",
+              "Usually at a distance; long lens needed"
+            ],
+            [
+              "Odds of a sighting",
+              "Very high in peak weeks",
+              "Good on most voyages, not guaranteed"
+            ],
+            [
+              "Number of bears",
+              "Often several a day in peak weeks",
+              "Often a handful over a voyage, sometimes none"
+            ],
+            [
+              "Setting",
+              "Flat snowy tundra and frozen shoreline",
+              "Sea ice, fjords, glaciers, mountains"
+            ],
+            [
+              "Other wildlife",
+              "Arctic fox, ptarmigan, perhaps gyrfalcon",
+              "Walrus, reindeer, Arctic fox, seabirds, whales"
+            ],
+            [
+              "Light",
+              "Short days, dark nights, chance of aurora",
+              "Midnight sun, no aurora"
+            ],
+            [
+              "Getting there",
+              "Fly from Winnipeg; no road to Churchill",
+              "Fly to Longyearbyen via Oslo or Tromsø"
+            ],
+            [
+              "Trip length",
+              "Usually under a week",
+              "Usually eight to twelve days"
+            ],
+            [
+              "Who it suits",
+              "Bears first, photographers wanting close frames",
+              "Travellers wanting a full Arctic expedition"
+            ]
+          ]
+        },
+        "paras": [
+          "Neither is better in the abstract. Travellers who come home disappointed from Churchill usually wanted an expedition; travellers disappointed by Svalbard usually wanted a guaranteed close bear."
+        ]
+      },
+      {
+        "h2": "What a sighting is actually like",
+        "paras": [
+          "In Churchill the vehicle stops, the engine goes off and you wait. A bear asleep in the willows lifts its head, stands, and wanders over to sniff the tyres, or two young males rear up and spar in slow motion on the shoreline. You are elevated above the bear and safe, and the encounters last as long as the bear stays. The limits are the window glass, the other guests on the same side of the vehicle, and the fact that everything happens in the same few miles of tundra.",
+          "In Svalbard the call usually comes from the bridge, often at an odd hour because the light never ends. The ship slows and edges toward the ice, and the bear is a speck that becomes an animal as you close. Sometimes it is a mother with cubs on a floe, sometimes a bear on a seal kill with a fox waiting nearby, sometimes a bear walking a beach below a bird cliff. The ship holds back at a respectful distance under Norway's rules, so the frame is wide and wild rather than tight and personal. When it works, it is the image people mean when they picture a polar bear in its own world."
+        ]
+      },
+      {
+        "h2": "Ship size and season in Svalbard",
+        "paras": [
+          "In Svalbard the ship matters more than the brand on it."
+        ],
+        "list": [
+          "Small is the point. Norway now bars ships carrying more than 200 passengers from most of Svalbard's protected areas, which is where much of the bear country is. A smaller ship also lands everyone at once and gets more Zodiac time.",
+          "Ice class decides how far north you can go. Later in summer the pack ice retreats north, and a ship that can work along the ice edge has better odds than one that cannot.",
+          "June usually has more ice close to Spitsbergen, so bears can be nearer the fjords and the scenery is whiter. By August the ice has pulled back and voyages range further, but the coasts are more open for full circumnavigations.",
+          "Rules on approach distances and landings were tightened recently, so the close encounters of older photographs are less likely now. That is a good thing for the bears, and worth knowing before you choose a lens.",
+          "Bears can be anywhere ashore, so every landing is preceded by armed guides scouting the site. Expect landings to be cancelled when a bear is near; that cancellation is often your sighting."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can I see polar bears and the northern lights on the same trip?",
+        "a": "In Churchill, yes. October and November nights are long and dark and Churchill sits under the auroral oval, so clear nights can bring both. In Svalbard in summer, no: the midnight sun means there is no darkness to see an aurora."
+      },
+      {
+        "q": "Do Greenland or Northwest Passage voyages see polar bears?",
+        "a": "Sometimes, but less reliably. Bears are spread thinly across Greenland and the Canadian High Arctic, and those routes are chosen for icebergs, Inuit communities and history. If bears are the priority, Svalbard or Churchill gives you far better odds."
+      },
+      {
+        "q": "What lens do I need?",
+        "a": "In Churchill a 100–400mm zoom covers most situations because the bears come close. In Svalbard bring the longest lens you can handhold steadily, ideally reaching 500 or 600mm, and good binoculars for everyone; many sightings stay distant."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/best-arctic-expedition-svalbard-greenland-northwest-passage",
+        "label": "Svalbard, Greenland or the Northwest Passage: the wider Arctic choice"
+      },
+      {
+        "href": "/answers/smallest-luxury-expedition-ships",
+        "label": "The smallest luxury expedition ships, and why size matters"
+      },
+      {
+        "href": "/answers/best-expedition-cruises-for-photographers",
+        "label": "Expedition cruises for photographers"
+      },
+      {
+        "href": "/answers/where-to-stay-to-see-the-northern-lights",
+        "label": "Where to stay to see the northern lights"
+      }
+    ]
+  },
+  {
+    "slug": "safari-with-children-minimum-ages",
+    "category": "Safari",
+    "question": "How old should children be for a luxury safari?",
+    "title": "Safari With Children: Minimum Ages, Private Vehicles and What Works at 6, 10 and 15",
+    "description": "The honest age guide to a luxury family safari: camp minimum ages, why a private vehicle matters, malaria-free reserves in South Africa, family tents, and what works at 6, 10 and in the teens.",
+    "updated": "2026-11-01",
+    "capsule": "Six is the practical starting point, because many luxury camps set six as the minimum for open-vehicle game drives. Ten to twelve is where a safari works with few compromises. Under six, choose a malaria-free South African reserve such as Madikwe or the Eastern Cape and book a private vehicle. Teenagers open everything else, including walking safaris and, from 15, gorilla trekking.",
+    "answer": [
+      "Six is the age most families can realistically start, because it is the most common minimum for children on open game-drive vehicles, though some camps set eight or twelve and a few are adults-only. At six it works best in a malaria-free South African reserve, in a lodge with a family suite and a pool, with a private vehicle so the drive ends when your child is done rather than when the guide planned. Below six it is still possible at a smaller number of family-minded lodges, but you are choosing the lodge for the children first and the wildlife second.",
+      "Around ten, the trade-offs largely disappear. A ten-year-old can sit through a three-hour drive, follow a tracker, cope with light-aircraft hops in Botswana, and remember the trip. The teenage years add what younger children cannot do at all: walking safaris, which usually start at 12 or 16 depending on the camp and country, and gorilla trekking in Rwanda and Uganda, where the minimum age is 15. If you have a choice of when to go, a child of ten or older gets far more of the trip, and the trip asks far less of you."
+    ],
+    "sections": [
+      {
+        "h2": "What works at each age",
+        "table": {
+          "caption": "General patterns across luxury camps and lodges; individual camp rules vary.",
+          "columns": [
+            "Age",
+            "What works",
+            "Where it fits best",
+            "Watch for"
+          ],
+          "rows": [
+            [
+              "Under 6",
+              "Short drives in a private vehicle, a lodge with family suites, a pool and ideally a children's programme",
+              "Malaria-free South African reserves: Madikwe, the Eastern Cape, the Waterberg",
+              "Many camps will not take children this young on drives at all; check before booking flights"
+            ],
+            [
+              "6 to 9",
+              "Open-vehicle drives at many camps, usually with a private vehicle required or strongly advised",
+              "South Africa, including malaria-area reserves if you accept prophylaxis; some Kenyan conservancy camps",
+              "Long drives, early starts, unfenced camps where children must be escorted after dark"
+            ],
+            [
+              "10 to 12",
+              "Most camps, fly-in itineraries, multi-camp trips, the Great Migration",
+              "Botswana, Kenya, Tanzania, Zambia",
+              "Light-aircraft luggage limits, a few camps still set 12 as the minimum"
+            ],
+            [
+              "13 to 17",
+              "Walking safaris, longer itineraries, gorilla trekking from 15",
+              "Zambia and Zimbabwe for walking, Rwanda and Uganda for gorillas",
+              "Walking minimums of 12 or 16 depending on the camp and park"
+            ]
+          ]
+        },
+        "paras": [
+          "Minimum ages are set camp by camp, not country by country, so two lodges in the same reserve can have different rules. Treat the table as the general pattern and check each camp before committing to a route."
+        ]
+      },
+      {
+        "h2": "What to check with every camp",
+        "paras": [
+          "The rules that shape a family safari are rarely on the front page of a lodge's website. These are the ones to confirm in writing before you pay a deposit. Family units are the scarcest inventory in most camps, often one or two per property, so this is where booking early through an advisor who knows which camps genuinely welcome children makes the difference between the trip you wanted and a compromise."
+        ],
+        "list": [
+          "Minimum age for game drives, and whether it differs for walks, boating or mokoro activities.",
+          "Whether a private vehicle is required for families with children under a certain age, and whether it is included or charged.",
+          "Family accommodation: a two-bedroom tent or suite, or two connecting units. Many camps will not let children sleep in a tent without an adult.",
+          "Whether the camp is fenced. Most wilderness camps are not, which means children are escorted to and from their tent after dark.",
+          "Meal arrangements. Some camps offer an earlier children's dinner; others expect everyone at one table late in the evening.",
+          "Childcare or a children's activity programme, which a handful of lodges run and most do not.",
+          "Light-aircraft baggage limits on fly-in itineraries, usually soft bags only with a strict weight allowance per person."
+        ]
+      },
+      {
+        "h2": "Malaria-free South Africa, compared",
+        "table": {
+          "columns": [
+            "Reserve",
+            "Getting there",
+            "Why families pick it",
+            "Trade-off"
+          ],
+          "rows": [
+            [
+              "Madikwe",
+              "Drive from Johannesburg or a short charter flight",
+              "Big Five, a wide choice of lodges, several that welcome young children",
+              "Further from Johannesburg than the Waterberg"
+            ],
+            [
+              "Eastern Cape private reserves (such as Shamwari and Kwandwe)",
+              "Short drive from Gqeberha (Port Elizabeth)",
+              "Combines easily with the Garden Route and Cape Town",
+              "Landscape is scrub and valley thicket rather than classic savannah"
+            ],
+            [
+              "Waterberg (such as Welgevonden)",
+              "Drive from Johannesburg",
+              "Closest malaria-free Big Five option to Johannesburg",
+              "Hillier terrain, game can be harder to find"
+            ],
+            [
+              "Kalahari (Tswalu)",
+              "Charter flight",
+              "Meerkats and Kalahari species, a very different safari",
+              "Not a classic Big Five experience; higher cost of access"
+            ]
+          ]
+        },
+        "paras": [
+          "For young children the strongest single decision is to avoid malaria altogether, because some antimalarial drugs are not suitable for small children and a travel doctor may advise against them. South Africa has several malaria-free reserves with Big Five game viewing. The trade-off is honest: these reserves are excellent, but the density and the sense of vast, unfenced wilderness you get in the Sabi Sand or the Okavango are not quite the same."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "South African safari lodges in the atlas, smallest first",
+      "note": "Every property in South Africa the supplier files as a lodge or safari camp. Not every one is in a malaria-free reserve or takes young children, so check each lodge's own page and its child policy. Each links to its page, where the benefits currently on file are listed in full.",
+      "query": "category=Lodge / Safari&country=South Africa",
+      "sort": "smallest",
+      "limit": 15
+    },
+    "faqs": [
+      {
+        "q": "Is a private vehicle worth it with children?",
+        "a": "Yes, and at many camps it is required for families with younger children. It lets you leave a sighting or end a drive when a child has had enough, stop for snacks and questions, and avoids the tension of sharing a vehicle with photographers who have waited all day for a leopard. Some camps include it for families; others charge for it."
+      },
+      {
+        "q": "Can we take a four-year-old on safari?",
+        "a": "Yes, but choose carefully. Look for a malaria-free South African lodge that explicitly accepts young children on drives, has a family suite and runs some form of children's activities or childminding. Expect shorter drives and plan the days around the child rather than the game."
+      },
+      {
+        "q": "What is the minimum age for gorilla trekking?",
+        "a": "15, in both Rwanda and Uganda, and it is enforced at the permit check. Families with younger children often pair a South African or East African safari now and save the gorillas for a later trip."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/botswana-vs-kenya-vs-south-africa-first-safari",
+        "label": "Botswana, Kenya or South Africa for a first safari"
+      },
+      {
+        "href": "/answers/gorilla-trekking-rwanda-vs-uganda",
+        "label": "Gorilla trekking: Rwanda or Uganda, once the children are 15"
+      },
+      {
+        "href": "/answers/which-safari-operator-should-you-book",
+        "label": "Which safari operator to book"
+      },
+      {
+        "href": "/hotels/south-africa",
+        "label": "Every South African property in the hotel atlas"
+      }
+    ]
+  },
+  {
+    "slug": "venice-simplon-orient-express-worth-it",
+    "category": "Rails",
+    "question": "Is the Venice Simplon-Orient-Express worth it?",
+    "title": "Is the Venice Simplon-Orient-Express Worth It? One Night Aboard, Honestly",
+    "description": "What a night on Belmond's Venice Simplon-Orient-Express is actually like: Historic Cabins, Suites and Grand Suites, shared versus private bathrooms, dinner, the dress code, the routes, and who comes off disappointed. Across {{journeys:vessel=Venice Simplon-Orient-Express}} itineraries in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "Yes, if you are buying an evening rather than a bed. One night on the Venice Simplon-Orient-Express is a long, dressed-up dinner in restored 1920s carriages, a piano bar and a small cabin. Historic Cabins have bunks and a washbasin, with shared toilets and no shower. Suites and Grand Suites add private bathrooms. Travelers expecting hotel comfort or a full night's sleep are the ones disappointed.",
+    "answer": [
+      "The Venice Simplon-Orient-Express, run by Belmond, is a set of restored vintage sleeping cars, dining cars and a bar car, most of them dating from the 1920s and 1930s. The classic trip is one night: you board in Paris, or in London with a separate morning on Belmond's British Pullman and a coach transfer through the Channel Tunnel, and you arrive in Venice the following afternoon. Belmond also runs occasional departures to and from cities such as Vienna, Prague and Budapest, and a longer annual journey between Paris and Istanbul. Our atlas holds {{journeys:vessel=Venice Simplon-Orient-Express}} itineraries on this train.",
+      "What you are paying for is the evening. Afternoon in a wood-panelled compartment, a multi-course dinner in a dining car where everyone has dressed for it, then the bar car and its piano until late. The cabin is the weak link at the entry level: Historic Cabins are compact, the beds are upper and lower berths, and the toilets are at the end of the carriage with no shower anywhere for those guests. Suites and Grand Suites fix the bathroom problem and widen the room, at a steep step up in price. If you treat it as one extraordinary night between two good hotels, it is usually worth it. If you treat it as transport or as a hotel on wheels, it rarely is."
+    ],
+    "sections": [
+      {
+        "h2": "The three cabin types, side by side",
+        "table": {
+          "caption": "Cabin layouts as Belmond describes them. Allocation within a category, and exact fittings, vary by carriage.",
+          "columns": [
+            "Cabin",
+            "Beds",
+            "Bathroom",
+            "Shower",
+            "Best for"
+          ],
+          "rows": [
+            [
+              "Historic Cabin",
+              "Upper and lower berth, made up at night from a daytime sofa",
+              "Washbasin in cabin; toilets shared at the end of the carriage",
+              "None",
+              "Couples who are comfortable in close quarters and treat it as one night"
+            ],
+            [
+              "Suite",
+              "Twin or double, larger than a Historic Cabin, with a separate seating arrangement",
+              "Private en-suite toilet",
+              "Yes, in the suite",
+              "Most first-timers who can stretch the budget"
+            ],
+            [
+              "Grand Suite",
+              "Double bed, the most space on the train",
+              "Private en-suite bathroom",
+              "Yes, in the suite",
+              "An anniversary or milestone, where the privacy is the point"
+            ]
+          ]
+        },
+        "paras": [
+          "The cabin decides how the night feels more than anything else on board. Historic Cabins are the original compartments: a banquette sofa by day, converted by your steward into bunks while you are at dinner. Suites were created later by combining space in the old carriages, and Grand Suites are the largest accommodation on the train, each decorated around a city on the network.",
+          "Large luggage travels in a separate baggage car and is not reachable during the journey, so pack one small overnight bag with your evening clothes, sleepwear and the next day's outfit. Space in a Historic Cabin is tight even for that."
+        ]
+      },
+      {
+        "h2": "What the night actually looks like",
+        "paras": [
+          "The rhythm is the same on most one-night departures, and it is worth knowing in advance because there is less free time than people expect."
+        ],
+        "list": [
+          "Boarding: your cabin steward shows you in, and the compartment is set up as a sitting room for the afternoon.",
+          "Afternoon: tea or a light meal, the countryside out of the window, and time to change. Dress-up starts early.",
+          "Dinner: several courses in one of the three restored dining cars, one of them known for its Lalique glass panels. Seating times are assigned, and tables are close together.",
+          "Late evening: the bar car, with a pianist, gets crowded after dinner. This is the part people remember.",
+          "Night: your steward has made up the beds. The train moves, stops and shunts through the night, and older carriages are not quiet.",
+          "Morning: breakfast is brought to the cabin, followed by a later meal in the dining car before arrival in Venice in the afternoon."
+        ]
+      },
+      {
+        "h2": "Who it disappoints, and who it does not",
+        "paras": [
+          "The complaints are consistent, and almost all of them come from mismatched expectations rather than from the train failing at what it is."
+        ],
+        "list": [
+          "Light sleepers. Vintage bogies, curves and night-time stops mean a broken night for many guests, whatever the cabin.",
+          "Anyone who needs a morning shower and has booked a Historic Cabin. You will arrive in Venice having washed at a basin.",
+          "Tall travelers or anyone uneasy with ladders. The upper berth in a Historic Cabin is narrow and reached by a short ladder.",
+          "Travelers with limited mobility. Corridors are narrow, steps into carriages are steep, and the carriages are historic rather than adapted.",
+          "People who dislike dressing up. Evening wear is expected and most guests go to black tie, so jeans-and-sneakers travelers feel out of place, and Belmond does not permit them on board.",
+          "Value-per-hour shoppers. Measured against a five-star hotel night plus a first-class daytime train, the numbers never work. It is priced as an occasion.",
+          "It suits: couples marking something, rail enthusiasts, people who enjoy the ceremony of dressing for dinner, and anyone who will build a Venice stay around the arrival rather than rushing on."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "Where to stay when you step off in Venice",
+      "note": "Properties in the Veneto from the supplier feed, smallest first, since an intimate hotel suits the end of this trip better than a large one. Each links to its own page, where the benefits currently on file for it are listed in full.",
+      "query": "region=Veneto",
+      "sort": "smallest",
+      "limit": 12
+    },
+    "faqs": [
+      {
+        "q": "Is a Suite worth the upgrade over a Historic Cabin?",
+        "a": "For most first-timers, yes. The private toilet and shower change the morning completely, and the extra room makes changing for dinner easy. If budget is the constraint, a Historic Cabin is fine for one night as long as you go in knowing there is no shower and the beds are bunks. A Grand Suite is worth it only when privacy and space are the reason for the trip."
+      },
+      {
+        "q": "Should I start in London or Paris?",
+        "a": "Paris is the simpler, purer version: you board the sleeping train directly. London adds a morning on the British Pullman to the coast and a coach transfer through the Channel Tunnel before you join the main train in France, which makes for a long first day but gives you two vintage trains instead of one."
+      },
+      {
+        "q": "Is this the same as the La Dolce Vita Orient Express?",
+        "a": "No. The Venice Simplon-Orient-Express is operated by Belmond. La Dolce Vita Orient Express is a separate, newer train under Accor's Orient Express brand, running routes within Italy with newly designed interiors. They share a name and a heritage, not an operator, and the experience on board is different."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/best-luxury-train-journeys",
+        "label": "The best luxury train journeys in the world, compared"
+      },
+      {
+        "href": "/journeys/train",
+        "label": "Every train itinerary in the atlas"
+      },
+      {
+        "href": "/atlas/train",
+        "label": "The train atlas, on the map"
+      },
+      {
+        "href": "/hotels/italy",
+        "label": "Hotels in Italy for the Venice end of the trip"
+      }
+    ]
+  },
+  {
+    "slug": "caribbean-hurricane-season-travel-by-month-and-island",
+    "category": "Planning",
+    "question": "Should you travel to the Caribbean in hurricane season?",
+    "title": "Caribbean Hurricane Season: When It's Worth Going, and Where",
+    "description": "The Atlantic hurricane season runs June to November, but the real risk sits between mid-August and mid-October. Here is the risk by month and by island, what insurance actually covers, the September and October closures, and why June and early December are the best value.",
+    "updated": "2026-11-01",
+    "capsule": "Often yes, in June, July and from mid-November, with insurance bought early. The Atlantic season runs 1 June to 30 November, but most hurricanes fall between mid-August and mid-October, when many resorts on islands such as St Barths and Anguilla close anyway. If you must travel at the peak, Aruba, Bonaire and Curaçao sit south of the usual storm tracks and carry far lower risk.",
+    "answer": [
+      "The official season is long, and the risk inside it is uneven. June and July are usually quiet, and early storms tend to be weaker. Activity builds through August, peaks around 10 September, and stays high into October, with late-season storms often forming in the western Caribbean. By late November the season is effectively over. The chance that a storm disrupts any particular week on any particular island is low, but a disruption is costly when it happens: a cancelled trip, a shortened one, or a hotel running on generators with half its restaurants shut.",
+      "The honest answer depends on the month and the island. June is the best-kept value in the Caribbean: winter rates have dropped, resorts are fully open and staffed, and the weather is hot but generally settled. Early December, after the season ends and before festive-period rates and minimum stays begin around the third week of the month, is the other window worth targeting. September and October are the months to avoid on most islands, partly for the storms and partly because much of the high end closes for refurbishment. The exception is the ABC islands off Venezuela, which are rarely hit and stay open year-round."
+    ],
+    "sections": [
+      {
+        "h2": "Risk by month, June to early December",
+        "table": {
+          "caption": "Atlantic hurricane season by month, from a traveler's point of view.",
+          "columns": [
+            "Month",
+            "Storm risk",
+            "What the islands are like",
+            "Worth going?"
+          ],
+          "rows": [
+            [
+              "June",
+              "Low; early storms are usually weaker and often form in the Gulf or western Caribbean",
+              "Resorts open and staffed, rates well below winter, hot and humid",
+              "Yes, the best value of the year"
+            ],
+            [
+              "July",
+              "Low to moderate, rising",
+              "Summer family travel, still fully open",
+              "Yes, with insurance; Beryl in 2024 showed the eastern islands can be hit early"
+            ],
+            [
+              "August",
+              "Moderate, climbing sharply in the second half",
+              "Storms from off West Africa start tracking toward the Leeward Islands",
+              "First half yes; second half only for the ABC islands"
+            ],
+            [
+              "September",
+              "Peak",
+              "Many resorts on St Barths, Anguilla and elsewhere close for maintenance; restaurants thin out",
+              "Only the ABC islands"
+            ],
+            [
+              "October",
+              "High, especially in the western Caribbean",
+              "Closures continue into the second half of the month; reopenings begin",
+              "Late October on the ABC islands; elsewhere, skip"
+            ],
+            [
+              "November",
+              "Declining; settled by the second half in most years",
+              "Resorts reopen, often with refreshed rooms; Thanksgiving week prices up",
+              "Second half, yes"
+            ],
+            [
+              "Early December",
+              "Season over",
+              "Dry season beginning, before festive rates and minimum stays",
+              "Yes, the second value window"
+            ]
+          ]
+        },
+        "paras": [
+          "The pattern below is the long-run average, not a forecast. Any season can produce an early or late outlier, and a storm in July or November is unusual rather than impossible."
+        ]
+      },
+      {
+        "h2": "Risk by island",
+        "table": {
+          "caption": "Relative exposure, by island group. A guide to the odds, not a guarantee.",
+          "columns": [
+            "Islands",
+            "Relative exposure",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Aruba, Bonaire, Curaçao",
+              "Lowest",
+              "South of the main belt and rarely hit directly; Aruba is dry year-round; passing storms to the north can still bring rough seas"
+            ],
+            [
+              "Barbados, Grenada, St Lucia",
+              "Lower, not immune",
+              "Southern position helps, but Ivan (2004) and Beryl (2024) are the reminders"
+            ],
+            [
+              "Anguilla, St Barths, St Martin, Antigua, St Kitts and Nevis, British Virgin Islands",
+              "Higher, August to October",
+              "On the main track for storms crossing from the east; Irma struck in September 2017; many resorts close in September and October"
+            ],
+            [
+              "Puerto Rico, US Virgin Islands",
+              "Higher, August to October",
+              "Maria in September 2017 is the benchmark"
+            ],
+            [
+              "Bahamas, Turks and Caicos",
+              "Higher, August to October",
+              "Dorian stalled over the northern Bahamas in September 2019"
+            ],
+            [
+              "Jamaica, Cayman Islands, Mexico's Caribbean coast",
+              "Moderate to higher, including late season",
+              "Western Caribbean storms can form in October and early November"
+            ]
+          ]
+        },
+        "paras": [
+          "Geography does most of the work. The main storm tracks run west across the Leeward Islands and Puerto Rico toward the Bahamas, Turks and Caicos and the Gulf, or form late in the season in the western Caribbean. Islands at the southern edge of the region sit below most of that traffic. Lower risk is not zero risk: Grenada was devastated by Ivan in 2004, and Beryl struck its island of Carriacou in July 2024.",
+          "Our atlas holds {{hotels:country=Aruba}} properties in Aruba, {{hotels:country=Barbados}} in Barbados and {{hotels:country=Grenada}} in Grenada, against {{hotels:country=Saint Barthélemy}} in St Barths and {{hotels:country=Turks And Caicos Islands}} in Turks and Caicos, where the peak months carry more risk."
+        ]
+      },
+      {
+        "h2": "Insurance, closures and how to book a season trip",
+        "paras": [
+          "Insurance is where most travelers go wrong. A standard policy covers a hurricane only as an unforeseen event, and a storm becomes foreseen the moment it is named. Buy cover when you pay the deposit, not the week before departure."
+        ],
+        "list": [
+          "Buy travel insurance at deposit. Once a storm is named, new policies will not cover it.",
+          "Read what triggers cancellation cover: usually a cancelled flight or a destination declared uninhabitable, not simply a forecast you dislike.",
+          "Cancel For Any Reason cover usually has to be bought within a short window after the first deposit, and refunds only part of non-refundable costs.",
+          "Ask the resort or villa company for its written hurricane policy. Some will rebook or refund if a hurricane warning is issued for the island; the terms vary and the trigger matters.",
+          "Check closure dates before you plan around a specific hotel in late August to late October. On St Barths in particular, much of the island shuts.",
+          "Prefer flexible rates over prepaid ones from mid-August, even at a higher price. The saving on a prepaid rate disappears with one storm.",
+          "A cruise or yacht itinerary can reroute around a storm in a way a resort cannot, though most luxury lines leave the Caribbean for the summer.",
+          "When a storm forms, rebooking flights and rooms at once is where an advisor with direct lines to the hotels saves a day of hold music."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "Aruba, the low-risk island for September and October",
+      "note": "Every Aruba property in the atlas, from the supplier feed. Aruba sits south of the main hurricane tracks and stays open through the peak months. Each links to its own page, where the benefits on file for it are listed in full.",
+      "query": "country=Aruba",
+      "sort": "name",
+      "limit": 10
+    },
+    "faqs": [
+      {
+        "q": "Does travel insurance cover a hurricane?",
+        "a": "Usually, if you bought the policy before the storm was named and the storm causes a covered event, such as cancelled flights or the hotel becoming uninhabitable. If you buy after the storm is named, that storm is excluded. Cancel For Any Reason cover is broader but must be bought soon after your first deposit and repays only part of your costs."
+      },
+      {
+        "q": "What is a hurricane guarantee?",
+        "a": "A resort or villa company's own promise to rebook or refund if a hurricane affects your dates. The detail that matters is the trigger: some activate on an official hurricane warning for the island, which means conditions are expected within 36 hours, and that can be too late to change flights cheaply. Get the policy in writing before you pay."
+      },
+      {
+        "q": "Is Aruba really safe from hurricanes?",
+        "a": "It is rarely hit directly, because it lies south of the path most storms take, and that is why it is the default choice for September and October. It is not impossible, and storms passing to the north can bring rain and rough seas for a day or two. Bonaire and Curaçao share the same advantage."
+      }
+    ],
+    "related": [
+      {
+        "href": "/hotels/aruba",
+        "label": "Every Aruba hotel in the atlas"
+      },
+      {
+        "href": "/hotels/barbados",
+        "label": "Barbados hotels, at the southern edge of the storm belt"
+      },
+      {
+        "href": "/answers/best-caribbean-villas-for-12-guests",
+        "label": "The best Caribbean villas for 12 or more guests"
+      },
+      {
+        "href": "/answers/do-travel-advisors-cost-more",
+        "label": "Do travel advisors cost more than booking yourself?"
+      }
+    ]
   }
 ];
