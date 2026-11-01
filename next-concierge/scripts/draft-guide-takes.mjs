@@ -130,6 +130,8 @@ Voice: in the spirit of a classic mail-order travel catalogue. Evocative, a litt
 Hard rules:
 - Use only facts stated in the PAGE FACTS. Add nothing from general knowledge, however true it is: no history, no people, no geography, no climate or seasons, no comparisons with other places, unless the page states it.
 - No numbers, prices, dates or offer terms unless they appear in the page facts exactly as written.
+- Nothing time-bound. The page's departures and offers refresh nightly; this note does not. So no dates or years, no named offers or promotions or their deadlines, no "only one departure" or departure counts, no "book early because". Timeless facts only: the place, the rooms or cabins, the food, the route, what is included, the standing booking benefits.
+- Do not recite the itinerary stop by stop. Pick the one or two places that give the trip its character.
 - Include one practical tip a traveller can act on, drawn from the facts: a room or cabin to ask for, a benefit worth using, a day to plan around, when to arrive.
 - If the page lists booking benefits, you may mention one or two, framed as booked through Aspen.
 - 60 to 95 words, one paragraph. No headings, lists, emoji or exclamation marks.
@@ -147,6 +149,7 @@ The note passes only if every factual statement in it is directly supported by t
 - a fact that belongs to something else mentioned on the page;
 - overstatement that changes the meaning (the page says "many rooms", the note says "every room");
 - naming any brand other than Aspen Travel Advisors as who the traveller books with.
+- anything time-bound: a date or year, a named offer or promotion or its deadline, a count of departures. These change nightly on the page and the note would go stale.
 
 Evocative phrasing, mood and opinion that make no factual claim are fine. Do not fail a note for style.
 
@@ -295,5 +298,12 @@ if (failed.length) {
   lines.push('## Could not be read', '');
   for (const f of failed) lines.push(`- \`${f.path}\` — ${f.error}`);
 }
-fs.writeFileSync(PR_BODY, `${lines.join('\n')}\n`);
+// GitHub refuses a PR body over 65,536 characters; a full pilot of notes runs
+// past that. Every note is in the diff regardless, so cut the listing short.
+let body = `${lines.join('\n')}\n`;
+const MAX_BODY = 60000;
+if (body.length > MAX_BODY) {
+  body = `${body.slice(0, MAX_BODY).replace(/\n[^\n]*$/, '')}\n\n_…listing cut short for length. Every note is in the diff of \`data/notes/guide-takes.json\`._\n`;
+}
+fs.writeFileSync(PR_BODY, body);
 console.log(`\nWrote ${written.length}, rejected ${rejected.length}, failed ${failed.length}. PR body: ${path.relative(root, PR_BODY)}`);
