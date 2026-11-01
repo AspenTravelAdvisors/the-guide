@@ -2882,3 +2882,39 @@ three places rather than playing it.
 - Overpass is unreachable from the sandbox this was built in: the build was
   run against a stand-in Overpass with real terrain, and the geometry is in
   `verify:flyover`. The first real run is the workflow's.
+
+## Lead engine: partner links, bucket-list watch, reels in every hand-off (2026-10-31)
+
+Three ways to grow and warm the lead flow, built on what was already here.
+
+- **Partner referral links.** `?ref=<code>` on any page (a flyover reel included)
+  credits the visitor to a referral partner for 90 days, first touch
+  (`lib/referral.ts`, captured in `ArrivalCapture`). Partners are listed in
+  `data/partners.json`; a listed one gets a "Shared with you by …" ribbon
+  (`components/PartnerRibbon.tsx`, hidden on `/demo`) and is named in the
+  hand-off's subject and body. An unlisted code is still recorded on the lead but
+  shows nothing on the page. Analytics: `partner_arrival`, and a `partner` prop on
+  `advisor_request_sent`, `booking_clicked` and `bucket_watch_set`.
+- **Bucket-list watch.** The bucket list asks for an email to watch the list
+  (`POST /api/watch`). The request goes straight to the lead inbox as a lead, and
+  is stored in the shared Redis store (`lib/kv.ts`) with a fingerprint of each
+  item: live promotions for a hotel, promotions plus future departure dates for a
+  route collection (`lib/watch.ts`). `GET /api/watch/digest`, on Vercel Cron at
+  13:00 UTC (after the 09:00 sync deploys), sends ONE note per changed watch to
+  the lead inbox, so an advisor writes to the traveler personally. The first look
+  only records a baseline, a failed send keeps the old fingerprint so it is
+  retried, and villas and ids the indexes cannot find are kept but never alert.
+  Needs `CRON_SECRET` on the project (the route refuses everyone without it) and
+  the Upstash/KV env vars (without them the lead still reaches the inbox, which
+  is told no alerts will follow).
+- **Flyover reels in every hand-off.** The advisor context now carries the
+  shortlist as `{type, id, name}` (`shortlistRefs`), and the email gets a
+  "Send first: flyover reels" block for every hotel on it, carrying the
+  partner's `ref`. The traveler's "Sent" dialog offers the same reels to watch
+  while they wait. The Formspree POST moved to `lib/lead-inbox.ts`, shared by
+  all three routes.
+
+Verified against stand-ins for Formspree and Upstash: sign-up, de-duplication,
+a quiet night, a night with new offers and departures (one email, then quiet),
+unknown and malformed partner codes, and a non-hotel id dropped from the reels.
+Not verified: a real Vercel Cron run and the real Upstash store.

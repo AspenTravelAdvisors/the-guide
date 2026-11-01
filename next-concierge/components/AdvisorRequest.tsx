@@ -26,6 +26,8 @@ import {
 import { peekTurns } from "@/lib/conversation-store";
 import { advisorRequestSent, advisorCtaClicked, type AdvisorSource } from "@/lib/analytics";
 import { arrivalLanding, arrivalSource } from "@/lib/arrival";
+import { referralCode } from "@/lib/referral";
+import { flyoverLink, isHotelId } from "@/lib/atlas/flyover-bus";
 
 /** The single, never-varying label. Say it the same way every time. */
 export const ADVISOR_CTA = "Send this to an advisor";
@@ -165,6 +167,7 @@ function AdvisorForm({
           shortlist: context.shortlist,
           shortlistSource: context.shortlistSource,
           shortlistTotal: context.shortlistTotal,
+          shortlistItems: context.shortlistRefs,
           deepLink: context.deepLink,
           contact: { name: name.trim(), email: cleanEmail, phone: phone.trim() },
           notes: notes.trim(),
@@ -172,6 +175,7 @@ function AdvisorForm({
           pageUrl: typeof window !== "undefined" ? window.location.href : "",
           aiSource: arrivalSource(),
           aiLanding: arrivalLanding(),
+          partner: referralCode(),
         }),
       });
       if (!res.ok) {
@@ -193,6 +197,11 @@ function AdvisorForm({
   };
 
   if (phase === "done") {
+    // Something to look at while they wait: the same reels the advisor's email
+    // carries, for the hotels on what they just sent.
+    const reels = context.shortlistRefs
+      .filter((r) => r.type === "hotel" && isHotelId(r.id))
+      .slice(0, 3);
     return (
       <>
         <div className="adv-head">
@@ -213,6 +222,22 @@ function AdvisorForm({
           hours. Keep exploring in the meantime — anything else you find, you can send across the
           same way.
         </p>
+        {reels.length > 0 && (
+          <div className="adv-reels">
+            <div className="adv-brief-cap">While you wait, see {reels.length === 1 ? "it" : "them"} from the air</div>
+            {reels.map((r) => (
+              <a
+                key={r.id}
+                className="adv-reel"
+                href={flyoverLink(r.id, referralCode())}
+                target="_blank"
+                rel="noopener"
+              >
+                ▶ {r.name}
+              </a>
+            ))}
+          </div>
+        )}
         <div className="adv-actions">
           <button type="button" className="adv-submit" onClick={onClose}>
             Back to The Guide

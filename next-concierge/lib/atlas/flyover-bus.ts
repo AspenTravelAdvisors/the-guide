@@ -53,7 +53,16 @@ export function requestFlyover(id: string, play = true) {
  * The full reel for this hotel, for an advisor to send a lead: on the public
  * domain whatever host the panel is open on, and rolling by itself once the
  * tiles are in, because the person opening it never saw a Play button before.
+ *
+ * `ref` is a referral partner's code (lib/referral.ts). A reel is the link most
+ * likely to be forwarded — to a spouse, to the friends on the trip — so the
+ * partner who introduced the traveler rides along on it.
  */
-export function flyoverLink(id: string): string {
-  return `${SITE_URL}/demo/hotel?hotel=${encodeURIComponent(id)}&autoplay=1`;
+export function flyoverLink(id: string, ref?: string | null): string {
+  const partner = ref ? `&ref=${encodeURIComponent(ref)}` : "";
+  return `${SITE_URL}/demo/hotel?hotel=${encodeURIComponent(id)}&autoplay=1${partner}`;
 }
+
+/** Hotel ids as the feed writes them: h_00936, h_v6164008. */
+export const isHotelId = (id: unknown): id is string =>
+  typeof id === "string" && /^h_v?\d{1,10}$/.test(id);
