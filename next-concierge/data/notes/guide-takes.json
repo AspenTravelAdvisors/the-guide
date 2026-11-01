@@ -143,6 +143,10 @@
     "note": "Ancient forest on one side, the sea on the other. Chewton Glen started life as a country house and grew into a small resort: a spa, a cookery school, a kitchen garden that stocks the dining room, and Treehouse Suites for anyone who wants the woods closer. In the room, expect a fireplace, a whirlpool tub, slippers and turndown. Booked through Aspen, full breakfast comes daily, along with a hotel credit. Spend it at the spa. Sailing from Southampton? The docks are 35 minutes away, so arrive the night before.",
     "written": "2026-11-01"
   },
+  "/hotels/united-states/1-hotel-brooklyn-bridge-brooklyn": {
+    "note": "A waterfront hotel at Pier 1 in Brooklyn Bridge Park, looking straight across the East River at the Manhattan skyline. Inside: reclaimed materials, native greenery, the hand of local artists, and windows that run floor to ceiling. Industrial chic with a soft side. Dinner is farm-to-table at The Osprey; evenings belong to the plunge pool and bar up on the roof. For the bridge itself, ask for a Bridge King, whose large sliding window opens onto it. Booked through Aspen, you get an upgrade on arrival, subject to availability, plus a daily breakfast credit.",
+    "written": "2026-11-01"
+  },
   "/hotels/united-states/austin-proper-hotel-and-residences-a-member-of-design-hotels-austin": {
     "note": "Downtown Austin, the Second Street District, and interiors that refuse to be beige. Designer Kelly Wearstler sets the tone, and the mood leans whimsical. Wellness runs to sports massages, sound bath rituals and a recovery room. Evenings rise to the rooftop pool for small-batch tequila at sunset, or settle into Kappo Kappo, a French Japanese omakase served across a chef's counter. Want a little open air of your own? Ask for the Proper Balcony Suite. Booked through Aspen, you get a daily breakfast credit, plus a room upgrade at check-in when available.",
     "written": "2026-11-01"
@@ -187,32 +191,132 @@
     "note": "Times Square hums below. Up here, the skyline does the talking. Rooms come with down comforters, custom imported linens and bathrooms in natural stone with enclosed rainforest showers; some add a soaking tub. Dinner is in the hands of Michelin-starred chef John Fraser, and an open-air wellness deck waits for working off the evidence. Theaters and galleries sit within walking distance. Travelling as a family? Ask for the two-bedroom Penthouse Suite, with its terrace over Times Square. Booked through Aspen, you get a daily breakfast credit and an upgrade on arrival when one's available.",
     "written": "2026-11-01"
   },
+  "/hotels/uruguay/sofitel-montevideo-casino-carrasco-and-spa-montevideo": {
+    "note": "Carrasco, steps from the beach, and a hotel that still wears its early-20th-century glamour. French flair throughout. Haute French cooking at the 1921 Restaurant, high tea with beach views in the Tea Gallery, a cocktail at Thays Lounge Bar, then the casino. The So SPA has sauna, Jacuzzi and an indoor/outdoor pool. The tip: ask for a Luxury Room. It is the same size as the Superior, but you get Río de la Plata views, a hand-painted ceiling and a marble bathtub. Booked through Aspen, buffet breakfast comes daily.",
+    "written": "2026-11-01"
+  },
   "/hotels/vietnam/four-seasons-resort-the-nam-hai-hoi-an-vietnam-da-nang": {
     "note": "Thousands of palms, a private ribbon of Ha My Beach, and villas set to catch the sea by phong thuy. Lounges sit both indoors and out, and showers come with their own gardens. Ask for a pool villa: the swimming pool is yours alone. Infinity pools descend in three tiers. There is a cooking academy, a herb and vegetable farm, and a spa that those in the know call a must. Booked through Aspen, you get a resort credit and an upgrade on arrival when one is free. Hoi An is close by.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/aqua-expeditions-ambon-to-raja-ampat": {
+    "note": "Aboard Aqua Blu, from Ambon to Sorong, the voyage finds its character early. The first dinner is curated by chef Benjamin Cross while Ambon's northern coast slips astern. Then the Banda Islands, reached at sunrise, kora-kora war canoes waiting at the harbor, and Fort Nassau, the Dutch fort on Banda Neira, once the most fought-over island in the world. That afternoon, snorkeling or diving. Further on, Misool Island and Mayalibit Bay. The tip: on your first morning aboard, be on deck early, before the Banda Islands appear at sunrise.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/aqua-expeditions-galapagos-west": {
+    "note": "Aqua Mare is a superyacht with as many crew as guests, which tells you most of what you need to know about the service. This is the western route. Punta Moreno and Urvina Bay one day, Fernandina/Isabela the next, then a finish around Black Turtle Cove and North Seymour. It starts gently, with lunch outdoors at a giant tortoise reserve before you ever board. Tip: keep the waterproof welcome bag within reach. Wet landings are part of the deal, and the bag is made for exactly that.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/atlas-ocean-voyages-antarctic-and-falklands-adventure": {
+    "note": "16 days aboard World Traveller, and the Falklands come first. Carcass Island and Saunders Island share a single day, then Port Stanley, then open water again. The real prize lies further south: several days given over to the Antarctic Peninsula, with the Drake Passage as the long road home. Sea days pad the route generously. Bring a good book and a patient stomach. One practical point: the voyage leaves from Buenos Aires and finishes in Ushuaia, so book your flights as an open jaw, not a simple round trip.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/atlas-ocean-voyages-fire-and-ice-escapade": {
+    "note": "Iceland, taken slowly and from the water. World Voyager, the Atlas Ocean Voyages ship, sets out from Reykjavík and works the Icelandic coast one harbour at a time, Akureyri and Grimsey among them, deep in Arctic territory. Then the mood shifts south. A day at sea, Kirkwall, Aberdeen, another stretch of open water, and finally Dover. Practical point: you board in one country and step off in another, so book flights to match. Fly into Reykjavík, out of the United Kingdom, and leave some slack before the first day.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/atlas-ocean-voyages-netherlands-and-nordic-shores": {
+    "note": "Dover first, then the ship heads out. World Navigator, operated by Atlas Ocean Voyages, gives Amsterdam two days and Copenhagen the same. That is the voyage's quiet luxury: time to linger ashore rather than sprint back to the gangway. In between comes a canal transit through Germany, plus smaller calls at Harlingen and Wismar, before Skagen and a finish in Fredrikstad, Norway. The tip: treat the canal day as a day aboard, and save your energy for the long stays in Amsterdam and Copenhagen.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/aurora-expeditions-patagonia-and-chilean-fjords": {
+    "note": "Fjords first, then the big names. The Sylvia Earle threads Chilean channels such as the Moraleda and Kirke Narrows, and some days are simply left to the captain's choice, which is how an expedition ought to run. Puerto Natales opens the way to Torres del Paine National Park. Later, the Strait of Magellan, the Beagle Canal and Cape Horn crowd into a single day before Ushuaia. A tip: on arrival in Puerto Varas, find the hospitality desk in the hotel lobby that afternoon, collect your luggage tags, and mark your cabin number clearly.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/hx-expeditions-antarctic-circle-expedition-cruise": {
+    "note": "Steak first, ice later. Buenos Aires comes first, an overnight in the city of the porteños, where parrillas serve Argentine steak and the tango claims its hometown. Then a flight to Ushuaia, and the voyage proper, aboard MS Roald Amundsen or MS Fridtjof Nansen. The Drake Passage, crossed going out and coming back. Between the crossings, the long stretch everyone came for: day after day cruising Antarctica. Practical point: arrive in Buenos Aires a few days early. The city rewards the extra time.",
     "written": "2026-11-01"
   },
   "/journeys/cruise/national-geographic-lindblad-expeditions-antigua-to-the-british-virgin-islands-hidden-cays-and-azure-seas": {
     "note": "Sea Cloud II carries a great deal of sail, and on this Caribbean week she makes a show of it. You board late in the afternoon, champagne in hand, and slip out into a warm evening. Then the real theatre. After breakfast on Day 2 the crew climb the rigging and set sail by hand, while the captain narrates each manoeuvre and adds a little sea lore. Do not linger over coffee; be on deck for it. Ahead lie the Sir Francis Drake Channel, Anguilla, Basseterre and Antigua, with days at sea between.",
     "written": "2026-11-01"
   },
+  "/journeys/cruise/national-geographic-lindblad-expeditions-pearls-of-the-pacific-society-and-tuamotu-islands": {
+    "note": "Crags at breakfast, a private island by nightfall. Aboard National Geographic Resolution, this voyage links the Society Islands to the Tuamotus. Bora Bora brings the peaks of Mount Otemanu into view one morning, then an evening barbecue with music on a private motu. Taha'a makes you choose: snorkel where blacktip reef sharks may appear, or go ashore to a family-run vanilla farm. Fakarava gets two days to itself. Tip: fly into Papeete with time to spare, since check-in at the hospitality desk happens that afternoon, before you board.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/ponant-explorations-arctic-spring-a-journey-through-ice-and-inuit-culture": {
+    "note": "Ice and Inuit culture, the title promises, and the route obliges. Le Commandant Charcot leaves Nuuk and gives you a full day at sea to find your footing before the real business begins. Disko Bay is the heart of it, held across Days 3–4 rather than rushed. Qeqertarsuaq follows, then Baffin Bay on the Canadian side, then Sisimiut, also lingered over. The loop closes back at Nuuk. Arctic Spring, 8 days. A practical thought: spend Day 2 unpacking, reading up and learning the ship, so Disko Bay gets your full attention.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/ponant-explorations-in-the-heart-of-the-northwest-passage": {
+    "note": "19 days aboard L'Austral, tracing the Northwest Passage from Greenland into Canada's Arctic islands and back. It opens in Kangerlussuaq, above the Arctic Circle, where the tundra turns autumnal and musk oxen, reindeer and Arctic foxes go about their business. Then the ice country: Bellot Strait, Beechey Island, and Devon Island not once but twice. The tip: Kangerlussuaq's international airport is your way in, and the Greenland ice sheet sits within reach of town. Arrive with time to get close to it before sailing. The journey finishes in Nuuk.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/ponant-explorations-nature-and-heritage-from-the-philippines-to-taiwan": {
+    "note": "Le Soléal sails from Manila to Keelung, from the Philippines to Taiwan, on a route that promises nature and heritage in the same breath. The names do half the selling. Corregidor Island. Hundred Islands. Batanes, the final Philippine call before Kaohsiung. The whole affair runs 9 days under the PONANT EXPLORATIONS flag. A practical thought: plan around the day at sea near the end, the one stretch with no port listed. Save the packing for it, and let the last leg to Keelung pass unhurried.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/quark-expeditions-canadian-arctic-wildlife-helicopters-and-the-northwest-passage": {
+    "note": "It starts gently, in Reykjavík, with a hotel covered by the Charter Flight & Hotel Package and a free day among the city's modern architecture and Viking history. Get in on Day 1 and spend it properly. Then a charter flight to Nuuk, Greenland's capital, and aboard Ultramarine. A sea day over the Davis Strait brings polar presentations from the Expedition Team. After that, the Northwest Passage itself: Pond Inlet, Beechey Island, and one day simply marked Captain's Choice. Wildlife and helicopters, the billing promises. 19 days, flying out from Kangerlussuaq.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/seabourn-arctic-northwest-passage-lesser-antilles-and-brazil": {
+    "note": "A long sweep from top to bottom of the map. Seabourn Venture spends its early weeks threading the Northwest Passage and lingering off Ellesmere Island, then turns south past the fjords of Labrador, through the Lesser Antilles, over the Equator and on to Rio De Janeiro. 71 days in all, with generous sea days to absorb it. The practical part comes first. The journey opens in Reykjavík, then takes to the air for Kangerlussuaq, so arrive in Reykjavík rested, with time in hand before that flight.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/seabourn-labrador-coast-french-guiana-and-coastal-brazil": {
+    "note": "Seabourn Venture, 39 days, and a route that refuses to settle. It begins in Reykjavík, flies you to Kangerlussuaq, then works along the Labrador coast by way of Nachvak Fjord and the Eclipse Channel. Later comes Devil's Island in French Guiana, a crossing of the Equator, and a long run down the Brazilian coast to Parati and Rio de Janeiro. Generous stretches at sea between. Practical note: the opening days are in Reykjavík, with air travel on Day 2, so arrive in Iceland with time in hand.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/seabourn-ultimate-greenland-nunavut-and-labrador-coast": {
+    "note": "Fjords, straits and a very long horizon. Seabourn Venture leaves Reykjavík and threads its way through Greenland, Nunavut and the Labrador coast over 79 days, finally tying up in Halifax. The character is in the crossings: the Northwest Passage comes back again and again, and Ellesmere Island gets several days to itself. Nuuk and Kangerlussuaq come round more than once, so there is no need to cram them on the first pass. Plenty of days at sea, too. Pack a stack of books and treat them as rest days, not gaps.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/seabourn-wild-british-isles-and-north-atlantic": {
+    "note": "Seabourn Venture leaves Greenwich and reaches Reykjavík the long way: 26 days, island by island. Small names, mostly. Lundy. Bardsey. Rathlin. Fair Isle and Mousa on a single day. The Faroe Islands claim their own stretch, from Vágur through Tórshavn to Oyndarfjørður, before Iceland closes things out with Grimsey and Dynjandi. A full route. Plan around the sea days, one after Belfast and another after Lerwick and Noss. They are the natural place to rest, read and let the next landfall come to you.",
+    "written": "2026-11-01"
+  },
+  "/journeys/cruise/swan-hellenic-new-zealand-in-depth": {
+    "note": "Swan Hellenic's SH Minerva gives New Zealand 13 days, setting out from Dunedin and finishing in Auckland. The heart of it is the sounds. Dusky, Doubtful, then Milford, one after the other. Later comes Abel Tasman National Park, and a late call in the Bay of Islands. Plan around Day 3, when the ship takes in two sounds in a single day. Keep the camera charged and stay near the rail. A day at sea follows Wellington, a quiet pause before Tauranga. Book it through Aspen Travel Advisors.",
+    "written": "2026-11-01"
+  },
   "/journeys/jet/abercrombie-and-kent-argentina-chile-and-brazil-by-private-jet": {
     "note": "12 days, and the map does the heavy lifting. You begin in Buenos Aires. Day 4 brings Patagonia, Day 6 Puerto Natales, Day 7 Mendoza. Iguassu Falls waits for Day 10, and Sao Paulo has the final word on Day 12. Between them, a private jet and three countries in the title. There is no fixed calendar to bend to. The journey runs on request, so choose the start date that suits you and ask Aspen to shape the rest around it.",
+    "written": "2026-11-01"
+  },
+  "/journeys/jet/national-geographic-around-the-world-by-private-jet": {
+    "note": "Around the world by private jet, 25 days, operated by National Geographic. Washington, D.C. at both ends. In between, Easter Island, a crossing of the International Date Line, then Petra and Marrakech before the last leg home. The route forks more than once: Machu Picchu or Trujillo, the Great Barrier Reef or the Daintree Rainforest, the Serengeti Plains or Ngorongoro Crater. Each pick shapes several days of the journey. So settle your choices well before you pack, and pack for the ones you chose.",
     "written": "2026-11-01"
   },
   "/journeys/jet/remote-lands-china-s-unesco-treasures-aman-jet-expedition-2028-may-14-26-2028": {
     "note": "China by private jet. Over a 12-night run the route moves from Beijing to Hangzhou, Lijiang and Shanghai, taking in five UNESCO World Heritage Sites, the Great Wall and Zhangjiajie's misty peaks among them. Beds come courtesy of three Aman properties. Aboard the jet every drink is included, alcohol too, so the hops between cities feel more lounge than transfer. A practical note: private car, driver and guide typically run 09:00 – 17:00, so keep evenings loose for your own wandering once the guide clocks off.",
     "written": "2026-11-01"
   },
+  "/journeys/jet/safrans-du-monde-japan-in-grand-luxury-spring": {
+    "note": "Japan, then, and in grand luxury. That is the promise in the name, and it is a confident one. Safrans du Monde runs this journey over 19 days, which is long enough to stop counting and start noticing. The title points to spring. Beyond that, the page keeps its own counsel: no route, no ship, no menu to tempt you yet. So the tip is simple. Block out the full 19 days before you ask your Aspen advisor for the detail, and let the rest arrive in its own time.",
+    "written": "2026-11-01"
+  },
   "/journeys/jet/tcs-world-travel-exploring-africa-a-16-day-adventure-by-private-jet": {
     "note": "Africa, taken from above and then on foot. The customised private jet does the hard yards, lifting off from Barcelona and setting down in Madrid. In between: the Nile, Ngorongoro Crater, Victoria Falls, Volcanoes National Park. Safari game drives. A trek to see mountain gorillas where they live. The world's largest caldera, and its largest waterfall too. Drinks flow aboard the jet, transfers are private, and a physician travels with the expedition team. Practical point: the journey ends in Madrid, not where it began, so book your flight home from there.",
+    "written": "2026-11-01"
+  },
+  "/journeys/jet/tcs-world-travel-wildlife-and-natural-wonders-the-americas-by-private-jet": {
+    "note": "Five landscapes, one private aircraft, and nobody fumbling for tip money. The trip opens at Big Sky, where Montana's rivers are there to be rafted, then moves on to Arenal Volcano National Park and volcanic trails under Costa Rica's green canopy. Later come the mirror-still waterways of the Amazon, and snorkel time off the Galápagos and in the Sea of Cortez. Hotels, meals, drinks aboard the jet, guides and every tip are folded in. Worth acting on: add the Banff start, and let the Canadian Rockies warm you up before the main event.",
+    "written": "2026-11-01"
+  },
+  "/journeys/safari/abercrombie-and-kent-a-and-k-sanctuary-tanzania-safari": {
+    "note": "A Tanzania safari over 9 days, and none of them borrowed from someone else's calendar. It runs on request, so the dates bend to you rather than the other way round. You set out from Arusha and head into Tarangire National Park, then the heart of it: Ngorongoro, followed by the Serengeti, names that do most of the talking on their own. Abercrombie & Kent runs the ground; the booking sits with Aspen. The practical move is to settle your travel window first, then have Aspen build the departure around it.",
     "written": "2026-11-01"
   },
   "/journeys/safari/abercrombie-and-kent-coastal-landscapes-on-a-galapagos-cruise-a-private-journey": {
     "note": "Quito first, then the islands. The route strings together Espanola, Floreana, Santa Cruz, Bartolome and South Plaza, one coastal landscape after another, all in the Galápagos of Ecuador. It is a private journey, so the travelling party is yours alone. No fixed calendar, either. The trip is arranged on request, with dates shaped to you inside the stated departure window. The practical move: settle on your preferred dates early, then have Aspen Travel Advisors build the trip around them, beginning in Quito. Islands on your schedule. Hard to argue with.",
     "written": "2026-11-01"
   },
+  "/journeys/safari/abercrombie-and-kent-hawai-i-in-depth": {
+    "note": "Hawai'i, one island at a time. Oahu opens with historic Pearl Harbor. Lanai swaps it for trails scented with pine. Then Maui: volcanic summits, and the storied Road to Hana, with Hana itself on Day 11, so keep something in reserve for it. Over 12 days the guiding is private, and any special equipment the activities need is supplied. There is no fixed calendar. The trip runs on request, so choose dates that suit you, not a timetable. A final document package lands before you leave.",
+    "written": "2026-11-01"
+  },
   "/journeys/safari/african-travel-discover-the-wonders-of-tanzania": {
     "note": "Baobabs first, with elephants ambling between them in Tarangire. Then the Ngorongoro Crater, where predator and prey share the ground. Then the Serengeti, plains without end, the bush keeping its rhythm around the clock. It is a luxury flying safari through Northern Tanzania, with exceptional camps and lodges along the way. The practical bit: departures are on request, not fixed, so build the dates around yourself, and leave room for the balloon safari over the Serengeti, vistas and all.",
+    "written": "2026-11-01"
+  },
+  "/journeys/safari/andbeyond-bushman-nature-walk-in-central-kalahari": {
+    "note": "Open plains, and a walk at the pace of the people who know them. Camp staff drawn from local San Bushmen clans lead these interpretive walks near camp, sharing a traditional lifestyle through dress and activity. You follow paths where animals roam freely. Slow, deliberately so. Humbling, too. The journey runs 4 days in Botswana's Kalahari Desert, with andBeyond as operator. No fixed calendar: it runs on request, so choose your dates and let Aspen build the trip around them. Ask Aspen what the fare covers before you commit.",
+    "written": "2026-11-01"
+  },
+  "/journeys/safari/andbeyond-hot-air-balloon-safari": {
+    "note": "Dawn over the Serengeti, and the only plan is the wind. The balloon drifts wherever the morning air decides, while the pilot works the altitude: down at treetop height for close looks at the wildlife below, then high enough to take in the full panorama. Now and then the burners whisper. In between, you simply drift. There is no fixed calendar; the safari runs on request, so dates are shaped around you. Tip: keep the camera ready on the low passes, when the best photographs come.",
     "written": "2026-11-01"
   },
   "/journeys/safari/artisans-of-leisure-family-tour-of-the-galapagos-private-luxury-galapagos-tours": {
@@ -223,6 +327,10 @@
     "note": "Namibia, the dramatic version. Tall dunes at Sossusvlei, the far reaches of the Skeleton Coast, and Damaraland, where elephants have adapted to the desert and you might just meet one. Wilderness camps keep things comfortable. Days bring quad bikes, desert drives and coastal excursions, with safari activities twice a day. Meals, park fees and transfers are covered, and so is laundry, so pack light. The tip: on the private reserve near Sossusvlei, say yes to a night sleeping out on the roof. Dates are shaped around you.",
     "written": "2026-11-01"
   },
+  "/journeys/train/adams-and-butler-8-days-in-scotland-with-jacobite-train": {
+    "note": "Steam, and tickets for the Jacobite. This is Scotland by rail and road, starting in Glasgow and swinging north to Fort William. A driver guide handles 5 days, so you watch the window, not the map. Then Inverness, then Edinburgh to finish, with a walking tour in Glasgow and another in Edinburgh. Private transfers take care of the airport runs. There is no fixed calendar. The journey runs on request, so the dates are yours. Tip: Glasgow comes first, so arrive with energy for its walking tour.",
+    "written": "2026-11-01"
+  },
   "/journeys/train/belmond-trains-taste-of-the-highlands-royal-scotsman-a-belmond-train": {
     "note": "Three days, two nights, and the Highlands arrive at the window. The Royal Scotsman leaves from Edinburgh and calls at Dundee, a steward on hand around the clock. Days bring a barbecue lunch at Rothiemurchus Estate, with lessons in survival skills from Ghillie Basan and Zeki, her son, then a turn at the Strathisla Distillery. Evenings: ceilidhs and the Observation Car. Every drink is included, the strong stuff too. One tip: rail constraints make timings indicative, so plan onward connections around your final itinerary, not the estimate.",
     "written": "2026-11-01"
@@ -231,8 +339,48 @@
     "note": "Snow on the peaks, light on the lakes, and the view doing most of the work. You start in Zurich, then ride the rails to St. Moritz, glamorous in the Engadin Valley. The Glacier Express carries you over mountain passes to Zermatt and the Matterhorn. Interlaken opens onto the Jungfrau Region, and Lucerne brings it to a close, with a private transfer to Zurich Airport. 11 days, no fixed calendar. Tip: since departures are built on request, choose your dates first, then pick the hotels and activities to suit.",
     "written": "2026-11-01"
   },
+  "/journeys/train/la-dolce-vita-orient-express-rome-to-sicily-via-naples": {
+    "note": "Rome at one end, Palermo at the other, and between them a train with no need to hurry. Naples arrives on the first day, and Taormina has the second all to itself. At the table, the cooking is Michelin 3-star, poured alongside Italian wines of the finest sort. The fare covers a transfer to and from the railway station, so leave the taxi rank to others and arrive unflustered. No fixed timetable here. It runs on request, and you choose the dates.",
+    "written": "2026-11-01"
+  },
   "/journeys/train/la-dolce-vita-orient-express-taste-of-tuscan-vineyards": {
     "note": "Rome Ostiense, morning, and the train pulls away. Lunch is the work of Heinz Beck, Michelin-starred and cooking with what the season brings. By afternoon you are in Montalcino, free to wander its streets. Ask ahead for the optional winery visit: Brunello in the glass, Tuscan food on the plate, and it only happens on request. Back aboard, dinner turns elegant, then live music, then sleep to the sway of the rails. The fare covers Italian wines at table and transfers to and from the station. Departures are arranged around you.",
+    "written": "2026-11-01"
+  },
+  "/journeys/worldcruise/regent-seven-seas-navigate-the-world-miami-to-rome-civitavecchia-128-days": {
+    "note": "One ship, Seven Seas Splendor, and 128 days from Miami to Civitavecchia. Two canals bookend the voyage: Panama early on, Suez near the close. Between them, the map fills with names that rarely share a sentence. Moorea and Huahine. Sydney and Cairns. Komodo, Phuket, Muscat, Rhodes. The tip: Bora Bora is called at twice, either side of Papeete, so there is no need to cram it all into the first visit. Save something for the second. Then let the long middle stretch do its work.",
+    "written": "2026-11-01"
+  },
+  "/journeys/worldcruise/seabourn-grand-expedition-pole-to-pole-95-days": {
+    "note": "A voyage that starts in Reykjavík and finishes in Ushuaia, with the long way round in between: 95 days aboard Seabourn Venture. The character comes early, in repeated passes through the Northwest Passage and calls among the fjords of Greenland and Labrador, Nachvak and Saglek among them. Then the mood turns, through Caribbean bays and down the Brazilian coast to Rio De Janeiro. Pace yourself. South Georgia comes late, across Days 83–85, and deserves fresh legs.",
+    "written": "2026-11-01"
+  },
+  "/journeys/yacht/aman-at-sea-capri-and-amalfi-salerno-to-naples-6-days": {
+    "note": "Six days, one ship, and a run of Italian names that does most of the talking. Amangati, operated by Aman at Sea, sets out from Salerno and finishes in Naples. In between, two calls give the trip its shape: Amalfi on the second day, then Capri on the third. Sorrento and Ischia follow, unhurried. The practical bit: the voyage ends in Naples rather than where it began, so plan your onward travel from there, not from Salerno.",
+    "written": "2026-11-01"
+  },
+  "/journeys/yacht/four-seasons-yachts-grand-atlantic-featuring-las-palmas-and-st-barts-12-days": {
+    "note": "Las Palmas to the Caribbean in 12 days, aboard Four Seasons I. An Atlantic crossing, plainly put. You leave from Las Palmas, call at Santa Cruz De La Palma, and then the route goes quiet: nothing is listed between Day 2 and Day 9. Plan for that long stretch aboard, and bring the books to match. Then the islands come in a rush, Gustavia on Saint Barthélemy the one the voyage names in its title, before it ends at St. John's, Antigua.",
+    "written": "2026-11-01"
+  },
+  "/journeys/yacht/orient-express-sailing-yachts-italian-and-french-riviera-gems-portofino-and-cannes-5-days": {
+    "note": "A short voyage with a change of country in the middle. The Orient Express Olympian sails from Italy into France, and the trip's character sits right there at its heart. Portofino first. Then Cannes the following day, and Italy gives way to France. It is a one-way passage: you board in Naples and step off in Marseille. So book your journey home out of Marseille, not Naples. Reach Naples before day one rather than racing to meet it.",
+    "written": "2026-11-01"
+  },
+  "/journeys/yacht/orient-express-sailing-yachts-sketches-of-andalusia-6-days": {
+    "note": "Sketches of Andalusia, drawn from the deck of the Orient Express Corinthian. The route works between Mediterranean and Atlantic waters, opening in Málaga and calling at Gibraltar before it slows down. Motril is where it lingers, holding the yacht across Days 3–4, the one stretch with room to breathe. Use it. Keep one of those days loose rather than filling both, and let the pace drop. Majorca closes the voyage. Short, unhurried, and under sail, which is rather the point of a sailing yacht.",
+    "written": "2026-11-01"
+  },
+  "/journeys/yacht/orient-express-sailing-yachts-the-leeward-isles-8-days": {
+    "note": "The Leeward Isles in 8 days, under sail aboard the Orient Express Corinthian, island to island across the Caribbean. You join at Marigot on Saint Martin and leave at Bridgetown, Barbados, so book flights in to one and home from the other. Gustavia, on Saint Barthélemy, sets the tone early. Then the pause. The route stays at Falmouth, Antigua, across Days 5–6. Two days, one port. Leave them loose and let the island set the pace. Booked through Aspen Travel Advisors.",
+    "written": "2026-11-01"
+  },
+  "/journeys/yacht/ritz-carlton-yacht-collection-athens-piraeus-to-istanbul-8-days": {
+    "note": "Ilma, of the Ritz-Carlton Yacht Collection, slips out of Piraeus and into the Aegean. The Greek calls come quickly. Mílos early, its name doing half the work. Pátmos midway, softer and quieter on the tongue. Then the yacht points toward Türkiye, and the ending is the point. Istanbul claims the final stretch of the route, Days 7–8, not a hurried last morning. So plan for it. Keep those days loose, book nothing rigid, and give the city the time the itinerary gives it.",
+    "written": "2026-11-01"
+  },
+  "/journeys/yacht/ritz-carlton-yacht-collection-london-tilbury-to-bordeaux-8-days": {
+    "note": "Evrima, the Ritz-Carlton Yacht Collection ship, casts off from Tilbury in the United Kingdom and finishes in Bordeaux. In between comes a run of French calls: Honfleur early, La Rochelle later. Saint Peter Port, Guernsey, is the one stop along the way not filed under France. The ending is the point. Bordeaux holds Days 7–8, two days on the route rather than a hurried farewell. Plan around it. Keep onward travel clear until the second Bordeaux day is done, and let the city have both. Arrange it all through Aspen Travel Advisors.",
     "written": "2026-11-01"
   }
 }
