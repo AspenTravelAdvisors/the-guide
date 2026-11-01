@@ -27,6 +27,7 @@ import { hotelSnippet } from "@/lib/seo/snippets";
 import { jsonLd } from "@/lib/seo/json-ld";
 import { SITE_OG_IMAGE } from "@/lib/seo/site";
 import SiteFooter from "@/components/SiteFooter";
+import GuideTake from "@/components/GuideTake";
 
 /*
  * Static, not ISR. See "The ISR writes were paying for nothing" in STATE.md.
@@ -164,6 +165,9 @@ export default async function HotelPage({ params }) {
           )}
         </div>
       )}
+
+      {/* Our own words, straight after the supplier's. */}
+      <GuideTake path={h.path} />
 
       {(h.vipUpgrades || []).length > 0 && (
         <section>

@@ -17,3 +17,4 @@ scripts/cache/naturalearth/
 
 # the reviewer brief scripts/draft-answers.mjs writes for its PR
 answers-pr-body.md
+guide-takes-pr-body.md

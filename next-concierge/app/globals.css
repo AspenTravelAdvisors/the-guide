@@ -210,6 +210,55 @@ main.page {
    dot is enough presence for something that only ever appears on an empty
    transcript, i.e. only to someone who hasn't started. `display: block` so it
    takes its own line rather than blurring into the dates toggle beside it. */
+/* "About The Guide" — the home page's plain-text explanation, closed by
+   default so the welcome screen looks as it did. See components/AboutTheGuide. */
+.about-guide {
+  max-width: 520px;
+  margin: 18px auto 0;
+  text-align: left;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+.about-guide > summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  list-style: none;
+}
+.about-guide > summary::-webkit-details-marker { display: none; }
+.about-guide > summary::after { content: " ▾"; }
+.about-guide[open] > summary::after { content: " ▴"; }
+.about-guide-body {
+  margin-top: 10px;
+}
+.empty .about-guide-body p {
+  margin: 0 0 12px;
+  max-width: none;
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+.about-guide nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin: 0 0 12px;
+  font-size: 13px;
+}
+.about-guide nav a {
+  color: var(--gold-light);
+  text-decoration: none;
+}
+.about-guide nav a:hover { text-decoration: underline; }
+.about-guide-label {
+  flex-basis: 100%;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
 .empty-tour {
   display: block;
   width: fit-content;
@@ -7127,4 +7176,26 @@ html.flyover-on body {
   font-size: 12px;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* The Guide's take — our travel note on a hotel or journey page, set apart
+   from the supplier copy above it. See components/GuideTake. */
+.guide-take {
+  margin: 22px 0;
+  padding: 16px 18px;
+  border-left: 3px solid var(--gold);
+  background: rgba(201, 168, 76, 0.07);
+  border-radius: 0 10px 10px 0;
+}
+.guide-take h2 {
+  margin-top: 0;
+}
+.guide-take p {
+  font-style: italic;
+}
+.guide-take .guide-take-source {
+  margin: 8px 0 0;
+  font-style: normal;
+  font-size: 12px;
+  color: var(--muted);
 }

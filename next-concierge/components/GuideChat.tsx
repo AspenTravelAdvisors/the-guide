@@ -81,7 +81,16 @@ type Turn = GuideTurn;
 // blurb named four collections; the nav offered seven.
 const COLLECTION_SUMMARY = collectionsSummary();
 
-export default function GuideChat() {
+export default function GuideChat({
+  about,
+}: {
+  /**
+   * Server-rendered text at the foot of the welcome screen. Only the home page
+   * passes it (components/AboutTheGuide); the atlas dock mounts this same chat
+   * and has no need of an explanation of the whole site.
+   */
+  about?: React.ReactNode;
+} = {}) {
   const [turns, setTurns] = useState<Turn[]>([]);
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
@@ -549,6 +558,8 @@ export default function GuideChat() {
                 >
                   New here? See how this works
                 </button>
+
+                {about}
 
                 {/*
                   NO DATES HERE.

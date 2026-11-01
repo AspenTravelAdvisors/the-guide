@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import GuideChat from "@/components/GuideChat";
+import AboutTheGuide from "@/components/AboutTheGuide";
 import AtlasShell from "@/components/AtlasShell";
 import HomeSplit from "@/components/HomeSplit";
 import AtlasDemo from "@/components/AtlasDemo";
@@ -60,7 +61,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <HomeSplit
-      chat={<GuideChat />}
+      chat={<GuideChat about={<AboutTheGuide />} />}
       atlas={
         <>
           <div className="home-atlas-head">

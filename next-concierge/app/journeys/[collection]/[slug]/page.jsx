@@ -29,6 +29,7 @@ const sharedHeadsAll = () =>
 import { jsonLd } from "@/lib/seo/json-ld";
 import { SITE_OG_IMAGE } from "@/lib/seo/site";
 import SiteFooter from "@/components/SiteFooter";
+import GuideTake from "@/components/GuideTake";
 
 /*
  * Static, not ISR. See "The ISR writes were paying for nothing" in STATE.md.
@@ -144,6 +145,9 @@ export default async function JourneyPage({ params }) {
           <p>{j.description}</p>
         </div>
       )}
+
+      {/* Our own words, straight after the supplier's. */}
+      <GuideTake path={j.path} />
 
       <section>
         <h2>The {meta.noun}, in facts</h2>

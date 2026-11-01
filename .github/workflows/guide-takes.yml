@@ -1,0 +1,74 @@
+# "The Guide's take" — draft travel notes for hotel and journey pages.
+#
+# Manual only. Each run writes notes for the pages listed in a paths file,
+# fact-checks every note against its own page, and opens a pull request.
+# Nothing is published until that PR is merged. See
+# next-concierge/scripts/draft-guide-takes.mjs.
+name: Guide's take notes
+
+on:
+  workflow_dispatch:
+    inputs:
+      paths_file:
+        description: 'File of page paths, relative to next-concierge/'
+        default: 'scripts/guide-takes-pilot.txt'
+      limit:
+        description: 'Write at most this many (blank = all in the file)'
+        default: ''
+
+concurrency:
+  group: guide-takes
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # push the notes branch
+      pull-requests: write   # open the PR
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: next-concierge/package-lock.json
+
+      - name: Install dependencies
+        working-directory: next-concierge
+        run: npm ci
+
+      - name: Write the notes
+        working-directory: next-concierge
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PATHS_FILE: ${{ github.event.inputs.paths_file }}
+          LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          ARGS=(--paths "${PATHS_FILE:-scripts/guide-takes-pilot.txt}")
+          if [ -n "$LIMIT" ]; then ARGS+=(--limit "$LIMIT"); fi
+          node scripts/draft-guide-takes.mjs "${ARGS[@]}"
+
+      - name: Open the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- next-concierge/data/notes/guide-takes.json; then
+            echo "No notes written."
+            exit 0
+          fi
+          BRANCH="notes/$(date -u +%Y-%m-%d)-${{ github.run_number }}"
+          git config user.name  "guide-takes[bot]"
+          git config user.email "guide-takes@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add next-concierge/data/notes/guide-takes.json
+          git commit -m "Add The Guide's take notes" -m "Drafted and fact-checked by scripts/draft-guide-takes.mjs; see the PR for every note."
+          git push -u origin "$BRANCH"
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "The Guide's take: notes from run ${{ github.run_number }}" \
+            --body-file next-concierge/guide-takes-pr-body.md
