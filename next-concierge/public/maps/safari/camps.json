@@ -5,8 +5,8 @@
   "radiusKm": 25,
   "lodgesInCategory": 71,
   "lodgesInSafariCountries": 67,
-  "journeysWithCamps": 259,
-  "journeysTotal": 505,
+  "journeysWithCamps": 255,
+  "journeysTotal": 501,
   "campsMatched": 41
  },
  "radiusKm": 25,
@@ -210,23 +210,6 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16114504_2_0.webp",
    "rooms": 12,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00594": {
-   "n": "Fairmont Mara Safari Club",
-   "house": "Accor",
-   "country": "Kenya",
-   "ll": [
-    -1.23185,
-    35.0051
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11398249_2_0.webp",
-   "rooms": 38,
    "perks": [
     "Daily breakfast",
     "Room upgrade",
@@ -583,6 +566,23 @@
     "Daily breakfast",
     "Room upgrade",
     "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00594": {
+   "n": "Fairmont Mara Safari Club",
+   "house": "Accor",
+   "country": "Kenya",
+   "ll": [
+    -1.23185,
+    35.0051
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11398249_2_0.webp",
+   "rooms": 38,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
    ],
    "promo": 0
   },
@@ -1661,26 +1661,6 @@
     "km": 18.1
    }
   ],
-  "18107126": [
-   {
-    "id": "h_01349",
-    "stop": "Livingstone",
-    "day": 2,
-    "km": 19.8
-   },
-   {
-    "id": "h_02374",
-    "stop": "Victoria Falls",
-    "day": 4,
-    "km": 3.4
-   },
-   {
-    "id": "h_02484",
-    "stop": "Okavango Delta",
-    "day": 6,
-    "km": 19.9
-   }
-  ],
   "18107132": [
    {
     "id": "h_00537",
@@ -2167,26 +2147,6 @@
     "km": 23.9
    }
   ],
-  "18360991": [
-   {
-    "id": "h_01349",
-    "stop": "Livingstone",
-    "day": 2,
-    "km": 19.8
-   },
-   {
-    "id": "h_02374",
-    "stop": "Victoria Falls",
-    "day": 4,
-    "km": 0.8
-   },
-   {
-    "id": "h_02484",
-    "stop": "Okavango Delta",
-    "day": 6,
-    "km": 19.9
-   }
-  ],
   "18361073": [
    {
     "id": "h_02374",
@@ -2221,34 +2181,32 @@
     "km": 19.9
    }
   ],
+  "18362041": [
+   {
+    "id": "h_02374",
+    "stop": "Livingstone",
+    "day": 2,
+    "km": 10.1
+   },
+   {
+    "id": "h_01349",
+    "stop": "Livingstone",
+    "day": 2,
+    "km": 19.8
+   },
+   {
+    "id": "h_02484",
+    "stop": "Okavango Delta",
+    "day": 6,
+    "km": 19.9
+   }
+  ],
   "18363151": [
    {
     "id": "h_00971",
     "stop": "Machu Picchu",
     "day": 9,
     "km": 16.2
-   }
-  ],
-  "18363882": [
-   {
-    "id": "h_01778",
-    "stop": "Serengeti National Park",
-    "day": 6,
-    "km": 23.9
-   }
-  ],
-  "18363897": [
-   {
-    "id": "h_01778",
-    "stop": "Serengeti National Park",
-    "day": 4,
-    "km": 23.9
-   },
-   {
-    "id": "h_00594",
-    "stop": "Maasai Mara National Reserve",
-    "day": 6,
-    "km": 23.2
    }
   ],
   "18364254": [
@@ -2599,6 +2557,20 @@
     "km": 7.3
    }
   ],
+  "18473611": [
+   {
+    "id": "h_01409",
+    "stop": "Ol Pejeta Conservancy",
+    "day": 4,
+    "km": 9.1
+   },
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 6,
+    "km": 18.1
+   }
+  ],
   "18473617": [
    {
     "id": "h_01207",
@@ -2839,46 +2811,6 @@
     "stop": "Ngorongoro",
     "day": 4,
     "km": 19.6
-   }
-  ],
-  "18535178": [
-   {
-    "id": "h_02484",
-    "stop": "Okavango Delta",
-    "day": 3,
-    "km": 19.9
-   },
-   {
-    "id": "h_02374",
-    "stop": "Victoria Falls",
-    "day": 9,
-    "km": 3.4
-   },
-   {
-    "id": "h_01349",
-    "stop": "Victoria Falls",
-    "day": 9,
-    "km": 22.4
-   }
-  ],
-  "18535182": [
-   {
-    "id": "h_02484",
-    "stop": "Okavango Delta",
-    "day": 3,
-    "km": 19.9
-   },
-   {
-    "id": "h_02374",
-    "stop": "Victoria Falls",
-    "day": 8,
-    "km": 3.4
-   },
-   {
-    "id": "h_01349",
-    "stop": "Victoria Falls",
-    "day": 8,
-    "km": 22.4
    }
   ],
   "18535586": [

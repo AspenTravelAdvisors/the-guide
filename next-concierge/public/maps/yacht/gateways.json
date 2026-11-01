@@ -20,44 +20,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00724": {
-   "n": "Gran Hotel Miramar",
-   "house": null,
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.7207,
-    -4.40818
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0_1006.webp",
-   "rooms": 200,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01124": {
-   "n": "La Zambra Resort",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.553,
-    -4.66678
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0_1001.webp",
-   "rooms": 196,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
   "h_01552": {
    "n": "Pier Sixty-Six",
    "house": null,
@@ -284,7 +246,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01030": {
    "n": "Jumby Bay Island, Oetker Hotels",
@@ -881,7 +843,7 @@
     "Room upgrade",
     "Early check-in"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01709": {
    "n": "Sandy Lane Hotel",
@@ -1078,7 +1040,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00311": {
    "n": "Cap Maison Resort & Spa",
@@ -1204,7 +1166,7 @@
     -8.44703,
     115.234
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6727269_2_0_1002.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6727269_2_0.webp",
    "rooms": 31,
    "perks": [
     "Daily breakfast",
@@ -1565,7 +1527,7 @@
     35.6515,
     139.758
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17905638_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17905638_2_0.webp",
    "rooms": 217,
    "perks": [
     "Daily breakfast",
@@ -1630,6 +1592,44 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_00724": {
+   "n": "Gran Hotel Miramar",
+   "house": null,
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.7207,
+    -4.40818
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0_1006.webp",
+   "rooms": 200,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01124": {
+   "n": "La Zambra Resort",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.553,
+    -4.66678
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
+   "rooms": 196,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 1
   },
   "h_01667": {
    "n": "Rosselli AX Privilege",
@@ -2021,7 +2021,7 @@
     37.526,
     126.928
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18385667_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18385667_2_0.webp",
    "rooms": 308,
    "perks": [
     "Daily breakfast",
@@ -2059,7 +2059,7 @@
     41.023,
     28.9779
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16403612_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16403612_2_0.webp",
    "rooms": 177,
    "perks": [
     "Daily breakfast",
@@ -2211,7 +2211,7 @@
     43.6968,
     7.26814
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18333813_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18333813_2_0.webp",
    "rooms": 151,
    "perks": [
     "Daily breakfast",
@@ -2815,7 +2815,7 @@
     45.4308,
     12.3335
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395447_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395447_2_0.webp",
    "rooms": 50,
    "perks": [
     "Daily breakfast",
@@ -3176,7 +3176,7 @@
     55.6709,
     12.5681
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18506362_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18506362_2_0.webp",
    "rooms": 380,
    "perks": [
     "Daily breakfast",
@@ -3354,7 +3354,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00504": {
    "n": "Domes Miramare, a Luxury Collection Resort, Corfu",
@@ -3480,7 +3480,7 @@
     43.2696,
     6.63615
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16393428_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16393428_2_0.webp",
    "rooms": 90,
    "perks": [
     "Daily breakfast",
@@ -3632,7 +3632,7 @@
     32.6436,
     -16.9209
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16613933_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16613933_2_0.webp",
    "rooms": 300,
    "perks": [
     "Daily breakfast",
@@ -3662,23 +3662,6 @@
   }
  },
  "GATES": {
-  "Málaga, Spain": {
-   "n": "Málaga, Spain",
-   "ll": [
-    36.7167,
-    -4.4167
-   ],
-   "h": [
-    [
-     "h_00724",
-     0.9
-    ],
-    [
-     "h_01124",
-     28.8
-    ]
-   ]
-  },
   "Fort Lauderdale, FL, United States": {
    "n": "Fort Lauderdale, FL, United States",
    "ll": [
@@ -4228,6 +4211,23 @@
     [
      "h_01674",
      3.3
+    ]
+   ]
+  },
+  "Málaga, Spain": {
+   "n": "Málaga, Spain",
+   "ll": [
+    36.7167,
+    -4.4167
+   ],
+   "h": [
+    [
+     "h_00724",
+     0.9
+    ],
+    [
+     "h_01124",
+     28.8
     ]
    ]
   },
@@ -5069,11 +5069,6 @@
   "16849308": {
    "pre": null,
    "post": "St. John's, Antigua And Barbuda",
-   "house": "Four Seasons"
-  },
-  "16849310": {
-   "pre": "Málaga, Spain",
-   "post": null,
    "house": "Four Seasons"
   },
   "16869670": {
@@ -6566,11 +6561,6 @@
    "post": "Marigot, Saint Martin",
    "house": "Orient Express"
   },
-  "18478892": {
-   "pre": "London, United Kingdom",
-   "post": "Lisbon, Portugal",
-   "house": "Orient Express"
-  },
   "18478893": {
    "pre": "Bordeaux, France",
    "post": "London, United Kingdom",
@@ -6619,6 +6609,11 @@
   "18478905": {
    "pre": "Málaga, Spain",
    "post": "Lisbon, Portugal",
+   "house": "Orient Express"
+  },
+  "18478906": {
+   "pre": "Cannes, France",
+   "post": "Monte-Carlo, Monaco",
    "house": "Orient Express"
   },
   "18478907": {
@@ -7486,11 +7481,6 @@
    "post": "Lisbon, Portugal",
    "house": "Orient Express"
   },
-  "18619008": {
-   "pre": "London, United Kingdom",
-   "post": "London, United Kingdom",
-   "house": "Orient Express"
-  },
   "18633945": {
    "pre": "Piraeus, Greece",
    "post": "Piraeus, Greece",
@@ -7645,6 +7635,16 @@
    "pre": "St. John's, Antigua And Barbuda",
    "post": "Bridgetown, Barbados",
    "house": "Aman"
+  },
+  "18649033": {
+   "pre": "Miami, FL, United States",
+   "post": "Miami, FL, United States",
+   "house": "Ritz-Carlton"
+  },
+  "18649034": {
+   "pre": "Miami, FL, United States",
+   "post": "Miami, FL, United States",
+   "house": "Ritz-Carlton"
   }
  }
 }

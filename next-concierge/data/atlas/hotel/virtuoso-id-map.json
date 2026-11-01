@@ -1,7 +1,7 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-10-31T15:16:21.018Z",
+  "generated": "2026-11-01T15:56:52.257Z",
   "feedSynced": null,
   "localCount": 2475,
   "feedCount": 2092,
@@ -257,7 +257,7 @@
    "vid": "17898532",
    "how": "name+country",
    "localName": "Alpes Hotel du Pralong",
-   "virtuosoName": "Alpes Hotel du Pralong"
+   "virtuosoName": "Alpes Hôtel du Pralong"
   },
   "h_00054": {
    "vid": "15194151",
@@ -582,12 +582,6 @@
    "how": "name+country",
    "localName": "Anantara Siam Bangkok Hotel",
    "virtuosoName": "Anantara Siam Bangkok Hotel"
-  },
-  "h_00117": {
-   "vid": "18256414",
-   "how": "name+country",
-   "localName": "Anantara Stanley & Livingstone Victoria Falls Hotel - Virtuoso Preview",
-   "virtuosoName": "Anantara Stanley & Livingstone Victoria Falls Hotel - Virtuoso Preview"
   },
   "h_00118": {
    "vid": "16550151",
@@ -1104,12 +1098,6 @@
    "how": "name+country",
    "localName": "Borgo Egnazia",
    "virtuosoName": "Borgo Egnazia"
-  },
-  "h_00230": {
-   "vid": "18232453",
-   "how": "name+country",
-   "localName": "Borgo Pignano Florence - A Virtuoso Preview Property",
-   "virtuosoName": "Borgo Pignano Florence - A Virtuoso Preview Property"
   },
   "h_00232": {
    "vid": "15876179",
@@ -11515,6 +11503,12 @@
    "localName": "Anantara Kafue River Tented Camp - Virtuoso Preview",
    "virtuosoName": "Anantara Tented Camp Kafue River"
   },
+  "h_00117": {
+   "vid": "18256414",
+   "how": "fuzzy:0.83",
+   "localName": "Anantara Stanley & Livingstone Victoria Falls Hotel - Virtuoso Preview",
+   "virtuosoName": "Anantara Stanley & Livingstone Victoria Falls Hotel"
+  },
   "h_00146": {
    "vid": "6164324",
    "how": "duplicate-of:h_00147",
@@ -11556,6 +11550,12 @@
    "how": "duplicate-of:h_00207",
    "localName": "Beau-Rivage",
    "virtuosoName": "Beau-Rivage, Geneva"
+  },
+  "h_00230": {
+   "vid": "18232453",
+   "how": "fuzzy:0.67",
+   "localName": "Borgo Pignano Florence - A Virtuoso Preview Property",
+   "virtuosoName": "Borgo Pignano Florence"
   },
   "h_00231": {
    "vid": "15495767",

@@ -443,7 +443,7 @@
     37.7863,
     -122.401
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4099_2_19_1002.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4099_2_19.webp",
    "rooms": 260,
    "perks": [
     "Daily breakfast",
@@ -462,7 +462,7 @@
     55.6709,
     12.5681
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18506362_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18506362_2_0.webp",
    "rooms": 380,
    "perks": [
     "Daily breakfast",
@@ -690,7 +690,7 @@
     53.551,
     10.003
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18082096_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18082096_2_0.webp",
    "rooms": 283,
    "perks": [
     "Daily breakfast",
@@ -747,7 +747,7 @@
     33.7667,
     -118.19
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18246224_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18246224_2_0.webp",
    "rooms": 185,
    "perks": [
     "Daily breakfast",
@@ -1415,7 +1415,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00613": {
    "n": "Fairmont Tokyo",
@@ -1427,7 +1427,7 @@
     35.6515,
     139.758
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17905638_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17905638_2_0.webp",
    "rooms": 217,
    "perks": [
     "Daily breakfast",
@@ -1997,7 +1997,7 @@
     41.023,
     28.9779
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16403612_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16403612_2_0.webp",
    "rooms": 177,
    "perks": [
     "Daily breakfast",
@@ -2213,7 +2213,7 @@
     "Room upgrade",
     "Early check-in"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01709": {
    "n": "Sandy Lane Hotel",
@@ -2479,7 +2479,7 @@
     47.6082,
     -122.334
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4492_2_0_1002.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4492_2_0.webp",
    "rooms": 450,
    "perks": [
     "Daily breakfast",
@@ -2980,7 +2980,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00738": {
    "n": "Grand Hotel Miramare",
@@ -3068,7 +3068,7 @@
     60.1738,
     24.9567
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0.webp",
    "rooms": 116,
    "perks": [
     "Daily breakfast",

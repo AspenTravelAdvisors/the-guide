@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4432,
-  "journeysWithStays": 3735,
+  "journeysTotal": 4426,
+  "journeysWithStays": 3732,
   "journeysWithHouse": 0,
   "gateways": 108,
   "hotels": 291,
@@ -15,496 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_01667": {
-   "n": "Rosselli AX Privilege",
-   "house": null,
-   "aff": null,
-   "city": "Valletta",
-   "country": "Malta",
-   "ll": [
-    35.8989,
-    14.5154
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18089362_2_0_1004.webp",
-   "rooms": 25,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00969": {
-   "n": "Iniala Valletta",
-   "house": null,
-   "aff": null,
-   "city": "Valletta",
-   "country": "Malta",
-   "ll": [
-    35.8962,
-    14.5144
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16564575_2_0.webp",
-   "rooms": 33,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02109": {
-   "n": "The Phoenicia Malta",
-   "house": null,
-   "aff": null,
-   "city": "Floriana",
-   "country": "Malta",
-   "ll": [
-    35.8936,
-    14.5054
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16579930_2_0.webp",
-   "rooms": 132,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00992": {
-   "n": "InterContinental Malta",
-   "house": "IHG Hotels & Resorts",
-   "aff": null,
-   "city": "St. Julian's Bay",
-   "country": "Malta",
-   "ll": [
-    35.9258,
-    14.4878
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15431092_2_55.webp",
-   "rooms": 481,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00724": {
-   "n": "Gran Hotel Miramar",
-   "house": null,
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.7207,
-    -4.40818
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0_1006.webp",
-   "rooms": 200,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01124": {
-   "n": "La Zambra Resort",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.553,
-    -4.66678
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0_1001.webp",
-   "rooms": 196,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
-  "h_00510": {
-   "n": "Downtown L.A. Proper",
-   "house": null,
-   "aff": null,
-   "city": "Los Angeles",
-   "country": "United States",
-   "ll": [
-    34.0393,
-    -118.259
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930098_2_0.webp",
-   "rooms": 147,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00439": {
-   "n": "Conrad Los Angeles",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Los Angeles",
-   "country": "United States",
-   "ll": [
-    34.0552,
-    -118.249
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16610092_2_0.webp",
-   "rooms": 305,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01688": {
-   "n": "SLS Beverly Hills",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Los Angeles",
-   "country": "United States",
-   "ll": [
-    34.0697,
-    -118.376
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4625_2_0.webp",
-   "rooms": 297,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01866": {
-   "n": "Sunset Tower Hotel",
-   "house": null,
-   "aff": null,
-   "city": "West Hollywood",
-   "country": "United States",
-   "ll": [
-    34.0951,
-    -118.372
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14577045_2_2.webp",
-   "rooms": 81,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00055": {
-   "n": "Alvear Palace Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5876,
-    -58.3889
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
-   "rooms": 207,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01455": {
-   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5883,
-    -58.3862
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v16828211": {
-   "n": "Sofitel Buenos Aires Recoleta",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5896,
-    -58.3841
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0.webp",
-   "rooms": 175,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00641": {
-   "n": "Four Seasons Hotel Buenos Aires",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5899,
-    -58.3824
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94_1003.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02459": {
-   "n": "Waldorf Astoria Panama",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    8.97686,
-    -79.5251
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14146773_2_0.webp",
-   "rooms": 135,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00246": {
-   "n": "Bristol Panama",
-   "house": null,
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    8.97972,
-    -79.5244
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0.webp",
-   "rooms": 127,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01812": {
-   "n": "Sofitel Legend Casco Viejo Panama",
-   "house": "Accor",
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    8.95147,
-    -79.53228
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16310992_2_0.webp",
-   "rooms": 159,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00878": {
-   "n": "Hotel La Compañia",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    9.07869,
-    -79.3919
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16896453_2_0_1002.webp",
-   "rooms": 88,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00838": {
-   "n": "Hotel Casa Pestagua",
-   "house": null,
-   "aff": null,
-   "city": "Cartagena",
-   "country": "Colombia",
-   "ll": [
-    10.3932,
-    -75.4832
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930080_2_0_1004.webp",
-   "rooms": 16,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00352": {
-   "n": "Casa San Agustin",
-   "house": null,
-   "aff": null,
-   "city": "Cartagena",
-   "country": "Colombia",
-   "ll": [
-    10.391,
-    -75.4794
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15226061_2_0.webp",
-   "rooms": 31,
-   "perks": [
-    "Daily breakfast",
-    "Property credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01817": {
-   "n": "Sofitel Legend Santa Clara Cartagena",
-   "house": "Accor",
-   "aff": null,
-   "city": "Cartagena",
-   "country": "Colombia",
-   "ll": [
-    10.4294,
-    -75.544
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4316_2_0.webp",
-   "rooms": 126,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_v18575535": {
-   "n": "Hotel Charleston Santa Teresa",
-   "house": null,
-   "aff": null,
-   "city": "Cartagena",
-   "country": "Colombia",
-   "ll": [
-    10.4224,
-    -75.5526
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18573891_2_0.webp",
-   "rooms": 86,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00597": {
-   "n": "Fairmont Nile City, Cairo",
-   "house": "Accor",
-   "aff": null,
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.0417,
-    31.2314
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18101431_2_0.webp",
-   "rooms": 543,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00643": {
-   "n": "Four Seasons Hotel Cairo at Nile Plaza",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.0361,
-    31.2284
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4242_2_0_1006.webp",
-   "rooms": 371,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_00642": {
-   "n": "Four Seasons Hotel Cairo",
-   "house": "Four Seasons",
-   "aff": "Four Seasons",
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.024305,
-    31.216831
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
-  },
-  "h_00644": {
-   "n": "Four Seasons Hotel Cairo, at The First Residence",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.09,
-    31.2072
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4198_2_0.webp",
-   "rooms": 262,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
   "h_01876": {
    "n": "THE DOLLI® at Acropolis, A Hotel to Live®",
    "house": null,
@@ -617,7 +127,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00141": {
    "n": "Arakur Ushuaia Resort & Spa",
@@ -654,6 +164,82 @@
     "Daily breakfast",
     "Room upgrade",
     "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00510": {
+   "n": "Downtown L.A. Proper",
+   "house": null,
+   "aff": null,
+   "city": "Los Angeles",
+   "country": "United States",
+   "ll": [
+    34.0393,
+    -118.259
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930098_2_0.webp",
+   "rooms": 147,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00439": {
+   "n": "Conrad Los Angeles",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Los Angeles",
+   "country": "United States",
+   "ll": [
+    34.0552,
+    -118.249
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16610092_2_0.webp",
+   "rooms": 305,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01688": {
+   "n": "SLS Beverly Hills",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Los Angeles",
+   "country": "United States",
+   "ll": [
+    34.0697,
+    -118.376
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4625_2_0.webp",
+   "rooms": 297,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01866": {
+   "n": "Sunset Tower Hotel",
+   "house": null,
+   "aff": null,
+   "city": "West Hollywood",
+   "country": "United States",
+   "ll": [
+    34.0951,
+    -118.372
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14577045_2_2.webp",
+   "rooms": 81,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
    ],
    "promo": 0
   },
@@ -751,6 +337,82 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00055": {
+   "n": "Alvear Palace Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5876,
+    -58.3889
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
+   "rooms": 207,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01455": {
+   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5883,
+    -58.3862
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v16828211": {
+   "n": "Sofitel Buenos Aires Recoleta",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5896,
+    -58.3841
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0.webp",
+   "rooms": 175,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00641": {
+   "n": "Four Seasons Hotel Buenos Aires",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5899,
+    -58.3824
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94_1003.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_00464": {
    "n": "Country Club Lima Hotel",
@@ -882,6 +544,272 @@
     "Daily breakfast",
     "Room upgrade",
     "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00724": {
+   "n": "Gran Hotel Miramar",
+   "house": null,
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.7207,
+    -4.40818
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0_1006.webp",
+   "rooms": 200,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01124": {
+   "n": "La Zambra Resort",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.553,
+    -4.66678
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
+   "rooms": 196,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 1
+  },
+  "h_00838": {
+   "n": "Hotel Casa Pestagua",
+   "house": null,
+   "aff": null,
+   "city": "Cartagena",
+   "country": "Colombia",
+   "ll": [
+    10.3932,
+    -75.4832
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930080_2_0_1004.webp",
+   "rooms": 16,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00352": {
+   "n": "Casa San Agustin",
+   "house": null,
+   "aff": null,
+   "city": "Cartagena",
+   "country": "Colombia",
+   "ll": [
+    10.391,
+    -75.4794
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15226061_2_0.webp",
+   "rooms": 31,
+   "perks": [
+    "Daily breakfast",
+    "Property credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01817": {
+   "n": "Sofitel Legend Santa Clara Cartagena",
+   "house": "Accor",
+   "aff": null,
+   "city": "Cartagena",
+   "country": "Colombia",
+   "ll": [
+    10.4294,
+    -75.544
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4316_2_0.webp",
+   "rooms": 126,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_v18575535": {
+   "n": "Hotel Charleston Santa Teresa",
+   "house": null,
+   "aff": null,
+   "city": "Cartagena",
+   "country": "Colombia",
+   "ll": [
+    10.4224,
+    -75.5526
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18573891_2_0.webp",
+   "rooms": 86,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02459": {
+   "n": "Waldorf Astoria Panama",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    8.97686,
+    -79.5251
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14146773_2_0.webp",
+   "rooms": 135,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00246": {
+   "n": "Bristol Panama",
+   "house": null,
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    8.97972,
+    -79.5244
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0.webp",
+   "rooms": 127,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01812": {
+   "n": "Sofitel Legend Casco Viejo Panama",
+   "house": "Accor",
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    8.95147,
+    -79.53228
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16310992_2_0.webp",
+   "rooms": 159,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00878": {
+   "n": "Hotel La Compañia",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    9.07869,
+    -79.3919
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16896453_2_0_1002.webp",
+   "rooms": 88,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01667": {
+   "n": "Rosselli AX Privilege",
+   "house": null,
+   "aff": null,
+   "city": "Valletta",
+   "country": "Malta",
+   "ll": [
+    35.8989,
+    14.5154
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18089362_2_0_1004.webp",
+   "rooms": 25,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00969": {
+   "n": "Iniala Valletta",
+   "house": null,
+   "aff": null,
+   "city": "Valletta",
+   "country": "Malta",
+   "ll": [
+    35.8962,
+    14.5144
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16564575_2_0.webp",
+   "rooms": 33,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02109": {
+   "n": "The Phoenicia Malta",
+   "house": null,
+   "aff": null,
+   "city": "Floriana",
+   "country": "Malta",
+   "ll": [
+    35.8936,
+    14.5054
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16579930_2_0.webp",
+   "rooms": 132,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00992": {
+   "n": "InterContinental Malta",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "St. Julian's Bay",
+   "country": "Malta",
+   "ll": [
+    35.9258,
+    14.4878
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15431092_2_55.webp",
+   "rooms": 481,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
    ],
    "promo": 0
   },
@@ -1142,7 +1070,7 @@
     60.1738,
     24.9567
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0.webp",
    "rooms": 116,
    "perks": [
     "Daily breakfast",
@@ -1208,6 +1136,78 @@
    ],
    "promo": 0
   },
+  "h_00597": {
+   "n": "Fairmont Nile City, Cairo",
+   "house": "Accor",
+   "aff": null,
+   "city": "Cairo",
+   "country": "Egypt",
+   "ll": [
+    30.0417,
+    31.2314
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18101431_2_0.webp",
+   "rooms": 543,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00643": {
+   "n": "Four Seasons Hotel Cairo at Nile Plaza",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Cairo",
+   "country": "Egypt",
+   "ll": [
+    30.0361,
+    31.2284
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4242_2_0_1006.webp",
+   "rooms": 371,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00642": {
+   "n": "Four Seasons Hotel Cairo",
+   "house": "Four Seasons",
+   "aff": "Four Seasons",
+   "city": "Cairo",
+   "country": "Egypt",
+   "ll": [
+    30.024305,
+    31.216831
+   ],
+   "thumb": null,
+   "rooms": null,
+   "perks": [],
+   "promo": 0
+  },
+  "h_00644": {
+   "n": "Four Seasons Hotel Cairo, at The First Residence",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Cairo",
+   "country": "Egypt",
+   "ll": [
+    30.09,
+    31.2072
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4198_2_0.webp",
+   "rooms": 262,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
   "h_01525": {
    "n": "Park Hyatt Zanzibar",
    "house": "Hyatt Hotels Corporation",
@@ -1218,7 +1218,7 @@
     -6.16384,
     39.1865
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18222608_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18222608_2_0.webp",
    "rooms": 67,
    "perks": [
     "Daily breakfast",
@@ -1654,7 +1654,7 @@
     "Room upgrade",
     "Early check-in"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01709": {
    "n": "Sandy Lane Hotel",
@@ -2160,7 +2160,7 @@
     34.7072,
     135.493
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930345_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930345_2_0.webp",
    "rooms": 248,
    "perks": [
     "Daily breakfast",
@@ -2939,7 +2939,7 @@
     43.6968,
     7.26814
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18333813_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18333813_2_0.webp",
    "rooms": 151,
    "perks": [
     "Daily breakfast",
@@ -2977,7 +2977,7 @@
     53.551,
     10.003
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18082096_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18082096_2_0.webp",
    "rooms": 283,
    "perks": [
     "Daily breakfast",
@@ -3083,7 +3083,7 @@
     47.6082,
     -122.334
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4492_2_0_1002.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4492_2_0.webp",
    "rooms": 450,
    "perks": [
     "Daily breakfast",
@@ -3273,7 +3273,7 @@
     55.6709,
     12.5681
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18506362_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18506362_2_0.webp",
    "rooms": 380,
    "perks": [
     "Daily breakfast",
@@ -3520,7 +3520,7 @@
     14.5525,
     121.048
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18103398_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18103398_2_0.webp",
    "rooms": 576,
    "perks": [
     "Daily breakfast",
@@ -4424,7 +4424,7 @@
     51.0443,
     -114.065
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18074758_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18074758_2_0.webp",
    "rooms": 407,
    "perks": [
     "Daily breakfast",
@@ -4629,7 +4629,7 @@
     41.023,
     28.9779
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16403612_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16403612_2_0.webp",
    "rooms": 177,
    "perks": [
     "Daily breakfast",
@@ -4724,7 +4724,7 @@
     -41.214419,
     -72.715746
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17900907_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17900907_2_0.webp",
    "rooms": 25,
    "perks": [
     "Daily breakfast",
@@ -5206,7 +5206,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00738": {
    "n": "Grand Hotel Miramare",
@@ -5339,7 +5339,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00637": {
    "n": "Four Seasons Astir Palace Hotel Athens",
@@ -5472,7 +5472,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01030": {
    "n": "Jumby Bay Island, Oetker Hotels",
@@ -5514,173 +5514,6 @@
   }
  },
  "GATES": {
-  "Valletta, Malta": {
-   "n": "Valletta, Malta",
-   "ll": [
-    35.8997,
-    14.5147
-   ],
-   "h": [
-    [
-     "h_01667",
-     0.1
-    ],
-    [
-     "h_00969",
-     0.4
-    ],
-    [
-     "h_02109",
-     1.1
-    ],
-    [
-     "h_00992",
-     3.8
-    ]
-   ]
-  },
-  "Málaga, Spain": {
-   "n": "Málaga, Spain",
-   "ll": [
-    36.7167,
-    -4.4167
-   ],
-   "h": [
-    [
-     "h_00724",
-     0.9
-    ],
-    [
-     "h_01124",
-     28.8
-    ]
-   ]
-  },
-  "Los Angeles, CA, United States": {
-   "n": "Los Angeles, CA, United States",
-   "ll": [
-    34.0396,
-    -118.266
-   ],
-   "h": [
-    [
-     "h_00510",
-     0.6
-    ],
-    [
-     "h_00439",
-     2.3
-    ],
-    [
-     "h_01688",
-     10.7
-    ],
-    [
-     "h_01866",
-     11.6
-    ]
-   ]
-  },
-  "Buenos Aires, Argentina": {
-   "n": "Buenos Aires, Argentina",
-   "ll": [
-    -34.5875,
-    -58.6725
-   ],
-   "h": [
-    [
-     "h_00055",
-     26
-    ],
-    [
-     "h_01455",
-     26.2
-    ],
-    [
-     "h_v16828211",
-     26.4
-    ],
-    [
-     "h_00641",
-     26.6
-    ]
-   ]
-  },
-  "Panama City, Panama": {
-   "n": "Panama City, Panama",
-   "ll": [
-    8.9667,
-    -79.5333
-   ],
-   "h": [
-    [
-     "h_02459",
-     1.4
-    ],
-    [
-     "h_00246",
-     1.7
-    ],
-    [
-     "h_01812",
-     1.7
-    ],
-    [
-     "h_00878",
-     19.9
-    ]
-   ]
-  },
-  "Cartagena, Colombia": {
-   "n": "Cartagena, Colombia",
-   "ll": [
-    10.3997,
-    -75.5144
-   ],
-   "h": [
-    [
-     "h_00838",
-     3.5
-    ],
-    [
-     "h_00352",
-     3.9
-    ],
-    [
-     "h_01817",
-     4.6
-    ],
-    [
-     "h_v18575535",
-     4.9
-    ]
-   ]
-  },
-  "Cairo, Egypt": {
-   "n": "Cairo, Egypt",
-   "ll": [
-    30.05,
-    31.25
-   ],
-   "h": [
-    [
-     "h_00597",
-     2
-    ],
-    [
-     "h_00643",
-     2.6
-    ],
-    [
-     "h_00642",
-     4.3
-    ],
-    [
-     "h_00644",
-     6.1
-    ]
-   ]
-  },
   "Piraeus, Greece": {
    "n": "Piraeus, Greece",
    "ll": [
@@ -5740,6 +5573,31 @@
     ]
    ]
   },
+  "Los Angeles, CA, United States": {
+   "n": "Los Angeles, CA, United States",
+   "ll": [
+    34.0396,
+    -118.266
+   ],
+   "h": [
+    [
+     "h_00510",
+     0.6
+    ],
+    [
+     "h_00439",
+     2.3
+    ],
+    [
+     "h_01688",
+     10.7
+    ],
+    [
+     "h_01866",
+     11.6
+    ]
+   ]
+  },
   "Quito, Ecuador": {
    "n": "Quito, Ecuador",
    "ll": [
@@ -5784,6 +5642,31 @@
     [
      "h_02239",
      3.7
+    ]
+   ]
+  },
+  "Buenos Aires, Argentina": {
+   "n": "Buenos Aires, Argentina",
+   "ll": [
+    -34.5875,
+    -58.6725
+   ],
+   "h": [
+    [
+     "h_00055",
+     26
+    ],
+    [
+     "h_01455",
+     26.2
+    ],
+    [
+     "h_v16828211",
+     26.4
+    ],
+    [
+     "h_00641",
+     26.6
     ]
    ]
   },
@@ -5839,6 +5722,98 @@
     [
      "h_01553",
      22.5
+    ]
+   ]
+  },
+  "Málaga, Spain": {
+   "n": "Málaga, Spain",
+   "ll": [
+    36.7167,
+    -4.4167
+   ],
+   "h": [
+    [
+     "h_00724",
+     0.9
+    ],
+    [
+     "h_01124",
+     28.8
+    ]
+   ]
+  },
+  "Cartagena, Colombia": {
+   "n": "Cartagena, Colombia",
+   "ll": [
+    10.3997,
+    -75.5144
+   ],
+   "h": [
+    [
+     "h_00838",
+     3.5
+    ],
+    [
+     "h_00352",
+     3.9
+    ],
+    [
+     "h_01817",
+     4.6
+    ],
+    [
+     "h_v18575535",
+     4.9
+    ]
+   ]
+  },
+  "Panama City, Panama": {
+   "n": "Panama City, Panama",
+   "ll": [
+    8.9667,
+    -79.5333
+   ],
+   "h": [
+    [
+     "h_02459",
+     1.4
+    ],
+    [
+     "h_00246",
+     1.7
+    ],
+    [
+     "h_01812",
+     1.7
+    ],
+    [
+     "h_00878",
+     19.9
+    ]
+   ]
+  },
+  "Valletta, Malta": {
+   "n": "Valletta, Malta",
+   "ll": [
+    35.8997,
+    14.5147
+   ],
+   "h": [
+    [
+     "h_01667",
+     0.1
+    ],
+    [
+     "h_00969",
+     0.4
+    ],
+    [
+     "h_02109",
+     1.1
+    ],
+    [
+     "h_00992",
+     3.8
     ]
    ]
   },
@@ -5952,6 +5927,31 @@
     [
      "h_01398",
      38.1
+    ]
+   ]
+  },
+  "Cairo, Egypt": {
+   "n": "Cairo, Egypt",
+   "ll": [
+    30.05,
+    31.25
+   ],
+   "h": [
+    [
+     "h_00597",
+     2
+    ],
+    [
+     "h_00643",
+     2.6
+    ],
+    [
+     "h_00642",
+     4.3
+    ],
+    [
+     "h_00644",
+     6.1
     ]
    ]
   },
@@ -8108,10 +8108,6 @@
    "pre": "Cairo, Egypt",
    "post": "Cairo, Egypt"
   },
-  "16845800": {
-   "pre": "Panama City, Panama",
-   "post": "Cartagena, Colombia"
-  },
   "16845803": {
    "pre": "Panama City, Panama",
    "post": "Panama City, Panama"
@@ -8155,10 +8151,6 @@
   "16845847": {
    "pre": "San Jose, Costa Rica",
    "post": "Panama City, Panama"
-  },
-  "16845856": {
-   "pre": "Los Angeles, CA, United States",
-   "post": "Los Angeles, CA, United States"
   },
   "16847821": {
    "pre": "Quito, Ecuador",
@@ -8935,14 +8927,6 @@
   "16921087": {
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
-  },
-  "16924456": {
-   "pre": "Valletta, Malta",
-   "post": "Málaga, Spain"
-  },
-  "16927445": {
-   "pre": "Cairo, Egypt",
-   "post": "Cairo, Egypt"
   },
   "16927446": {
    "pre": "Cairo, Egypt",
@@ -16328,10 +16312,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
-  "18492306": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
-  },
   "18492307": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -22679,6 +22659,14 @@
   "18648853": {
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
+  },
+  "18649022": {
+   "pre": null,
+   "post": "Málaga, Spain"
+  },
+  "18649024": {
+   "pre": "Buenos Aires, Argentina",
+   "post": "Rio De Janeiro, Brazil"
   }
  }
 }
