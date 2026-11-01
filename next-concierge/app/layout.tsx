@@ -49,8 +49,21 @@ export const metadata: Metadata = {
   // from Bing's index, so this is the console that matters for AI citations.
   // Set BING_SITE_VERIFICATION to the msvalidate.01 content value; unset emits
   // nothing.
-  ...(process.env.BING_SITE_VERIFICATION && {
-    verification: { other: { "msvalidate.01": process.env.BING_SITE_VERIFICATION } },
+  //
+  // Google Search Console the same way: GOOGLE_SITE_VERIFICATION is the content
+  // value of the google-site-verification tag it offers. Unneeded if the
+  // property is verified by DNS instead. As of 1 November 2026 neither was set
+  // and Google sent 7 visitors in three weeks, so the sitemap had likely never
+  // been submitted to either console.
+  ...((process.env.BING_SITE_VERIFICATION || process.env.GOOGLE_SITE_VERIFICATION) && {
+    verification: {
+      ...(process.env.GOOGLE_SITE_VERIFICATION && {
+        google: process.env.GOOGLE_SITE_VERIFICATION,
+      }),
+      ...(process.env.BING_SITE_VERIFICATION && {
+        other: { "msvalidate.01": process.env.BING_SITE_VERIFICATION },
+      }),
+    },
   }),
 };
 

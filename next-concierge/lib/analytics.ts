@@ -17,6 +17,7 @@
 import { track } from "@vercel/analytics";
 import { arrivalSource } from "./arrival";
 import { referralCode } from "./referral";
+import { campaignName } from "./campaign";
 
 type Props = Record<string, string | number | boolean | null>;
 
@@ -52,8 +53,31 @@ export function askSent(source: AskSource, isFirst: boolean) {
   emit("ask_sent", { source, first: isFirst });
 }
 
-export function resultsReturned(type: string, count: number) {
-  emit("results_returned", { type: type || "none", count });
+/**
+ * A reply finished and its meta frame arrived. NOT "the Guide answered": the
+ * BotID refusal is an ordinary 200 stream with a meta frame too, so without
+ * `stop` a hand-off counted as an answer. `stop` is the server's stop reason
+ * ("end_turn", "advisor_handoff", "max_tool_rounds", ...). Filter on
+ * `eventData/stop eq 'end_turn'` for real answers.
+ *
+ * A hand-off showing up here at all is itself a signal: scripts posting
+ * straight to /api/guide never run this code, so every `advisor_handoff` in
+ * analytics is a real browser the classifier turned away.
+ */
+export function resultsReturned(type: string, count: number, stop: string) {
+  emit("results_returned", { type: type || "none", count, stop: stop || "unknown" });
+}
+
+/**
+ * An ask that never produced a finished reply. Before this, an ask that hit a
+ * rate limit, the daily ceiling or a dropped stream simply vanished: ask_sent
+ * counted it and nothing else did, so "105 asked, 15 answered" could not be
+ * told apart from "90 people left while it was thinking". `reason` is
+ * "http_<status>", "stream" (died mid-reply) or "stopped" (Stop / Start over).
+ * asks − results_returned − ask_failed ≈ visitors who left before it finished.
+ */
+export function askFailed(reason: string) {
+  emit("ask_failed", { reason });
 }
 
 export function advisorCtaClicked(category: string, source: AdvisorSource) {
@@ -74,13 +98,32 @@ const aiSource = () => arrivalSource() ?? "none";
  */
 const partner = () => referralCode() ?? "none";
 
+/**
+ * `campaign` is the utm_campaign this visitor first arrived on (lib/campaign.ts),
+ * or "none" — which post or email earned the lead. Event properties, because
+ * the dashboard's own utm breakdown is not available on this plan.
+ */
+const campaign = () => campaignName() ?? "none";
+
 export function advisorRequestSent(category: string, shortlist: number) {
-  emit("advisor_request_sent", { category, shortlist, ai: aiSource(), partner: partner() });
+  emit("advisor_request_sent", {
+    category,
+    shortlist,
+    ai: aiSource(),
+    partner: partner(),
+    campaign: campaign(),
+  });
 }
 
 /** The self-serve path. `hasDates` separates real intent from a default stay. */
 export function bookingClicked(type: string, hasDates: boolean) {
-  emit("booking_clicked", { type, hasDates, ai: aiSource(), partner: partner() });
+  emit("booking_clicked", {
+    type,
+    hasDates,
+    ai: aiSource(),
+    partner: partner(),
+    campaign: campaign(),
+  });
 }
 
 /**
@@ -93,9 +136,30 @@ export function aiArrival(source: string, via: "utm" | "referrer", landing: stri
   emit("ai_arrival", { source, via, landing });
 }
 
+/** A visitor landed on a tagged link, once per campaign. The denominator for `campaign`. */
+export function campaignArrival(
+  source: string,
+  medium: string,
+  campaign: string,
+  content: string,
+  landing: string,
+) {
+  emit("campaign_arrival", { source, medium, campaign, content, landing });
+}
+
 /** A visitor landed on a partner's link, once per visitor. The denominator for `partner`. */
 export function partnerArrival(code: string, known: boolean, landing: string) {
   emit("partner_arrival", { code, known, landing });
+}
+
+/**
+ * One departure's dossier was opened on a journey collection (jet, cruise,
+ * safari, yacht, train, world cruise). Funnel, not engagement: it is the step
+ * between landing on a collection and asking about a trip, and without it a
+ * visitor who read three itineraries looked the same as one who left at once.
+ */
+export function journeyOpened(category: string) {
+  emit("journey_opened", { category });
 }
 
 export function atlasOpened(type: string, source: "card" | "shortlist" | "nav") {

@@ -19,7 +19,10 @@ import { useEffect, useRef } from "react";
 import { campHref, type SafariCamp } from "@/lib/atlas/safari-camps";
 import { stayHref, cityHref, type GatewaySide, type JourneyStays } from "@/lib/atlas/gateway-hotels";
 import { askAboutDays, askGuide, askGuideHref } from "@/lib/atlas/ask";
-import { experiencesAsked } from "@/lib/analytics";
+import { experiencesAsked, journeyOpened } from "@/lib/analytics";
+import { openAdvisor, ADVISOR_SLA } from "./AdvisorRequest";
+import { buildAdvisorContext } from "@/lib/handoff";
+import { peekTurns } from "@/lib/conversation-store";
 
 /** What every collection can supply, whatever its own feed calls things. */
 export interface JourneyRecord {
@@ -73,11 +76,49 @@ export interface JourneyRecord {
 export default function JourneyDossier({
   record,
   close,
+  category = "generic",
 }: {
   record: JourneyRecord;
   close: () => void;
+  /** The hand-off category (lib/handoff HANDOFF_BLURB key) for this collection. */
+  category?: string;
 }) {
   const ref = useRef<HTMLDivElement | null>(null);
+
+  // Opening one departure is the first commitment past browsing. Measured so
+  // the Instagram traffic that lands on /atlas/jet can be split into "opened a
+  // trip and left" versus "never opened one", which call for different fixes.
+  useEffect(() => {
+    journeyOpened(category);
+  }, [category, record.title]);
+
+  /*
+   * The route to a person, about THIS departure.
+   *
+   * These dossiers had no advisor button at all: the only one was the header's,
+   * which opens cold and tells the advisor nothing about the trip on screen.
+   * Since 14 September 18 of 19 advisor clicks came from that header button,
+   * and none from inside a collection. The trip goes in as the shortlist so the
+   * advisor reads "this is what they were looking at", and anything the
+   * traveller already told the Guide still rides along.
+   */
+  const askAdvisor = () => {
+    const base = buildAdvisorContext(peekTurns());
+    // Some feeds write the window as "Dates: 11 Nov 2026 - 23 Nov 2026".
+    const dates = record.dates?.replace(/^\s*dates:\s*/i, "") || null;
+    const label = [record.title, dates].filter(Boolean).join(" · ");
+    openAdvisor({
+      source: "atlas",
+      context: {
+        ...base,
+        category,
+        shortlist: [label],
+        shortlistRefs: [],
+        shortlistSource: "results",
+        shortlistTotal: 1,
+      },
+    });
+  };
 
   // Escape closes it, matching the hotel dossier and the filter drawer.
   useEffect(() => {
@@ -125,6 +166,12 @@ export default function JourneyDossier({
           {meta && <p className="jd-meta">{meta}</p>}
           {where && <p className="jd-where">{where}</p>}
           {record.dates && <p className="jd-dates">{record.dates}</p>}
+          {/* Top of the panel, not the foot: on a phone the foot is several
+              screens of itinerary away, and that is where people gave up. */}
+          <button type="button" className="jd-advisor" onClick={askAdvisor}>
+            Ask an advisor about this trip
+          </button>
+          <p className="jd-advisor-sla">{ADVISOR_SLA}</p>
         </div>
         <button type="button" className="jd-close" onClick={close} aria-label="Close">
           ×

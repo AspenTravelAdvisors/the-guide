@@ -5,7 +5,8 @@
 // Renders nothing. See lib/arrival.ts and lib/referral.ts.
 
 import { useEffect } from "react";
-import { aiArrival, partnerArrival } from "@/lib/analytics";
+import { aiArrival, campaignArrival, partnerArrival } from "@/lib/analytics";
+import { captureCampaign } from "@/lib/campaign";
 import { captureArrival } from "@/lib/arrival";
 import { captureReferral, partnerFor } from "@/lib/referral";
 
@@ -29,6 +30,8 @@ export default function ArrivalCapture() {
     if (a) aiArrival(a.source, a.via, a.landing);
     const r = captureReferral();
     if (r) partnerArrival(r.code, !!partnerFor(r.code), r.landing);
+    const c = captureCampaign();
+    if (c) campaignArrival(c.source, c.medium, c.campaign, c.content, c.landing);
   }, []);
   return null;
 }

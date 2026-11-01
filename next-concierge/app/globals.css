@@ -5483,6 +5483,34 @@ button.card-book {
   text-decoration: none;
 }
 .jd-book:hover { border-color: #a98a3e; }
+/* The advisor hand-off, at the top of the dossier. Gold like the header's
+   .nav-cta so it reads as the same action; full width with a 44px target
+   because most of the traffic reaching these panels is on a phone. */
+.jd-advisor {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  margin-top: 12px;
+  padding: 10px 14px;
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  background: var(--gold);
+  color: var(--bg);
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+}
+.jd-advisor:hover {
+  background: var(--gold-light);
+  border-color: var(--gold-light);
+}
+.jd-advisor-sla {
+  margin: 6px 0 0;
+  color: var(--ink-dim, #b9b6ad);
+  font-size: 11.5px;
+}
 /* The days at the embarkation port — a question the supplier's file never
    answers, sitting quieter than the booking link it precedes. */
 .jd-ask {
@@ -5665,18 +5693,20 @@ button.card-book {
   background: rgba(201, 168, 76, 0.18);
   border-color: var(--gold);
 }
+/* Solid gold, the same as the header's .nav-cta: one action, one look. It was
+   transparent with --sub text, the least visible control in the footer. */
 .hotel-dossier .hd-advisor {
-  background: transparent;
-  border: 1px solid var(--line);
-  color: var(--sub);
+  background: var(--gold);
+  border: 1px solid var(--gold);
+  color: var(--bg);
 }
 .hotel-dossier .hd-advisor:hover {
-  color: var(--gold-light);
-  border-color: var(--gold-dim);
+  background: var(--gold-light);
+  border-color: var(--gold-light);
 }
 /* "What is there to do here" — a real second question on this screen, but not
-   a competing one, so it reads at the advisor button's weight rather than the
-   gold ask's. */
+   a competing one, so it reads quieter than both the gold ask and the advisor
+   button. */
 .hotel-dossier .hd-days {
   padding: 10px 12px;
   border-radius: 10px;

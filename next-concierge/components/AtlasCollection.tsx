@@ -66,6 +66,13 @@ export interface CardActionState {
  */
 const AUTO_OPEN_DETAIL_ON_DESKTOP = true;
 
+/** The phone's way into a journey's dossier; see `cardAction` in the component. */
+const TRIP_DETAILS_ACTION: NonNullable<Props["cardAction"]> = {
+  label: ({ open }) => (open ? "Hide details" : "Trip details"),
+  title: ({ open }) => (open ? "Close this trip's details" : "Itinerary, inclusions and an advisor for this trip"),
+  onSelect: (_o, api) => (api.open ? api.close() : api.openDetail()),
+};
+
 interface Props {
   type: OfferingType;
   descriptor: AtlasFilterDescriptor;
@@ -327,7 +334,7 @@ const fmtDay = (iso?: string | null) =>
     : "";
 
 export default function AtlasCollection({
-  type, descriptor, load, accent, initialStyle, initialGlobe, cardAction,
+  type, descriptor, load, accent, initialStyle, initialGlobe, cardAction: cardActionProp,
   cardPrimary, onVisibleIds, photoreal = false, detailFor,
   cardCrumb, cardNote, cardSummary, cardMedia, markOverMedia, aside,
 }: Props) {
@@ -414,6 +421,22 @@ export default function AtlasCollection({
    */
   const autoDetailRef = useRef(false);
   const phone = useIsMobile();
+  /*
+   * Every card on a phone needs a way into its file.
+   *
+   * A card tap selects without disclosing, and on desktop the details open by
+   * themselves (AUTO_OPEN_DETAIL_ON_DESKTOP). On a phone the only routes into a
+   * detail panel were a collection's own `cardAction` — which only hotels pass
+   * — or a deep link naming one id. So on jet, cruise, safari, yacht, train and
+   * world cruise a phone visitor could not open a single itinerary, its
+   * pricing notes, or the advisor button inside it. That is most of the
+   * Instagram traffic, which lands on /atlas/jet on a phone and leaves after
+   * one page. Any collection with a `detailFor` and no action of its own gets
+   * this one.
+   */
+  const cardAction: Props["cardAction"] =
+    cardActionProp ??
+    (phone && detailFor ? TRIP_DETAILS_ACTION : undefined);
   const viewRef = useRef<{
     style: string; engine?: "mapbox" | "photoreal"; globe: boolean;
     center: { lng: number; lat: number }; zoom: number; pitch: number; bearing: number;

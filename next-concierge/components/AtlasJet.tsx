@@ -172,7 +172,7 @@ export default function AtlasJet() {
   const detailFor = useCallback((o: AtlasOffering, { close }: { close: () => void }) => {
     const rec = recordsRef.current.get(String(o.id));
     if (!rec) return null;
-    return <JourneyDossier record={rec} close={close} />;
+    return <JourneyDossier record={rec} close={close} category="jet" />;
   }, []);
 
   return (

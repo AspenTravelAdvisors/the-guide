@@ -31,6 +31,8 @@ import { askAboutDays, askAboutProperty, askGuide, askGuideHref } from "@/lib/at
 import { bookingClicked, experiencesAsked, hotelFlyover } from "@/lib/analytics";
 import { flyoverLink, flyoverState, onFlyoverState, requestFlyover, type FlyoverState } from "@/lib/atlas/flyover-bus";
 import { openAdvisor, ADVISOR_CTA_COLD } from "./AdvisorRequest";
+import { buildAdvisorContext } from "@/lib/handoff";
+import { peekTurns } from "@/lib/conversation-store";
 import BucketListButton from "./BucketListButton";
 import type { TripState } from "@/lib/types";
 
@@ -434,12 +436,29 @@ export default function HotelDossier({
             What is there to do in {daysPlace}?
           </button>
         )}
+        {/* The human route. It sat last here, styled as the quietest control
+            in the panel, and it opened cold — the advisor learned nothing
+            about the hotel on screen. Since 14 September no advisor click came
+            from it. Now it carries the hotel and reads as the gold action. */}
         <button
           type="button"
           className="hd-advisor"
-          onClick={() => openAdvisor({ source: "atlas" })}
+          onClick={() => {
+            const base = buildAdvisorContext(peekTurns());
+            openAdvisor({
+              source: "atlas",
+              context: {
+                ...base,
+                category: "hotel",
+                shortlist: [where ? `${name} (${where})` : name],
+                shortlistRefs: [{ type: "hotel", id, name }],
+                shortlistSource: "results",
+                shortlistTotal: 1,
+              },
+            });
+          }}
         >
-          {ADVISOR_CTA_COLD}
+          {ADVISOR_CTA_COLD} about this hotel
         </button>
       </footer>
     </aside>

@@ -21,6 +21,7 @@ import {
   saveConversation,
 } from "@/lib/conversation-store";
 import {
+  askFailed,
   askSent,
   experiencesAsked,
   experiencesReturned,
@@ -259,6 +260,9 @@ export default function GuideChat() {
         return next;
       });
 
+    // Set once this ask has been reported as failed, so the catch below does
+    // not count the same failure twice (an HTTP refusal is thrown into it).
+    let failReported = false;
     try {
       const res = await fetch("/api/guide", {
         method: "POST",
@@ -267,6 +271,8 @@ export default function GuideChat() {
         signal: ctrl.signal,
       });
       if (!res.ok || !res.body) {
+        failReported = true;
+        askFailed(`http_${res.status}`);
         const err = await res.text().catch(() => "");
         // Refusals (too long, daily limit) arrive as {"error": "..."}; show the
         // sentence, not the JSON around it.
@@ -326,6 +332,7 @@ export default function GuideChat() {
             resultsReturned(
               String(lead?.type ?? ""),
               (meta.tools ?? []).reduce((n, t) => n + (t.results?.length ?? 0), 0),
+              String(meta.stopReason ?? ""),
             );
             if (meta.experiences) {
               experiencesReturned(
@@ -351,8 +358,10 @@ export default function GuideChat() {
         }
       }
     } catch (err) {
+      const aborted = err instanceof DOMException && err.name === "AbortError";
+      if (!failReported) askFailed(aborted ? "stopped" : "stream");
       // A Start over aborts the fetch on purpose — that's not an error to show.
-      if (!(err instanceof DOMException && err.name === "AbortError")) {
+      if (!aborted) {
         const detail = err instanceof Error ? err.message : String(err);
         patchReply((turn) => ({
           ...turn,
