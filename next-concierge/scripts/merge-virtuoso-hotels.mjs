@@ -18,6 +18,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { repoRoot } from '../lib/virtuoso/env.mjs';
 import { cardImage } from '../lib/virtuoso/media.mjs';
+import { travelerOffers } from '../lib/virtuoso/traveler-offers.mjs';
 import { steadyStamp } from './lib/steady-stamp.mjs';
 
 const CHECK = process.argv.includes('--check');
@@ -56,12 +57,16 @@ for (const p of promoDoc.promotions ?? []) {
   if (!promosByCompany.has(k)) promosByCompany.set(k, []);
   promosByCompany.get(k).push(p);
 }
-/** Offers for one property, soonest to expire first — that is the one to push. */
-const promosFor = v => (promosByCompany.get(promoKey(v.name)) ?? [])
-  .slice()
+/**
+ * Offers for one property, soonest to expire first — that is the one to push.
+ * Advisor-only offers and commission terms are taken out before the three are
+ * picked (lib/virtuoso/traveler-offers.mjs), so a commission offer never takes
+ * the place of one a traveler can use.
+ */
+const promosFor = v => travelerOffers((promosByCompany.get(promoKey(v.name)) ?? [])
+  .map(p => ({ id: p.id, name: p.name, endDate: p.endDate, exclusive: p.exclusive, description: p.description })))
   .sort((a, b) => (a.endDate ?? '9999').localeCompare(b.endDate ?? '9999'))
-  .slice(0, 3)
-  .map(p => ({ id: p.id, name: p.name, endDate: p.endDate, exclusive: p.exclusive, description: p.description }));
+  .slice(0, 3);
 
 // ---------- category, from supplier signals instead of a guess ----------
 

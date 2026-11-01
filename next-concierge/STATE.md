@@ -2952,5 +2952,24 @@ Checked over all 4,461 pages: no empty description, 26 shared titles (records
 the feed itself duplicates), 380 titles past 76 characters (long hotel names).
 `verify:seo` all clear; rendered pages checked in dev.
 
-**Open:** hotel pages list `vipUpgrades` even where `hideAmenities` is set
-(55 properties). The snippet respects the flag; the page does not.
+**Decided (2026-11-01):** amenities are shown for every hotel, including the
+55 (all Four Seasons) with Virtuoso's `hideAmenities` flag. Amenities go to
+the guest and are fine to publish; only commission and other advisor-facing
+terms are kept off traveler pages. The snippet no longer reads the flag.
+
+Commission is now kept off every traveler surface, not only the hotel and
+journey pages. `lib/virtuoso/traveler-offers.mjs`:
+- drops advisor-only offers — named for advisors ("2% Bonus Commission",
+  "20% Advisor Commission | Opening Incentive", "2026 Sell 3 Sail Free"), or
+  pitching commission with nothing left for the guest ("Winter Advantage …
+  earn more … an enhanced 12% commission"): 7 of 1,921 supplier offers;
+- cuts commission terms out of 36 real offers ("Complimentary round-trip
+  airport transfers 15% commission***", "The offer is commissionable at 10%",
+  "Commission: 15% … valid travel industry ID"), keeping the guest perks
+  around them. None is emptied; offers that never mention commission are
+  untouched.
+Both feed builds apply it, so the atlas dossiers and the Guide read clean
+offers, and the hotel and journey pages apply it again. The supplier
+commission chart (`advisor-overlay.json`) is read only on the server for
+ranking and never leaves it. Kept on purpose: Taj Exotica's offer titled
+"Earn More & Enjoy More", whose text is all guest perks.

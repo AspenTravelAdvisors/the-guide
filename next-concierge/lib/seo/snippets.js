@@ -93,16 +93,6 @@ function shortName(candidates, suffix) {
 /** "HX Expeditions'", "Belmond's". */
 const possessive = (s) => (/s$/i.test(s) ? `${s}'` : `${s}'s`);
 
-/**
- * Whether a supplier promotion is meant for travelers. The Virtuoso feed also
- * carries offers addressed to advisors — "2% Bonus Commission" on 76 sailings,
- * "Enhanced Commission: 20% on rooms", an invitation for New York advisors —
- * which must never be shown to a traveler as an offer. Used by the hotel and
- * journey pages (lib/seo/hotels.js, lib/seo/journeys.js) and the snippets.
- */
-export const isTravelerOffer = (p) =>
-  !/commission|\badvisors?\b|\bagents?\b|incentive|\bfam\b/i.test(clean(p?.name));
-
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const monthYear = (iso) => {
   const m = /^(\d{4})-(\d{2})/.exec(iso || "");
@@ -141,13 +131,7 @@ export function hotelSnippet(h) {
   const city = clean(h.city);
   const place = city && !fold(name).includes(fold(city)) ? `${name}, ${city}` : name;
   const program = programName(h.program);
-  /*
-   * `hideAmenities` is the supplier's "hide amenities from consumers" flag. The
-   * snippet names the programme but never lists what it includes for these.
-   */
-  const perks = h.hideAmenities
-    ? []
-    : [...new Set((h.vipUpgrades || []).map(shortPerk).filter(Boolean))];
+  const perks = [...new Set((h.vipUpgrades || []).map(shortPerk).filter(Boolean))];
   const year = h.perksYear && !h.perksStale ? `${h.perksYear} ` : "";
   const offers = (h.activeOffers || []).map((p) => clean(p.name)).filter(Boolean);
 

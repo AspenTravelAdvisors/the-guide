@@ -29,6 +29,7 @@ import path from 'node:path';
 import { repoRoot } from '../lib/virtuoso/env.mjs';
 import { cardImage, journeyPhotoKey } from '../lib/virtuoso/media.mjs';
 import { admitsStoredTour } from "../lib/virtuoso/safari-selector.mjs";
+import { travelerOffers } from '../lib/virtuoso/traveler-offers.mjs';
 
 const args = process.argv.slice(2);
 const CHECK = args.includes('--check');
@@ -70,12 +71,20 @@ for (const p of PROMOTIONS) {
   if (!promosByCompany.has(k)) promosByCompany.set(k, []);
   promosByCompany.get(k).push(p);
 }
-/** Offers for an operator, soonest to expire first. */
-const promosForCompany = company => (promosByCompany.get(promoKey(company)) ?? [])
-  .slice()
+/**
+ * Offers for an operator, soonest to expire first. Advisor-only offers ("2%
+ * Bonus Commission") and commission terms are taken out before the three are
+ * picked; see lib/virtuoso/traveler-offers.mjs.
+ */
+const promosForCompany = company => travelerOffers((promosByCompany.get(promoKey(company)) ?? [])
+  .map(p => ({ name: p.name, endDate: p.endDate, exclusive: p.exclusive, description: p.description })))
   .sort((a, b) => (a.endDate ?? '9999').localeCompare(b.endDate ?? '9999'))
-  .slice(0, 3)
-  .map(p => ({ name: p.name, endDate: p.endDate, exclusive: p.exclusive, description: p.description }));
+  .slice(0, 3);
+/** A sailing's own offers when it has any a traveler can see, the operator's otherwise. */
+const sailingOffers = c => {
+  const own = travelerOffers(c.promotions);
+  return own.length ? own : promosForCompany(c.line);
+};
 
 /*
  * Hero photographs for the journeys the API supplies none for.
@@ -356,7 +365,7 @@ function buildSeaAtlas({ atlas, baseRel, outRel, publicRel }) {
       image: cardImage(c.image) ?? null,
       description: c.description || null,
       // Per-sailing offers first; the operator's live promotions otherwise.
-      promotions: (c.promotions?.length ? c.promotions : promosForCompany(c.line)) ?? [],
+      promotions: sailingOffers(c),
       itin,
     });
   }
@@ -394,7 +403,7 @@ function buildExpedition() {
     // The dossier's prose and the offers on it. Appended like `image`, so the
     // index-read schema keeps working for anything that has not been updated.
     c.description ?? '',
-    JSON.stringify((c.promotions?.length ? c.promotions : promosForCompany(c.line)) ?? []),
+    JSON.stringify(sailingOffers(c)),
   ]);
 
   writePair('data/atlas/cruise/sailings.json', 'public/maps/cruise/sailings.json',

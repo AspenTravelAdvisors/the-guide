@@ -32,7 +32,7 @@
 
 import { SITE_URL } from "@/lib/answers";
 import { orgRef } from "@/lib/seo/site";
-import { isTravelerOffer } from "@/lib/seo/snippets";
+import { isTravelerOffer, travelerOfferText } from "@/lib/virtuoso/traveler-offers.mjs";
 import { groupItineraries } from "@/lib/seo/journey-key.mjs";
 
 import { adaptCruise } from "@/lib/atlas/adapters/cruise";
@@ -218,7 +218,7 @@ function buildCollection(type) {
         const name = clean(p?.name);
         if (!name || seenOffer.has(name) || !isTravelerOffer(p)) continue;
         seenOffer.add(name);
-        promotions.push(p);
+        promotions.push({ ...p, description: travelerOfferText(p.description) });
       }
     }
 

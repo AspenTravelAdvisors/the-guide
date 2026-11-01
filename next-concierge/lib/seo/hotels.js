@@ -19,7 +19,7 @@ import { applyHotelOverlays } from "@/lib/atlas/hotel-overlays.js";
 import { isNotAPlace } from "@/lib/atlas/country-overrides.js";
 import { SITE_URL } from "@/lib/answers";
 import { orgRef } from "@/lib/seo/site";
-import { isTravelerOffer } from "@/lib/seo/snippets";
+import { travelerOffers } from "@/lib/virtuoso/traveler-offers.mjs";
 
 // The same overlays the API and the map apply, through the same function, for
 // the same reason: a property's programme and its country are each decided in
@@ -165,10 +165,14 @@ export function relatedHotels(h, limit = 6) {
   return [...sameCity, ...sameCountry].slice(0, limit);
 }
 
-/** Live supplier offers that have not expired as of `on`. */
+/**
+ * Live supplier offers that have not expired as of `on`, as a traveler may see
+ * them: no advisor-only offers, no commission terms. The feed build already
+ * does this; repeating it here keeps an older build from leaking either.
+ */
 export function activePromotions(h, on = new Date()) {
   const today = on.toISOString().slice(0, 10);
-  return (h.promotions || []).filter((p) => (!p.endDate || p.endDate >= today) && isTravelerOffer(p));
+  return travelerOffers((h.promotions || []).filter((p) => !p.endDate || p.endDate >= today));
 }
 
 const clean = (s) =>
