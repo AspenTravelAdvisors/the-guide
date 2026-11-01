@@ -6,22 +6,17 @@
 // point is reliability: this fires server-side the moment the traveler commits,
 // so the advisor gets the full context even if the traveler never opens a mail
 // client. The mailto path in the client stays as a convenience, not the system
-// of record.
-//
-// Env:
-//   HANDOFF_ENDPOINT (optional) — Formspree (or any JSON webhook) URL. Defaults
-//     to the project's Formspree form. Swap per environment without a redeploy.
+// of record. The inbox itself is lib/lead-inbox.ts.
 
 import { corsHeaders, isAllowedOrigin } from "@/lib/guide-cors";
 import { isRateLimited } from "@/lib/rate-limit";
 import { arrivalLabel, classifyAiSource } from "@/lib/arrival";
+import { normalizeReferralCode, partnerFor, partnerLabel } from "@/lib/referral";
+import { EMAIL_RE, reelLines, sendToLeadInbox } from "@/lib/lead-inbox";
 import { SITE_URL } from "@/lib/site-url";
 
 export const runtime = "nodejs";
 export const maxDuration = 20;
-
-const HANDOFF_ENDPOINT =
-  process.env.HANDOFF_ENDPOINT || "https://formspree.io/f/mjgdzeye";
 
 // The structured brief the Guide qualifies during the conversation, parsed from
 // the [[BRIEF: ...]] control tag on the client. Every field is optional — the
@@ -51,6 +46,9 @@ interface HandoffBody {
   // two replies differently.
   shortlist?: string[];
   shortlistSource?: "bucket" | "results";
+  // The shortlist as records, where the client knew the ids. Hotels on it get a
+  // flyover reel in the email.
+  shortlistItems?: Array<{ type: string; id: string; name: string }>;
   // How many the list holds, when more were saved than were sent.
   shortlistTotal?: number;
   // Living Atlas deep link reproducing the exact subset on the map.
@@ -68,6 +66,8 @@ interface HandoffBody {
   aiSource?: string | null;
   // The page that assistant first landed them on, path only.
   aiLanding?: string | null;
+  // The referral partner's code from their link (lib/referral.ts), normalized.
+  partner?: string | null;
 }
 
 const CATEGORY_LABEL: Record<string, string> = {
@@ -157,6 +157,13 @@ function normalize(raw: unknown): HandoffBody | null {
       ? raw.shortlist.map((s) => clip(s, 160)).filter(Boolean).slice(0, 12)
       : [],
     shortlistSource: raw.shortlistSource === "bucket" ? "bucket" : "results",
+    shortlistItems: Array.isArray(raw.shortlistItems)
+      ? raw.shortlistItems
+          .filter(isRecord)
+          .map((r) => ({ type: clip(r.type, 20), id: clip(r.id, 40), name: clip(r.name, 160) }))
+          .filter((r) => r.type && r.id && r.name)
+          .slice(0, 12)
+      : [],
     shortlistTotal: Number(raw.shortlistTotal) || 0,
     deepLink: siteLink(raw.deepLink) || null,
     contact: {
@@ -169,6 +176,7 @@ function normalize(raw: unknown): HandoffBody | null {
     pageUrl: siteLink(raw.pageUrl),
     aiSource: typeof raw.aiSource === "string" ? raw.aiSource : null,
     aiLanding: typeof raw.aiLanding === "string" ? raw.aiLanding : null,
+    partner: normalizeReferralCode(raw.partner),
   };
 }
 
@@ -185,6 +193,14 @@ function composeMessage(body: HandoffBody): string {
 
   lines.push(`New hand-off from Expedition Bucket List — ${cat}`);
   if (body.action) lines.push(`Traveler tapped: ${body.action}`);
+  if (body.partner) {
+    const p = partnerFor(body.partner);
+    lines.push(
+      p
+        ? `Referred by: ${partnerLabel(p)} (link code ${body.partner}). Thank them.`
+        : `Referral code: ${body.partner} (not in data/partners.json yet)`,
+    );
+  }
   const ai = classifyAiSource(body.aiSource);
   if (ai) {
     const landing = landingPath(body.aiLanding);
@@ -226,6 +242,14 @@ function composeMessage(body: HandoffBody): string {
     // the whole of a list of twenty-six.
     const total = Number(body.shortlistTotal) || sent.length;
     if (total > sent.length) lines.push(` • …and ${total - sent.length} more saved`);
+    lines.push("");
+  }
+
+  const reels = reelLines(body.shortlistItems ?? [], body.partner);
+  if (reels.length) {
+    lines.push("— Send first: flyover reels —");
+    lines.push("Each plays a short aerial film of the hotel. Forward them as your first reply.");
+    for (const r of reels) lines.push(` • ${r}`);
     lines.push("");
   }
 
@@ -277,7 +301,7 @@ export async function POST(req: Request) {
   // We can capture a brief without contact, but with no way to reach the
   // traveler there is nothing for the advisor to follow up on. Require an email.
   const email = clip(contact.email, 200);
-  if (!email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+  if (!email || !EMAIL_RE.test(email)) {
     return Response.json(
       { ok: false, error: "A valid email is required." },
       { status: 422, headers: cors },
@@ -285,10 +309,11 @@ export async function POST(req: Request) {
   }
 
   const cat = CATEGORY_LABEL[body.category ?? "generic"] ?? "Trip Planning";
+  const referrer = partnerFor(body.partner);
   const payload = {
     _subject: `Expedition Bucket List hand-off — ${cat}${
       contact.name ? ` — ${clip(contact.name, 80)}` : ""
-    }`,
+    }${referrer ? ` — via ${referrer.name}` : ""}`,
     name: clip(contact.name, 80) || "(not given)",
     email,
     phone: clip(contact.phone, 40),
@@ -310,25 +335,11 @@ export async function POST(req: Request) {
     // known assistant name and never whatever a caller put in the field.
     aiSource: classifyAiSource(body.aiSource) ?? "",
     aiLanding: landingPath(body.aiLanding),
+    partner: body.partner ?? "",
     message: composeMessage(body),
   };
 
-  try {
-    const res = await fetch(HANDOFF_ENDPOINT, {
-      method: "POST",
-      headers: { "Content-Type": "application/json", Accept: "application/json" },
-      body: JSON.stringify(payload),
-    });
-    if (!res.ok) {
-      const detail = await res.text().catch(() => "");
-      console.error(`Hand-off capture failed (${res.status}):`, detail.slice(0, 500));
-      return Response.json(
-        { ok: false, error: CAPTURE_FAILED },
-        { status: 502, headers: cors },
-      );
-    }
-  } catch (err) {
-    console.error("Hand-off capture failed:", err);
+  if (!(await sendToLeadInbox(payload, "Hand-off"))) {
     return Response.json(
       { ok: false, error: CAPTURE_FAILED },
       { status: 502, headers: cors },

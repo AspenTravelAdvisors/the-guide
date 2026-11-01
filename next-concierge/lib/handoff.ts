@@ -39,8 +39,20 @@ export interface AdvisorContext {
   shortlistSource: "bucket" | "results";
   /** How many items the list actually holds, when more were saved than sent. */
   shortlistTotal: number;
+  /**
+   * The same shortlist as records rather than names, where the surface knows
+   * the ids. It is what lets the hand-off attach a flyover reel for each hotel
+   * on it — the first thing an advisor can send back.
+   */
+  shortlistRefs: ShortlistRef[];
   deepLink: string | null;
   transcript: string;
+}
+
+export interface ShortlistRef {
+  type: string;
+  id: string;
+  name: string;
 }
 
 /**
@@ -134,6 +146,22 @@ export function shortlistNames(meta: GuideMeta | undefined): string[] {
     }
   }
   return names.slice(0, 5);
+}
+
+/** shortlistNames, keeping each result's collection and id. */
+export function shortlistRefs(meta: GuideMeta | undefined): ShortlistRef[] {
+  if (!meta) return [];
+  const refs: ShortlistRef[] = [];
+  const seen = new Set<string>();
+  for (const tool of [...(meta.tools ?? [])].reverse()) {
+    for (const r of tool.results ?? []) {
+      const name = typeof r?.name === "string" ? r.name.trim() : "";
+      if (!name || seen.has(name)) continue;
+      seen.add(name);
+      if (r.id && tool.type) refs.push({ type: tool.type, id: String(r.id), name });
+    }
+  }
+  return refs.slice(0, 5);
 }
 
 /** The most recent shortlist anywhere in the conversation, for a cold CTA. */
@@ -256,6 +284,7 @@ export function buildAdvisorContext(turns: GuideTurn[], meta?: GuideMeta): Advis
   const saved = getBucketList();
   const fromResults = {
     shortlist: latest.names,
+    shortlistRefs: shortlistRefs(latest.meta),
     shortlistSource: "results" as const,
     shortlistTotal: latest.names.length,
     category: handoffCategory(latest.meta),
@@ -263,6 +292,9 @@ export function buildAdvisorContext(turns: GuideTurn[], meta?: GuideMeta): Advis
   const chosen = saved.length
     ? {
         shortlist: saved.slice(0, HANDOFF_SAVED_LIMIT).map((i) => i.title),
+        shortlistRefs: saved
+          .slice(0, HANDOFF_SAVED_LIMIT)
+          .map((i) => ({ type: i.type, id: i.id, name: i.title })),
         shortlistSource: "bucket" as const,
         shortlistTotal: saved.length,
         /*

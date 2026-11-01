@@ -16,6 +16,7 @@
 
 import { track } from "@vercel/analytics";
 import { arrivalSource } from "./arrival";
+import { referralCode } from "./referral";
 
 type Props = Record<string, string | number | boolean | null>;
 
@@ -66,13 +67,20 @@ export function advisorCtaClicked(category: string, source: AdvisorSource) {
  */
 const aiSource = () => arrivalSource() ?? "none";
 
+/**
+ * `partner` is the referral code this visitor arrived with (lib/referral.ts),
+ * or "none" — the same question as `ai`, asked of the people who send us
+ * clients rather than the assistants that cite us.
+ */
+const partner = () => referralCode() ?? "none";
+
 export function advisorRequestSent(category: string, shortlist: number) {
-  emit("advisor_request_sent", { category, shortlist, ai: aiSource() });
+  emit("advisor_request_sent", { category, shortlist, ai: aiSource(), partner: partner() });
 }
 
 /** The self-serve path. `hasDates` separates real intent from a default stay. */
 export function bookingClicked(type: string, hasDates: boolean) {
-  emit("booking_clicked", { type, hasDates, ai: aiSource() });
+  emit("booking_clicked", { type, hasDates, ai: aiSource(), partner: partner() });
 }
 
 /**
@@ -83,6 +91,11 @@ export function bookingClicked(type: string, hasDates: boolean) {
  */
 export function aiArrival(source: string, via: "utm" | "referrer", landing: string) {
   emit("ai_arrival", { source, via, landing });
+}
+
+/** A visitor landed on a partner's link, once per visitor. The denominator for `partner`. */
+export function partnerArrival(code: string, known: boolean, landing: string) {
+  emit("partner_arrival", { code, known, landing });
 }
 
 export function atlasOpened(type: string, source: "card" | "shortlist" | "nav") {
@@ -183,6 +196,15 @@ export type BucketSource =
 /** Did anyone come back to the list they built? */
 export function bucketListOpened(size: number) {
   emit("bucket_list_opened", { size });
+}
+
+/**
+ * A traveler asked to be told when their saved trips change. It is a lead in
+ * its own right — an email attached to a list of specific trips — so it carries
+ * the same `ai` / `partner` split as the hand-off.
+ */
+export function bucketWatchSet(size: number) {
+  emit("bucket_watch_set", { size, ai: aiSource(), partner: partner() });
 }
 
 /* ── Things to do ───────────────────────────────────────────────────────────

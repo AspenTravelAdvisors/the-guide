@@ -25,7 +25,9 @@ import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { ATLASES, COLLECTIONS } from "@/lib/atlas-config";
 import { askAboutBucketList, askAboutSaved, askGuide, askGuideHref } from "@/lib/atlas/ask";
-import { bucketListOpened, bucketListRemoved } from "@/lib/analytics";
+import { bucketListOpened, bucketListRemoved, bucketWatchSet } from "@/lib/analytics";
+import { arrivalSource } from "@/lib/arrival";
+import { referralCode } from "@/lib/referral";
 import {
   bucketListCount,
   clearBucketList,
@@ -101,6 +103,7 @@ export default function BucketList() {
           </button>
         </div>
         <p className="bl-sla">{ADVISOR_SLA}</p>
+        <WatchList items={items} />
       </header>
 
       {groups.map(({ type, items: rows }) => (
@@ -218,6 +221,134 @@ function Row({ item, router }: { item: SavedItem; router: ReturnType<typeof useR
         </time>
       )}
     </li>
+  );
+}
+
+const WATCH_KEY = "ebl.watch";
+
+interface WatchRecord {
+  email: string;
+  keys: string[];
+}
+
+function readWatch(): WatchRecord | null {
+  try {
+    const w = JSON.parse(window.localStorage.getItem(WATCH_KEY) || "null") as WatchRecord | null;
+    return w && typeof w.email === "string" && Array.isArray(w.keys) ? w : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * "Tell me when any of these change."
+ *
+ * The list's other conversion, for the traveler who is not ready to talk to
+ * anyone yet: leave an email, and an advisor writes when a saved trip gets a
+ * new offer or new dates (app/api/watch, lib/watch.ts). Said plainly that a
+ * person sends it — that is the promise, and it is what makes it worth an email.
+ *
+ * Remembers on this device what it is watching, so a list that has grown since
+ * offers to update rather than asking again from scratch.
+ */
+function WatchList({ items }: { items: SavedItem[] }) {
+  const [watch, setWatch] = useState<WatchRecord | null>(null);
+  const [email, setEmail] = useState("");
+  const [phase, setPhase] = useState<"idle" | "sending" | "error">("idle");
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    const w = readWatch();
+    setWatch(w);
+    if (w) setEmail(w.email);
+  }, []);
+
+  const keys = items.map((i) => i.key);
+  const unwatched = watch ? keys.filter((k) => !watch.keys.includes(k)).length : keys.length;
+
+  const submit = async () => {
+    const clean = email.trim();
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(clean)) {
+      setError("Please enter a valid email.");
+      setPhase("error");
+      return;
+    }
+    setPhase("sending");
+    setError("");
+    try {
+      const res = await fetch("/api/watch", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: clean,
+          items: items.map((i) => ({ type: i.type, id: i.id, title: i.title })),
+          partner: referralCode(),
+          aiSource: arrivalSource(),
+        }),
+      });
+      const j = await res.json().catch(() => ({}));
+      if (!res.ok || !j?.ok) throw new Error(j?.error || `Could not send (${res.status}).`);
+      const record = { email: clean, keys };
+      try {
+        window.localStorage.setItem(WATCH_KEY, JSON.stringify(record));
+      } catch {
+        /* remembered for this page only */
+      }
+      setWatch(record);
+      bucketWatchSet(items.length);
+      setPhase("idle");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Could not send. Please try again.");
+      setPhase("error");
+    }
+  };
+
+  if (watch && unwatched === 0) {
+    return (
+      <p className="bl-watch bl-watch--on">
+        <span aria-hidden="true">●</span> Watching {keys.length === 1 ? "this" : `all ${keys.length}`} for{" "}
+        <b>{watch.email}</b>. An advisor will write when one gets a new offer or new dates.
+      </p>
+    );
+  }
+
+  return (
+    <form
+      className="bl-watch"
+      onSubmit={(e) => {
+        e.preventDefault();
+        submit();
+      }}
+    >
+      <label htmlFor="bl-watch-email">
+        {watch
+          ? `${unwatched} new since you asked us to watch. Add ${unwatched === 1 ? "it" : "them"}?`
+          : "Not ready to talk yet? We'll watch these for you. When one gets a new offer or new dates, an advisor will email you."}
+      </label>
+      <div className="bl-watch-row">
+        <input
+          id="bl-watch-email"
+          className="adv-field"
+          type="email"
+          inputMode="email"
+          placeholder="Email"
+          value={email}
+          disabled={phase === "sending"}
+          onChange={(e) => {
+            setEmail(e.target.value);
+            if (phase === "error") setPhase("idle");
+          }}
+        />
+        <button type="submit" className="bl-ask-all" disabled={phase === "sending"}>
+          {phase === "sending" ? "Saving…" : watch ? "Update" : "Watch my list"}
+        </button>
+      </div>
+      {phase === "error" && (
+        <p className="adv-error" role="alert">
+          {error}
+        </p>
+      )}
+    </form>
   );
 }
 

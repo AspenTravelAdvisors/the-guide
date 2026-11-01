@@ -122,6 +122,44 @@ header.site .tag .byline:hover {
   color: var(--gold-light);
   text-decoration: none;
 }
+/* "Shared with you by …" (components/PartnerRibbon). A row of the shell's
+   column, so the stage below shrinks by its height rather than sliding under it. */
+.partner-ribbon {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 7px 20px;
+  border-bottom: 1px solid var(--line);
+  background: #0f0d09;
+  color: var(--sub);
+  font-size: 12.5px;
+  line-height: 1.4;
+}
+.partner-ribbon span {
+  flex: 1;
+  min-width: 0;
+}
+.partner-ribbon b {
+  color: var(--gold);
+  font-weight: 600;
+}
+.partner-ribbon button {
+  flex: none;
+  border: none;
+  background: none;
+  color: var(--sub);
+  font-size: 12px;
+  cursor: pointer;
+  padding: 2px 4px;
+}
+@media (max-width: 640px) {
+  .partner-ribbon {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+}
+
 main.page {
   flex: 1;
   display: flex;
@@ -3319,6 +3357,22 @@ main.page {
   color: var(--gold-light);
   border-color: var(--gold-dim);
 }
+.adv-reels {
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+.adv-reel {
+  display: block;
+  padding: 4px 0;
+  color: var(--gold);
+  font-size: 13.5px;
+  text-decoration: none;
+}
+.adv-reel:hover {
+  text-decoration: underline;
+}
 .adv-done {
   margin: 0 0 16px;
   font-size: 14px;
@@ -6146,6 +6200,43 @@ button.atlas-cta {
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
+}
+.bl-watch {
+  margin: 14px 0 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  max-width: 560px;
+  color: var(--sub);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.bl-watch label {
+  display: block;
+  margin-bottom: 8px;
+}
+.bl-watch-row {
+  display: flex;
+  gap: 8px;
+}
+.bl-watch-row .adv-field {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-bottom: 0;
+}
+.bl-watch-row button {
+  flex: none;
+}
+.bl-watch .adv-error {
+  margin: 8px 0 0;
+}
+.bl-watch--on span {
+  color: var(--gold);
+  margin-right: 4px;
+}
+.bl-watch--on b {
+  color: var(--text);
+  font-weight: 600;
 }
 .bl-sla {
   color: var(--muted);
