@@ -588,5 +588,683 @@ export const generatedAnswers = [
         "label": "The hotel atlas, on the map"
       }
     ]
+  },
+  {
+    "slug": "ritz-carlton-vs-four-seasons-vs-orient-express-vs-aman-yachts",
+    "category": "Yachts",
+    "question": "Ritz-Carlton, Four Seasons, Orient Express or Aman: which hotel-brand yacht should you book?",
+    "title": "Ritz-Carlton vs Four Seasons vs Orient Express vs Aman: Hotel-Brand Yachts Compared",
+    "description": "How the four hotel-brand yacht lines compare on ship size, suite count, track record and who each suits, across the {{journeys:operator=Ritz-Carlton Yacht Collection}} Ritz-Carlton, {{journeys:operator=Four Seasons Yachts}} Four Seasons, {{journeys:operator=Orient Express Sailing Yachts}} Orient Express and {{journeys:operator=Aman at Sea}} Aman at Sea itineraries in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "Book Ritz-Carlton if you want the most proven product and the widest choice of dates, across three ships of 149 to 226 suites. Book Four Seasons for a 95-suite yacht run to its hotel standard. Choose Orient Express for a sail-assisted, design-led 54-suite ship, and Aman for the smallest, quietest option, accepting that you are sailing with a brand still finding its feet at sea.",
+    "answer": [
+      "The four brands are selling the same idea, a hotel you already trust put on a small ship, but at very different scales and stages. Ritz-Carlton went to sea first and now runs three yachts: Evrima at 149 suites, and Ilma and Luminara at 224 and 226. Four Seasons I carries 95 suites. Orient Express's Corinthian and Olympian are 54 suites each and carry sails alongside their engines. Aman's Amangati is the smallest, at about 50 suites. The Olympian and Amangati figures are from pre-launch brand materials, so treat them as intentions rather than facts until the ships are sailing.",
+      "Suite count is the most useful single number here, because it decides how many people share the pool deck, the restaurants and the tender queue. By that measure the line runs from Aman and Orient Express at the intimate end, through Four Seasons, to Ritz-Carlton's two larger ships, which are small cruise ships by any honest definition. What Ritz-Carlton has that the others do not yet is depth: our atlas holds {{journeys:operator=Ritz-Carlton Yacht Collection}} Ritz-Carlton itineraries against {{journeys:operator=Four Seasons Yachts}} for Four Seasons, {{journeys:operator=Orient Express Sailing Yachts}} for Orient Express and {{journeys:operator=Aman at Sea}} for Aman at Sea, out of {{collection:yacht}} yacht itineraries in total."
+    ],
+    "sections": [
+      {
+        "h2": "The four brands, side by side",
+        "table": {
+          "caption": "Suite counts from brand materials, July 2026. Olympian and Amangati figures are pre-launch.",
+          "columns": [
+            "",
+            "Ritz-Carlton Yacht Collection",
+            "Four Seasons Yachts",
+            "Orient Express Sailing Yachts",
+            "Aman at Sea"
+          ],
+          "rows": [
+            [
+              "Ships in the atlas",
+              "Evrima, Ilma, Luminara",
+              "Four Seasons I, Four Seasons II",
+              "Orient Express Corinthian, Orient Express Olympian",
+              "Amangati"
+            ],
+            [
+              "Suites per ship",
+              "Evrima 149, Ilma 224, Luminara 226",
+              "Four Seasons I: 95",
+              "54 each (Olympian pre-launch)",
+              "About 50 (pre-launch)"
+            ],
+            [
+              "Itineraries in the atlas",
+              "{{journeys:operator=Ritz-Carlton Yacht Collection}}",
+              "{{journeys:operator=Four Seasons Yachts}}",
+              "{{journeys:operator=Orient Express Sailing Yachts}}",
+              "{{journeys:operator=Aman at Sea}}"
+            ],
+            [
+              "Sailings by ship",
+              "Evrima {{journeys:vessel=Evrima}}, Ilma {{journeys:vessel=Ilma}}, Luminara {{journeys:vessel=Luminara}}",
+              "Four Seasons I {{journeys:vessel=Four Seasons I}}, Four Seasons II {{journeys:vessel=Four Seasons II}}",
+              "Corinthian {{journeys:vessel=Orient Express Corinthian}}, Olympian {{journeys:vessel=Orient Express Olympian}}",
+              "Amangati {{journeys:vessel=Amangati}}"
+            ],
+            [
+              "Propulsion",
+              "Conventional",
+              "Conventional",
+              "Sail-assisted",
+              "Conventional"
+            ],
+            [
+              "Track record at sea",
+              "The longest of the four, across three ships",
+              "Newer, one ship established",
+              "Newest, ships entering service",
+              "Newest, one ship"
+            ],
+            [
+              "Where to check seasons",
+              "Widest calendar, multiple regions",
+              "Calendar in the atlas",
+              "Calendar still settling",
+              "Calendar still settling"
+            ],
+            [
+              "Best for",
+              "First yacht cruise, most date choice",
+              "Four Seasons loyalists, fewer guests",
+              "Design, romance, the feel of sail",
+              "Aman devotees, quiet above all"
+            ]
+          ]
+        },
+        "paras": [
+          "Specs are from each brand's published materials as of July 2026. Itinerary counts come from the live yacht atlas. A true space-per-guest ratio needs each ship's gross tonnage, which you should confirm per ship before treating any comparison as exact; suite count is the figure that compares cleanly across all four.",
+          "Dining is where the marketing differs most and the experience differs least. All four run several restaurants and lean on their hotel kitchens' reputations. The practical questions are what the fare includes, how many venues need a reservation, and whether the signature restaurant carries a supplement. Ask for the fare sheets side by side rather than reading the menus."
+        ]
+      },
+      {
+        "h2": "Ritz-Carlton's head start, and what the newer brands are betting on",
+        "paras": [
+          "Ritz-Carlton's advantage is not glamour, it is repetition. Three ships and the largest sailing calendar in the category mean more date choice, more port combinations, and crews that have worked through the problems every new ship has. Evrima, the smallest of the three, is the one to choose if intimacy matters; Ilma and Luminara trade some of that for more venues and a busier atmosphere.",
+          "The newer brands are each betting on a single difference. Four Seasons is betting that fewer guests and its hotel service culture beat Ritz-Carlton's scale. Orient Express is betting on design and the experience of a ship that can use the wind, though sail-assisted means sails help when conditions and schedule allow, not on every leg. Aman is betting that its guests want the smallest ship and the least company, which is entirely consistent with how its hotels work.",
+          "The cost of being early is real. A new ship's first season is the one most likely to see sailings rescheduled or itineraries changed, and service takes time to settle. If your dates are fixed, for a wedding anniversary or a family gathering, the established ships are the safer bet. If you are flexible and want to be among the first aboard, the newer brands are where the interest lies."
+        ]
+      },
+      {
+        "h2": "Who each one suits",
+        "paras": [
+          "If the question is really whether to cruise at all or charter your own boat, the charter-versus-cruise answer linked below covers that decision; this page assumes you have chosen a branded yacht cruise."
+        ],
+        "list": [
+          "Ritz-Carlton Yacht Collection: a first yacht cruise, travellers who need specific dates or ports, and anyone who values a proven product over novelty. Choose Evrima for the smaller feel.",
+          "Four Seasons Yachts: travellers who already know and like Four Seasons hotels, and who want noticeably fewer fellow guests than Ritz-Carlton's larger ships.",
+          "Orient Express Sailing Yachts: couples drawn to design and atmosphere, and anyone who likes the idea of a ship with masts, provided they accept the sails are an assist rather than the whole voyage.",
+          "Aman at Sea: Aman regulars for whom quiet and a very small guest count matter more than date choice or a long operating record."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are these really yachts, or small cruise ships?",
+        "a": "Small luxury cruise ships with hotel branding. At 224 and 226 suites, Ilma and Luminara are small cruise ships by any measure; Amangati and the two Orient Express ships, at around 50 suites, come closest to the yacht feeling. If you want a boat that is yours alone, with your own route, that is a charter, which is a different product."
+      },
+      {
+        "q": "Should I book a new ship's first season?",
+        "a": "Only if your dates can move. First seasons are when itineraries are most likely to change and service is still settling, and the suite counts for Olympian and Amangati are pre-launch figures. If you do book early, book through someone who will hear about schedule changes before you do and can move you quickly; that is one place an advisor genuinely changes the outcome."
+      },
+      {
+        "q": "Which is best for a first yacht cruise?",
+        "a": "Ritz-Carlton, and Evrima in particular. It has the longest record, the most dates to choose from, and the smallest of the three Ritz-Carlton ships, so you learn whether small-ship cruising suits you without betting on a brand's first season."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/yacht-charter-vs-luxury-yacht-cruise",
+        "label": "Charter a yacht or book a yacht cruise?"
+      },
+      {
+        "href": "/journeys/yacht",
+        "label": "Every yacht itinerary in the atlas"
+      },
+      {
+        "href": "/atlas/yacht",
+        "label": "The yacht atlas, on the map"
+      },
+      {
+        "href": "/answers/ritz-carlton-vs-four-seasons-vs-rosewood",
+        "label": "How Ritz-Carlton and Four Seasons differ on land"
+      }
+    ]
+  },
+  {
+    "slug": "best-month-to-visit-antarctica",
+    "category": "Expedition",
+    "question": "What is the best month to go to Antarctica?",
+    "title": "The Best Month to Go to Antarctica, November to March",
+    "description": "Antarctica's season runs November to March, and each month is a different trip: courtship and clean snow, then chicks, then whales and sunsets. A month-by-month guide to wildlife, ice, light, prices and how full the ships are, across the {{journeys:region=Antarctica}} Antarctic itineraries in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "For most people, late December through January is the best balance: penguin chicks hatching, the mildest weather and light almost around the clock. Choose November for clean snow, courting penguins and lower fares, February for bigger chicks and more whales, and March for the best whale watching, real sunsets and late-season pricing, accepting messier colonies and rougher weather.",
+    "answer": [
+      "There is no single best month, because the Antarctic season changes character every few weeks. November is the start: the snow is still white, the ice is at its most dramatic, and penguins are building nests and courting. Late December and January are the height of summer, with chicks hatching, temperatures hovering around freezing and daylight that barely fades. February brings larger chicks, fur seals on the beaches and steadily more whales. March is the end of the season, when whales are most numerous, the sun sets properly again and the light turns gold, but the colonies are muddy and the weather is less forgiving.",
+      "Price and crowding follow the same curve. The Christmas and New Year departures, and January generally, are the most expensive and the first to sell out. November and March are usually cheaper and easier to book. Our atlas holds {{journeys:region=Antarctica}} Antarctic itineraries with {{departures:region=Antarctica}} departure dates behind them. If this is your first trip and you are still choosing a ship and route rather than a month, start with our first-timers answer, then come back here to pick the window."
+    ],
+    "sections": [
+      {
+        "h2": "November to March, month by month",
+        "table": {
+          "caption": "The Antarctic Peninsula season, which is where nearly all first voyages go.",
+          "columns": [
+            "Month",
+            "Wildlife",
+            "Ice and landscape",
+            "Light",
+            "Price and demand"
+          ],
+          "rows": [
+            [
+              "November",
+              "Penguins courting, building nests and laying eggs. Few whales yet. On South Georgia itineraries, elephant seals are at the height of the breeding season.",
+              "Fresh snow, heavy sea ice. Some channels and landing sites can be blocked, so plans change more often.",
+              "Long days, still with some darkness.",
+              "Shoulder season. Generally lower fares and more cabin choice."
+            ],
+            [
+              "December",
+              "Eggs being incubated, first chicks appearing toward the end of the month. Whale sightings increasing.",
+              "Snow still clean at most landings, ice beginning to break up.",
+              "Close to round-the-clock light around the solstice.",
+              "Holiday departures are the most expensive and sell out first."
+            ],
+            [
+              "January",
+              "Chicks hatching and growing, adults busy feeding them. More whales. Fur seals arriving.",
+              "Warmest month. Ice retreating, so routes further south become more likely.",
+              "Very long days, soft twilight around midnight.",
+              "Peak season. Highest demand and fares, fullest ships."
+            ],
+            [
+              "February",
+              "Chicks large and gathering in groups. Fur seals common on Peninsula beaches. Whale numbers rising.",
+              "Most snow gone from colonies, which turn brown and smell strongly. Best chance of reaching the Antarctic Circle.",
+              "Days shortening, proper dusk returns.",
+              "Still high season, though usually a little easier to book than January."
+            ],
+            [
+              "March",
+              "Peak time for humpback and other whales. Chicks fledging, adults moulting.",
+              "Late-season storms more likely. New ice can begin forming.",
+              "Real sunrises and sunsets, the best light of the season for many photographers.",
+              "Shoulder season. Often lower fares and late-season offers."
+            ]
+          ]
+        },
+        "paras": [
+          "Treat the boundaries loosely. Each season runs a little early or late depending on sea ice, and different penguin species keep slightly different calendars, so a colony in mid-January can hold both eggs and chicks."
+        ]
+      },
+      {
+        "h2": "Which month for which traveller",
+        "paras": [
+          "Match the month to what you would be most disappointed to miss. Everything below is a tendency, not a promise: wildlife and ice do what they like."
+        ],
+        "list": [
+          "Penguin chicks are the point: mid-January to early February.",
+          "Photographers who want clean snow and big ice: November. Photographers who want warm light and sunsets: late February into March.",
+          "Whales are the point: February and March.",
+          "The warmest, most comfortable landings and the longest days: late December and January.",
+          "Crossing the Antarctic Circle: January and February, when ice is most likely to allow it.",
+          "Lower fares and quieter ships: November or March.",
+          "Travelling with children over school holidays: late December, but book early, because these are the departures that fill first."
+        ]
+      },
+      {
+        "h2": "What does not change with the month",
+        "paras": [
+          "The Drake Passage has no reliably calm month. It can be flat in January and rough in December, and every season has crossings people remember for the wrong reasons. If seasickness is the real worry, the fly-cruise option, flying from Punta Arenas in Chile to the South Shetland Islands, removes the crossing rather than timing it, though flights can be delayed by weather at either end.",
+          "Landing rules do not change either. Operators that are members of IAATO, the industry body, limit the number of passengers ashore at one site at a time, and ships carrying more than 500 passengers do not land at all. A smaller ship gets more time ashore in every month, which matters more than the calendar in the busy weeks of January. Our answers on the smallest expedition ships and on kayaking and camping cover the ship side of the choice."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is March too late to go?",
+        "a": "Not if whales and light are what you want. March is usually the best month for humpbacks and gives you real sunsets, and fares are often lower. The trade-offs are messier, smellier colonies, moulting penguins that look scruffy, and a higher chance of weather changing the plan."
+      },
+      {
+        "q": "Will I see penguins in November?",
+        "a": "Yes, plenty. They are back at their colonies, courting and building nests from stones, often against clean snow. What you will not see yet is chicks, and sea ice can occasionally keep a ship from reaching a planned colony."
+      },
+      {
+        "q": "How far ahead should I book?",
+        "a": "For late December and January departures, book as early as the operators open sales, often well over a year out, especially for suites or a specific ship. November and March departures usually have availability later, which is also when shoulder-season offers tend to appear."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/best-antarctica-expedition-for-first-timers",
+        "label": "The best Antarctica expedition for first-timers"
+      },
+      {
+        "href": "/answers/antarctica-kayaking-camping-submersibles",
+        "label": "Antarctica cruises with kayaking, camping and submersibles"
+      },
+      {
+        "href": "/answers/best-expedition-cruises-for-photographers",
+        "label": "The best expedition cruises for photographers"
+      },
+      {
+        "href": "/answers/smallest-luxury-expedition-ships",
+        "label": "The smallest luxury expedition ships, and why size matters"
+      }
+    ]
+  },
+  {
+    "slug": "where-to-stay-to-see-the-northern-lights",
+    "category": "Planning",
+    "question": "Where should you stay to see the northern lights?",
+    "title": "Where to Stay for the Northern Lights: Norway, Lapland, Iceland or Canada",
+    "description": "Where the northern lights odds are best, from Tromsø and Finnish Lapland to Iceland and Yellowknife. Covers when to go, why weather matters more than latitude, glass igloos against proper lodges, and pairing a stay with a Norway coastal voyage.",
+    "updated": "2026-11-01",
+    "capsule": "For the best odds, stay inland under the auroral oval where winter skies are clearest: Finnish Lapland around Saariselkä and Inari, Swedish Abisko, or Yellowknife in Canada. Northern Norway around Tromsø and Alta is milder and more scenic but cloudier. Iceland works well when the weather cooperates, which is often not. Go between late September and March, near a new moon, for at least four nights.",
+    "answer": [
+      "The aurora forms in a ring around the magnetic pole called the auroral oval, and most of the places people go are already under it or close to it. Northern Norway, Finnish and Swedish Lapland, Iceland and Canada's Northwest Territories all see the lights on active nights. Latitude stops being the deciding factor once you are in the band. What decides it is cloud. Inland, continental places with cold, dry winters tend to clear more often: Yellowknife, the Finnish fells around Saariselkä and Inari, and Abisko in Sweden, which sits in a rain shadow. Coastal Norway and Iceland get Atlantic weather, milder and wetter, with cloud that comes and goes quickly.",
+      "The season runs from roughly late September to late March, whenever the sky is properly dark. The months around the equinoxes have a modest edge in geomagnetic activity, and September and October also bring unfrozen lakes that reflect the sky and milder temperatures. Midwinter gives the longest nights, but also the deepest cold and, in Lapland, the busiest weeks around Christmas and New Year. Whatever the month, plan around the new moon, because a bright moon washes out fainter displays, and stay four nights or more. No one can promise a sighting on any given night. Several clear nights in a good place are what turn a gamble into a likelihood."
+    ],
+    "sections": [
+      {
+        "h2": "The main regions, by what actually decides your odds",
+        "table": {
+          "caption": "General patterns rather than guarantees. Weather on any particular trip can override all of them.",
+          "columns": [
+            "Where",
+            "Position under the oval",
+            "Winter weather",
+            "Best for"
+          ],
+          "rows": [
+            [
+              "Northern Norway (Tromsø, Lyngen Alps, Senja, Alta)",
+              "Under it",
+              "Coastal and changeable. The Gulf Stream keeps it mild for the Arctic, often only a few degrees below freezing, but cloud is common.",
+              "Scenery: fjords and mountains in the foreground of every photograph, plus easy flights and a real town"
+            ],
+            [
+              "Finnish Lapland (Saariselkä, Inari, Levi, Rovaniemi)",
+              "Under it in the far north; Rovaniemi, on the Arctic Circle, is nearer the edge",
+              "Inland, colder and steadier. Lows of minus 20°C or lower are routine in midwinter.",
+              "Glass igloos, families, huskies and reindeer, wide open horizons"
+            ],
+            [
+              "Swedish Lapland (Abisko, Kiruna area)",
+              "Under it",
+              "Abisko sits in a rain shadow and is known for clearing when the surrounding area does not",
+              "Travellers who put clear skies ahead of comfort"
+            ],
+            [
+              "Iceland",
+              "Well placed, often with the aurora directly overhead",
+              "Atlantic and unpredictable, with frequent cloud and wind",
+              "Combining the lights with landscapes, and a short flight from the US East Coast"
+            ],
+            [
+              "Yellowknife, Northwest Territories",
+              "Directly under it",
+              "Continental, very cold, frequently clear",
+              "The best odds per night of anywhere on this list, if you can take minus 30°C"
+            ],
+            [
+              "Churchill, Manitoba",
+              "Under it",
+              "Hudson Bay cold and wind",
+              "Combining the lights with polar bears in October and November"
+            ]
+          ]
+        },
+        "paras": [
+          "Strong displays can be seen from all of these places. The differences come down to how often the sky clears, how cold you are willing to be, and what else you want from the trip during the daylight hours."
+        ]
+      },
+      {
+        "h2": "Glass igloos or a proper lodge",
+        "paras": [
+          "Glass igloos are a Finnish Lapland invention, at places like Kakslauttanen near Saariselkä and Levin Iglut at Levi, and they are fun. They are also overrated as a way of seeing the aurora. Most rooms are small. You watch through glass, which dulls faint displays and spoils photographs. You are often asleep when the display peaks. On a resort site there is usually some artificial light nearby. Treat one or two nights in an igloo as the novelty at the end of a trip, not as the plan.",
+          "Real luxury in the Arctic means a small lodge with dark skies around it, guides who go out with you on clear nights, and a warm room to come back to. In Norway that means places such as Lyngen Lodge in the Lyngen Alps. In Finland it means exclusive-use wilderness lodges such as Octola near Rovaniemi. In Iceland, Deplar Farm on the Troll Peninsula, Ion Adventure Hotel near Thingvellir and Hotel Rangá in the south are all well away from city light. In Canada, fly-in lodges such as Blachford Lake Lodge outside Yellowknife do the same job. The Retreat at Blue Lagoon is the most polished hotel in Iceland, but it sits near the airport and is better for a night of recovery than a night of watching the sky. Many of these lodges will wake you when a display starts."
+        ],
+        "list": [
+          "Choose glass igloos for one or two nights of novelty, especially with children, and expect the aurora to look better outside.",
+          "Choose a small wilderness lodge when the lights are the point of the trip. Dark skies and guides on call matter more than the room.",
+          "Choose a city base such as Tromsø when you want restaurants and daytime options, and take guided chase trips out at night.",
+          "Whatever you book, ask how far the property is from the nearest town lights and whether staff will wake you."
+        ]
+      },
+      {
+        "h2": "Pairing a stay with a Norway coastal voyage",
+        "paras": [
+          "The classic Norwegian combination is a few nights on land around Tromsø or the Lyngen Alps, followed by a voyage along the coast toward Kirkenes, or the reverse. A ship has two real advantages. It moves every night, so a band of local cloud is not the end of your chances, and once you are out of port it carries you away from light pollution. The trade-offs are just as real. You cannot drive inland toward clearer skies the way a land guide can. Engine vibration and motion make long-exposure photography hard. And the open stretches of the Norwegian coast can be rough in winter.",
+          "For that reason, the land nights should come first if the aurora is the priority. A good land base with a guide who can chase clear weather is the stronger bet, and the voyage is the scenic follow-up rather than the main event. Our atlas holds {{journeys:region=Norway, Fjords %26 Coast}} itineraries on the Norwegian coast and fjords, including expedition sailings on ships such as HX's MS Fridtjof Nansen and MS Roald Amundsen. Separately, {{journeys:region=AURORA}} itineraries are built specifically around the northern lights, and {{journeys:region=CHURCHILL}} go to Churchill. Check the dates of any sailing carefully. Many Norway departures run in summer, when there is no darkness and no aurora to see."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the single best month to go?",
+        "a": "There is no single best month, only trade-offs. February and March bring long dark nights, more stable cold weather in Lapland and returning daylight for activities. September and October are milder, the lakes reflect the sky, and the equinox brings a slight edge in activity. Late November to mid-January is darkest of all but coldest too, and Tromsø has almost no daylight then. Choose your dates by the moon first and the month second."
+      },
+      {
+        "q": "How many nights do I need?",
+        "a": "Four is a sensible minimum and five or six is better. The aurora can be active on a night that is cloudy, or quiet on a night that is clear, so you need several chances to get both together. One or two nights is a coin toss, weighted mostly by the weather."
+      },
+      {
+        "q": "Are aurora chase tours worth it?",
+        "a": "In Norway, yes. Good guides from Tromsø will drive for hours, often inland toward the Finnish border, to find a gap in the cloud, and a private chase with a photographer-guide is one of the better uses of money on the trip. In Lapland or Yellowknife, where skies are more often clear and lodges sit in the dark already, a chase matters less. There, staying put somewhere remote usually does the same job. This is where an advisor earns their keep, by matching you with the right guide and lodge for the region you choose."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/best-arctic-expedition-svalbard-greenland-northwest-passage",
+        "label": "Arctic expeditions: Svalbard, Greenland or the Northwest Passage"
+      },
+      {
+        "href": "/journeys/cruise",
+        "label": "Every cruise and expedition itinerary in the atlas"
+      },
+      {
+        "href": "/hotels/canada",
+        "label": "Luxury hotels in Canada"
+      },
+      {
+        "href": "/answers/luxury-vs-classic-expedition-cruising",
+        "label": "Luxury vs. classic expedition cruising"
+      }
+    ]
+  },
+  {
+    "slug": "okavango-delta-water-camp-vs-land-camp",
+    "category": "Safari",
+    "question": "Okavango Delta: water camp, land camp, or both?",
+    "title": "Okavango Delta: Water Camp, Land Camp, or Both?",
+    "description": "How Okavango water camps (mokoro and boating) differ from land camps (game drives), how the flood season changes each, and why most Botswana trips combine two or three camps.",
+    "updated": "2026-11-01",
+    "capsule": "For most first visits to the Okavango Delta, do both: two or three nights at a water camp for mokoro and boating, then two or three at a land camp for game drives and predators. Water camps give you the Delta's quiet and its birds, land camps give you lions and leopards. The flood peaks in the dry winter, roughly June to August, which sets how much water each camp has.",
+    "answer": [
+      "The two kinds of camp sell different things. A water camp sits on permanent or deep seasonal channels, and its days are spent in a mokoro, the traditional dugout canoe poled by a guide standing at the stern, or in a motorboat on the wider channels, with walks on islands in between. You see hippos, crocodiles, red lechwe, elephants wading between islands, reed frogs, kingfishers and, with luck, sitatunga in the papyrus. What you see less of is predators, because you are on the water and they mostly are not. A land camp works the drier islands and floodplain edges by open vehicle, and in the private concessions that usually means off-road driving to follow a sighting and night drives for the animals that only show after dark. That is where the lions, leopards and wild dogs are found.",
+      "Doing only one leaves half the Delta unseen. Water only, and you go home with the stillness but often without a big cat. Land only, and you could have been anywhere good in southern Africa. That is why most well-built trips combine a water camp with one or two land camps over seven to ten nights, linked by short light-aircraft hops. Some camps run both activities, and they are useful, but how much water they have depends on the year's flood, so a so-called mixed camp in a low-water month can be a land camp with a boat it cannot use. Our atlas holds {{journeys:collection=safari&country=Botswana}} Botswana safari itineraries and {{hotels:country=Botswana}} Botswana properties, and the shape most of them take is exactly this combination."
+    ],
+    "sections": [
+      {
+        "h2": "Water camp, land camp and mixed camp compared",
+        "table": {
+          "caption": "General patterns; individual camps and individual flood years vary.",
+          "columns": [
+            "",
+            "Water camp",
+            "Land camp",
+            "Mixed camp"
+          ],
+          "rows": [
+            [
+              "Main activities",
+              "Mokoro, motorboat, island walks",
+              "Game drives, often night drives and walking in private concessions",
+              "Both, depending on water levels"
+            ],
+            [
+              "What you see best",
+              "Birds, hippos, lechwe, elephants in water, sitatunga",
+              "Lions, leopards, wild dogs, cheetah, general game",
+              "A bit of each"
+            ],
+            [
+              "Pace",
+              "Quiet, low, slow, at eye level with the water",
+              "Active, covering ground, following tracks",
+              "Varies day to day"
+            ],
+            [
+              "Weak point",
+              "Predator sightings are less reliable",
+              "Little of what makes the Delta different",
+              "Water activities can disappear in a low-flood year"
+            ],
+            [
+              "Best used for",
+              "Two or three nights of the trip",
+              "The bulk of the game viewing",
+              "Short trips with room for only one or two camps"
+            ]
+          ]
+        },
+        "paras": [
+          "The useful question for each camp is not what it advertises but what it can do in the month you are there. A camp on permanent water can pole a mokoro in any season. A camp on seasonal floodplain may be superb for boating in July and driving-only by November."
+        ]
+      },
+      {
+        "h2": "The flood runs on its own calendar",
+        "table": {
+          "caption": "Typical year; local flood levels vary by area and by year.",
+          "columns": [
+            "Months",
+            "Water",
+            "What it means for camp choice"
+          ],
+          "rows": [
+            [
+              "December to March",
+              "Lowest floodplain water, local rains, green landscape",
+              "Green season: lower rates, newborn animals, migrant birds. Water activities mainly at permanent-water camps."
+            ],
+            [
+              "April to May",
+              "Flood arriving and rising",
+              "Water camps coming into their own; land camps still good."
+            ],
+            [
+              "June to August",
+              "Peak flood, dry and cool, cold mornings",
+              "The classic water season. Mokoro at its best; animals concentrate on the remaining dry ground."
+            ],
+            [
+              "September to October",
+              "Water receding, hot, very dry",
+              "Strongest game viewing at land camps as animals gather at water. Seasonal-floodplain camps may lose mokoro."
+            ],
+            [
+              "November",
+              "Low water, first rains possible",
+              "Hot and transitional; pricing begins to drop."
+            ]
+          ]
+        },
+        "paras": [
+          "The Okavango's water comes from rain that falls months earlier in the Angolan highlands, then works its way slowly down the river and spreads across the Delta. The result is the reverse of what most people expect: the Delta is fullest in the dry, cool winter, while the local rainy season in summer coincides with the lowest floodplain water. Peak timing and height change every year, so treat the months below as a pattern rather than a promise."
+        ]
+      },
+      {
+        "h2": "How the combination usually works",
+        "paras": [
+          "The standard rhythm is three nights per camp. Two nights gives you one full day, and with transfer flights eating into the arrival and departure days, it feels like a stopover. Three camps over nine or ten nights, one of them water, is the shape most people end up happiest with. Seven nights fits two camps comfortably, usually water then land, so the trip builds toward the predators rather than tailing off.",
+          "Some trips add a camp outside the Delta proper, such as the Linyanti or Chobe areas to the north and east, for drier country and large elephant herds. Getting the order right, and matching the water camp to that year's flood rather than last year's brochure, is the part where an advisor who follows the camps closely genuinely changes the trip."
+        ],
+        "list": [
+          "Put the water camp first or in the middle; ending on a land camp tends to leave the stronger last impression.",
+          "Ask each camp directly whether it runs mokoro in your month, not whether it offers mokoro.",
+          "Light aircraft transfers carry tight luggage limits, usually soft bags only, and the limit is weighed.",
+          "If predators are the priority, spend more of the nights on land; if the Delta itself is the point, give the water camp three full nights."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "Botswana properties in the atlas, smallest first",
+      "note": "Every Botswana property in the hotel feed, sorted by size, since a small camp and a larger lodge are different experiences. Each links to its own page, where the activities and any benefits on file are listed.",
+      "query": "country=Botswana",
+      "sort": "smallest",
+      "limit": 10
+    },
+    "faqs": [
+      {
+        "q": "Can I do a mokoro trip in October or November?",
+        "a": "Only at camps on permanent water. Camps on seasonal floodplains often cannot pole a mokoro once the water recedes, so if the mokoro matters to you late in the year, choose the water camp for its location rather than its brochure."
+      },
+      {
+        "q": "Is one mixed camp enough instead of two separate camps?",
+        "a": "For a short trip of four or five nights, it can be. For a week or more, two specialist camps usually beat one mixed camp, because each is built around doing one thing well and is sited for it."
+      },
+      {
+        "q": "Will I see predators from a water camp?",
+        "a": "Sometimes, on island walks or from the boat, but it is not what water camps are for. Plan your lion and leopard viewing around the land camps and treat anything at the water camp as a bonus."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/botswana-vs-kenya-vs-south-africa-first-safari",
+        "label": "Botswana, Kenya or South Africa for a first safari"
+      },
+      {
+        "href": "/answers/which-safari-operator-should-you-book",
+        "label": "Which safari operator should you book"
+      },
+      {
+        "href": "/hotels/botswana",
+        "label": "Botswana properties in the hotel atlas"
+      },
+      {
+        "href": "/journeys/safari",
+        "label": "Every safari itinerary in the atlas"
+      }
+    ]
+  },
+  {
+    "slug": "ryokan-vs-luxury-hotel-japan",
+    "category": "Hotels",
+    "question": "Ryokan or luxury hotel in Japan: which should you book?",
+    "title": "Ryokan or Luxury Hotel in Japan: How to Choose, and How to Combine Them",
+    "description": "What a luxury ryokan is really like, from kaiseki dinner and futons to onsen etiquette and fixed meal times, how it compares with a Tokyo or Kyoto hotel, and how to put both in one trip. Drawn from the {{hotels:country=Japan}} Japan properties in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "Book both. A luxury ryokan is a single, scheduled experience: a set kaiseki dinner at an agreed hour, futons laid on tatami, and hot-spring baths with strict etiquette. It suits one or two nights in an onsen town such as Hakone. Tokyo and Kyoto are better done from a luxury hotel, where real beds, flexible dinners and English-speaking concierges make sightseeing easier.",
+    "answer": [
+      "A ryokan is a traditional Japanese inn, and at the luxury end it works more like a dinner party you are staying at than a hotel. The rate usually includes dinner and breakfast. You arrive in the afternoon, change into the yukata laid out for you, bathe, and sit down to a long kaiseki dinner of small seasonal courses, often in your room or a private dining room, at a time agreed at check-in. While you eat or soon after, staff clear the low table and lay futons on the tatami. Breakfast is early and set, and check-out is usually mid-morning. It is calm, beautifully run and quite structured, which is the point and also the catch.",
+      "A luxury hotel in Tokyo or Kyoto gives you the opposite: a western bed, room service at midnight, a concierge who can get you into a sushi counter, and no one waiting on you to come back for dinner. Most travellers are happiest using hotels for the cities, where the evenings are the best part of the day, and a ryokan for a night or two in hot-spring country, where there is nothing to do but bathe and eat. Our atlas tracks {{hotels:country=Japan}} properties in Japan, including {{hotels:region=Tokyo}} in Tokyo and {{hotels:region=Kyoto}} in Kyoto. The table below lists them smallest first, which brings the inn-scale places to the top."
+    ],
+    "sections": [
+      {
+        "h2": "Ryokan vs. luxury hotel, side by side",
+        "table": {
+          "caption": "General patterns at the luxury end. Individual properties vary, and some modern ryokan blur the lines.",
+          "columns": [
+            "",
+            "Luxury ryokan",
+            "Luxury hotel in Tokyo or Kyoto"
+          ],
+          "rows": [
+            [
+              "Meals",
+              "Kaiseki dinner and Japanese breakfast usually included, served at set times",
+              "Room only or breakfast, eat wherever you like"
+            ],
+            [
+              "Bed",
+              "Futons on tatami, laid out each evening. Some newer ryokan use low beds",
+              "Western beds"
+            ],
+            [
+              "Bathing",
+              "Hot-spring baths, shared by gender, often a private open-air bath in better rooms",
+              "In-room bathtub, spa and pool"
+            ],
+            [
+              "Schedule",
+              "Check-in mid-afternoon, dinner at an agreed hour, check-out mid-morning",
+              "Flexible, late check-out often possible"
+            ],
+            [
+              "Space",
+              "Generous floor space, little room for large suitcases",
+              "Conventional layout and storage"
+            ],
+            [
+              "Language",
+              "English can be limited at traditional family-run inns",
+              "English-speaking front desk and concierge"
+            ],
+            [
+              "Dietary needs",
+              "Seafood-heavy set menus; restrictions must be given well ahead",
+              "Easy to work around"
+            ],
+            [
+              "Tattoos",
+              "Often not allowed in shared baths; private baths solve it",
+              "Rarely an issue outside the spa and pool"
+            ],
+            [
+              "Best for",
+              "One or two nights to slow down",
+              "City sightseeing and dining"
+            ]
+          ]
+        },
+        "paras": [
+          "Neither is better. They are built for different days. The ryokan rewards a slow day with no plans, the hotel rewards a full one."
+        ]
+      },
+      {
+        "h2": "What to know before your first ryokan",
+        "paras": [
+          "The etiquette is not complicated, and staff at good ryokan are gracious with foreigners. Knowing it in advance simply means you relax sooner. The same goes for dietary needs: if you do not eat fish or have an allergy, it has to be passed to the kitchen in good time and clearly, which is where having an advisor relay it in Japanese can actually change your dinner."
+        ],
+        "list": [
+          "Shoes come off at the entrance, and slippers stay off the tatami. There are separate slippers for the toilet.",
+          "Wear the yukata freely around the inn, to dinner and to the baths. Left side over right; right over left is for the dead.",
+          "Wash fully at the seated shower stations before getting into a bath. The bath is for soaking, not washing.",
+          "No swimsuits. The small towel stays out of the water, on your head or at the edge.",
+          "Baths are usually separated by gender and the curtains may swap at set hours, so check before walking in.",
+          "If you have tattoos, ask for a room with a private bath or a bath you can reserve for your party.",
+          "Tell the ryokan your arrival time and keep to it. Dinner is timed and the kitchen plans around you.",
+          "Send large luggage ahead by courier to your next hotel and arrive with an overnight bag. Japan's luggage forwarding is reliable and cheap, and ryokan rooms are not built for big cases."
+        ]
+      },
+      {
+        "h2": "How to combine them",
+        "paras": [
+          "Put the ryokan in the middle of the trip, not the first night. Jet lag and a 6pm kaiseki dinner do not mix, and you will enjoy the formality more once you have found your feet in a city hotel. Two nights is the sweet spot at a good ryokan: one night is mostly arriving and leaving, and the second day is the one where you actually unwind. A third night rarely adds much unless you love the baths.",
+          "Choose a ryokan in a hot-spring town rather than in a city. Kyoto's historic city ryokan are lovely, but they generally do not have natural hot springs, and Kyoto is a city you want to be out in at night."
+        ],
+        "list": [
+          "Tokyo hotel, two ryokan nights in Hakone, then a Kyoto hotel. Hakone is under two hours from Tokyo and sits on the way to Kyoto, so it costs no extra travel day.",
+          "Tokyo hotel, Kyoto hotel, then a ryokan in the countryside near the end as a decompression before the flight home.",
+          "If a full ryokan feels like too much, a ryokan-style hotel such as the Hoshinoya properties gives you tatami and Japanese service with more flexibility."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "Japan properties in the atlas, smallest first",
+      "note": "Every property in the atlas filed under Japan, sorted from the fewest rooms up, so the intimate inns and boutique hotels appear before the large city towers. Each links to its own page, where the benefits currently on file for it are listed in full.",
+      "query": "country=Japan",
+      "sort": "smallest",
+      "limit": 15
+    },
+    "faqs": [
+      {
+        "q": "Do I have to eat dinner at the ryokan?",
+        "a": "Usually the rate includes it, and at a good ryokan the dinner is a large part of what you are paying for. Some offer room-only or breakfast-only rates, but in a small onsen town there are few places to eat late, so skipping it rarely makes sense."
+      },
+      {
+        "q": "Is sleeping on a futon uncomfortable?",
+        "a": "Luxury ryokan futons are thick and well made, and most people sleep well on them. If you have back trouble, ask before booking: a number of modern ryokan now use low western beds on the tatami."
+      },
+      {
+        "q": "Can I visit an onsen if I have tattoos?",
+        "a": "Shared baths often still refuse tattoos, though policies are relaxing. The simple answer is a room with its own open-air bath or a private bath you can reserve, which many luxury ryokan offer."
+      }
+    ],
+    "related": [
+      {
+        "href": "/hotels/japan",
+        "label": "Every Japan property in the hotel atlas"
+      },
+      {
+        "href": "/answers/best-aman-for-first-timers",
+        "label": "Which Aman is best for first-timers?"
+      },
+      {
+        "href": "/answers/virtuoso-perks-vs-booking-direct",
+        "label": "Virtuoso perks vs. booking direct"
+      }
+    ]
   }
 ];
