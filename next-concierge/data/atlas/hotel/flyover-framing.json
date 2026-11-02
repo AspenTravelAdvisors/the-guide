@@ -1,4 +1,30 @@
 {
  "version": 1,
- "hotels": {}
+ "hotels": {
+  "h_00002": {"bearing":307,"tilt":62,"range":240,"lift":14,"arrive":{"range":340,"tilt":50},"height":32,"clear":true,"at":"2026-11-02"},
+  "h_00003": {"bearing":327,"tilt":62,"range":240,"lift":10,"arrive":{"range":340,"tilt":55},"height":13,"clear":true,"at":"2026-11-02"},
+  "h_00004": {"bearing":242,"tilt":62,"range":240,"lift":10,"arrive":{"range":340,"tilt":55},"height":22,"clear":true,"at":"2026-11-02"},
+  "h_00005": {"bearing":47,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":35},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00006": {"bearing":62,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00007": {"bearing":302,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00008": {"bearing":147,"tilt":30,"range":240,"lift":20,"arrive":{"range":340,"tilt":35},"height":45,"clear":false,"at":"2026-11-02"},
+  "h_00010": {"bearing":172,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00011": {"bearing":192,"tilt":61.9,"range":240,"lift":10,"arrive":{"range":340,"tilt":55},"height":13,"clear":true,"at":"2026-11-02"},
+  "h_00012": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00013": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00019": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00020": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00022": {"bearing":247,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00023": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00024": {"bearing":237,"tilt":62,"range":240,"lift":10,"arrive":{"range":340,"tilt":53},"height":16,"clear":true,"at":"2026-11-02"},
+  "h_00025": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00026": {"bearing":142,"tilt":38.2,"range":240,"lift":15,"arrive":{"range":340,"tilt":35},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00027": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00029": {"bearing":292,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_00033": {"bearing":282,"tilt":62,"range":240,"lift":10,"arrive":{"range":340,"tilt":55},"height":6,"clear":true,"at":"2026-11-02"},
+  "h_00035": {"bearing":327,"tilt":62,"range":240,"lift":10,"arrive":{"range":340,"tilt":55},"height":10,"clear":true,"at":"2026-11-02"},
+  "h_00393": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
+  "h_01482": {"bearing":182,"tilt":62,"range":240,"lift":10,"arrive":{"range":340,"tilt":55},"height":6,"clear":true,"at":"2026-11-02"},
+  "h_v6164008": {"bearing":52,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"}
+ }
 }
