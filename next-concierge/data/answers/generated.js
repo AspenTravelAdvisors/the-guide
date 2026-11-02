@@ -2181,5 +2181,798 @@ export const generatedAnswers = [
         "label": "Do travel advisors cost more than booking yourself?"
       }
     ]
+  },
+  {
+    "slug": "why-luxury-safaris-cost-so-much",
+    "category": "Safari",
+    "question": "Why do luxury safaris cost so much?",
+    "title": "Why Luxury Safaris Cost So Much, and Where You Can Save",
+    "description": "Where the money in a luxury safari actually goes, including concession and conservation fees, bush flights, small camps and full board, and the honest ways to spend less, drawn from the {{journeys:collection=safari}} safari itineraries in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "Luxury safaris cost what they do because most of the money goes on things guests never see: concession and conservation fees, flying every guest, staff member and crate of food into a remote camp, and running a camp of eight to twelve tents for very few people. Rates are fully inclusive. The real savings come from green season and from staying longer in fewer camps.",
+    "answer": [
+      "A night at a top safari camp is not priced like a hotel room, because it is not built like one. The camp usually sits on a private concession leased from a government or a local community, and the lease, the conservation levy and the community payments are paid whether the tents are full or not. Everything in the camp, from diesel and fresh produce to the chef, arrives by light aircraft or a long track. Staff often outnumber guests. Then the rate covers what a hotel would bill separately: every meal, most drinks, two game drives a day with a trained guide and tracker, laundry, and usually the park or conservancy fees.",
+      "The low numbers are the point rather than a side effect. Botswana in particular has long run a high-value, low-volume policy, keeping beds few on large concessions so that a leopard sighting is shared with one other vehicle rather than twenty. You are paying for space and quiet, and the bill reflects it. Where you can save is in the timing and the shape of the trip, not the camp itself: green season rates are noticeably lower, and every camp you drop removes a bush flight and a half-day lost to transfers. The atlas holds {{journeys:collection=safari}} safari itineraries and {{hotels:category=Lodge / Safari}} lodges and camps, and the cheapest good trip among them is almost always the one with two or three camps rather than five."
+    ],
+    "sections": [
+      {
+        "h2": "Where the money goes",
+        "table": {
+          "caption": "The main cost drivers behind a luxury safari rate, and how much control you have over each.",
+          "columns": [
+            "Cost driver",
+            "Why it costs",
+            "Can you reduce it?"
+          ],
+          "rows": [
+            [
+              "Concession lease and conservation fees",
+              "Private concessions are leased from governments or communities, and levies fund anti-poaching and land protection",
+              "Not directly. National parks are cheaper but come with crowds and fewer activities"
+            ],
+            [
+              "Remote logistics",
+              "Food, fuel, water treatment, spare parts and staff come in by air or rough road, often for hundreds of kilometres",
+              "Choose areas reachable by road or scheduled flights, such as South Africa's private reserves"
+            ],
+            [
+              "Low guest numbers",
+              "Eight to twelve tents carry the same guiding, kitchen and maintenance overheads as a much bigger lodge",
+              "Only by choosing a larger lodge, which changes the experience"
+            ],
+            [
+              "Guiding and staff",
+              "Experienced guides and trackers, high staff-to-guest ratios, training, housing staff on site",
+              "No, and it is the last place to cut"
+            ],
+            [
+              "Bush flights",
+              "Light aircraft between camps, priced per seat per leg",
+              "Yes: fewer camps, fewer legs"
+            ],
+            [
+              "Full board",
+              "Meals, most drinks, laundry and activities are in the rate",
+              "Not really, but compare like for like with a hotel that bills these separately"
+            ],
+            [
+              "Permits for specific activities",
+              "Gorilla and chimpanzee trekking permits are set by governments; Rwanda's gorilla permit is US$1,500 per person",
+              "Choose Uganda for gorillas, or do one trek rather than two"
+            ]
+          ]
+        },
+        "paras": [
+          "Roughly in order of how much they drive the rate. The first three are fixed costs that a small camp has to spread across very few guests, which is why a nine-tent camp costs more per night than a large lodge in the same area."
+        ]
+      },
+      {
+        "h2": "Where you can actually save",
+        "paras": [
+          "None of these involves a worse camp. They involve accepting a different season, a slower trip or a little less exclusivity on one leg."
+        ],
+        "list": [
+          "Go in green season. In Botswana that is roughly November to March, when the rains bring newborn animals, migratory birds and dramatic skies, and rates drop noticeably. The trade-off is heat, afternoon storms and game that is more spread out.",
+          "Stay longer in fewer camps. Three nights at each of three camps beats two nights at each of five: fewer flights, fewer half-days lost to transfers, and you get to know the guide.",
+          "Look for stay-and-pay offers. Many camps and operators run them in shoulder months, where a fourth or fifth night comes free.",
+          "Mix a private concession with a national park. A few nights in a park, with its fixed fees and shared roads, can pay for the concession nights where you get night drives and off-road tracking.",
+          "Start in South Africa. The private reserves bordering Kruger are reachable by scheduled flights or road, which removes much of the logistics premium of Botswana or remote Zambia.",
+          "Pick one headline activity. A single gorilla trek rather than two, or one specialist mobile camp rather than a full specialist itinerary, often captures most of the experience."
+        ]
+      },
+      {
+        "h2": "Where saving is a false economy",
+        "paras": [
+          "Cutting the guide is the mistake people regret. The difference between a mediocre guide and a great one is the difference between seeing animals and understanding what they are doing, and it does not show up on the rate sheet. The same goes for squeezing a safari into too few nights: two nights at a camp often means one full day of game viewing once flights are accounted for. Three nights is the honest minimum for most camps.",
+          "Equally, not everything expensive is worth it. A private vehicle is invaluable for serious photographers and families with young children, but on a low-density concession a couple will often have a vehicle nearly to themselves anyway. Choosing the right camps and season is where an advisor genuinely changes the cost, because which concessions combine well and which camps run offers in which months is knowledge that is hard to assemble from websites."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "The safari lodges and camps in the atlas, smallest first",
+      "note": "Every property the supplier files as a lodge or safari camp, sorted by size. The smallest camps carry the highest fixed costs per guest, which is much of what you are paying for. Each links to its own page, where the benefits currently on file for it are listed.",
+      "query": "category=Lodge / Safari",
+      "sort": "smallest",
+      "limit": 15
+    },
+    "faqs": [
+      {
+        "q": "Is green season actually worth it, or just cheaper?",
+        "a": "Often both. In Botswana's green season the landscape is at its most beautiful, predators work hard around newborn antelope and birding is at its peak. You give up the dense dry-season concentrations around water, some areas get harder to drive, and it is hot. For a first safari focused on big game, the dry season is the safer choice; for a return trip or for photographers, green season is often the better one."
+      },
+      {
+        "q": "Are park and conservation fees included in the rate?",
+        "a": "At most fully inclusive luxury camps they are built into the nightly rate or shown as a fixed per-night levy, but practice varies by country and camp, so check the line items. Gorilla and chimpanzee trekking permits are almost always separate and need to be secured early."
+      },
+      {
+        "q": "Why does a bigger lodge next door cost less?",
+        "a": "Because its fixed costs are spread across more rooms, and it may sit in a national park rather than a private concession. The difference usually shows up in the experience: more vehicles at sightings, no night drives or off-road tracking in most parks, and less flexibility in when you go out. Sometimes that trade is fine, particularly for a few nights at the start of a trip."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/botswana-vs-kenya-vs-south-africa-first-safari",
+        "label": "Botswana, Kenya or South Africa for a first safari"
+      },
+      {
+        "href": "/answers/which-safari-operator-should-you-book",
+        "label": "Which safari operator to book, and what each controls"
+      },
+      {
+        "href": "/answers/okavango-delta-water-camp-vs-land-camp",
+        "label": "Okavango Delta: water camp, land camp, or both"
+      },
+      {
+        "href": "/journeys/safari",
+        "label": "Every safari itinerary in the atlas"
+      }
+    ]
+  },
+  {
+    "slug": "best-private-island-resorts",
+    "category": "Hotels",
+    "question": "What are the best private-island resorts?",
+    "title": "The Best Private-Island Resorts, and Which Ones Really Have the Island to Themselves",
+    "description": "Which private-island resorts truly occupy their own island, how you get to each, and what exclusivity buys, across the {{hotels:tag=private-island}} private-island properties in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "The best private-island resorts are the ones where the resort is the only thing on the island: The Brando on Tetiaroa, North Island in the Seychelles, Petit St Vincent in the Grenadines, Laucala in Fiji, Amanpulo in the Philippines and most Maldives resorts. Many others share their island with private homes or other hotels. That is pleasant, but it is a different kind of quiet.",
+    "answer": [
+      "Start by sorting the field into three groups, because the phrase covers all of them. The first is one island, one resort. Nothing else is there except staff housing and perhaps a research station. The Brando, North Island, Petit St Vincent, Laucala, Amanpulo and nearly every resort in the Maldives fit here. The second group is a resort that shares its island with privately owned homes, such as Jumby Bay off Antigua or Parrot Cay in Turks and Caicos. Residents use the same beaches and paths, so it is quiet, but the island is not the hotel's alone. The third group is the resort that calls itself private because it has a private beach or its own cay for day trips. It is often a fine hotel, but it is not a private island.",
+      "Exclusivity is mostly a matter of who else can arrive, and the answer depends on the transfer. Almost every true private island is reached by seaplane, helicopter, small aircraft or the resort's own boat. That keeps day-trippers out, and it adds cost, weight limits and weather risk to both ends of the trip. Our atlas tags {{hotels:tag=private-island}} properties as private-island resorts, and {{hotels:tag=private-island&perks=true}} of them carry advisor benefits on file. The Maldives alone accounts for {{hotels:country=Maldives}} properties in the atlas, most of them alone on their islands."
+    ],
+    "sections": [
+      {
+        "h2": "What 'private island' actually means",
+        "table": {
+          "caption": "The four things a resort can mean by private island",
+          "columns": [
+            "Type",
+            "What it means",
+            "Examples",
+            "The trade-off"
+          ],
+          "rows": [
+            [
+              "One island, one resort",
+              "The resort and its staff are the only people on the island",
+              "The Brando (Tetiaroa), North Island (Seychelles), Petit St Vincent, Laucala (Fiji), Amanpulo (Philippines), most Maldives resorts",
+              "The real thing. You are also limited to one kitchen, one spa and one set of activities for the whole stay"
+            ],
+            [
+              "Resort plus private homes",
+              "One hotel shares the island with privately owned houses whose owners use the same beaches",
+              "Jumby Bay (Antigua), Parrot Cay (Turks and Caicos)",
+              "Very quiet, often better restaurants and more space, but you will meet residents and their guests"
+            ],
+            [
+              "Exclusive-use island",
+              "The whole island is rented to one group at a time",
+              "Necker Island (British Virgin Islands), Musha Cay (Bahamas), Calivigny Island (Grenada)",
+              "Total privacy for families and celebrations. It only makes sense with a group large enough to fill it"
+            ],
+            [
+              "Not actually private",
+              "A resort on an inhabited or multi-hotel island, marketed on a private beach or a day-trip cay",
+              "Resorts on islands with towns, airports or several hotels, such as Hamilton Island in Australia",
+              "Often good hotels with more to do, but the privacy ends at the property line"
+            ]
+          ]
+        },
+        "paras": [
+          "The label is used loosely, so ask one question before booking: apart from the resort, who else sleeps on the island tonight? The answer puts each resort in one of the categories below."
+        ]
+      },
+      {
+        "h2": "Which one for which trip",
+        "table": {
+          "columns": [
+            "Resort",
+            "Island and country",
+            "How you arrive",
+            "Best for"
+          ],
+          "rows": [
+            [
+              "The Brando",
+              "Tetiaroa atoll, French Polynesia",
+              "Short flight on Air Tetiaroa from Papeete",
+              "Couples who want birdlife, lagoon and a serious conservation story"
+            ],
+            [
+              "North Island",
+              "North Island, Seychelles",
+              "Helicopter from Mahé",
+              "Honeymoons and anyone who wants a villa big enough to disappear into"
+            ],
+            [
+              "Petit St Vincent",
+              "Petit St Vincent, St Vincent and the Grenadines",
+              "Connection to Union Island, then the resort's boat",
+              "An unplugged Caribbean week with no televisions and no fuss"
+            ],
+            [
+              "Laucala Island",
+              "Laucala, Fiji",
+              "The resort's own aircraft from Nadi",
+              "Active travellers: golf, diving, riding and sailing on one island"
+            ],
+            [
+              "Amanpulo",
+              "Pamalican Island, Philippines",
+              "Aman's private flight from Manila",
+              "Aman loyalists and families who want a gentle, easy beach"
+            ],
+            [
+              "Soneva Fushi",
+              "Kunfunadhoo, Baa Atoll, Maldives",
+              "Seaplane from Malé",
+              "Families and barefoot luxury on a large, jungly island"
+            ],
+            [
+              "Cheval Blanc Randheli",
+              "Noonu Atoll, Maldives",
+              "Seaplane from Malé",
+              "Polished service and design for people who will rarely leave the villa"
+            ]
+          ]
+        },
+        "paras": [
+          "These are the one-resort islands we would send people to first, matched to the trip they suit. None is right for everyone, and each depends on a transfer you should plan around."
+        ]
+      },
+      {
+        "h2": "Transfers, and when it is not worth it",
+        "paras": [
+          "The transfer is half the experience and most of the friction. In the Maldives, seaplanes fly only in daylight, so a late-evening international arrival usually means a night in Malé before you reach the resort. Small aircraft, helicopters and seaplanes all have baggage weight limits that are stricter than airline limits, and weather can delay them at either end. Build a buffer day into the return before any long-haul connection. This is where an advisor earns their keep: lining up flight times, transfer slots and the inevitable rebooking when a seaplane does not go.",
+          "A private island is not worth it for everyone. If you like to change restaurants every night, walk into a town, or spend long days on excursions, you will feel confined after three or four nights. Shared-island resorts or a hotel on a larger island will suit you better."
+        ],
+        "list": [
+          "Seven nights is the natural length for the Maldives and the Pacific islands. Four or five nights suits a Caribbean island combined with something else.",
+          "Ask for the exact transfer weight limit and whether soft bags are required before you pack.",
+          "Check whether the transfer is included in the rate or charged per person each way. On remote islands it can be a large line item.",
+          "Ask what medical staff are on the island and buy travel insurance that covers evacuation.",
+          "If you travel with children, confirm the kids' programme and the pool depth. Some one-resort islands are excellent with families, while others are built for couples."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "The private-island resorts in the atlas, smallest first",
+      "note": "Every property the supplier feed tags as a private-island resort, sorted by size. The tag follows supplier filings, so check the table above for which kind of private each one is. Each links to its own page, where the benefits currently on file for it are listed in full.",
+      "query": "tag=private-island",
+      "sort": "smallest",
+      "limit": 15
+    },
+    "faqs": [
+      {
+        "q": "Is every Maldives resort on its own private island?",
+        "a": "Most are. The Maldives developed resorts on uninhabited islands, one resort per island, and that is still the norm. A small number of integrated developments group several hotels on linked islands, and some resorts sit close to inhabited local islands. Both are worth checking if privacy is the point."
+      },
+      {
+        "q": "Can you rent a whole island for a family or a celebration?",
+        "a": "Yes. Exclusive-use islands such as Necker, Musha Cay and Calivigny Island are built for it. Several small one-resort islands will also quote a full buyout on request. The economics only work when the group is large enough to fill most of the rooms, so ask about minimum nights and peak-week rules early."
+      },
+      {
+        "q": "Are private-island resorts safe if someone gets ill?",
+        "a": "They are as safe as their evacuation plan. Many have a nurse or doctor on site, but serious cases leave by boat, seaplane or helicopter, and seaplanes do not fly at night. Ask the resort what cover it has, and carry insurance that includes medical evacuation."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/best-maldives-resort-for-first-visit",
+        "label": "Which Maldives resort is best for a first visit?"
+      },
+      {
+        "href": "/answers/best-aman-for-first-timers",
+        "label": "Which Aman is best for first-timers, Amanpulo included"
+      },
+      {
+        "href": "/hotels/seychelles",
+        "label": "Every Seychelles hotel in the atlas"
+      },
+      {
+        "href": "/answers/virtuoso-perks-vs-booking-direct",
+        "label": "Virtuoso perks vs. booking direct"
+      }
+    ]
+  },
+  {
+    "slug": "how-to-plan-a-luxury-honeymoon",
+    "category": "Planning",
+    "question": "How should you plan a luxury honeymoon?",
+    "title": "How to Plan a Luxury Honeymoon: Pairings, Seasons, Amenities and When to Book",
+    "description": "How to plan a luxury honeymoon: pairing a city or safari with a beach, matching the destination to the wedding month, what honeymoon amenities actually include, and how far ahead to book.",
+    "updated": "2026-11-01",
+    "capsule": "Plan a luxury honeymoon around the wedding month first, then choose one long-haul pairing: a city or safari followed by a beach, three or four nights at each, with the beach last. Book nine to twelve months out for peak-season safari camps and island resorts, tell every hotel it is a honeymoon, and price any honeymoon package against the standard rate with program perks.",
+    "answer": [
+      "The decision that shapes everything else is the pairing. Most good honeymoons are one long-haul flight and two bases, rarely three: a safari or a city for the first half, a beach for the second. Three or four nights at each is the minimum that feels like a stay rather than a transit, and ten to fourteen nights in total covers it comfortably. Ending at the beach is the usual advice for good reason, since you fly home rested rather than straight off a dawn game drive. The exception is the couple who arrive exhausted from the wedding itself, who often do better with two quiet nights somewhere easy before anything involving an alarm clock.",
+      "Season comes next, and it should follow the wedding date rather than the other way round. A June wedding points toward the Mediterranean, Botswana or East Africa; a December one toward the Maldives, the Caribbean or Cape Town. Book as soon as the date is fixed: nine to twelve months ahead for peak-season safari camps and island resorts, longer for the small Botswana camps in the dry season. As for honeymoon amenities, telling the hotel reliably gets you a bottle of something and a decorated turndown. It does not guarantee an upgrade, and a resort's honeymoon package is worth pricing against the ordinary rate before you assume it is the better deal. The atlas holds {{hotels:category=Beach Resort&perks=true}} beach resorts and {{hotels:category=Lodge / Safari&perks=true}} safari lodges with VIP benefits on file, which is usually where that comparison starts."
+    ],
+    "sections": [
+      {
+        "h2": "Pairings that work, and the ones that don't",
+        "table": {
+          "caption": "Two-base honeymoon pairings, with the months each works best.",
+          "columns": [
+            "Pairing",
+            "Best months",
+            "Why it works",
+            "Watch for"
+          ],
+          "rows": [
+            [
+              "Kenya or Tanzania safari + Zanzibar or the Seychelles",
+              "June to October",
+              "Dry-season game viewing, then a short flight to the Indian Ocean",
+              "Busy vehicle sightings in the Mara at peak migration; light-aircraft baggage limits mean soft bags"
+            ],
+            [
+              "Botswana safari + Mauritius",
+              "June to October",
+              "Botswana's best months line up with Mauritius's dry, cooler winter",
+              "The smallest Botswana camps book out first; Mauritius is warm rather than hot in July"
+            ],
+            [
+              "Cape Town and the Winelands + a South African safari",
+              "October to April for the Cape; the bush works year round",
+              "No long-haul between the two halves, and the food is a reason to go on its own",
+              "Cape Town is cool and wet from June to August"
+            ],
+            [
+              "Rome or Florence + the Amalfi Coast or Capri",
+              "May, June, September",
+              "Train or car between the two, no flights at all",
+              "August heat and crowds; many coastal hotels close for the winter"
+            ],
+            [
+              "Tokyo and Kyoto + Bali",
+              "April to May, October",
+              "A culture-heavy first half, a villa with a pool for the second",
+              "Bali's wet season runs roughly November to March; Kyoto books out early in blossom and autumn-leaf weeks"
+            ]
+          ]
+        },
+        "paras": [
+          "The pairings below share one trait: the second leg is a short regional flight or a drive, not a second long-haul. That is what keeps a two-week trip from losing three days to airports.",
+          "Pairings that fail tend to fail on flights. Paris followed by the Maldives, or London followed by a Caribbean island, adds a second long-haul leg and a second jet-lag reset to a trip with no slack for either. The other common mistake is a third or fourth stop. Every move costs most of a day, and on a ten-night trip two moves is the most that still leaves room to do nothing, which is most of the point."
+        ]
+      },
+      {
+        "h2": "Timing: match the season to the wedding month, then book early",
+        "table": {
+          "caption": "Where to go, by wedding month.",
+          "columns": [
+            "Wedding month",
+            "Strong choices",
+            "Think twice about"
+          ],
+          "rows": [
+            [
+              "May to June",
+              "Mediterranean, Botswana and East African safari as the dry season begins, Bali, French Polynesia",
+              "The Maldives (wetter southwest monsoon); the Caribbean from June, when hurricane season begins, though early-season risk is low"
+            ],
+            [
+              "July to August",
+              "East Africa for the migration, Botswana, Bali, French Polynesia",
+              "The Mediterranean (heat, crowds, peak rates); the Maldives' wet season"
+            ],
+            [
+              "September to October",
+              "Mediterranean (warm sea, thinner crowds), late dry-season safari, Japan from mid-October",
+              "The Caribbean, at the peak of hurricane season; Botswana and Zambia run very hot in October"
+            ],
+            [
+              "November to December",
+              "The Maldives, the Caribbean from mid-December, Cape Town, Patagonia",
+              "Southern African safari in the green season: lush and good value, but hot with afternoon storms"
+            ],
+            [
+              "January to April",
+              "The Maldives, the Caribbean, Cape Town, the Serengeti calving season in January and February, Japan for cherry blossom",
+              "Bali's wet season; much of the Mediterranean coast is closed"
+            ]
+          ]
+        },
+        "paras": [
+          "Work backwards from the wedding date. The table pairs common wedding months with the destinations at their best and the ones to treat with caution. None of the cautions are vetoes; the Maldives in its wetter months, for example, usually means short showers and better rates rather than a ruined week.",
+          "Once the date is fixed, the booking order is camps and resorts first, flights second. Small safari camps have a handful of tents and sell out a year ahead in the best months; a large city hotel can wait."
+        ],
+        "list": [
+          "Botswana and Zambia in the dry season (June to October): 12 to 18 months ahead for the smallest camps, nine months at the very least.",
+          "East Africa during the migration months (July to October): nine to twelve months.",
+          "The Maldives and the Caribbean over Christmas and New Year: a year ahead. Other peak months, six to nine.",
+          "The Mediterranean in May, June or September: six to nine months for the best rooms on the Amalfi Coast and in the Greek islands.",
+          "Flights: long-haul schedules open roughly eleven months ahead, and premium reward seats go early.",
+          "Book every ticket in the names on your passports. A married name not yet on the passport cannot be used to fly.",
+          "Buy travel insurance with cancellation cover when the first deposit is paid, because wedding plans move."
+        ]
+      },
+      {
+        "h2": "How honeymoon amenities really work",
+        "paras": [
+          "Honeymoon amenities are mostly a matter of the hotel knowing, and the note on the reservation is what makes them happen. Beyond that, the useful question is which rate to book, because a honeymoon package and an advisor program rate rarely combine. This is the one place an advisor changes the result rather than the convenience: they can price both side by side and put the occasion in front of the general manager before you arrive."
+        ],
+        "list": [
+          "Tell every property, not just the beach resort. A safari camp that knows it is a honeymoon can set up a private dinner or a star-bed night, which it cannot do for guests it does not know about.",
+          "Expect the gesture, not the upgrade. Sparkling wine, a cake and a decorated bed are standard. Upgrades depend on what is empty that night, and honeymooners are one claim on the better rooms among several.",
+          "Price the package against the room. Honeymoon packages bundle a couples massage, a private dinner and sometimes transfers; add up only what you would actually use.",
+          "Check whether program perks apply. Benefits such as daily breakfast, a property credit and an upgrade when available are tied to specific rates and often do not combine with packaged offers, so the flexible rate with perks plus one dinner booked separately can be the better stack.",
+          "Carry proof of marriage. Resorts and camps that discount for honeymooners, more common in the Indian Ocean and on safari than in cities, usually ask for a marriage certificate dated within a set window."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "Secluded beach resorts with VIP benefits on file, smallest first",
+      "note": "Beach resorts the supplier files under seclusion, with advisor benefits on record, sorted so the most intimate properties come first. Each links to its own page, where the benefits currently on file for it are listed in full.",
+      "query": "category=Beach Resort&experience=Seclusion&perks=true",
+      "sort": "smallest",
+      "limit": 15
+    },
+    "faqs": [
+      {
+        "q": "How long should a luxury honeymoon be?",
+        "a": "Ten to fourteen nights suits two bases plus the long-haul flights at each end. Under ten nights, keep it to one base or two very close together, such as Rome and the Amalfi Coast. Beyond two weeks, a third base starts to earn the day lost to moving."
+      },
+      {
+        "q": "Can we still get honeymoon offers if we travel months after the wedding?",
+        "a": "Often, yes. Properties that run honeymoon offers generally accept a marriage certificate dated within a window, commonly somewhere between six months and a year, though the terms vary by hotel. Confirm with the specific property before booking rather than at check-in."
+      },
+      {
+        "q": "Is a safari a good honeymoon if neither of us has done one?",
+        "a": "Yes, if you accept the rhythm: early starts, a long rest in the middle of the day, a second drive into dusk, and vehicles often shared with other guests. Two camps of three nights each, followed by a beach, is the shape that works. If time alone matters, ask for a private vehicle; at most camps it is an added cost rather than the default."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/botswana-vs-kenya-vs-south-africa-first-safari",
+        "label": "Botswana, Kenya or South Africa for a first safari"
+      },
+      {
+        "href": "/answers/best-maldives-resort-for-first-visit",
+        "label": "Which Maldives resort suits a first visit"
+      },
+      {
+        "href": "/answers/caribbean-hurricane-season-travel-by-month-and-island",
+        "label": "The Caribbean in hurricane season, month by month"
+      },
+      {
+        "href": "/answers/virtuoso-perks-vs-booking-direct",
+        "label": "How advisor perks compare with booking direct"
+      }
+    ]
+  },
+  {
+    "slug": "best-small-ship-for-mediterranean-cruise",
+    "category": "Yachts",
+    "question": "What's the best small ship for a Mediterranean cruise?",
+    "title": "The Best Small Ship for a Mediterranean Cruise: Yacht-Style Ships vs Seabourn and Silversea",
+    "description": "Yacht-style ships from Ritz-Carlton, Four Seasons, Orient Express, Aman and Sea Cloud, or small luxury ships from Seabourn and Silversea? How ship size changes harbours, tendering and the summer season, across the {{journeys:collection=yacht}} yacht itineraries in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "For a summer coastal Mediterranean trip, a yacht-style ship of a few hundred guests or fewer is the better choice: Ritz-Carlton, Four Seasons, Aman at Sea, or a sailing ship from Sea Cloud or Orient Express. They reach smaller harbours, tender faster and stay later. Seabourn and Silversea are better value on longer, city-heavy itineraries, where ship size changes less.",
+    "answer": [
+      "The Mediterranean rewards small ships more than almost any other cruising region, because the places people most want to be, Portofino, Saint-Tropez, Capri, Hydra, the Dalmatian islands, are small harbours with little room for large ships. Yacht-style ships get you there on better terms: more of their calls are in those harbours, a tender run clears a ship of a hundred or two hundred guests quickly, and their itineraries lean towards evenings and overnights ashore rather than early sail-aways. The hotel-brand lines, Ritz-Carlton, Four Seasons, Orient Express and Aman, and the tall ship Sea Cloud II are the ones to look at, and the smaller the ship, the more pronounced the difference.",
+      "Seabourn and Silversea are the honest alternative, not a lesser one. Their ships carry several hundred guests, still small by cruise standards, and in return you get more space at sea, a steadier ride in a swell, more dining choice and generally a lower fare per night for comparable service. On itineraries built around Rome, Florence, Barcelona and Athens, where every ship uses the same commercial port and Rome and Florence are an hour or more inland whatever you sail on, size buys you little and they are the better buy. For scale, across all regions rather than the Mediterranean alone, our atlas holds Ritz-Carlton {{journeys:operator=Ritz-Carlton Yacht Collection}}, Four Seasons {{journeys:operator=Four Seasons Yachts}}, Orient Express {{journeys:operator=Orient Express Sailing Yachts}}, Aman at Sea {{journeys:operator=Aman at Sea}}, Sea Cloud II {{journeys:vessel=Sea Cloud II}}, Seabourn {{journeys:operator=Seabourn}} and Silversea {{journeys:operator=Silversea}} itineraries."
+    ],
+    "sections": [
+      {
+        "h2": "Yacht-style ships vs small luxury cruise ships",
+        "table": {
+          "caption": "Small-ship options for the Mediterranean, smallest first.",
+          "columns": [
+            "Type",
+            "Examples",
+            "Scale",
+            "Where it wins",
+            "The trade-off"
+          ],
+          "rows": [
+            [
+              "Sailing ships",
+              "Sea Cloud II, Orient Express Corinthian",
+              "Around 100 guests or fewer",
+              "The smallest harbours, and the voyage itself under sail",
+              "More motion, fewer facilities, cabins smaller than a hotel-brand yacht's"
+            ],
+            [
+              "Small yacht-style ships",
+              "Aman at Sea's Amangati, Four Seasons I and II",
+              "Under 200 guests",
+              "Intimate, hotel-level service, quick tenders, late evenings ashore",
+              "Among the highest fares per night at sea; limited dining choice on long trips"
+            ],
+            [
+              "Larger yacht-style ships",
+              "Ritz-Carlton's Evrima, Ilma, Luminara",
+              "Roughly 300 to 450 guests",
+              "Yacht itineraries with more restaurants and space aboard",
+              "Less intimate than the smallest ships; still priced at a premium"
+            ],
+            [
+              "Small luxury cruise ships",
+              "Seabourn, Silversea",
+              "Several hundred guests",
+              "Longer itineraries, steadier ride, more dining, better value per night",
+              "More big commercial ports, slower tendering, earlier departures"
+            ]
+          ]
+        },
+        "paras": [
+          "Guest numbers are approximate and vary by ship within each line. The useful way to read the table is top to bottom: each step down gives up some intimacy and harbour access in exchange for space, stability and a lower fare per night.",
+          "Is the premium for the yacht-style ships worth it? On a seven-night Riviera, Amalfi or Croatian coast trip in high summer, usually yes, because the whole trip is small harbours and evenings ashore. On a ten- to fourteen-night itinerary with big cities and a few sea days, usually not: you are paying for access you will rarely use, and a Seabourn or Silversea suite with a larger ship's facilities serves you better."
+        ]
+      },
+      {
+        "h2": "Marina berths, tender ports and why size matters",
+        "paras": [
+          "Most of the Mediterranean's famous small ports cannot berth an ocean ship of any size, so everyone anchors off and tenders in. The tender ride is the same; what changes is the queue and the schedule. A small ship empties in a few runs and can stay into the evening, while a ship of several hundred guests usually needs ticketed tender times and an earlier all-aboard. The smallest ships are also more often allowed into the inner harbour, or given a berth in the old port rather than at a commercial terminal outside town.",
+          "Ritz-Carlton and Four Seasons ships also carry a fold-down water-sports platform at the stern, used for swimming, kayaking and paddleboarding at anchor. In a calm cove in June it is one of the real pleasures of a yacht-style ship. Most classic Seabourn and Silversea ships do not offer the same, so check the specific ship if swimming off the stern matters to you."
+        ],
+        "list": [
+          "Portofino: tender only for every ship. The smaller the ship, the shorter the wait and the longer the evening.",
+          "Saint-Tropez: a tender port, and the town is at its best after the day boats leave, which favours ships that stay late.",
+          "Capri: arriving early by tender from a small ship beats the ferry crowds from Naples and Sorrento.",
+          "Bonifacio: the harbour sits at the end of a narrow inlet under the cliffs, and only small ships sail in.",
+          "Hydra: no cars, a tiny harbour, tender only. Small-ship territory.",
+          "Hvar and Korčula: anchorages off the old towns that suit a small guest count and fast tenders.",
+          "Rome, Florence and Athens: no advantage. Civitavecchia, Livorno and Piraeus serve every ship, and the transfer is the same whatever you sail on."
+        ]
+      },
+      {
+        "h2": "When to go: the Mediterranean season month by month",
+        "table": {
+          "caption": "General patterns; individual itineraries and weather vary year to year.",
+          "columns": [
+            "Month",
+            "Weather and sea",
+            "Crowds",
+            "Verdict"
+          ],
+          "rows": [
+            [
+              "April",
+              "Mild, sea still cool for swimming",
+              "Quiet; some lines' seasons not yet started",
+              "Good for city-heavy itineraries, less so for beach days"
+            ],
+            [
+              "May and June",
+              "Warm, long days, sea warming through June",
+              "Busy but manageable",
+              "The best balance for most travellers"
+            ],
+            [
+              "July and August",
+              "Hot; meltemi winds in the Aegean",
+              "Peak crowds, especially in August, and peak fares",
+              "Go only if school dates demand it, and favour the Adriatic or western Med over the Cyclades"
+            ],
+            [
+              "September",
+              "Sea at its warmest, heat easing",
+              "Easing after mid-month",
+              "A strong choice, especially for swimming off the stern"
+            ],
+            [
+              "October",
+              "Pleasant early, more unsettled later",
+              "Quiet",
+              "Good value; the season winds down as ships reposition"
+            ],
+            [
+              "November to March",
+              "Cool and changeable",
+              "Very quiet",
+              "Most small luxury ships have left the Mediterranean"
+            ]
+          ]
+        },
+        "paras": [
+          "The yacht-style lines follow the sun, spending the summer in the Mediterranean and moving to the Caribbean for the winter, so the season effectively runs from spring to autumn. Small ships feel weather more than large ones, which matters most in the Aegean in high summer, when the meltemi, a strong northerly wind, can make for lively crossings between the Cyclades."
+        ]
+      }
+    ],
+    "evidence": {
+      "h2": "Where to spend the night before you sail",
+      "note": "Mediterranean city hotels with VIP benefits on file, those with the most benefits first. Arrive at least a day before embarkation: ships sail on schedule and do not wait for a delayed connection. Each links to the property's own page, where the benefits currently on file are listed in full.",
+      "query": "region=mediterranean&category=City Hotel&perks=true",
+      "sort": "perks",
+      "limit": 15
+    },
+    "faqs": [
+      {
+        "q": "Will a small ship or sailing ship be rough?",
+        "a": "Smaller ships move more than larger ones in a swell, and a tall ship like Sea Cloud II heels gently under sail. The Mediterranean is calm for much of the season, with the main exception of the summer meltemi in the Aegean. If you are prone to seasickness, choose a lower, midship cabin, favour the Adriatic or western Med in July and August, or step up to a Seabourn or Silversea ship."
+      },
+      {
+        "q": "Do yacht-style ships dock right in the town?",
+        "a": "Often not. In the most popular small ports every ship anchors off and tenders in. The advantage of a small ship is that tendering is quick, there is rarely a ticketed queue, and itineraries tend to stay into the evening, when places like Saint-Tropez and Portofino are at their best."
+      },
+      {
+        "q": "Should I pick a yacht-style ship for a first Mediterranean cruise?",
+        "a": "If the trip is a week of coastal harbours in summer, yes. If you want Rome, Florence, Barcelona and Athens in one trip, a Seabourn or Silversea itinerary covers the cities just as well at a lower fare per night, and you can save the yacht for a coastal trip later."
+      }
+    ],
+    "related": [
+      {
+        "href": "/answers/ritz-carlton-vs-four-seasons-vs-orient-express-vs-aman-yachts",
+        "label": "Ritz-Carlton, Four Seasons, Orient Express or Aman: choosing between the hotel-brand yachts"
+      },
+      {
+        "href": "/answers/yacht-charter-vs-luxury-yacht-cruise",
+        "label": "When a private yacht charter makes more sense than a yacht cruise"
+      },
+      {
+        "href": "/journeys/yacht",
+        "label": "Every yacht itinerary in the atlas"
+      },
+      {
+        "href": "/journeys/cruise",
+        "label": "Seabourn, Silversea and other small-ship cruises"
+      }
+    ]
+  },
+  {
+    "slug": "what-does-a-fully-staffed-luxury-villa-include",
+    "category": "Villas",
+    "question": "What does a fully staffed luxury villa actually include?",
+    "title": "What a Fully Staffed Luxury Villa Includes, and What Costs Extra",
+    "description": "What 'fully staffed' really means at a luxury villa: housekeeping, chef, butler and concierge, what you pay for on top (groceries, drinks, gratuities), and how the norms change between the Caribbean, the Mediterranean, Asia and the Alps. Browse the {{collection:villa}} villas in our atlas.",
+    "updated": "2026-11-01",
+    "capsule": "A fully staffed luxury villa usually includes daily housekeeping, a cook or chef for some or all meals, a house manager or butler, pool and garden care, and a local concierge. It rarely includes groceries, wine and spirits, staff gratuities, or extra hours and staff for parties. What the rate covers varies more by region than by price, so read the staffing schedule.",
+    "answer": [
+      "In most villa listings, 'fully staffed' means a team whose wages are built into the rental: housekeepers who clean and make beds daily, someone who cooks, a house manager or butler who runs the household and serves, people who look after the pool and garden, and a concierge, usually employed by the villa company rather than the house, who books restaurants, boats and drivers. The chef's labour may be included while the food is not. That single distinction causes more surprise at checkout than anything else.",
+      "What sits outside the rate is fairly consistent worldwide: groceries, usually at cost and paid from a float or against receipts; all alcohol; gratuities for the staff, which are expected and shared among the team; and anything beyond the agreed schedule, such as a chef for a dinner party of twenty or a nanny. The bigger variable is regional. A Jamaican or Balinese villa may come with a large live-in team and a cook as standard, while a villa on St Barth or in Tuscany may include housekeeping only, with a chef booked meal by meal. Two villas at the same nightly rate can deliver very different holidays."
+    ],
+    "sections": [
+      {
+        "h2": "What 'fully staffed' usually covers",
+        "paras": [
+          "Treat this as the typical shape, not a promise. The staffing schedule in the rental agreement is the only document that counts, and it should state roles, hours, days off and which meals are prepared."
+        ],
+        "list": [
+          "Housekeeping: daily cleaning, bed-making and towels, often for set hours rather than all day. Laundry of guests' clothes is included at some villas and charged at others.",
+          "Cook or chef: anything from a housekeeper who makes breakfast to a trained chef cooking three meals a day. Check which meals and how many days a week.",
+          "House manager or butler: runs the staff, serves meals and drinks, sets up the terrace, unpacks if you want it, and is your first call when something breaks.",
+          "Pool and garden care: usually early in the day and out of sight.",
+          "Concierge: pre-arrival planning, restaurant and activity bookings, provisioning before you arrive. Often a villa-company employee covering several houses rather than someone on site.",
+          "Security or a night watchman: common in parts of the Caribbean and Asia, rare in Europe.",
+          "Driver: included at some Asian and Caribbean villas, an extra almost everywhere else."
+        ]
+      },
+      {
+        "h2": "What usually costs extra",
+        "table": {
+          "columns": [
+            "Item",
+            "How it is usually charged",
+            "What to ask"
+          ],
+          "rows": [
+            [
+              "Groceries",
+              "At cost from a deposit or float, reconciled with receipts at the end; some villas add a handling fee",
+              "Is there a mark-up or fee, and can I send a shopping list for pre-arrival stocking?"
+            ],
+            [
+              "Wine, spirits, soft drinks",
+              "Paid for separately, like groceries; rarely included outside catered ski chalets",
+              "Can I bring my own, and is there a corkage charge if the chef sources it?"
+            ],
+            [
+              "Chef",
+              "Included at some villas; elsewhere a daily or per-meal fee plus food",
+              "Which meals are covered, and what happens on the chef's day off?"
+            ],
+            [
+              "Staff gratuity",
+              "Paid at the end, usually as one sum to the house manager to share",
+              "What is the local norm, and is any service charge already added to the bill?"
+            ],
+            [
+              "Extra staff and hours",
+              "Charged per person or per hour for parties, late dinners, extra cleaning",
+              "Is there a rate card for events, extra waiters and babysitting?"
+            ],
+            [
+              "Utilities",
+              "Included at most villas, metered at some, especially air conditioning in the Caribbean",
+              "Is electricity or air conditioning charged separately?"
+            ],
+            [
+              "Taxes, cleaning, deposit",
+              "Local accommodation or tourist tax, a final cleaning fee, and a refundable damage deposit",
+              "Which taxes are already in the quoted rate?"
+            ]
+          ]
+        },
+        "paras": [
+          "The rental rate buys the house and the team's standard hours. Most of what you consume, and any service beyond the schedule, is billed on top."
+        ]
+      },
+      {
+        "h2": "How it differs by region",
+        "table": {
+          "columns": [
+            "Region",
+            "Usually included",
+            "Usually extra",
+            "Worth knowing"
+          ],
+          "rows": [
+            [
+              "Jamaica and Barbados",
+              "A cook, housekeeper and butler or houseman as standard at larger villas",
+              "Groceries, drinks, gratuities",
+              "Cooking local food is often the cook's strength; the gratuity is a meaningful part of staff income, so budget for it properly"
+            ],
+            [
+              "St Barth and Turks and Caicos",
+              "Daily housekeeping and a concierge",
+              "Chef, butler and most other service, booked by the day or meal",
+              "Groceries are imported and expensive; private chef dinners add up quickly over a week"
+            ],
+            [
+              "Italy, France and Spain",
+              "Housekeeping for set hours, often six days a week, with linen changed on a schedule",
+              "Cook or chef by the meal, extra cleaning, final cleaning fee, tourist tax",
+              "Many villas are let unstaffed; ask exactly what 'staffed' means for each house"
+            ],
+            [
+              "Greek islands",
+              "Daily housekeeping and concierge at higher-end villas",
+              "Chef, waiters, boat days, drivers",
+              "Mykonos and Santorini villas often sell a long menu of add-on services"
+            ],
+            [
+              "Bali and Thailand",
+              "A large team: villa manager, butler, cook, housekeepers, gardeners, often security, sometimes a driver",
+              "Groceries and drinks, priced off a menu or at cost, plus gratuities",
+              "Many staff and some live on site, so privacy is the trade-off"
+            ],
+            [
+              "Alpine ski chalets",
+              "On catered chalets, a chef and host, breakfast, afternoon tea and dinner, often with house wine",
+              "Premium wine, lunches on the mountain, extra staff such as a nanny",
+              "The chef usually has one night off a week, so plan a restaurant dinner"
+            ]
+          ]
+        },
+        "paras": [
+          "The tradition of the place matters more than the size of the house. These are the patterns that hold most often; individual villas break them in both directions."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much should you tip villa staff?",
+        "a": "Ask the villa company for the local norm before you travel, because it varies by island and country. It is often suggested as a percentage of the rental, commonly somewhere between 5 and 15 percent, given as one sum, usually in cash, to the house manager to share among the team. Check first whether a service charge has already been added to the bill."
+      },
+      {
+        "q": "Is food included if the villa comes with a chef?",
+        "a": "Usually not. The chef's time is included, the ingredients are not. Most villas take a grocery deposit on arrival, shop against your preferences and settle up with receipts at the end. Catered ski chalets are the main exception, where food and house wine are typically part of the price."
+      },
+      {
+        "q": "Do the staff stay in the house all day?",
+        "a": "It depends on the region. In Europe housekeepers usually work set hours and leave. In Bali, Thailand and parts of the Caribbean, staff are often on the property from breakfast until after dinner, and security may stay overnight. If privacy matters, ask for staff quarters away from the main house and agree quiet hours before you arrive. Getting the full staffing schedule in writing before booking is where an advisor who knows the house saves real money and friction."
+      }
+    ],
+    "related": [
+      {
+        "href": "/villas",
+        "label": "The villas in the atlas"
+      },
+      {
+        "href": "/answers/villa-vs-resort-for-a-family-of-10",
+        "label": "Villa or resort for a family of 10: which actually costs less?"
+      },
+      {
+        "href": "/answers/best-caribbean-villas-for-12-guests",
+        "label": "The best Caribbean villas for 12 or more guests"
+      },
+      {
+        "href": "/answers/best-villas-under-2000-that-sleep-8",
+        "label": "Private villas under $2,000 a night that sleep eight"
+      }
+    ]
   }
 ];
