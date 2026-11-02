@@ -5,8 +5,8 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 310,
-  "journeysWithStays": 306,
+  "journeysTotal": 309,
+  "journeysWithStays": 305,
   "journeysWithHouse": 0,
   "gateways": 52,
   "hotels": 172,
@@ -15,158 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_01728": {
-   "n": "Serras Barcelona",
-   "house": null,
-   "aff": null,
-   "city": "Barcelona",
-   "country": "Spain",
-   "ll": [
-    41.3802,
-    2.18083
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15655359_2_0.webp",
-   "rooms": 28,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00727": {
-   "n": "Grand Hotel Central",
-   "house": null,
-   "aff": null,
-   "city": "Barcelona",
-   "country": "Spain",
-   "ll": [
-    41.385,
-    2.17771
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18102186_2_0.webp",
-   "rooms": 146,
-   "perks": [
-    "Daily breakfast",
-    "$200 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01905": {
-   "n": "The Barcelona EDITION",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Barcelona",
-   "country": "Spain",
-   "ll": [
-    41.3859,
-    2.17781
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16921319_2_0.webp",
-   "rooms": 100,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01070": {
-   "n": "Kimpton Vividora Barcelona",
-   "house": "IHG Hotels & Resorts",
-   "aff": null,
-   "city": "Barcelona",
-   "country": "Spain",
-   "ll": [
-    41.3847,
-    2.17288
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16340283_2_0.webp",
-   "rooms": 151,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00024": {
-   "n": "Acqualina Resort & Residences on the Beach",
-   "house": null,
-   "aff": null,
-   "city": "Miami Beach",
-   "country": "United States",
-   "ll": [
-    25.9429,
-    -80.1234
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3886_2_4_1003.webp",
-   "rooms": 98,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02136": {
-   "n": "The Ritz-Carlton Bal Harbour, Miami",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Bal Harbour",
-   "country": "United States",
-   "ll": [
-    25.8988,
-    -80.1233
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14388867_2_4.webp",
-   "rooms": 95,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02245": {
-   "n": "The St. Regis Bal Harbour Resort",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Bal Harbour",
-   "country": "United States",
-   "ll": [
-    25.8888,
-    -80.1225
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6655670_2_19.webp",
-   "rooms": 216,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00672": {
-   "n": "Four Seasons Hotel at The Surf Club",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Surfside",
-   "country": "United States",
-   "ll": [
-    25.8776,
-    -80.1216
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5.webp",
-   "rooms": 103,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_01552": {
    "n": "Pier Sixty-Six",
    "house": null,
@@ -671,7 +519,7 @@
     -33.863204,
     151.21031
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16562779_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16562779_2_0.webp",
    "rooms": 192,
    "perks": [
     "Daily breakfast",
@@ -736,6 +584,82 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00024": {
+   "n": "Acqualina Resort & Residences on the Beach",
+   "house": null,
+   "aff": null,
+   "city": "Miami Beach",
+   "country": "United States",
+   "ll": [
+    25.9429,
+    -80.1234
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3886_2_4.webp",
+   "rooms": 98,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02136": {
+   "n": "The Ritz-Carlton Bal Harbour, Miami",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Bal Harbour",
+   "country": "United States",
+   "ll": [
+    25.8988,
+    -80.1233
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14388867_2_4.webp",
+   "rooms": 95,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02245": {
+   "n": "The St. Regis Bal Harbour Resort",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Bal Harbour",
+   "country": "United States",
+   "ll": [
+    25.8888,
+    -80.1225
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6655670_2_19.webp",
+   "rooms": 216,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00672": {
+   "n": "Four Seasons Hotel at The Surf Club",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Surfside",
+   "country": "United States",
+   "ll": [
+    25.8776,
+    -80.1216
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5.webp",
+   "rooms": 103,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_00578": {
    "n": "Fairmont Breakers Long Beach",
@@ -1218,7 +1142,7 @@
     41.9337,
     12.1023
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3967_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3967_2_0.webp",
    "rooms": 21,
    "perks": [
     "Daily breakfast",
@@ -1636,7 +1560,7 @@
     -34.5899,
     -58.3824
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94.webp",
    "rooms": 165,
    "perks": [
     "Daily breakfast",
@@ -1655,7 +1579,7 @@
     52.3596,
     4.90574
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3857_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3857_2_0.webp",
    "rooms": 79,
    "perks": [
     "Daily breakfast",
@@ -1769,7 +1693,7 @@
     -33.9108,
     18.4195
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4663_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4663_2_0.webp",
    "rooms": 132,
    "perks": [
     "Daily breakfast",
@@ -2111,7 +2035,7 @@
     38.7143,
     -9.14414
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930052_2_0_1002.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930052_2_0.webp",
    "rooms": 61,
    "perks": [
     "Daily breakfast",
@@ -2263,7 +2187,7 @@
     13.2531,
     -59.6377
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4571_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4571_2_0.webp",
    "rooms": 41,
    "perks": [
     "Daily breakfast",
@@ -2564,6 +2488,82 @@
    ],
    "promo": 1
   },
+  "h_01728": {
+   "n": "Serras Barcelona",
+   "house": null,
+   "aff": null,
+   "city": "Barcelona",
+   "country": "Spain",
+   "ll": [
+    41.3802,
+    2.18083
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15655359_2_0.webp",
+   "rooms": 28,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00727": {
+   "n": "Grand Hotel Central",
+   "house": null,
+   "aff": null,
+   "city": "Barcelona",
+   "country": "Spain",
+   "ll": [
+    41.385,
+    2.17771
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18102186_2_0.webp",
+   "rooms": 146,
+   "perks": [
+    "Daily breakfast",
+    "$200 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01905": {
+   "n": "The Barcelona EDITION",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Barcelona",
+   "country": "Spain",
+   "ll": [
+    41.3859,
+    2.17781
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16921319_2_0.webp",
+   "rooms": 100,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01070": {
+   "n": "Kimpton Vividora Barcelona",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "Barcelona",
+   "country": "Spain",
+   "ll": [
+    41.3847,
+    2.17288
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16340283_2_0.webp",
+   "rooms": 151,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
   "h_00869": {
    "n": "Hotel Hermitage Monte-Carlo",
    "house": null,
@@ -2593,7 +2593,7 @@
     43.7396,
     7.42754
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3852_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3852_2_0.webp",
    "rooms": 207,
    "perks": [
     "Daily breakfast",
@@ -2935,7 +2935,7 @@
     55.9539,
     -3.19123
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16353010_2_0_1002.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16353010_2_0.webp",
    "rooms": 50,
    "perks": [
     "Daily breakfast",
@@ -2954,7 +2954,7 @@
     54.6436,
     -5.82914
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4195_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4195_2_0.webp",
    "rooms": 98,
    "perks": [
     "Daily breakfast",
@@ -3265,56 +3265,6 @@
   }
  },
  "GATES": {
-  "Barcelona, Spain": {
-   "n": "Barcelona, Spain",
-   "ll": [
-    41.3833,
-    2.1833
-   ],
-   "h": [
-    [
-     "h_01728",
-     0.4
-    ],
-    [
-     "h_00727",
-     0.5
-    ],
-    [
-     "h_01905",
-     0.5
-    ],
-    [
-     "h_01070",
-     0.9
-    ]
-   ]
-  },
-  "Miami, FL, United States": {
-   "n": "Miami, FL, United States",
-   "ll": [
-    25.9388,
-    -80.2144
-   ],
-   "h": [
-    [
-     "h_00024",
-     9.1
-    ],
-    [
-     "h_02136",
-     10.1
-    ],
-    [
-     "h_02245",
-     10.7
-    ],
-    [
-     "h_00672",
-     11.5
-    ]
-   ]
-  },
   "Fort Lauderdale, FL, United States": {
    "n": "Fort Lauderdale, FL, United States",
    "ll": [
@@ -3504,6 +3454,31 @@
     [
      "h_01981",
      1.7
+    ]
+   ]
+  },
+  "Miami, FL, United States": {
+   "n": "Miami, FL, United States",
+   "ll": [
+    25.9388,
+    -80.2144
+   ],
+   "h": [
+    [
+     "h_00024",
+     9.1
+    ],
+    [
+     "h_02136",
+     10.1
+    ],
+    [
+     "h_02245",
+     10.7
+    ],
+    [
+     "h_00672",
+     11.5
     ]
    ]
   },
@@ -4190,6 +4165,31 @@
     ]
    ]
   },
+  "Barcelona, Spain": {
+   "n": "Barcelona, Spain",
+   "ll": [
+    41.3833,
+    2.1833
+   ],
+   "h": [
+    [
+     "h_01728",
+     0.4
+    ],
+    [
+     "h_00727",
+     0.5
+    ],
+    [
+     "h_01905",
+     0.5
+    ],
+    [
+     "h_01070",
+     0.9
+    ]
+   ]
+  },
   "Monte-Carlo, Monaco": {
    "n": "Monte-Carlo, Monaco",
    "ll": [
@@ -4494,10 +4494,6 @@
   "16895941": {
    "pre": "Sydney, Australia",
    "post": "Southampton, United Kingdom"
-  },
-  "16897891": {
-   "pre": "Barcelona, Spain",
-   "post": "Miami, FL, United States"
   },
   "16899626": {
    "pre": "Buenos Aires, Argentina",

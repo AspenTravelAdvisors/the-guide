@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4426,
-  "journeysWithStays": 3732,
+  "journeysTotal": 4474,
+  "journeysWithStays": 3759,
   "journeysWithHouse": 0,
   "gateways": 108,
   "hotels": 291,
@@ -15,120 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_01876": {
-   "n": "THE DOLLI® at Acropolis, A Hotel to Live®",
-   "house": null,
-   "aff": null,
-   "city": "Athens",
-   "country": "Greece",
-   "ll": [
-    37.9758,
-    23.7281
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16877378_2_0.webp",
-   "rooms": 46,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01362": {
-   "n": "NEW Hotel, a Member of Design Hotels, Athens",
-   "house": null,
-   "aff": null,
-   "city": "Athens",
-   "country": "Greece",
-   "ll": [
-    37.9734,
-    23.7337
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16158625_2_0.webp",
-   "rooms": 79,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00867": {
-   "n": "Hotel Grande Bretagne, a Luxury Collection Hotel, Athens",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Athens",
-   "country": "Greece",
-   "ll": [
-    37.9762,
-    23.7353
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4377_2_0_1009.webp",
-   "rooms": 320,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
-  "h_01073": {
-   "n": "King George, a Luxury Collection Hotel, Athens",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Athens",
-   "country": "Greece",
-   "ll": [
-    37.9763,
-    23.7349
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13072676_2_0_1009.webp",
-   "rooms": 102,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01912": {
-   "n": "The Brando",
-   "house": null,
-   "aff": null,
-   "city": "Arue",
-   "country": "French Polynesia",
-   "ll": [
-    -17.5332,
-    -149.512
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14408912_2_43.webp",
-   "rooms": 36,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
-  "h_01811": {
-   "n": "Sofitel Kia Ora Moorea Beach Resort",
-   "house": "Accor",
-   "aff": null,
-   "city": "Moorea",
-   "country": "French Polynesia",
-   "ll": [
-    -17.4831,
-    -149.798
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395455_2_0.webp",
-   "rooms": 113,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_00141": {
    "n": "Arakur Ushuaia Resort & Spa",
    "house": null,
@@ -405,7 +291,7 @@
     -34.5899,
     -58.3824
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94.webp",
    "rooms": 165,
    "perks": [
     "Daily breakfast",
@@ -462,7 +348,7 @@
     -12.1353,
     -77.0273
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4636_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4636_2_0.webp",
    "rooms": 89,
    "perks": [
     "Daily breakfast",
@@ -584,6 +470,44 @@
     "Early check-in"
    ],
    "promo": 1
+  },
+  "h_01912": {
+   "n": "The Brando",
+   "house": null,
+   "aff": null,
+   "city": "Arue",
+   "country": "French Polynesia",
+   "ll": [
+    -17.5332,
+    -149.512
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14408912_2_43.webp",
+   "rooms": 36,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Early check-in"
+   ],
+   "promo": 1
+  },
+  "h_01811": {
+   "n": "Sofitel Kia Ora Moorea Beach Resort",
+   "house": "Accor",
+   "aff": null,
+   "city": "Moorea",
+   "country": "French Polynesia",
+   "ll": [
+    -17.4831,
+    -149.798
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395455_2_0.webp",
+   "rooms": 113,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_00838": {
    "n": "Hotel Casa Pestagua",
@@ -728,8 +652,84 @@
     9.07869,
     -79.3919
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16896453_2_0_1002.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16896453_2_0.webp",
    "rooms": 88,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01876": {
+   "n": "THE DOLLI® at Acropolis, A Hotel to Live®",
+   "house": null,
+   "aff": null,
+   "city": "Athens",
+   "country": "Greece",
+   "ll": [
+    37.9758,
+    23.7281
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16877378_2_0.webp",
+   "rooms": 46,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01362": {
+   "n": "NEW Hotel, a Member of Design Hotels, Athens",
+   "house": null,
+   "aff": null,
+   "city": "Athens",
+   "country": "Greece",
+   "ll": [
+    37.9734,
+    23.7337
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16158625_2_0.webp",
+   "rooms": 79,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00867": {
+   "n": "Hotel Grande Bretagne, a Luxury Collection Hotel, Athens",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Athens",
+   "country": "Greece",
+   "ll": [
+    37.9762,
+    23.7353
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4377_2_0_1009.webp",
+   "rooms": 320,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 1
+  },
+  "h_01073": {
+   "n": "King George, a Luxury Collection Hotel, Athens",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Athens",
+   "country": "Greece",
+   "ll": [
+    37.9763,
+    23.7349
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13072676_2_0_1009.webp",
+   "rooms": 102,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -1208,25 +1208,6 @@
    ],
    "promo": 0
   },
-  "h_01525": {
-   "n": "Park Hyatt Zanzibar",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Zanzibar",
-   "country": "Tanzania",
-   "ll": [
-    -6.16384,
-    39.1865
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18222608_2_0.webp",
-   "rooms": 67,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
   "h_00532": {
    "n": "El Silencio Lodge & Spa -  Relais & Chateaux",
    "house": null,
@@ -1264,6 +1245,25 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_01525": {
+   "n": "Park Hyatt Zanzibar",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Zanzibar",
+   "country": "Tanzania",
+   "ll": [
+    -6.16384,
+    39.1865
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18222608_2_0.webp",
+   "rooms": 67,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
   },
   "h_v16336359": {
    "n": "Shangri-La The Marina Cairns",
@@ -1704,7 +1704,7 @@
     13.2531,
     -59.6377
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4571_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4571_2_0.webp",
    "rooms": 41,
    "perks": [
     "Daily breakfast",
@@ -1723,7 +1723,7 @@
     13.8302,
     -61.0515
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4130_2_6_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4130_2_6.webp",
    "rooms": 37,
    "perks": [
     "Daily breakfast",
@@ -1932,7 +1932,7 @@
     52.3596,
     4.90574
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3857_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3857_2_0.webp",
    "rooms": 79,
    "perks": [
     "Daily breakfast",
@@ -2198,7 +2198,7 @@
     34.7065,
     135.495
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18597448_2_0_1001.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18597448_2_0.webp",
    "rooms": 272,
    "perks": [
     "Daily breakfast",
@@ -2274,7 +2274,7 @@
     -33.9108,
     18.4195
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4663_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4663_2_0.webp",
    "rooms": 132,
    "perks": [
     "Daily breakfast",
@@ -2426,7 +2426,7 @@
     38.7143,
     -9.14414
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930052_2_0_1002.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930052_2_0.webp",
    "rooms": 61,
    "perks": [
     "Daily breakfast",
@@ -3672,7 +3672,7 @@
     41.9337,
     12.1023
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3967_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3967_2_0.webp",
    "rooms": 21,
    "perks": [
     "Daily breakfast",
@@ -3919,7 +3919,7 @@
     54.6436,
     -5.82914
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4195_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4195_2_0.webp",
    "rooms": 98,
    "perks": [
     "Daily breakfast",
@@ -4534,7 +4534,7 @@
     43.7396,
     7.42754
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3852_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3852_2_0.webp",
    "rooms": 207,
    "perks": [
     "Daily breakfast",
@@ -4591,7 +4591,7 @@
     45.5189,
     -122.678
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/213002_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/213002_2_0.webp",
    "rooms": 331,
    "perks": [
     "Daily breakfast",
@@ -4895,7 +4895,7 @@
     18.4023,
     -68.9092
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4264_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4264_2_0.webp",
    "rooms": 365,
    "perks": [
     "Daily breakfast",
@@ -5180,7 +5180,7 @@
     55.9539,
     -3.19123
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16353010_2_0_1002.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16353010_2_0.webp",
    "rooms": 50,
    "perks": [
     "Daily breakfast",
@@ -5514,48 +5514,6 @@
   }
  },
  "GATES": {
-  "Piraeus, Greece": {
-   "n": "Piraeus, Greece",
-   "ll": [
-    37.9614,
-    23.6389
-   ],
-   "h": [
-    [
-     "h_01876",
-     8
-    ],
-    [
-     "h_01362",
-     8.4
-    ],
-    [
-     "h_00867",
-     8.6
-    ],
-    [
-     "h_01073",
-     8.6
-    ]
-   ]
-  },
-  "Papeete, French Polynesia": {
-   "n": "Papeete, French Polynesia",
-   "ll": [
-    -17.5333,
-    -149.567
-   ],
-   "h": [
-    [
-     "h_01912",
-     5.8
-    ],
-    [
-     "h_01811",
-     25.1
-    ]
-   ]
-  },
   "Ushuaia, Argentina": {
    "n": "Ushuaia, Argentina",
    "ll": [
@@ -5742,6 +5700,23 @@
     ]
    ]
   },
+  "Papeete, French Polynesia": {
+   "n": "Papeete, French Polynesia",
+   "ll": [
+    -17.5333,
+    -149.567
+   ],
+   "h": [
+    [
+     "h_01912",
+     5.8
+    ],
+    [
+     "h_01811",
+     25.1
+    ]
+   ]
+  },
   "Cartagena, Colombia": {
    "n": "Cartagena, Colombia",
    "ll": [
@@ -5789,6 +5764,31 @@
     [
      "h_00878",
      19.9
+    ]
+   ]
+  },
+  "Piraeus, Greece": {
+   "n": "Piraeus, Greece",
+   "ll": [
+    37.9614,
+    23.6389
+   ],
+   "h": [
+    [
+     "h_01876",
+     8
+    ],
+    [
+     "h_01362",
+     8.4
+    ],
+    [
+     "h_00867",
+     8.6
+    ],
+    [
+     "h_01073",
+     8.6
     ]
    ]
   },
@@ -5955,19 +5955,6 @@
     ]
    ]
   },
-  "Zanzibar City, Tanzania": {
-   "n": "Zanzibar City, Tanzania",
-   "ll": [
-    -6.15,
-    39.2
-   ],
-   "h": [
-    [
-     "h_01525",
-     2.1
-    ]
-   ]
-  },
   "San Jose, Costa Rica": {
    "n": "San Jose, Costa Rica",
    "ll": [
@@ -5982,6 +5969,19 @@
     [
      "h_02129",
      38.8
+    ]
+   ]
+  },
+  "Zanzibar City, Tanzania": {
+   "n": "Zanzibar City, Tanzania",
+   "ll": [
+    -6.15,
+    39.2
+   ],
+   "h": [
+    [
+     "h_01525",
+     2.1
     ]
    ]
   },
@@ -8100,6 +8100,14 @@
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
   },
+  "16845761": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
+  "16845762": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
   "16845788": {
    "pre": "Cartagena, Colombia",
    "post": "Panama City, Panama"
@@ -9564,10 +9572,6 @@
    "pre": "Puerto Natales, Chile",
    "post": "Buenos Aires, Argentina"
   },
-  "18067521": {
-   "pre": "Piraeus, Greece",
-   "post": "Piraeus, Greece"
-  },
   "18081400": {
    "pre": null,
    "post": "Ushuaia, Argentina"
@@ -9747,10 +9751,6 @@
   "18091673": {
    "pre": "Benoa (Bali), Indonesia",
    "post": "Cairns, Australia"
-  },
-  "18092129": {
-   "pre": "Papeete, French Polynesia",
-   "post": "Papeete, French Polynesia"
   },
   "18092130": {
    "pre": "Papeete, French Polynesia",
@@ -10284,6 +10284,14 @@
    "pre": "Ponta Delgada, Portugal",
    "post": "Ponta Delgada, Portugal"
   },
+  "18137505": {
+   "pre": "Barcelona, Spain",
+   "post": "Piraeus, Greece"
+  },
+  "18137507": {
+   "pre": "Barcelona, Spain",
+   "post": "Piraeus, Greece"
+  },
   "18137521": {
    "pre": "Athens, Greece",
    "post": "Athens, Greece"
@@ -10596,6 +10604,18 @@
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
   },
+  "18137665": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
+  "18137666": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
+  "18137667": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
   "18137668": {
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
@@ -10627,6 +10647,10 @@
   "18137677": {
    "pre": "Panama City, Panama",
    "post": "Panama City, Panama"
+  },
+  "18139345": {
+   "pre": "Santiago, Chile",
+   "post": "Papeete, French Polynesia"
   },
   "18139346": {
    "pre": "Quito, Ecuador",
@@ -11611,6 +11635,14 @@
   "18142818": {
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
+  },
+  "18142819": {
+   "pre": "Athens, Greece",
+   "post": "Barcelona, Spain"
+  },
+  "18142820": {
+   "pre": "Athens, Greece",
+   "post": "Barcelona, Spain"
   },
   "18142821": {
    "pre": "Lima, Peru",
@@ -13995,6 +14027,10 @@
   "18361658": {
    "pre": "Zadar, Croatia",
    "post": "Athens, Greece"
+  },
+  "18361659": {
+   "pre": "Athens, Greece",
+   "post": "Barcelona, Spain"
   },
   "18361660": {
    "pre": "Barcelona, Spain",
@@ -17136,6 +17172,14 @@
    "pre": "San Jose, Costa Rica",
    "post": "Panama City, Panama"
   },
+  "18548556": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
+  "18548557": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
   "18548789": {
    "pre": "Tokyo, Japan",
    "post": "Busan, South Korea"
@@ -17867,6 +17911,10 @@
   "18578766": {
    "pre": null,
    "post": "Vancouver, BC, Canada"
+  },
+  "18578767": {
+   "pre": "Edinburgh, United Kingdom",
+   "post": null
   },
   "18578768": {
    "pre": "London, United Kingdom",
@@ -19047,6 +19095,10 @@
   "18579219": {
    "pre": "Portland, OR, United States",
    "post": "Portland, OR, United States"
+  },
+  "18579220": {
+   "pre": "Santiago, Chile",
+   "post": "Papeete, French Polynesia"
   },
   "18579221": {
    "pre": "Vancouver, BC, Canada",
@@ -22667,6 +22719,62 @@
   "18649024": {
    "pre": "Buenos Aires, Argentina",
    "post": "Rio De Janeiro, Brazil"
+  },
+  "18649267": {
+   "pre": "Panama City, Panama",
+   "post": "San Jose, Costa Rica"
+  },
+  "18649268": {
+   "pre": "San Jose, Costa Rica",
+   "post": "Panama City, Panama"
+  },
+  "18649269": {
+   "pre": "San Jose, Costa Rica",
+   "post": "Panama City, Panama"
+  },
+  "18649271": {
+   "pre": "San Jose, Costa Rica",
+   "post": "Panama City, Panama"
+  },
+  "18649272": {
+   "pre": "San Jose, Costa Rica",
+   "post": "Panama City, Panama"
+  },
+  "18649273": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
+  "18649275": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
+  "18649276": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
+  "18649278": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
+  "18649279": {
+   "pre": "Cairo, Egypt",
+   "post": "Cairo, Egypt"
+  },
+  "18649280": {
+   "pre": null,
+   "post": "Seattle, WA, United States"
+  },
+  "18649289": {
+   "pre": "Panama City, Panama",
+   "post": "San Jose, Costa Rica"
+  },
+  "18649290": {
+   "pre": "Panama City, Panama",
+   "post": "San Jose, Costa Rica"
+  },
+  "18649291": {
+   "pre": "Panama City, Panama",
+   "post": "San Jose, Costa Rica"
   }
  }
 }
