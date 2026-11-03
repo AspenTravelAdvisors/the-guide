@@ -5,8 +5,8 @@
   "atlas": "train",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 106,
-  "journeysWithStays": 102,
+  "journeysTotal": 108,
+  "journeysWithStays": 104,
   "journeysWithHouse": 48,
   "gateways": 44,
   "hotels": 153,
@@ -199,7 +199,7 @@
     35.6799,
     139.738
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16587174_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16587174_2_0.webp",
    "rooms": 250,
    "perks": [
     "Daily breakfast",
@@ -351,7 +351,7 @@
     -13.3127,
     -72.1183
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6157411_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6157411_2_0.webp",
    "rooms": 128,
    "perks": [
     "Daily breakfast",
@@ -503,7 +503,7 @@
     47.37,
     8.53881
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16786074_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16786074_2_0.webp",
    "rooms": 80,
    "perks": [
     "Daily breakfast",
@@ -921,7 +921,7 @@
     51.497,
     -0.159286
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15269067_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15269067_2_0.webp",
    "rooms": 54,
    "perks": [
     "Daily breakfast",
@@ -1149,7 +1149,7 @@
     20.8357,
     -156.917
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4390_2_1_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4390_2_1.webp",
    "rooms": 96,
    "perks": [
     "Daily breakfast",
@@ -1601,7 +1601,7 @@
     -12.098,
     -77.0488
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4662_2_8_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4662_2_8.webp",
    "rooms": 83,
    "perks": [
     "Daily breakfast",
@@ -1772,7 +1772,7 @@
     43.7724,
     11.2455
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4641_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4641_2_0.webp",
    "rooms": 171,
    "perks": [
     "Daily breakfast",
@@ -1829,7 +1829,7 @@
     43.7729,
     11.2495
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6606805_2_60_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6606805_2_60.webp",
    "rooms": 20,
    "perks": [
     "Daily breakfast",
@@ -1867,7 +1867,7 @@
     50.0855,
     14.4302
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16597023_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16597023_2_0.webp",
    "rooms": 176,
    "perks": [
     "Daily breakfast",
@@ -2285,7 +2285,7 @@
     36.108,
     -115.177
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5870537_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5870537_2_0.webp",
    "rooms": 4004,
    "perks": [
     "Daily breakfast",
@@ -2475,7 +2475,7 @@
     -33.9249,
     18.4198
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5870530_2_12_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5870530_2_12.webp",
    "rooms": 176,
    "perks": [
     "Daily breakfast",
@@ -2881,7 +2881,7 @@
     42.9796,
     11.3977
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/1690751_2_2_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/1690751_2_2.webp",
    "rooms": 14,
    "perks": [
     "Daily breakfast",
@@ -3977,6 +3977,10 @@
    "pre": "Halifax",
    "post": "Vancouver"
   },
+  "16265810": {
+   "pre": "Vancouver",
+   "post": "Halifax"
+  },
   "16517339": {
    "pre": null,
    "post": "Cape Town"
@@ -4400,6 +4404,10 @@
    "pre": "Cuzco",
    "post": null,
    "house": "Belmond"
+  },
+  "18649476": {
+   "pre": "Vancouver",
+   "post": "Calgary"
   }
  }
 }

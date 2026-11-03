@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4474,
-  "journeysWithStays": 3759,
+  "journeysTotal": 4473,
+  "journeysWithStays": 3758,
   "journeysWithHouse": 0,
   "gateways": 108,
   "hotels": 291,
@@ -15,44 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00141": {
-   "n": "Arakur Ushuaia Resort & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.7864,
-    -68.2575
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
-   "rooms": 129,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 0
-  },
-  "h_01191": {
-   "n": "Los Cauquenes Resort + Spa + Experiences",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.8364,
-    -68.3502
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0_1005.webp",
-   "rooms": 48,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
   "h_00510": {
    "n": "Downtown L.A. Proper",
    "house": null,
@@ -186,6 +148,44 @@
    ],
    "promo": 0
   },
+  "h_00141": {
+   "n": "Arakur Ushuaia Resort & Spa",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.7864,
+    -68.2575
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
+   "rooms": 129,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 0
+  },
+  "h_01191": {
+   "n": "Los Cauquenes Resort + Spa + Experiences",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.8364,
+    -68.3502
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0_1005.webp",
+   "rooms": 48,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
   "h_01583": {
    "n": "REMOTA",
    "house": null,
@@ -196,7 +196,7 @@
     -51.7088,
     -72.5077
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4387_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4387_2_0.webp",
    "rooms": 72,
    "perks": [
     "Daily breakfast",
@@ -310,7 +310,7 @@
     -12.098,
     -77.0488
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4662_2_8_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4662_2_8.webp",
    "rooms": 83,
    "perks": [
     "Daily breakfast",
@@ -519,7 +519,7 @@
     10.3932,
     -75.4832
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930080_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930080_2_0.webp",
    "rooms": 16,
    "perks": [
     "Daily breakfast",
@@ -1013,7 +1013,7 @@
     -8.69948,
     115.264
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16597012_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16597012_2_0.webp",
    "rooms": 149,
    "perks": [
     "Daily breakfast",
@@ -1218,7 +1218,7 @@
     9.99827,
     -84.2041
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6160093_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6160093_2_0.webp",
    "rooms": 24,
    "perks": [
     "Daily breakfast",
@@ -1400,7 +1400,7 @@
     33.5731,
     -7.58984
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16884698_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16884698_2_0.webp",
    "rooms": 149,
    "perks": [
     "Daily breakfast",
@@ -1647,7 +1647,7 @@
     13.0656,
     -59.5657
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930957_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930957_2_0.webp",
    "rooms": 116,
    "perks": [
     "Daily breakfast",
@@ -1761,7 +1761,7 @@
     13.8648,
     -61.0773
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6105250_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6105250_2_0.webp",
    "rooms": 29,
    "perks": [
     "Daily breakfast",
@@ -2312,7 +2312,7 @@
     -33.9249,
     18.4198
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5870530_2_12_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5870530_2_12.webp",
    "rooms": 176,
    "perks": [
     "Daily breakfast",
@@ -3197,7 +3197,7 @@
     40.8406,
     14.2559
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/848462_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/848462_2_0.webp",
    "rooms": 77,
    "perks": [
     "Daily breakfast",
@@ -4572,7 +4572,7 @@
     43.7405,
     7.42956
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16041964_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16041964_2_0.webp",
    "rooms": 40,
    "perks": [
     "Daily breakfast",
@@ -4610,7 +4610,7 @@
     45.5211,
     -122.681
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17901793_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/17901793_2_0.webp",
    "rooms": 251,
    "perks": [
     "Daily breakfast",
@@ -5123,7 +5123,7 @@
     35.6799,
     139.738
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16587174_2_0_1003.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16587174_2_0.webp",
    "rooms": 250,
    "perks": [
     "Daily breakfast",
@@ -5514,23 +5514,6 @@
   }
  },
  "GATES": {
-  "Ushuaia, Argentina": {
-   "n": "Ushuaia, Argentina",
-   "ll": [
-    -54.8,
-    -68.3
-   ],
-   "h": [
-    [
-     "h_00141",
-     3.1
-    ],
-    [
-     "h_01191",
-     5.2
-    ]
-   ]
-  },
   "Los Angeles, CA, United States": {
    "n": "Los Angeles, CA, United States",
    "ll": [
@@ -5583,6 +5566,23 @@
     [
      "h_00937",
      4.1
+    ]
+   ]
+  },
+  "Ushuaia, Argentina": {
+   "n": "Ushuaia, Argentina",
+   "ll": [
+    -54.8,
+    -68.3
+   ],
+   "h": [
+    [
+     "h_00141",
+     3.1
+    ],
+    [
+     "h_01191",
+     5.2
     ]
    ]
   },
@@ -8906,10 +8906,6 @@
   },
   "16918988": {
    "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
-  "16919488": {
-   "pre": null,
    "post": "Ushuaia, Argentina"
   },
   "16921077": {

@@ -4,15 +4,15 @@
   "built": "derived — see scripts/build-safari-camps.mjs",
   "radiusKm": 25,
   "lodgesInCategory": 71,
-  "lodgesInSafariCountries": 67,
-  "journeysWithCamps": 256,
-  "journeysTotal": 501,
+  "lodgesInSafariCountries": 68,
+  "journeysWithCamps": 262,
+  "journeysTotal": 507,
   "campsMatched": 41
  },
  "radiusKm": 25,
  "totals": {
   "category": 71,
-  "inSafariCountries": 67
+  "inSafariCountries": 68
  },
  "CAMPS": {
   "h_01781": {
@@ -441,7 +441,7 @@
     9.99827,
     -84.2041
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6160093_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6160093_2_0.webp",
    "rooms": 24,
    "perks": [
     "Daily breakfast",
@@ -679,7 +679,7 @@
     -22.9181,
     -68.2046
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/2198675_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/2198675_2_0.webp",
    "rooms": 50,
    "perks": [
     "Daily breakfast",
@@ -4181,6 +4181,90 @@
     "stop": "Victoria Falls",
     "day": 8,
     "km": 22.4
+   }
+  ],
+  "18649293": [
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 6,
+    "km": 18.1
+   },
+   {
+    "id": "h_00537",
+    "stop": "Ngorongoro",
+    "day": 10,
+    "km": 19.6
+   }
+  ],
+  "18649294": [
+   {
+    "id": "h_00537",
+    "stop": "Ngorongoro",
+    "day": 5,
+    "km": 19.6
+   }
+  ],
+  "18649295": [
+   {
+    "id": "h_00537",
+    "stop": "Ngorongoro",
+    "day": 5,
+    "km": 19.6
+   },
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 9,
+    "km": 18.1
+   }
+  ],
+  "18649296": [
+   {
+    "id": "h_02374",
+    "stop": "Victoria Falls",
+    "day": 5,
+    "km": 3.4
+   },
+   {
+    "id": "h_01349",
+    "stop": "Victoria Falls",
+    "day": 5,
+    "km": 22.4
+   },
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 8,
+    "km": 18.1
+   },
+   {
+    "id": "h_00537",
+    "stop": "Ngorongoro",
+    "day": 13,
+    "km": 19.6
+   }
+  ],
+  "18649319": [
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 4,
+    "km": 18.1
+   }
+  ],
+  "18649320": [
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 6,
+    "km": 18.1
+   },
+   {
+    "id": "h_00537",
+    "stop": "Ngorongoro",
+    "day": 12,
+    "km": 19.6
    }
   ]
  }

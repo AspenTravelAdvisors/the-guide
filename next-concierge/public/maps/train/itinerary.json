@@ -677,6 +677,88 @@
     ]
    }
   ],
+  "16265810": [
+   {
+    "n": "Vancouver",
+    "r": "CANADA",
+    "ll": [
+     49.25,
+     -123.133
+    ]
+   },
+   {
+    "n": "Kamloops",
+    "r": "CANADA",
+    "ll": [
+     50.6667,
+     -120.333
+    ]
+   },
+   {
+    "n": "Banff",
+    "r": "CANADA",
+    "ll": [
+     51.1667,
+     -115.569
+    ]
+   },
+   {
+    "n": "Lake Louise",
+    "r": "CANADA",
+    "ll": [
+     51.4253,
+     -116.177
+    ]
+   },
+   {
+    "n": "Jasper",
+    "r": "CANADA",
+    "ll": [
+     52.875,
+     -118.075
+    ]
+   },
+   {
+    "n": "Toronto",
+    "r": "CANADA",
+    "ll": [
+     43.675,
+     -79.425
+    ]
+   },
+   {
+    "n": "Montreal",
+    "r": "CANADA",
+    "ll": [
+     45.5,
+     -73.5833
+    ]
+   },
+   {
+    "n": "Moncton",
+    "r": "CANADA",
+    "ll": [
+     46.0833,
+     -64.7667
+    ]
+   },
+   {
+    "n": "Charlottetown",
+    "r": "CANADA",
+    "ll": [
+     46.2333,
+     -63.1333
+    ]
+   },
+   {
+    "n": "Halifax",
+    "r": "CANADA",
+    "ll": [
+     44.65,
+     -63.6
+    ]
+   }
+  ],
   "16346033": [
    {
     "n": "Anchorage",
@@ -4070,6 +4152,48 @@
      -71.535
     ]
    }
+  ],
+  "18649476": [
+   {
+    "n": "Vancouver",
+    "r": "CANADA",
+    "ll": [
+     49.25,
+     -123.133
+    ]
+   },
+   {
+    "n": "Jasper",
+    "r": "CANADA",
+    "ll": [
+     52.875,
+     -118.075
+    ]
+   },
+   {
+    "n": "Lake Louise",
+    "r": "CANADA",
+    "ll": [
+     51.4253,
+     -116.177
+    ]
+   },
+   {
+    "n": "Banff",
+    "r": "CANADA",
+    "ll": [
+     51.1667,
+     -115.569
+    ]
+   },
+   {
+    "n": "Calgary",
+    "r": "CANADA",
+    "ll": [
+     51.0833,
+     -114.083
+    ]
+   }
   ]
  },
  "TRIPS": [
@@ -4395,7 +4519,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/15801927/allaboutfoodaculinaryvisittoswitzerland",
    "days": 8,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3361_2_0_1003.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3361_2_0.webp",
    "from": "Montreux, Switzerland",
    "to": "Zurich, Switzerland",
    "country": "Switzerland",
@@ -4484,7 +4608,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18069724_2_222.webp",
    "from": "Barcelona, Spain",
    "to": "Lisbon, Portugal",
-   "country": "Portugal",
+   "country": "Spain",
    "train": null,
    "world": false,
    "mks": [
@@ -4613,7 +4737,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18124860_2_37.webp",
    "from": "Seoul, South Korea",
    "to": "Tokyo, Japan",
-   "country": "South Korea",
+   "country": "Japan",
    "train": null,
    "world": false,
    "mks": [
@@ -4811,7 +4935,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/16883754/christmasmarketsofswitzerland",
    "days": 6,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3361_2_52_1003.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3361_2_52.webp",
    "from": "Berne, Switzerland",
    "to": "Zurich, Switzerland",
    "country": "Switzerland",
@@ -5154,7 +5278,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_15.webp",
    "from": "Singapore, Singapore",
    "to": "Singapore, Singapore",
-   "country": "Malaysia",
+   "country": "Singapore",
    "train": "Eastern & Oriental Express",
    "world": true,
    "mks": [
@@ -5325,7 +5449,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_15.webp",
    "from": "Singapore, Singapore",
    "to": "Singapore, Singapore",
-   "country": "Singapore",
+   "country": "Malaysia",
    "train": "Eastern & Oriental Express",
    "world": true,
    "mks": [
@@ -5701,6 +5825,93 @@
    "route": "16265809"
   },
   {
+   "id": "16265810",
+   "n": "Grand Canadian Train Journey | Vancouver to Halifax",
+   "b": "canadabydesign",
+   "g": [
+    "CANADA"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/16265810/grandcanadiantrainjourneyvancouvertohalifax",
+   "days": 19,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/14853773_2_451.webp",
+   "from": "Vancouver, Canada",
+   "to": "Halifax, Canada",
+   "country": "Canada",
+   "train": "Rocky Mountaineer",
+   "world": true,
+   "mks": [
+    "2027-05",
+    "2027-06",
+    "2027-07",
+    "2027-08",
+    "2027-09"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures Now Through: 28 Sep 2026",
+   "description": "Experience both Rocky Mountaineer and VIA Rail on the Grand Canadian Train Tour from Vancouver to Halifax. Beginning in the Rocky Mountains, you'll explore the alpine towns of Banff, Lake Louise and Jasper before boarding VIA Rail for the cross-country trip to Montreal, Charlottetown, the Bay of Fundy and the rest of Atlantic Canada. To personalize your trip and truly make it your own, select your choice of tours in Banff, Montreal, Charlottetown and Halifax. Choose from bear viewing or a cowboy cookout to lighthouse tours or lobster trapping.",
+   "included": [
+    "1 night accommodation in Kamloops provided by Rocky Mountaineer 2 nights accommodation in Banff 1 night accommodation in Lake Louise 1 night accommodation in Jasper",
+    "2 nights accommodation in Toronto 3 nights accommodation in Montreal 2 nights accommodation in Charlottetown 2 nights accommodation in Halifax",
+    "Rocky Mountaineer Train between Vancouver and Banff VIA Rail onboard accommodation for 4 nights Transfer between rail depot and hotel in Banff & Jasper",
+    "Banff | Freedom of Choice - Choose 1 of 5 Excursions 1. Discover Banff & Its Wildlife Tour + Banff Gondola 2. Banff National Park Explorer Moraine Lake & Lake Louise Small Group Tour with Picnic Lunch",
+    "3. Rockies Hidden Gems Yoho & Kootenay National Parks | Small Group Tour with Picnic Lunch 4. Cowboy Horseback Cookout BBQ Lunch or Dinner 5. Personalised Tailor-made Excursion",
+    "Coach transfer from Banff to Lake Louise Full day tour between Lake Louise & Jasper with picnic lunch included Ice Explorer ride onto Athabasca Glacier Coach transfer between Banff & Lake Louise",
+    "Niagara Falls & Niagara on the Lake Tour with lunch Business class rail travel Toronto to Montreal (lunch included)",
+    "Montreal | Freedom of Choice - Choose 1 of 4 Excursions 1. Montreal Half Day Sightseeing Tour 2. Walking Tour of Old Montreal 3. Beyond the Market Food Walking Tour 4. Tailor-made Excursion"
+   ],
+   "promotions": [
+    {
+     "name": "Book 2027 Canada vacations by Nov 15 and receive 10% off selected packages",
+     "endDate": "2027-10-15",
+     "exclusive": false,
+     "description": "Early Booking Bonus – Book your 2027 Canada vacation by Nov 15 and receive 10% off select packages (up to $4,000 per couple) is applicable to select packages only as indicated on our Canada By Design website. Total savings vary by package, departure date, hotel grade, and other factors. Offers are subject to availability for 2027 departures and can be modified, withdrawn, or amended without prior notice. Trans Canada Packages: Up to $4,000 per couple Western Canada Packages: Up to $3,000 per couple Eastern Canada Packages: Up to $2,500 per couple Road Trip Packages: Up to $1,500 per couple…"
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Vancouver"
+    },
+    {
+     "d": 1,
+     "n": "Kamloops"
+    },
+    {
+     "d": 2,
+     "n": "Banff"
+    },
+    {
+     "d": 4,
+     "n": "Lake Louise"
+    },
+    {
+     "d": 5,
+     "n": "Jasper"
+    },
+    {
+     "d": 6,
+     "n": "Toronto"
+    },
+    {
+     "d": 11,
+     "n": "Montreal"
+    },
+    {
+     "d": 14,
+     "n": "Moncton"
+    },
+    {
+     "d": 15,
+     "n": "Charlottetown"
+    },
+    {
+     "d": 17,
+     "n": "Halifax"
+    }
+   ],
+   "route": "16265810"
+  },
+  {
    "id": "18535974",
    "n": "Grand Tour of Scotland, Royal Scotsman, a Belmond Train",
    "b": "belmond",
@@ -6073,7 +6284,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_19.webp",
    "from": "Istanbul, Türkiye",
    "to": "Paris, France",
-   "country": "Romania",
+   "country": "Hungary",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -6641,7 +6852,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_15.webp",
    "from": "Singapore, Singapore",
    "to": "Singapore, Singapore",
-   "country": "Singapore",
+   "country": "Malaysia",
    "train": "Eastern & Oriental Express",
    "world": true,
    "mks": [
@@ -7424,7 +7635,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_19.webp",
    "from": "Paris, France",
    "to": "Istanbul, Türkiye",
-   "country": "Hungary",
+   "country": "Bulgaria",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -7499,7 +7710,7 @@
    "img": null,
    "from": "Paris, France",
    "to": "Prague, Czech Republic",
-   "country": "Czech Republic",
+   "country": "France",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -7953,7 +8164,7 @@
    "img": null,
    "from": "Prague, Czech Republic",
    "to": "Paris, France",
-   "country": "France",
+   "country": "Czech Republic",
    "train": "Venice Simplon-Orient-Express",
    "world": true,
    "mks": [
@@ -8881,7 +9092,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15687445_2_4.webp",
    "from": "Pretoria, South Africa",
    "to": "Victoria Falls, Zimbabwe",
-   "country": "South Africa",
+   "country": "Zimbabwe",
    "train": "Rovos Rail",
    "world": true,
    "mks": [
@@ -8945,11 +9156,6 @@
    "train": "Royal Scotsman",
    "world": true,
    "mks": [
-    "2026-11",
-    "2026-12",
-    "2027-01",
-    "2027-02",
-    "2027-03",
     "2027-04",
     "2027-05",
     "2027-06",
@@ -9371,7 +9577,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3374_2_275.webp",
    "from": "Stockholm, Sweden",
    "to": "Bergen, Norway",
-   "country": "Denmark",
+   "country": "Norway",
    "train": null,
    "world": false,
    "mks": [
@@ -9449,7 +9655,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/15801915/switzerland9nights",
    "days": 10,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3361_2_0_1003.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3361_2_0.webp",
    "from": "Zurich, Switzerland",
    "to": "Lucerne, Switzerland",
    "country": "Switzerland",
@@ -9752,7 +9958,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_15.webp",
    "from": "Singapore, Singapore",
    "to": "Singapore, Singapore",
-   "country": "Malaysia",
+   "country": "Singapore",
    "train": "Eastern & Oriental Express",
    "world": true,
    "d": "11/16/2026",
@@ -10998,7 +11204,7 @@
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2595_2_15.webp",
    "from": "Singapore, Singapore",
    "to": "Singapore, Singapore",
-   "country": "Singapore",
+   "country": "Malaysia",
    "train": "Eastern & Oriental Express",
    "world": true,
    "mks": [
@@ -11058,6 +11264,74 @@
     }
    ],
    "route": "18536113"
+  },
+  {
+   "id": "18649476",
+   "n": "Winter Snow Train to the Canadian Rockies | VIA Rail",
+   "b": "canadabydesign",
+   "g": [
+    "CANADA"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18649476/wintersnowtraintothecanadianrockiesviarail",
+   "days": 7,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/14853773_2_4.webp",
+   "from": "Vancouver, Canada",
+   "to": "Banff, Canada",
+   "country": "Canada",
+   "train": "VIA Rail Canadian",
+   "world": true,
+   "mks": [
+    "2026-11",
+    "2026-12",
+    "2027-01",
+    "2027-02",
+    "2027-03",
+    "2027-04"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 30 Nov 2026 - 10 Apr 2027",
+   "description": "Wake to mountain scenery after overnight VIA Rail travel, then discover Jasper, Lake Louise and Banff in winter. This seven-day Vancouver-to-Calgary vacation combines mountain hotel stays, scenic coach connections and seasonal experience choices, including a Lake Louise sleigh ride when operating.",
+   "included": [
+    "Sleeping berth onboard VIA Rail Sleeper Touring service for 1 night 2 nights accommodation in Jasper 1 night accommodation in Lake Louise",
+    "2 nights accommodation in Banff Transfer between rail depot and hotel in Jasper",
+    "Jasper | Freedom of Choice 1 of 6 Excursions | Shared Small Group 1. Pleckaitis or Maligne Canyon Icewalk | Operates 15 Dec - 31 Mar 2. Discover Jasper & Its Wildlife Tour",
+    "3. Jasper Dark Sky Planetarium & Telescope Experience 4. Secrets of Jasper Snowshoe Tour | Operates 01 Dec - 31 Mar 5. Upgrade Option: Jasper Foodie Tour",
+    "6. Upgrade Option: Dog Sledding Tour | Operates 01 Dec - 31 Mar",
+    "Scheduled express coach between Jasper & Lake Louise Sleigh ride at Lake Louise Scheduled express coach between Lake Louise & Banff",
+    "Banff | Freedom of Choice - 1 of 4 Excursions 1. Banff Highlights & Wildlife Tour + Gondola 2. Snowshoeing at Paint Pots Tour | Operates 01 Dec - 10 Apr",
+    "3. Johnson Canyon Frozen Falls Adventure 4. Electric Fat Biking Banff Adventure"
+   ],
+   "promotions": [
+    {
+     "name": "Book 2027 Canada vacations by Nov 15 and receive 10% off selected packages",
+     "endDate": "2027-10-15",
+     "exclusive": false,
+     "description": "Early Booking Bonus – Book your 2027 Canada vacation by Nov 15 and receive 10% off select packages (up to $4,000 per couple) is applicable to select packages only as indicated on our Canada By Design website. Total savings vary by package, departure date, hotel grade, and other factors. Offers are subject to availability for 2027 departures and can be modified, withdrawn, or amended without prior notice. Trans Canada Packages: Up to $4,000 per couple Western Canada Packages: Up to $3,000 per couple Eastern Canada Packages: Up to $2,500 per couple Road Trip Packages: Up to $1,500 per couple…"
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Vancouver"
+    },
+    {
+     "d": 1,
+     "n": "Jasper"
+    },
+    {
+     "d": 4,
+     "n": "Lake Louise"
+    },
+    {
+     "d": 5,
+     "n": "Banff"
+    },
+    {
+     "d": 7,
+     "n": "Calgary"
+    }
+   ],
+   "route": "18649476"
   }
  ]
 }
