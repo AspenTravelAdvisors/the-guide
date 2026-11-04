@@ -4,6 +4,7 @@
 // lib/seo/journeys.js and it is the difference between 902 substantial pages
 // and 3,662 near-identical ones.
 
+import AtlasTeaser from "@/components/AtlasTeaser";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -138,6 +139,14 @@ export default async function JourneyPage({ params }) {
           .map((x, i) => (j.operator || i > 0 ? ` · ${x}` : x))
           .join("")}
       </p>
+
+      <AtlasTeaser
+        href={`/atlas/${j.collection}?ids=${encodeURIComponent(j.departures[0].id)}`}
+        collection={j.collection}
+        name={j.title}
+        route={j.geometry}
+        stops={j.stops.filter((st) => st.at).map((st) => st.at)}
+      />
 
       {j.thumb && (
         // eslint-disable-next-line @next/next/no-img-element
@@ -292,11 +301,7 @@ export default async function JourneyPage({ params }) {
         <p className="answers-cta">
           <Link href={askHref}>Ask The Guide about this {meta.noun}</Link> — our AI
           concierge — or have our advisors price a departure with VIP benefits
-          included.{" "}
-          <Link href={`/atlas/${j.collection}?ids=${encodeURIComponent(j.departures[0].id)}`}>
-            See it on the map
-          </Link>
-          .
+          included.
         </p>
       </aside>
       <SiteFooter />

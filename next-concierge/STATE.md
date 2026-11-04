@@ -3017,6 +3017,11 @@ headlines are seasonal.
   thumb on the margin scrolls the page. The sheet detents, the handle and the
   dock's pill and chips stand down there; the dock keeps its result strip.
   CSS-only heights; the arithmetic is commented in globals.css.
+- Hotel and journey detail pages open with an atlas card under the title
+  (components/AtlasTeaser.jsx): a server-drawn SVG map of the hotel's pin
+  among the other hotels, or the trip's route, with a pulse and an "Open the
+  map" button into the atlas framed on that item. It replaced the "See it on
+  the map" link that sat in the last paragraph. No client JS, no Mapbox.
 - The homepage globe shares the page's gestures (`sharesPageScroll`, see
   `sharePageScroll` in AtlasShell): the globe takes one finger and the plain
   wheel when it is in view (desktop: page at the top; phones: 80% of the frame

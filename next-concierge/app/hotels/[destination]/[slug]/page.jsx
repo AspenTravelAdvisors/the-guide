@@ -12,6 +12,7 @@
 // Hotel + BreadcrumbList JSON-LD. Every one of them built at deploy — the
 // arrangement the villa detail pages also use.
 
+import AtlasTeaser from "@/components/AtlasTeaser";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -150,6 +151,14 @@ export default async function HotelPage({ params }) {
         {h.perksYear ? ` · ${h.perksYear} benefits` : ""}
       </p>
 
+      <AtlasTeaser
+        href={`/atlas/hotel?hotel=${encodeURIComponent(h.id)}`}
+        collection="hotel"
+        name={h.name}
+        pin={Number.isFinite(h.lng) && Number.isFinite(h.lat) ? [h.lng, h.lat] : null}
+        selfId={h.id}
+      />
+
       {h.thumb && (
         // eslint-disable-next-line @next/next/no-img-element
         <img className="hotel-hero" src={h.thumb} alt={h.name} loading="eager" />
@@ -275,11 +284,7 @@ export default async function HotelPage({ params }) {
         <h2>Book it, or ask about it</h2>
         <p className="answers-cta">
           <Link href={askHref}>Ask The Guide about {h.name}</Link> — our AI concierge —
-          or have our advisors price it with the benefits above included.{" "}
-          <Link href={`/atlas/hotel?ids=${encodeURIComponent(h.id)}`}>
-            See it on the map
-          </Link>
-          .
+          or have our advisors price it with the benefits above included.
         </p>
       </aside>
       <SiteFooter />

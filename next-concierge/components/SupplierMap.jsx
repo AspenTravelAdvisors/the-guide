@@ -16,7 +16,7 @@ const H = 1800;
 const x = (lng) => (lng + 180) * 10;
 const y = (lat) => (90 - lat) * 10;
 
-function unroll(points) {
+export function unroll(points) {
   const out = [];
   let shift = 0;
   let prev = null;
