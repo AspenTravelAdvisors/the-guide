@@ -32,9 +32,12 @@ export const EDITION = {
 };
 
 /**
- * Order follows atlas visits 12 Oct – 4 Nov 2026, bot weeks excluded:
+ * Order mostly follows atlas visits 12 Oct – 4 Nov 2026, bot weeks excluded:
  * hotels 825, jets 711, safari 282, expedition 268, then villas, world
- * cruises 88, yachts 82, rail 28.
+ * cruises 88, yachts 82, rail 28. The exception is yachts, placed third by
+ * choice to sit with hotels and jets: a hotel yacht is the hotel traveler's
+ * way onto the water, and it is a product we want seen, not one the traffic
+ * has found yet.
  *
  * `window` is months from today in which a departure makes an itinerary
  * eligible; itineraries sold on dates you choose are always eligible.
@@ -63,6 +66,18 @@ const SECTIONS = [
     operator: "National Geographic",
     window: [1, 24],
     answers: ["private-jet-journeys-explained"],
+  },
+  {
+    id: "yachts",
+    collection: "yacht",
+    label: "Luxury Hotel Yachts",
+    headline: "Three masts, fifty-four suites, harbours too small for ships",
+    body: "Orient Express Corinthian raises her rigid sails off the Riviera in May. The harbours she uses cannot take a cruise ship, which is rather the point.",
+    operator: "Orient Express Sailing Yachts",
+    window: [6, 11],
+    pins: [/^legendary rivieras/i, /^sailing the cyclades/i, /sicily and malta/i, /venice film festival/i, /coastal charms and glamour of spain/i],
+    prefer: /riviera|cyclades|sicily|venice|spain/i,
+    answers: ["ritz-carlton-vs-four-seasons-vs-orient-express-vs-aman-yachts"],
   },
   {
     id: "safari",
@@ -112,18 +127,6 @@ const SECTIONS = [
     pins: [/pole-to-pole/i, /north pacific – singapore to los angeles/i, /south pacific – los angeles to singapore/i, /world cruise – roundtrip ft/i],
     prefer: /pole|singapore|world cruise/i,
     answers: ["world-cruise-segments-explained", "world-cruises-compared"],
-  },
-  {
-    id: "yachts",
-    collection: "yacht",
-    label: "Luxury Hotel Yachts",
-    headline: "Three masts, fifty-four suites, harbours too small for ships",
-    body: "Orient Express Corinthian raises her rigid sails off the Riviera in May. The harbours she uses cannot take a cruise ship, which is rather the point.",
-    operator: "Orient Express Sailing Yachts",
-    window: [6, 11],
-    pins: [/^legendary rivieras/i, /^sailing the cyclades/i, /sicily and malta/i, /venice film festival/i, /coastal charms and glamour of spain/i],
-    prefer: /riviera|cyclades|sicily|venice|spain/i,
-    answers: ["ritz-carlton-vs-four-seasons-vs-orient-express-vs-aman-yachts"],
   },
   {
     id: "rail",

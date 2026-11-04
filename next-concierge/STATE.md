@@ -3005,14 +3005,19 @@ operator level.
 **The long homepage.** The Guide and the globe are the first screen,
 unchanged, inside a new scroller (`.home-scroll`). Below them,
 `components/HomeSections.jsx` (server-rendered) runs one section per
-collection in clean-traffic order, each led by the operator people search for,
+collection in clean-traffic order (except yachts, moved up to third beside
+hotels and jets by choice), each led by the operator people search for,
 then questions and booking with Brian's photo. The editorial layer (order,
 operator, headline, two sentences, booking window, pins) is
 `lib/home-sections.js`; the rows are picked from the feeds by those rules at
 build time. **Review that file monthly** with the curated-jet refresh: the
 headlines are seasonal.
-- The globe is `cooperativeGestures` on the homepage only, so a wheel or one
-  finger scrolls the page and the map takes ⌘/Ctrl-scroll or two fingers.
+- The homepage globe shares the page's gestures (`sharesPageScroll`, see
+  `sharePageScroll` in AtlasShell). At the top of the page one finger and the
+  plain wheel are the globe's; scrolling down at the resting world view moves
+  the page, and once the page has moved the globe stops catching gestures
+  until you are back at the top. This replaced Mapbox's cooperativeGestures
+  (two fingers / ⌘-scroll for the map), which made the globe hard to use.
 - On phones the Guide sheet and atlas dock were `position: fixed`; inside the
   scroller they are `absolute`, so they scroll away with the first screen.
 - "Ask about it" on a row scrolls up and asks The Guide (`askGuide`, source

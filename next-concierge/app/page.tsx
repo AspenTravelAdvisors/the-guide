@@ -67,9 +67,9 @@ export const metadata: Metadata = {
 // `.app` is pinned to the viewport and never scrolls (globals.css), the way
 // every document page here works: `.home-scroll` is the scroller, and the
 // split is given a height a little short of it so the first section shows
-// below the globe and says "there is more". The globe is cooperative
-// (cooperativeGestures): a wheel or one finger scrolls the page, and the map
-// takes ⌘/Ctrl-scroll or two fingers, so the map cannot trap the page.
+// below the globe and says "there is more". The globe keeps one finger and the
+// plain wheel; the page takes over once it has moved, or when you scroll down
+// at the world view (sharesPageScroll, see sharePageScroll in AtlasShell).
 export default function Home() {
   return (
     <div className="home-scroll">
@@ -123,7 +123,7 @@ export default function Home() {
             // as a key to the pin colours the rest of the time. On phones it
             // collapses to a pill and gives the corner back entirely.
             showLegend
-            cooperativeGestures
+            sharesPageScroll
           />
           {/* The globe's demonstration: the first-visit intro, "How this
               works", and the `/?demo` captures. Reads the URL and storage

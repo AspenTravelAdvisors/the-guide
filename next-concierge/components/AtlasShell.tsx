@@ -864,14 +864,13 @@ interface Props {
    */
   ambientTour?: boolean;
   /**
-   * true → the map only zooms with ⌘/Ctrl + wheel and only pans with two
-   * fingers; a plain wheel or one-finger swipe scrolls the page instead.
+   * true → the globe sits at the top of a scrolling page and shares the wheel
+   * and the finger with it. See sharePageScroll for the rules.
    *
-   * The long homepage sets it: its globe sits at the top of a scrolling page,
-   * and a globe that swallows the wheel makes everything below it unreachable.
-   * Every atlas page owns the whole frame and leaves it off.
+   * The long homepage sets it. Every atlas page owns the whole frame and
+   * leaves it off.
    */
-  cooperativeGestures?: boolean;
+  sharesPageScroll?: boolean;
 }
 
 /**
@@ -1338,10 +1337,96 @@ const FLY_MAX_LAT = 74;
 /** A call names itself this long after the camera reaches it. */
 const FLY_LABEL_MS = 2200;
 
+/**
+ * THE HOMEPAGE GLOBE AND ITS PAGE SHARE ONE WHEEL AND ONE FINGER.
+ *
+ * The globe was first given Mapbox's cooperativeGestures when the homepage
+ * grew a page below it: ⌘/Ctrl-scroll or two fingers for the map, everything
+ * else for the page. That kept the page reachable and made the site's most
+ * distinctive thing the hardest to use, with an overlay telling you so. This
+ * replaces it with one rule a visitor never has to be told:
+ *
+ *   At the top of the page the globe is yours: one finger spins it, the wheel
+ *   zooms it. Once the page has moved, the globe stops catching gestures and
+ *   the page scrolls over it, until you are back at the top.
+ *
+ * How you get off the top in the first place:
+ *   - Wheel or trackpad: scrolling DOWN at the globe's resting world view
+ *     (homeZoom, set by fitGlobe) scrolls the page. Down is "zoom out", and
+ *     there is nothing further out worth zooming to, so the page is the only
+ *     useful reading. Zoomed in, down zooms back out to the world first.
+ *   - Phone: the Guide's sheet and the strip of the next section below the
+ *     globe both scroll the page natively, and the collection chips in that
+ *     strip jump to their section.
+ *
+ * Two latches keep momentum from crossing over. A wheel stream that started
+ * zooming the map keeps zooming it until it pauses, so zooming out to the world
+ * does not fling the page; a stream that started moving the page keeps moving
+ * it, so flicking back to the top does not then zoom into the globe.
+ * Pinch (ctrlKey on a trackpad) and ⌘/Ctrl-scroll always belong to the globe.
+ *
+ * Wheel: a capture listener on the map container stops the event before it
+ * reaches Mapbox's own listener on the canvas container, and does not call
+ * preventDefault, so the browser scrolls the page as if the map were not there.
+ * Touch: Mapbox's touch-action:none lives on classes that its dragPan and
+ * touchZoomRotate handlers add and remove, so turning those off while the page
+ * is scrolled hands the finger back to the browser. Only on touch-first
+ * devices: on a desktop that would also kill mouse drag, which never competed
+ * with scrolling.
+ */
+function sharePageScroll(map: MBMap, el: HTMLElement, restZoom: () => number): () => void {
+  const scroller = el.closest<HTMLElement>(".home-scroll");
+  if (!scroller) return () => {};
+  const LATCH_MS = 240;
+  let lastPage = -Infinity;
+  let lastMap = -Infinity;
+
+  const onWheel = (e: WheelEvent) => {
+    const now = performance.now();
+    if (e.ctrlKey || e.metaKey) { lastMap = now; return; }
+    let toPage: boolean;
+    if (now - lastMap < LATCH_MS) toPage = false;
+    else if (now - lastPage < LATCH_MS) toPage = true;
+    else toPage = scroller.scrollTop > 1 || (e.deltaY > 0 && map.getZoom() <= restZoom() + 0.05);
+    if (toPage) {
+      e.stopPropagation();
+      lastPage = now;
+    } else {
+      lastMap = now;
+    }
+  };
+  el.addEventListener("wheel", onWheel, { capture: true, passive: true });
+
+  const touchFirst = window.matchMedia("(hover: none) and (pointer: coarse)").matches;
+  let fingerOnGlobe = true;
+  const syncTouch = () => {
+    if (!touchFirst) return;
+    const want = scroller.scrollTop <= 8;
+    if (want === fingerOnGlobe) return;
+    fingerOnGlobe = want;
+    for (const h of [map.dragPan, map.touchZoomRotate, map.touchPitch]) {
+      try { if (want) h?.enable(); else h?.disable(); } catch { /* optional */ }
+    }
+  };
+  const onScroll = () => {
+    // A programmatic scroll (the jump chips, "Ask about it") counts too: the
+    // page is moving, so a wheel that lands mid-glide belongs to it.
+    lastPage = performance.now();
+    syncTouch();
+  };
+  scroller.addEventListener("scroll", onScroll, { passive: true });
+  syncTouch();
+
+  return () => {
+    el.removeEventListener("wheel", onWheel, { capture: true });
+    scroller.removeEventListener("scroll", onScroll);
+  };
+}
+
 export default function AtlasShell({
   type, region, externalLink, scope, routesAlways, onRegionSelect,
   ambientRoutes = false, accent, initialStyle, initialGlobe, initialCamera, onViewChange,
-  selfShare = false, showLegend = true, ambientTour = false, photoreal, cooperativeGestures = false,
+  selfShare = false, showLegend = true, ambientTour = false, photoreal, sharesPageScroll = false,
 }: Props) {
   const allInventory = scope === "all";
   const showsHotel = allInventory || type === "hotel";
@@ -1744,6 +1829,8 @@ export default function AtlasShell({
     let restyleIsReveal = false;
     let subsetActive = false;
     let homeZoom = 1.25;
+    /** Undoes sharePageScroll's listeners; set only on the homepage globe. */
+    let stopSharingPage: (() => void) | null = null;
     // Props first, then the URL, then the defaults. See `arrivedView`.
     const arrived = arrivedView.current;
     const arrivedStyle = (arrived.style as StyleKey | null);
@@ -1842,7 +1929,6 @@ export default function AtlasShell({
           center: [10, 20],
           zoom: 1.25,
           minZoom: 0.6,
-          cooperativeGestures,
           // Suppress the boot style's 3D model pipeline before it starts
           // fetching (style.load config below re-asserts this per basemap).
           config: { basemap: { show3dObjects: false } },
@@ -1854,6 +1940,7 @@ export default function AtlasShell({
               : undefined,
         }) as MBMap;
         mapRef.current = map;
+        if (sharesPageScroll) stopSharingPage = sharePageScroll(map, node, () => homeZoom);
 
         // First full draw. The idle spin is held back a beat rather than started
         // here: at `load` the satellite tiles are still resolving, and a globe
@@ -5717,6 +5804,7 @@ export default function AtlasShell({
       clearTimeout(tourTimer);
       clearTimeout(tourPaintTimer);
       ro?.disconnect();
+      stopSharingPage?.();
       apiRef.current = null;
       mapRef.current?.remove();
       mapRef.current = null;
@@ -7244,6 +7332,14 @@ interface MBMap {
   setProjection(name: string): void;
   getCanvas(): HTMLCanvasElement;
   getProjection(): { name: string };
+  /** Gesture handlers. Optional: absent on the fallback stubs. */
+  dragPan?: MBHandler;
+  touchZoomRotate?: MBHandler;
+  touchPitch?: MBHandler;
+}
+interface MBHandler {
+  enable(): void;
+  disable(): void;
 }
 interface MapboxModule {
   accessToken: string;
