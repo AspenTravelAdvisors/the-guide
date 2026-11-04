@@ -23,18 +23,16 @@
  */
 
 import { useEffect, useState } from "react";
-import { bookingLink } from "@/lib/atlas/booking.js";
-import { getTrip, onTrip } from "@/lib/trip-state";
 import { programDomain } from "@/lib/atlas/adapters/hotel-programs";
 import { hotelBrandDomain } from "@/lib/atlas/adapters/hotel-brands";
 import { askAboutDays, askAboutProperty, askGuide, askGuideHref } from "@/lib/atlas/ask";
-import { bookingClicked, experiencesAsked, hotelFlyover } from "@/lib/analytics";
+import { experiencesAsked, hotelFlyover } from "@/lib/analytics";
 import { flyoverLink, flyoverState, onFlyoverState, requestFlyover, type FlyoverState } from "@/lib/atlas/flyover-bus";
 import { openAdvisor, ADVISOR_CTA_COLD } from "./AdvisorRequest";
 import { buildAdvisorContext } from "@/lib/handoff";
 import { peekTurns } from "@/lib/conversation-store";
 import BucketListButton from "./BucketListButton";
-import type { TripState } from "@/lib/types";
+import VipBooking from "./VipBooking";
 
 /** The subset of a hotel record this panel renders. */
 interface HotelRecord {
@@ -136,13 +134,6 @@ export default function HotelDossier({
 }) {
   const [record, setRecord] = useState<HotelRecord | null>(null);
   const [failed, setFailed] = useState(false);
-  const [trip, setTripState] = useState<TripState | null>(null);
-
-  useEffect(() => {
-    setTripState(getTrip());
-    return onTrip(setTripState);
-  }, []);
-
   useEffect(() => {
     let cancelled = false;
     setRecord(null);
@@ -178,20 +169,6 @@ export default function HotelDossier({
   const forbes = record?.fit?.forbesRating;
   const aaa = record?.fit?.aaaDiamondRating;
   const logo = record ? logoFor(record) : null;
-
-  const booking = record
-    ? bookingLink(
-        {
-          type: "hotel",
-          id: record.id,
-          name: record.name,
-          ...(record.tw ? { tw: record.tw } : {}),
-          ...(record.bookUrl ? { bookUrl: record.bookUrl } : {}),
-          ...(record.bookPassword ? { bookPassword: record.bookPassword } : {}),
-        },
-        trip,
-      )
-    : null;
 
   /*
    * The other question a traveller has on this screen.
@@ -249,6 +226,11 @@ export default function HotelDossier({
 
       {record && (
         <div className="hd-body">
+          {/* The money-maker, first thing under the name: above the
+              description, not below Address/Program where it sat mid-scroll.
+              Booking it yourself is as much an outcome of this panel as the
+              advisor button at the bottom, so it gets the same weight. */}
+          <VipBooking hotel={record} />
           {description && <p className="hd-desc">{description}</p>}
           {/* Virtuoso's one-line insider note — the detail an advisor would
               actually lead with, and the closest the feed comes to a voice. */}
@@ -297,22 +279,6 @@ export default function HotelDossier({
               </dd>
             </div>
           </dl>
-
-          {/* The money-maker sits directly under Address/Program so it never
-              falls below the fold — the original's placement, for the original's
-              reason. */}
-          {booking?.url && (
-            <a
-              className="hd-book"
-              href={booking.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => bookingClicked("hotel", !booking.needsDates)}
-            >
-              {booking.label} ↗
-            </a>
-          )}
-          {booking?.note && <p className="hd-code">{booking.note}</p>}
 
           {offers.length > 0 && (
             <>

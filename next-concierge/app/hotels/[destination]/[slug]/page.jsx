@@ -13,6 +13,8 @@
 // arrangement the villa detail pages also use.
 
 import AtlasTeaser from "@/components/AtlasTeaser";
+import VipBooking from "@/components/VipBooking";
+import atlasDispatch from "@/lib/atlas/index.js";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -121,6 +123,22 @@ export default async function HotelPage({ params }) {
   const where = [h.city, h.adminRegion, h.country].filter(Boolean).join(", ");
   const offers = activePromotions(h);
   const related = relatedHotels(h);
+  // The booking identity (TravelWits id, booking site, access code) is joined
+  // onto the atlas record server-side; the SEO feed does not carry it.
+  const rec = atlasDispatch.getById("hotel", h.id);
+  const booking =
+    rec && (rec.tw || rec.bookUrl)
+      ? {
+          id: h.id,
+          name: h.name,
+          city: h.city ?? null,
+          country: h.country ?? null,
+          adminRegion: h.adminRegion ?? null,
+          tw: rec.tw ?? null,
+          bookUrl: rec.bookUrl ?? null,
+          bookPassword: rec.bookPassword ?? null,
+        }
+      : null;
   const askHref = `/?ask=${encodeURIComponent(
     `Tell me about ${h.name} in ${where} — would it suit my trip, and what do I get booking it through you?`,
   )}`;
@@ -151,13 +169,20 @@ export default async function HotelPage({ params }) {
         {h.perksYear ? ` · ${h.perksYear} benefits` : ""}
       </p>
 
-      <AtlasTeaser
-        href={`/atlas/hotel?hotel=${encodeURIComponent(h.id)}`}
-        collection="hotel"
-        name={h.name}
-        pin={Number.isFinite(h.lng) && Number.isFinite(h.lat) ? [h.lng, h.lat] : null}
-        selfId={h.id}
-      />
+      {/* The two ways forward, side by side at the top of the page: see it on
+          the globe, or book it now at the VIP rate. Booking it yourself is the
+          automated revenue path, so it sits level with the map rather than in
+          the closing paragraph. */}
+      <div className={booking ? "hotel-top" : undefined}>
+        <AtlasTeaser
+          href={`/atlas/hotel?hotel=${encodeURIComponent(h.id)}`}
+          collection="hotel"
+          name={h.name}
+          pin={Number.isFinite(h.lng) && Number.isFinite(h.lat) ? [h.lng, h.lat] : null}
+          selfId={h.id}
+        />
+        {booking && <VipBooking hotel={booking} variant="card" />}
+      </div>
 
       {h.thumb && (
         // eslint-disable-next-line @next/next/no-img-element
