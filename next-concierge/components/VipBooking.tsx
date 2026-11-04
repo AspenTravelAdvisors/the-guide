@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Book VIP Rates Now — the hotel's self-serve booking action, and the access
+ * Reserve at VIP rates — the hotel's self-serve booking action, and the access
  * code the booking site will ask for.
  *
  * This is the automated revenue path: a traveller who just wants the hotel
@@ -114,19 +114,19 @@ export default function VipBooking({
         rel="noopener noreferrer"
         onClick={() => bookingClicked("hotel", booking ? !booking.needsDates : false)}
       >
-        Book VIP Rates Now <span aria-hidden="true">↗</span>
+        Reserve at VIP rates <span aria-hidden="true">→</span>
       </a>
       <div className="vb-code" role="note" aria-label={`Access code: ${code}`}>
         <span className="vb-code-label">Access code</span>
         <strong className="vb-code-value">{code}</strong>
         <button type="button" className="vb-code-copy" onClick={copy}>
-          {copied ? "Copied ✓" : "Copy"}
+          {copied ? "Copied" : "Copy code"}
         </button>
       </div>
       <p className="vb-hint">
         {prefilled
-          ? "Enter the code when the booking site asks. Your hotel is already filled in."
-          : "Enter the code when the booking site asks, then search for this hotel."}
+          ? "Your hotel is preselected. Enter the code when prompted."
+          : "Enter the code when prompted, then search for this hotel."}
       </p>
     </div>
   );
