@@ -7358,23 +7358,20 @@ html.flyover-on body {
    best things fight for one screen and left the globe a trap for the thumb.
    Here they are stacked instead:
 
-     The Guide   77% of the screen below the header, in the page's flow, so
-                 the top of the globe shows in the bottom ~20-25%.
-     The globe   a frame 14px in from each side with a thin gold border. The
-                 margin is where a thumb scrolls the page; inside the frame one
-                 finger spins the globe once it is in view (sharePageScroll in
-                 AtlasShell decides when).
+     The Guide   only as tall as what it holds while it is empty (the
+                 question, the chips, the input), so the globe shows below it
+                 from the first screen; opening About grows it. Once a
+                 conversation starts it takes 77% of the screen, and never
+                 more: past that the transcript scrolls inside it.
+     The globe   a frame 14px in from each side with a thin gold border,
+                 the screen's height less 40px. The margin is where a thumb
+                 scrolls the page; inside the frame one finger spins the globe
+                 once it is in view (sharePageScroll in AtlasShell decides when).
 
-   Heights are fractions of the scroller (H) with no JS, so the static
-   prerender paints the final layout. .home is a percentage of the scroller,
-   and its children are percentages of .home, so they are written back in
-   terms of H:
-     .home  = chat + gap + globe + bottom = 0.77H + 10 + (H - 40) + 12
-            = 1.77H - 18                   → calc(177% - 18px)
-     H      = (100% + 18px) / 1.77 inside .home
-     chat   = 0.77H                        → (100% + 18px) * 0.43503
-     globe  = H - 40                       → (100% + 18px) * 0.56497 - 40px
-   Change the 0.77 and every line here changes with it.
+   H, the scroller's height, is `--home-h`, set before the first paint by the
+   inline script in app/page.tsx (HOME_H_SCRIPT), which says why it is not
+   container units. Without JS it falls back to the screen less ~180px of
+   phone nav.
 
    The sheet's detents, handle and the dock's "Ask The Guide" pill are
    meaningless when the chat is already on the page, so they stand down; the
@@ -7382,9 +7379,10 @@ html.flyover-on body {
 @media (max-width: 640px) {
   .home-scroll {
     scroll-snap-type: y proximity;
+    --home-h-or-guess: var(--home-h, calc(100svh - 180px));
   }
   .home-scroll > .home {
-    height: calc(177% - 18px);
+    height: auto;
     min-height: 0;
     display: flex;
     flex-direction: column;
@@ -7396,9 +7394,9 @@ html.flyover-on body {
     position: relative;
     order: -1;
     flex: none;
-    height: calc((100% + 18px) * 0.43503);
+    height: auto;
     min-height: 0;
-    max-height: none;
+    max-height: calc(var(--home-h-or-guess) * 0.77);
     transform: none;
     border-radius: 0;
     border-top: 0;
@@ -7406,6 +7404,12 @@ html.flyover-on body {
     box-shadow: none;
     transition: none;
     scroll-snap-align: start;
+  }
+  /* A conversation (anything in the transcript but the empty state) gets the
+     full 77%, so the panel does not resize line by line as an answer
+     streams in. */
+  .home-scroll .home-chat:not(:has(.transcript > .empty)) {
+    height: calc(var(--home-h-or-guess) * 0.77);
   }
   .home-scroll .home-chat-handle,
   .home-scroll .guide-tab {
@@ -7415,7 +7419,7 @@ html.flyover-on body {
     position: relative;
     inset: auto;
     flex: none !important;
-    height: calc((100% + 18px) * 0.56497 - 40px);
+    height: calc(var(--home-h-or-guess) - 40px);
     margin: 10px 14px 0;
     border: 1px solid var(--gold-dim);
     border-radius: 14px;

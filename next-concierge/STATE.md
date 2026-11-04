@@ -3012,8 +3012,10 @@ operator, headline, two sentences, booking window, pins) is
 `lib/home-sections.js`; the rows are picked from the feeds by those rules at
 build time. **Review that file monthly** with the curated-jet refresh: the
 headlines are seasonal.
-- On phones the long homepage stacks The Guide (77% of the screen, in flow)
-  above the globe, which sits in a thin gold frame 14px in from each side so a
+- On phones the long homepage stacks The Guide (in flow; as tall as its
+  content while empty, 77% of the screen once About is open or a conversation
+  starts; the screen height comes from `--home-h`, set by an inline script in
+  app/page.tsx before first paint) above the globe, which sits in a thin gold frame 14px in from each side so a
   thumb on the margin scrolls the page. The sheet detents, the handle and the
   dock's pill and chips stand down there; the dock keeps its result strip.
   CSS-only heights; the arithmetic is commented in globals.css.

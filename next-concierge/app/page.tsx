@@ -59,6 +59,23 @@ export const metadata: Metadata = {
 // Guide panel and the atlas boot card all paint before any JS runs. AtlasShell
 // reads those params itself, after mount, where they cost nothing. See
 // `arrivedView` there.
+/**
+ * The scroller's height, as `--home-h` on `.home-scroll`, for the phone
+ * layout in globals.css. The Guide there is only as tall as what it holds
+ * until a conversation starts, so the stack can no longer be written as
+ * fractions of one fixed-height box; the globe's frame needs the screen
+ * height directly. CSS container units would give it, but they make the
+ * scroller a containing block for the fixed "Ask The Guide" pill inside it
+ * in some browsers.
+ *
+ * Inline and parser-run, so it is set before the first paint and the static
+ * prerender shows no jump. A ResizeObserver keeps it current (rotation, the
+ * phone's address bar, the nav wrapping). Without JS, the CSS fallback is
+ * the screen less the phone nav's ~180px.
+ */
+const HOME_H_SCRIPT =
+  "(function(){var s=document.currentScript.parentNode;function f(){s.style.setProperty('--home-h',s.clientHeight+'px')}f();if(window.ResizeObserver)new ResizeObserver(f).observe(s)})()";
+
 // THE LONG HOMEPAGE (2026-11). The Guide and the globe are still the first
 // screen, unchanged, but they now sit at the top of a scrolling column with a
 // magazine below: one section per collection, questions, and booking. See
@@ -73,7 +90,10 @@ export const metadata: Metadata = {
 // (sharesPageScroll, see sharePageScroll in AtlasShell).
 export default function Home() {
   return (
-    <div className="home-scroll">
+    // suppressHydrationWarning: the script below writes --home-h onto this
+    // element's style before React hydrates it.
+    <div className="home-scroll" suppressHydrationWarning>
+    <script dangerouslySetInnerHTML={{ __html: HOME_H_SCRIPT }} />
     <HomeSplit
       chat={<GuideChat about={<AboutTheGuide />} />}
       atlas={
