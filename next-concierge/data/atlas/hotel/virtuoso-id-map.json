@@ -1,11 +1,11 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-11-01T15:56:52.257Z",
+  "generated": "2026-11-04T17:01:42.395Z",
   "feedSynced": null,
   "localCount": 2475,
-  "feedCount": 2092,
-  "matchedCount": 2332
+  "feedCount": 2093,
+  "matchedCount": 2329
  },
  "overrides": {
   "h_00408": "6176935",
@@ -2979,7 +2979,7 @@
   },
   "h_00650": {
    "vid": "6163818",
-   "how": "name+country",
+   "how": "name+city",
    "localName": "Four Seasons Hotel Istanbul at the Bosphorus",
    "virtuosoName": "Four Seasons Hotel Istanbul at the Bosphorus"
   },
@@ -6013,12 +6013,6 @@
    "localName": "Miraval Berkshires",
    "virtuosoName": "Miraval Berkshires"
   },
-  "h_01321": {
-   "vid": "18231795",
-   "how": "name+country",
-   "localName": "Miraval The Red Sea - A Virtuoso Preview Property",
-   "virtuosoName": "Miraval The Red Sea - A Virtuoso Preview Property"
-  },
   "h_01322": {
    "vid": "16595075",
    "how": "name+country",
@@ -6523,12 +6517,6 @@
    "localName": "One&Only Moonlight Basin",
    "virtuosoName": "One&Only Moonlight Basin"
   },
-  "h_01425": {
-   "vid": "15811837",
-   "how": "name+country",
-   "localName": "One&Only Nyungwe House, Rwanda",
-   "virtuosoName": "One&Only Nyungwe House, Rwanda"
-  },
   "h_01427": {
    "vid": "16769217",
    "how": "name+country",
@@ -6594,12 +6582,6 @@
    "how": "name+country",
    "localName": "Our Habitas AlUla",
    "virtuosoName": "Our Habitas AlUla"
-  },
-  "h_01440": {
-   "vid": "16588897",
-   "how": "name+country",
-   "localName": "Our Habitas Bacalar",
-   "virtuosoName": "Our Habitas Bacalar"
   },
   "h_01447": {
    "vid": "15200029",
@@ -12301,6 +12283,12 @@
    "localName": "Mauna Lani",
    "virtuosoName": "Mauna Lani, Auberge Collection"
   },
+  "h_01321": {
+   "vid": "18231795",
+   "how": "fuzzy:0.67",
+   "localName": "Miraval The Red Sea - A Virtuoso Preview Property",
+   "virtuosoName": "Miraval The Red Sea"
+  },
   "h_01341": {
    "vid": "16129624",
    "how": "fuzzy:0.75",
@@ -12336,12 +12324,6 @@
    "how": "duplicate-of:h_01422",
    "localName": "One&Only Moonlight Basin - A Virtuoso Preview Property",
    "virtuosoName": "One&Only Moonlight Basin"
-  },
-  "h_01424": {
-   "vid": "15811837",
-   "how": "duplicate-of:h_01425",
-   "localName": "One&Only Nyungwe House",
-   "virtuosoName": "One&Only Nyungwe House, Rwanda"
   },
   "h_01436": {
    "vid": "16867175",
@@ -17612,23 +17594,6 @@
    "confident": true
   },
   {
-   "vid": "15811837",
-   "virtuosoName": "One&Only Nyungwe House, Rwanda",
-   "localIds": [
-    "h_01425",
-    "h_01424"
-   ],
-   "localNames": [
-    "One&Only Nyungwe House, Rwanda",
-    "One&Only Nyungwe House"
-   ],
-   "how": [
-    "name+country",
-    "duplicate-of:h_01425"
-   ],
-   "confident": true
-  },
-  {
    "vid": "16769217",
    "virtuosoName": "One&Only One Za’abeel",
    "localIds": [
@@ -22050,18 +22015,6 @@
    "note": "both our records carry the same coordinate"
   },
   {
-   "vid": "15811837",
-   "virtuosoName": "One&Only Nyungwe House, Rwanda",
-   "keep": "h_01425",
-   "drop": "h_01424",
-   "keepName": "One&Only Nyungwe House, Rwanda",
-   "dropName": "One&Only Nyungwe House",
-   "score": 0.89,
-   "ourMetresFromSupplier": 3.333901438108686,
-   "twinMetresFromSupplier": 3.333901438108686,
-   "note": "both our records carry the same coordinate"
-  },
-  {
    "vid": "11773133",
    "virtuosoName": "Palacio Nazarenas, A Belmond Hotel, Cusco",
    "keep": "h_01458",
@@ -25230,6 +25183,24 @@
    "reason": "same location, unrelated names — confirm before merging"
   },
   {
+   "id": "h_01424",
+   "name": "One&Only Nyungwe House",
+   "vid": "15811837",
+   "virtuosoName": "Nyungwe Tea Forest Resort",
+   "metresApart": 3,
+   "nameScore": 0.29,
+   "reason": "same location, unrelated names — confirm before merging"
+  },
+  {
+   "id": "h_01425",
+   "name": "One&Only Nyungwe House, Rwanda",
+   "vid": "15811837",
+   "virtuosoName": "Nyungwe Tea Forest Resort",
+   "metresApart": 3,
+   "nameScore": 0.25,
+   "reason": "same location, unrelated names — confirm before merging"
+  },
+  {
    "id": "h_01700",
    "name": "Salamander Washington DC",
    "vid": "6163952",
@@ -25738,10 +25709,31 @@
    "program": "Virtuoso"
   },
   {
+   "id": "h_01424",
+   "name": "One&Only Nyungwe House",
+   "city": "Nyungwe",
+   "country": "Rwanda",
+   "program": "Virtuoso"
+  },
+  {
+   "id": "h_01425",
+   "name": "One&Only Nyungwe House, Rwanda",
+   "city": "Nyamasheke",
+   "country": "Rwanda",
+   "program": "Virtuoso"
+  },
+  {
    "id": "h_01435",
    "name": "Orient Express Palazzo Dona Giovannelli - A Virtuoso Preview Property",
    "city": "Venice",
    "country": "Italy",
+   "program": "Virtuoso"
+  },
+  {
+   "id": "h_01440",
+   "name": "Our Habitas Bacalar",
+   "city": "Bacalar",
+   "country": "Mexico",
    "program": "Virtuoso"
   },
   {
@@ -26436,6 +26428,12 @@
    "country": "Spain"
   },
   {
+   "vid": "18649706",
+   "name": "Dusit Thani Bangkok",
+   "city": "Bang Rak",
+   "country": "Thailand"
+  },
+  {
    "vid": "6164461",
    "name": "Eagle Island Lodge, A Belmond Safari",
    "city": "Okavango Delta",
@@ -26784,6 +26782,12 @@
    "country": "Spain"
   },
   {
+   "vid": "15811837",
+   "name": "Nyungwe Tea Forest Resort",
+   "city": "Nyamasheke",
+   "country": "Rwanda"
+  },
+  {
    "vid": "18624537",
    "name": "Palazzo Cordusio a Gran Melia Hotel",
    "city": "Milan",
@@ -27028,6 +27032,12 @@
    "name": "The Carlton Milano, a Rocco Forte Hotel",
    "city": "Milan",
    "country": "Italy"
+  },
+  {
+   "vid": "18649682",
+   "name": "The Florentin by Althoff Collection",
+   "city": "Frankfurt",
+   "country": "Germany"
   },
   {
    "vid": "16336064",

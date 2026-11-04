@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4473,
-  "journeysWithStays": 3758,
+  "journeysTotal": 4455,
+  "journeysWithStays": 3741,
   "journeysWithHouse": 0,
   "gateways": 108,
   "hotels": 291,
@@ -15,177 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00510": {
-   "n": "Downtown L.A. Proper",
-   "house": null,
-   "aff": null,
-   "city": "Los Angeles",
-   "country": "United States",
-   "ll": [
-    34.0393,
-    -118.259
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930098_2_0.webp",
-   "rooms": 147,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00439": {
-   "n": "Conrad Los Angeles",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Los Angeles",
-   "country": "United States",
-   "ll": [
-    34.0552,
-    -118.249
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16610092_2_0.webp",
-   "rooms": 305,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01688": {
-   "n": "SLS Beverly Hills",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Los Angeles",
-   "country": "United States",
-   "ll": [
-    34.0697,
-    -118.376
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4625_2_0.webp",
-   "rooms": 297,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01866": {
-   "n": "Sunset Tower Hotel",
-   "house": null,
-   "aff": null,
-   "city": "West Hollywood",
-   "country": "United States",
-   "ll": [
-    34.0951,
-    -118.372
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14577045_2_2.webp",
-   "rooms": 81,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01293": {
-   "n": "Mashpi Lodge",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.223252,
-    -78.5141
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0.webp",
-   "rooms": 24,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00347": {
-   "n": "Casa Gangotena",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.194181,
-    -78.4532
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
-   "rooms": 30,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00937": {
-   "n": "Hotel del Parque",
-   "house": null,
-   "aff": null,
-   "city": "Guayaquil",
-   "country": "Ecuador",
-   "ll": [
-    -2.14516,
-    -79.8701
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15802824_2_0.webp",
-   "rooms": 44,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_00141": {
-   "n": "Arakur Ushuaia Resort & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.7864,
-    -68.2575
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
-   "rooms": 129,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 0
-  },
-  "h_01191": {
-   "n": "Los Cauquenes Resort + Spa + Experiences",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.8364,
-    -68.3502
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0_1005.webp",
-   "rooms": 48,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
   "h_01583": {
    "n": "REMOTA",
    "house": null,
@@ -354,6 +183,44 @@
     "Daily breakfast",
     "Room upgrade",
     "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_01293": {
+   "n": "Mashpi Lodge",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.223252,
+    -78.5141
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0.webp",
+   "rooms": 24,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00347": {
+   "n": "Casa Gangotena",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.194181,
+    -78.4532
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
+   "rooms": 30,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
    ],
    "promo": 0
   },
@@ -747,7 +614,7 @@
     35.8989,
     14.5154
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18089362_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18089362_2_0.webp",
    "rooms": 25,
    "perks": [
     "Daily breakfast",
@@ -806,6 +673,120 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15431092_2_55.webp",
    "rooms": 481,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00141": {
+   "n": "Arakur Ushuaia Resort & Spa",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.7864,
+    -68.2575
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
+   "rooms": 129,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 0
+  },
+  "h_01191": {
+   "n": "Los Cauquenes Resort + Spa + Experiences",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.8364,
+    -68.3502
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
+   "rooms": 48,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00510": {
+   "n": "Downtown L.A. Proper",
+   "house": null,
+   "aff": null,
+   "city": "Los Angeles",
+   "country": "United States",
+   "ll": [
+    34.0393,
+    -118.259
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930098_2_0.webp",
+   "rooms": 147,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00439": {
+   "n": "Conrad Los Angeles",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Los Angeles",
+   "country": "United States",
+   "ll": [
+    34.0552,
+    -118.249
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16610092_2_0.webp",
+   "rooms": 305,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01688": {
+   "n": "SLS Beverly Hills",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Los Angeles",
+   "country": "United States",
+   "ll": [
+    34.0697,
+    -118.376
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4625_2_0.webp",
+   "rooms": 297,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01866": {
+   "n": "Sunset Tower Hotel",
+   "house": null,
+   "aff": null,
+   "city": "West Hollywood",
+   "country": "United States",
+   "ll": [
+    34.0951,
+    -118.372
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14577045_2_2.webp",
+   "rooms": 81,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -975,7 +956,7 @@
     -8.68379,
     115.188
    ],
-   "thumb": null,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18645805_2_0.webp",
    "rooms": 12,
    "perks": [
     "Daily breakfast",
@@ -1040,6 +1021,25 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00937": {
+   "n": "Hotel del Parque",
+   "house": null,
+   "aff": null,
+   "city": "Guayaquil",
+   "country": "Ecuador",
+   "ll": [
+    -2.14516,
+    -79.8701
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15802824_2_0.webp",
+   "rooms": 44,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
   },
   "h_00877": {
    "n": "Hotel Kamp",
@@ -1989,7 +1989,7 @@
     52.3677,
     4.8941
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/258206_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/258206_2_0.webp",
    "rooms": 107,
    "perks": [
     "Daily breakfast",
@@ -3653,7 +3653,7 @@
     53.3389,
     -6.25611
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15587145_2_1_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15587145_2_1.webp",
    "rooms": 265,
    "perks": [
     "Daily breakfast",
@@ -4405,7 +4405,7 @@
     43.8815,
     10.2359
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15979289_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15979289_2_0.webp",
    "rooms": 80,
    "perks": [
     "Daily breakfast",
@@ -4800,7 +4800,7 @@
     7.95692,
     98.2831
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16633734_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16633734_2_0.webp",
    "rooms": 264,
    "perks": [
     "Daily breakfast",
@@ -5514,78 +5514,6 @@
   }
  },
  "GATES": {
-  "Los Angeles, CA, United States": {
-   "n": "Los Angeles, CA, United States",
-   "ll": [
-    34.0396,
-    -118.266
-   ],
-   "h": [
-    [
-     "h_00510",
-     0.6
-    ],
-    [
-     "h_00439",
-     2.3
-    ],
-    [
-     "h_01688",
-     10.7
-    ],
-    [
-     "h_01866",
-     11.6
-    ]
-   ]
-  },
-  "Quito, Ecuador": {
-   "n": "Quito, Ecuador",
-   "ll": [
-    -0.2167,
-    -78.5
-   ],
-   "h": [
-    [
-     "h_01293",
-     1.7
-    ],
-    [
-     "h_00347",
-     5.8
-    ]
-   ]
-  },
-  "Guayaquil, Ecuador": {
-   "n": "Guayaquil, Ecuador",
-   "ll": [
-    -2.1667,
-    -79.9
-   ],
-   "h": [
-    [
-     "h_00937",
-     4.1
-    ]
-   ]
-  },
-  "Ushuaia, Argentina": {
-   "n": "Ushuaia, Argentina",
-   "ll": [
-    -54.8,
-    -68.3
-   ],
-   "h": [
-    [
-     "h_00141",
-     3.1
-    ],
-    [
-     "h_01191",
-     5.2
-    ]
-   ]
-  },
   "Puerto Natales, Chile": {
    "n": "Puerto Natales, Chile",
    "ll": [
@@ -5646,6 +5574,23 @@
     [
      "h_01317",
      9.8
+    ]
+   ]
+  },
+  "Quito, Ecuador": {
+   "n": "Quito, Ecuador",
+   "ll": [
+    -0.2167,
+    -78.5
+   ],
+   "h": [
+    [
+     "h_01293",
+     1.7
+    ],
+    [
+     "h_00347",
+     5.8
     ]
    ]
   },
@@ -5817,6 +5762,48 @@
     ]
    ]
   },
+  "Ushuaia, Argentina": {
+   "n": "Ushuaia, Argentina",
+   "ll": [
+    -54.8,
+    -68.3
+   ],
+   "h": [
+    [
+     "h_00141",
+     3.1
+    ],
+    [
+     "h_01191",
+     5.2
+    ]
+   ]
+  },
+  "Los Angeles, CA, United States": {
+   "n": "Los Angeles, CA, United States",
+   "ll": [
+    34.0396,
+    -118.266
+   ],
+   "h": [
+    [
+     "h_00510",
+     0.6
+    ],
+    [
+     "h_00439",
+     2.3
+    ],
+    [
+     "h_01688",
+     10.7
+    ],
+    [
+     "h_01866",
+     11.6
+    ]
+   ]
+  },
   "Benoa (Bali), Indonesia": {
    "n": "Benoa (Bali), Indonesia",
    "ll": [
@@ -5889,6 +5876,19 @@
     [
      "h_01562",
      7.9
+    ]
+   ]
+  },
+  "Guayaquil, Ecuador": {
+   "n": "Guayaquil, Ecuador",
+   "ll": [
+    -2.1667,
+    -79.9
+   ],
+   "h": [
+    [
+     "h_00937",
+     4.1
     ]
    ]
   },
@@ -7924,10 +7924,6 @@
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
   },
-  "16845437": {
-   "pre": "Los Angeles, CA, United States",
-   "post": "Los Angeles, CA, United States"
-  },
   "16845438": {
    "pre": "Los Angeles, CA, United States",
    "post": "Los Angeles, CA, United States"
@@ -8922,10 +8918,6 @@
   },
   "16921085": {
    "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
-  "16921086": {
-   "pre": null,
    "post": "Ushuaia, Argentina"
   },
   "16921087": {
@@ -15704,10 +15696,6 @@
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
   },
-  "18486232": {
-   "pre": "Papeete, French Polynesia",
-   "post": "Papeete, French Polynesia"
-  },
   "18486233": {
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
@@ -16063,10 +16051,6 @@
   "18492093": {
    "pre": null,
    "post": "Oslo, Norway"
-  },
-  "18492115": {
-   "pre": "Quito, Ecuador",
-   "post": "Guayaquil, Ecuador"
   },
   "18492152": {
    "pre": "Lima, Peru",
@@ -20592,10 +20576,6 @@
    "pre": null,
    "post": "Seattle, WA, United States"
   },
-  "18600687": {
-   "pre": null,
-   "post": "Seattle, WA, United States"
-  },
   "18600688": {
    "pre": "Seattle, WA, United States",
    "post": null
@@ -22716,42 +22696,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Rio De Janeiro, Brazil"
   },
-  "18649267": {
-   "pre": "Panama City, Panama",
-   "post": "San Jose, Costa Rica"
-  },
-  "18649268": {
-   "pre": "San Jose, Costa Rica",
-   "post": "Panama City, Panama"
-  },
-  "18649269": {
-   "pre": "San Jose, Costa Rica",
-   "post": "Panama City, Panama"
-  },
-  "18649271": {
-   "pre": "San Jose, Costa Rica",
-   "post": "Panama City, Panama"
-  },
-  "18649272": {
-   "pre": "San Jose, Costa Rica",
-   "post": "Panama City, Panama"
-  },
-  "18649273": {
-   "pre": "San Jose, Costa Rica",
-   "post": "San Jose, Costa Rica"
-  },
-  "18649275": {
-   "pre": "San Jose, Costa Rica",
-   "post": "San Jose, Costa Rica"
-  },
-  "18649276": {
-   "pre": "San Jose, Costa Rica",
-   "post": "San Jose, Costa Rica"
-  },
-  "18649278": {
-   "pre": "San Jose, Costa Rica",
-   "post": "San Jose, Costa Rica"
-  },
   "18649279": {
    "pre": "Cairo, Egypt",
    "post": "Cairo, Egypt"
@@ -22759,18 +22703,6 @@
   "18649280": {
    "pre": null,
    "post": "Seattle, WA, United States"
-  },
-  "18649289": {
-   "pre": "Panama City, Panama",
-   "post": "San Jose, Costa Rica"
-  },
-  "18649290": {
-   "pre": "Panama City, Panama",
-   "post": "San Jose, Costa Rica"
-  },
-  "18649291": {
-   "pre": "Panama City, Panama",
-   "post": "San Jose, Costa Rica"
   }
  }
 }

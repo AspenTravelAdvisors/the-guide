@@ -5,8 +5,8 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 309,
-  "journeysWithStays": 305,
+  "journeysTotal": 308,
+  "journeysWithStays": 304,
   "journeysWithHouse": 0,
   "gateways": 52,
   "hotels": 172,
@@ -1636,7 +1636,7 @@
     52.3677,
     4.8941
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/258206_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/258206_2_0.webp",
    "rooms": 107,
    "perks": [
     "Daily breakfast",
@@ -2111,7 +2111,7 @@
     -54.8364,
     -68.3502
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
    "rooms": 48,
    "perks": [
     "Daily breakfast",
@@ -4946,10 +4946,6 @@
   "18300440": {
    "pre": null,
    "post": "Ushuaia, Argentina"
-  },
-  "18300512": {
-   "pre": "Miami, FL, United States",
-   "post": "Fort Lauderdale, FL, United States"
   },
   "18300570": {
    "pre": "Miami, FL, United States",

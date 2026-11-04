@@ -8,8 +8,8 @@
   "journeysTotal": 517,
   "journeysWithStays": 516,
   "journeysWithHouse": 516,
-  "gateways": 58,
-  "hotels": 193,
+  "gateways": 57,
+  "hotels": 189,
   "houses": [
    "Aman",
    "Four Seasons",
@@ -20,196 +20,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_01552": {
-   "n": "Pier Sixty-Six",
-   "house": null,
-   "aff": null,
-   "city": "Fort Lauderdale",
-   "country": "United States",
-   "ll": [
-    26.1025,
-    -80.1154
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16761069_2_1.webp",
-   "rooms": 325,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02176": {
-   "n": "The Ritz-Carlton, Fort Lauderdale",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Fort Lauderdale",
-   "country": "United States",
-   "ll": [
-    26.1226,
-    -80.1041
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4543_2_35.webp",
-   "rooms": 193,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00435": {
-   "n": "Conrad Fort Lauderdale Beach",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Fort Lauderdale",
-   "country": "United States",
-   "ll": [
-    26.131,
-    -80.1045
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15604219_2_0.webp",
-   "rooms": 290,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02408": {
-   "n": "Villas of Distinction",
-   "house": null,
-   "aff": null,
-   "city": "Fort Lauderdale",
-   "country": "United States",
-   "ll": [
-    26.2041,
-    -80.1604
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4262_2_11.webp",
-   "rooms": 2500,
-   "perks": [
-    "Daily breakfast",
-    "$200 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02136": {
-   "n": "The Ritz-Carlton Bal Harbour, Miami",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Bal Harbour",
-   "country": "United States",
-   "ll": [
-    25.8988,
-    -80.1233
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14388867_2_4.webp",
-   "rooms": 95,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00672": {
-   "n": "Four Seasons Hotel at The Surf Club",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Surfside",
-   "country": "United States",
-   "ll": [
-    25.8776,
-    -80.1216
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5.webp",
-   "rooms": 103,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01117": {
-   "n": "La Samanna, A Belmond Hotel, St Martin",
-   "house": "Belmond",
-   "aff": "Aman",
-   "city": "Baie Longue",
-   "country": "Saint Martin",
-   "ll": [
-    18.0593,
-    -63.1435
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4276_2_151.webp",
-   "rooms": 84,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00310": {
-   "n": "Cap Juluca, A Belmond Hotel, Anguilla",
-   "house": "Belmond",
-   "aff": "Belmond",
-   "city": "British West Indies",
-   "country": "Anguilla",
-   "ll": [
-    18.16489,
-    -63.14177
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4051_2_0.webp",
-   "rooms": 113,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00163": {
-   "n": "Aurora Anguilla Resort & Golf Club",
-   "house": null,
-   "aff": null,
-   "city": "Rendezvous Bay",
-   "country": "Anguilla",
-   "ll": [
-    18.1779,
-    -63.1166
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4527_2_0.webp",
-   "rooms": 178,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00692": {
-   "n": "Four Seasons Resort and Residences Anguilla",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "West End",
-   "country": "Anguilla",
-   "ll": [
-    18.181287,
-    -63.137276
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6404896_2_19.webp",
-   "rooms": 180,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_00703": {
    "n": "Galley Bay Resort & Spa, Antigua",
    "house": null,
@@ -486,7 +296,7 @@
     22.3028,
     114.165
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6769318_2_5_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6769318_2_5.webp",
    "rooms": 312,
    "perks": [
     "Daily breakfast",
@@ -514,6 +324,25 @@
    ],
    "promo": 1
   },
+  "h_02136": {
+   "n": "The Ritz-Carlton Bal Harbour, Miami",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Bal Harbour",
+   "country": "United States",
+   "ll": [
+    25.8988,
+    -80.1233
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14388867_2_4.webp",
+   "rooms": 95,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_02245": {
    "n": "The St. Regis Bal Harbour Resort",
    "house": "Luxury Group at Marriott International",
@@ -532,6 +361,25 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00672": {
+   "n": "Four Seasons Hotel at The Surf Club",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Surfside",
+   "country": "United States",
+   "ll": [
+    25.8776,
+    -80.1216
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5.webp",
+   "rooms": 103,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_02202": {
    "n": "The Ritz-Carlton, South Beach",
@@ -564,6 +412,82 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4278_2_0.webp",
    "rooms": 221,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01117": {
+   "n": "La Samanna, A Belmond Hotel, St Martin",
+   "house": "Belmond",
+   "aff": "Aman",
+   "city": "Baie Longue",
+   "country": "Saint Martin",
+   "ll": [
+    18.0593,
+    -63.1435
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4276_2_151.webp",
+   "rooms": 84,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00310": {
+   "n": "Cap Juluca, A Belmond Hotel, Anguilla",
+   "house": "Belmond",
+   "aff": "Belmond",
+   "city": "British West Indies",
+   "country": "Anguilla",
+   "ll": [
+    18.16489,
+    -63.14177
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4051_2_0.webp",
+   "rooms": 113,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00163": {
+   "n": "Aurora Anguilla Resort & Golf Club",
+   "house": null,
+   "aff": null,
+   "city": "Rendezvous Bay",
+   "country": "Anguilla",
+   "ll": [
+    18.1779,
+    -63.1166
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4527_2_0.webp",
+   "rooms": 178,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00692": {
+   "n": "Four Seasons Resort and Residences Anguilla",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "West End",
+   "country": "Anguilla",
+   "ll": [
+    18.181287,
+    -63.137276
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6404896_2_19.webp",
+   "rooms": 180,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -1318,7 +1242,7 @@
     7.95692,
     98.2831
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16633734_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16633734_2_0.webp",
    "rooms": 264,
    "perks": [
     "Daily breakfast",
@@ -1641,7 +1565,7 @@
     35.8989,
     14.5154
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18089362_2_0_1004.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18089362_2_0.webp",
    "rooms": 25,
    "perks": [
     "Daily breakfast",
@@ -2130,7 +2054,7 @@
    "house": "Four Seasons Hotels and Resorts",
    "aff": "Four Seasons",
    "city": "Istanbul",
-   "country": "Türkiye",
+   "country": "T��rkiye",
    "ll": [
     41.0462,
     29.0207
@@ -2720,7 +2644,7 @@
     43.8815,
     10.2359
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15979289_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15979289_2_0.webp",
    "rooms": 80,
    "perks": [
     "Daily breakfast",
@@ -3662,64 +3586,6 @@
   }
  },
  "GATES": {
-  "Fort Lauderdale, FL, United States": {
-   "n": "Fort Lauderdale, FL, United States",
-   "ll": [
-    26.1223,
-    -80.1434
-   ],
-   "h": [
-    [
-     "h_01552",
-     3.6
-    ],
-    [
-     "h_02176",
-     3.9
-    ],
-    [
-     "h_00435",
-     4
-    ],
-    [
-     "h_02408",
-     9.3
-    ],
-    [
-     "h_02136",
-     24.9
-    ],
-    [
-     "h_00672",
-     27.3
-    ]
-   ]
-  },
-  "Marigot, Saint Martin": {
-   "n": "Marigot, Saint Martin",
-   "ll": [
-    18.0731,
-    -63.0822
-   ],
-   "h": [
-    [
-     "h_01117",
-     6.7
-    ],
-    [
-     "h_00310",
-     12
-    ],
-    [
-     "h_00163",
-     12.2
-    ],
-    [
-     "h_00692",
-     13.4
-    ]
-   ]
-  },
   "St. John's, Antigua And Barbuda": {
    "n": "St. John's, Antigua And Barbuda",
    "ll": [
@@ -3837,6 +3703,31 @@
     [
      "h_00657",
      20.2
+    ]
+   ]
+  },
+  "Marigot, Saint Martin": {
+   "n": "Marigot, Saint Martin",
+   "ll": [
+    18.0731,
+    -63.0822
+   ],
+   "h": [
+    [
+     "h_01117",
+     6.7
+    ],
+    [
+     "h_00310",
+     12
+    ],
+    [
+     "h_00163",
+     12.2
+    ],
+    [
+     "h_00692",
+     13.4
     ]
    ]
   },
@@ -6561,6 +6452,11 @@
    "post": "Marigot, Saint Martin",
    "house": "Orient Express"
   },
+  "18478892": {
+   "pre": "London, United Kingdom",
+   "post": "Lisbon, Portugal",
+   "house": "Orient Express"
+  },
   "18478893": {
    "pre": "Bordeaux, France",
    "post": "London, United Kingdom",
@@ -7135,11 +7031,6 @@
    "pre": "Nice, France",
    "post": "Majorca, Spain",
    "house": "Four Seasons"
-  },
-  "18605541": {
-   "pre": "Fort Lauderdale, FL, United States",
-   "post": "Marigot, Saint Martin",
-   "house": "Orient Express"
   },
   "18611959": {
    "pre": "Marseille, France",
