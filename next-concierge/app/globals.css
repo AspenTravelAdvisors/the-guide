@@ -8008,19 +8008,32 @@ html.flyover-on body {
     padding: 44px 11px 11px;
   }
 }
+/* Brian and Kerry's portrait, printed like a magazine's contributor photo:
+   a 3:4 frame large enough to show both of them and the coast behind. */
 .home-advisor {
   display: flex;
-  align-items: center;
-  gap: 16px;
-  margin: 22px 0 0;
+  align-items: flex-end;
+  gap: 22px;
+  margin: 26px 0 0;
 }
 .home-advisor img {
-  width: 88px;
-  height: 88px;
-  border-radius: 50%;
+  width: min(300px, 46vw);
+  height: auto;
+  aspect-ratio: 3 / 4;
+  border-radius: 14px;
   object-fit: cover;
   border: 1px solid var(--gold-dim);
   flex: none;
+}
+@media (max-width: 560px) {
+  .home-advisor {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .home-advisor img {
+    width: 100%;
+  }
 }
 .home-advisor-name {
   font-family: var(--serif);

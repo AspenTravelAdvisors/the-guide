@@ -168,10 +168,16 @@ export default async function HomeSections() {
         </p>
         <div className="home-advisor">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/advisors/brian-harris.jpg" alt="Brian Harris" width={88} height={88} loading="lazy" />
+          <img
+            src="/advisors/brian-kerry-harris.jpg"
+            alt="Brian and Kerry Harris above the Amalfi Coast"
+            width={720}
+            height={960}
+            loading="lazy"
+          />
           <div>
-            <p className="home-advisor-name">Brian Harris</p>
-            <p className="home-advisor-role">Owner, Aspen Travel Advisors</p>
+            <p className="home-advisor-name">Brian &amp; Kerry Harris</p>
+            <p className="home-advisor-role">Owners, Aspen Travel Advisors</p>
           </div>
         </div>
         <AnswerAdvisorCta lead="Know where you want to go? Brian or one of the Aspen team will check dates and price it with the amenities included." />
