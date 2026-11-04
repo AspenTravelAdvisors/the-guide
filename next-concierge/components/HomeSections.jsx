@@ -84,6 +84,15 @@ export default function HomeSections() {
 
   return (
     <div className="home-below">
+
+      <section className="home-season">
+        <p className="home-eyebrow">{EDITION.label}</p>
+        <div>
+          <p className="home-season-text">{EDITION.season}</p>
+          <p className="home-season-sig">Aspen Travel Advisors, {reviewed}</p>
+        </div>
+      </section>
+
       <nav className="home-jump" aria-label="Collections">
         {sections.map((s) => (
           <a key={s.id} href={`#${s.id}`} style={{ "--tc": ATLASES[s.collection]?.color }}>
@@ -93,14 +102,6 @@ export default function HomeSections() {
         ))}
         <a href="#questions">Questions</a>
       </nav>
-
-      <section className="home-season">
-        <p className="home-eyebrow">{EDITION.label}</p>
-        <div>
-          <p className="home-season-text">{EDITION.season}</p>
-          <p className="home-season-sig">Aspen Travel Advisors, {reviewed}</p>
-        </div>
-      </section>
 
       {sections.map((s) => (
         <section key={s.id} id={s.id} className="home-coll" style={{ "--tc": ATLASES[s.collection]?.color }}>
