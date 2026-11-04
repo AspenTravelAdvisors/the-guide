@@ -109,6 +109,15 @@ const SECTIONS = [
     window: [6, 14],
     pins: [/sanctuary great migration/i, /sanctuary botswana safari and victoria/i, /sanctuary gorilla trekking in uganda/i, /sanctuary tanzania and kenya wildlife/i, /grand safari in southern africa/i],
     prefer: /migration|gorilla|victoria falls|grand safari|kenya|tanzania|botswana/i,
+    // The Great Migration's own photo is a portrait of two giraffes, which a
+    // 16:9 lead crops to a strip. Its sister Tanzania and Kenya trip (the same
+    // Arusha to Nairobi route) carries A&K's landscape of the Ngorongoro
+    // Crater rim, so the two trade: the crater leads, the giraffes go to the
+    // smaller row, where a portrait sits well.
+    photos: [
+      [/sanctuary great migration/i, "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_180.webp"],
+      [/sanctuary tanzania and kenya wildlife/i, "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_306.webp"],
+    ],
     answers: ["which-safari-operator-should-you-book", "best-time-to-see-the-great-migration-month-by-month"],
   },
   {
@@ -249,6 +258,20 @@ async function withOwnPhotos(candidates, photo, n) {
   return out;
 }
 
+/**
+ * The lead row's photo at full width. Virtuoso's feed URLs are 400px-tall
+ * thumbnails (/h400/), fine in a small row and soft when the lead stretches
+ * one across the column; the same path with /w1600/ is the same picture
+ * 1600px wide. Kept only if that rendition answers, else the thumbnail.
+ * @param {any[]} rows
+ */
+async function sharpenLead(rows) {
+  const u = rows[0]?.thumb;
+  const big = typeof u === "string" && /^https:\/\/media\.virtuoso\.com\/.*\/h400\//.test(u) ? u.replace("/h400/", "/w1600/") : null;
+  if (big && (await photoWorks(big))) rows[0] = { ...rows[0], thumb: big };
+  return rows;
+}
+
 const answer = (slug) => {
   const a = ALL_ANSWERS.find((x) => x.slug === slug);
   return a ? { slug, href: `/answers/${slug}`, text: a.question || a.title } : null;
@@ -306,7 +329,7 @@ function journeyRows(op, s) {
     .map(({ j, inWindow }) => ({
       title: cleanTitle(j.title),
       href: j.path,
-      thumb: j.thumb,
+      thumb: (s.photos || []).find(([re]) => re.test(j.title))?.[1] || j.thumb,
       meta: [j.days ? `${j.days} days` : null, j.vessels[0] || j.countries[0] || (j.regions[0] ? regionName(s.collection, j.regions[0]) : null)]
         .filter(Boolean)
         .join(" · "),
@@ -405,7 +428,7 @@ export async function homeSections() {
     };
     if (s.collection === "hotel") {
       const { rows: all, card } = hotelSection(s);
-      const rows = await withOwnPhotos(all, (r) => r.thumb, ROWS);
+      const rows = await sharpenLead(await withOwnPhotos(all, (r) => r.thumb, ROWS));
       return rows.length ? { ...base, rows, card } : null;
     }
     if (s.collection === "villa") {
@@ -426,7 +449,7 @@ export async function homeSections() {
     }
     const op = getJourneyOperator(s.collection, slugify(s.operator));
     if (!op) return null;
-    const rows = await withOwnPhotos(journeyRows(op, s), (r) => r.thumb, ROWS);
+    const rows = await sharpenLead(await withOwnPhotos(journeyRows(op, s), (r) => r.thumb, ROWS));
     return rows.length ? { ...base, rows, card: operatorCard(op, s, rows) } : null;
   }));
   return sections.filter(Boolean);
