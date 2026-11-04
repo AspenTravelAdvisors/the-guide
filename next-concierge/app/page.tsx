@@ -4,6 +4,7 @@ import AboutTheGuide from "@/components/AboutTheGuide";
 import AtlasShell from "@/components/AtlasShell";
 import HomeSplit from "@/components/HomeSplit";
 import AtlasDemo from "@/components/AtlasDemo";
+import HomeSections from "@/components/HomeSections";
 import { ATLAS_TAGLINE, collectionsCompact, collectionsHeadline, internalAtlasLink } from "@/lib/atlas-config";
 
 /**
@@ -58,8 +59,20 @@ export const metadata: Metadata = {
 // Guide panel and the atlas boot card all paint before any JS runs. AtlasShell
 // reads those params itself, after mount, where they cost nothing. See
 // `arrivedView` there.
+// THE LONG HOMEPAGE (2026-11). The Guide and the globe are still the first
+// screen, unchanged, but they now sit at the top of a scrolling column with a
+// magazine below: one section per collection, questions, and booking. See
+// lib/home-sections.js for why and for the rules that pick what is shown.
+//
+// `.app` is pinned to the viewport and never scrolls (globals.css), the way
+// every document page here works: `.home-scroll` is the scroller, and the
+// split is given a height a little short of it so the first section shows
+// below the globe and says "there is more". The globe is cooperative
+// (cooperativeGestures): a wheel or one finger scrolls the page, and the map
+// takes ⌘/Ctrl-scroll or two fingers, so the map cannot trap the page.
 export default function Home() {
   return (
+    <div className="home-scroll">
     <HomeSplit
       chat={<GuideChat about={<AboutTheGuide />} />}
       atlas={
@@ -110,6 +123,7 @@ export default function Home() {
             // as a key to the pin colours the rest of the time. On phones it
             // collapses to a pill and gives the corner back entirely.
             showLegend
+            cooperativeGestures
           />
           {/* The globe's demonstration: the first-visit intro, "How this
               works", and the `/?demo` captures. Reads the URL and storage
@@ -119,5 +133,7 @@ export default function Home() {
         </>
       }
     />
+    <HomeSections />
+    </div>
   );
 }

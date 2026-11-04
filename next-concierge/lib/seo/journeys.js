@@ -162,6 +162,18 @@ export const collectionMeta = (type) => COLLECTIONS[type] || null;
 
 const clean = (s) => String(s == null ? "" : s).replace(/\s+/g, " ").trim();
 
+/** Every nth point, always keeping the last, rounded to 0.01°. */
+function thinPath(pts, max) {
+  const step = Math.max(1, Math.ceil(pts.length / max));
+  const out = [];
+  for (let i = 0; i < pts.length; i++) {
+    if (i % step !== 0 && i !== pts.length - 1) continue;
+    const p = pts[i];
+    out.push([Math.round(p[0] * 100) / 100, Math.round(p[1] * 100) / 100]);
+  }
+  return out;
+}
+
 /**
  * Group one collection's offerings into itineraries.
  *
@@ -238,6 +250,13 @@ function buildCollection(type) {
       window: g.departures.map((d) => d.window).find(Boolean) || null,
       itinerary: representative.itinerary || [],
       stops: representative.stops || [],
+      // The drawn route, [lng, lat] pairs: sea collections carry precomputed
+      // sea-lane geometry, jets and trains the line through their stops. The
+      // operator pages (lib/seo/suppliers.js) draw it; nothing else reads it.
+      // Thinned to at most ~120 points here, at the source: the full sea-lane
+      // paths for 900 sailings held in every build worker ran the static
+      // build out of heap, and a map 800px wide cannot show more anyway.
+      geometry: thinPath(representative.path || [], 120),
       description: extra.description,
       included: extra.included || [],
       promotions,

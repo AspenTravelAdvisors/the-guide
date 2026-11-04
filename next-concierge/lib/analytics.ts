@@ -36,7 +36,9 @@ export type AskSource =
   /** A card in a collection's result list. */
   | "card"
   /** The property dossier, including the one beside the photoreal view. */
-  | "dossier";
+  | "dossier"
+  /** An "Ask about it" row in the long homepage's collection sections. */
+  | "home";
 
 /** Where the advisor form was opened from. */
 export type AdvisorSource = "chat" | "header" | "atlas" | "bucketlist" | "answer";
@@ -296,4 +298,14 @@ export function experiencesAsked(source: ExperienceSource, place: string) {
 
 export function experiencesReturned(total: number, preferred: number, unavailable: boolean) {
   emit("experiences_returned", { total, preferred, unavailable });
+}
+
+/** A row's "Ask about it" on the long homepage, by section (hotels, jets, ...). */
+export function homeSectionAsk(section: string) {
+  emit("home_section_ask", { section });
+}
+
+/** The floating pill that scrolls back up to The Guide from the homepage sections. */
+export function homeBackToGuide() {
+  emit("home_back_to_guide");
 }

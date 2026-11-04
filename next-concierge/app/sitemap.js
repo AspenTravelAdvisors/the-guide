@@ -17,6 +17,7 @@ import { ALL_ANSWERS, SITE_URL } from "@/lib/answers";
 import { hotelSitemapEntries } from "@/lib/seo/hotels";
 import { journeySitemapEntries } from "@/lib/seo/journeys";
 import { villaSitemapEntries } from "@/lib/seo/villas";
+import { supplierSitemapEntries } from "@/lib/seo/suppliers";
 
 export default function sitemap() {
   const now = new Date();
@@ -51,6 +52,9 @@ export default function sitemap() {
     ...hotelSitemapEntries(),
     ...journeySitemapEntries(),
     ...villaSitemapEntries(),
+    // Operator and hotel-brand pages. Single-itinerary operators are noindex
+    // and so are left out here (lib/seo/suppliers.js).
+    ...supplierSitemapEntries(),
   ].map((e) => ({ ...e, lastModified: now }));
 
   return [...core, ...answers, ...entities];

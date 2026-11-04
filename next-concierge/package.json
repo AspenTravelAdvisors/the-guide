@@ -26,7 +26,7 @@
     "harvest:journey-photos": "node scripts/harvest-journey-photos.mjs",
     "build:expedition-ships": "node scripts/build-expedition-ships.mjs",
     "dev": "next dev",
-    "build": "next build",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' next build",
     "start": "next start",
     "check": "tsc -p tsconfig.check.json --noEmit",
     "verify:deeplinks": "node scripts/verify-deeplinks.mjs",

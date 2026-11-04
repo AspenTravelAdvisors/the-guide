@@ -2973,3 +2973,57 @@ offers, and the hotel and journey pages apply it again. The supplier
 commission chart (`advisor-overlay.json`) is read only on the server for
 ranking and never leaves it. Kept on purpose: Taj Exotica's offer titled
 "Earn More & Enjoy More", whose text is all guest perks.
+
+## Supplier pages and the long homepage (2026-11-04)
+
+**Why.** With the bot weeks of 14 Sep and 5 Oct removed (≈29,000 of 37,000
+visitors and nearly all Guide questions in that quarter), real traffic lands
+mostly on deep pages, and about one advisor request a week comes from it.
+Bing's report for The Guide is operator plus product ("national geographic
+private jet", "hx ultimate norway", "a&k sanctuary kenya", "belmond paris to
+venice"), ranking 3–6 with almost no clicks, because nothing answered at the
+operator level.
+
+**Supplier pages** (`lib/seo/suppliers.js`):
+- `/journeys/<collection>/operators/<operator>`: one per operator in each of
+  the six journey collections (66 today). Itineraries, every upcoming
+  departure, ships, aircraft or trains from the compiled fact files, a route
+  map, a data-derived FAQ (with FAQPage JSON-LD), and a comparison with the
+  collection's other operators. Operators with a single itinerary are built but
+  `noindex` and left out of the sitemap: their itinerary page already answers.
+- `/hotels/brands/<brand>`: one per hotel brand with two or more properties
+  (44), with the amenities a third of its hotels share, a map, and the list by
+  country. `/hotels/brands` indexes brands and operators together.
+- Linked from the collection hubs (operator headings), each itinerary page (the
+  operator line) and each hotel page (the Brand row).
+- Route maps (`components/SupplierMap.jsx`) are server-rendered SVG: the
+  stops' stored coordinates (or the precomputed sea-lane path) over one cached
+  land file, `public/maps/shared/land-equirect.svg` (Natural Earth 1:110m via
+  world-atlas@2.0.2, 10 units per degree). Journey entities now carry
+  `geometry`, thinned to ~120 points at the source.
+
+**The long homepage.** The Guide and the globe are the first screen,
+unchanged, inside a new scroller (`.home-scroll`). Below them,
+`components/HomeSections.jsx` (server-rendered) runs one section per
+collection in clean-traffic order, each led by the operator people search for,
+then questions and booking with Brian's photo. The editorial layer (order,
+operator, headline, two sentences, booking window, pins) is
+`lib/home-sections.js`; the rows are picked from the feeds by those rules at
+build time. **Review that file monthly** with the curated-jet refresh: the
+headlines are seasonal.
+- The globe is `cooperativeGestures` on the homepage only, so a wheel or one
+  finger scrolls the page and the map takes ⌘/Ctrl-scroll or two fingers.
+- On phones the Guide sheet and atlas dock were `position: fixed`; inside the
+  scroller they are `absolute`, so they scroll away with the first screen.
+- "Ask about it" on a row scrolls up and asks The Guide (`askGuide`, source
+  `home`). New events: `home_section_ask`, `home_back_to_guide`.
+
+**Build memory.** `next build`'s type check was already at ~2.1 GB on main
+(lib/watch.ts pulls the hotel and journey feeds into the program), against a
+2 GB default heap on an 8 GB machine. `build` now sets
+`--max-old-space-size=4096`. `components/HomeSections.d.ts` keeps the checker
+out of the feeds behind the homepage, and the supplier module's exports carry
+JSDoc return types so their inferred shapes are not expanded.
+
+**Checked, not changed:** National Geographic's Silk Road jet does stop at Hoi
+An (the maritime Silk Road). The stop and its coordinates are correct.

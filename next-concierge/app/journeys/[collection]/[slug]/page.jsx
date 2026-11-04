@@ -30,6 +30,7 @@ import { jsonLd } from "@/lib/seo/json-ld";
 import { SITE_OG_IMAGE } from "@/lib/seo/site";
 import SiteFooter from "@/components/SiteFooter";
 import GuideTake from "@/components/GuideTake";
+import { operatorPathFor } from "@/lib/seo/suppliers";
 
 /*
  * Static, not ISR. See "The ISR writes were paying for nothing" in STATE.md.
@@ -88,6 +89,7 @@ export default async function JourneyPage({ params }) {
   const meta = collectionMeta(collection);
 
   const related = relatedJourneys(j);
+  const operatorPath = j.operator ? operatorPathFor(j.collection, j.operator) : null;
   const askHref = `/?ask=${encodeURIComponent(
     `Tell me about ${j.title}${j.operator ? ` with ${j.operator}` : ""}. Which departure would suit me, and what would it cost?`,
   )}`;
@@ -130,9 +132,11 @@ export default async function JourneyPage({ params }) {
 
       <h1>{j.title}</h1>
       <p className="answers-updated">
-        {[j.operator, j.vessels.join(", "), j.days ? `${j.days} days` : null]
+        {operatorPath ? <Link href={operatorPath}>{j.operator}</Link> : j.operator}
+        {[j.vessels.join(", "), j.days ? `${j.days} days` : null]
           .filter(Boolean)
-          .join(" · ")}
+          .map((x, i) => (j.operator || i > 0 ? ` · ${x}` : x))
+          .join("")}
       </p>
 
       {j.thumb && (

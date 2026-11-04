@@ -28,6 +28,7 @@ import { jsonLd } from "@/lib/seo/json-ld";
 import { SITE_OG_IMAGE } from "@/lib/seo/site";
 import SiteFooter from "@/components/SiteFooter";
 import GuideTake from "@/components/GuideTake";
+import { brandPathFor } from "@/lib/seo/suppliers";
 
 /*
  * Static, not ISR. See "The ISR writes were paying for nothing" in STATE.md.
@@ -76,7 +77,7 @@ function Facts({ h }) {
     ["Where", [h.address, h.city, h.adminRegion, h.country].filter(Boolean).join(", ")],
     ["Category", h.category],
     ["Property type", h.propertyType],
-    ["Brand", h.brand],
+    ["Brand", h.brand && brandPathFor(h.brand) ? <Link href={brandPathFor(h.brand)}>{h.brand}</Link> : h.brand],
     ["Hotel group", h.chain],
     ["Rooms", Number.isFinite(h.numberOfRooms) ? h.numberOfRooms.toLocaleString("en-US") : null],
     ["Room types", Number.isFinite(h.roomTypeCount) ? h.roomTypeCount : null],

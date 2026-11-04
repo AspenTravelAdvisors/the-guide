@@ -863,6 +863,15 @@ interface Props {
    * engage, and every other surface is reached BY engaging.
    */
   ambientTour?: boolean;
+  /**
+   * true → the map only zooms with ⌘/Ctrl + wheel and only pans with two
+   * fingers; a plain wheel or one-finger swipe scrolls the page instead.
+   *
+   * The long homepage sets it: its globe sits at the top of a scrolling page,
+   * and a globe that swallows the wheel makes everything below it unreachable.
+   * Every atlas page owns the whole frame and leaves it off.
+   */
+  cooperativeGestures?: boolean;
 }
 
 /**
@@ -1332,7 +1341,7 @@ const FLY_LABEL_MS = 2200;
 export default function AtlasShell({
   type, region, externalLink, scope, routesAlways, onRegionSelect,
   ambientRoutes = false, accent, initialStyle, initialGlobe, initialCamera, onViewChange,
-  selfShare = false, showLegend = true, ambientTour = false, photoreal,
+  selfShare = false, showLegend = true, ambientTour = false, photoreal, cooperativeGestures = false,
 }: Props) {
   const allInventory = scope === "all";
   const showsHotel = allInventory || type === "hotel";
@@ -1833,6 +1842,7 @@ export default function AtlasShell({
           center: [10, 20],
           zoom: 1.25,
           minZoom: 0.6,
+          cooperativeGestures,
           // Suppress the boot style's 3D model pipeline before it starts
           // fetching (style.load config below re-asserts this per basemap).
           config: { basemap: { show3dObjects: false } },

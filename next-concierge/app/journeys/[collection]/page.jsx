@@ -15,6 +15,7 @@ import { SITE_URL } from "@/lib/answers";
 import { orgRef } from "@/lib/seo/site";
 import { jsonLd } from "@/lib/seo/json-ld";
 import SiteFooter from "@/components/SiteFooter";
+import { operatorPathFor } from "@/lib/seo/suppliers";
 
 export const dynamicParams = false;
 
@@ -125,7 +126,13 @@ export default async function CollectionPage({ params }) {
 
       {operators.map(([operator, list]) => (
         <section key={operator} className="answers-group">
-          <h2>{operator}</h2>
+          <h2>
+            {operatorPathFor(collection, operator) ? (
+              <Link href={operatorPathFor(collection, operator)}>{operator}</Link>
+            ) : (
+              operator
+            )}
+          </h2>
           <ul>
             {list
               .sort((a, b) => a.title.localeCompare(b.title))
