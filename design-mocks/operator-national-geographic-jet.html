@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>National Geographic Private Jet Expeditions</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: an operator page in the site's document style. Answer first (what, how many, when), then the five
+   itineraries, every departure, the questions people search, how it compares, and booking. */
+:root{
+  --bg:#09090b; --panel:#111113; --card:#18181b;
+  --gold:#c9a84c; --gold-light:#e2c87a; --gold-dim:#7a6228;
+  --text:#e8e0d0; --muted:#8a8070; --sub:#a09070;
+  --line:#2a2419; --line-soft:#1e1c16; --user:#16140d;
+  --jet:#dfe5f2; --ng:#ffcc00;
+  --mock-bg:#0e1620; --mock:#3a5a78; --mock-text:#b9d0e6; --mock-hi:#e3eef8;
+  --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:40;background:var(--bg)}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold-light);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:500}
+h1,h2,h3{font-family:var(--serif);font-weight:600;text-wrap:balance;margin:0}
+h2{font-size:clamp(26px,3.8vw,34px);line-height:1.12}
+p{margin:0}
+.mono{font-variant-numeric:tabular-nums}
+.tlink{color:var(--gold-light);text-decoration:none;border-bottom:1px solid var(--gold-dim)}
+.tlink:hover{border-color:var(--gold-light)}
+.btn{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 var(--sans);padding:12px 18px;border-radius:999px;border:1px solid var(--gold-dim);color:var(--gold-light);text-decoration:none;background:transparent;cursor:pointer}
+.btn:hover{border-color:var(--gold);background:var(--user)}
+.btn.solid{background:var(--gold);color:#16130a;border-color:var(--gold)}
+.ribbon{background:var(--mock-bg);color:var(--mock-text);border-bottom:1px solid var(--mock);font-size:12.5px}
+.ribbon .wrap{display:flex;flex-wrap:wrap;gap:6px 14px;padding-block:9px}
+.ribbon b,.ribbon a{color:var(--mock-hi)}
+header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:rgba(9,9,11,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;gap:14px;padding-block:12px}
+.mark{font-family:var(--serif);font-size:22px;font-weight:600;text-decoration:none}
+.mark b{color:var(--gold);font-weight:600}
+header nav{margin-left:auto;display:flex;gap:4px}
+header nav a{font-size:13.5px;color:var(--sub);text-decoration:none;padding:8px 10px;border-radius:8px}
+header nav .ask-link{color:var(--gold-light);border:1px solid var(--gold-dim);border-radius:999px;padding:7px 13px}
+
+.crumbs{font-size:13px;color:var(--muted);padding-top:22px;display:flex;flex-wrap:wrap;gap:6px}
+.crumbs a{color:var(--sub);text-decoration:none}
+.crumbs a:hover{color:var(--text)}
+.hero{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:clamp(20px,4vw,44px);padding-block:18px clamp(32px,5vw,52px);align-items:start}
+@media (max-width:820px){.hero{grid-template-columns:minmax(0,1fr)}}
+.hero h1{font-size:clamp(36px,5.6vw,58px);line-height:1.02}
+.hero h1 span{display:block;font-size:.5em;font-weight:500;font-style:italic;color:var(--gold-light);margin-top:10px}
+.hero .lede{color:var(--sub);font-size:17px;max-width:58ch;margin-top:16px}
+.hero .lede + .lede{margin-top:12px}
+.answer{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+.answer .eyebrow{color:var(--ng)}
+dl.kv{display:grid;grid-template-columns:auto minmax(0,1fr);margin:10px 0 0;font-size:14px}
+dl.kv dt,dl.kv dd{padding:9px 0;border-top:1px solid var(--line-soft);margin:0}
+dl.kv dt{color:var(--muted);padding-right:16px}
+dl.kv dd{text-align:right;font-variant-numeric:tabular-nums}
+.answer .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.answer small{display:block;color:var(--muted);font-size:12px;margin-top:10px}
+
+section{border-top:1px solid var(--line-soft);padding-block:clamp(36px,6vw,60px);scroll-margin-top:64px}
+.sec-head{display:flex;flex-direction:column;gap:8px;margin-bottom:22px}
+.sec-head p{color:var(--sub);max-width:64ch}
+
+.itins{display:grid;gap:14px}
+.itin{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,200px);gap:8px 24px;padding:18px 20px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}
+@media (max-width:720px){.itin{grid-template-columns:minmax(0,1fr)}}
+.itin h3{font-size:26px;line-height:1.1}
+.itin h3 a{text-decoration:none}
+.itin h3 a:hover{color:var(--gold-light)}
+.itin .for{color:var(--sub);font-size:14.5px;margin-top:4px}
+.route{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:4px 0;font-size:13.5px;color:var(--text)}
+.route li{display:flex;align-items:center}
+.route li + li::before{content:"";width:16px;height:1px;background:var(--gold-dim);margin:0 6px}
+.route li.flag{color:var(--mock-text)}
+.side{display:flex;flex-direction:column;gap:8px;font-size:13.5px}
+.side .big{font-family:var(--serif);font-size:30px;line-height:1;color:var(--jet)}
+.side .big small{font:500 12px var(--sans);color:var(--muted);margin-left:4px}
+.side .deps{color:var(--sub)}
+.side .deps b{color:var(--text);font-weight:500}
+
+.tscroll{overflow-x:auto;border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:620px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line-soft);vertical-align:top}
+thead th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500;background:var(--panel)}
+tbody tr:last-child td,tbody tr:last-child th{border-bottom:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tbody th{font-weight:500}
+tr.self{background:color-mix(in srgb,var(--ng) 7%,transparent)}
+tr.self th{color:var(--ng)}
+.pill{font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1px solid var(--line);color:var(--sub);white-space:nowrap}
+.pill.soon{border-color:var(--gold-dim);color:var(--gold-light)}
+
+.faq{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px}
+@media (max-width:760px){.faq{grid-template-columns:minmax(0,1fr)}}
+.faq div{padding:16px 0;border-bottom:1px solid var(--line)}
+.faq h3{font-family:var(--sans);font-size:15.5px;font-weight:600;margin-bottom:6px}
+.faq p{color:var(--sub);font-size:14.5px}
+
+.book{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px}
+@media (max-width:720px){.book{grid-template-columns:minmax(0,1fr)}}
+.book .actions{display:flex;gap:10px;flex-wrap:wrap}
+
+.related{display:flex;flex-wrap:wrap;gap:8px}
+.related a{font-size:13.5px;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:8px 12px;color:var(--sub)}
+.related a:hover{color:var(--text);border-color:var(--gold-dim)}
+
+.notes{background:var(--mock-bg);border:1px solid var(--mock);border-radius:16px;padding:20px;color:var(--mock-text);font-size:14px;margin-block:8px 48px}
+.notes h2{font-family:var(--sans);font-size:15px;font-weight:600;color:var(--mock-hi)}
+.notes ul{margin:10px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.notes b,.notes code{color:var(--mock-hi)}
+footer{border-top:1px solid var(--line);padding-block:28px 40px;font-size:13px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 22px}
+footer a{color:var(--sub);text-decoration:none}
+</style>
+</head>
+<body>
+
+
+<div class="ribbon"><div class="wrap">
+  <span><b>Design mock</b> · operator page template, shown for National Geographic jets. Not live.</span>
+  <a href="#notes">Template notes</a>
+  <a href="https://claude.ai/artifact/Sf2aMDQvZScT87mUNEzbqb" target="_blank" rel="noopener">Homepage mock ↗</a>
+</div></div>
+
+<header class="site"><div class="wrap">
+  <a class="mark" href="https://claude.ai/artifact/Sf2aMDQvZScT87mUNEzbqb" target="_blank" rel="noopener">The <b>Guide</b></a>
+  <nav aria-label="Main"><a class="ask-link" href="https://guide.expeditionbucketlist.com/?ask=National%20Geographic%20private%20jet%20expeditions%3A%20which%20departure%20suits%20me%3F" target="_blank" rel="noopener">Ask The Guide</a></nav>
+</div></header>
+
+<main class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="https://guide.expeditionbucketlist.com/journeys" target="_blank" rel="noopener">Journeys</a><span aria-hidden="true">/</span>
+    <a href="https://guide.expeditionbucketlist.com/journeys/jet" target="_blank" rel="noopener">Private Jet Expeditions</a><span aria-hidden="true">/</span>
+    <span>National Geographic</span>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <span class="eyebrow">Operator · Private jet expeditions</span>
+      <h1>National Geographic Private Jet Expeditions<span id="h1-sub"></span></h1>
+      <p class="lede">Seventy-five guests, one Boeing 757, and a National Geographic expert at the front of the cabin. Around the world in 26 days goes from Machu Picchu to Easter Island, Angkor, the Taj Mahal, the Serengeti and Petra, and you unpack once.</p>
+      <p class="lede">This page lists every departure National Geographic has filed, with the route of each, so you can compare them before asking anyone a question.</p>
+    </div>
+    <aside class="answer" aria-label="At a glance">
+      <span class="eyebrow">At a glance</span>
+      <dl class="kv" id="glance"></dl>
+      <div class="actions">
+        <a class="btn solid" href="#departures">See every departure</a>
+        <a class="btn" href="https://aspentraveladvisors.com" target="_blank" rel="noopener">Ask an advisor ↗</a>
+      </div>
+      <small>Aircraft and capacity are the program's published configuration; National Geographic can change aircraft by departure.</small>
+    </aside>
+  </div>
+
+  <section id="itineraries">
+    <div class="sec-head">
+      <span class="eyebrow">The itineraries</span>
+      <h2>Five routes, from fourteen days to twenty-seven</h2>
+      <p>Each route has its own page with the day-by-day plan and live offers. The stops below are as National Geographic files them.</p>
+    </div>
+    <div class="itins" id="itins"></div>
+  </section>
+
+  <section id="departures">
+    <div class="sec-head">
+      <span class="eyebrow">Every departure</span>
+      <h2>Departures from January 2027 to March 2028</h2>
+      <p>Dates are as filed by National Geographic. Availability changes daily; an advisor confirms it before anything is held.</p>
+    </div>
+    <div class="tscroll"><table>
+      <thead><tr><th>Departs</th><th>Returns</th><th>Itinerary</th><th class="num">Days</th><th>Booking</th></tr></thead>
+      <tbody id="deps"></tbody>
+    </table></div>
+  </section>
+
+  <section id="questions">
+    <div class="sec-head">
+      <span class="eyebrow">Questions people ask</span>
+      <h2>What travelers search for before they book</h2>
+    </div>
+    <div class="faq">
+      <div><h3>How much does a National Geographic private jet trip cost?</h3><p>National Geographic publishes a per-person price for each departure, and it changes with the route and the season. The Guide does not hold rates. An Aspen advisor quotes the current price for your departure and tells you what booking through Aspen adds.</p></div>
+      <div><h3>How many guests are on the plane?</h3><p>The program's published configuration is 75 guests on a Boeing 757-200 with 2×2 leather seating. That is more than Four Seasons (48) or Abercrombie &amp; Kent (50), and fewer than Safrans du Monde (90).</p></div>
+      <div><h3>Who travels with you?</h3><p>National Geographic experts, photographers and expedition staff fly with the group. The lecture program is the reason most people choose this jet over the others.</p></div>
+      <div><h3>Where can I see the detailed schedule?</h3><p>Each itinerary page has the day-by-day plan. Around the World, for example, spends three days at Angkor and two each at Easter Island, Agra, the Serengeti and Petra.</p></div>
+      <div><h3>Is there a Silk Road trip?</h3><p>Yes. The Silk Road by Private Jet is 20 days from Istanbul through Yerevan, Bukhara, Almaty and Dunhuang to Baku. It departs on 27 May 2027.</p></div>
+      <div><h3>How far ahead should I book?</h3><p>A year or more is usual. Each route flies once or twice a year with 75 seats, so there are few seats to go around.</p></div>
+    </div>
+  </section>
+
+  <section id="compare">
+    <div class="sec-head">
+      <span class="eyebrow">How it compares</span>
+      <h2>National Geographic and the other jet programs</h2>
+      <p>Published configurations, compiled July 2026. National Geographic has the most expert-led program; Four Seasons and Aman have the smallest cabins.</p>
+    </div>
+    <div class="tscroll"><table>
+      <thead><tr><th>Program</th><th>Aircraft</th><th class="num">Guests</th><th>Known for</th><th class="num">On the atlas</th></tr></thead>
+      <tbody id="cmp"></tbody>
+    </table></div>
+    <p style="margin-top:14px"><a class="tlink" href="https://guide.expeditionbucketlist.com/answers/private-jet-journeys-explained" target="_blank" rel="noopener">What is a private jet journey, and is it worth it?</a></p>
+  </section>
+
+  <section id="book">
+    <div class="book">
+      <div>
+        <span class="eyebrow">Booking</span>
+        <h2 style="margin-top:6px">Book National Geographic through Aspen Travel Advisors</h2>
+        <p style="color:var(--sub);margin-top:8px;max-width:60ch">Your advisor checks availability for your departure, arranges the flights to the starting city and the nights before and after, and stays your contact while you travel.</p>
+      </div>
+      <div class="actions">
+        <a class="btn solid" href="https://aspentraveladvisors.com" target="_blank" rel="noopener">Talk to an advisor ↗</a>
+        <a class="btn" href="https://guide.expeditionbucketlist.com/?ask=Which%20National%20Geographic%20private%20jet%20departure%20would%20suit%20me%3F" target="_blank" rel="noopener">Ask The Guide ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="more" style="border-top:0;padding-top:0">
+    <div class="sec-head"><span class="eyebrow">Other jet operators</span></div>
+    <div class="related" id="related"></div>
+  </section>
+
+  <div class="notes" id="notes">
+    <h2>Template notes (not part of the page)</h2>
+    <ul>
+      <li><b>Proposed URL:</b> <code>/journeys/jet/operators/national-geographic</code>, one per operator per collection, built from the same feeds as the itinerary pages. The other operators this would cover first: HX, Lindblad, Ponant, Abercrombie &amp; Kent, Belmond, Orient Express, Four Seasons Yachts, TCS, Princess.</li>
+      <li><b>Proposed title tag:</b> "National Geographic Private Jet Expeditions: 10 departures, 2027–28". <b>Description:</b> "Every National Geographic private jet departure on one page: Around the World, Wildlife, Silk Road, Oceans and Islands, Atlantic Crossroads. 757, 75 guests. Book with Aspen Travel Advisors."</li>
+      <li><b>Why this page:</b> on Bing, The Guide ranks 3–6 for more than 25 variants of "National Geographic private jet" and gets almost no clicks, because no page matches the operator-level search. The itinerary pages each answer one route.</li>
+      <li><b>The question list</b> comes from those Bing queries (cost, guests, schedule, Silk Road, plane). Answers state no prices: The Guide holds no rates.</li>
+      <li><b>Structured data:</b> an ItemList of the five itinerary pages plus a FAQPage for the questions.</li>
+      <li><b>Data issue found:</b> the Silk Road feed lists "Hoi An" between Dunhuang and Bishkek, which is in Vietnam. It is probably Xi'an filed wrongly. It is flagged in blue above and should be checked in <code>data/atlas/jet/itinerary.json</code>.</li>
+      <li><b>No route map yet:</b> National Geographic's jet records carry stop names but no coordinates. "nat geo by jet northern route map" was a searched phrase, so a map is worth adding once the stops are geocoded.</li>
+    </ul>
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <span>The Guide · Expedition Bucket List</span>
+  <a href="https://aspentraveladvisors.com" target="_blank" rel="noopener">Aspen Travel Advisors ↗</a>
+  <a href="https://guide.expeditionbucketlist.com/atlas/jet" target="_blank" rel="noopener">Private jet atlas ↗</a>
+</div></footer>
+
+<script>
+const SITE = "https://guide.expeditionbucketlist.com";
+const JET = [{"n":"Around the World by Private Jet","days":27,"url":"/journeys/jet/national-geographic-around-the-world-by-private-jet","deps":["1 Jan 2027","30 Mar 2027","26 Oct 2027","13 Feb 2028","10 Mar 2028"],"rets":["26 Jan 2027","24 Apr 2027","20 Nov 2027","10 Mar 2028","5 Apr 2028"],"stops":["Washington, D.C.","Cusco / Machu Picchu or Trujillo","Easter Island","Cross the International Date Line","Apia, Samoa","Great Barrier Reef or Daintree Rainforest","Siem Reap","Kathmandu / Paro","Agra","Serengeti Plains or Ngorongoro Crater","Petra","Marrakech","Washington, D.C."]},{"n":"Oceans and Islands of the World by Private Jet","days":24,"url":"/journeys/jet/national-geographic-oceans-and-islands-of-the-world-by-private-jet","deps":["31 Jan 2027"],"rets":["23 Feb 2027"],"stops":["Honolulu","Bora Bora","Cross the International Date Line","Auckland","Adelaide","Palau","Bali","Sri Lanka","Seychelles","Muscat","Valletta","Washington, D.C."]},{"n":"Wildlife of the World by Private Jet","days":23,"url":"/journeys/jet/national-geographic-wildlife-of-the-world-by-private-jet","deps":["30 Apr 2027","10 Mar 2028"],"rets":["22 May 2027","1 Apr 2028"],"stops":["Singapore","Borneo","Jaipur","Ranthambhore National Park","Yala and Bundala National Parks","Male, Maldives","Nosy Be","Phinda Private Game Reserve","Kigali / Volcanoes National Park","Rome"]},{"n":"The Silk Road by Private Jet","days":20,"url":"/journeys/jet/national-geographic-the-silk-road-by-private-jet","deps":["27 May 2027"],"rets":["15 Jun 2027"],"stops":["Istanbul","Yerevan","Bukhara","Almaty","Dunhuang","Hoi An","Bishkek","Baku","Baku / Istanbul / Home"]},{"n":"Atlantic Crossroads: A Discovery by Private Jet","days":14,"url":"/journeys/jet/national-geographic-atlantic-crossroads-a-discovery-by-private-jet","deps":["8 Aug 2027"],"rets":["21 Aug 2027"],"stops":["Dublin","Funchal, Madeira","Tangier","Lanzarote","Dakar","Salvador","Buenos Aires"]}];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const total = JET.reduce((n, t) => n + t.deps.length, 0);
+const all = JET.flatMap(t => t.deps.map((d, i) => ({ t, d, r: t.rets[i] }))).sort((a, b) => new Date(a.d) - new Date(b.d));
+document.getElementById("h1-sub").textContent = `${JET.length} itineraries · ${total} departures · ${all[0].d.replace(/^\d+ /, "")} to ${all[all.length - 1].d.replace(/^\d+ /, "")}`;
+document.getElementById("glance").innerHTML = [["Aircraft","Boeing 757-200, VIP"],["Guests per departure","75"],["Seating","2×2 leather"],["On board","National Geographic experts and photographers"],["Itineraries",String(JET.length)],["Departures",`${total} · ${all[0].d.replace(/^\d+ /, "")} to ${all[all.length-1].d.replace(/^\d+ /, "")}`],["Length","14 to 27 days"],["Book with","Aspen Travel Advisors"]].map(([a,b]) => `<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join("");
+const FOR = {
+  "Around the World by Private Jet":"The classic. Machu Picchu, Easter Island, Samoa, the Great Barrier Reef, Angkor, Bhutan or Nepal, the Taj Mahal, the Serengeti, Petra and Marrakech.",
+  "Oceans and Islands of the World by Private Jet":"Bora Bora to Palau, Bali, Sri Lanka and the Seychelles. More water than monuments.",
+  "Wildlife of the World by Private Jet":"Orangutans in Borneo, tigers at Ranthambhore, leopards in Sri Lanka, rhinos at Phinda and gorillas in Rwanda.",
+  "The Silk Road by Private Jet":"Istanbul to Baku by way of Armenia, Uzbekistan, Kazakhstan, the Gansu desert and Kyrgyzstan.",
+  "Atlantic Crossroads: A Discovery by Private Jet":"The shortest route: Ireland, Madeira, Morocco, the Canaries, Senegal, Brazil and Buenos Aires in two weeks.",
+};
+document.getElementById("itins").innerHTML = JET.map(t => `<article class="itin">
+  <div style="min-width:0"><h3><a href="${SITE + t.url}" target="_blank" rel="noopener">${esc(t.n)} ↗</a></h3><p class="for">${esc(FOR[t.n] || "")}</p>
+  <ol class="route">${t.stops.map(s => `<li${s === "Hoi An" ? ' class="flag" title="Check: probably Xi\'an"' : ""}>${esc(s)}</li>`).join("")}</ol></div>
+  <div class="side"><span class="big">${t.days}<small>days</small></span><span class="deps">${t.deps.length === 1 ? "Departs" : t.deps.length + " departures, first"} <b>${esc(t.deps[0])}</b></span></div>
+</article>`).join("");
+const soon = d => (new Date(d) - new Date("2026-11-04")) / 864e5 < 120;
+document.getElementById("deps").innerHTML = all.map(({t, d, r}) => `<tr><th scope="row" class="mono">${esc(d)}</th><td class="mono">${esc(r)}</td><td><a class="tlink" href="${SITE + t.url}" target="_blank" rel="noopener">${esc(t.n.replace(" by Private Jet","").replace(": A Discovery",""))}</a></td><td class="num">${t.days}</td><td><span class="pill${soon(d) ? " soon" : ""}">${soon(d) ? "Departs soon" : "Ask to hold"}</span></td></tr>`).join("");
+const CMP = [
+  ["National Geographic","Boeing 757-200, VIP",75,"Experts and photographers aboard; deepest lecture program","10",true],
+  ["Four Seasons Private Jet","Airbus A321LRneo, custom",48,"Lie-flat seats; the hotel brand runs air and ground","Via TCS"],
+  ["Abercrombie & Kent","Boeing 757-200, VIP",50,"Flat beds; most departures of any program","32"],
+  ["TCS World Travel","Airbus A321neo-LR, custom",52,"Longest-running jet operator; flies Four Seasons' trips","36"],
+  ["Aman Jet Expeditions","Airbus ACJ, varies",19,"Smallest group; nights in Aman hotels","Via Remote Lands"],
+  ["Safrans du Monde","Widebody charter, varies",90,"Grand world tours in the French tradition","18"],
+];
+document.getElementById("cmp").innerHTML = CMP.map(([a,b,c,d,e,self]) => `<tr${self ? ' class="self"' : ""}><th scope="row">${esc(a)}</th><td>${esc(b)}</td><td class="num">${c}</td><td>${esc(d)}</td><td class="num">${esc(e)}</td></tr>`).join("");
+document.getElementById("related").innerHTML = [
+  ["Abercrombie & Kent: Wild Wonders around the World","abercrombie-and-kent-wild-wonders-around-the-world-by-private-jet"],
+  ["TCS: Seven Continents","tcs-world-travel-seven-continents-the-ultimate-around-the-world-journey-by-private-jet"],
+  ["Four Seasons via TCS: Grand Horizons","tcs-world-travel-grand-horizons-a-four-seasons-private-jet-experience"],
+  ["Safrans du Monde: The World Tour 2027","safrans-du-monde-the-world-tour-grands-classiques-2027"],
+  ["Aman via Remote Lands: The Grandest Tour","remote-lands-the-grandest-tour-aman-jet-expedition-2027-apr-11-may-1-2027"],
+].map(([n,s]) => `<a href="${SITE}/journeys/jet/${s}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join("");
+</script>
+
+</body>
+</html>
