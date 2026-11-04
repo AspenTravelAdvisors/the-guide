@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "next-concierge",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "next-concierge", "run", "dev"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}
