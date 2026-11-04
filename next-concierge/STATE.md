@@ -3012,12 +3012,17 @@ operator, headline, two sentences, booking window, pins) is
 `lib/home-sections.js`; the rows are picked from the feeds by those rules at
 build time. **Review that file monthly** with the curated-jet refresh: the
 headlines are seasonal.
+- On phones the long homepage stacks The Guide (77% of the screen, in flow)
+  above the globe, which sits in a thin gold frame 14px in from each side so a
+  thumb on the margin scrolls the page. The sheet detents, the handle and the
+  dock's pill and chips stand down there; the dock keeps its result strip.
+  CSS-only heights; the arithmetic is commented in globals.css.
 - The homepage globe shares the page's gestures (`sharesPageScroll`, see
-  `sharePageScroll` in AtlasShell). At the top of the page one finger and the
-  plain wheel are the globe's; scrolling down at the resting world view moves
-  the page, and once the page has moved the globe stops catching gestures
-  until you are back at the top. This replaced Mapbox's cooperativeGestures
-  (two fingers / ⌘-scroll for the map), which made the globe hard to use.
+  `sharePageScroll` in AtlasShell): the globe takes one finger and the plain
+  wheel when it is in view (desktop: page at the top; phones: 80% of the frame
+  on screen), and the page takes them otherwise. Scrolling down at the resting
+  world view moves the page. This replaced Mapbox's cooperativeGestures (two
+  fingers / ⌘-scroll for the map), which made the globe hard to use.
 - On phones the Guide sheet and atlas dock were `position: fixed`; inside the
   scroller they are `absolute`, so they scroll away with the first screen.
 - "Ask about it" on a row scrolls up and asks The Guide (`askGuide`, source

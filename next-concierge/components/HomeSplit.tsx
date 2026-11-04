@@ -217,6 +217,13 @@ export default function HomeSplit({ chat, atlas }: { chat: ReactNode; atlas: Rea
   // Each breakpoint's CSS reads only its own state, so setting both is safe.
   const openChat = useCallback(
     (focus: boolean) => {
+      // The long homepage on a phone has no sheet to raise: The Guide sits at
+      // the top of the page, above the globe. Bring it back into view instead.
+      const scroller = rowRef.current?.closest<HTMLElement>(".home-scroll");
+      if (scroller && window.matchMedia("(max-width: 640px)").matches) {
+        const smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        scroller.scrollTo({ top: 0, behavior: smooth ? "smooth" : "auto" });
+      }
       setSheetAndRefit((s) => (s === "pill" ? "half" : s));
       setPanelOpen((prev) => {
         if (!prev) requestRefit();

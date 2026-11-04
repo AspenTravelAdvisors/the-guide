@@ -7342,22 +7342,94 @@ html.flyover-on body {
   height: calc(100% - 64px);
   min-height: 460px;
 }
-/* On phones The Guide is a bottom sheet and the dock rides the map's bottom
-   edge, both `position: fixed` because the page never scrolled. Here they
-   belong to the first screen and must scroll away with it. */
+/* PHONES: THE GUIDE FIRST, THE GLOBE FRAMED BELOW IT.
+   Everywhere else on the site a phone gets the globe full-bleed with The Guide
+   as a bottom sheet over it. On the long homepage that made the page's two
+   best things fight for one screen and left the globe a trap for the thumb.
+   Here they are stacked instead:
+
+     The Guide   77% of the screen below the header, in the page's flow, so
+                 the top of the globe shows in the bottom ~20-25%.
+     The globe   a frame 14px in from each side with a thin gold border. The
+                 margin is where a thumb scrolls the page; inside the frame one
+                 finger spins the globe once it is in view (sharePageScroll in
+                 AtlasShell decides when).
+
+   Heights are fractions of the scroller (H) with no JS, so the static
+   prerender paints the final layout. .home is a percentage of the scroller,
+   and its children are percentages of .home, so they are written back in
+   terms of H:
+     .home  = chat + gap + globe + bottom = 0.77H + 10 + (H - 40) + 12
+            = 1.77H - 18                   → calc(177% - 18px)
+     H      = (100% + 18px) / 1.77 inside .home
+     chat   = 0.77H                        → (100% + 18px) * 0.43503
+     globe  = H - 40                       → (100% + 18px) * 0.56497 - 40px
+   Change the 0.77 and every line here changes with it.
+
+   The sheet's detents, handle and the dock's "Ask The Guide" pill are
+   meaningless when the chat is already on the page, so they stand down; the
+   dock keeps only its strip of result cards, riding the frame's bottom edge. */
 @media (max-width: 640px) {
+  .home-scroll {
+    scroll-snap-type: y proximity;
+  }
   .home-scroll > .home {
-    height: calc(100% - 48px);
+    height: calc(177% - 18px);
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
   }
   .home-scroll .home-chat,
-  .home-scroll .atlas-dock {
+  .home-scroll .home--sheet-full .home-chat,
+  .home-scroll .home--sheet-pill .home-chat {
+    position: relative;
+    order: -1;
+    flex: none;
+    height: calc((100% + 18px) * 0.43503);
+    min-height: 0;
+    max-height: none;
+    transform: none;
+    border-radius: 0;
+    border-top: 0;
+    border-bottom: 1px solid var(--line);
+    box-shadow: none;
+    transition: none;
+    scroll-snap-align: start;
+  }
+  .home-scroll .home-chat-handle,
+  .home-scroll .guide-tab {
+    display: none;
+  }
+  .home-scroll .home-atlas {
+    position: relative;
+    inset: auto;
+    flex: none !important;
+    height: calc((100% + 18px) * 0.56497 - 40px);
+    margin: 10px 14px 0;
+    border: 1px solid var(--gold-dim);
+    border-radius: 14px;
+    overflow: hidden;
+    scroll-snap-align: center;
+  }
+  .home-scroll .atlas-dock,
+  .home-scroll .home--sheet-half .atlas-dock,
+  .home-scroll .home--sheet-full .atlas-dock {
+    display: flex;
     position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 13px;
+    padding-bottom: 10px;
+    border-radius: 0 0 13px 13px;
   }
-  .home-scroll .home-chat {
-    max-height: calc(100% - 8px);
+  .home-scroll .dock-pill,
+  .home-scroll .dock-chips {
+    display: none;
   }
-  .home-scroll .home--sheet-full .home-chat {
-    height: calc(100% - 8px);
+  /* Nothing plotted: no strip, so no gradient band across the globe either. */
+  .home-scroll .atlas-dock:not(:has(.dock-results)) {
+    display: none;
   }
 }
 
@@ -7578,28 +7650,31 @@ html.flyover-on body {
   background: var(--gold-light);
   text-decoration: none;
 }
-.home-rows,
-.home-dest {
+/* THE ROWS AS A MAGAZINE SPREAD. The first itinerary is the lead story: a
+   wide photo with its title set over it. The other four are cards in two
+   columns. Photo sizes are held to what the feeds can fill: Virtuoso serves
+   its brochure images 400px tall, so the lead stays near 16:9 at the column's
+   width rather than going taller and softening. */
+.home-rows {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-.home-rows {
-  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 22px;
 }
 .home-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 10px;
-  border-bottom: 1px solid var(--line);
+  min-width: 0;
 }
 .home-row-link {
-  display: grid;
-  grid-template-columns: 72px minmax(0, 1fr) auto;
-  gap: 14px;
-  align-items: center;
-  padding: 12px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  width: 100%;
   color: var(--text);
   min-width: 0;
 }
@@ -7610,21 +7685,26 @@ html.flyover-on body {
   color: var(--gold-light);
 }
 .home-row-thumb {
-  width: 72px;
-  height: 56px;
-  border-radius: 9px;
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  border-radius: 12px;
   position: relative;
   overflow: hidden;
-  background: var(--panel);
+  background: radial-gradient(circle at 28% 22%, color-mix(in srgb, var(--tc) 24%, var(--panel)), var(--panel) 70%);
 }
+/* No photo, or a repeat of one already in the section: a lettered tile in the
+   collection's colour, set large enough to read as intended. */
 .home-row-thumb::before {
   content: attr(data-ini);
   position: absolute;
   inset: 0;
   display: grid;
   place-items: center;
-  font: 600 18px var(--serif);
+  font: 600 clamp(30px, 5vw, 54px) var(--serif);
+  letter-spacing: 0.04em;
   color: var(--tc);
+  opacity: 0.85;
 }
 .home-row-thumb img {
   position: absolute;
@@ -7632,30 +7712,35 @@ html.flyover-on body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.home-row-link:hover .home-row-thumb img,
+.home-villa:hover img {
+  transform: scale(1.035);
 }
 .home-row-name {
   display: block;
   font-family: var(--serif);
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 600;
   line-height: 1.15;
+  text-wrap: balance;
 }
 .home-row-meta {
   display: block;
   font-size: 12.5px;
+  letter-spacing: 0.02em;
   color: var(--muted);
-  margin-top: 3px;
+  margin-top: 4px;
 }
 .home-row-when {
   font-size: 12.5px;
   color: var(--sub);
-  text-align: right;
-  white-space: nowrap;
 }
 .home-row-when b {
-  display: block;
   color: var(--text);
   font-weight: 500;
+  margin-right: 8px;
 }
 .home-row-ask {
   font: 500 12px var(--sans);
@@ -7663,8 +7748,7 @@ html.flyover-on body {
   background: transparent;
   border: 1px solid var(--line);
   border-radius: 999px;
-  padding: 6px 10px;
-  margin-right: 6px;
+  padding: 6px 11px;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -7672,25 +7756,112 @@ html.flyover-on body {
   color: var(--gold-light);
   border-color: var(--gold-dim);
 }
-.home-dest {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+
+/* The lead story: full width, title over the photo. */
+.home-row--lead {
+  grid-column: 1 / -1;
 }
-.home-dest a {
+.home-row--lead .home-row-link {
+  position: relative;
+  gap: 0;
+}
+.home-row--lead .home-row-thumb {
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+}
+.home-row--lead .home-row-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 72px 24px 20px;
+  border-radius: 0 0 16px 16px;
+  background: linear-gradient(180deg, rgba(6, 6, 8, 0) 0%, rgba(6, 6, 8, 0.55) 40%, rgba(6, 6, 8, 0.88) 100%);
+  pointer-events: none;
+}
+.home-row--lead .home-row-name {
+  font-size: clamp(26px, 3.4vw, 36px);
+  color: #f6f1e7;
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.5);
+}
+.home-row--lead .home-row-link:hover .home-row-name {
+  color: #f6f1e7;
+}
+.home-row--lead .home-row-meta {
+  color: rgba(246, 241, 231, 0.78);
+  font-size: 13px;
+}
+.home-row--lead .home-row-when {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(8, 8, 10, 0.72);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: rgba(246, 241, 231, 0.8);
+}
+.home-row--lead .home-row-when b {
+  color: #f6f1e7;
+}
+
+/* VILLAS: one tall photo per destination, its most expensive house. */
+.home-coll-grid--wide {
+  grid-template-columns: minmax(0, 1fr);
+}
+.home-villas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+.home-villa {
+  position: relative;
+  display: block;
+  aspect-ratio: 3 / 4;
+  border-radius: 14px;
+  overflow: hidden;
+  background: radial-gradient(circle at 30% 20%, color-mix(in srgb, var(--tc) 22%, var(--panel)), var(--panel) 72%);
+  color: #f6f1e7;
+}
+.home-villa:hover {
+  text-decoration: none;
+}
+.home-villa img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.home-villa-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 56px 14px 14px;
+  background: linear-gradient(180deg, rgba(6, 6, 8, 0) 0%, rgba(6, 6, 8, 0.6) 45%, rgba(6, 6, 8, 0.9) 100%);
+}
+.home-villa-name {
   display: block;
   font-family: var(--serif);
-  font-size: 19px;
-  color: var(--text);
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  padding: 10px 14px;
-  background: var(--panel);
+  font-size: clamp(20px, 2.1vw, 25px);
+  font-weight: 600;
+  line-height: 1.1;
 }
-.home-dest a:hover {
-  border-color: var(--tc);
-  color: var(--tc);
-  text-decoration: none;
+.home-villa-pic {
+  display: block;
+  margin-top: 5px;
+  font-size: 11.5px;
+  line-height: 1.35;
+  color: rgba(246, 241, 231, 0.74);
+}
+.home-villa-pic::before {
+  content: "Pictured: ";
 }
 .home-qs,
 .home-aspen {
@@ -7770,6 +7941,16 @@ html.flyover-on body {
   .home-coll-grid {
     grid-template-columns: minmax(0, 1fr);
   }
+  /* Stacked, the photographs lead and the operator card follows them. */
+  .home-coll-grid > .home-op {
+    order: 2;
+  }
+  .home-villas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .home-villa {
+    aspect-ratio: 4 / 5;
+  }
 }
 @media (max-width: 700px) {
   .home-season {
@@ -7789,30 +7970,39 @@ html.flyover-on body {
   }
 }
 @media (max-width: 520px) {
-  .home-row {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 0;
-    padding-bottom: 10px;
+  .home-rows {
+    gap: 22px 12px;
   }
-  .home-row-link {
-    grid-template-columns: 56px minmax(0, 1fr);
+  .home-row-name {
+    font-size: 16.5px;
   }
-  .home-row-thumb {
-    width: 56px;
-    height: 48px;
-  }
+  .home-row-meta,
   .home-row-when {
-    grid-column: 2;
-    text-align: left;
-    white-space: normal;
+    font-size: 11.5px;
   }
   .home-row-when b {
+    display: block;
+    margin: 0;
+  }
+  .home-row--lead .home-row-when b {
     display: inline;
-    margin-right: 6px;
+    margin-right: 8px;
+  }
+  .home-row--lead .home-row-thumb {
+    aspect-ratio: 4 / 3;
+  }
+  .home-row--lead .home-row-text {
+    padding: 56px 16px 14px;
   }
   .home-row-ask {
-    justify-self: start;
-    margin-left: 76px;
+    padding: 5px 10px;
+    font-size: 11.5px;
+  }
+  .home-villas {
+    gap: 10px;
+  }
+  .home-villa-text {
+    padding: 44px 11px 11px;
   }
 }
 .home-advisor {

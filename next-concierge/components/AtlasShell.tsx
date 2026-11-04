@@ -1344,42 +1344,57 @@ const FLY_LABEL_MS = 2200;
  * grew a page below it: ⌘/Ctrl-scroll or two fingers for the map, everything
  * else for the page. That kept the page reachable and made the site's most
  * distinctive thing the hardest to use, with an overlay telling you so. This
- * replaces it with one rule a visitor never has to be told:
+ * replaces it with one rule a visitor never has to be told: the globe is
+ * yours when you are looking at it, and the page is yours when you are not.
  *
- *   At the top of the page the globe is yours: one finger spins it, the wheel
- *   zooms it. Once the page has moved, the globe stops catching gestures and
- *   the page scrolls over it, until you are back at the top.
+ * "Looking at it" depends on the layout (globals.css, the long homepage):
  *
- * How you get off the top in the first place:
- *   - Wheel or trackpad: scrolling DOWN at the globe's resting world view
- *     (homeZoom, set by fitGlobe) scrolls the page. Down is "zoom out", and
- *     there is nothing further out worth zooming to, so the page is the only
- *     useful reading. Zoomed in, down zooms back out to the world first.
- *   - Phone: the Guide's sheet and the strip of the next section below the
- *     globe both scroll the page natively, and the collection chips in that
- *     strip jump to their section.
+ *   Split (wider than 640px): The Guide beside the globe at the top of the
+ *   page. The globe is in view while the page is at the top.
  *
- * Two latches keep momentum from crossing over. A wheel stream that started
- * zooming the map keeps zooming it until it pauses, so zooming out to the world
- * does not fling the page; a stream that started moving the page keeps moving
- * it, so flicking back to the top does not then zoom into the globe.
+ *   Stacked (phones): The Guide first, the globe framed below it with a
+ *   margin all round. The globe is in view once at least IN_VIEW of it is on
+ *   screen. Before that, a swipe that starts on the peeking globe scrolls the
+ *   page up to it, which is what a thumb on a peek is asking for. After that,
+ *   one finger spins it and the margin outside the frame scrolls the page.
+ *
+ * Wheel or trackpad, either layout: scrolling DOWN at the globe's resting
+ * world view (homeZoom, set by fitGlobe) scrolls the page. Down is "zoom out",
+ * and there is nothing further out worth zooming to, so the page is the only
+ * useful reading. Zoomed in, down zooms back out to the world first.
+ *
+ * Two latches keep wheel momentum from crossing over. A stream that started
+ * zooming the map keeps zooming it until it pauses, so zooming out to the
+ * world does not fling the page; a stream that started moving the page keeps
+ * moving it, so flicking back to the globe does not then zoom into it.
  * Pinch (ctrlKey on a trackpad) and ⌘/Ctrl-scroll always belong to the globe.
  *
  * Wheel: a capture listener on the map container stops the event before it
  * reaches Mapbox's own listener on the canvas container, and does not call
  * preventDefault, so the browser scrolls the page as if the map were not there.
  * Touch: Mapbox's touch-action:none lives on classes that its dragPan and
- * touchZoomRotate handlers add and remove, so turning those off while the page
- * is scrolled hands the finger back to the browser. Only on touch-first
- * devices: on a desktop that would also kill mouse drag, which never competed
- * with scrolling.
+ * touchZoomRotate handlers add and remove, so turning those off while the
+ * globe is out of view hands the finger back to the browser. Touch-first
+ * devices only: on a desktop that would also kill mouse drag, which never
+ * competed with scrolling.
  */
 function sharePageScroll(map: MBMap, el: HTMLElement, restZoom: () => number): () => void {
   const scroller = el.closest<HTMLElement>(".home-scroll");
   if (!scroller) return () => {};
   const LATCH_MS = 240;
+  const IN_VIEW = 0.8;
+  const stackedMq = window.matchMedia("(max-width: 640px)");
   let lastPage = -Infinity;
   let lastMap = -Infinity;
+
+  const globeInView = (): boolean => {
+    if (!stackedMq.matches) return scroller.scrollTop <= 1;
+    const g = el.getBoundingClientRect();
+    const v = scroller.getBoundingClientRect();
+    if (!g.height) return false;
+    const shown = Math.min(g.bottom, v.bottom) - Math.max(g.top, v.top);
+    return shown / g.height >= IN_VIEW;
+  };
 
   const onWheel = (e: WheelEvent) => {
     const now = performance.now();
@@ -1387,7 +1402,7 @@ function sharePageScroll(map: MBMap, el: HTMLElement, restZoom: () => number): (
     let toPage: boolean;
     if (now - lastMap < LATCH_MS) toPage = false;
     else if (now - lastPage < LATCH_MS) toPage = true;
-    else toPage = scroller.scrollTop > 1 || (e.deltaY > 0 && map.getZoom() <= restZoom() + 0.05);
+    else toPage = !globeInView() || (e.deltaY > 0 && map.getZoom() <= restZoom() + 0.05);
     if (toPage) {
       e.stopPropagation();
       lastPage = now;
@@ -1401,7 +1416,7 @@ function sharePageScroll(map: MBMap, el: HTMLElement, restZoom: () => number): (
   let fingerOnGlobe = true;
   const syncTouch = () => {
     if (!touchFirst) return;
-    const want = scroller.scrollTop <= 8;
+    const want = globeInView();
     if (want === fingerOnGlobe) return;
     fingerOnGlobe = want;
     for (const h of [map.dragPan, map.touchZoomRotate, map.touchPitch]) {
@@ -1415,11 +1430,14 @@ function sharePageScroll(map: MBMap, el: HTMLElement, restZoom: () => number): (
     syncTouch();
   };
   scroller.addEventListener("scroll", onScroll, { passive: true });
+  // Rotating the phone can cross the breakpoint without a scroll.
+  window.addEventListener("resize", syncTouch);
   syncTouch();
 
   return () => {
     el.removeEventListener("wheel", onWheel, { capture: true });
     scroller.removeEventListener("scroll", onScroll);
+    window.removeEventListener("resize", syncTouch);
   };
 }
 
@@ -5311,6 +5329,12 @@ export default function AtlasShell({
           if (!allInventory) return 78;
           if (window.matchMedia("(max-width: 640px)").matches) {
             const h = node.clientHeight;
+            // The long homepage stacks The Guide above a framed globe, so
+            // nothing covers the map but the result strip on its bottom edge.
+            if (node.closest(".home-scroll")) {
+              const strip = !!document.querySelector(".home-scroll .dock-results");
+              return { top: 48, left: 28, right: 28, bottom: strip ? Math.min(220, Math.round(h * 0.4)) : 40 };
+            }
             const sheetUp = !!document.querySelector(".home--sheet-half, .home--sheet-full");
             const bottom = sheetUp
               ? Math.round(h * 0.62) // half sheet: fit into the top ~38%

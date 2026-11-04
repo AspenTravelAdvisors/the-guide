@@ -21,6 +21,22 @@ const initials = (s) =>
     .map((w) => w[0])
     .join("") || "·";
 
+/**
+ * One photo, one story. Feeds often file several itineraries under the same
+ * brochure image (four World Cruise rows can share one), and at magazine size
+ * a repeated photo reads as a mistake. A repeat falls back to the lettered
+ * tile, which is also what shows when a photo host fails.
+ */
+const dedupePhotos = (rows) => {
+  const seen = new Set();
+  return rows.map((r) => {
+    if (!r.thumb) return r;
+    if (seen.has(r.thumb)) return { ...r, thumb: null };
+    seen.add(r.thumb);
+    return r;
+  });
+};
+
 function Card({ card, answers }) {
   if (!card) return null;
   return (
@@ -98,20 +114,29 @@ export default function HomeSections() {
               Open the atlas →
             </Link>
           </header>
-          <div className="home-coll-grid">
-            <Card card={s.card} answers={s.answers} />
-            {s.destinations ? (
-              <ul className="home-dest">
+          {s.destinations ? (
+            <div className="home-coll-grid home-coll-grid--wide">
+              <ul className="home-villas">
                 {s.destinations.map((d) => (
                   <li key={d.href}>
-                    <Link href={d.href}>{d.name}</Link>
+                    <Link href={d.href} className="home-villa">
+                      {d.photo ? <HomeThumb src={d.photo} /> : null}
+                      <span className="home-villa-text">
+                        <span className="home-villa-name">{d.name}</span>
+                        {d.pictured ? <span className="home-villa-pic">{d.pictured}</span> : null}
+                      </span>
+                    </Link>
                   </li>
                 ))}
               </ul>
-            ) : (
+              <Card card={s.card} answers={s.answers} />
+            </div>
+          ) : (
+            <div className="home-coll-grid">
+              <Card card={s.card} answers={s.answers} />
               <ul className="home-rows">
-                {s.rows.map((r) => (
-                  <li key={r.href} className="home-row">
+                {dedupePhotos(s.rows).map((r, i) => (
+                  <li key={r.href} className={`home-row${i === 0 ? " home-row--lead" : ""}`}>
                     <Link href={r.href} className="home-row-link">
                       <span className="home-row-thumb" data-ini={initials(r.title)}>
                         {r.thumb ? <HomeThumb src={r.thumb} /> : null}
@@ -131,8 +156,8 @@ export default function HomeSections() {
                   </li>
                 ))}
               </ul>
-            )}
-          </div>
+            </div>
+          )}
         </section>
       ))}
 
@@ -165,7 +190,7 @@ export default function HomeSections() {
           <img src="/advisors/brian-harris.jpg" alt="Brian Harris" width={88} height={88} loading="lazy" />
           <div>
             <p className="home-advisor-name">Brian Harris</p>
-            <p className="home-advisor-role">Aspen Travel Advisors</p>
+            <p className="home-advisor-role">Owner, Aspen Travel Advisors</p>
           </div>
         </div>
         <AnswerAdvisorCta lead="Know where you want to go? Brian or one of the Aspen team will check dates and price it with the amenities included." />

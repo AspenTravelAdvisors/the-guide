@@ -23,6 +23,7 @@ import { getJourneyOperator, getHotelBrand, fmtDay, fmtMonth, regionName } from 
 import { getHotelById } from "@/lib/seo/hotels";
 import { slugify } from "@/lib/seo/journey-key.mjs";
 import { ALL_ANSWERS } from "@/lib/answers";
+import { getVillaDestination } from "@/lib/seo/villas";
 
 export const EDITION = {
   label: "Winter 2026–27",
@@ -265,6 +266,21 @@ function hotelSection(s) {
   };
 }
 
+/**
+ * The photo for a villa destination's tile: its highest-rate villa that has a
+ * photo. Rated villas only, so "Call for Pricing" never wins by default; the
+ * rate picks the picture and is never shown. Ties go to the larger house.
+ */
+function villaCover(slug) {
+  const d = getVillaDestination(slug);
+  const best = (d?.villas || [])
+    .filter((v) => v.imageUrl && v.nightlyFromUsd)
+    .sort((a, b) => b.nightlyFromUsd - a.nightlyFromUsd || (b.bedrooms || 0) - (a.bedrooms || 0))[0];
+  return best
+    ? { photo: best.imageUrl, pictured: [best.name, best.location].filter(Boolean).join(", "), count: d.count }
+    : { photo: null, pictured: null, count: d?.count || 0 };
+}
+
 /** The resolved sections, in page order. A section with nothing to show is dropped. */
 /** @returns {any[]} */
 export function homeSections() {
@@ -285,7 +301,7 @@ export function homeSections() {
     if (s.collection === "villa") {
       return {
         ...base,
-        destinations: s.destinations.map(([slug, name]) => ({ name, href: `/villas/${slug}` })),
+        destinations: s.destinations.map(([slug, name]) => ({ name, href: `/villas/${slug}`, ...villaCover(slug) })),
         card: {
           eyebrow: "Start here",
           name: "Villas by destination",
