@@ -66,8 +66,8 @@ export const metadata: Metadata = {
 //
 // `.app` is pinned to the viewport and never scrolls (globals.css), the way
 // every document page here works: `.home-scroll` is the scroller, and the
-// split is given a height a little short of it so the first section shows
-// below the globe and says "there is more". On phones The Guide comes first
+// split is given a height a little short of it so the season's opening lines
+// show below the globe and say "there is more". On phones The Guide comes first
 // and the globe sits framed below it (globals.css). The globe keeps one finger
 // and the plain wheel while it is in view, and the page has them otherwise
 // (sharesPageScroll, see sharePageScroll in AtlasShell).

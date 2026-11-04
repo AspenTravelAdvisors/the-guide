@@ -7337,10 +7337,20 @@ html.flyover-on body {
     scroll-behavior: auto;
   }
 }
+/* Desktop: the first screen stops 100px short so the season's opening lines
+   show beneath the globe. Text, not chrome, is what says "there is more to
+   read", and the strip is a wide place to put the wheel or a hand to scroll.
+   100px = the season's 22px top padding + two 36px lines at its 27px size
+   (any desktop over ~1040px wide) + a few px. */
 .home-scroll > .home {
   flex: none;
-  height: calc(100% - 64px);
+  height: calc(100% - 100px);
   min-height: 460px;
+}
+@media (min-width: 641px) {
+  .home-scroll .home-season {
+    padding-top: 22px;
+  }
 }
 /* PHONES: THE GUIDE FIRST, THE GLOBE FRAMED BELOW IT.
    Everywhere else on the site a phone gets the globe full-bleed with The Guide
