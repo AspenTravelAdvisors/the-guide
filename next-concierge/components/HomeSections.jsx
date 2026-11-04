@@ -12,30 +12,10 @@ import SiteFooter from "@/components/SiteFooter";
 import AnswerAdvisorCta from "@/components/AnswerAdvisorCta";
 import { HomeAsk, HomeBackToGuide, HomeThumb } from "@/components/HomeAsk";
 
-const initials = (s) =>
-  String(s)
-    .replace(/^(A&K Sanctuary|Four Seasons (Hotel|Resort)( and Residences)?)\s*/i, "")
-    .split(/[\s–,-]+/)
-    .filter((w) => /^[A-Z]/.test(w))
-    .slice(0, 2)
-    .map((w) => w[0])
-    .join("") || "·";
-
-/**
- * One photo, one story. Feeds often file several itineraries under the same
- * brochure image (four World Cruise rows can share one), and at magazine size
- * a repeated photo reads as a mistake. A repeat falls back to the lettered
- * tile, which is also what shows when a photo host fails.
- */
-const dedupePhotos = (rows) => {
-  const seen = new Set();
-  return rows.map((r) => {
-    if (!r.thumb) return r;
-    if (seen.has(r.thumb)) return { ...r, thumb: null };
-    seen.add(r.thumb);
-    return r;
-  });
-};
+// Every row and villa tile arrives with its own working photo: lib/home-sections.js
+// passes over candidates without one at build time (no photo, a repeat, or a
+// dead URL). A photo that dies after the build hides its row (HomeThumb), so
+// the page never shows a placeholder.
 
 function Card({ card, answers }) {
   if (!card) return null;
@@ -73,8 +53,8 @@ function Card({ card, answers }) {
   );
 }
 
-export default function HomeSections() {
-  const sections = homeSections();
+export default async function HomeSections() {
+  const sections = await homeSections();
   const questions = homeQuestions();
   const reviewed = new Date(`${EDITION.reviewed}T00:00:00Z`).toLocaleDateString("en-GB", {
     month: "long",
@@ -121,7 +101,7 @@ export default function HomeSections() {
                 {s.destinations.map((d) => (
                   <li key={d.href}>
                     <Link href={d.href} className="home-villa">
-                      {d.photo ? <HomeThumb src={d.photo} /> : null}
+                      <HomeThumb src={d.photo} />
                       <span className="home-villa-text">
                         <span className="home-villa-name">{d.name}</span>
                         {d.pictured ? <span className="home-villa-pic">{d.pictured}</span> : null}
@@ -136,11 +116,11 @@ export default function HomeSections() {
             <div className="home-coll-grid">
               <Card card={s.card} answers={s.answers} />
               <ul className="home-rows">
-                {dedupePhotos(s.rows).map((r, i) => (
+                {s.rows.map((r, i) => (
                   <li key={r.href} className={`home-row${i === 0 ? " home-row--lead" : ""}`}>
                     <Link href={r.href} className="home-row-link">
-                      <span className="home-row-thumb" data-ini={initials(r.title)}>
-                        {r.thumb ? <HomeThumb src={r.thumb} /> : null}
+                      <span className="home-row-thumb">
+                        <HomeThumb src={r.thumb} />
                       </span>
                       <span className="home-row-text">
                         <span className="home-row-name">{r.title}</span>

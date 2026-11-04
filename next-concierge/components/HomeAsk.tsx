@@ -67,9 +67,11 @@ export function HomeBackToGuide() {
 }
 
 /**
- * A row photo that removes itself if it fails, so the lettered placeholder
- * behind it shows instead of a broken-image icon. Supplier photo hosts do go
- * missing, and a row of broken icons reads as a broken page.
+ * A row or villa-tile photo. Every one was checked when the page was built
+ * (lib/home-sections.js), but a supplier can delete a photo afterwards. When
+ * one fails it leaves a `.home-thumb-gone` marker, and the CSS hides the
+ * whole row or tile around it (`:has`): a magazine shows a story with its
+ * picture or not at all, never a placeholder or a broken-image icon.
  */
 export function HomeThumb({ src }: { src: string }) {
   const [ok, setOk] = useState(true);
@@ -79,7 +81,7 @@ export function HomeThumb({ src }: { src: string }) {
     const img = ref.current;
     if (img && img.complete && img.naturalWidth === 0) setOk(false);
   }, []);
-  if (!ok) return null;
+  if (!ok) return <span className="home-thumb-gone" hidden />;
   // eslint-disable-next-line @next/next/no-img-element
   return <img ref={ref} src={src} alt="" loading="lazy" decoding="async" onError={() => setOk(false)} />;
 }

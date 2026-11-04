@@ -3042,3 +3042,27 @@ JSDoc return types so their inferred shapes are not expanded.
 
 **Checked, not changed:** National Geographic's Silk Road jet does stop at Hoi
 An (the maritime Silk Road). The stop and its coordinates are correct.
+
+### Homepage: no placeholders; Ritz-Carlton and Seabourn (2026-11-04)
+
+- **Every row has its own working photo, or is not shown.** The lettered
+  tiles are gone. `withOwnPhotos` in `lib/home-sections.js` walks a section's
+  candidates in order and passes over any with no photo, a photo already used
+  higher in the section, or a photo whose host answers the build's HEAD check
+  with an error (node:https, so the page stays static; a timeout keeps the
+  photo). Villa tiles try a destination's top four villas. A photo that dies
+  after the build hides its row in the browser (`.home-thumb-gone` + `:has`).
+  Before this, 12 of 35 rows were lettered tiles: 11 repeats or missing
+  photos, one dead National Geographic URL (Wildlife of the World, `hero-1` →
+  `hero-7` in `journey-photos.json`).
+- After the pins, a section only fills from what `prefer` names, so a slot the
+  photo rule frees is not taken by an off-story trip (it was an Amazon cruise
+  under the Mara headline). Sections can show fewer than five rows.
+- **Yachts: Ritz-Carlton Yacht Collection** replaces Orient Express (255
+  sailings to 91; the only yacht line with Virtuoso offers). **World cruises:
+  Seabourn** replaces Princess (84 sailings, the most; its 95-day Pole to Pole
+  keeps the "pole to pole" searches answered). The feed has one photo per
+  ship for both, so they show one row per ship. Evrima's photo is the Pitons,
+  so Evrima's row is the Lisbon–San Juan crossing, not a Riviera voyage.
+- Four Seasons Nevis has no photo in the feed; The Ocean Club (`h_02088`) is
+  the spare that fills its slot.

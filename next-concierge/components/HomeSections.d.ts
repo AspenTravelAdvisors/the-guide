@@ -8,4 +8,4 @@
 // TypeScript's resolution order (webpack ignores it), so the checker sees this
 // one line instead. The .jsx pages that import the same modules are not
 // type-checked, which is why they never hit this.
-export default function HomeSections(): import("react").JSX.Element;
+export default function HomeSections(): Promise<import("react").JSX.Element>;

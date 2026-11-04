@@ -7703,18 +7703,11 @@ html.flyover-on body {
   overflow: hidden;
   background: radial-gradient(circle at 28% 22%, color-mix(in srgb, var(--tc) 24%, var(--panel)), var(--panel) 70%);
 }
-/* No photo, or a repeat of one already in the section: a lettered tile in the
-   collection's colour, set large enough to read as intended. */
-.home-row-thumb::before {
-  content: attr(data-ini);
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-items: center;
-  font: 600 clamp(30px, 5vw, 54px) var(--serif);
-  letter-spacing: 0.04em;
-  color: var(--tc);
-  opacity: 0.85;
+/* Every row is built with its own photo (lib/home-sections.js). One that dies
+   after the build takes its row or tile off the page (HomeThumb). */
+.home-row:has(.home-thumb-gone),
+.home-villas > li:has(.home-thumb-gone) {
+  display: none;
 }
 .home-row-thumb img {
   position: absolute;

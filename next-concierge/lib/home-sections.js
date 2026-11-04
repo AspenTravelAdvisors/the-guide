@@ -19,6 +19,8 @@
 //
 // Server-only: reads every feed through lib/seo/suppliers.js.
 
+import http from "node:http";
+import https from "node:https";
 import { getJourneyOperator, getHotelBrand, fmtDay, fmtMonth, regionName } from "@/lib/seo/suppliers";
 import { getHotelById } from "@/lib/seo/hotels";
 import { slugify } from "@/lib/seo/journey-key.mjs";
@@ -46,6 +48,14 @@ export const EDITION = {
  * sanctuary", "pole to pole", "paris to venice"), shown first and in that
  * order while they are eligible. A pin whose product has sold out or left the
  * feed simply matches nothing; `prefer` and the date order fill its place.
+ *
+ * Every row carries its own photograph, or it is not shown. A magazine does
+ * not print placeholders, so a candidate is passed over when it has no photo,
+ * when its photo is already used higher in the section (feeds file many
+ * itineraries under one brochure image), or when the photo host answers the
+ * build's check with an error. The next candidate takes its place. A section
+ * can therefore show fewer than ROWS when its operator has fewer photos than
+ * that (Ritz-Carlton has one per yacht).
  */
 const SECTIONS = [
   {
@@ -55,7 +65,9 @@ const SECTIONS = [
     headline: "Kyoto in April is booked in winter",
     body: "The cherry trees along the Kamo River flower for about ten days, and the rooms that look onto them are spoken for months ahead. Spring in the Caribbean fills on the same calendar.",
     brand: "Four Seasons",
-    hotelIds: ["h_00651", "h_02501", "h_00692", "h_00695", "h_00680"],
+    // Nevis has no photo in the feed today; The Ocean Club is the spare that
+    // takes its place until it does. See ROWS.
+    hotelIds: ["h_00651", "h_02501", "h_00692", "h_00695", "h_00680", "h_02088"],
     answers: ["four-seasons-preferred-partner-benefits"],
   },
   {
@@ -69,15 +81,22 @@ const SECTIONS = [
     answers: ["private-jet-journeys-explained"],
   },
   {
+    // Ritz-Carlton, not Orient Express: the largest hotel-yacht programme on
+    // the atlas (255 sailings to Orient Express's 91) and the only one whose
+    // sailings carry Virtuoso offers. The feed has one photo per yacht, so
+    // the one-photo-per-row rule shows one voyage per yacht. Ilma's and
+    // Luminara's photos are the yachts at sea and suit any voyage; Evrima's
+    // is the Pitons of St Lucia, so Evrima's row is her October crossing to
+    // the Caribbean (which is why the window runs to 12), not the Riviera.
     id: "yachts",
     collection: "yacht",
     label: "Luxury Hotel Yachts",
-    headline: "Three masts, fifty-four suites, harbours too small for ships",
-    body: "Orient Express Corinthian raises her rigid sails off the Riviera in May. The harbours she uses cannot take a cruise ship, which is rather the point.",
-    operator: "Orient Express Sailing Yachts",
-    window: [6, 11],
-    pins: [/^legendary rivieras/i, /^sailing the cyclades/i, /sicily and malta/i, /venice film festival/i, /coastal charms and glamour of spain/i],
-    prefer: /riviera|cyclades|sicily|venice|spain/i,
+    headline: "A Ritz-Carlton that docks in Monte Carlo",
+    body: "Three yachts of 298 to 452 guests, each with a marina at the stern: Ilma on the Riviera next summer, Luminara in Alaska, and Evrima crossing to the Caribbean for the winter. Booked through Aspen, every sailing carries a Virtuoso offer, most often a $300 onboard experience.",
+    operator: "Ritz-Carlton Yacht Collection",
+    window: [6, 12],
+    pins: [/^monte carlo to monte carlo/i, /^whittier to vancouver/i, /^lisbon to san juan/i],
+    prefer: /^(monte carlo to monte carlo|whittier to vancouver|lisbon to san juan|venice to athens)/i,
     answers: ["ritz-carlton-vs-four-seasons-vs-orient-express-vs-aman-yachts"],
   },
   {
@@ -89,7 +108,7 @@ const SECTIONS = [
     operator: "Abercrombie & Kent",
     window: [6, 14],
     pins: [/sanctuary great migration/i, /sanctuary botswana safari and victoria/i, /sanctuary gorilla trekking in uganda/i, /sanctuary tanzania and kenya wildlife/i, /grand safari in southern africa/i],
-    prefer: /sanctuary|migration|gorilla|victoria falls|grand safari/i,
+    prefer: /migration|gorilla|victoria falls|grand safari|kenya|tanzania|botswana/i,
     answers: ["which-safari-operator-should-you-book", "best-time-to-see-the-great-migration-month-by-month"],
   },
   {
@@ -121,12 +140,16 @@ const SECTIONS = [
     id: "world",
     collection: "worldcruise",
     label: "World Cruises",
-    headline: "From one pole to the other, in fifty-four days",
-    body: "The long voyages sell their best cabins a year and a half out. Most can be taken as a segment if a hundred days is more sea than you want.",
-    operator: "Princess Cruises",
+    // Seabourn, not Princess: the most world-cruise sailings on the atlas (84)
+    // and a line that fits the rest of the page. Its own Pole to Pole keeps
+    // the Bing "pole to pole" searches answered. One photo per ship in the
+    // feed, so up to four rows: Venture, Pursuit, Quest and Encore.
+    headline: "From one pole to the other, in ninety-five days",
+    body: "Seabourn Venture leaves Reykjavík next August for Greenland and the Northwest Passage, then sails south by the Caribbean and Brazil to South Georgia, with 264 guests and two submarines aboard. The long voyages sell their best suites a year and a half out, and most can be taken as a shorter segment.",
+    operator: "Seabourn",
     window: [2, 20],
-    pins: [/pole-to-pole/i, /north pacific – singapore to los angeles/i, /south pacific – los angeles to singapore/i, /world cruise – roundtrip ft/i],
-    prefer: /pole|singapore|world cruise/i,
+    pins: [/pole to pole/i, /^across three continents/i, /^cape to cape world cruise – miami to southampton/i, /^in-depth japan exploration/i],
+    prefer: /pole|three continents|world cruise|japan/i,
     answers: ["world-cruise-segments-explained", "world-cruises-compared"],
   },
   {
@@ -155,6 +178,76 @@ const QUESTIONS = [
   ["Booking", "virtuoso-perks-vs-booking-direct"],
   ["Rail", "venice-simplon-orient-express-worth-it"],
 ];
+
+/** Rows per section, at most. */
+const ROWS = 5;
+
+/*
+ * Does this photo URL answer with an image? Asked once per URL per build (the
+ * static prerender) with a HEAD request; all three photo hosts in the feeds
+ * (Virtuoso, National Geographic, the villa supplier) answer HEAD.
+ *
+ * node:https rather than fetch, on purpose: Next patches fetch, and an
+ * uncached fetch here would take the homepage out of static prerendering.
+ *
+ * Only a definite answer removes a photo: an error status or a page that is
+ * not an image. A timeout or a network failure keeps it (true), so a slow
+ * host during one build cannot empty the page; HomeThumb hides the row in
+ * the browser if the photo really is gone.
+ */
+const photoChecks = new Map();
+function photoWorks(url) {
+  if (!photoChecks.has(url)) photoChecks.set(url, headImage(url, 2));
+  return photoChecks.get(url);
+}
+function headImage(url, redirects) {
+  const { request } = url.startsWith("http:") ? http : https;
+  return new Promise((resolve) => {
+    let req;
+    try {
+      req = request(url, { method: "HEAD", timeout: 6000, headers: { "user-agent": "Mozilla/5.0 (The Guide photo check)" } }, (res) => {
+        res.resume();
+        const { statusCode: code = 0, headers } = res;
+        if (code >= 300 && code < 400 && headers.location && redirects > 0) {
+          resolve(headImage(new URL(headers.location, url).href, redirects - 1));
+        } else if (code >= 400) {
+          resolve(false);
+        } else {
+          resolve(code >= 200 && code < 300 ? /^image\//i.test(String(headers["content-type"] || "image/")) : true);
+        }
+      });
+    } catch {
+      return resolve(true);
+    }
+    req.on("timeout", () => req.destroy());
+    req.on("error", () => resolve(true));
+    req.end();
+  });
+}
+
+/**
+ * The first `n` candidates, in order, that have a photo of their own that
+ * works. `photo` reads a candidate's photo URL.
+ * @template T
+ * @param {T[]} candidates
+ * @param {(c: T) => string | null | undefined} photo
+ * @param {number} n
+ * @returns {Promise<T[]>}
+ */
+async function withOwnPhotos(candidates, photo, n) {
+  const urls = [...new Set(candidates.map(photo).filter(Boolean))];
+  const ok = new Map(await Promise.all(urls.map(async (u) => [u, await photoWorks(u)])));
+  const used = new Set();
+  const out = [];
+  for (const c of candidates) {
+    const u = photo(c);
+    if (!u || used.has(u) || !ok.get(u)) continue;
+    used.add(u);
+    out.push(c);
+    if (out.length === n) break;
+  }
+  return out;
+}
 
 const answer = (slug) => {
   const a = ALL_ANSWERS.find((x) => x.slug === slug);
@@ -191,9 +284,13 @@ function journeyRows(op, s) {
     const hit = scored.filter((x) => re.test(x.j.title) && !pinned.includes(x)).sort(byDate)[0];
     if (hit) pinned.push(hit);
   }
-  // One row per distinct cleaned title: Belmond files "Paris to Venice" twice.
+  // After the pins, only what `prefer` names: a row that has left the
+  // section's story (an Amazon cruise under the Mara headline) reads worse
+  // than one row fewer, and the photo rule can now leave slots to fill.
+  // One row per distinct cleaned title: Belmond files "Paris to Venice" twice,
+  // and "Wales" again as "Wales (Autumn)".
   const seen = new Set();
-  return [...pinned, ...scored.filter((x) => !pinned.includes(x))
+  return [...pinned, ...scored.filter((x) => !pinned.includes(x) && (!s.prefer || x.preferred))
     .sort(
       (a, b) =>
         Number(b.preferred) - Number(a.preferred) ||
@@ -201,12 +298,11 @@ function journeyRows(op, s) {
         b.j.departures.length - a.j.departures.length,
     )]
     .filter((x) => {
-      const k = cleanTitle(x.j.title).toLowerCase();
+      const k = cleanTitle(x.j.title).replace(/\s*\((spring|summer|autumn|fall|winter)\)$/i, "").toLowerCase();
       if (seen.has(k)) return false;
       seen.add(k);
       return true;
     })
-    .slice(0, 5)
     .map(({ j, inWindow }) => ({
       title: cleanTitle(j.title),
       href: j.path,
@@ -221,13 +317,21 @@ function journeyRows(op, s) {
     }));
 }
 
-function operatorCard(op, s) {
+function operatorCard(op, s, rows) {
   const facts = [];
+  // The ships the rows sail on come first, in row order, so the card names
+  // the ship in the lead story (Seabourn Venture) rather than the first three
+  // in the facts file.
+  const shown = (v) => {
+    const i = rows.findIndex((r) => r.meta.includes(v.name));
+    return i < 0 ? rows.length : i;
+  };
+  const vessels = [...op.vesselFacts].sort((a, b) => shown(a) - shown(b));
   if (s.collection === "jet" && op.vesselFacts[0]) {
     facts.push(["Aircraft", op.vesselFacts[0].name]);
     if (op.vesselFacts[0].guests) facts.push(["Guests", String(op.vesselFacts[0].guests)]);
   } else {
-    for (const v of op.vesselFacts.slice(0, 3)) facts.push([v.name, v.guests ? `${v.guests} guests` : v.detail || ""]);
+    for (const v of vessels.slice(0, 3)) facts.push([v.name, v.guests ? `${v.guests} guests` : v.detail || ""]);
   }
   facts.push(["On the atlas", `${op.itineraries.length} itineraries${op.departures.length ? ` · ${op.departures.length} departures` : ""}`]);
   if (op.firstDate) facts.push(["Dates", `${fmtMonth(op.firstDate)} to ${fmtMonth(op.lastDate)}`]);
@@ -267,24 +371,29 @@ function hotelSection(s) {
 }
 
 /**
- * The photo for a villa destination's tile: its highest-rate villa that has a
- * photo. Rated villas only, so "Call for Pricing" never wins by default; the
- * rate picks the picture and is never shown. Ties go to the larger house.
+ * The photo for a villa destination's tile: its highest-rate villa whose
+ * photo works. Rated villas only, so "Call for Pricing" never wins by default;
+ * the rate picks the picture and is never shown. Ties go to the larger house.
+ * A destination with no working photo is left off the page.
  */
-function villaCover(slug) {
+async function villaCover(slug) {
   const d = getVillaDestination(slug);
-  const best = (d?.villas || [])
+  const ranked = (d?.villas || [])
     .filter((v) => v.imageUrl && v.nightlyFromUsd)
-    .sort((a, b) => b.nightlyFromUsd - a.nightlyFromUsd || (b.bedrooms || 0) - (a.bedrooms || 0))[0];
-  return best
-    ? { photo: best.imageUrl, pictured: [best.name, best.location].filter(Boolean).join(", "), count: d.count }
-    : { photo: null, pictured: null, count: d?.count || 0 };
+    .sort((a, b) => b.nightlyFromUsd - a.nightlyFromUsd || (b.bedrooms || 0) - (a.bedrooms || 0))
+    .slice(0, 4);
+  for (const v of ranked) {
+    if (await photoWorks(v.imageUrl)) {
+      return { photo: v.imageUrl, pictured: [v.name, v.location].filter(Boolean).join(", "), count: d.count };
+    }
+  }
+  return null;
 }
 
 /** The resolved sections, in page order. A section with nothing to show is dropped. */
-/** @returns {any[]} */
-export function homeSections() {
-  return SECTIONS.map((s) => {
+/** @returns {Promise<any[]>} */
+export async function homeSections() {
+  const sections = await Promise.all(SECTIONS.map(async (s) => {
     const base = {
       id: s.id,
       collection: s.collection,
@@ -295,13 +404,17 @@ export function homeSections() {
       answers: (s.answers || []).map(answer).filter(Boolean),
     };
     if (s.collection === "hotel") {
-      const { rows, card } = hotelSection(s);
+      const { rows: all, card } = hotelSection(s);
+      const rows = await withOwnPhotos(all, (r) => r.thumb, ROWS);
       return rows.length ? { ...base, rows, card } : null;
     }
     if (s.collection === "villa") {
+      const covers = await Promise.all(s.destinations.map(([slug]) => villaCover(slug)));
       return {
         ...base,
-        destinations: s.destinations.map(([slug, name]) => ({ name, href: `/villas/${slug}`, ...villaCover(slug) })),
+        destinations: s.destinations
+          .map(([slug, name], i) => covers[i] && { name, href: `/villas/${slug}`, ...covers[i] })
+          .filter(Boolean),
         card: {
           eyebrow: "Start here",
           name: "Villas by destination",
@@ -313,9 +426,10 @@ export function homeSections() {
     }
     const op = getJourneyOperator(s.collection, slugify(s.operator));
     if (!op) return null;
-    const rows = journeyRows(op, s);
-    return rows.length ? { ...base, rows, card: operatorCard(op, s) } : null;
-  }).filter(Boolean);
+    const rows = await withOwnPhotos(journeyRows(op, s), (r) => r.thumb, ROWS);
+    return rows.length ? { ...base, rows, card: operatorCard(op, s, rows) } : null;
+  }));
+  return sections.filter(Boolean);
 }
 
 /** @returns {any[]} */
