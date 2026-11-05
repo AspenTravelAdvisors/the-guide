@@ -314,6 +314,24 @@ export const getHotelBrand = (slug) => hotelBrands().find((b) => b.slug === slug
 /** @type {(brandName: string) => string | null} */
 export const brandPathFor = (brandName) => hotelBrands().find((b) => b.name === brandName)?.path || null;
 
+/**
+ * The page an answer's `{{op:…}}` / `{{brand:…}}` token links to, or null.
+ *
+ * Only indexable pages: a single-itinerary operator page is noindex because it
+ * repeats its itinerary's page, and pointing editorial links at it would spend
+ * them on a page we have asked engines to ignore. Null leaves the words in the
+ * sentence unlinked; scripts/verify-seo.mjs is what notices.
+ */
+/** @type {(kind: string, collection: string, name: string) => string | null} */
+export function supplierHref(kind, collection, name) {
+  const want = norm(name);
+  const page =
+    kind === "brand"
+      ? hotelBrands().find((b) => norm(b.name) === want)
+      : journeyOperators(collection).find((o) => norm(o.name) === want);
+  return page && page.indexable ? page.path : null;
+}
+
 /* ── Sitemap ── */
 
 /** @returns {{url: string, priority: number}[]} */

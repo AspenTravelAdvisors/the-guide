@@ -19,7 +19,7 @@ export const expeditionAnswers = [
     capsule:
       "For a first Antarctica trip, book a 10–12 day Antarctic Peninsula expedition on a ship carrying 200 guests or fewer, departing in December or January. Choose Lindblad–National Geographic, Quark or Aurora for the adventure-forward version, or Silversea, Seabourn or Ponant if the polar day should end with a butler and a wine list.",
     answer: [
-      "For a first Antarctica trip, book a classic 10–12 day Antarctic Peninsula expedition on a ship carrying 200 guests or fewer, in December or January, with an operator whose expedition team — not just the ship — is the product: Lindblad–National Geographic, Quark, or Aurora for the adventure-forward version; Silversea, Seabourn or Ponant if you want the polar day to end with a butler and a proper wine list.",
+      "For a first Antarctica trip, book a classic 10–12 day Antarctic Peninsula expedition on a ship carrying 200 guests or fewer, in December or January, with an operator whose expedition team — not just the ship — is the product: {{op:cruise/National Geographic-Lindblad Expeditions|Lindblad–National Geographic}}, {{op:cruise/Quark Expeditions|Quark}}, or {{op:cruise/Aurora Expeditions|Aurora}} for the adventure-forward version; {{op:cruise/Silversea}}, {{op:cruise/Seabourn}} or {{op:cruise/PONANT EXPLORATIONS|Ponant}} if you want the polar day to end with a butler and a proper wine list.",
       "Skip the longer South Georgia + Falklands combinations the first time (magnificent, but 18–23 days), and decide early on the one question that shapes everything else: sail the Drake Passage both ways, or fly over it from Punta Arenas and board in Antarctica. The Expedition Bucket List atlas currently tracks {{departures:collection=cruise&region=Antarctica}} Antarctic departures across nine expedition lines, so there is almost always a sailing that fits your dates.",
     ],
     sections: [
@@ -40,11 +40,11 @@ export const expeditionAnswers = [
           rows: [
             ["Lindblad–National Geographic", "{{departures:collection=cruise&operator=National Geographic-Lindblad Expeditions&region=Antarctica}}", "Learning-first travelers; photo instruction on every sailing"],
             ["Seabourn", "{{departures:collection=cruise&operator=Seabourn&region=Antarctica}}", "Luxury-first; all-suite ships with submarines"],
-            ["HX Expeditions", "{{departures:collection=cruise&operator=HX Expeditions&region=Antarctica}}", "Value on larger hybrid-powered ships"],
+            ["{{op:cruise/HX Expeditions}}", "{{departures:collection=cruise&operator=HX Expeditions&region=Antarctica}}", "Value on larger hybrid-powered ships"],
             ["Quark Expeditions", "{{departures:collection=cruise&operator=Quark Expeditions&region=Antarctica}}", "Adventure add-ons: helicopters (Ultramarine), camping, kayaks"],
-            ["Atlas Ocean Voyages", "{{departures:collection=cruise&operator=Atlas Ocean Voyages&region=Antarctica}}", "Yacht-styled ships under the 200-guest threshold"],
+            ["{{op:cruise/Atlas Ocean Voyages}}", "{{departures:collection=cruise&operator=Atlas Ocean Voyages&region=Antarctica}}", "Yacht-styled ships under the 200-guest threshold"],
             ["Ponant", "{{departures:collection=cruise&operator=PONANT EXPLORATIONS&region=Antarctica}}", "French luxury; Le Commandant Charcot for the ice-obsessed"],
-            ["Swan Hellenic", "{{departures:collection=cruise&operator=Swan Hellenic&region=Antarctica}}", "Quiet, small, culturally minded"],
+            ["{{op:cruise/Swan Hellenic}}", "{{departures:collection=cruise&operator=Swan Hellenic&region=Antarctica}}", "Quiet, small, culturally minded"],
             ["Aurora Expeditions", "{{departures:collection=cruise&operator=Aurora Expeditions&region=Antarctica}}", "Small ships, big activity menu, strong guide ratio"],
             ["Silversea", "{{departures:collection=cruise&operator=Silversea&region=Antarctica}}", "Butler-service luxury, with fly-the-Drake programs"],
           ],
@@ -104,8 +104,8 @@ export const expeditionAnswers = [
     capsule:
       "Quark runs the deepest expedition benches in the polar fleet — Ultramarine carries 37 guides for 199 guests, and World Voyager about one guide per 5 guests — followed by Aurora Expeditions and Quark's Ocean Explorer at about 1:7. Lindblad–National Geographic runs about 1:9 but adds a certified photo instructor and an undersea team on every polar sailing.",
     answer: [
-      "Among the major polar fleets, Quark carries the deepest benches — a 37-person expedition team for 199 guests on Ultramarine, and about one guide per 5 guests on the 168-guest World Voyager — followed by Aurora Expeditions (about 1:7 on Greg Mortimer and Sylvia Earle) and Quark's Ocean Explorer (about 1:7). Lindblad–National Geographic runs about one naturalist per 9–10 guests but supplements the ratio with specialists: a certified photo instructor on every polar sailing and an undersea team on many.",
-      "In the Galápagos the math is regulated: the national park requires at least one licensed naturalist per 16 guests, and the luxury fleet beats it — Silver Origin advertises about 1:10, Aqua Mare's 16-guest superyacht runs private-guide territory, and HX's 90-guest Santa Cruz II runs about 1:11 with Ecuadorian naturalists, well above the park minimum.",
+      "Among the major polar fleets, {{op:cruise/Quark Expeditions|Quark}} carries the deepest benches — a 37-person expedition team for 199 guests on Ultramarine, and about one guide per 5 guests on the 168-guest World Voyager — followed by {{op:cruise/Aurora Expeditions}} (about 1:7 on Greg Mortimer and Sylvia Earle) and Quark's Ocean Explorer (about 1:7). {{op:cruise/National Geographic-Lindblad Expeditions|Lindblad–National Geographic}} runs about one naturalist per 9–10 guests but supplements the ratio with specialists: a certified photo instructor on every polar sailing and an undersea team on many.",
+      "In the Galápagos the math is regulated: the national park requires at least one licensed naturalist per 16 guests, and the luxury fleet beats it — Silver Origin advertises about 1:10, Aqua Mare's 16-guest superyacht runs private-guide territory, and {{op:cruise/HX Expeditions|HX}}'s 90-guest Santa Cruz II runs about 1:11 with Ecuadorian naturalists, well above the park minimum.",
     ],
     sections: [
       {
@@ -115,18 +115,18 @@ export const expeditionAnswers = [
             "Published expedition-team sizes vs. guest capacity (polar sailing capacity where lower). Figures compiled July 2026 from operator materials; teams vary by departure — treat as typical, and confirm on your sailing.",
           columns: ["Ship (operator)", "Guests", "Expedition team", "Approx. ratio"],
           rows: [
-            ["Aqua Mare (Aqua Expeditions, Galápagos)", "16", "2 naturalists + crew", "1:8, near-private"],
+            ["Aqua Mare ({{op:cruise/Aqua Expeditions}}, Galápagos)", "16", "2 naturalists + crew", "1:8, near-private"],
             ["Ultramarine (Quark)", "199", "37", "1:5"],
             ["World Voyager (Quark)", "168", "~34", "1:5"],
             ["Ocean Explorer (Quark)", "138", "20", "1:7"],
             ["Greg Mortimer / Sylvia Earle (Aurora)", "130–132", "18", "1:7"],
             ["NG Endurance / NG Resolution (Lindblad)", "138", "16", "1:9"],
-            ["Silver Origin (Silversea, Galápagos)", "100", "10", "1:10"],
+            ["Silver Origin ({{op:cruise/Silversea}}, Galápagos)", "100", "10", "1:10"],
             ["Silver Endeavour (Silversea)", "200 polar", "22", "1:9"],
             ["Santa Cruz II (HX, Galápagos)", "90", "8", "1:11"],
             ["NG Explorer (Lindblad)", "148", "14", "1:11"],
             ["Seabourn Venture / Pursuit", "264", "24", "1:11"],
-            ["SH Vega / SH Minerva (Swan Hellenic)", "152", "12", "1:13"],
+            ["SH Vega / SH Minerva ({{op:cruise/Swan Hellenic}})", "152", "12", "1:13"],
             ["Ponant Explorers class", "184", "12", "1:15"],
             ["MS Roald Amundsen / Fridtjof Nansen (HX)", "up to 500", "20", "1:25"],
           ],
@@ -176,7 +176,7 @@ export const expeditionAnswers = [
     capsule:
       "For a photography-led expedition, book Lindblad–National Geographic: a certified photo instructor sails every departure, National Geographic photographers join selected ones, and the onboard culture is built around the craft. Ponant and Silversea offer better light-to-luxury ratios; Quark's helicopters on Ultramarine buy aerial angles nothing else in the fleet can reach.",
     answer: [
-      "Lindblad–National Geographic is the category leader for photographers: a certified photo instructor sails on every expedition, National Geographic photographers join select departures, and the onboard culture — lectures, editing help, gear lockers, an undersea team feeding you footage — is built around the craft. If your trip is primarily a photography trip, start there.",
+      "{{op:cruise/National Geographic-Lindblad Expeditions|Lindblad–National Geographic}} is the category leader for photographers: a certified photo instructor sails on every expedition, National Geographic photographers join select departures, and the onboard culture — lectures, editing help, gear lockers, an undersea team feeding you footage — is built around the craft. If your trip is primarily a photography trip, start there.",
       "Beyond the brand, book for light and access: Antarctica in late February–March (low golden light, whales, no midnight glare), Svalbard in June–July for polar bears on pack ice, and the Galápagos any month for wildlife that refuses to move away from your lens. Prefer ships under 200 guests — more landings, longer landings — and itineraries with Zodiac-cruising days, which put you at water level where the pictures are.",
     ],
     sections: [
@@ -196,10 +196,10 @@ export const expeditionAnswers = [
           columns: ["Operator", "Photography case"],
           rows: [
             ["Lindblad–National Geographic", "The reference standard: photo instructor on every sailing, Nat Geo photographers on select departures, undersea video team, editing workshops"],
-            ["Quark (Ultramarine)", "Helicopter aerials — the only way to shoot the Peninsula from above; strong ratio means small shooting groups"],
-            ["Aurora Expeditions", "Small ships, activity-heavy, patient with wildlife stops; strong for the DIY photographer"],
-            ["Silversea / Seabourn", "Excellent access with luxury logistics; photo programming lighter and departure-dependent"],
-            ["Ponant (Le Commandant Charcot)", "Subjects nobody else can reach: the North Pole, deep pack ice, emperor penguin territory"],
+            ["{{op:cruise/Quark Expeditions|Quark}} (Ultramarine)", "Helicopter aerials — the only way to shoot the Peninsula from above; strong ratio means small shooting groups"],
+            ["{{op:cruise/Aurora Expeditions}}", "Small ships, activity-heavy, patient with wildlife stops; strong for the DIY photographer"],
+            ["{{op:cruise/Silversea}} / {{op:cruise/Seabourn}}", "Excellent access with luxury logistics; photo programming lighter and departure-dependent"],
+            ["{{op:cruise/PONANT EXPLORATIONS|Ponant}} (Le Commandant Charcot)", "Subjects nobody else can reach: the North Pole, deep pack ice, emperor penguin territory"],
           ],
         },
       },
@@ -245,9 +245,9 @@ export const expeditionAnswers = [
     capsule:
       "The smallest true luxury expedition ships are Aqua Mare (16 guests), National Geographic Islander II (48) and Silver Origin (100) in the Galápagos; and in polar waters National Geographic Orion (102), Aurora's Sylvia Earle and Greg Mortimer (about 130), and Quark's Ocean Explorer and Lindblad's Endurance and Resolution (138 each). Under 200 guests is where landings stop being rotated.",
     answer: [
-      "The smallest true luxury expedition vessels are Aqua Mare (16 guests, Galápagos), National Geographic Islander II (48, Galápagos), Silver Origin (100, Galápagos), and in polar waters National Geographic Orion (102), Aurora's Sylvia Earle and Greg Mortimer (about 130), and Quark's Ocean Explorer and Lindblad's NG Endurance and NG Resolution (138 each).",
+      "The smallest true luxury expedition vessels are Aqua Mare (16 guests, Galápagos), National Geographic Islander II (48, Galápagos), Silver Origin (100, Galápagos), and in polar waters National Geographic Orion (102), {{op:cruise/Aurora Expeditions|Aurora}}'s Sylvia Earle and Greg Mortimer (about 130), and {{op:cruise/Quark Expeditions|Quark}}'s Ocean Explorer and {{op:cruise/National Geographic-Lindblad Expeditions|Lindblad}}'s NG Endurance and NG Resolution (138 each).",
       "Size is not a taste question in Antarctica — it's arithmetic. IAATO rules allow a maximum of 100 guests ashore at any moment and bar ships over 500 guests from landing anyone at all. A 130-guest ship can put essentially everyone ashore in one go, twice a day; a 450-guest ship rotates you through the same window. Under 200 guests is the line that keeps the continent unrationed.",
-      "In the Galápagos, where every ship is small by law, HX's 90-guest Santa Cruz II sits in the same size band as Silver Origin at a lower price, and is the one to look at if the budget matters as much as the guest count.",
+      "In the Galápagos, where every ship is small by law, {{op:cruise/HX Expeditions|HX}}'s 90-guest Santa Cruz II sits in the same size band as Silver Origin at a lower price, and is the one to look at if the budget matters as much as the guest count.",
     ],
     sections: [
       {
@@ -263,21 +263,21 @@ export const expeditionAnswers = [
           caption: "Guest capacities as published, July 2026; polar capacity shown where the ship sails reduced in Antarctica.",
           columns: ["Ship", "Operator", "Guests", "Waters"],
           rows: [
-            ["Aqua Mare", "Aqua Expeditions", "16", "Galápagos"],
+            ["Aqua Mare", "{{op:cruise/Aqua Expeditions}}", "16", "Galápagos"],
             ["Aqua Blu", "Aqua Expeditions", "30", "Indonesia"],
             ["Aria Amazon / Aqua Nera", "Aqua Expeditions", "32–40", "Amazon"],
             ["NG Islander II", "Lindblad", "48", "Galápagos"],
             ["Santa Cruz II", "HX Expeditions", "90", "Galápagos"],
             ["NG Endeavour II", "Lindblad", "96", "Galápagos"],
-            ["Silver Origin", "Silversea", "100", "Galápagos"],
+            ["Silver Origin", "{{op:cruise/Silversea}}", "100", "Galápagos"],
             ["NG Orion", "Lindblad", "102", "Antarctica / South Pacific"],
             ["Sylvia Earle / Greg Mortimer", "Aurora", "130–132", "Polar"],
             ["Ocean Explorer", "Quark", "138", "Polar"],
             ["NG Endurance / NG Resolution", "Lindblad", "138", "Polar"],
-            ["SH Vega / SH Minerva", "Swan Hellenic", "152", "Polar"],
+            ["SH Vega / SH Minerva", "{{op:cruise/Swan Hellenic}}", "152", "Polar"],
             ["World Voyager", "Quark", "168", "Polar"],
-            ["Ponant Explorers class", "Ponant", "184", "Worldwide"],
-            ["World Navigator class", "Atlas Ocean Voyages", "198", "Polar / Med"],
+            ["Ponant Explorers class", "{{op:cruise/PONANT EXPLORATIONS|Ponant}}", "184", "Worldwide"],
+            ["World Navigator class", "{{op:cruise/Atlas Ocean Voyages}}", "198", "Polar / Med"],
             ["Ultramarine", "Quark", "199", "Polar"],
           ],
         },
@@ -322,7 +322,7 @@ export const expeditionAnswers = [
     capsule:
       "Lindblad–National Geographic is the expedition with the best faculty, Ponant the one with the best kitchen, and Silversea the one with the best butler. All three run the same itineraries under the same IAATO rules; travelers regret them for culture rather than quality — booking Lindblad wanting champagne, or Silversea wanting a second lecture on krill.",
     answer: [
-      "Shortest honest version: Lindblad–National Geographic is the expedition with the best faculty, Ponant is the expedition with the best kitchen, and Silversea is the expedition with the best butler. All three are excellent; nobody regrets any of them for the itinerary. People regret them for the culture — booking Lindblad wanting champagne, or Silversea wanting a second lecture on krill.",
+      "Shortest honest version: {{op:cruise/National Geographic-Lindblad Expeditions|Lindblad–National Geographic}} is the expedition with the best faculty, {{op:cruise/PONANT EXPLORATIONS|Ponant}} is the expedition with the best kitchen, and {{op:cruise/Silversea}} is the expedition with the best butler. All three are excellent; nobody regrets any of them for the itinerary. People regret them for the culture — booking Lindblad wanting champagne, or Silversea wanting a second lecture on krill.",
       "Choose Lindblad if the point of the trip is to understand what you're looking at. Choose Ponant if you want the wilderness delivered in French — cuisine, cellar, design — and access to Le Commandant Charcot, the only luxury icebreaker that reaches the North Pole. Choose Silversea if you want polar expedition logistics wrapped in the same suite-and-butler service you'd get on their classic fleet, with door-to-door pricing and a fly-the-Drake option.",
     ],
     sections: [
@@ -389,7 +389,7 @@ export const expeditionAnswers = [
       },
       {
         q: "Which has the best Galápagos program?",
-        a: "Lindblad by depth — {{departures:collection=cruise&operator=National Geographic-Lindblad Expeditions&region=Galápagos}} tracked departures across its ships including the 48-guest Islander II. Silversea's Silver Origin is the single most luxurious ship in the islands. Ponant doesn't operate there. If value matters more than polish, HX's 90-guest Santa Cruz II is the alternative, and it comes with Quito and usually Machu Picchu in the fare.",
+        a: "Lindblad by depth — {{departures:collection=cruise&operator=National Geographic-Lindblad Expeditions&region=Galápagos}} tracked departures across its ships including the 48-guest Islander II. Silversea's Silver Origin is the single most luxurious ship in the islands. Ponant doesn't operate there. If value matters more than polish, {{op:cruise/HX Expeditions|HX}}'s 90-guest Santa Cruz II is the alternative, and it comes with Quito and usually Machu Picchu in the fare.",
       },
       {
         q: "Is Le Commandant Charcot worth the premium?",
@@ -417,8 +417,8 @@ export const expeditionAnswers = [
     capsule:
       "The Galápagos choice is a size choice. Lindblad–National Geographic runs the deepest program on ships of 48 and 96 guests. Silversea's 100-guest Silver Origin is the plushest ship in the archipelago. Aqua Mare's 16 guests are the closest thing to a private Galápagos. HX's 90-guest Santa Cruz II is the value pick, and the only one sold with Quito and Machu Picchu in the fare.",
     answer: [
-      "The Galápagos choice is really a size choice. Lindblad–National Geographic runs the deepest program in the islands ({{departures:collection=cruise&operator=National Geographic-Lindblad Expeditions&region=Galápagos}} departures tracked in our atlas across ships of 48 and 96 guests) with the strongest naturalist bench and family programming. Silversea's Silver Origin (100 guests) is the plushest purpose-built ship in the archipelago — butlers, a 1:10 guide ratio, Ecuadorian fine dining. Aqua Expeditions' Aqua Mare takes 16 guests on a genuine superyacht: the closest thing to a private Galápagos.",
-      "HX Expeditions is the fourth option and the one most often overlooked. Its 90-guest Santa Cruz II is run with Metropolitan Touring, the Ecuadorian company that has sailed these islands longer than anyone, and HX sells it as a complete journey: Quito, the islands, and on most departures Lima and Machu Picchu as well, with flights inside Ecuador included. It is less polished than Silver Origin and has less of a teaching program than Lindblad, but for travelers who want the islands and the Andes in one booking at a sensible price, it is often the best fit.",
+      "The Galápagos choice is really a size choice. {{op:cruise/National Geographic-Lindblad Expeditions|Lindblad–National Geographic}} runs the deepest program in the islands ({{departures:collection=cruise&operator=National Geographic-Lindblad Expeditions&region=Galápagos}} departures tracked in our atlas across ships of 48 and 96 guests) with the strongest naturalist bench and family programming. {{op:cruise/Silversea}}'s Silver Origin (100 guests) is the plushest purpose-built ship in the archipelago — butlers, a 1:10 guide ratio, Ecuadorian fine dining. {{op:cruise/Aqua Expeditions}}' Aqua Mare takes 16 guests on a genuine superyacht: the closest thing to a private Galápagos.",
+      "{{op:cruise/HX Expeditions}} is the fourth option and the one most often overlooked. Its 90-guest Santa Cruz II is run with Metropolitan Touring, the Ecuadorian company that has sailed these islands longer than anyone, and HX sells it as a complete journey: Quito, the islands, and on most departures Lima and Machu Picchu as well, with flights inside Ecuador included. It is less polished than Silver Origin and has less of a teaching program than Lindblad, but for travelers who want the islands and the Andes in one booking at a sensible price, it is often the best fit.",
       "Wildlife access is effectively identical — the national park assigns every vessel fixed itineraries and licensed naturalists, and the animals are equally indifferent to everyone. You're choosing the vessel you return to at lunch, not the islands you see.",
     ],
     sections: [
@@ -519,8 +519,8 @@ export const expeditionAnswers = [
       {
         h2: "Choosing a ship matters differently up north",
         paras: [
-          "Unlike Antarctica, there's no 100-ashore choreography around every landing — but ice capability and Zodiac agility matter more, because the Arctic's best moments are opportunistic: a bear on a floe at 11 p.m., a pod of belugas in a side fjord. Small ships with real ice class (Lindblad's Endurance and Resolution, Aurora's fleet, Swan Hellenic's PC5 pair, Quark) chase those moments; Le Commandant Charcot goes beyond all of them into the high pack and the North Pole itself.",
-          "Svalbard also supports a strong premium mid-size market (Ponant, Silversea, HX) because the archipelago is compact — you're never far from the next site, so even bigger ships deliver full days.",
+          "Unlike Antarctica, there's no 100-ashore choreography around every landing — but ice capability and Zodiac agility matter more, because the Arctic's best moments are opportunistic: a bear on a floe at 11 p.m., a pod of belugas in a side fjord. Small ships with real ice class ({{op:cruise/National Geographic-Lindblad Expeditions|Lindblad}}'s Endurance and Resolution, {{op:cruise/Aurora Expeditions|Aurora}}'s fleet, {{op:cruise/Swan Hellenic}}'s PC5 pair, {{op:cruise/Quark Expeditions|Quark}}) chase those moments; Le Commandant Charcot goes beyond all of them into the high pack and the North Pole itself.",
+          "Svalbard also supports a strong premium mid-size market ({{op:cruise/PONANT EXPLORATIONS|Ponant}}, {{op:cruise/Silversea}}, {{op:cruise/HX Expeditions|HX}}) because the archipelago is compact — you're never far from the next site, so even bigger ships deliver full days.",
         ],
       },
       {
@@ -566,7 +566,7 @@ export const expeditionAnswers = [
     capsule:
       "Kayaking is offered by nearly every serious Antarctic operator, but in small paid programs of 10–16 paddlers that sell out months ahead. Overnight ice camping is reliably run by Quark and Aurora. Submersibles are Seabourn's — Venture and Pursuit each carry two six-guest subs. Helicopters are Quark's, on Ultramarine.",
     answer: [
-      "Kayaking is offered by nearly every serious operator — Quark, Aurora, Lindblad, Silversea, Seabourn, Ponant and others — but only in small paid programs (often 10–16 paddlers per sailing) that sell out months ahead. Overnight ice camping is rarer: Quark and Aurora are the reliable names. Submersibles are Seabourn's card — Venture and Pursuit each carry two six-guest subs. Helicopters are Quark's — Ultramarine carries two, flying heli-hiking and flightseeing programs nothing else in the fleet can match.",
+      "Kayaking is offered by nearly every serious operator — {{op:cruise/Quark Expeditions|Quark}}, {{op:cruise/Aurora Expeditions|Aurora}}, {{op:cruise/National Geographic-Lindblad Expeditions|Lindblad}}, {{op:cruise/Silversea}}, {{op:cruise/Seabourn}}, {{op:cruise/PONANT EXPLORATIONS|Ponant}} and others — but only in small paid programs (often 10–16 paddlers per sailing) that sell out months ahead. Overnight ice camping is rarer: Quark and Aurora are the reliable names. Submersibles are Seabourn's card — Venture and Pursuit each carry two six-guest subs. Helicopters are Quark's — Ultramarine carries two, flying heli-hiking and flightseeing programs nothing else in the fleet can match.",
       "The rule across all of it: adventure options are capacity-capped, weather-dependent, and booked at reservation time, not on board. If the polar plunge is the only add-on you want, relax — everyone offers that, weather permitting, free.",
     ],
     sections: [
@@ -576,7 +576,7 @@ export const expeditionAnswers = [
           caption: "Compiled from operator materials, July 2026. Availability varies by departure — confirm the specific sailing before booking.",
           columns: ["Activity", "Operators / ships", "Typical capacity", "Notes"],
           rows: [
-            ["Sea kayaking", "Quark, Aurora, Lindblad, Silversea, Seabourn, Ponant, HX", "10–16 guests per sailing", "Paid program; some lines require prior experience, others train"],
+            ["Sea kayaking", "Quark, Aurora, Lindblad, Silversea, Seabourn, Ponant, {{op:cruise/HX Expeditions|HX}}", "10–16 guests per sailing", "Paid program; some lines require prior experience, others train"],
             ["Overnight ice camping", "Quark, Aurora", "20–30 per night", "One night, bivvy bags on snow; sells out first"],
             ["Submersible dives", "Seabourn (Venture, Pursuit)", "2 subs × 6 guests", "Weather- and site-dependent; book early, expect waitlists"],
             ["Helicopter flightseeing / heli-hiking", "Quark (Ultramarine)", "2 helicopters", "The only heli program in the luxury Antarctic fleet"],
@@ -631,7 +631,7 @@ export const expeditionAnswers = [
     capsule:
       "Yes, the luxury expedition ships are real expedition ships: Seabourn's and Silversea's carry 20-plus-person expedition teams, proper Zodiac fleets and ice-classed hulls, and land guests under the same IAATO rules as anyone else. What they trade is opportunism — 200–264 guests means rotated landings and a service schedule that sits less easily with weather that changes by the hour.",
     answer: [
-      "Yes — it's real. Seabourn's and Silversea's expedition ships carry 20-plus-person expedition teams, proper Zodiac fleets and PC6 ice-classed hulls, and they land you on the same beaches under the same IAATO rules as anyone else. The penguins do not check your thread count. What the luxury tier trades is a degree of expedition opportunism: bigger ships (200–264 guests) mean rotated landings, and a service schedule built around dinner sits less comfortably with 'the bears are here NOW' than a field-first operation like Quark or Aurora.",
+      "Yes — it's real. {{op:cruise/Seabourn}}'s and {{op:cruise/Silversea}}'s expedition ships carry 20-plus-person expedition teams, proper Zodiac fleets and PC6 ice-classed hulls, and they land you on the same beaches under the same IAATO rules as anyone else. The penguins do not check your thread count. What the luxury tier trades is a degree of expedition opportunism: bigger ships (200–264 guests) mean rotated landings, and a service schedule built around dinner sits less comfortably with 'the bears are here NOW' than a field-first operation like {{op:cruise/Quark Expeditions|Quark}} or {{op:cruise/Aurora Expeditions|Aurora}}.",
       "The honest framing isn't real vs. fake — it's expedition-first vs. comfort-first, and where you want the compromise to land on the days when weather forces one.",
     ],
     sections: [
@@ -649,7 +649,7 @@ export const expeditionAnswers = [
         table: {
           columns: ["", "Expedition-first (Quark, Aurora, Lindblad)", "Comfort-first (Seabourn, Silversea, Ponant)"],
           rows: [
-            ["Ship size", "100–200 guests", "185–264 (500 at HX)"],
+            ["Ship size", "100–200 guests", "185–264 (500 at {{op:cruise/HX Expeditions|HX}})"],
             ["Landings per day", "Usually 2, occasionally 3", "Usually 2, rotation-managed"],
             ["Schedule culture", "Wildlife interrupts meals", "Meals mostly survive wildlife"],
             ["Adventure menu", "Camping, climbing, diving, helicopters", "Kayaks, submarines (Seabourn), spa"],
@@ -662,8 +662,8 @@ export const expeditionAnswers = [
       {
         h2: "Our advice by traveler",
         paras: [
-          "If the destination is the reward and the ship is transport: Quark, Aurora, Lindblad. If the trip must also be a holiday — a couple where one person is being persuaded, an anniversary, anyone allergic to bunk-adjacent bathrooms — the luxury tier is precisely what gets that second traveler to Antarctica happily, and it loses surprisingly little. The failure mode is only ever mismatch: hardcore travelers feeling scheduled on a luxury ship, or comfort travelers feeling weathered on a field ship.",
-          "One genuinely underrated option: Ponant's Le Commandant Charcot is simultaneously the most luxurious and the most capable vessel in the fleet — the one place the dichotomy collapses.",
+          "If the destination is the reward and the ship is transport: Quark, Aurora, {{op:cruise/National Geographic-Lindblad Expeditions|Lindblad}}. If the trip must also be a holiday — a couple where one person is being persuaded, an anniversary, anyone allergic to bunk-adjacent bathrooms — the luxury tier is precisely what gets that second traveler to Antarctica happily, and it loses surprisingly little. The failure mode is only ever mismatch: hardcore travelers feeling scheduled on a luxury ship, or comfort travelers feeling weathered on a field ship.",
+          "One genuinely underrated option: {{op:cruise/PONANT EXPLORATIONS|Ponant}}'s Le Commandant Charcot is simultaneously the most luxurious and the most capable vessel in the fleet — the one place the dichotomy collapses.",
         ],
       },
     ],

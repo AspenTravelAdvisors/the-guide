@@ -23,7 +23,7 @@ export const journeyAnswers = [
       {
         h2: "Where the money actually comes from",
         paras: [
-          "Luxury suppliers price commission into their published rates whether or not an advisor is involved — book direct and the hotel simply keeps it. This is why rate parity holds: Four Seasons quotes the same flexible rate on its website and through its Preferred Partner advisors; the difference is that the advisor booking arrives flagged VIP with breakfast, credit and upgrade priority attached.",
+          "Luxury suppliers price commission into their published rates whether or not an advisor is involved — book direct and the hotel simply keeps it. This is why rate parity holds: {{brand:Four Seasons}} quotes the same flexible rate on its website and through its Preferred Partner advisors; the difference is that the advisor booking arrives flagged VIP with breakfast, credit and upgrade priority attached.",
           "It's also why 'I'll get it cheaper myself' is usually backwards at this tier: the same $1,200 night costs the same either way — one version includes $150 of breakfast and a $100 credit; one doesn't.",
         ],
       },
@@ -94,10 +94,10 @@ export const journeyAnswers = [
           caption: "From the {{collection:worldcruise}} world-cruise departures in our atlas.",
           columns: ["Tier", "Lines", "Who it's for"],
           rows: [
-            ["Luxury all-inclusive", "Regent, Silversea, Seabourn, Crystal, Explora", "Everything-in fares (air, excursions, gratuities on some); suite living for four months"],
-            ["Premium", "Oceania, Viking, Azamara", "Food-first (Oceania), culture-first (Viking, no casinos, no kids), port-intensive (Azamara)"],
-            ["Classic", "Cunard, Holland America, Princess", "The Cunard crossing-and-ballroom tradition; HAL/Princess value and itinerary breadth"],
-            ["Unconventional", "Windstar, Lindblad", "Small-ship and expedition-flavored long voyages rather than classic circumnavigations"],
+            ["Luxury all-inclusive", "{{op:worldcruise/Regent Seven Seas|Regent}}, {{op:worldcruise/Silversea}}, {{op:worldcruise/Seabourn}}, {{op:worldcruise/Crystal}}, {{op:worldcruise/Explora Journeys|Explora}}", "Everything-in fares (air, excursions, gratuities on some); suite living for four months"],
+            ["Premium", "{{op:worldcruise/Oceania Cruises|Oceania}}, {{op:worldcruise/Viking}}, {{op:worldcruise/Azamara}}", "Food-first (Oceania), culture-first (Viking, no casinos, no kids), port-intensive (Azamara)"],
+            ["Classic", "{{op:worldcruise/Cunard}}, {{op:worldcruise/Holland America}}, {{op:worldcruise/Princess Cruises|Princess}}", "The Cunard crossing-and-ballroom tradition; HAL/Princess value and itinerary breadth"],
+            ["Unconventional", "{{op:worldcruise/Windstar Cruises|Windstar}}, {{op:cruise/National Geographic-Lindblad Expeditions|Lindblad}}", "Small-ship and expedition-flavored long voyages rather than classic circumnavigations"],
           ],
         },
       },
@@ -145,7 +145,7 @@ export const journeyAnswers = [
     capsule:
       "The luxury rail canon: the Venice Simplon-Orient-Express for the definitive one-night journey, La Dolce Vita Orient Express for Italy, Belmond's Royal Scotsman for the Highlands and Andean Explorer for Peru, Rovos Rail and the Blue Train in South Africa, Japan's ballot-only Seven Stars and Shiki-shima, and the Glacier Express Excellence Class through the Alps.",
     answer: [
-      "The canon, ranked by how often they reward the fare: the Venice Simplon-Orient-Express (Belmond) remains the definitive one-night masterpiece — Paris/London to Venice in 1920s carriages, the single best first luxury train; La Dolce Vita Orient Express is the new Italian counterpoint, running Rome-based loops in midcentury-modern style; Belmond's Royal Scotsman (Highlands, whisky, 40 guests) and Andean Explorer (Cusco–Titicaca–Arequipa, the highest luxury sleeper on earth) own their landscapes; and Rocky Mountaineer (daylight-only, hotel nights) is the right answer for the Canadian Rockies and travelers who want scenery without sleeping on rails.",
+      "The canon, ranked by how often they reward the fare: the Venice Simplon-Orient-Express ({{op:train/Belmond Trains|Belmond}}) remains the definitive one-night masterpiece — Paris/London to Venice in 1920s carriages, the single best first luxury train; {{op:train/La Dolce Vita Orient Express}} is the new Italian counterpoint, running Rome-based loops in midcentury-modern style; Belmond's Royal Scotsman (Highlands, whisky, 40 guests) and Andean Explorer (Cusco–Titicaca–Arequipa, the highest luxury sleeper on earth) own their landscapes; and Rocky Mountaineer (daylight-only, hotel nights) is the right answer for the Canadian Rockies and travelers who want scenery without sleeping on rails.",
       "Our rail atlas tracks {{collection:train}} luxury rail journeys and rail-centered itineraries worldwide — including Japan by rail (where the ultra-exclusive Seven Stars and Shiki-shima run by ballot), the Alps by Glacier Express Excellence Class, and multi-country itineraries that thread trains into a larger trip, which is how we most often deploy them.",
     ],
     sections: [
@@ -204,7 +204,7 @@ export const journeyAnswers = [
     capsule:
       "Book a hotel-brand yacht cruise — Ritz-Carlton, Four Seasons, Orient Express or Aman — when you want yacht life without yacht responsibility, at roughly $1,500–$4,000 a night for two. Charter privately when the group is the point: a crewed six-cabin yacht runs $150,000–$400,000 a week plus about 30–35% in expenses, and the itinerary, chef and guest list answer to you.",
     answer: [
-      "Book the yacht cruise when you want yacht life without yacht responsibility: the hotel-brand fleet — Ritz-Carlton Yacht Collection, Four Seasons Yachts, Orient Express Sailing Yachts and Aman at Sea — sells suite-level cabins from roughly $1,500–$4,000 per night for two, with restaurants, spas, marinas off the stern and zero decisions required. Our yacht atlas tracks {{collection:yacht}} sailings across these four brands. Charter privately when the group is the point: a crewed 6-cabin yacht for 8–12 guests runs about $150,000–$400,000+ per week plus roughly 30–35% for fuel, food, dockage and gratuity (the APA) — which works out at roughly two and a half to four times the per-person cost of a suite on a brand yacht, and what the difference buys is that the itinerary, the chef and the guest list answer to you.",
+      "Book the yacht cruise when you want yacht life without yacht responsibility: the hotel-brand fleet — {{op:yacht/Ritz-Carlton Yacht Collection}}, {{op:yacht/Four Seasons Yachts}}, {{op:yacht/Orient Express Sailing Yachts}} and {{op:yacht/Aman at Sea}} — sells suite-level cabins from roughly $1,500–$4,000 per night for two, with restaurants, spas, marinas off the stern and zero decisions required. Our yacht atlas tracks {{collection:yacht}} sailings across these four brands. Charter privately when the group is the point: a crewed 6-cabin yacht for 8–12 guests runs about $150,000–$400,000+ per week plus roughly 30–35% for fuel, food, dockage and gratuity (the APA) — which works out at roughly two and a half to four times the per-person cost of a suite on a brand yacht, and what the difference buys is that the itinerary, the chef and the guest list answer to you.",
       "Rule of thumb: fewer than 6 people or a first taste of yacht travel → the brand yachts. Eight-plus people, a milestone, or strong opinions about anchorages → charter.",
     ],
     sections: [
@@ -384,23 +384,23 @@ export const journeyAnswers = [
           caption: "2027 world voyages and the segments each line sells from them, from the sailings in our world-cruise atlas (supplier feed, checked 2026-10-01). Ports counts every port and scenic passage on the route, including embarkation and disembarkation. The atlas holds voyages of about 45 nights and longer, so shorter segments sold by some lines are not listed here.",
           columns: ["Line and ship", "Voyage or segment", "2027 dates", "Nights", "Ports", "Along the way"],
           rows: [
-            ["Cunard, Queen Victoria", "Full world voyage, Southampton round trip", "10 Jan – 30 Apr", "110", "32", "New York, Fiji, Manila, Durban"],
+            ["{{op:worldcruise/Cunard}}, Queen Victoria", "Full world voyage, Southampton round trip", "10 Jan – 30 Apr", "110", "32", "New York, Fiji, Manila, Durban"],
             ["Cunard, Queen Victoria", "Southampton to Sydney", "10 Jan – 24 Feb", "45", "12", "New York, Hawaii, New Caledonia"],
             ["Cunard, Queen Victoria", "Sydney to Southampton", "24 Feb – 30 Apr", "65", "22", "Great Barrier Reef, Manila, Singapore, Cape Town"],
             ["Cunard, Queen Victoria", "Hong Kong to Southampton", "15 Mar – 30 Apr", "46", "15", "Vietnam, Mauritius, Cape Town, Madeira"],
-            ["Seabourn, Seabourn Quest", "Full world cruise, Miami round trip", "5 Jan – 30 May", "145", "66", "Panama Canal, New Zealand, Australia"],
+            ["{{op:worldcruise/Seabourn}}, Seabourn Quest", "Full world cruise, Miami round trip", "5 Jan – 30 May", "145", "66", "Panama Canal, New Zealand, Australia"],
             ["Seabourn, Seabourn Quest", "Miami to Sydney", "5 Jan – 9 Mar", "63", "30", "Panama Canal, Marquesas, Cook Islands, New Zealand"],
             ["Seabourn, Seabourn Quest", "Sydney to Long Beach", "9 Mar – 11 May", "63", "31", "Tasmania, Western Australia, Cairns, Fiji, Hawaii"],
             ["Seabourn, Seabourn Quest", "Brisbane to Miami", "15 Apr – 30 May", "45", "19", "Norfolk Island, Fiji, Mexico, Panama Canal"],
-            ["Holland America, Volendam", "Grand World Voyage, Fort Lauderdale round trip", "5 Jan – 15 May", "130", "53", "Panama Canal, Australia, Mauritius, Canary Islands"],
+            ["{{op:worldcruise/Holland America}}, Volendam", "Grand World Voyage, Fort Lauderdale round trip", "5 Jan – 15 May", "130", "53", "Panama Canal, Australia, Mauritius, Canary Islands"],
             ["Holland America, Volendam", "Cape Town to Fort Lauderdale", "22 Mar – 15 May", "54", "24", "Namibia, St Helena, Cape Verde, Lisbon, Bordeaux, Copenhagen"],
-            ["Azamara, Azamara Quest", "Full world cruise, San Francisco to Copenhagen", "5 Jan – 12 Jul", "188", "96", "Hawaii, Australia, Japan, Panama Canal"],
+            ["{{op:worldcruise/Azamara}}, Azamara Quest", "Full world cruise, San Francisco to Copenhagen", "5 Jan – 12 Jul", "188", "96", "Hawaii, Australia, Japan, Panama Canal"],
             ["Azamara, Azamara Quest", "San Francisco to Sydney", "5 Jan – 22 Feb", "48", "24", "Hawaii, American Samoa, New Zealand"],
             ["Azamara, Azamara Quest", "Hong Kong to London", "2 Apr – 28 Jun", "87", "48", "Taiwan, Japan, Vancouver, Cartagena"],
-            ["Oceania Cruises, Vista", "Around the World in 180 Days, Miami to Southampton", "6 Jan – 5 Jul", "180", "107", "Australia, Manila, the Adriatic"],
+            ["{{op:worldcruise/Oceania Cruises}}, Vista", "Around the World in 180 Days, Miami to Southampton", "6 Jan – 5 Jul", "180", "107", "Australia, Manila, the Adriatic"],
             ["Oceania Cruises, Vista", "Papeete to Yokohama", "8 Feb – 11 Apr", "62", "36", "Huahine, Sydney, Jakarta, Shanghai"],
             ["Oceania Cruises, Vista", "Yokohama to Rome (Civitavecchia)", "11 Apr – 15 Jun", "65", "40", "Okinawa, Phuket, Jordan, Croatia"],
-            ["Princess, Coral Princess", "World cruise, Fort Lauderdale to Los Angeles", "6 Jan – 15 May", "129", "61", "Cartagena, Vanuatu, Australia, Taiwan"],
+            ["{{op:worldcruise/Princess Cruises|Princess}}, Coral Princess", "World cruise, Fort Lauderdale to Los Angeles", "6 Jan – 15 May", "129", "61", "Cartagena, Vanuatu, Australia, Taiwan"],
             ["Princess, Coral Princess", "Los Angeles to Singapore", "21 Jan – 31 Mar", "69", "30", "Hawaii, Vanuatu, Brisbane, Hobart"],
             ["Princess, Coral Princess", "Singapore to Los Angeles", "31 Mar – 15 May", "45", "25", "Phuket, Vietnam, Osaka, Alaska"],
           ],
@@ -422,7 +422,7 @@ export const journeyAnswers = [
     faqs: [
       {
         q: "Which lines sell world cruise segments?",
-        a: "Nearly all of them, including Cunard, Seabourn, Regent Seven Seas, Silversea, Oceania, Azamara, Holland America, Princess and Viking. The exact segments each year depend on the route, and they are released at the same time as the full voyage.",
+        a: "Nearly all of them, including Cunard, Seabourn, {{op:worldcruise/Regent Seven Seas}}, {{op:worldcruise/Silversea}}, Oceania, Azamara, Holland America, Princess and {{op:worldcruise/Viking}}. The exact segments each year depend on the route, and they are released at the same time as the full voyage.",
       },
       {
         q: "Can I upgrade a segment into the full voyage later?",
@@ -452,7 +452,7 @@ export const journeyAnswers = [
       "A private jet journey is an escorted trip around the world or a region on a chartered, reconfigured aircraft with roughly 40 to 80 guests, lie-flat seats, a dedicated crew and expert lecturers. It removes every airport queue and connection. For 2027, departures cost from about $125,000 per person with National Geographic, $170,000–$190,000 for Abercrombie & Kent's round-the-world trips and $167,000–$235,000 with Four Seasons. They suit travelers who want many far-apart places in two to four weeks.",
     answer: [
       "The idea is simple: the best places on earth are rarely next to each other, and commercial flying between them is what wears a trip down. On a private jet journey the aircraft is yours for the whole trip. You arrive at a private terminal, board the same plane with the same crew each time, and step out in the next country while your luggage goes ahead to the hotel. On the ground, the stays are at the best hotels in each place, with a small team of guides and, on most trips, a physician traveling with the group.",
-      "A few operators run most of these trips. TCS World Travel is the longest-established and operates the Four Seasons Private Jet, and Abercrombie & Kent, Remote Lands and National Geographic run their own departures. Our atlas holds {{journeys:collection=jet}} jet itineraries; the typical trip runs about two to three weeks, and {{journeys:collection=jet&daysMin=21}} of them last three weeks or more.",
+      "A few operators run most of these trips. {{op:jet/TCS World Travel}} is the longest-established and operates the Four Seasons Private Jet, and {{op:jet/Abercrombie & Kent}}, {{op:jet/Remote Lands}} and {{op:jet/National Geographic}} run their own departures. Our atlas holds {{journeys:collection=jet}} jet itineraries; the typical trip runs about two to three weeks, and {{journeys:collection=jet&daysMin=21}} of them last three weeks or more.",
     ],
     sections: [
       {

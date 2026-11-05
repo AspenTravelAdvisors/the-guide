@@ -27,7 +27,7 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 import { pathToFileURL } from 'node:url';
 import { repoRoot } from '../lib/virtuoso/env.mjs';
-import { makeFacts, UnknownFactTerm } from '../lib/seo/facts.mjs';
+import { makeFacts, UnknownFactTerm, parseSupplierToken } from '../lib/seo/facts.mjs';
 import { buildAdapters } from './lib/adapters-build.mjs';
 import { groupItineraries } from '../lib/seo/journey-key.mjs';
 
@@ -37,6 +37,8 @@ const read = rel => JSON.parse(fs.readFileSync(path.join(repoRoot, rel), 'utf8')
 const nfCheck = new Intl.NumberFormat('en-US');
 const failures = [];
 const fail = (what, detail) => failures.push(`${what}: ${detail}`);
+const notes = [];
+const note = (what, detail) => notes.push(`${what}: ${detail}`);
 let checks = 0;
 const ok = () => { checks += 1; };
 
@@ -146,6 +148,43 @@ for (const a of answers) {
     if (facts.countVillas(spec) === 0) {
       fail(a.slug, `{{${body}}} matches no villa — a typo, or a destination the feed no longer carries`);
     }
+  }
+
+  /*
+   * Supplier links: `{{op:cruise/Silversea|…}}`, `{{brand:Aman}}`.
+   *
+   * The page never breaks over one of these — a supplier with no indexable
+   * page renders as plain words — which is exactly why it is checked here: a
+   * link that quietly stopped linking looks fine in a screenshot. A name the
+   * feed does not carry at all is a typo or a retired supplier, and fails. A
+   * supplier down to a single itinerary (or a single hotel) still exists but
+   * its page is noindex or absent, so the words go out unlinked; that is noted,
+   * not failed, because the sentence is still true.
+   */
+  for (const [, kind, arg] of JSON.stringify(a).matchAll(/\{\{(op|brand):([^}]+)\}\}/g)) {
+    let t;
+    try {
+      t = parseSupplierToken(kind, arg);
+    } catch (err) {
+      fail(a.slug, err.message);
+      continue;
+    }
+    ok();
+    const n =
+      kind === 'brand'
+        ? facts.count(`brand=${encodeURIComponent(t.name)}`)
+        : facts.countJourneys(`collection=${encodeURIComponent(t.collection)}&operator=${encodeURIComponent(t.name)}`);
+    const what = kind === 'brand' ? 'hotel' : 'itinerary';
+    if (n === 0) {
+      fail(a.slug, `{{${kind}:${arg}}} matches no ${what} — a typo, a wrong collection, or a supplier the feed no longer carries`);
+    } else if (n === 1) {
+      note(a.slug, `{{${kind}:${arg}}} has one ${what}, so no indexable supplier page; it renders unlinked`);
+    }
+  }
+  // The capsule is never linked (it is the block built to be lifted out whole),
+  // so a supplier token there is a link that was meant and will never appear.
+  if (/\{\{(op|brand):/.test(a.capsule || '')) {
+    fail(a.slug, 'the capsule carries a supplier link token; capsules are never linked — write the name');
   }
 }
 
@@ -540,6 +579,10 @@ console.log(
   `${nf.format(villaRows.length)} villas in ${villaDestinations.size} destinations, ` +
   `${Object.keys(collections).length} collections, ${checks} checks run`,
 );
+if (notes.length) {
+  console.log(`\n${notes.length} note${notes.length === 1 ? '' : 's'}:`);
+  for (const n of notes) console.log(`  · ${n}`);
+}
 if (failures.length) {
   console.error(`\n${failures.length} failure${failures.length === 1 ? '' : 's'}:`);
   for (const f of failures) console.error(`  ✗ ${f}`);

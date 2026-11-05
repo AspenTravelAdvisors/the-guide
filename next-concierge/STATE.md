@@ -3068,3 +3068,29 @@ An (the maritime Silk Road). The stop and its coordinates are correct.
   so Evrima's row is the Lisbon–San Juan crossing, not a Riviera voyage.
 - Four Seasons Nevis has no photo in the feed; The Ocean Club (`h_02088`) is
   the spare that fills its slot.
+
+### Answers link to the supplier pages (2026-11-05)
+
+- **Answer prose now links suppliers by token, never by URL.**
+  `{{op:<collection>/<feed operator name>|<words>}}` and
+  `{{brand:<hotel brand>|<words>}}` sit in `data/answers/*.js` like the count
+  tokens do. `lib/seo/facts.mjs` resolves them to plain words by default;
+  `answerBody()` in `lib/seo/answer-facts.js` resolves them linked, through
+  `supplierHref()` in `lib/seo/suppliers.js`, and `components/AnswerProse.jsx`
+  renders the links. Only the page body links: titles, descriptions, the
+  capsule, JSON-LD, `/answers` and `/llms.txt` all get the words.
+- **One link per supplier page per answer**, at the first mention in reading
+  order (lead, each section's table/paragraphs/list, FAQs). Only indexable
+  pages: a single-itinerary operator or a retired brand renders as words.
+- **`verify:seo` guards it.** A token naming nothing in the feed fails (typo,
+  wrong collection, retired supplier); one naming a supplier down to a single
+  itinerary or hotel is printed as a note, since the sentence is still true
+  but the link is gone. A supplier token in a capsule fails.
+- First pass: 157 links in 28 of 46 answers, reaching 72 of 104 indexable
+  supplier pages. Ships ("Aqua Mare"), single hotels ("Four Seasons Megève")
+  and the Explora lodges stay unlinked on purpose. The collection follows the
+  answer's subject: Silversea is `cruise/` in expedition answers and
+  `worldcruise/` in world-cruise ones; Four Seasons is the hotel brand except on
+  yacht pages; Belmond is `train/Belmond Trains` on rail pages.
+- Long name lists link in the table, not the lead (world-cruises-compared
+  links the tier table's "Lines" column and leaves the 12-line sentence plain).
