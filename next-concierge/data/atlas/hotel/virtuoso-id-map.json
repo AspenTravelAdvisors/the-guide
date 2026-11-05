@@ -1,11 +1,11 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-11-04T17:01:42.395Z",
+  "generated": "2026-11-05T04:34:13.869Z",
   "feedSynced": null,
   "localCount": 2475,
   "feedCount": 2093,
-  "matchedCount": 2329
+  "matchedCount": 2330
  },
  "overrides": {
   "h_00408": "6176935",
@@ -13357,6 +13357,12 @@
    "localName": "Forte Village Hotel Castello",
    "virtuosoName": "Forte Village Hotel Castello, Sardinia"
   },
+  "h_00642": {
+   "vid": "6164036",
+   "how": "ledger-of:h_00644",
+   "localName": "Four Seasons Hotel Cairo",
+   "virtuosoName": "Four Seasons Hotel Cairo, at The First Residence"
+  },
   "h_00684": {
    "vid": "6164433",
    "how": "twin-of:h_00685",
@@ -15527,6 +15533,23 @@
    "how": [
     "name+country",
     "duplicate-of:h_00635"
+   ],
+   "confident": true
+  },
+  {
+   "vid": "6164036",
+   "virtuosoName": "Four Seasons Hotel Cairo, at The First Residence",
+   "localIds": [
+    "h_00644",
+    "h_00642"
+   ],
+   "localNames": [
+    "Four Seasons Hotel Cairo, at The First Residence",
+    "Four Seasons Hotel Cairo"
+   ],
+   "how": [
+    "name+country",
+    "ledger-of:h_00644"
    ],
    "confident": true
   },
@@ -23508,6 +23531,17 @@
    "score": 1
   },
   {
+   "vid": "6164036",
+   "virtuosoName": "Four Seasons Hotel Cairo, at The First Residence",
+   "keep": "h_00644",
+   "drop": "h_00642",
+   "keepName": "Four Seasons Hotel Cairo, at The First Residence",
+   "dropName": "Four Seasons Hotel Cairo",
+   "score": 1,
+   "metresApart": 7364,
+   "note": "declared in data/atlas/hotel/duplicate-ledger.json"
+  },
+  {
    "vid": "6164433",
    "virtuosoName": "Four Seasons Resort Peninsula Papagayo, Costa Rica",
    "dropName": "Four Seasons Resort Peninsula Papagayo",
@@ -24662,29 +24696,6 @@
    ]
   },
   {
-   "id": "h_00642",
-   "name": "Four Seasons Hotel Cairo",
-   "city": "Cairo",
-   "country": "Egypt",
-   "reason": "name matches 2 Virtuoso properties within 25 km — too ambiguous to call",
-   "candidates": [
-    {
-     "vid": "6164071",
-     "name": "Four Seasons Hotel Cairo at Nile Plaza",
-     "city": "Cairo",
-     "km": 1.7,
-     "how": "contained"
-    },
-    {
-     "vid": "6164036",
-     "name": "Four Seasons Hotel Cairo, at The First Residence",
-     "city": "Cairo",
-     "km": 7.4,
-     "how": "contained"
-    }
-   ]
-  },
-  {
    "id": "h_00661",
    "name": "Four Seasons Hotel Nashville",
    "city": "Nashville",
@@ -25434,13 +25445,6 @@
    "city": "New York",
    "country": "United States",
    "program": "Cadence Individual Partner"
-  },
-  {
-   "id": "h_00642",
-   "name": "Four Seasons Hotel Cairo",
-   "city": "Cairo",
-   "country": "Egypt",
-   "program": "Four Seasons Preferred Partner"
   },
   {
    "id": "h_00649",

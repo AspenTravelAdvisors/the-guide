@@ -125,7 +125,11 @@
    ],
    "thumb": null,
    "rooms": null,
-   "perks": [],
+   "perks": [
+    "Daily breakfast",
+    "$25 credit",
+    "Room upgrade"
+   ],
    "promo": 0
   },
   "h_02161": {
@@ -3008,7 +3012,11 @@
    ],
    "thumb": null,
    "rooms": null,
-   "perks": [],
+   "perks": [
+    "Daily breakfast",
+    "$50 credit",
+    "Room upgrade"
+   ],
    "promo": 0
   },
   "h_01767": {
@@ -3840,7 +3848,11 @@
    ],
    "thumb": null,
    "rooms": null,
-   "perks": [],
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
    "promo": 0
   },
   "h_00807": {
@@ -4219,21 +4231,6 @@
    ],
    "promo": 0
   },
-  "h_00642": {
-   "n": "Four Seasons Hotel Cairo",
-   "house": "Four Seasons",
-   "aff": "Four Seasons",
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.024305,
-    31.216831
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
-  },
   "h_00644": {
    "n": "Four Seasons Hotel Cairo, at The First Residence",
    "house": "Four Seasons Hotels and Resorts",
@@ -4250,6 +4247,25 @@
     "Daily breakfast",
     "Room upgrade",
     "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00709": {
+   "n": "Giza Palace",
+   "house": null,
+   "aff": null,
+   "city": "Giza",
+   "country": "Egypt",
+   "ll": [
+    30.0253,
+    31.0171
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16699191_2_0.webp",
+   "rooms": 560,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
    ],
    "promo": 0
   },
@@ -5268,7 +5284,9 @@
    ],
    "thumb": null,
    "rooms": null,
-   "perks": [],
+   "perks": [
+    "Property credit"
+   ],
    "promo": 0
   },
   "h_00985": {
@@ -7024,12 +7042,12 @@
      2.6
     ],
     [
-     "h_00642",
-     4.3
-    ],
-    [
      "h_00644",
      6.1
+    ],
+    [
+     "h_00709",
+     22.6
     ]
    ]
   },
@@ -7237,8 +7255,8 @@
      19.2
     ],
     [
-     "h_00642",
-     19.8
+     "h_00709",
+     20
     ]
    ]
   },

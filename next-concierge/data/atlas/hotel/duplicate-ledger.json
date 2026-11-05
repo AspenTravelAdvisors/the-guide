@@ -358,6 +358,13 @@
    "ours": "Palace Elisabeth",
    "theirs": "Palace Elisabeth, Hvar Heritage Hotel",
    "why": "Palace Elisabeth is the Hvar Heritage Hotel in Croatia. Our record says Lausanne, 859 km out."
+  },
+  {
+   "id": "h_00642",
+   "vid": "6164036",
+   "ours": "Four Seasons Hotel Cairo",
+   "theirs": "Four Seasons Hotel Cairo, at The First Residence",
+   "why": "Four Seasons has two Cairo hotels, Nile Plaza and The First Residence, and both are already on the atlas. Our bare record's address, 35 Charles de Gaulle St, is the First Residence's (Charles de Gaulle Street is Giza Street), and its pin is beside the Giza Zoo where that hotel stands. Virtuoso's pin for it is 7 km north, past the matcher's name rules, so on its own it rendered as a third Cairo Four Seasons with placeholder benefits."
   }
  ]
 }

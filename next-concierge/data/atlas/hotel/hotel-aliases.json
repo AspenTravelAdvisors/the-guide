@@ -1,7 +1,7 @@
 {
  "_meta": {
   "purpose": "Old ids folded into a surviving record by de-duplication. Kept so existing deep links still resolve.",
-  "generated": "2026-11-04T17:01:43.243Z"
+  "generated": "2026-11-05T04:34:48.977Z"
  },
  "aliases": {
   "h_00032": "h_00031",
@@ -252,6 +252,7 @@
   "h_00614": "h_00613",
   "h_00629": "h_00630",
   "h_00631": "h_00632",
+  "h_00642": "h_00644",
   "h_00684": "h_00685",
   "h_00689": "h_00690",
   "h_00699": "h_00698",
