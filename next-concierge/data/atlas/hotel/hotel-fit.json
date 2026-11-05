@@ -33226,67 +33226,6 @@
    "aaa": "AAA Four/Five Diamond Hotels 2026 PDFs"
   }
  },
- "h_00642": {
-  "bestFit": "Celebration / milestone",
-  "intentTags": [
-   "Celebration / milestone"
-  ],
-  "serviceStyle": "Formal / discreet",
-  "confidence": "Low",
-  "overallFitScore": 72.2,
-  "matchScores": {
-   "honeymoon": 60,
-   "family": 76.6,
-   "celebration": 68.1,
-   "business": 87.5,
-   "active": 72.8,
-   "uhnw": 76.2,
-   "simpleVip": 87.5
-  },
-  "criteriaScores": {
-   "guestIntent": 3,
-   "serviceStyleFit": 4.02,
-   "locationQuality": 4,
-   "roomSuiteReality": 3.2,
-   "valueWithinLuxury": 4.65,
-   "partnerStrength": 5,
-   "foodAndBeverage": 3,
-   "wellnessRecovery": 3,
-   "privacyExclusivity": 2.8,
-   "sceneFit": 3.8,
-   "familyMultigen": 3.1,
-   "accessibilityEase": 4.2,
-   "seasonalityRiskFit": 4.15,
-   "operationalReliability": 4.02,
-   "designSenseOfPlace": 3,
-   "destinationSpecificFit": 4,
-   "guestPersonalityFit": 3,
-   "budgetPsychologyFit": 3.9
-  },
-  "evaluationNotes": "Four Seasons Preferred Partner:formal/anticipatory service, top upgrade leverage",
-  "criteriaFound": "Four Seasons Preferred Partner:formal/anticipatory service, top upgrade leverage",
-  "sourceFlags": "CSV partner benefits; web-calibrated program criteria",
-  "nearbyRank": 1,
-  "nearbyHotelCount": 1,
-  "description": "Four Seasons Hotel Cairo: an address in Cairo for travelers who like the day well-managed and the night within reach; the Charles de Gaulle Street address and a room that knows when to go quiet. Behind it: anticipatory service with no need to announce itself.",
-  "searchKeywords": [
-   "Four Seasons Hotel Cairo Cairo",
-   "Four Seasons Hotel Cairo luxury hotel",
-   "best luxury hotels in Cairo",
-   "Cairo 5 star hotel",
-   "Cairo luxury hotel"
-  ],
-  "forbesRating": null,
-  "forbesRatingYear": 2026,
-  "aaaDiamondRating": null,
-  "aaaDiamondYear": 2026,
-  "aaaFirstDiamondYear": null,
-  "ratingBadges": [],
-  "ratingsSource": {
-   "forbes": "Forbes Travel Guide 2026 Star Award Winners page; row payload unavailable in local source extraction",
-   "aaa": "AAA Four/Five Diamond Hotels 2026 PDFs"
-  }
- },
  "h_00643": {
   "bestFit": "Celebration / milestone",
   "intentTags": [

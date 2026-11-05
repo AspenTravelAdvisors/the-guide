@@ -15982,13 +15982,25 @@
   "lng": -122.406017,
   "region": null,
   "adminRegion": "California",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Welcome glass and bottle of wine",
+   "Complimentary in-room snacks and beverages",
+   "Fitness center",
+   "Complimentary parking",
+   "Twice-daily housekeeping and turndown",
+   "Daily newspaper and Wi-Fi",
+   "Daily restaurant breakfast",
+   "Complimentary Mercedes-Benz use subject to availability",
+   "No resort fee"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -17978,13 +17990,21 @@
   "lng": -117.914414,
   "region": null,
   "adminRegion": "California",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily breakfast for two up to $40",
+   "$100 resort credit",
+   "Personalized welcome amenity",
+   "Priority upgrade upon arrival subject to availability",
+   "Early check-in and late checkout subject to availability"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -21633,7 +21653,15 @@
   "lng": 23.426614,
   "region": null,
   "adminRegion": "Kgatleng",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "$90 hotel or resort credit per room or $200 per suite per stay",
+   "VIP welcome treat",
+   "Daily buffet or full breakfast for two",
+   "General Manager welcome letter",
+   "Upgrade at check-in subject to availability",
+   "Complimentary Wi-Fi",
+   "$500 voucher loyalty benefit on qualifying $5,000+ bookings"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -21641,6 +21669,8 @@
    "safari",
    "lodge"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -34899,7 +34929,10 @@
   "lng": 177.134185,
   "region": "polynesia",
   "adminRegion": "Western Division",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Enhanced amenities and management recognition when booked on the exclusive Cadence rate",
+   "FJD 100 resort credit"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -34907,6 +34940,8 @@
    "island",
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -39427,13 +39462,24 @@
   "lng": 116.459232,
   "region": null,
   "adminRegion": "Beijing Municipality",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -63218,32 +63264,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00642",
-  "name": "Four Seasons Hotel Cairo",
-  "brand": "Four Seasons",
-  "program": "Four Seasons Preferred Partner",
-  "category": "City Hotel",
-  "country": "Egypt",
-  "city": "Cairo",
-  "address": "35 Charles de Gaulle St",
-  "lat": 30.024305,
-  "lng": 31.216831,
-  "region": "mediterranean",
-  "adminRegion": "Cairo Governorate",
-  "vipUpgrades": [
-   "Your Virtuoso travel advisor gives you privileged access to hotel and resort amenities, complimentary and guaranteed.",
-   "Contact your Virtuoso advisor for more details on this hotel."
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00643",
   "vid": "6164071",
   "name": "Four Seasons Hotel Cairo at Nile Plaza",
@@ -63942,13 +63962,21 @@
   "lng": 120.127648,
   "region": null,
   "adminRegion": "Zhejiang",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full American breakfast for two, including in-room dining",
+   "$100 credit for guestrooms, $200 for suites and specialty suites, or $200 per bedroom for Private Retreats",
+   "One-category upgrade at check-in subject to availability",
+   "Advisor welcome note",
+   "Enhanced management recognition and welcome"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -64182,13 +64210,21 @@
   "lng": 30.307702,
   "region": null,
   "adminRegion": "City of St. Petersburg",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full American breakfast for two, including in-room dining",
+   "$100 credit for guestrooms, $200 for suites and specialty suites, or $200 per bedroom for Private Retreats",
+   "One-category upgrade at check-in subject to availability",
+   "Advisor welcome note",
+   "Enhanced management recognition and welcome"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -64916,13 +64952,21 @@
   "lng": 37.616461,
   "region": null,
   "adminRegion": "Moscow City",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full American breakfast for two, including in-room dining",
+   "$100 credit for guestrooms, $200 for suites and specialty suites, or $200 per bedroom for Private Retreats",
+   "One-category upgrade at check-in subject to availability",
+   "Advisor welcome note",
+   "Enhanced management recognition and welcome"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -64939,13 +64983,21 @@
   "lng": -86.773579,
   "region": null,
   "adminRegion": "Tennessee",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full American breakfast for two, including in-room dining",
+   "$100 credit for guestrooms, $200 for suites and specialty suites, or $200 per bedroom for Private Retreats",
+   "One-category upgrade at check-in subject to availability",
+   "Advisor welcome note",
+   "Enhanced management recognition and welcome"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -67548,13 +67600,21 @@
   "lng": -62.6306,
   "region": null,
   "adminRegion": "Nevis",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full American breakfast for two, including in-room dining",
+   "$100 credit for guestrooms, $200 for suites and specialty suites, or $200 per bedroom for Private Retreats",
+   "One-category upgrade at check-in subject to availability",
+   "Advisor welcome note",
+   "Enhanced management recognition and welcome"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -68919,13 +68979,24 @@
   "lng": 114.059127,
   "region": null,
   "adminRegion": "Guangdong",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -71378,13 +71449,23 @@
   "lng": 30.330753,
   "region": null,
   "adminRegion": "Northwestern",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "$90 hotel or resort credit per room or $200 per suite per stay",
+   "VIP welcome treat",
+   "Daily buffet or full breakfast for two",
+   "General Manager welcome letter",
+   "Upgrade at check-in subject to availability",
+   "Complimentary Wi-Fi",
+   "$500 voucher loyalty benefit on qualifying $5,000+ bookings"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -78084,13 +78165,22 @@
   "lng": -122.336119,
   "region": null,
   "adminRegion": "Washington",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Best available rate",
+   "Daily breakfast for two, including in-room dining",
+   "$100 hotel credit per stay",
+   "One-category upgrade at check-in subject to availability",
+   "Double Hilton Honors points",
+   "VIP guest status"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -78631,13 +78721,28 @@
   "lng": 30.308868,
   "region": null,
   "adminRegion": "Northwestern",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full American breakfast",
+   "$100 credit for rooms and junior suites",
+   "$200 credit for suites with a two-night minimum",
+   "$100 credit at Rocco Forte House",
+   "$250 credit at Rocco Forte Private Villas",
+   "Highest-priority upgrade upon arrival subject to availability",
+   "Highest-priority early check-in and late checkout",
+   "Seasonal welcome amenity",
+   "General Manager greeting and note",
+   "No-walk policy",
+   "Complimentary high-speed Wi-Fi",
+   "20% spa discount at participating spas"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -78786,13 +78891,24 @@
   "lng": 37.625973,
   "region": null,
   "adminRegion": "Moscow City",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Best available rate",
+   "Daily breakfast for two",
+   "Early check-in and late checkout subject to availability",
+   "Complimentary Wi-Fi",
+   "Personalized welcome note",
+   "$50 or $100 hotel credit for room bookings",
+   "$100 hotel credit for suite, residence, and villa bookings",
+   "Upgrade at check-in subject to availability for room bookings"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -79718,13 +79834,23 @@
   "lng": 16.370254,
   "region": null,
   "adminRegion": "Vienna State",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full or continental breakfast for two",
+   "Complimentary basic Wi-Fi",
+   "$100 hotel credit per stay",
+   "In-person warm welcome",
+   "Personalized welcome amenity",
+   "General Manager welcome note",
+   "Priority waitlist, room placement, and bedding requests"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -88540,13 +88666,24 @@
   "lng": -85.400955,
   "region": null,
   "adminRegion": "Guanacaste Province",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily breakfast for two",
+   "Early check-in and late checkout subject to availability",
+   "Upgrade at check-in subject to availability",
+   "General Manager recognition or note",
+   "$100 hotel credit at select hotels",
+   "Local welcome amenity",
+   "Complimentary basic Wi-Fi",
+   "Enhanced amenities at select hotels"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -102839,13 +102976,24 @@
   "lng": 121.563803,
   "region": null,
   "adminRegion": "Shanghai Municipality",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -102862,13 +103010,24 @@
   "lng": 116.458197,
   "region": null,
   "adminRegion": "Beijing Municipality",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -122586,7 +122745,9 @@
   "lng": -71.946963,
   "region": null,
   "adminRegion": "New York",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Local welcome amenity sent on the agency's behalf"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -122594,6 +122755,8 @@
    "beach",
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -125567,13 +125730,24 @@
   "lng": 120.16171,
   "region": null,
   "adminRegion": "Zhejiang",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -139471,7 +139645,9 @@
   "lng": -157.827314,
   "region": null,
   "adminRegion": "Hawaii",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Enhanced amenities and management recognition when booked on the exclusive Cadence rate"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -139479,6 +139655,8 @@
    "beach",
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -139495,7 +139673,10 @@
   "lng": 177.55258,
   "region": "polynesia",
   "adminRegion": "Ba",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Enhanced amenities and management recognition when booked on the exclusive Cadence rate",
+   "FJD 250 resort credit"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -139503,6 +139684,8 @@
    "beach",
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -139519,7 +139702,9 @@
   "lng": -155.964595,
   "region": null,
   "adminRegion": "Hawaii",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Enhanced amenities and management recognition when booked on the exclusive Cadence rate"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -139527,6 +139712,8 @@
    "spa",
    "wellness"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -139543,7 +139730,10 @@
   "lng": 72.900605,
   "region": null,
   "adminRegion": "Alif Dhaal Atoll District",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Enhanced amenities and management recognition when booked on the exclusive Cadence rate",
+   "MVR 250 resort credit"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -139551,6 +139741,8 @@
    "beach",
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -139567,7 +139759,9 @@
   "lng": -157.83267,
   "region": null,
   "adminRegion": "Hawaii",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Enhanced amenities and management recognition when booked on the exclusive Cadence rate"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -139575,6 +139769,8 @@
    "beach",
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -139591,7 +139787,9 @@
   "lng": -157.83267,
   "region": null,
   "adminRegion": "Hawaii",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Enhanced amenities and management recognition when booked on the exclusive Cadence rate"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -139599,6 +139797,8 @@
    "beach",
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -139941,13 +140141,23 @@
   "lng": 8.379181,
   "region": null,
   "adminRegion": "Canton of Nidwalden",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full or continental breakfast for two",
+   "Complimentary basic Wi-Fi",
+   "$100 hotel credit per stay",
+   "In-person warm welcome",
+   "Personalized welcome amenity",
+   "General Manager welcome note",
+   "Priority waitlist, room placement, and bedding requests"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -148110,13 +148320,17 @@
   "lng": -120.692275,
   "region": null,
   "adminRegion": "California",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Local welcome amenity sent on the agency's behalf"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -152166,13 +152380,21 @@
   "lng": -157.840137,
   "region": null,
   "adminRegion": "Hawaii",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Signature welcome amenity",
+   "Daily breakfast buffet for two",
+   "$25 hotel credit per stay",
+   "One-category upgrade at check-in subject to availability",
+   "Early check-in and late checkout subject to availability"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -152415,13 +152637,24 @@
   "lng": 121.499082,
   "region": null,
   "adminRegion": "Shanghai Municipality",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -157746,13 +157979,28 @@
   "lng": -0.149326,
   "region": null,
   "adminRegion": "Mayfair",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full American breakfast",
+   "$100 credit for rooms and junior suites",
+   "$200 credit for suites with a two-night minimum",
+   "$100 credit at Rocco Forte House",
+   "$250 credit at Rocco Forte Private Villas",
+   "Highest-priority upgrade upon arrival subject to availability",
+   "Highest-priority early check-in and late checkout",
+   "Seasonal welcome amenity",
+   "General Manager greeting and note",
+   "No-walk policy",
+   "Complimentary high-speed Wi-Fi",
+   "20% spa discount at participating spas"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -167659,13 +167907,24 @@
   "lng": 58.659304,
   "region": null,
   "adminRegion": "Muscat Governorate",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -168068,13 +168327,24 @@
   "lng": 104.08553,
   "region": null,
   "adminRegion": "Sichuan",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -168091,13 +168361,24 @@
   "lng": 110.307672,
   "region": null,
   "adminRegion": "Guangxi",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -168114,13 +168395,24 @@
   "lng": 91.10025,
   "region": null,
   "adminRegion": "Tibet",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -168137,13 +168429,24 @@
   "lng": 117.19598,
   "region": null,
   "adminRegion": "Tianjin Municipality",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -168160,13 +168463,24 @@
   "lng": 118.08804,
   "region": null,
   "adminRegion": "Fujian",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -168183,13 +168497,24 @@
   "lng": 108.89339,
   "region": null,
   "adminRegion": "Shaanxi",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -169749,13 +170074,24 @@
   "lng": -123.123703,
   "region": null,
   "adminRegion": "British Columbia",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -169772,7 +170108,16 @@
   "lng": 109.51209,
   "region": null,
   "adminRegion": "Hainan",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Next-category upgrade at booking subject to availability",
+   "$50 or $100 hotel credit, or 10% of average daily room rate when higher",
+   "Daily full breakfast for two including in-room dining",
+   "VIP welcome amenity",
+   "General Manager and advisor welcome letter",
+   "Early check-in and late checkout subject to availability",
+   "No-walk policy and priority waitlist",
+   "Dedicated concierge"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -169780,6 +170125,8 @@
    "beach",
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -181368,7 +181715,12 @@
   "lng": 18.065933,
   "region": "mediterranean",
   "adminRegion": "Dubrovnik-Neretva",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Early check-in and late checkout subject to availability",
+   "Upgrade subject to availability",
+   "Welcome letter",
+   "Special client amenity"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -181376,6 +181728,8 @@
    "beach",
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -199818,13 +200172,20 @@
   "lng": -73.998515,
   "region": null,
   "adminRegion": "New York State",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Virtuoso amenities on eligible bookings",
+   "Personalized advisor welcome amenity",
+   "Management recognition and welcome",
+   "Priority waitlist"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -202343,13 +202704,23 @@
   "lng": 8.379181,
   "region": null,
   "adminRegion": "Canton of Nidwalden",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full or continental breakfast for two",
+   "Complimentary basic Wi-Fi",
+   "$100 hotel credit per stay",
+   "In-person warm welcome",
+   "Personalized welcome amenity",
+   "General Manager welcome note",
+   "Priority waitlist, room placement, and bedding requests"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -206912,13 +207283,23 @@
   "lng": 116.481995,
   "region": null,
   "adminRegion": "Beijing Municipality",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full or continental breakfast for two",
+   "Complimentary basic Wi-Fi",
+   "$100 hotel credit per stay",
+   "In-person warm welcome",
+   "Personalized welcome amenity",
+   "General Manager welcome note",
+   "Priority waitlist, room placement, and bedding requests"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -207120,13 +207501,23 @@
   "lng": -96.803372,
   "region": null,
   "adminRegion": "Texas",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full or continental breakfast for two",
+   "Complimentary basic Wi-Fi",
+   "$100 hotel credit per stay",
+   "In-person warm welcome",
+   "Personalized welcome amenity",
+   "General Manager welcome note",
+   "Priority waitlist, room placement, and bedding requests"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -208495,13 +208886,23 @@
   "lng": -73.688714,
   "region": null,
   "adminRegion": "Various",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full or continental breakfast for two",
+   "Complimentary basic Wi-Fi",
+   "$100 hotel credit per stay",
+   "In-person warm welcome",
+   "Personalized welcome amenity",
+   "General Manager welcome note",
+   "Priority waitlist, room placement, and bedding requests"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -211823,13 +212224,23 @@
   "lng": 37.613041,
   "region": null,
   "adminRegion": "Moscow City",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full or continental breakfast for two",
+   "Complimentary basic Wi-Fi",
+   "$100 hotel credit per stay",
+   "In-person warm welcome",
+   "Personalized welcome amenity",
+   "General Manager welcome note",
+   "Priority waitlist, room placement, and bedding requests"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -213492,13 +213903,6 @@
   ],
   "promotions": [
    {
-    "id": "18605990",
-    "name": "Length of Stay Offer plus Resort Credit",
-    "endDate": "2026-11-04",
-    "exclusive": false,
-    "description": "Stays of 4 nights or longer, indulge in the following benefits:Additional $500 USD Resort Credit for suite bookings and $250 USD for rooms Up to 20% off your entire stay 4-night minimum stay required. The promotion is not combinable with any other promotion. The above offer is combinable with Virtuoso Amenities."
-   },
-   {
     "id": "18608382",
     "name": "Festive Hotel Credit Offer plus Discount",
     "endDate": "2026-12-27",
@@ -213511,6 +213915,13 @@
     "endDate": "2027-01-02",
     "exclusive": false,
     "description": "Stay 4 nights and more and receive $500 Resort Credit on Suites and $250 Resort Credit on Rooms. Minimum length of stay 4 Nights (Except for arrivals on December 28-30 must stay 5 nights) This offer is combinable with Virtuoso amenities and apply to new bookings only."
+   },
+   {
+    "id": "18550188",
+    "name": "Hotel Credit Offer-Festive 2026",
+    "endDate": "2027-01-02",
+    "exclusive": false,
+    "description": "Book five nights and more during festive and receive an additional $500 Resort Credit for Suites and $250 Resort Credit on regular rooms."
    }
   ],
   "hasPromotion": true,
@@ -217836,7 +218247,15 @@
   "lng": -106.534838,
   "region": null,
   "adminRegion": "Puerto Rico",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full or continental breakfast for two",
+   "Complimentary basic Wi-Fi",
+   "$100 hotel credit per stay",
+   "In-person warm welcome",
+   "Personalized welcome amenity",
+   "General Manager welcome note",
+   "Priority waitlist, room placement, and bedding requests"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
@@ -217844,6 +218263,8 @@
    "beach",
    "resort"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -219392,13 +219813,23 @@
   "lng": -95.450344,
   "region": null,
   "adminRegion": "Texas",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full or continental breakfast for two",
+   "Complimentary basic Wi-Fi",
+   "$100 hotel credit per stay",
+   "In-person warm welcome",
+   "Personalized welcome amenity",
+   "General Manager welcome note",
+   "Priority waitlist, room placement, and bedding requests"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -220285,13 +220716,23 @@
   "lng": 37.625524,
   "region": null,
   "adminRegion": "Moscow City",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily full or continental breakfast for two",
+   "Complimentary basic Wi-Fi",
+   "$100 hotel credit per stay",
+   "In-person warm welcome",
+   "Personalized welcome amenity",
+   "General Manager welcome note",
+   "Priority waitlist, room placement, and bedding requests"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -224038,13 +224479,24 @@
   "lng": 12.490075,
   "region": "mediterranean",
   "adminRegion": "Lazio",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily breakfast for two",
+   "Early check-in and late checkout subject to availability",
+   "Upgrade at check-in subject to availability",
+   "General Manager recognition or note",
+   "$100 hotel credit at select hotels",
+   "Local welcome amenity",
+   "Complimentary basic Wi-Fi",
+   "Enhanced amenities at select hotels"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },
@@ -228834,13 +229286,24 @@
   "lng": 0.125055,
   "region": null,
   "adminRegion": "Cambridgeshire",
-  "vipUpgrades": [],
+  "vipUpgrades": [
+   "Daily breakfast for two",
+   "Early check-in and late checkout subject to availability",
+   "Upgrade at check-in subject to availability",
+   "General Manager recognition or note",
+   "$100 hotel credit at select hotels",
+   "Local welcome amenity",
+   "Complimentary basic Wi-Fi",
+   "Enhanced amenities at select hotels"
+  ],
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": null,
   "tags": [
    "urban"
   ],
+  "perksSource": "partner-program",
+  "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
   "vid": null,
   "source": "local"
  },

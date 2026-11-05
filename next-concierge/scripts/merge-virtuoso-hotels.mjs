@@ -20,6 +20,36 @@ import { repoRoot } from '../lib/virtuoso/env.mjs';
 import { cardImage } from '../lib/virtuoso/media.mjs';
 import { travelerOffers } from '../lib/virtuoso/traveler-offers.mjs';
 import { steadyStamp } from './lib/steady-stamp.mjs';
+import { createRequire } from 'node:module';
+
+const require = createRequire(import.meta.url);
+const { applyOverride } = require('../lib/atlas/program-overrides.js');
+const { benefitsFor, benefitsAsOf } = require('../lib/atlas/preferred-overlay.js');
+
+/*
+ * Benefits for the partner hotels Virtuoso does not carry.
+ *
+ * A Four Seasons, Shangri-La or Marriott STARS property that is not on Virtuoso
+ * reached the base with no amenity block, or with a generic "contact your
+ * Virtuoso advisor" placeholder, so the atlas showed nothing for a hotel whose
+ * whole appeal is what our partner agreement adds. The agreement itself is in
+ * preferred-partner-overlay.json, so the benefits come from there: the exact
+ * property's list, else its program's. Program membership is resolved through
+ * program-overrides first, the same way the atlas reads it.
+ *
+ * `perksSource` and `perksAsOf` say where the list came from; no `perksYear` is
+ * set, because the partner document is not a supplier's year-stamped block.
+ */
+const PLACEHOLDER_PERK = /^(your virtuoso travel advisor gives you privileged access|contact your virtuoso advisor for more details)/i;
+
+function partnerPerks(h) {
+  const own = (h.vipUpgrades ?? []).filter(l => !PLACEHOLDER_PERK.test(String(l).trim()));
+  if (own.length) return own === h.vipUpgrades ? {} : { vipUpgrades: own };
+  const hit = benefitsFor(applyOverride(h));
+  if (!hit) return { vipUpgrades: [] };
+  stats.partnerPerks++;
+  return { vipUpgrades: [...hit.benefits], perksSource: 'partner-program', perksAsOf: benefitsAsOf };
+}
 
 const CHECK = process.argv.includes('--check');
 const D = path.join(repoRoot, 'data/atlas/hotel');
@@ -170,7 +200,7 @@ for (const start of [...dropped.keys()]) {
 const JUNK = /^(iceportal hotel test|virtuoso hotel( (test|training|core training|local training|for iceportal testing))?$|virtuoso nw trainging$|virtuoso test training$|new hotel supplier in pro\b)/i;
 
 const merged = [];
-const stats = { upgraded: 0, localOnly: 0, added: 0, dropped: 0, junk: 0, categoryChanged: 0, perksReplaced: 0, photos: 0 };
+const stats = { upgraded: 0, localOnly: 0, added: 0, dropped: 0, junk: 0, categoryChanged: 0, perksReplaced: 0, photos: 0, partnerPerks: 0 };
 
 for (const h of base) {
   if (JUNK.test(h.name)) { stats.junk++; continue; }
@@ -182,7 +212,7 @@ for (const h of base) {
   if (!v) {
     // A partner Virtuoso doesn't carry — Cadence-only, Belmond, Marriott STARS.
     // Left exactly as curated; nothing here is supplier-verifiable.
-    merged.push({ ...h, vid: null, source: 'local' });
+    merged.push({ ...h, ...partnerPerks(h), vid: null, source: 'local' });
     stats.localOnly++;
     continue;
   }
@@ -422,7 +452,7 @@ fs.writeFileSync(path.join(D, 'hotel-fit.json'), JSON.stringify(newFit, null, 1)
 }
 
 console.log(`luxury-hotels.json — ${merged.length} properties`);
-console.log(`  ${stats.upgraded} upgraded from Virtuoso · ${stats.added} newly added · ${stats.localOnly} local-only partners`);
+console.log(`  ${stats.upgraded} upgraded from Virtuoso · ${stats.added} newly added · ${stats.localOnly} local-only partners (${stats.partnerPerks} given partner-program benefits)`);
 console.log(`  ${stats.dropped} duplicates folded away · ${stats.junk} junk records removed`);
 console.log(`  ${stats.categoryChanged} categories corrected · ${stats.perksReplaced} perk lists from supplier · ${stats.photos} photos attached`);
 {

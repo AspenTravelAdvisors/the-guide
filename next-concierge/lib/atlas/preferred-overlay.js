@@ -174,8 +174,43 @@ function preferredTier(hotel, ratingLevel) {
   return 0;
 }
 
+// --- benefits --------------------------------------------------------------
+// The guest benefits our partner agreement gives a hotel, for the hotels no
+// supplier feed describes: a Four Seasons or Shangri-La property that is not on
+// Virtuoso still carries its brand program's amenities when booked through us.
+// The exact property's own list wins, then its program's, then the program's
+// benefit template. Template lines that promise Virtuoso amenities are dropped:
+// a hotel resolved here is one Virtuoso does not carry.
+const MENTIONS_VIRTUOSO = /\bvirtuoso\b/i;
+
+function programBenefits(prog) {
+  if (!prog || !prog.hotelRankingEligible) return [];
+  if (Array.isArray(prog.benefits) && prog.benefits.length) return prog.benefits;
+  const tpl = prog.benefitTemplateId && (overlay.benefitTemplates || {})[prog.benefitTemplateId];
+  return ((tpl && tpl.benefits) || []).filter((b) => !MENTIONS_VIRTUOSO.test(b));
+}
+
+function benefitsFor(hotel) {
+  if (!hotel) return null;
+  const prop = propertyByName.get(nameKey(hotel.name));
+  if (prop && propertyEligible(prop)) {
+    if (Array.isArray(prop.benefits) && prop.benefits.length) {
+      return { source: "property", id: prop.id, benefits: prop.benefits };
+    }
+    for (const id of prop.programIds || []) {
+      const b = programBenefits(programById.get(id));
+      if (b.length) return { source: "program", id, benefits: b };
+    }
+  }
+  const prog = programByKey.get(progKey(hotel.program));
+  const b = programBenefits(prog);
+  return b.length ? { source: "program", id: prog.id, benefits: b } : null;
+}
+
 module.exports = {
   overlayFor,
+  benefitsFor,
+  benefitsAsOf: (overlay._meta && overlay._meta.source) || null,
   preferredScore,
   preferredTier,
   _weights: {

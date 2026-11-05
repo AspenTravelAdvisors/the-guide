@@ -2705,7 +2705,11 @@
    ],
    "thumb": null,
    "rooms": null,
-   "perks": [],
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Wi-Fi"
+   ],
    "promo": 0
   },
   "h_02092": {
@@ -2720,7 +2724,11 @@
    ],
    "thumb": null,
    "rooms": null,
-   "perks": [],
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Wi-Fi"
+   ],
    "promo": 0
   },
   "h_00395": {

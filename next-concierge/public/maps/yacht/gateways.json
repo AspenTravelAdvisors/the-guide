@@ -838,7 +838,11 @@
    ],
    "thumb": null,
    "rooms": null,
-   "perks": [],
+   "perks": [
+    "Daily breakfast",
+    "$25 credit",
+    "Room upgrade"
+   ],
    "promo": 0
   },
   "h_02161": {
@@ -2460,7 +2464,10 @@
    ],
    "thumb": null,
    "rooms": null,
-   "perks": [],
+   "perks": [
+    "Room upgrade",
+    "Early check-in"
+   ],
    "promo": 0
   },
   "h_00822": {

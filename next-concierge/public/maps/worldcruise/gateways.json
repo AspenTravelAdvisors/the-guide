@@ -730,7 +730,11 @@
    ],
    "thumb": null,
    "rooms": null,
-   "perks": [],
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
    "promo": 0
   },
   "h_00404": {
@@ -2341,7 +2345,9 @@
    ],
    "thumb": null,
    "rooms": null,
-   "perks": [],
+   "perks": [
+    "Property credit"
+   ],
    "promo": 0
   },
   "h_01192": {
@@ -2375,7 +2381,11 @@
    ],
    "thumb": null,
    "rooms": null,
-   "perks": [],
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
    "promo": 0
   },
   "h_00807": {
