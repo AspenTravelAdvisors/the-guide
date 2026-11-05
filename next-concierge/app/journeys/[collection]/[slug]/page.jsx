@@ -5,6 +5,7 @@
 // and 3,662 near-identical ones.
 
 import AtlasTeaser from "@/components/AtlasTeaser";
+import { isCurrent } from "@/lib/atlas/dates";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -96,6 +97,10 @@ export default async function JourneyPage({ params }) {
   )}`;
 
   const dated = j.departures.filter((d) => d.startDate);
+  // The atlas hides departed trips, so "Open the map" frames the next one that
+  // has not left; the earliest listed (Around the World, 28 Aug 2026) opened
+  // to "Nothing matches". Falls back to the first if every one is past.
+  const mapDeparture = j.departures.find((d) => isCurrent(d)) || j.departures[0];
   const facts = [
     ["Operator", j.operator],
     [meta.noun === "sailing" || meta.noun === "voyage" ? "Ship" : "Vessel", j.vessels.join(", ") || null],
@@ -141,7 +146,7 @@ export default async function JourneyPage({ params }) {
       </p>
 
       <AtlasTeaser
-        href={`/atlas/${j.collection}?ids=${encodeURIComponent(j.departures[0].id)}`}
+        href={`/atlas/${j.collection}?ids=${encodeURIComponent(mapDeparture.atlasId)}`}
         collection={j.collection}
         name={j.title}
         route={j.geometry}

@@ -266,6 +266,11 @@ function buildCollection(type) {
         )
         .map((d) => ({
           id: d.id,
+          // The id for an /atlas/<type>?ids= link: one the atlas filter accepts.
+          // Usually the bare id, but a jet trip with no product id (the curated
+          // National Geographic and Safrans du Monde trips) is "0", "3"... and
+          // its only alias is "jt_0", so ?ids=0 opened to "Nothing matches".
+          atlasId: (d.idAliases || []).includes(d.id) ? d.id : (d.idAliases?.[0] ?? d.id),
           startDate: d.startDate,
           endDate: d.endDate,
           days: d.days,

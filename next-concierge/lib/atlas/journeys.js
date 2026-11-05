@@ -87,7 +87,13 @@ const journeys = (raw.TRIPS || []).map((t, i) => {
   const tag = (t.g && t.g[0]) || null;
   const regionLabel = tag ? regionName(tag) : null;
   return {
-    id: `jt_${i}`,
+    // The same id the atlas gives this trip (lib/atlas/adapters/journey.ts):
+    // the Virtuoso product id when the feed carries one, the array position
+    // only for the curated trips that have none. Was always the position, so
+    // every Virtuoso jet card (all the Four Seasons ones) linked to
+    // /atlas/jet?ids=jt_115, which the atlas, keyed on jt_18360251, could not
+    // match: "no matches".
+    id: t.id != null ? `jt_${t.id}` : `jt_${i}`,
     type: "jet",
     name: t.n,
     operator: brandName(t.b),
@@ -127,7 +133,8 @@ function filterJourneys(params = {}) {
 
   if (ids != null && String(ids).trim() !== "") {
     const set = new Set(String(ids).split(",").map((s) => s.trim()).filter(Boolean));
-    list = list.filter((j) => set.has(j.id));
+    // The bare product id (18360251) is accepted too, as the atlas accepts it.
+    list = list.filter((j) => set.has(j.id) || set.has(j.id.slice(3)));
   }
   if (truthy(world)) list = list.filter((j) => j.world);
   if (region) { const v = ci(region); if (MARQUEE.has(v)) list = list.filter((j) => j.region === v); }
