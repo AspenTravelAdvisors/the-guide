@@ -109,6 +109,57 @@ const VILLA_TERMS = {
 
 export class UnknownFactTerm extends Error {}
 
+/*
+ * Supplier links inside answer prose.
+ *
+ *   {{op:cruise/Silversea}}                                   "Silversea", linked
+ *   {{op:cruise/National Geographic-Lindblad Expeditions|Lindblad}}   "Lindblad", linked
+ *   {{brand:Four Seasons}}                                    the hotel brand page
+ *
+ * The token names the supplier the way the feed does (the same name a
+ * `{{departures:operator=…}}` token uses) and, after the bar, the words the
+ * sentence wants. It never carries a URL: the path is looked up from the
+ * supplier pages that actually exist at build, so a page that is retired, or
+ * drops to a single itinerary and goes noindex, takes the link with it and the
+ * sentence keeps its words.
+ *
+ * Plain resolution — every consumer that is not the answer page body: titles,
+ * descriptions, JSON-LD, llms.txt, the /answers index — gets the words only.
+ * Linked resolution wraps them in a marker that only components/AnswerProse
+ * reads. The marker uses control characters, which no authored copy contains,
+ * so it cannot collide with a bracket in a sentence; and because plain is the
+ * default, a surface that forgets about links publishes text, not markers.
+ */
+const LINK_OPEN = "\u0001";
+const LINK_MID = "\u0002";
+const LINK_CLOSE = "\u0003";
+export const LINK_MARK_RE = /\u0001([^\u0002]*)\u0002([^\u0003]*)\u0003/g;
+const linkMark = (href, label) => `${LINK_OPEN}${href}${LINK_MID}${label}${LINK_CLOSE}`;
+/** The words of every link marker, without the link. */
+export const stripLinks = (text) =>
+  typeof text === "string" ? text.replace(LINK_MARK_RE, (_m, _href, label) => label) : text;
+
+/**
+ * `"cruise/Silversea|the Silversea fleet"` -> its parts. Throws on a missing
+ * collection or name: a malformed token is a typo, and a typo is a red build.
+ */
+export function parseSupplierToken(kind, arg) {
+  const bar = arg.indexOf("|");
+  const target = (bar < 0 ? arg : arg.slice(0, bar)).trim();
+  const words = bar < 0 ? "" : arg.slice(bar + 1).trim();
+  if (kind === "brand") {
+    if (!target) throw new UnknownFactTerm(`{{brand:${arg}}} names no brand`);
+    return { kind, collection: "hotel", name: target, label: words || target };
+  }
+  const slash = target.indexOf("/");
+  const collection = slash < 0 ? "" : target.slice(0, slash).trim();
+  const name = slash < 0 ? "" : target.slice(slash + 1).trim();
+  if (!collection || !name) {
+    throw new UnknownFactTerm(`{{op:${arg}}} must be written {{op:<collection>/<operator>|<words>}}`);
+  }
+  return { kind, collection, name, label: words || name };
+}
+
 /**
  * `"country=Italy&experience=Wellness"` -> a predicate. `"*"` matches all.
  *
@@ -166,7 +217,7 @@ const SORTS = {
  * audit-listings.mjs already gates against lib/atlas-config.ts, so a token and
  * the home-page headline cannot drift apart either.
  */
-export function makeFacts(hotels, collections = {}, journeys = [], villas = []) {
+export function makeFacts(hotels, collections = {}, journeys = [], villas = [], supplierHref = null) {
   const rows = Array.isArray(hotels) ? hotels : [];
   const journeyRows = Array.isArray(journeys) ? journeys : [];
   const villaRows = Array.isArray(villas) ? villas : [];
@@ -228,17 +279,29 @@ export function makeFacts(hotels, collections = {}, journeys = [], villas = []) 
    *   {{collection:cruise}}               a collection's shipped total
    *   {{villas:region=Caribbean&sleepsMin=12}}   villas matching a spec
    *   {{villaFrom:name=Loblolly}}         lowest published nightly rate, "$728"
+   *   {{op:cruise/Silversea|Silversea}}   supplier words, linked when `linked`
+   *   {{brand:Aman}}                      (see parseSupplierToken above)
    *
    * An unresolvable token throws. The alternative — leaving `{{…}}` in the
    * rendered HTML — publishes the template to the crawler that was supposed to
    * cite it.
+   *
+   * `linked` turns supplier tokens into link markers for AnswerProse. It needs
+   * the `supplierHref(kind, collection, name)` lookup passed to makeFacts; the
+   * lookup returns the page's path, or null when there is no indexable page,
+   * and then the words go out unlinked.
    */
-  function resolve(text) {
+  function resolve(text, { linked = false } = {}) {
     if (typeof text !== "string") return text;
     return text.replace(/\{\{([^}]+)\}\}/g, (_m, body) => {
       const at = String(body).indexOf(":");
       const kind = at < 0 ? String(body).trim() : body.slice(0, at).trim();
       const arg = at < 0 ? "" : body.slice(at + 1).trim();
+      if (kind === "op" || kind === "brand") {
+        const t = parseSupplierToken(kind, arg);
+        const href = linked && supplierHref ? supplierHref(t.kind, t.collection, t.name) : null;
+        return href ? linkMark(href, t.label) : t.label;
+      }
       if (kind === "hotels") return nf.format(count(arg));
       // Two journey tokens, because both numbers are true and they differ by a
       // factor of two and a half. `journeys:` counts ITINERARIES — pages, the
@@ -261,12 +324,12 @@ export function makeFacts(hotels, collections = {}, journeys = [], villas = []) 
   }
 
   /** Walk an answer record, resolving tokens in every string it renders. */
-  function resolveDeep(node) {
-    if (typeof node === "string") return resolve(node);
-    if (Array.isArray(node)) return node.map(resolveDeep);
+  function resolveDeep(node, opts) {
+    if (typeof node === "string") return resolve(node, opts);
+    if (Array.isArray(node)) return node.map((n) => resolveDeep(n, opts));
     if (node && typeof node === "object") {
       const out = {};
-      for (const [k, v] of Object.entries(node)) out[k] = resolveDeep(v);
+      for (const [k, v] of Object.entries(node)) out[k] = resolveDeep(v, opts);
       return out;
     }
     return node;

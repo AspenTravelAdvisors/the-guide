@@ -33,7 +33,7 @@ export const hotelAnswers = [
     capsule:
       "Yes, it is worth it: booking Four Seasons through a Preferred Partner advisor costs the same as the hotel's own rate and, in 2026, adds daily breakfast for two, a $100 property credit per stay ($200 in suites), an upgrade at check-in when available, priority early check-in and late check-out, and a VIP flag on the reservation. On a five-night resort stay that is typically $700–$1,500 of value.",
     answer: [
-      "Yes. Booking Four Seasons through a Preferred Partner advisor gets you, at no extra cost over the hotel's own rate: an upgrade at check-in when available (with Preferred Partner reservations prioritized for them), daily breakfast for two, a property credit of $100 per stay in guest rooms and $200 in suites, early check-in and late check-out priority, and — the part regulars value most — your reservation flagged in the hotel's system as a Preferred Partner VIP before you land.",
+      "Yes. Booking {{brand:Four Seasons}} through a Preferred Partner advisor gets you, at no extra cost over the hotel's own rate: an upgrade at check-in when available (with Preferred Partner reservations prioritized for them), daily breakfast for two, a property credit of $100 per stay in guest rooms and $200 in suites, early check-in and late check-out priority, and — the part regulars value most — your reservation flagged in the hotel's system as a Preferred Partner VIP before you land.",
       "The rate itself is the same as booking direct. Four Seasons runs Preferred Partner as its official top-tier advisor program precisely so the benefits ride on top of published rates rather than discounting them. Our atlas currently tracks {{hotels:program=Four Seasons Preferred Partner}} Four Seasons Preferred Partner properties, out of {{hotels:name=four seasons}} Four Seasons hotels in it overall.",
     ],
     sections: [
@@ -213,7 +213,7 @@ export const hotelAnswers = [
     capsule:
       "The Four Seasons with genuinely swimmable beaches include Nevis, Anguilla, Ocean Club Bahamas, Punta Mita, Costa Palmas Los Cabos, Papagayo, Ko Olina, Wailea, Bora Bora, both Maldives resorts, Jimbaran Bay, Koh Samui, Langkawi, Seychelles and Anahita. Hualalai, Lanai and Tamarindo are beachfront but not reliably swimmable.",
     answer: [
-      "The Four Seasons with genuinely swimmable, walk-in-off-the-sand beaches are: Nevis, Anguilla, the Ocean Club Bahamas, Punta Mita (bay beaches), Costa Palmas Los Cabos (the rare swimmable Cabo beach — most of Cabo's coast is not), Peninsula Papagayo, Oahu at Ko Olina (protected lagoons), Maui at Wailea, Bora Bora, Bali at Jimbaran Bay, The Nam Hai Hoi An (seasonal), Koh Samui, Langkawi, Desroches Island and Mahé in the Seychelles, Mauritius at Anahita, and both Maldives resorts (Kuda Huraa and Landaa Giraavaru).",
+      "The {{brand:Four Seasons}} with genuinely swimmable, walk-in-off-the-sand beaches are: Nevis, Anguilla, the Ocean Club Bahamas, Punta Mita (bay beaches), Costa Palmas Los Cabos (the rare swimmable Cabo beach — most of Cabo's coast is not), Peninsula Papagayo, Oahu at Ko Olina (protected lagoons), Maui at Wailea, Bora Bora, Bali at Jimbaran Bay, The Nam Hai Hoi An (seasonal), Koh Samui, Langkawi, Desroches Island and Mahé in the Seychelles, Mauritius at Anahita, and both Maldives resorts (Kuda Huraa and Landaa Giraavaru).",
       "The famous caveats: Hualalai's shoreline is lava-rock dramatic — swimming happens in the spectacular spring-fed King's Pond and pools rather than open surf; Lanai's Hulopoe Bay is swimmable much of the year but winter swells close it; Tamarindo is a surf-and-scenery coast, not a swimming one. If daily ocean swimming is the point of the trip, say exactly that — 'beachfront' and 'swimmable' are different promises.",
     ],
     sections: [
@@ -292,7 +292,7 @@ export const hotelAnswers = [
     capsule:
       "For a first Aman, choose one where the landscape does the work: Amangiri in Utah, Amanzoe in Greece, Amankila in east Bali, or Amanpuri in Phuket. Leave the city Amans (Tokyo, New York, Venice) and the remote camps for a second visit — they reward travelers who already trust the formula.",
     answer: [
-      "For a first Aman, book the one where the setting does the heavy lifting: Amangiri (Utah desert theater, the most photographed Aman on earth), Amanzoe (Greek hilltop temple, beach club below), Amankila (Bali's east-coast original with the three-tier pool), or Amanpuri (the 1988 founding resort in Phuket, still the purest expression of the formula). Each delivers the Aman thesis — monastic architecture, staff ratios that feel telepathic, silence as the luxury — without asking you to already be a convert.",
+      "For a first {{brand:Aman}}, book the one where the setting does the heavy lifting: Amangiri (Utah desert theater, the most photographed Aman on earth), Amanzoe (Greek hilltop temple, beach club below), Amankila (Bali's east-coast original with the three-tier pool), or Amanpuri (the 1988 founding resort in Phuket, still the purest expression of the formula). Each delivers the Aman thesis — monastic architecture, staff ratios that feel telepathic, silence as the luxury — without asking you to already be a convert.",
       "Skip on a first pass: the city Amans (Tokyo, New York, Venice — magnificent, but they demonstrate the brand's restraint without its landscapes, and at the highest nightly rates in the portfolio), and the remotest lodges (Amanwana's tented island, Aman-i-Khas's wilderness camp) which reward you more once you already trust the brand. Our atlas carries {{hotels:name=aman}} Aman properties, all with advisor VIP benefits.",
     ],
     sections: [
@@ -313,7 +313,7 @@ export const hotelAnswers = [
       {
         h2: "Understand the formula before you pay for it",
         paras: [
-          "Aman sells subtraction: few rooms (often 30–50), no lobby bustle, architecture that frames one landscape obsessively, and pricing that starts roughly $1,800–$2,500 a night at the resorts and climbs steeply. What it deliberately doesn't sell: nightlife, scene, kids' clubs at most locations, or anything that requires the word 'vibrant.' Travelers who need stimulation per dollar are happier at Rosewood or One&Only; travelers who exhale at the phrase 'nothing happens here' are home.",
+          "Aman sells subtraction: few rooms (often 30–50), no lobby bustle, architecture that frames one landscape obsessively, and pricing that starts roughly $1,800–$2,500 a night at the resorts and climbs steeply. What it deliberately doesn't sell: nightlife, scene, kids' clubs at most locations, or anything that requires the word 'vibrant.' Travelers who need stimulation per dollar are happier at {{brand:Rosewood}} or {{brand:One&Only}}; travelers who exhale at the phrase 'nothing happens here' are home.",
           "Booking through an advisor adds upgrade priority, breakfast, and a property credit at Aman's published rates — and at these prices, the credit and upgrade are not rounding errors.",
         ],
       },
@@ -337,7 +337,7 @@ export const hotelAnswers = [
       },
       {
         q: "Aman vs. Six Senses vs. Rosewood — quickly?",
-        a: "Aman: silence and architecture. Six Senses: wellness and sustainability with more playfulness. Rosewood: residential glamour and better food scenes. All three sit in our atlas with VIP terms; the right one depends on whether the trip is a retreat, a reset, or a stage.",
+        a: "Aman: silence and architecture. {{brand:Six Senses}}: wellness and sustainability with more playfulness. Rosewood: residential glamour and better food scenes. All three sit in our atlas with VIP terms; the right one depends on whether the trip is a retreat, a reset, or a stage.",
       },
     ],
     related: [
@@ -358,7 +358,7 @@ export const hotelAnswers = [
     capsule:
       "Four Seasons is the consistency machine — the highest floor in luxury hospitality and the best with children. Ritz-Carlton is formal classicism attached to Bonvoy, so it is the only one of the three where points and status do real work, with more variance between properties. Rosewood is the design and food pick, with the smallest fleet and the most upside.",
     answer: [
-      "The caricature that holds up in practice: Four Seasons is the consistency machine — the highest floor in luxury hospitality, superb with children, almost never the wrong answer and occasionally the boring one. Ritz-Carlton is formal classicism attached to Marriott's Bonvoy engine — the only one of the three where points and status do real work, with more property-to-property variance (the Reserve tier is exceptional; some city flags are dated). Rosewood is the style pick — residential 'sense of place' design, the best bars and restaurants of the three, a younger crowd, and the most upside when the property is great.",
+      "The caricature that holds up in practice: {{brand:Four Seasons}} is the consistency machine — the highest floor in luxury hospitality, superb with children, almost never the wrong answer and occasionally the boring one. {{brand:Ritz-Carlton}} is formal classicism attached to Marriott's Bonvoy engine — the only one of the three where points and status do real work, with more property-to-property variance (the Reserve tier is exceptional; some city flags are dated). {{brand:Rosewood}} is the style pick — residential 'sense of place' design, the best bars and restaurants of the three, a younger crowd, and the most upside when the property is great.",
       "Our atlas tracks {{hotels:name=ritz-carlton}} Ritz-Carltons, {{hotels:name=four seasons}} Four Seasons and {{hotels:name=rosewood}} Rosewoods, each with their advisor programs (FS Preferred Partner, Marriott STARS, Rosewood Elite) layering upgrades, breakfast and credits on top of published rates.",
     ],
     sections: [
@@ -380,7 +380,7 @@ export const hotelAnswers = [
         h2: "City-by-city instinct",
         paras: [
           "Same city, all three flags? Our defaults, with full acknowledgment that specific properties break the rule: business or family trip — Four Seasons; special occasion or food-led trip — Rosewood; points redemption or club-lounge habit — Ritz-Carlton. And always ask the property-level question: a tired flag from any brand loses to a brilliant one from another, which is exactly the knowledge an advisor trades in.",
-          "Watch Ritz-Carlton Reserve separately — the handful of Reserves compete with Aman and Rosewood's best, not with standard Ritz-Carltons, and they book through STARS with meaningful benefits.",
+          "Watch {{brand:Ritz-Carlton Reserve}} separately — the handful of Reserves compete with {{brand:Aman}} and Rosewood's best, not with standard Ritz-Carltons, and they book through STARS with meaningful benefits.",
         ],
       },
     ],
@@ -498,7 +498,7 @@ export const hotelAnswers = [
     capsule:
       "The safari lodges we send travelers to first are Jack's Camp in Botswana's Makgadikgadi, Belmond's Okavango camps, Bushmans Kloof in the malaria-free Cederberg, Elewana Loisaba on Kenya's Laikipia plateau, Londolozi and Singita in the Sabi Sand, and Fairmont Mara Safari Club. On safari the advisor's value is itinerary spine and private vehicles, not breakfast credits.",
     answer: [
-      "From the {{hotels:category=Lodge / Safari}} safari and wilderness lodges in our atlas — most in Africa, the rest wilderness camps and ranches on other continents — the ones we send travelers to first: Jack's Camp in Botswana's Makgadikgadi (the great eccentric — Kalahari meerkats, desert-Baroque tents), Belmond's Botswana camps in the Okavango, Bushmans Kloof in the Cederberg (rock art, no malaria, family-friendly South Africa), Elewana Loisaba Tented Camp on Kenya's Laikipia plateau, Londolozi and Singita in the Sabi Sand, and Fairmont Mara Safari Club for the Mara circuit with big-hotel polish.",
+      "From the {{hotels:category=Lodge / Safari}} safari and wilderness lodges in our atlas — most in Africa, the rest wilderness camps and ranches on other continents — the ones we send travelers to first: Jack's Camp in Botswana's Makgadikgadi (the great eccentric — Kalahari meerkats, desert-Baroque tents), {{brand:Belmond}}'s Botswana camps in the Okavango, Bushmans Kloof in the Cederberg (rock art, no malaria, family-friendly South Africa), Elewana Loisaba Tented Camp on Kenya's Laikipia plateau, Londolozi and Singita in the Sabi Sand, and Fairmont Mara Safari Club for the Mara circuit with big-hotel polish.",
       "On safari, advisor value is less about breakfast credits (everything's included anyway) and more about the itinerary spine: which camps combine, private-vehicle guarantees, guide requests, charter logistics between airstrips, and the green-season pricing that halves rates in months that are often better game viewing than the brochure months.",
     ],
     sections: [
@@ -643,27 +643,27 @@ export const hotelAnswers = [
     capsule:
       "Hotels with advisor perks, brand by brand: Four Seasons (Preferred Partner), Marriott's Ritz-Carlton and St. Regis (STARS), IHG's InterContinental and Six Senses (Destined), Hilton's Waldorf Astoria and Conrad (Hilton for Luxury), Hyatt (Privé), Rosewood (Elite), Shangri-La (The Luxury Circle), Peninsula (Pen Club), Mandarin Oriental (Fan Club) and Jumeirah (Passport to Luxury). Booked through a member advisor at the hotel's own rate, each typically adds breakfast for two, a $100 credit, an upgrade when available and early or late check-out.",
     answer: [
-      "Which hotel brands give perks through an advisor? Nearly every luxury group does, each through its own invitation-only program: Four Seasons Preferred Partner, Marriott STARS, IHG Destined, Hilton for Luxury, Hyatt Privé, Rosewood Elite, Shangri-La The Luxury Circle, The Peninsula Pen Club, Mandarin Oriental Fan Club and Jumeirah Passport to Luxury. The list below gives each brand's benefits; independent hotels such as Aman, Belmond and Cheval Blanc give theirs through Virtuoso.",
+      "Which hotel brands give perks through an advisor? Nearly every luxury group does, each through its own invitation-only program: Four Seasons Preferred Partner, Marriott STARS, IHG Destined, Hilton for Luxury, Hyatt Privé, Rosewood Elite, Shangri-La The Luxury Circle, The Peninsula Pen Club, Mandarin Oriental Fan Club and Jumeirah Passport to Luxury. The list below gives each brand's benefits; independent hotels such as {{brand:Aman}}, {{brand:Belmond}} and {{brand:Cheval Blanc}} give theirs through Virtuoso.",
       "Hotel groups keep a short list of travel advisors whose clients they most want, and give those clients a standard set of benefits. The names differ but the shape is similar: daily breakfast for two, a property credit (commonly $100), an upgrade on arrival when available, early check-in and late check-out when available, and a welcome amenity. The rate is the hotel's own flexible rate, so the benefits cost nothing extra.",
-      "These brand programs sit alongside Virtuoso rather than replacing it. At a Ritz-Carlton or St. Regis, Marriott STARS is often the stronger stack; at an InterContinental or Six Senses, IHG Destined. An advisor who holds several can book each hotel through whichever serves you best. In our atlas, {{hotels:program=Marriott STARS}} properties are filed under Marriott STARS, {{hotels:program=IHG Destined}} under IHG Destined, {{hotels:program=Hilton for Luxury}} under Hilton for Luxury, {{hotels:program=Rosewood Elite}} under Rosewood Elite and {{hotels:program=Shangri-La The Luxury Circle}} under Shangri-La's Luxury Circle.",
+      "These brand programs sit alongside Virtuoso rather than replacing it. At a {{brand:Ritz-Carlton}} or {{brand:St. Regis}}, Marriott STARS is often the stronger stack; at an {{brand:InterContinental}} or {{brand:Six Senses}}, IHG Destined. An advisor who holds several can book each hotel through whichever serves you best. In our atlas, {{hotels:program=Marriott STARS}} properties are filed under Marriott STARS, {{hotels:program=IHG Destined}} under IHG Destined, {{hotels:program=Hilton for Luxury}} under Hilton for Luxury, {{hotels:program=Rosewood Elite}} under Rosewood Elite and {{hotels:program=Shangri-La The Luxury Circle}} under Shangri-La's Luxury Circle.",
     ],
     sections: [
       {
         h2: "Hotel brands with advisor perks, brand by brand",
         list: [
-          "Four Seasons — Preferred Partner: breakfast for two, $100 credit per stay ($200 in suites), upgrade, early and late check-out.",
-          "Marriott (Ritz-Carlton, St. Regis, EDITION, The Luxury Collection) — STARS: breakfast for two, $100 credit, upgrade, early and late check-out.",
+          "{{brand:Four Seasons}} — Preferred Partner: breakfast for two, $100 credit per stay ($200 in suites), upgrade, early and late check-out.",
+          "Marriott (Ritz-Carlton, St. Regis, {{brand:EDITION}}, The Luxury Collection) — STARS: breakfast for two, $100 credit, upgrade, early and late check-out.",
           "Marriott (W, JW Marriott, Autograph Collection) — Luminous: breakfast, a property credit and upgrade priority, varying by hotel.",
-          "IHG (InterContinental, Six Senses, Regent, Kimpton) — Destined: breakfast, a property credit and upgrade priority, varying by hotel.",
-          "Hilton (Waldorf Astoria, Conrad, LXR) — Hilton for Luxury: breakfast for two, $100 credit, upgrade, early and late check-out; some resorts add spa access.",
-          "Hyatt (Park Hyatt, Alila, Andaz and others) — Privé: breakfast, a property credit and upgrade priority, varying by hotel.",
-          "Rosewood — Rosewood Elite: breakfast for two, $100 food and beverage credit, upgrade, early and late check-out.",
-          "Shangri-La — The Luxury Circle: breakfast for two and an upgrade; at many hotels an automatic move to Horizon Club access, with a $100 credit in club rooms and suites.",
-          "The Peninsula — Pen Club: full breakfast for two, $100 credit, upgrade, early and late check-out.",
-          "Mandarin Oriental — Fan Club: breakfast for two, $100 credit, upgrade; some suites add airport transfers.",
-          "Jumeirah — Passport to Luxury: breakfast for two, $100 credit, upgrade; suites at some hotels add a massage.",
-          "Belmond (Bellini Club), Accor's Raffles, Fairmont and Sofitel (Accor Preferred), Anantara (Anantara Journeys), One&Only and Atlantis (Kerzner), Oetker (Pearl Partner) and Auberge each have a program of their own too.",
-          "Independent hotels and smaller brands (Aman, Cheval Blanc, Capella and most Relais & Châteaux) — usually through Virtuoso, with a similar list.",
+          "IHG (InterContinental, Six Senses, {{brand:Regent}}, {{brand:Kimpton}}) — Destined: breakfast, a property credit and upgrade priority, varying by hotel.",
+          "Hilton ({{brand:Waldorf Astoria}}, {{brand:Conrad}}, LXR) — Hilton for Luxury: breakfast for two, $100 credit, upgrade, early and late check-out; some resorts add spa access.",
+          "Hyatt ({{brand:Park Hyatt}}, Alila, {{brand:Andaz}} and others) — Privé: breakfast, a property credit and upgrade priority, varying by hotel.",
+          "{{brand:Rosewood}} — Rosewood Elite: breakfast for two, $100 food and beverage credit, upgrade, early and late check-out.",
+          "{{brand:Shangri-La}} — The Luxury Circle: breakfast for two and an upgrade; at many hotels an automatic move to Horizon Club access, with a $100 credit in club rooms and suites.",
+          "{{brand:The Peninsula}} — Pen Club: full breakfast for two, $100 credit, upgrade, early and late check-out.",
+          "{{brand:Mandarin Oriental}} — Fan Club: breakfast for two, $100 credit, upgrade; some suites add airport transfers.",
+          "{{brand:Jumeirah}} — Passport to Luxury: breakfast for two, $100 credit, upgrade; suites at some hotels add a massage.",
+          "Belmond (Bellini Club), Accor's {{brand:Raffles}}, {{brand:Fairmont}} and {{brand:Sofitel}} (Accor Preferred), {{brand:Anantara}} (Anantara Journeys), {{brand:One&Only}} and {{brand:Atlantis}} (Kerzner), {{brand:Oetker Collection|Oetker}} (Pearl Partner) and {{brand:Auberge Resorts|Auberge}} each have a program of their own too.",
+          "Independent hotels and smaller brands (Aman, Cheval Blanc, {{brand:Capella}} and most Relais & Châteaux) — usually through Virtuoso, with a similar list.",
         ],
         paras: [
           "Benefits are as filed for 2026 in the supplier feed behind our atlas, checked 2026-10-01. Hotels vary the details, and each property's own page lists what is on file for it.",
@@ -679,7 +679,7 @@ export const hotelAnswers = [
             ["Marriott Luminous", "Marriott", "W, JW Marriott, Autograph Collection", "{{hotels:program=Marriott Luminous}}"],
             ["IHG Destined", "IHG", "InterContinental, Six Senses, Regent, Kimpton", "{{hotels:program=IHG Destined}}"],
             ["Hilton for Luxury", "Hilton", "Waldorf Astoria, Conrad, LXR", "{{hotels:program=Hilton for Luxury}}"],
-            ["Hyatt Privé", "Hyatt", "Park Hyatt, Alila, Andaz, Thompson", "{{hotels:program=Hyatt Privé}}"],
+            ["Hyatt Privé", "Hyatt", "Park Hyatt, Alila, Andaz, {{brand:Thompson}}", "{{hotels:program=Hyatt Privé}}"],
             ["Accor Preferred", "Accor", "Raffles, Fairmont, Sofitel", "{{hotels:program=Accor Preferred}}"],
             ["Four Seasons Preferred Partner", "Four Seasons", "Four Seasons", "{{hotels:program=Four Seasons Preferred Partner}}"],
             ["Rosewood Elite", "Rosewood", "Rosewood", "{{hotels:program=Rosewood Elite}}"],

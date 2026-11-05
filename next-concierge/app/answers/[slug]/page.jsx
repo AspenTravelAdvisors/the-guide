@@ -23,11 +23,12 @@ import {
   breadcrumbJsonLd,
   evidenceJsonLd,
 } from "@/lib/seo/answer-schema";
-import { answerEvidence, resolvedAnswer } from "@/lib/seo/answer-facts";
+import { answerBody, answerEvidence, resolvedAnswer } from "@/lib/seo/answer-facts";
 import { jsonLd } from "@/lib/seo/json-ld";
 import { SITE_OG_IMAGE } from "@/lib/seo/site";
 import SiteFooter from "@/components/SiteFooter";
 import AnswerAdvisorCta from "@/components/AnswerAdvisorCta";
+import AnswerProse from "@/components/AnswerProse";
 
 export const dynamicParams = false;
 
@@ -69,7 +70,17 @@ function AnswerTable({ table }) {
         <tbody>
           {table.rows.map((r, i) => (
             <tr key={i}>
-              {r.map((cell, j) => (j === 0 ? <th key={j} scope="row">{cell}</th> : <td key={j}>{cell}</td>))}
+              {r.map((cell, j) =>
+                j === 0 ? (
+                  <th key={j} scope="row">
+                    <AnswerProse text={cell} />
+                  </th>
+                ) : (
+                  <td key={j}>
+                    <AnswerProse text={cell} />
+                  </td>
+                ),
+              )}
             </tr>
           ))}
         </tbody>
@@ -130,6 +141,9 @@ export default async function AnswerPage({ params }) {
   const a = resolvedAnswer(slug);
   if (!a) notFound();
 
+  // The prose the page renders, with supplier names linked to their pages.
+  // `a` stays the plain-text record for everything that is not body copy.
+  const body = await answerBody(slug);
   const evidence = answerEvidence(a);
   const evidenceLd = evidenceJsonLd(a, evidence);
 
@@ -178,22 +192,28 @@ export default async function AnswerPage({ params }) {
       <AnswerAdvisorCta lead="Planning this trip? An Aspen advisor will shape it around your dates and price it with Virtuoso VIP benefits included." />
 
       <div className="answers-lead">
-        {a.answer.map((p, i) => (
-          <p key={i}>{p}</p>
+        {body.answer.map((p, i) => (
+          <p key={i}>
+            <AnswerProse text={p} />
+          </p>
         ))}
       </div>
 
-      {a.sections.map((s, i) => (
+      {body.sections.map((s, i) => (
         <section key={i}>
           {s.h2 && <h2>{s.h2}</h2>}
           {s.table && <AnswerTable table={s.table} />}
           {(s.paras || []).map((p, j) => (
-            <p key={j}>{p}</p>
+            <p key={j}>
+              <AnswerProse text={p} />
+            </p>
           ))}
           {s.list && (
             <ul>
               {s.list.map((item, j) => (
-                <li key={j}>{item}</li>
+                <li key={j}>
+                  <AnswerProse text={item} />
+                </li>
               ))}
             </ul>
           )}
@@ -204,10 +224,12 @@ export default async function AnswerPage({ params }) {
 
       <section className="answers-faq">
         <h2>Frequently asked</h2>
-        {a.faqs.map((f, i) => (
+        {body.faqs.map((f, i) => (
           <details key={i} open>
             <summary>{f.q}</summary>
-            <p>{f.a}</p>
+            <p>
+              <AnswerProse text={f.a} />
+            </p>
           </details>
         ))}
       </section>

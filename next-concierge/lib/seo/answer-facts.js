@@ -4,7 +4,7 @@
 // loader for it. scripts/verify-seo.mjs is the other loader. Neither carries a
 // second copy of what a term means.
 
-import { makeFacts } from "@/lib/seo/facts.mjs";
+import { makeFacts, LINK_MARK_RE, stripLinks } from "@/lib/seo/facts.mjs";
 import { COLLECTIONS } from "@/lib/atlas-config";
 import { ALL_ANSWERS, getAnswer, answersByCategory } from "@/lib/answers";
 import { allHotels, hotelPath } from "@/lib/seo/hotels";
@@ -19,6 +19,12 @@ const COLLECTION_COUNTS = Object.fromEntries(
   COLLECTIONS.map((c) => [c.type, c.count]),
 );
 
+// The supplier-page lookup, loaded only by the one surface that links: the
+// answer page body. lib/seo/suppliers.js reads every route feed, and the
+// /answers index and /llms.txt, which import this module too, have no use for it.
+/** @type {null | ((kind: string, collection: string, name: string) => string | null)} */
+let supplierHref = null;
+
 /*
  * Journeys arrive as a generated artifact, not as the route feeds.
  *
@@ -28,7 +34,13 @@ const COLLECTION_COUNTS = Object.fromEntries(
  * same grouping the /journeys pages serve from — so a count in a sentence and
  * the page it links to cannot disagree about what an itinerary is.
  */
-export const facts = makeFacts(HOTELS, COLLECTION_COUNTS, journeyFacts.rows, loadVillas().villas);
+export const facts = makeFacts(
+  HOTELS,
+  COLLECTION_COUNTS,
+  journeyFacts.rows,
+  loadVillas().villas,
+  (kind, collection, name) => (supplierHref ? supplierHref(kind, collection, name) : null),
+);
 
 /**
  * Resolve an answer's `evidence` block into real, linkable properties.
@@ -86,4 +98,54 @@ export function resolvedAnswersByCategory() {
     category,
     answers: answers.map((a) => facts.resolveDeep(a)),
   }));
+}
+
+/**
+ * The parts of an answer the page renders as prose — lead, sections, FAQs —
+ * with supplier tokens linked, each supplier page linked once, at its first
+ * mention in reading order.
+ *
+ * Everything else about the page (title, description, capsule, JSON-LD) keeps
+ * reading `resolvedAnswer`, which is plain text. The capsule in particular is
+ * never linked: it is the paragraph built to be lifted out whole, and the
+ * Article block's `speakable` points at it.
+ *
+ * The order below is the page's order (the lead; each section's table, then
+ * paragraphs, then list; the FAQs). If the page template changes the order,
+ * change it here too, or the link moves to a later mention.
+ */
+export async function answerBody(slug) {
+  const raw = getAnswer(slug);
+  if (!raw) return null;
+  supplierHref ??= (await import("@/lib/seo/suppliers")).supplierHref;
+
+  const linked = (node) => facts.resolveDeep(node, { linked: true });
+  const seen = new Set();
+  const once = (text) =>
+    typeof text !== "string"
+      ? text
+      : text.replace(LINK_MARK_RE, (mark, href, label) => {
+          if (seen.has(href)) return label;
+          seen.add(href);
+          return mark;
+        });
+
+  const answer = linked(raw.answer || []).map(once);
+  const sections = linked(raw.sections || []).map((s) => {
+    const out = { ...s };
+    if (s.h2) out.h2 = stripLinks(s.h2);
+    if (s.table) {
+      out.table = {
+        ...s.table,
+        caption: stripLinks(s.table.caption),
+        columns: s.table.columns.map(stripLinks),
+        rows: s.table.rows.map((r) => r.map(once)),
+      };
+    }
+    if (s.paras) out.paras = s.paras.map(once);
+    if (s.list) out.list = s.list.map(once);
+    return out;
+  });
+  const faqs = linked(raw.faqs || []).map((f) => ({ q: stripLinks(f.q), a: once(f.a) }));
+  return { answer, sections, faqs };
 }
