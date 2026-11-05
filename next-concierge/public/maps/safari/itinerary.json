@@ -9725,7 +9725,7 @@
     ]
    }
   ],
-  "18365627": [
+  "18365575": [
    {
     "n": "Nairobi",
     "r": "EASTAFRICA",
@@ -18738,6 +18738,454 @@
      36.8167
     ]
    }
+  ],
+  "18651064": [
+   {
+    "n": "Arusha",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.3678,
+     36.6333
+    ]
+   },
+   {
+    "n": "Karatu",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.3333,
+     35.6667
+    ]
+   },
+   {
+    "n": "Ngorongoro",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.15,
+     35.475
+    ]
+   },
+   {
+    "n": "Arusha",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.3678,
+     36.6333
+    ]
+   },
+   {
+    "n": "Serengeti",
+    "r": "EASTAFRICA",
+    "ll": [
+     -2.3308,
+     34.8333
+    ]
+   },
+   {
+    "n": "Masai Mara National Reserve",
+    "r": "EASTAFRICA",
+    "ll": [
+     -1.4999,
+     35.1527
+    ]
+   }
+  ],
+  "18651068": [
+   {
+    "n": "Arusha",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.3678,
+     36.6333
+    ]
+   },
+   {
+    "n": "Lake Manyara",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.5833,
+     35.8333
+    ]
+   },
+   {
+    "n": "Ngorongoro",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.15,
+     35.475
+    ]
+   },
+   {
+    "n": "Serengeti",
+    "r": "EASTAFRICA",
+    "ll": [
+     -2.3308,
+     34.8333
+    ]
+   },
+   {
+    "n": "Samburu National Reserve",
+    "r": "EASTAFRICA",
+    "ll": [
+     0.6181,
+     37.53
+    ]
+   },
+   {
+    "n": "Nanyuki",
+    "r": "EASTAFRICA",
+    "ll": [
+     0.0167,
+     37.0667
+    ]
+   },
+   {
+    "n": "Masai Mara National Reserve",
+    "r": "EASTAFRICA",
+    "ll": [
+     -1.4999,
+     35.1527
+    ]
+   },
+   {
+    "n": "Nairobi",
+    "r": "EASTAFRICA",
+    "ll": [
+     -1.2833,
+     36.8167
+    ]
+   }
+  ],
+  "18651071": [
+   {
+    "n": "Arusha",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.3678,
+     36.6333
+    ]
+   },
+   {
+    "n": "Ngorongoro",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.15,
+     35.475
+    ]
+   },
+   {
+    "n": "Serengeti",
+    "r": "EASTAFRICA",
+    "ll": [
+     -2.3308,
+     34.8333
+    ]
+   },
+   {
+    "n": "Samburu National Reserve",
+    "r": "EASTAFRICA",
+    "ll": [
+     0.6181,
+     37.53
+    ]
+   },
+   {
+    "n": "Nanyuki",
+    "r": "EASTAFRICA",
+    "ll": [
+     0.0167,
+     37.0667
+    ]
+   },
+   {
+    "n": "Masai Mara National Reserve",
+    "r": "EASTAFRICA",
+    "ll": [
+     -1.4999,
+     35.1527
+    ]
+   },
+   {
+    "n": "Kigali",
+    "r": "GREATAPES",
+    "ll": [
+     -1.9536,
+     30.0606
+    ]
+   },
+   {
+    "n": "Volcanoes National Park",
+    "r": "GREATAPES",
+    "ll": [
+     -1.5196,
+     29.4497
+    ]
+   }
+  ],
+  "18651072": [
+   {
+    "n": "Tarangire National Park",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.8333,
+     36
+    ]
+   },
+   {
+    "n": "Ngorongoro",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.15,
+     35.475
+    ]
+   },
+   {
+    "n": "Serengeti",
+    "r": "EASTAFRICA",
+    "ll": [
+     -2.3308,
+     34.8333
+    ]
+   },
+   {
+    "n": "Zanzibar",
+    "r": "EASTAFRICA",
+    "ll": [
+     -6.1667,
+     39.1833
+    ]
+   },
+   {
+    "n": "Kigali",
+    "r": "GREATAPES",
+    "ll": [
+     -1.9536,
+     30.0606
+    ]
+   },
+   {
+    "n": "Volcanoes National Park",
+    "r": "GREATAPES",
+    "ll": [
+     -1.5196,
+     29.4497
+    ]
+   },
+   {
+    "n": "Tarangire National Park",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.8333,
+     36
+    ]
+   },
+   {
+    "n": "Ngorongoro",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.15,
+     35.475
+    ]
+   },
+   {
+    "n": "Serengeti",
+    "r": "EASTAFRICA",
+    "ll": [
+     -2.3308,
+     34.8333
+    ]
+   },
+   {
+    "n": "Zanzibar",
+    "r": "EASTAFRICA",
+    "ll": [
+     -6.1667,
+     39.1833
+    ]
+   },
+   {
+    "n": "Kigali",
+    "r": "GREATAPES",
+    "ll": [
+     -1.9536,
+     30.0606
+    ]
+   },
+   {
+    "n": "Volcanoes National Park",
+    "r": "GREATAPES",
+    "ll": [
+     -1.5196,
+     29.4497
+    ]
+   }
+  ],
+  "18651080": [
+   {
+    "n": "Arusha",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.3678,
+     36.6333
+    ]
+   },
+   {
+    "n": "Arusha National Park",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.2633,
+     36.7412
+    ]
+   },
+   {
+    "n": "Tarangire National Park",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.8333,
+     36
+    ]
+   },
+   {
+    "n": "Lake Manyara",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.5833,
+     35.8333
+    ]
+   },
+   {
+    "n": "Karatu",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.3333,
+     35.6667
+    ]
+   },
+   {
+    "n": "Serengeti",
+    "r": "EASTAFRICA",
+    "ll": [
+     -2.3308,
+     34.8333
+    ]
+   },
+   {
+    "n": "Arusha",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.3678,
+     36.6333
+    ]
+   }
+  ],
+  "18651081": [
+   {
+    "n": "Arusha",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.3678,
+     36.6333
+    ]
+   },
+   {
+    "n": "Tarangire National Park",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.8333,
+     36
+    ]
+   },
+   {
+    "n": "Karatu",
+    "r": "EASTAFRICA",
+    "ll": [
+     -3.3333,
+     35.6667
+    ]
+   },
+   {
+    "n": "Serengeti",
+    "r": "EASTAFRICA",
+    "ll": [
+     -2.3308,
+     34.8333
+    ]
+   },
+   {
+    "n": "Zanzibar",
+    "r": "EASTAFRICA",
+    "ll": [
+     -6.1667,
+     39.1833
+    ]
+   }
+  ],
+  "18651084": [
+   {
+    "n": "Victoria Falls",
+    "r": "ZAMBEZI",
+    "ll": [
+     -17.9244,
+     25.8566
+    ]
+   },
+   {
+    "n": "Chobe National Park",
+    "r": "ZAMBEZI",
+    "ll": [
+     -18.6666,
+     24.5
+    ]
+   },
+   {
+    "n": "Chobe River",
+    "r": "OKAVANGO",
+    "ll": [
+     -18.4789,
+     23.6565
+    ]
+   },
+   {
+    "n": "Kruger National Park",
+    "r": "SOUTHERN",
+    "ll": [
+     -23.95,
+     31.175
+    ]
+   },
+   {
+    "n": "Cape Town",
+    "r": "SOUTHERN",
+    "ll": [
+     -33.9167,
+     18.4167
+    ]
+   }
+  ],
+  "18651085": [
+   {
+    "n": "Pray",
+    "r": "ROCKIES",
+    "ll": [
+     45.3181,
+     -110.768
+    ]
+   },
+   {
+    "n": "Yellowstone National Park",
+    "r": "ROCKIES",
+    "ll": [
+     44.5678,
+     -110.441
+    ]
+   },
+   {
+    "n": "Jackson Hole",
+    "r": "ROCKIES",
+    "ll": [
+     43.7921,
+     -110.706
+    ]
+   }
   ]
  },
  "TRIPS": [
@@ -19721,7 +20169,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/15699862/anaturaliststripthroughthenationalparksofmadhyapradesh",
    "days": 12,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_231_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_231.webp",
    "from": "New Delhi, India",
    "to": "Satpura National Park, India",
    "country": "India",
@@ -23648,7 +24096,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18301939/aroundtheworldinthreecontinentsamanjetexpedition2027",
    "days": 22,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_0_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_0.webp",
    "from": "Kyoto, Japan",
    "to": "Marrakech, Morocco",
    "country": "Indonesia",
@@ -24810,16 +25258,16 @@
      "description": "Experience the serene beauty of Bhutan with an exclusive stay at &Beyond Punakha River Lodge Stay for three nights or more at &Beyond Punakha River Lodge, and we’ll cover your Sustainable Development Fee (SDF), allowing you to immerse yourself in the wonders of this Himalayan kingdom without the added cost. Validity dates: 03 Jan – 28 Feb 2026 01 Jun – 31 Aug 2026 01 – 22 Dec 2026 Book your journey today and discover the magic of Bhutan—stress-free!"
     },
     {
-     "name": "Punakha Honeymoon",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "An idyllic and spiritually enriching honeymoon destination nestled amidst the majestic Himalaya mountains Punakha, situated in the heart of the Himalaya, invites couples to experience its secluded and picturesque valley, characterised by awe-inspiring natural beauty, captivating landscapes, and a rich cultural heritage. Immerse guests in the serenity of the Himalaya, strolling hand in hand through lush paddy fields, exploring historic monasteries together, and sharing moments of tranquility beside glistening rivers. With its unique blend of romance, adventure, and culture, Punakha promises an…"
-    },
-    {
      "name": "Milestone Celebrations Offer",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding…"
+    },
+    {
+     "name": "Punakha Honeymoon",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "An idyllic and spiritually enriching honeymoon destination nestled amidst the majestic Himalaya mountains Punakha, situated in the heart of the Himalaya, invites couples to experience its secluded and picturesque valley, characterised by awe-inspiring natural beauty, captivating landscapes, and a rich cultural heritage. Immerse guests in the serenity of the Himalaya, strolling hand in hand through lush paddy fields, exploring historic monasteries together, and sharing moments of tranquility beside glistening rivers. With its unique blend of romance, adventure, and culture, Punakha promises an…"
     }
    ],
    "itin": [
@@ -27616,7 +28064,7 @@
    "g": [],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/12892850/classictaiwan",
    "days": 8,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_86_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_86.webp",
    "from": "Taipei, Taiwan",
    "to": "Kaohsiung, Taiwan",
    "country": "Taiwan",
@@ -28435,7 +28883,7 @@
    "g": [],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/16178314/culturalsafariinsoutheastasiaprivatejourneyvietnamcambodiala",
    "days": 12,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0.webp",
    "from": "Hanoi, Vietnam",
    "to": "Bangkok, Thailand",
    "country": "Cambodia",
@@ -28834,7 +29282,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18301680/discoversoutheastasiaamanjetexpeditions2027feb21mar62027",
    "days": 14,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_80_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_80.webp",
    "from": "Ninh Thuân, Vietnam",
    "to": "Bangkok, Thailand",
    "country": "Cambodia",
@@ -28891,7 +29339,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18301921/discoversoutheastasiaamanjetexpeditions2027nov7202027",
    "days": 14,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_80_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_80.webp",
    "from": "Ninh Thuân, Vietnam",
    "to": "Bangkok, Thailand",
    "country": "Cambodia",
@@ -29867,7 +30315,7 @@
    "g": [],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/16164986/elephanthealthcareprivateluangprabangexperiencelaos",
    "days": 4,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0.webp",
    "from": "Luang Prabang, Laos",
    "to": "Luang Prabang, Laos",
    "country": "Laos",
@@ -30153,7 +30601,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/14017849/exoticwildlifeandvolcaniclandscapesofsumatraindonesia",
    "days": 14,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_74_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_74.webp",
    "from": "Sungsang, Sumatra, Indonesia",
    "to": "Padang, Indonesia",
    "country": "Indonesia",
@@ -30291,7 +30739,7 @@
    "g": [],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/12892134/exoticwildlifeofpapuanewguinea",
    "days": 12,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_317_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_317.webp",
    "from": "Port Moresby, Papua New Guinea",
    "to": "Port Moresby, Papua New Guinea",
    "country": "Papua New Guinea",
@@ -31271,7 +31719,7 @@
    "g": [],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/16164989/gardenoflaosprivateluangprabangexperience",
    "days": 4,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0.webp",
    "from": "Luang Prabang, Laos",
    "to": "Luang Prabang, Laos",
    "country": "Laos",
@@ -31304,7 +31752,7 @@
    "g": [],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/16207137/gardensandcommunitiesofoldbangkokthailandprivate",
    "days": 4,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0.webp",
    "from": "Bangkok, Thailand",
    "to": "Bangkok, Thailand",
    "country": "Thailand",
@@ -32056,6 +32504,72 @@
    "route": "18295007"
   },
   {
+   "id": "18651064",
+   "n": "Great Migration: Tanzania & Kenya",
+   "b": "tauck",
+   "g": [
+    "EASTAFRICA"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18651064/greatmigrationtanzaniakenya",
+   "days": 9,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_104.webp",
+   "from": "Arusha, Tanzania",
+   "to": "Journey Home",
+   "country": "Kenya",
+   "world": false,
+   "mks": [
+    "2028-01",
+    "2028-02",
+    "2028-03",
+    "2028-04",
+    "2028-05",
+    "2028-06",
+    "2028-07",
+    "2028-08",
+    "2028-09",
+    "2028-10"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 29 Jan 2028 - 18 Oct 2028",
+   "description": "Small Group Departures averaging 15 guests! Follow wildebeest and zebra on their annual trek from Tanzania's Serengeti National Park to Kenya's Maasai Mara National Reserve in search of greener pastures on this nine-day safari - to witness this Great Migration is a unique experience that should be at the top of the bucket list of every safari enthusiast.",
+   "included": [],
+   "promotions": [
+    {
+     "name": "Tauck Bridges: Save When You Travel As A Group",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Arusha"
+    },
+    {
+     "d": 2,
+     "n": "Karatu"
+    },
+    {
+     "d": 3,
+     "n": "Ngorongoro"
+    },
+    {
+     "d": 1,
+     "n": "Arusha"
+    },
+    {
+     "d": 5,
+     "n": "Serengeti"
+    },
+    {
+     "d": 8,
+     "n": "Masai Mara National Reserve"
+    }
+   ],
+   "route": "18651064"
+  },
+  {
    "id": "16301676",
    "n": "Greater Kruger & Cape Town",
    "b": "ak",
@@ -32599,7 +33113,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18103430/himalayancultureandwilderness",
    "days": 14,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18100729_2_0_1004.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18100729_2_0.webp",
    "from": "Kathmandu, Nepal",
    "to": "Paro, Bhutan",
    "country": "Bhutan",
@@ -33131,7 +33645,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/15224889/insearchoftheroyalbengaltigerindiasnationalparksbyprivatejet",
    "days": 11,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_231_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_231.webp",
    "from": "New Delhi, India",
    "to": "Bandhavgarh, India",
    "country": "India",
@@ -33332,7 +33846,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/12876214/indiansafariadventure",
    "days": 12,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_231_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_231.webp",
    "from": "New Delhi, India",
    "to": "Mumbai, India",
    "country": "India",
@@ -33933,7 +34447,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18102031/jeepsafariinchitwan",
    "days": 4,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18100729_2_0_1004.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18100729_2_0.webp",
    "from": "Chitwan National Park, Nepal",
    "to": "Chitwan National Park, Nepal",
    "country": "Nepal",
@@ -34326,6 +34840,82 @@
     }
    ],
    "route": "18295011"
+  },
+  {
+   "id": "18651068",
+   "n": "Kenya & Tanzania: A Classic Safari",
+   "b": "tauck",
+   "g": [
+    "EASTAFRICA"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18651068/kenyatanzaniaaclassicsafari",
+   "days": 13,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_104.webp",
+   "from": "Arusha, Tanzania",
+   "to": "Nairobi, Kenya",
+   "country": "Kenya",
+   "world": false,
+   "mks": [
+    "2028-01",
+    "2028-02",
+    "2028-03",
+    "2028-04",
+    "2028-05",
+    "2028-06",
+    "2028-07",
+    "2028-08",
+    "2028-09",
+    "2028-10",
+    "2028-11",
+    "2028-12"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 08 Jan 2028 - 28 Dec 2028",
+   "description": "This classic African safari evokes safaris of yesteryear... you'll embark on an expedition to get to know the world's most majestic animals, the \"Big Five,\" in their natural habitats within the magnificent national parks of Kenya and Tanzania.",
+   "included": [],
+   "promotions": [
+    {
+     "name": "Tauck Bridges: Save When You Travel As A Group",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Arusha"
+    },
+    {
+     "d": 2,
+     "n": "Lake Manyara"
+    },
+    {
+     "d": 3,
+     "n": "Ngorongoro"
+    },
+    {
+     "d": 4,
+     "n": "Serengeti"
+    },
+    {
+     "d": 7,
+     "n": "Samburu National Reserve"
+    },
+    {
+     "d": 9,
+     "n": "Nanyuki"
+    },
+    {
+     "d": 11,
+     "n": "Masai Mara National Reserve"
+    },
+    {
+     "d": 13,
+     "n": "Nairobi"
+    }
+   ],
+   "route": "18651068"
   },
   {
    "id": "18107045",
@@ -34939,28 +35529,31 @@
    "route": "18645739"
   },
   {
-   "id": "18365627",
+   "id": "18365575",
    "n": "Kenya and Uganda Safari by Private Air",
    "b": "ak",
    "g": [
     "EASTAFRICA",
     "GREATAPES"
    ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18365627/kenyaandugandasafaribyprivateair",
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18365575/kenyaandugandasafaribyprivateair",
    "days": 11,
    "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_306.webp",
    "from": "Nairobi, Kenya",
    "to": "Entebbe, Uganda",
    "country": "Kenya",
    "world": false,
+   "d": "8/29/2027",
+   "r": "9/8/2027",
    "mks": [
     "2027-08",
     "2027-09"
    ],
-   "onDemand": true,
-   "win": "Valid for Departures: 13 Aug 2027 - 08 Sep 2027",
+   "win": "Dates: 29 Aug 2027 - 08 Sep 2027",
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
-   "included": [],
+   "included": [
+    "In the thrilling part of the world that gave birth to A&K, experience the diverse appeal of East Africa, from the sprawling classic safari country of Kenya, tracking lions, elephants, cheetahs and other iconic wildlife — including departures timed with the Great Migration’s appearance in the Maasai Mara — to the verdant misty hillside jungles of Uganda, encountering some of the world’s few remaining mountain gorillas up close. It’s a dream adventure come true, thanks to private air and the unrivaled local presence of Abercrombie & Kent."
+   ],
    "promotions": [
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
@@ -34999,7 +35592,7 @@
      "n": "Entebbe"
     }
    ],
-   "route": "18365627"
+   "route": "18365575"
   },
   {
    "id": "18562114",
@@ -38262,6 +38855,75 @@
    "route": "18317046"
   },
   {
+   "id": "18651071",
+   "n": "Mountain Gorilla Safari: Kenya, Tanzania & Rwanda",
+   "b": "tauck",
+   "g": [
+    "EASTAFRICA",
+    "GREATAPES"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18651071/mountaingorillasafarikenyatanzaniarwanda",
+   "days": 16,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_104.webp",
+   "from": "Arusha, Tanzania",
+   "to": "Journey Home",
+   "country": "Kenya",
+   "world": false,
+   "mks": [
+    "2028-06",
+    "2028-07",
+    "2028-08",
+    "2028-09"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 15 Jun 2028 - 22 Sep 2028",
+   "description": "From the Big Five to silverbacked Mountain Gorillas, wildlife is the draw on this 16-day safari through Kenya, Tanzania and Rwanda where game drives and mountain treks reward you with once-in-a-lifetime encounters with animals, both endemic and endangered. All departures are small groups, limited to 24 guests.",
+   "included": [],
+   "promotions": [
+    {
+     "name": "Tauck Bridges: Save When You Travel As A Group",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Arusha"
+    },
+    {
+     "d": 2,
+     "n": "Ngorongoro"
+    },
+    {
+     "d": 4,
+     "n": "Serengeti"
+    },
+    {
+     "d": 7,
+     "n": "Samburu National Reserve"
+    },
+    {
+     "d": 9,
+     "n": "Nanyuki"
+    },
+    {
+     "d": 11,
+     "n": "Masai Mara National Reserve"
+    },
+    {
+     "d": 13,
+     "n": "Kigali"
+    },
+    {
+     "d": 14,
+     "n": "Volcanoes National Park"
+    }
+   ],
+   "route": "18651071"
+  },
+  {
    "id": "18295015",
    "n": "Mountain Gorilla Safari: Tanzania, Zanzibar & Rwanda",
    "b": "tauck",
@@ -38326,6 +38988,91 @@
     }
    ],
    "route": "18295015"
+  },
+  {
+   "id": "18651072",
+   "n": "Mountain Gorilla Safari: Tanzania, Zanzibar & Rwanda",
+   "b": "tauck",
+   "g": [
+    "EASTAFRICA",
+    "GREATAPES"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18651072/mountaingorillasafaritanzaniazanzibarrwanda",
+   "days": 13,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_105.webp",
+   "from": "Tanzania, Tanzania",
+   "to": "Journey Home",
+   "country": "Rwanda",
+   "world": false,
+   "mks": [
+    "2028-06",
+    "2028-07",
+    "2028-08",
+    "2028-09"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 14 Jun 2028 - 18 Sep 2028",
+   "description": "Once-in-a-lifetime opportunities abound on this small group safari. Intimate game drives in wildlife-rich national parks promise up-close animal encounters. A private ocean safari and spice tour in Zanzibar reveal cultural treasures. And a gorilla trek in Rwanda is a true bucket list experience!",
+   "included": [],
+   "promotions": [
+    {
+     "name": "Tauck Bridges: Save When You Travel As A Group",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
+    }
+   ],
+   "itin": [
+    {
+     "d": 2,
+     "n": "Tarangire National Park"
+    },
+    {
+     "d": 3,
+     "n": "Ngorongoro"
+    },
+    {
+     "d": 5,
+     "n": "Serengeti"
+    },
+    {
+     "d": 9,
+     "n": "Zanzibar"
+    },
+    {
+     "d": 10,
+     "n": "Kigali"
+    },
+    {
+     "d": 11,
+     "n": "Volcanoes National Park"
+    },
+    {
+     "d": 2,
+     "n": "Tarangire National Park"
+    },
+    {
+     "d": 3,
+     "n": "Ngorongoro"
+    },
+    {
+     "d": 5,
+     "n": "Serengeti"
+    },
+    {
+     "d": 9,
+     "n": "Zanzibar"
+    },
+    {
+     "d": 10,
+     "n": "Kigali"
+    },
+    {
+     "d": 11,
+     "n": "Volcanoes National Park"
+    }
+   ],
+   "route": "18651072"
   },
   {
    "id": "18103448",
@@ -39098,7 +39845,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18107394/nepalesemountaintourandjunglesafari",
    "days": 7,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18100729_2_15_1004.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18100729_2_15.webp",
    "from": "Kathmandu, Nepal",
    "to": "Chitwan National Park, Nepal",
    "country": "Nepal",
@@ -39626,7 +40373,7 @@
    "g": [],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/16207133/northernthaituktuktrailsprivatechiangmaitour",
    "days": 7,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0.webp",
    "from": "Chiang Mai, Thailand",
    "to": "Chiang Mai, Thailand",
    "country": "Thailand",
@@ -40140,8 +40887,6 @@
    "country": "Ecuador",
    "world": false,
    "mks": [
-    "2027-04",
-    "2027-05",
     "2027-06",
     "2027-07",
     "2027-08",
@@ -40374,7 +41119,7 @@
    "g": [],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18361272/petrathepyramidsandanileyachtcruise",
    "days": 13,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15690947_2_0.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15690947_2_7.webp",
    "from": "Amman, Jordan",
    "to": "Cairo, Egypt",
    "country": "Egypt",
@@ -40624,7 +41369,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18600973/redpandaandtigerjourney",
    "days": 12,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18100729_2_100_1004.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18100729_2_100.webp",
    "from": "New Delhi, India",
    "to": "Kanha National Park, India",
    "country": "India",
@@ -42306,7 +43051,7 @@
    "g": [],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/12892837/sepikhighlandssafaripapuanewguinea",
    "days": 13,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_102_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_102.webp",
    "from": "Tari, Papua New Guinea",
    "to": "Port Moresby, Papua New Guinea",
    "country": "Papua New Guinea",
@@ -44834,6 +45579,73 @@
    "route": "18295024"
   },
   {
+   "id": "18651080",
+   "n": "Tanzania: A Grand Family Safari",
+   "b": "tauck",
+   "g": [
+    "EASTAFRICA"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18651080/tanzaniaagrandfamilysafari",
+   "days": 10,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_105.webp",
+   "from": "Arusha, Tanzania",
+   "to": "Arusha, Tanzania",
+   "country": "Tanzania",
+   "world": false,
+   "mks": [
+    "2028-06",
+    "2028-07",
+    "2028-08",
+    "2028-09",
+    "2028-10",
+    "2028-11",
+    "2028-12"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 04 Jun 2028 - 31 Dec 2028",
+   "description": "Join us on a 10-day family safari in Tanzania, for the ultimate adventure across the African landscape where you'll have an opportunity to view Africa's \"Big Five\" on daily game drives in a few of the region's national parks.",
+   "included": [],
+   "promotions": [
+    {
+     "name": "Tauck Bridges: Save When You Travel As A Group",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Arusha"
+    },
+    {
+     "d": 2,
+     "n": "Arusha National Park"
+    },
+    {
+     "d": 3,
+     "n": "Tarangire National Park"
+    },
+    {
+     "d": 5,
+     "n": "Lake Manyara"
+    },
+    {
+     "d": 6,
+     "n": "Karatu"
+    },
+    {
+     "d": 7,
+     "n": "Serengeti"
+    },
+    {
+     "d": 1,
+     "n": "Arusha"
+    }
+   ],
+   "route": "18651080"
+  },
+  {
    "id": "18346152",
    "n": "Tanzania: Epic Safaris and Zanzibar’s Beaches",
    "b": "ak",
@@ -45093,6 +45905,70 @@
     }
    ],
    "route": "18295025"
+  },
+  {
+   "id": "18651081",
+   "n": "Tanzania: Serengeti to Zanzibar",
+   "b": "tauck",
+   "g": [
+    "EASTAFRICA"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18651081/tanzaniaserengetitozanzibar",
+   "days": 10,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_105.webp",
+   "from": "Arusha, Tanzania",
+   "to": "",
+   "country": "Tanzania",
+   "world": false,
+   "mks": [
+    "2028-01",
+    "2028-02",
+    "2028-03",
+    "2028-04",
+    "2028-05",
+    "2028-06",
+    "2028-07",
+    "2028-08",
+    "2028-09",
+    "2028-10",
+    "2028-11",
+    "2028-12"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 10 Jan 2028 - 27 Dec 2028",
+   "description": "Enjoy a grand safari adventure in Tanzania plus a visit to the tropical island archipelago of Zanzibar. Your journey includes outstanding wildlife viewing on game drives that take you from Ngorongoro Crater to the famed Serengeti to observe Africa's Big Five.",
+   "included": [],
+   "promotions": [
+    {
+     "name": "Tauck Bridges: Save When You Travel As A Group",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Arusha"
+    },
+    {
+     "d": 2,
+     "n": "Tarangire National Park"
+    },
+    {
+     "d": 4,
+     "n": "Karatu"
+    },
+    {
+     "d": 5,
+     "n": "Serengeti"
+    },
+    {
+     "d": 9,
+     "n": "Zanzibar"
+    }
+   ],
+   "route": "18651081"
   },
   {
    "id": "18615246",
@@ -45649,7 +46525,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18301934/thegrandesttouramanjetexpedition2027apr11may12027",
    "days": 21,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_2_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_2.webp",
    "from": "Tokyo, Japan",
    "to": "Argolida, Greece",
    "country": "Bhutan",
@@ -46038,7 +46914,7 @@
    "g": [],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/16163849/thehillsarealivechiangmaiprivatethailandtour",
    "days": 6,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/3014_2_0.webp",
    "from": "Chiang Mai, Thailand",
    "to": "Chiang Mai, Thailand",
    "country": "Thailand",
@@ -49333,7 +50209,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18102038/walkingsafariinchitwan",
    "days": 3,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18100729_2_0_1004.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/18100729_2_0.webp",
    "from": "Chitwan National Park, Nepal",
    "to": "Chitwan National Park, Nepal",
    "country": "Nepal",
@@ -50008,6 +50884,71 @@
    "route": "18295028"
   },
   {
+   "id": "18651084",
+   "n": "Wildlife Odyssey: South Africa, Botswana & Zimbabwe",
+   "b": "tauck",
+   "g": [
+    "OKAVANGO",
+    "SOUTHERN",
+    "ZAMBEZI"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18651084/wildlifeodysseysouthafricabotswanazimbabwe",
+   "days": 12,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_221.webp",
+   "from": "Victoria Falls, Zambia",
+   "to": "Journey Home",
+   "country": "Botswana",
+   "world": false,
+   "mks": [
+    "2028-03",
+    "2028-04",
+    "2028-05",
+    "2028-06",
+    "2028-07",
+    "2028-08",
+    "2028-09",
+    "2028-10",
+    "2028-11",
+    "2028-12",
+    "2029-01"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 23 Mar 2028 - 01 Jan 2029",
+   "description": "Our 12-day safari journey takes you inside national parks and private game reserves in South Africa, Zimbabwe, and Botswana for unrivaled big game viewing... plus excursions to South African vineyards and wine estates, and the cutting edge of art, culture, and cuisine in exciting Cape Town.",
+   "included": [],
+   "promotions": [
+    {
+     "name": "Tauck Bridges: Save When You Travel As A Group",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Victoria Falls"
+    },
+    {
+     "d": 3,
+     "n": "Chobe National Park"
+    },
+    {
+     "d": 5,
+     "n": "Chobe River"
+    },
+    {
+     "d": 6,
+     "n": "Kruger National Park"
+    },
+    {
+     "d": 9,
+     "n": "Cape Town"
+    }
+   ],
+   "route": "18651084"
+  },
+  {
    "id": "16563709",
    "n": "Wildlife of Brazil",
    "b": "kerdowney",
@@ -50410,6 +51351,52 @@
     }
    ],
    "route": "18295029"
+  },
+  {
+   "id": "18651085",
+   "n": "Wonderland: Yellowstone in Winter",
+   "b": "tauck",
+   "g": [
+    "ROCKIES"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18651085/wonderlandyellowstoneinwinter",
+   "days": 8,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_117.webp",
+   "from": "Welcome to Montana",
+   "to": "Journey Home",
+   "country": "United States",
+   "world": false,
+   "mks": [
+    "2028-01",
+    "2028-02"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 03 Jan 2028 - 27 Feb 2028",
+   "description": "Feel like you have Yellowstone National Park all to yourself in a wonderland of amazing wintertime geothermal features and wildlife - a unique tour through Yellowstone that concludes in trendy Jackson Hole, Wyoming.",
+   "included": [],
+   "promotions": [
+    {
+     "name": "Tauck Bridges: Save When You Travel As A Group",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
+    }
+   ],
+   "itin": [
+    {
+     "d": 2,
+     "n": "Pray"
+    },
+    {
+     "d": 3,
+     "n": "Yellowstone National Park"
+    },
+    {
+     "d": 6,
+     "n": "Jackson Hole"
+    }
+   ],
+   "route": "18651085"
   },
   {
    "id": "16395433",

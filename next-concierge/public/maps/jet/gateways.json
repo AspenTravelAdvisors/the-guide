@@ -433,7 +433,7 @@
    "house": "Four Seasons Hotels and Resorts",
    "aff": "Four Seasons",
    "city": "Istanbul",
-   "country": "T��rkiye",
+   "country": "Türkiye",
    "ll": [
     41.0462,
     29.0207
@@ -1103,7 +1103,7 @@
     -33.9086,
     18.4227
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15499138_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15499138_2_0.webp",
    "rooms": 28,
    "perks": [
     "Daily breakfast",
@@ -1570,7 +1570,7 @@
     51.5068,
     -0.128658
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18344869_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18344869_2_0.webp",
    "rooms": 114,
    "perks": [
     "Daily breakfast",
@@ -1722,7 +1722,7 @@
     51.5113,
     -0.114224
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18612385_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18612385_2_0.webp",
    "rooms": 105,
    "perks": [
     "Daily breakfast",
@@ -3732,7 +3732,7 @@
     -8.38038,
     115.237
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16549213_2_0.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16549213_2_19.webp",
    "rooms": 85,
    "perks": [
     "Daily breakfast",
@@ -3918,7 +3918,7 @@
     55.6784,
     12.5875
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15816482_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15816482_2_0.webp",
    "rooms": 54,
    "perks": [
     "Daily breakfast",
@@ -4127,7 +4127,7 @@
     45.4685,
     9.19694
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16504935_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16504935_2_0.webp",
    "rooms": 73,
    "perks": [
     "Daily breakfast",
@@ -4222,7 +4222,7 @@
     30.0361,
     31.2284
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4242_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4242_2_0.webp",
    "rooms": 371,
    "perks": [
     "Daily breakfast",
@@ -4545,7 +4545,7 @@
     22.2819,
     114.159
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4470_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4470_2_0.webp",
    "rooms": 419,
    "perks": [
     "Daily breakfast",
@@ -5092,7 +5092,7 @@
     10.6102,
     -85.6921
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/890417_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/890417_2_0.webp",
    "rooms": 197,
    "perks": [
     "Daily breakfast",
@@ -7837,6 +7837,10 @@
    "pre": "Melbourne",
    "post": "Sydney"
   },
+  "18365575": {
+   "pre": "Nairobi",
+   "post": null
+  },
   "18365619": {
    "pre": "Buenos Aires @-34.59,-58.67",
    "post": "Sao Paulo"
@@ -7851,10 +7855,6 @@
   },
   "18365625": {
    "pre": "Rome",
-   "post": null
-  },
-  "18365627": {
-   "pre": "Nairobi",
    "post": null
   },
   "18365628": {

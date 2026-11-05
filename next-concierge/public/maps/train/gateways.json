@@ -5,11 +5,11 @@
   "atlas": "train",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 108,
-  "journeysWithStays": 104,
+  "journeysTotal": 109,
+  "journeysWithStays": 105,
   "journeysWithHouse": 48,
-  "gateways": 44,
-  "hotels": 153,
+  "gateways": 45,
+  "hotels": 157,
   "houses": [
    "Belmond",
    "Orient Express"
@@ -531,6 +531,101 @@
    ],
    "promo": 0
   },
+  "h_01622": {
+   "n": "Ritz-Carlton Montreal",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Montreal",
+   "country": "Canada",
+   "ll": [
+    45.501,
+    -73.5771
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11246586_2_0_1008.webp",
+   "rooms": 129,
+   "perks": [
+    "Daily breakfast",
+    "Property credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00659": {
+   "n": "Four Seasons Hotel Montreal",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Montreal",
+   "country": "Canada",
+   "ll": [
+    45.4984,
+    -73.5765
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15881114_2_0.webp",
+   "rooms": 169,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01158": {
+   "n": "Le Mount Stephen",
+   "house": null,
+   "aff": null,
+   "city": "Montreal",
+   "country": "Canada",
+   "ll": [
+    45.4992,
+    -73.5757
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15542901_2_0.webp",
+   "rooms": 90,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00612": {
+   "n": "Fairmont The Queen Elizabeth",
+   "house": "Accor",
+   "aff": null,
+   "city": "Montreal",
+   "country": "Canada",
+   "ll": [
+    45.5006,
+    -73.5685
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4667_2_0.webp",
+   "rooms": 950,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01348": {
+   "n": "Muir, a Luxury Collection Hotel, Halifax",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Halifax",
+   "country": "Canada",
+   "ll": [
+    44.6479,
+    -63.5715
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16287390_2_0.webp",
+   "rooms": 109,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_01728": {
    "n": "Serras Barcelona",
    "house": null,
@@ -845,7 +940,7 @@
     51.5068,
     -0.128658
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18344869_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18344869_2_0.webp",
    "rooms": 114,
    "perks": [
     "Daily breakfast",
@@ -1120,25 +1215,6 @@
    ],
    "promo": 1
   },
-  "h_01348": {
-   "n": "Muir, a Luxury Collection Hotel, Halifax",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Halifax",
-   "country": "Canada",
-   "ll": [
-    44.6479,
-    -63.5715
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16287390_2_0.webp",
-   "rooms": 109,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_01725": {
    "n": "Sensei Lana'i, A Four Seasons Resort",
    "house": "Four Seasons Hotels and Resorts",
@@ -1221,7 +1297,7 @@
     43.6707,
     -79.3931
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3964_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3964_2_0.webp",
    "rooms": 77,
    "perks": [
     "Daily breakfast",
@@ -1449,7 +1525,7 @@
     48.8677,
     2.3287
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3805_2_19_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3805_2_19.webp",
    "rooms": 142,
    "perks": [
     "Daily breakfast",
@@ -1962,7 +2038,7 @@
     40.6305,
     14.5946
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18619277_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18619277_2_0.webp",
    "rooms": 36,
    "perks": [
     "Daily breakfast",
@@ -2494,7 +2570,7 @@
     -33.9086,
     18.4227
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15499138_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15499138_2_0.webp",
    "rooms": 28,
    "perks": [
     "Daily breakfast",
@@ -2908,7 +2984,7 @@
     6.42283,
     99.6696
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3963_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3963_2_0.webp",
    "rooms": 121,
    "perks": [
     "Daily breakfast",
@@ -3087,6 +3163,44 @@
     [
      "h_01526",
      1
+    ]
+   ]
+  },
+  "Montreal": {
+   "n": "Montreal",
+   "ll": [
+    45.5,
+    -73.5833
+   ],
+   "h": [
+    [
+     "h_01622",
+     0.5
+    ],
+    [
+     "h_00659",
+     0.6
+    ],
+    [
+     "h_01158",
+     0.6
+    ],
+    [
+     "h_00612",
+     1.2
+    ]
+   ]
+  },
+  "Halifax": {
+   "n": "Halifax",
+   "ll": [
+    44.65,
+    -63.6
+   ],
+   "h": [
+    [
+     "h_01348",
+     2.3
     ]
    ]
   },
@@ -3292,19 +3406,6 @@
     [
      "h_01434",
      1.1
-    ]
-   ]
-  },
-  "Halifax": {
-   "n": "Halifax",
-   "ll": [
-    44.65,
-    -63.6
-   ],
-   "h": [
-    [
-     "h_01348",
-     2.3
     ]
    ]
   },
@@ -3956,6 +4057,10 @@
   "14459655": {
    "pre": "Glasgow",
    "post": "Edinburgh"
+  },
+  "15422590": {
+   "pre": "Montreal",
+   "post": "Halifax"
   },
   "15694760": {
    "pre": "Munich",

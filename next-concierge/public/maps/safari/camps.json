@@ -5,8 +5,8 @@
   "radiusKm": 25,
   "lodgesInCategory": 71,
   "lodgesInSafariCountries": 69,
-  "journeysWithCamps": 262,
-  "journeysTotal": 506,
+  "journeysWithCamps": 267,
+  "journeysTotal": 514,
   "campsMatched": 41
  },
  "radiusKm": 25,
@@ -124,7 +124,7 @@
     -19.3169,
     22.926
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16013997_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16013997_2_0.webp",
    "rooms": 12,
    "perks": [
     "Daily breakfast",
@@ -2303,7 +2303,7 @@
     "km": 19.9
    }
   ],
-  "18365627": [
+  "18365575": [
    {
     "id": "h_01207",
     "stop": "Masai Mara National Reserve",
@@ -4269,6 +4269,106 @@
     "stop": "Ngorongoro",
     "day": 12,
     "km": 19.6
+   }
+  ],
+  "18651064": [
+   {
+    "id": "h_00537",
+    "stop": "Ngorongoro",
+    "day": 3,
+    "km": 19.6
+   },
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 8,
+    "km": 18.1
+   }
+  ],
+  "18651068": [
+   {
+    "id": "h_00537",
+    "stop": "Ngorongoro",
+    "day": 3,
+    "km": 19.6
+   },
+   {
+    "id": "h_01409",
+    "stop": "Nanyuki",
+    "day": 9,
+    "km": 1
+   },
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 11,
+    "km": 18.1
+   }
+  ],
+  "18651071": [
+   {
+    "id": "h_00537",
+    "stop": "Ngorongoro",
+    "day": 2,
+    "km": 19.6
+   },
+   {
+    "id": "h_01409",
+    "stop": "Nanyuki",
+    "day": 9,
+    "km": 1
+   },
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 11,
+    "km": 18.1
+   },
+   {
+    "id": "h_01417",
+    "stop": "Volcanoes National Park",
+    "day": 14,
+    "km": 16.2
+   },
+   {
+    "id": "h_01782",
+    "stop": "Volcanoes National Park",
+    "day": 14,
+    "km": 16.2
+   }
+  ],
+  "18651072": [
+   {
+    "id": "h_00537",
+    "stop": "Ngorongoro",
+    "day": 3,
+    "km": 19.6
+   },
+   {
+    "id": "h_01417",
+    "stop": "Volcanoes National Park",
+    "day": 11,
+    "km": 16.2
+   },
+   {
+    "id": "h_01782",
+    "stop": "Volcanoes National Park",
+    "day": 11,
+    "km": 16.2
+   }
+  ],
+  "18651084": [
+   {
+    "id": "h_02374",
+    "stop": "Victoria Falls",
+    "day": 1,
+    "km": 3.4
+   },
+   {
+    "id": "h_01349",
+    "stop": "Victoria Falls",
+    "day": 1,
+    "km": 22.4
    }
   ]
  }

@@ -5,11 +5,11 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 308,
-  "journeysWithStays": 304,
+  "journeysTotal": 312,
+  "journeysWithStays": 308,
   "journeysWithHouse": 0,
-  "gateways": 52,
-  "hotels": 172,
+  "gateways": 53,
+  "hotels": 176,
   "houses": []
  },
  "radiusKm": 40,
@@ -158,7 +158,7 @@
     51.5113,
     -0.114224
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18612385_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18612385_2_0.webp",
    "rooms": 105,
    "perks": [
     "Daily breakfast",
@@ -272,7 +272,7 @@
     37.7914,
     -122.412
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18222634_2_0_1005.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18222634_2_0.webp",
    "rooms": 143,
    "perks": [
     "Daily breakfast",
@@ -329,7 +329,7 @@
     55.6784,
     12.5875
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15816482_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15816482_2_0.webp",
    "rooms": 54,
    "perks": [
     "Daily breakfast",
@@ -405,7 +405,7 @@
     22.2819,
     114.159
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4470_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4470_2_0.webp",
    "rooms": 419,
    "perks": [
     "Daily breakfast",
@@ -1032,7 +1032,7 @@
     32.9606,
     -117.266
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16699207_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16699207_2_0.webp",
    "rooms": 121,
    "perks": [
     "Daily breakfast",
@@ -1754,7 +1754,7 @@
     -33.9086,
     18.4227
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15499138_2_0_1006.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15499138_2_0.webp",
    "rooms": 28,
    "perks": [
     "Daily breakfast",
@@ -3272,6 +3272,82 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_02077": {
+   "n": "The Oberoi Beach Resort, Mauritius",
+   "house": "The Oberoi Group",
+   "aff": null,
+   "city": "Terre Rouge",
+   "country": "Mauritius",
+   "ll": [
+    -20.0433,
+    57.5683
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4570_2_0.webp",
+   "rooms": 71,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_01097": {
+   "n": "LUX* Grand Baie",
+   "house": null,
+   "aff": null,
+   "city": "Grand Baie",
+   "country": "Mauritius",
+   "ll": [
+    -20.0038,
+    57.5549
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16543244_2_0.webp",
+   "rooms": 116,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01420": {
+   "n": "One&Only Le Saint Geran",
+   "house": "One&Only Resorts",
+   "aff": null,
+   "city": "Poste De Flacq",
+   "country": "Mauritius",
+   "ll": [
+    -20.1604,
+    57.7571
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3947_2_0.webp",
+   "rooms": 190,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Spa treatment"
+   ],
+   "promo": 1
+  },
+  "h_01096": {
+   "n": "LUX* Belle Mare",
+   "house": null,
+   "aff": null,
+   "city": "Belle Mare",
+   "country": "Mauritius",
+   "ll": [
+    -20.1996,
+    57.7772
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18331888_2_0.webp",
+   "rooms": 209,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   }
  },
  "GATES": {
@@ -4444,6 +4520,31 @@
     [
      "h_01266",
      0.6
+    ]
+   ]
+  },
+  "Port Louis, Mauritius": {
+   "n": "Port Louis, Mauritius",
+   "ll": [
+    -20.1619,
+    57.4989
+   ],
+   "h": [
+    [
+     "h_02077",
+     15
+    ],
+    [
+     "h_01097",
+     18.5
+    ],
+    [
+     "h_01420",
+     27
+    ],
+    [
+     "h_01096",
+     29.3
     ]
    ]
   }
@@ -5664,6 +5765,22 @@
   "18647535": {
    "pre": "Southampton, United Kingdom",
    "post": null
+  },
+  "18650158": {
+   "pre": "Auckland, New Zealand",
+   "post": "Tokyo, Japan"
+  },
+  "18650181": {
+   "pre": "Hong Kong, China",
+   "post": "Auckland, New Zealand"
+  },
+  "18650197": {
+   "pre": "Lisbon, Portugal",
+   "post": "Port Louis, Mauritius"
+  },
+  "18650202": {
+   "pre": "Port Louis, Mauritius",
+   "post": "Lisbon, Portugal"
   }
  }
 }

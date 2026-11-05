@@ -303,6 +303,32 @@
     ]
    }
   ],
+  "15422590": [
+   {
+    "n": "Montreal",
+    "r": "CANADA",
+    "ll": [
+     45.5,
+     -73.5833
+    ]
+   },
+   {
+    "n": "Charlottetown",
+    "r": "CANADA",
+    "ll": [
+     46.2333,
+     -63.1333
+    ]
+   },
+   {
+    "n": "Halifax",
+    "r": "CANADA",
+    "ll": [
+     44.65,
+     -63.6
+    ]
+   }
+  ],
   "15694760": [
    {
     "n": "Munich",
@@ -4373,16 +4399,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -4437,16 +4463,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -4595,6 +4621,65 @@
     }
    ],
    "route": "15801927"
+  },
+  {
+   "id": "15422590",
+   "n": "Atlantic Maritimes Explorer by Rail | Montreal to Halifax",
+   "b": "canadabydesign",
+   "g": [
+    "CANADA"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/15422590/atlanticmaritimesexplorerbyrailmontrealtohalifax",
+   "days": 8,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/14853773_2_356.webp",
+   "from": "Montreal, Canada",
+   "to": "Halifax, Canada",
+   "country": "Canada",
+   "train": "VIA Rail Canadian",
+   "world": true,
+   "mks": [
+    "2027-05",
+    "2027-06",
+    "2027-07",
+    "2027-08",
+    "2027-09",
+    "2027-10"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures Now Through: 14 Oct 2026",
+   "description": "Experience the best of Montreal, Quebec City, Prince Edward Island in just over a week on this Atlantic Maritimes Explorer Train Trip. Discover Canada as you've never seen it before on a trip with VIA Rail through the Atlantic and Maritime provinces. Witness the dynamic landscapes change from cosmopolitan cities to quirky towns and enjoy your choice of tours in Montreal and Charlottetown. From wandering the local food market on foot to cruising for lobster by boat, each moment is as adventurous as the next.",
+   "included": [
+    "2 nights accommodation in Montreal 2 nights accommodation in Charlottetown 2 nights accommodation in Halifax",
+    "VIA Rail onboard accommodation for 1 night between Montreal and Charlottetown Full Day Quebec City & Montmorency Falls tour",
+    "Montreal | Freedom of Choice - Choose 1 of 4 Excursions Montreal Half Day Sightseeing Tour Walking Tour of Old Montreal Beyond the Market Food Walking Tour Personalised Tailor-made Excursion",
+    "Private Van Transfer between Moncton & Charlottetown - Island Drive & Anne of Green Gables Tour Charlottetown | Freedom of Choice- Choose 1 of 2 Excursions Lobster Cruise Charlottetown Highlights Tour",
+    "Private transfer between Charlottetown & Halifax Halifax | Freedom of Choice - Choose 1 of 3 Excursions",
+    "Halifax Harbourfront Food Walking Tour Best of Halifax & Peggy's Cove Tour Lunenburg Express Tour with Lobster Lunch",
+    "Meals as per itinerary National Park fees"
+   ],
+   "promotions": [
+    {
+     "name": "Book 2027 Canada vacations by Nov 15 and receive 10% off selected packages",
+     "endDate": "2027-10-15",
+     "exclusive": false,
+     "description": "Early Booking Bonus – Book your 2027 Canada vacation by Nov 15 and receive 10% off select packages (up to $4,000 per couple) is applicable to select packages only as indicated on our Canada By Design website. Total savings vary by package, departure date, hotel grade, and other factors. Offers are subject to availability for 2027 departures and can be modified, withdrawn, or amended without prior notice. Trans Canada Packages: Up to $4,000 per couple Western Canada Packages: Up to $3,000 per couple Eastern Canada Packages: Up to $2,500 per couple Road Trip Packages: Up to $1,500 per couple…"
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Montreal"
+    },
+    {
+     "d": 4,
+     "n": "Charlottetown"
+    },
+    {
+     "d": 7,
+     "n": "Halifax"
+    }
+   ],
+   "route": "15422590"
   },
   {
    "id": "18087224",
@@ -5022,16 +5107,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -5108,16 +5193,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -5314,16 +5399,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -5484,16 +5569,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -5945,16 +6030,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -6099,16 +6184,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -6315,16 +6400,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -6888,16 +6973,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -6929,7 +7014,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/15240976/mandalaytohsipawunveilingmyanmarsethnictribesbyrail",
    "days": 4,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_190_1005.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/657266_2_190.webp",
    "from": "Pyin Oo Lwin, Myanmar",
    "to": "Kyaukme , Myanmar",
    "country": "Myanmar",
@@ -7467,16 +7552,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -7539,16 +7624,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -7599,16 +7684,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -7662,16 +7747,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -7739,16 +7824,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -7798,16 +7883,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -7873,16 +7958,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -7932,16 +8017,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -7995,16 +8080,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -8193,16 +8278,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -9181,16 +9266,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -9255,16 +9340,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -9885,16 +9970,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -9982,16 +10067,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -10050,16 +10135,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -10132,16 +10217,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -10256,16 +10341,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -10372,16 +10457,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -10725,16 +10810,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -10796,16 +10881,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -10973,16 +11058,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -11045,16 +11130,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -11117,16 +11202,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [
@@ -11233,16 +11318,16 @@
      "description": "Guests travelling on their own are invited to experience the timeless elegance of a Historic Twin in July and August 2026 - now with no single supplement fee. Details Call our reservations team and quote 'VSTWSOLE' to book this offer. Terms & Conditions: Valid for all one-night journeys in July and August 2026. Book by 30 June. Cabin availability for this offer is limited per departure."
     },
     {
+     "name": "Extend your adventure in London with the Britannic Explorer and The Cadogan",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Combine your Britannic Explorer train journey with a complimentary stay at Belmond's celebrated London hotel. Enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during your stay at The Cadogan. Valid for all new Britannic Explorer bookings in 2026."
+    },
+    {
      "name": "4 for 3 on Belmond's British Pullman",
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Includes A round-trip travel from London Victoria British Pullman luxury train experience Terms and conditions Valid on any journey in in September, October or November 2026, only when booking a table of four. Not applicable to Cygnus, the Wes Anderson carriage. Call our reservations team on 0800 058 1237 and quote code BBP43. Book our 4 for 3 British Pullman offer and experience our iconic train for less. Along with your guests, jump onboard the train at London Victoria Station and settle in the privacy of our coupés — the private compartments nestled inside our carriages, welcoming up to 4…"
-    },
-    {
-     "name": "Combine Belmond's The Cadogan & The Britannic Explorer",
-     "endDate": "2026-12-31",
-     "exclusive": false,
-     "description": "Includes: One journey on the Britannic Explorer One night at The Cadogan hotel Transfer between the hotel and the station for departure or vice versa Dinner with wine for two at The Cadogan How to book: Call the Britannic Explorer reservations team and quote 'BEXCAD' Terms and conditions:Valid for all Britannic Explorer journeys Combine your Britannic Explorer train journey with a stay at Belmond's celebrated London hotel and enjoy a complimentary private transfer between the hotel and station for departure, or vice versa. Additionally, savour a complimentary dinner with wine for two during…"
     }
    ],
    "itin": [

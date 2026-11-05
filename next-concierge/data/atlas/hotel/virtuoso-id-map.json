@@ -1,7 +1,7 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-11-05T04:34:13.869Z",
+  "generated": "2026-11-05T17:18:13.008Z",
   "feedSynced": null,
   "localCount": 2475,
   "feedCount": 2093,
@@ -2979,7 +2979,7 @@
   },
   "h_00650": {
    "vid": "6163818",
-   "how": "name+city",
+   "how": "name+country",
    "localName": "Four Seasons Hotel Istanbul at the Bosphorus",
    "virtuosoName": "Four Seasons Hotel Istanbul at the Bosphorus"
   },
