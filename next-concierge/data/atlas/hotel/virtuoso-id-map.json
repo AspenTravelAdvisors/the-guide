@@ -1,11 +1,11 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-11-05T17:18:13.008Z",
+  "generated": "2026-11-06T16:42:41.333Z",
   "feedSynced": null,
   "localCount": 2475,
-  "feedCount": 2093,
-  "matchedCount": 2330
+  "feedCount": 2092,
+  "matchedCount": 2328
  },
  "overrides": {
   "h_00408": "6176935",
@@ -1524,12 +1524,6 @@
    "how": "name+country",
    "localName": "Capri Tiberio Palace",
    "virtuosoName": "Capri Tiberio Palace"
-  },
-  "h_00333": {
-   "vid": "6164480",
-   "how": "name+country",
-   "localName": "Carillon Miami Wellness Resort",
-   "virtuosoName": "Carillon Miami Wellness Resort"
   },
   "h_00334": {
    "vid": "6164297",
@@ -11611,12 +11605,6 @@
    "localName": "Capelongue",
    "virtuosoName": "Capelongue, a Beaumier Hotel & Spa"
   },
-  "h_00332": {
-   "vid": "6164480",
-   "how": "duplicate-of:h_00333",
-   "localName": "Carilion Miami Wellness Resort",
-   "virtuosoName": "Carillon Miami Wellness Resort"
-  },
   "h_00341": {
    "vid": "16493950",
    "how": "fuzzy:0.86",
@@ -14719,23 +14707,6 @@
    "how": [
     "name+country",
     "duplicate-of:h_00329"
-   ],
-   "confident": true
-  },
-  {
-   "vid": "6164480",
-   "virtuosoName": "Carillon Miami Wellness Resort",
-   "localIds": [
-    "h_00333",
-    "h_00332"
-   ],
-   "localNames": [
-    "Carillon Miami Wellness Resort",
-    "Carilion Miami Wellness Resort"
-   ],
-   "how": [
-    "name+country",
-    "duplicate-of:h_00333"
    ],
    "confident": true
   },
@@ -20872,18 +20843,6 @@
    "note": "both our records carry the same coordinate"
   },
   {
-   "vid": "6164480",
-   "virtuosoName": "Carillon Miami Wellness Resort",
-   "keep": "h_00333",
-   "drop": "h_00332",
-   "keepName": "Carillon Miami Wellness Resort",
-   "dropName": "Carilion Miami Wellness Resort",
-   "score": 0.96,
-   "ourMetresFromSupplier": 4277.121798335022,
-   "twinMetresFromSupplier": 78.85097074414564,
-   "note": "our coordinate for the dropped record was wrong"
-  },
-  {
    "vid": "13783647",
    "virtuosoName": "Casa Palmero at Pebble Beach Resorts",
    "keep": "h_00350",
@@ -25354,6 +25313,20 @@
    "city": "Santorini",
    "country": "Greece",
    "program": "Canaves Oia Luxury Resorts"
+  },
+  {
+   "id": "h_00332",
+   "name": "Carilion Miami Wellness Resort",
+   "city": "Miami",
+   "country": "United States",
+   "program": "Virtuoso"
+  },
+  {
+   "id": "h_00333",
+   "name": "Carillon Miami Wellness Resort",
+   "city": "Miami Beach",
+   "country": "United States",
+   "program": "Virtuoso"
   },
   {
    "id": "h_00360",

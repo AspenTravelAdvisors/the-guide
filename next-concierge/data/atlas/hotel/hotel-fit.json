@@ -16637,6 +16637,67 @@
    "aaa": "AAA Four/Five Diamond Hotels 2026 PDFs"
   }
  },
+ "h_00332": {
+  "bestFit": "Celebration / milestone",
+  "intentTags": [
+   "Celebration / milestone"
+  ],
+  "serviceStyle": "Program-backed luxury",
+  "confidence": "Low",
+  "overallFitScore": 71.5,
+  "matchScores": {
+   "honeymoon": 74.2,
+   "family": 76.4,
+   "celebration": 65.4,
+   "business": 74.2,
+   "active": 76.2,
+   "uhnw": 73.4,
+   "simpleVip": 74.2
+  },
+  "criteriaScores": {
+   "guestIntent": 3.39,
+   "serviceStyleFit": 3.2,
+   "locationQuality": 3.8,
+   "roomSuiteReality": 4,
+   "valueWithinLuxury": 4.5,
+   "partnerStrength": 3.8,
+   "foodAndBeverage": 3,
+   "wellnessRecovery": 4.46,
+   "privacyExclusivity": 4.1,
+   "sceneFit": 3.15,
+   "familyMultigen": 3.6,
+   "accessibilityEase": 3.2,
+   "seasonalityRiskFit": 3.3,
+   "operationalReliability": 3.25,
+   "designSenseOfPlace": 3,
+   "destinationSpecificFit": 4.58,
+   "guestPersonalityFit": 3.4,
+   "budgetPsychologyFit": 3.6
+  },
+  "evaluationNotes": "wellness:wellness/spa; Virtuoso:broad preferred benefits: breakfast, credit, upgrade when available",
+  "criteriaFound": "wellness:wellness/spa; Virtuoso:broad preferred benefits: breakfast, credit, upgrade when available",
+  "sourceFlags": "CSV partner benefits; web-calibrated program criteria",
+  "nearbyRank": 3,
+  "nearbyHotelCount": 5,
+  "description": "Carilion Miami Wellness Resort: in Miami, Florida for the traveler whose calendar has been making threats; a serious recovery clause and a setting that does some of the planning, preferred-program polish, and permission to disappear without becoming ascetic.",
+  "searchKeywords": [
+   "Carilion Miami Wellness Resort Miami",
+   "Carilion Miami Wellness Resort luxury hotel",
+   "Miami wellness resort",
+   "Miami spa resort",
+   "luxury wellness retreat United States"
+  ],
+  "forbesRating": null,
+  "forbesRatingYear": 2026,
+  "aaaDiamondRating": null,
+  "aaaDiamondYear": 2026,
+  "aaaFirstDiamondYear": null,
+  "ratingBadges": [],
+  "ratingsSource": {
+   "forbes": "Forbes Travel Guide 2026 Star Award Winners page; row payload unavailable in local source extraction",
+   "aaa": "AAA Four/Five Diamond Hotels 2026 PDFs"
+  }
+ },
  "h_00333": {
   "bestFit": "Celebration / milestone",
   "intentTags": [

@@ -5,11 +5,11 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 312,
-  "journeysWithStays": 308,
+  "journeysTotal": 326,
+  "journeysWithStays": 322,
   "journeysWithHouse": 0,
-  "gateways": 53,
-  "hotels": 176,
+  "gateways": 54,
+  "hotels": 179,
   "houses": []
  },
  "radiusKm": 40,
@@ -386,7 +386,7 @@
     22.2805,
     114.158
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3769_2_0_1007.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3769_2_0.webp",
    "rooms": 109,
    "perks": [
     "Daily breakfast",
@@ -1279,7 +1279,7 @@
     35.683,
     139.738
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16383214_2_0_1007.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16383214_2_0.webp",
    "rooms": 84,
    "perks": [
     "Daily breakfast",
@@ -1412,7 +1412,7 @@
     35.6662,
     139.731
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3452896_2_3_1007.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3452896_2_3.webp",
    "rooms": 245,
    "perks": [
     "Daily breakfast",
@@ -2020,7 +2020,7 @@
     38.7185,
     -9.14013
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16767555_2_0_1007.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16767555_2_0.webp",
    "rooms": 33,
    "perks": [
     "Daily breakfast",
@@ -2229,7 +2229,7 @@
     -22.9454,
     -43.242
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11062664_2_0_1007.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11062664_2_0.webp",
    "rooms": 43,
    "perks": [
     "Daily breakfast",
@@ -2926,7 +2926,7 @@
     55.9533,
     -3.18827
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/9870701_2_0_1007.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/9870701_2_0.webp",
    "rooms": 23,
    "perks": [
     "Daily breakfast",
@@ -3342,6 +3342,63 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18331888_2_0.webp",
    "rooms": 209,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v16129571": {
+   "n": "The Ritz-Carlton, Perth",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Perth",
+   "country": "Australia",
+   "ll": [
+    -31.9584,
+    115.858
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16122868_2_0.webp",
+   "rooms": 205,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00277": {
+   "n": "COMO The Treasury, Perth",
+   "house": "COMO Hotels and Resorts",
+   "aff": null,
+   "city": "Perth",
+   "country": "Australia",
+   "ll": [
+    -31.955556,
+    115.860675
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15182311_2_2.webp",
+   "rooms": 48,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00474": {
+   "n": "Crown Towers Perth",
+   "house": null,
+   "aff": null,
+   "city": "Perth",
+   "country": "Australia",
+   "ll": [
+    -31.9008,
+    116.06
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15655305_2_0.webp",
+   "rooms": 483,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -4545,6 +4602,27 @@
     [
      "h_01096",
      29.3
+    ]
+   ]
+  },
+  "Fremantle, Australia": {
+   "n": "Fremantle, Australia",
+   "ll": [
+    -32.05,
+    115.767
+   ],
+   "h": [
+    [
+     "h_v16129571",
+     13.3
+    ],
+    [
+     "h_00277",
+     13.7
+    ],
+    [
+     "h_00474",
+     32.2
     ]
    ]
   }
@@ -5781,6 +5859,62 @@
   "18650202": {
    "pre": "Port Louis, Mauritius",
    "post": "Lisbon, Portugal"
+  },
+  "18651264": {
+   "pre": "Miami, FL, United States",
+   "post": "Miami, FL, United States"
+  },
+  "18651272": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Miami, FL, United States"
+  },
+  "18651273": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Southampton, United Kingdom"
+  },
+  "18651279": {
+   "pre": "Hong Kong, China",
+   "post": "Los Angeles, CA, United States"
+  },
+  "18651287": {
+   "pre": "Miami, FL, United States",
+   "post": "Los Angeles, CA, United States"
+  },
+  "18651289": {
+   "pre": "Miami, FL, United States",
+   "post": "Singapore, Singapore"
+  },
+  "18651311": {
+   "pre": "Singapore, Singapore",
+   "post": "Los Angeles, CA, United States"
+  },
+  "18651313": {
+   "pre": "Hamburg, Germany",
+   "post": "Hamburg, Germany"
+  },
+  "18651314": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Southampton, United Kingdom"
+  },
+  "18651315": {
+   "pre": "Miami, FL, United States",
+   "post": "Miami, FL, United States"
+  },
+  "18651317": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Fremantle, Australia"
+  },
+  "18651321": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Miami, FL, United States"
+  },
+  "18651325": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Sydney, Australia"
+  },
+  "18651334": {
+   "pre": "Sydney, Australia",
+   "post": "Southampton, United Kingdom"
   }
  }
 }

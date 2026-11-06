@@ -117,7 +117,7 @@
     9,
     -80
    ],
-   "count": 110
+   "count": 106
   },
   "Alaska & Yukon": {
    "name": "Alaska & Yukon",
@@ -141,7 +141,7 @@
     -64.5,
     -62
    ],
-   "count": 724
+   "count": 721
   },
   "Caribbean & Bermuda": {
    "name": "Caribbean & Bermuda",
@@ -149,7 +149,7 @@
     16,
     -66
    ],
-   "count": 65
+   "count": 69
   },
   "Galápagos": {
    "name": "Galápagos",
@@ -157,7 +157,7 @@
     -0.7,
     -90.5
    ],
-   "count": 1468
+   "count": 1464
   },
   "Mediterranean": {
    "name": "Mediterranean",
@@ -165,7 +165,7 @@
     39,
     14
    ],
-   "count": 241
+   "count": 240
   },
   "Other": {
    "name": "Other & Repositioning",
