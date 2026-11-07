@@ -5,11 +5,11 @@
   "atlas": "yacht",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 517,
-  "journeysWithStays": 516,
-  "journeysWithHouse": 516,
-  "gateways": 57,
-  "hotels": 189,
+  "journeysTotal": 536,
+  "journeysWithStays": 535,
+  "journeysWithHouse": 535,
+  "gateways": 58,
+  "hotels": 195,
   "houses": [
    "Aman",
    "Four Seasons",
@@ -87,7 +87,7 @@
     17.016,
     -61.8331
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4540_2_0_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4540_2_0.webp",
    "rooms": 87,
    "perks": [
     "Daily breakfast",
@@ -304,6 +304,120 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00046": {
+   "n": "Alila Shanghai",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.2272,
+    121.462
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18331907_2_0.webp",
+   "rooms": 186,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v16231001": {
+   "n": "The Sukhothai Shanghai",
+   "house": null,
+   "aff": null,
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.2269,
+    121.463
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16230997_2_0.webp",
+   "rooms": 201,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01028": {
+   "n": "Jing An Shangri-La, Shanghai",
+   "house": "Shangri-La Group",
+   "aff": null,
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.2229,
+    121.45
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16117025_2_0.webp",
+   "rooms": 508,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02122": {
+   "n": "The PuLi Shanghai",
+   "house": null,
+   "aff": null,
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.222309,
+    121.44836
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5601896_2_22.webp",
+   "rooms": 229,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02118": {
+   "n": "The Portman Ritz-Carlton, Shanghai",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.2292,
+    121.45
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3822_2_1.webp",
+   "rooms": 593,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00086": {
+   "n": "Amanyangyun",
+   "house": "Aman",
+   "aff": "Aman",
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.0375,
+    121.357
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15765742_2_0.webp",
+   "rooms": 47,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_00024": {
    "n": "Acqualina Resort & Residences on the Beach",
@@ -577,7 +691,7 @@
     18.4775,
     -66.2702
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11976827_2_17_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11976827_2_17.webp",
    "rooms": 96,
    "perks": [
     "Daily breakfast",
@@ -2101,7 +2215,7 @@
     43.6946,
     7.25802
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11355505_2_0_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11355505_2_0.webp",
    "rooms": 130,
    "perks": [
     "Daily breakfast",
@@ -3050,7 +3164,7 @@
     51.5139,
     -0.089613
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16408547_2_26_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16408547_2_26.webp",
    "rooms": 250,
    "perks": [
     "Daily breakfast",
@@ -3677,6 +3791,39 @@
     [
      "h_02181",
      2.6
+    ]
+   ]
+  },
+  "Shanghai, China": {
+   "n": "Shanghai, China",
+   "ll": [
+    31.2222,
+    121.458
+   ],
+   "h": [
+    [
+     "h_00046",
+     0.7
+    ],
+    [
+     "h_v16231001",
+     0.7
+    ],
+    [
+     "h_01028",
+     0.8
+    ],
+    [
+     "h_02122",
+     0.9
+    ],
+    [
+     "h_02118",
+     1.1
+    ],
+    [
+     "h_00086",
+     22.7
     ]
    ]
   },
@@ -7543,6 +7690,101 @@
    "pre": "Miami, FL, United States",
    "post": "Miami, FL, United States",
    "house": "Ritz-Carlton"
+  },
+  "18652100": {
+   "pre": "Shanghai, China",
+   "post": "Hong Kong, China",
+   "house": "Ritz-Carlton"
+  },
+  "18652101": {
+   "pre": "Tokyo, Japan",
+   "post": "Shanghai, China",
+   "house": "Ritz-Carlton"
+  },
+  "18652113": {
+   "pre": "Dubrovnik, Croatia",
+   "post": "Palermo, Italy",
+   "house": "Four Seasons"
+  },
+  "18652114": {
+   "pre": "Dubrovnik, Croatia",
+   "post": "Fusina Port, Italy, Italy",
+   "house": "Four Seasons"
+  },
+  "18652115": {
+   "pre": null,
+   "post": "Philipsburg, Sint Maarten",
+   "house": "Four Seasons"
+  },
+  "18652116": {
+   "pre": "Monte-Carlo, Monaco",
+   "post": "Monte-Carlo, Monaco",
+   "house": "Four Seasons"
+  },
+  "18652117": {
+   "pre": "Monte-Carlo, Monaco",
+   "post": "Monte-Carlo, Monaco",
+   "house": "Four Seasons"
+  },
+  "18652118": {
+   "pre": "Monte-Carlo, Monaco",
+   "post": "Monte-Carlo, Monaco",
+   "house": "Four Seasons"
+  },
+  "18652119": {
+   "pre": "Monte-Carlo, Monaco",
+   "post": "Monte-Carlo, Monaco",
+   "house": "Four Seasons"
+  },
+  "18652120": {
+   "pre": "Monte-Carlo, Monaco",
+   "post": "Civitavecchia, Italy",
+   "house": "Four Seasons"
+  },
+  "18652121": {
+   "pre": "Monte-Carlo, Monaco",
+   "post": "Salerno, Italy",
+   "house": "Four Seasons"
+  },
+  "18652122": {
+   "pre": "Nice, France",
+   "post": "Monte-Carlo, Monaco",
+   "house": "Four Seasons"
+  },
+  "18652123": {
+   "pre": "Palermo, Italy",
+   "post": "Monte-Carlo, Monaco",
+   "house": "Four Seasons"
+  },
+  "18652124": {
+   "pre": "Palermo, Italy",
+   "post": "Majorca, Spain",
+   "house": "Four Seasons"
+  },
+  "18652125": {
+   "pre": "Majorca, Spain",
+   "post": null,
+   "house": "Four Seasons"
+  },
+  "18652126": {
+   "pre": "Civitavecchia, Italy",
+   "post": "Nice, France",
+   "house": "Four Seasons"
+  },
+  "18652127": {
+   "pre": "Salerno, Italy",
+   "post": "Trogir, Croatia",
+   "house": "Four Seasons"
+  },
+  "18652128": {
+   "pre": "Trogir, Croatia",
+   "post": "Dubrovnik, Croatia",
+   "house": "Four Seasons"
+  },
+  "18652129": {
+   "pre": "Fusina Port, Italy, Italy",
+   "post": "Dubrovnik, Croatia",
+   "house": "Four Seasons"
   }
  }
 }

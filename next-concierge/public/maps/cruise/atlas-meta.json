@@ -149,7 +149,7 @@
     -64.5,
     -62
    ],
-   "count": 721
+   "count": 719
   },
   "Caribbean & Bermuda": {
    "name": "Caribbean & Bermuda",
@@ -165,7 +165,7 @@
     -0.7,
     -90.5
    ],
-   "count": 1464
+   "count": 1463
   },
   "Mediterranean": {
    "name": "Mediterranean",
@@ -173,7 +173,7 @@
     39,
     14
    ],
-   "count": 240
+   "count": 247
   },
   "Other": {
    "name": "Other & Repositioning",
@@ -189,7 +189,7 @@
     58,
     -3
    ],
-   "count": 130
+   "count": 131
   },
   "Asia & Mekong": {
    "name": "Asia & Mekong",
@@ -205,7 +205,7 @@
     32,
     -23
    ],
-   "count": 47
+   "count": 48
   },
   "Canada & New England": {
    "name": "Canada & New England",
@@ -261,7 +261,7 @@
     44,
     -7
    ],
-   "count": 44
+   "count": 46
   }
  }
 }

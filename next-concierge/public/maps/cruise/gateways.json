@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4447,
-  "journeysWithStays": 3733,
+  "journeysTotal": 4455,
+  "journeysWithStays": 3741,
   "journeysWithHouse": 0,
   "gateways": 108,
   "hotels": 291,
@@ -15,82 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00724": {
-   "n": "Gran Hotel Miramar",
-   "house": null,
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.7207,
-    -4.40818
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0.webp",
-   "rooms": 200,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01124": {
-   "n": "La Zambra Resort",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.553,
-    -4.66678
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
-   "rooms": 196,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
-  "h_01912": {
-   "n": "The Brando",
-   "house": null,
-   "aff": null,
-   "city": "Arue",
-   "country": "French Polynesia",
-   "ll": [
-    -17.5332,
-    -149.512
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14408912_2_43.webp",
-   "rooms": 36,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
-  "h_01811": {
-   "n": "Sofitel Kia Ora Moorea Beach Resort",
-   "house": "Accor",
-   "aff": null,
-   "city": "Moorea",
-   "country": "French Polynesia",
-   "ll": [
-    -17.4831,
-    -149.798
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395455_2_0.webp",
-   "rooms": 113,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_00838": {
    "n": "Hotel Casa Pestagua",
    "house": null,
@@ -718,6 +642,44 @@
    ],
    "promo": 0
   },
+  "h_00724": {
+   "n": "Gran Hotel Miramar",
+   "house": null,
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.7207,
+    -4.40818
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0.webp",
+   "rooms": 200,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01124": {
+   "n": "La Zambra Resort",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.553,
+    -4.66678
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
+   "rooms": 196,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 1
+  },
   "h_01293": {
    "n": "Mashpi Lodge",
    "house": null,
@@ -1117,6 +1079,44 @@
    ],
    "promo": 0
   },
+  "h_01912": {
+   "n": "The Brando",
+   "house": null,
+   "aff": null,
+   "city": "Arue",
+   "country": "French Polynesia",
+   "ll": [
+    -17.5332,
+    -149.512
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14408912_2_43.webp",
+   "rooms": 36,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Early check-in"
+   ],
+   "promo": 1
+  },
+  "h_01811": {
+   "n": "Sofitel Kia Ora Moorea Beach Resort",
+   "house": "Accor",
+   "aff": null,
+   "city": "Moorea",
+   "country": "French Polynesia",
+   "ll": [
+    -17.4831,
+    -149.798
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395455_2_0.webp",
+   "rooms": 113,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_01583": {
    "n": "REMOTA",
    "house": null,
@@ -1501,7 +1501,7 @@
     45.501,
     -73.5771
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11246586_2_0_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11246586_2_0.webp",
    "rooms": 129,
    "perks": [
     "Daily breakfast",
@@ -1919,7 +1919,7 @@
     -22.9861,
     -43.1894
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395453_2_0_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395453_2_0.webp",
    "rooms": 375,
    "perks": [
     "Daily breakfast",
@@ -2356,7 +2356,7 @@
     -34.8671,
     -55.9983
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11433139_2_0_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11433139_2_0.webp",
    "rooms": 116,
    "perks": [
     "Daily breakfast",
@@ -2660,7 +2660,7 @@
     55.9451,
     -4.56463
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11652963_2_0_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11652963_2_0.webp",
    "rooms": 208,
    "perks": [
     "Daily breakfast",
@@ -2736,7 +2736,7 @@
     55.9516,
     -3.20028
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16785841_2_0_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16785841_2_0.webp",
    "rooms": 30,
    "perks": [
     "Daily breakfast",
@@ -2801,6 +2801,82 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_01159": {
+   "n": "Le Negresco",
+   "house": null,
+   "aff": null,
+   "city": "Nice",
+   "country": "France",
+   "ll": [
+    43.6946,
+    7.25802
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11355505_2_0.webp",
+   "rooms": 130,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00947": {
+   "n": "Hôtel Palais de la Méditerranée",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Nice",
+   "country": "France",
+   "ll": [
+    43.6953,
+    7.26301
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4473_2_2.webp",
+   "rooms": 173,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00113": {
+   "n": "Anantara Plaza Nice",
+   "house": "Minor Hotels",
+   "aff": null,
+   "city": "Nice",
+   "country": "France",
+   "ll": [
+    43.6968,
+    7.26814
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18333813_2_0.webp",
+   "rooms": 151,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00951": {
+   "n": "Hôtel du Couvent, Luxury Collection Hotel",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Nice",
+   "country": "France",
+   "ll": [
+    43.6972,
+    7.27878
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16707851_2_0.webp",
+   "rooms": 88,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_00337": {
    "n": "Carmel Charme Resort",
@@ -2893,82 +2969,6 @@
    "perks": [
     "Daily breakfast",
     "$200 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01159": {
-   "n": "Le Negresco",
-   "house": null,
-   "aff": null,
-   "city": "Nice",
-   "country": "France",
-   "ll": [
-    43.6946,
-    7.25802
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11355505_2_0_1008.webp",
-   "rooms": 130,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00947": {
-   "n": "Hôtel Palais de la Méditerranée",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Nice",
-   "country": "France",
-   "ll": [
-    43.6953,
-    7.26301
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4473_2_2.webp",
-   "rooms": 173,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00113": {
-   "n": "Anantara Plaza Nice",
-   "house": "Minor Hotels",
-   "aff": null,
-   "city": "Nice",
-   "country": "France",
-   "ll": [
-    43.6968,
-    7.26814
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18333813_2_0.webp",
-   "rooms": 151,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00951": {
-   "n": "Hôtel du Couvent, Luxury Collection Hotel",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Nice",
-   "country": "France",
-   "ll": [
-    43.6972,
-    7.27878
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16707851_2_0.webp",
-   "rooms": 88,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
     "Room upgrade"
    ],
    "promo": 0
@@ -3891,7 +3891,7 @@
     51.5139,
     -0.089613
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16408547_2_26_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16408547_2_26.webp",
    "rooms": 250,
    "perks": [
     "Daily breakfast",
@@ -5516,7 +5516,7 @@
     17.016,
     -61.8331
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4540_2_0_1008.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4540_2_0.webp",
    "rooms": 87,
    "perks": [
     "Daily breakfast",
@@ -5527,40 +5527,6 @@
   }
  },
  "GATES": {
-  "Málaga, Spain": {
-   "n": "Málaga, Spain",
-   "ll": [
-    36.7167,
-    -4.4167
-   ],
-   "h": [
-    [
-     "h_00724",
-     0.9
-    ],
-    [
-     "h_01124",
-     28.8
-    ]
-   ]
-  },
-  "Papeete, French Polynesia": {
-   "n": "Papeete, French Polynesia",
-   "ll": [
-    -17.5333,
-    -149.567
-   ],
-   "h": [
-    [
-     "h_01912",
-     5.8
-    ],
-    [
-     "h_01811",
-     25.1
-    ]
-   ]
-  },
   "Cartagena, Colombia": {
    "n": "Cartagena, Colombia",
    "ll": [
@@ -5774,6 +5740,23 @@
     ]
    ]
   },
+  "Málaga, Spain": {
+   "n": "Málaga, Spain",
+   "ll": [
+    36.7167,
+    -4.4167
+   ],
+   "h": [
+    [
+     "h_00724",
+     0.9
+    ],
+    [
+     "h_01124",
+     28.8
+    ]
+   ]
+  },
   "Quito, Ecuador": {
    "n": "Quito, Ecuador",
    "ll": [
@@ -5927,6 +5910,23 @@
     [
      "h_00709",
      22.6
+    ]
+   ]
+  },
+  "Papeete, French Polynesia": {
+   "n": "Papeete, French Polynesia",
+   "ll": [
+    -17.5333,
+    -149.567
+   ],
+   "h": [
+    [
+     "h_01912",
+     5.8
+    ],
+    [
+     "h_01811",
+     25.1
     ]
    ]
   },
@@ -6628,6 +6628,31 @@
     ]
    ]
   },
+  "Nice, France": {
+   "n": "Nice, France",
+   "ll": [
+    43.7,
+    7.25
+   ],
+   "h": [
+    [
+     "h_01159",
+     0.9
+    ],
+    [
+     "h_00947",
+     1.2
+    ],
+    [
+     "h_00113",
+     1.5
+    ],
+    [
+     "h_00951",
+     2.3
+    ]
+   ]
+  },
   "Fortaleza, Brazil": {
    "n": "Fortaleza, Brazil",
    "ll": [
@@ -6672,31 +6697,6 @@
     [
      "h_00823",
      13.3
-    ]
-   ]
-  },
-  "Nice, France": {
-   "n": "Nice, France",
-   "ll": [
-    43.7,
-    7.25
-   ],
-   "h": [
-    [
-     "h_01159",
-     0.9
-    ],
-    [
-     "h_00947",
-     1.2
-    ],
-    [
-     "h_00113",
-     1.5
-    ],
-    [
-     "h_00951",
-     2.3
     ]
    ]
   },
@@ -8977,10 +8977,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
-  "18048836": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
-  },
   "18048843": {
    "pre": "Buenos Aires, Argentina",
    "post": "Santiago, Chile"
@@ -9024,10 +9020,6 @@
   "18049042": {
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
-  },
-  "18049051": {
-   "pre": null,
-   "post": "Buenos Aires, Argentina"
   },
   "18049076": {
    "pre": "Buenos Aires, Argentina",
@@ -9638,10 +9630,6 @@
    "post": "Casablanca, Morocco"
   },
   "18091611": {
-   "pre": "Málaga, Spain",
-   "post": null
-  },
-  "18091612": {
    "pre": "Málaga, Spain",
    "post": null
   },
@@ -12741,10 +12729,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
-  "18257267": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
-  },
   "18257282": {
    "pre": "Fremantle, Australia",
    "post": null
@@ -12900,6 +12884,10 @@
   "18273965": {
    "pre": "Ushuaia, Argentina",
    "post": null
+  },
+  "18273966": {
+   "pre": "Buenos Aires, Argentina",
+   "post": "Buenos Aires, Argentina"
   },
   "18273967": {
    "pre": "Buenos Aires, Argentina",
@@ -15669,6 +15657,10 @@
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
   },
+  "18486232": {
+   "pre": "Papeete, French Polynesia",
+   "post": "Papeete, French Polynesia"
+  },
   "18486233": {
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
@@ -15686,10 +15678,6 @@
    "post": "Papeete, French Polynesia"
   },
   "18486237": {
-   "pre": "Papeete, French Polynesia",
-   "post": "Papeete, French Polynesia"
-  },
-  "18486241": {
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
   },
@@ -22684,6 +22672,50 @@
   "18651265": {
    "pre": "Bridgetown, Barbados",
    "post": "Bridgetown, Barbados"
+  },
+  "18652102": {
+   "pre": "Seville, Spain",
+   "post": "Nice, France"
+  },
+  "18652103": {
+   "pre": "Lisbon, Portugal",
+   "post": "Stockholm, Sweden"
+  },
+  "18652104": {
+   "pre": "Lisbon, Portugal",
+   "post": null
+  },
+  "18652105": {
+   "pre": null,
+   "post": "Casablanca, Morocco"
+  },
+  "18652106": {
+   "pre": "Bordeaux, France",
+   "post": "Reykjavík, Iceland"
+  },
+  "18652107": {
+   "pre": null,
+   "post": "Nice, France"
+  },
+  "18652108": {
+   "pre": "Lavrion, Greece",
+   "post": "Istanbul, Türkiye"
+  },
+  "18652109": {
+   "pre": "Civitavecchia, Italy",
+   "post": "Lavrion, Greece"
+  },
+  "18652110": {
+   "pre": "Barcelona, Spain",
+   "post": "Lisbon, Portugal"
+  },
+  "18652111": {
+   "pre": "Livorno, Italy",
+   "post": "Venice, Italy"
+  },
+  "18652112": {
+   "pre": "Venice, Italy",
+   "post": "Lisbon, Portugal"
   }
  }
 }
