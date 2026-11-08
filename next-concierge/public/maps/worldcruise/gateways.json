@@ -5,8 +5,8 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 326,
-  "journeysWithStays": 322,
+  "journeysTotal": 315,
+  "journeysWithStays": 311,
   "journeysWithHouse": 0,
   "gateways": 54,
   "hotels": 179,
@@ -215,7 +215,7 @@
     59.3289,
     18.0781
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14096048_2_0_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14096048_2_0.webp",
    "rooms": 46,
    "perks": [
     "Daily breakfast",
@@ -1260,7 +1260,7 @@
     35.6832,
     139.761
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12991056_2_1_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12991056_2_1.webp",
    "rooms": 284,
    "perks": [
     "Daily breakfast",
@@ -1420,82 +1420,6 @@
     "Room upgrade"
    ],
    "promo": 1
-  },
-  "h_01690": {
-   "n": "SO/ Auckland",
-   "house": "Accor",
-   "aff": null,
-   "city": "Auckland",
-   "country": "New Zealand",
-   "ll": [
-    -36.8455,
-    174.768
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15991908_2_0.webp",
-   "rooms": 130,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v16308970": {
-   "n": "Sofitel Auckland Viaduct Harbour",
-   "house": null,
-   "aff": null,
-   "city": "Auckland",
-   "country": "New Zealand",
-   "ll": [
-    -36.8452,
-    174.758
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16307777_2_0.webp",
-   "rooms": 172,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00977": {
-   "n": "InterContinental Auckland",
-   "house": "IHG Hotels & Resorts",
-   "aff": null,
-   "city": "Auckland",
-   "country": "New Zealand",
-   "ll": [
-    -36.8436,
-    174.767
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18246258_2_1.webp",
-   "rooms": 139,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01491": {
-   "n": "Park Hyatt Auckland",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Auckland",
-   "country": "New Zealand",
-   "ll": [
-    -36.8419,
-    174.759
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16142636_2_0.webp",
-   "rooms": 195,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
   },
   "h_00055": {
    "n": "Alvear Palace Hotel",
@@ -1849,7 +1773,7 @@
     37.9762,
     23.7353
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4377_2_0_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4377_2_0.webp",
    "rooms": 320,
    "perks": [
     "Daily breakfast",
@@ -1868,7 +1792,7 @@
     37.9763,
     23.7349
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13072676_2_0_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13072676_2_0.webp",
    "rooms": 102,
    "perks": [
     "Daily breakfast",
@@ -2009,6 +1933,82 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_01690": {
+   "n": "SO/ Auckland",
+   "house": "Accor",
+   "aff": null,
+   "city": "Auckland",
+   "country": "New Zealand",
+   "ll": [
+    -36.8455,
+    174.768
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15991908_2_0.webp",
+   "rooms": 130,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v16308970": {
+   "n": "Sofitel Auckland Viaduct Harbour",
+   "house": null,
+   "aff": null,
+   "city": "Auckland",
+   "country": "New Zealand",
+   "ll": [
+    -36.8452,
+    174.758
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16307777_2_0.webp",
+   "rooms": 172,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00977": {
+   "n": "InterContinental Auckland",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "Auckland",
+   "country": "New Zealand",
+   "ll": [
+    -36.8436,
+    174.767
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18246258_2_1.webp",
+   "rooms": 139,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01491": {
+   "n": "Park Hyatt Auckland",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Auckland",
+   "country": "New Zealand",
+   "ll": [
+    -36.8419,
+    174.759
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16142636_2_0.webp",
+   "rooms": 195,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_v16768337": {
    "n": "Torel Palace Lisbon",
@@ -2584,7 +2584,7 @@
     43.7387,
     7.42614
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4025_2_0_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4025_2_0.webp",
    "rooms": 262,
    "perks": [
     "Daily breakfast",
@@ -3893,31 +3893,6 @@
     ]
    ]
   },
-  "Auckland, New Zealand": {
-   "n": "Auckland, New Zealand",
-   "ll": [
-    -36.8667,
-    174.767
-   ],
-   "h": [
-    [
-     "h_01690",
-     2.4
-    ],
-    [
-     "h_v16308970",
-     2.5
-    ],
-    [
-     "h_00977",
-     2.6
-    ],
-    [
-     "h_01491",
-     2.8
-    ]
-   ]
-  },
   "Buenos Aires, Argentina": {
    "n": "Buenos Aires, Argentina",
    "ll": [
@@ -4129,6 +4104,31 @@
     [
      "h_02130",
      0.7
+    ]
+   ]
+  },
+  "Auckland, New Zealand": {
+   "n": "Auckland, New Zealand",
+   "ll": [
+    -36.8667,
+    174.767
+   ],
+   "h": [
+    [
+     "h_01690",
+     2.4
+    ],
+    [
+     "h_v16308970",
+     2.5
+    ],
+    [
+     "h_00977",
+     2.6
+    ],
+    [
+     "h_01491",
+     2.8
     ]
    ]
   },
@@ -4684,10 +4684,6 @@
    "pre": "Sydney, Australia",
    "post": "Southampton, United Kingdom"
   },
-  "16899626": {
-   "pre": "Buenos Aires, Argentina",
-   "post": null
-  },
   "16904206": {
    "pre": "Auckland, New Zealand",
    "post": "Auckland, New Zealand"
@@ -4707,22 +4703,6 @@
   "16922513": {
    "pre": "Sydney, Australia",
    "post": "Tokyo, Japan"
-  },
-  "16931844": {
-   "pre": "Sydney, Australia",
-   "post": "Vancouver, BC, Canada"
-  },
-  "16931845": {
-   "pre": "Sydney, Australia",
-   "post": "Vancouver, BC, Canada"
-  },
-  "16931847": {
-   "pre": "Auckland, New Zealand",
-   "post": "Vancouver, BC, Canada"
-  },
-  "16931848": {
-   "pre": "Auckland, New Zealand",
-   "post": "Vancouver, BC, Canada"
   },
   "17900072": {
    "pre": "Fort Lauderdale, FL, United States",
@@ -4968,30 +4948,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": null
   },
-  "18150581": {
-   "pre": "Vancouver, BC, Canada",
-   "post": "Sydney, Australia"
-  },
-  "18150582": {
-   "pre": "Vancouver, BC, Canada",
-   "post": "Sydney, Australia"
-  },
-  "18150583": {
-   "pre": "Sydney, Australia",
-   "post": "Vancouver, BC, Canada"
-  },
-  "18150751": {
-   "pre": "Vancouver, BC, Canada",
-   "post": "Auckland, New Zealand"
-  },
-  "18150752": {
-   "pre": "Vancouver, BC, Canada",
-   "post": "Auckland, New Zealand"
-  },
-  "18150753": {
-   "pre": "Auckland, New Zealand",
-   "post": "Vancouver, BC, Canada"
-  },
   "18150772": {
    "pre": "Fort Lauderdale, FL, United States",
    "post": "Greenwich, United Kingdom"
@@ -5135,6 +5091,10 @@
   "18300440": {
    "pre": null,
    "post": "Ushuaia, Argentina"
+  },
+  "18300512": {
+   "pre": "Miami, FL, United States",
+   "post": "Fort Lauderdale, FL, United States"
   },
   "18300570": {
    "pre": "Miami, FL, United States",
@@ -5627,10 +5587,6 @@
   "18491959": {
    "pre": "Tokyo, Japan",
    "post": "Hong Kong, China"
-  },
-  "18507842": {
-   "pre": "San Diego, CA, United States",
-   "post": "Singapore, Singapore"
   },
   "18513606": {
    "pre": "Fort Lauderdale, FL, United States",

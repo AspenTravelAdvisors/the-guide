@@ -5,168 +5,16 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4455,
-  "journeysWithStays": 3741,
+  "journeysTotal": 4458,
+  "journeysWithStays": 3744,
   "journeysWithHouse": 0,
-  "gateways": 108,
-  "hotels": 291,
+  "gateways": 107,
+  "hotels": 287,
   "houses": []
  },
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00838": {
-   "n": "Hotel Casa Pestagua",
-   "house": null,
-   "aff": null,
-   "city": "Cartagena",
-   "country": "Colombia",
-   "ll": [
-    10.3932,
-    -75.4832
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930080_2_0.webp",
-   "rooms": 16,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00352": {
-   "n": "Casa San Agustin",
-   "house": null,
-   "aff": null,
-   "city": "Cartagena",
-   "country": "Colombia",
-   "ll": [
-    10.391,
-    -75.4794
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15226061_2_0.webp",
-   "rooms": 31,
-   "perks": [
-    "Daily breakfast",
-    "Property credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01817": {
-   "n": "Sofitel Legend Santa Clara Cartagena",
-   "house": "Accor",
-   "aff": null,
-   "city": "Cartagena",
-   "country": "Colombia",
-   "ll": [
-    10.4294,
-    -75.544
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4316_2_0.webp",
-   "rooms": 126,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_v18575535": {
-   "n": "Hotel Charleston Santa Teresa",
-   "house": null,
-   "aff": null,
-   "city": "Cartagena",
-   "country": "Colombia",
-   "ll": [
-    10.4224,
-    -75.5526
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18573891_2_0.webp",
-   "rooms": 86,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02459": {
-   "n": "Waldorf Astoria Panama",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    8.97686,
-    -79.5251
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14146773_2_0.webp",
-   "rooms": 135,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00246": {
-   "n": "Bristol Panama",
-   "house": null,
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    8.97972,
-    -79.5244
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0.webp",
-   "rooms": 127,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01812": {
-   "n": "Sofitel Legend Casco Viejo Panama",
-   "house": "Accor",
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    8.95147,
-    -79.53228
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16310992_2_0.webp",
-   "rooms": 159,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00878": {
-   "n": "Hotel La Compañia",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    9.07869,
-    -79.3919
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16896453_2_0.webp",
-   "rooms": 88,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
   "h_01876": {
    "n": "THE DOLLI® at Acropolis, A Hotel to Live®",
    "house": null,
@@ -215,7 +63,7 @@
     37.9762,
     23.7353
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4377_2_0_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4377_2_0.webp",
    "rooms": 320,
    "perks": [
     "Daily breakfast",
@@ -234,7 +82,7 @@
     37.9763,
     23.7349
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13072676_2_0_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13072676_2_0.webp",
    "rooms": 102,
    "perks": [
     "Daily breakfast",
@@ -319,44 +167,6 @@
    ],
    "promo": 0
   },
-  "h_00141": {
-   "n": "Arakur Ushuaia Resort & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.7864,
-    -68.2575
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
-   "rooms": 129,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 0
-  },
-  "h_01191": {
-   "n": "Los Cauquenes Resort + Spa + Experiences",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.8364,
-    -68.3502
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
-   "rooms": 48,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
   "h_00510": {
    "n": "Downtown L.A. Proper",
    "house": null,
@@ -430,6 +240,44 @@
     "Daily breakfast",
     "$100 credit",
     "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00141": {
+   "n": "Arakur Ushuaia Resort & Spa",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.7864,
+    -68.2575
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
+   "rooms": 129,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 0
+  },
+  "h_01191": {
+   "n": "Los Cauquenes Resort + Spa + Experiences",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.8364,
+    -68.3502
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
+   "rooms": 48,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
    ],
    "promo": 0
   },
@@ -1262,6 +1110,82 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18222608_2_0.webp",
    "rooms": 67,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02459": {
+   "n": "Waldorf Astoria Panama",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    8.97686,
+    -79.5251
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14146773_2_0.webp",
+   "rooms": 135,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00246": {
+   "n": "Bristol Panama",
+   "house": null,
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    8.97972,
+    -79.5244
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0.webp",
+   "rooms": 127,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01812": {
+   "n": "Sofitel Legend Casco Viejo Panama",
+   "house": "Accor",
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    8.95147,
+    -79.53228
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16310992_2_0.webp",
+   "rooms": 159,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00878": {
+   "n": "Hotel La Compañia",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    9.07869,
+    -79.3919
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16896453_2_0.webp",
+   "rooms": 88,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -2945,7 +2869,7 @@
     49.4239,
     0.224774
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13753437_2_0_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13753437_2_0.webp",
    "rooms": 34,
    "perks": [
     "Daily breakfast",
@@ -3596,6 +3520,25 @@
    ],
    "promo": 0
   },
+  "h_01106": {
+   "n": "La Posta Vecchia Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Rome",
+   "country": "Italy",
+   "ll": [
+    41.9337,
+    12.1023
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3967_2_0.webp",
+   "rooms": 21,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_00517": {
    "n": "Dylan Hotel, Dublin",
    "house": null,
@@ -3671,25 +3614,6 @@
     "Room upgrade"
    ],
    "promo": 1
-  },
-  "h_01106": {
-   "n": "La Posta Vecchia Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Rome",
-   "country": "Italy",
-   "ll": [
-    41.9337,
-    12.1023
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3967_2_0.webp",
-   "rooms": 21,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
   },
   "h_00063": {
    "n": "Aman Venice",
@@ -4024,7 +3948,7 @@
     59.3289,
     18.0781
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14096048_2_0_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14096048_2_0.webp",
    "rooms": 46,
    "perks": [
     "Daily breakfast",
@@ -4528,7 +4452,7 @@
     43.7387,
     7.42614
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4025_2_0_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4025_2_0.webp",
    "rooms": 262,
    "perks": [
     "Daily breakfast",
@@ -5098,7 +5022,7 @@
     35.6832,
     139.761
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12991056_2_1_1009.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12991056_2_1.webp",
    "rooms": 284,
    "perks": [
     "Daily breakfast",
@@ -5317,7 +5241,7 @@
    "promo": 0
   },
   "h_v18624520": {
-   "n": "Cape Sounio, a Resort to Live",
+   "n": "Cape Sounio, A Resort to Live®",
    "house": null,
    "aff": null,
    "city": "Cape Sounion",
@@ -5527,56 +5451,6 @@
   }
  },
  "GATES": {
-  "Cartagena, Colombia": {
-   "n": "Cartagena, Colombia",
-   "ll": [
-    10.3997,
-    -75.5144
-   ],
-   "h": [
-    [
-     "h_00838",
-     3.5
-    ],
-    [
-     "h_00352",
-     3.9
-    ],
-    [
-     "h_01817",
-     4.6
-    ],
-    [
-     "h_v18575535",
-     4.9
-    ]
-   ]
-  },
-  "Panama City, Panama": {
-   "n": "Panama City, Panama",
-   "ll": [
-    8.9667,
-    -79.5333
-   ],
-   "h": [
-    [
-     "h_02459",
-     1.4
-    ],
-    [
-     "h_00246",
-     1.7
-    ],
-    [
-     "h_01812",
-     1.7
-    ],
-    [
-     "h_00878",
-     19.9
-    ]
-   ]
-  },
   "Piraeus, Greece": {
    "n": "Piraeus, Greece",
    "ll": [
@@ -5627,23 +5501,6 @@
     ]
    ]
   },
-  "Ushuaia, Argentina": {
-   "n": "Ushuaia, Argentina",
-   "ll": [
-    -54.8,
-    -68.3
-   ],
-   "h": [
-    [
-     "h_00141",
-     3.1
-    ],
-    [
-     "h_01191",
-     5.2
-    ]
-   ]
-  },
   "Los Angeles, CA, United States": {
    "n": "Los Angeles, CA, United States",
    "ll": [
@@ -5666,6 +5523,23 @@
     [
      "h_01866",
      11.6
+    ]
+   ]
+  },
+  "Ushuaia, Argentina": {
+   "n": "Ushuaia, Argentina",
+   "ll": [
+    -54.8,
+    -68.3
+   ],
+   "h": [
+    [
+     "h_00141",
+     3.1
+    ],
+    [
+     "h_01191",
+     5.2
     ]
    ]
   },
@@ -5995,6 +5869,31 @@
     [
      "h_01525",
      2.1
+    ]
+   ]
+  },
+  "Panama City, Panama": {
+   "n": "Panama City, Panama",
+   "ll": [
+    8.9667,
+    -79.5333
+   ],
+   "h": [
+    [
+     "h_02459",
+     1.4
+    ],
+    [
+     "h_00246",
+     1.7
+    ],
+    [
+     "h_01812",
+     1.7
+    ],
+    [
+     "h_00878",
+     19.9
     ]
    ]
   },
@@ -6922,6 +6821,19 @@
     ]
    ]
   },
+  "Civitavecchia, Italy": {
+   "n": "Civitavecchia, Italy",
+   "ll": [
+    42.1,
+    11.8
+   ],
+   "h": [
+    [
+     "h_01106",
+     31.1
+    ]
+   ]
+  },
   "Greenock, United Kingdom": {
    "n": "Greenock, United Kingdom",
    "ll": [
@@ -6957,19 +6869,6 @@
     [
      "h_02231",
      0.8
-    ]
-   ]
-  },
-  "Civitavecchia, Italy": {
-   "n": "Civitavecchia, Italy",
-   "ll": [
-    42.1,
-    11.8
-   ],
-   "h": [
-    [
-     "h_01106",
-     31.1
     ]
    ]
   },
@@ -8100,10 +7999,6 @@
   "16845762": {
    "pre": "San Jose, Costa Rica",
    "post": "San Jose, Costa Rica"
-  },
-  "16845788": {
-   "pre": "Cartagena, Colombia",
-   "post": "Panama City, Panama"
   },
   "16845794": {
    "pre": "Cairo, Egypt",
@@ -9536,10 +9431,6 @@
   "18081402": {
    "pre": "Ushuaia, Argentina",
    "post": "Buenos Aires, Argentina"
-  },
-  "18081403": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
   },
   "18081404": {
    "pre": "Ushuaia, Argentina",
@@ -14469,6 +14360,14 @@
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
   },
+  "18393505": {
+   "pre": "Piraeus, Greece",
+   "post": "Piraeus, Greece"
+  },
+  "18393506": {
+   "pre": "Piraeus, Greece",
+   "post": "Piraeus, Greece"
+  },
   "18393507": {
    "pre": "Piraeus, Greece",
    "post": "Piraeus, Greece"
@@ -15586,10 +15485,6 @@
    "post": "Papeete, French Polynesia"
   },
   "18485479": {
-   "pre": "Papeete, French Polynesia",
-   "post": "Papeete, French Polynesia"
-  },
-  "18485486": {
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
   },
@@ -22716,6 +22611,22 @@
   "18652112": {
    "pre": "Venice, Italy",
    "post": "Lisbon, Portugal"
+  },
+  "18652897": {
+   "pre": null,
+   "post": "Lisbon, Portugal"
+  },
+  "18652898": {
+   "pre": "Reykjavík, Iceland",
+   "post": null
+  },
+  "18652899": {
+   "pre": "Naples, Italy",
+   "post": "Civitavecchia, Italy"
+  },
+  "18652900": {
+   "pre": "Málaga, Spain",
+   "post": "Valletta, Malta"
   }
  }
 }

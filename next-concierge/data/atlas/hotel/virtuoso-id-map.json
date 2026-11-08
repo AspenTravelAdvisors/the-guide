@@ -1,7 +1,7 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-11-06T16:42:41.333Z",
+  "generated": "2026-11-08T15:55:19.992Z",
   "feedSynced": null,
   "localCount": 2475,
   "feedCount": 2092,
@@ -26322,7 +26322,7 @@
   },
   {
    "vid": "18624520",
-   "name": "Cape Sounio, a Resort to Live",
+   "name": "Cape Sounio, A Resort to Live®",
    "city": "Cape Sounion",
    "country": "Greece"
   },
