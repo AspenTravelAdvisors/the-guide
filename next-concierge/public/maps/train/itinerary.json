@@ -2109,40 +2109,6 @@
     ]
    }
   ],
-  "18262679": [
-   {
-    "n": "Palermo",
-    "r": "EUROPE",
-    "ll": [
-     38.1167,
-     13.3667
-    ]
-   },
-   {
-    "n": "Taormina",
-    "r": "EUROPE",
-    "ll": [
-     37.8545,
-     15.2889
-    ]
-   },
-   {
-    "n": "Naples",
-    "r": "EUROPE",
-    "ll": [
-     40.8333,
-     14.25
-    ]
-   },
-   {
-    "n": "Rome",
-    "r": "EUROPE",
-    "ll": [
-     41.9072,
-     12.4804
-    ]
-   }
-  ],
   "18262682": [
    {
     "n": "Rome",
@@ -4659,7 +4625,7 @@
    ],
    "promotions": [
     {
-     "name": "Book 2027 Canada vacations by Nov 15 and receive 10% off selected packages",
+     "name": "Book 2027 Canada vacations by Nov 27 and receive 20% off select packages",
      "endDate": "2027-10-15",
      "exclusive": false,
      "description": "Early Booking Bonus – Book your 2027 Canada vacation by Nov 15 and receive 10% off select packages (up to $4,000 per couple) is applicable to select packages only as indicated on our Canada By Design website. Total savings vary by package, departure date, hotel grade, and other factors. Offers are subject to availability for 2027 departures and can be modified, withdrawn, or amended without prior notice. Trans Canada Packages: Up to $4,000 per couple Western Canada Packages: Up to $3,000 per couple Eastern Canada Packages: Up to $2,500 per couple Road Trip Packages: Up to $1,500 per couple…"
@@ -4985,7 +4951,7 @@
    ],
    "promotions": [
     {
-     "name": "Book 2027 Canada vacations by Nov 15 and receive 10% off selected packages",
+     "name": "Book 2027 Canada vacations by Nov 27 and receive 20% off select packages",
      "endDate": "2027-10-15",
      "exclusive": false,
      "description": "Early Booking Bonus – Book your 2027 Canada vacation by Nov 15 and receive 10% off select packages (up to $4,000 per couple) is applicable to select packages only as indicated on our Canada By Design website. Total savings vary by package, departure date, hotel grade, and other factors. Offers are subject to availability for 2027 departures and can be modified, withdrawn, or amended without prior notice. Trans Canada Packages: Up to $4,000 per couple Western Canada Packages: Up to $3,000 per couple Eastern Canada Packages: Up to $2,500 per couple Road Trip Packages: Up to $1,500 per couple…"
@@ -5827,7 +5793,7 @@
    ],
    "promotions": [
     {
-     "name": "Book 2027 Canada vacations by Nov 15 and receive 10% off selected packages",
+     "name": "Book 2027 Canada vacations by Nov 27 and receive 20% off select packages",
      "endDate": "2027-10-15",
      "exclusive": false,
      "description": "Early Booking Bonus – Book your 2027 Canada vacation by Nov 15 and receive 10% off select packages (up to $4,000 per couple) is applicable to select packages only as indicated on our Canada By Design website. Total savings vary by package, departure date, hotel grade, and other factors. Offers are subject to availability for 2027 departures and can be modified, withdrawn, or amended without prior notice. Trans Canada Packages: Up to $4,000 per couple Western Canada Packages: Up to $3,000 per couple Eastern Canada Packages: Up to $2,500 per couple Road Trip Packages: Up to $1,500 per couple…"
@@ -5946,7 +5912,7 @@
    ],
    "promotions": [
     {
-     "name": "Book 2027 Canada vacations by Nov 15 and receive 10% off selected packages",
+     "name": "Book 2027 Canada vacations by Nov 27 and receive 20% off select packages",
      "endDate": "2027-10-15",
      "exclusive": false,
      "description": "Early Booking Bonus – Book your 2027 Canada vacation by Nov 15 and receive 10% off select packages (up to $4,000 per couple) is applicable to select packages only as indicated on our Canada By Design website. Total savings vary by package, departure date, hotel grade, and other factors. Offers are subject to availability for 2027 departures and can be modified, withdrawn, or amended without prior notice. Trans Canada Packages: Up to $4,000 per couple Western Canada Packages: Up to $3,000 per couple Eastern Canada Packages: Up to $2,500 per couple Road Trip Packages: Up to $1,500 per couple…"
@@ -6828,7 +6794,7 @@
    ],
    "promotions": [
     {
-     "name": "Book 2027 Canada vacations by Nov 15 and receive 10% off selected packages",
+     "name": "Book 2027 Canada vacations by Nov 27 and receive 20% off select packages",
      "endDate": "2027-10-15",
      "exclusive": false,
      "description": "Early Booking Bonus – Book your 2027 Canada vacation by Nov 15 and receive 10% off select packages (up to $4,000 per couple) is applicable to select packages only as indicated on our Canada By Design website. Total savings vary by package, departure date, hotel grade, and other factors. Offers are subject to availability for 2027 departures and can be modified, withdrawn, or amended without prior notice. Trans Canada Packages: Up to $4,000 per couple Western Canada Packages: Up to $3,000 per couple Eastern Canada Packages: Up to $2,500 per couple Road Trip Packages: Up to $1,500 per couple…"
@@ -7106,7 +7072,7 @@
    ],
    "promotions": [
     {
-     "name": "Book 2027 Canada vacations by Nov 15 and receive 10% off selected packages",
+     "name": "Book 2027 Canada vacations by Nov 27 and receive 20% off select packages",
      "endDate": "2027-10-15",
      "exclusive": false,
      "description": "Early Booking Bonus – Book your 2027 Canada vacation by Nov 15 and receive 10% off select packages (up to $4,000 per couple) is applicable to select packages only as indicated on our Canada By Design website. Total savings vary by package, departure date, hotel grade, and other factors. Offers are subject to availability for 2027 departures and can be modified, withdrawn, or amended without prior notice. Trans Canada Packages: Up to $4,000 per couple Western Canada Packages: Up to $3,000 per couple Eastern Canada Packages: Up to $2,500 per couple Road Trip Packages: Up to $1,500 per couple…"
@@ -7375,7 +7341,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/16530773/norwayluxurytour",
    "days": 10,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_23_1008.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_23.webp",
    "from": "Oslo, Norway",
    "to": "Oslo, Norway",
    "country": "Norway",
@@ -9363,51 +9329,6 @@
    "route": "18535994"
   },
   {
-   "id": "18262679",
-   "n": "SICILY TO ROME VIA NAPLES",
-   "b": "dolcevita",
-   "g": [
-    "EUROPE"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18262679/sicilytoromevianaples",
-   "days": 3,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/16650958_2_24.webp",
-   "from": "Palermo, Italy",
-   "to": "Rome, Italy",
-   "country": "Italy",
-   "train": "La Dolce Vita Orient Express",
-   "world": true,
-   "mks": [
-    "2026-11"
-   ],
-   "onDemand": true,
-   "win": "Valid for Departures Now Through: 11 Nov 2026",
-   "description": "3 DAYS 2 NIGHTS PALERMO - TAORMINA - NAPOLI- ROME",
-   "included": [
-    "Michelin 3-star dining onboard, accompanied by the finest selection of Italian wines One way transfer to/from the railway station"
-   ],
-   "promotions": [],
-   "itin": [
-    {
-     "d": 1,
-     "n": "Palermo"
-    },
-    {
-     "d": 1,
-     "n": "Taormina"
-    },
-    {
-     "d": 2,
-     "n": "Naples"
-    },
-    {
-     "d": 3,
-     "n": "Rome"
-    }
-   ],
-   "route": "18262679"
-  },
-  {
    "id": "16549551",
    "n": "Singapore Iconic Explorer",
    "b": "exo",
@@ -11378,7 +11299,7 @@
    ],
    "promotions": [
     {
-     "name": "Book 2027 Canada vacations by Nov 15 and receive 10% off selected packages",
+     "name": "Book 2027 Canada vacations by Nov 27 and receive 20% off select packages",
      "endDate": "2027-10-15",
      "exclusive": false,
      "description": "Early Booking Bonus – Book your 2027 Canada vacation by Nov 15 and receive 10% off select packages (up to $4,000 per couple) is applicable to select packages only as indicated on our Canada By Design website. Total savings vary by package, departure date, hotel grade, and other factors. Offers are subject to availability for 2027 departures and can be modified, withdrawn, or amended without prior notice. Trans Canada Packages: Up to $4,000 per couple Western Canada Packages: Up to $3,000 per couple Eastern Canada Packages: Up to $2,500 per couple Road Trip Packages: Up to $1,500 per couple…"

@@ -5,11 +5,11 @@
   "atlas": "train",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 109,
-  "journeysWithStays": 105,
-  "journeysWithHouse": 48,
-  "gateways": 45,
-  "hotels": 157,
+  "journeysTotal": 108,
+  "journeysWithStays": 104,
+  "journeysWithHouse": 47,
+  "gateways": 44,
+  "hotels": 156,
   "houses": [
    "Belmond",
    "Orient Express"
@@ -2674,25 +2674,6 @@
    ],
    "promo": 1
   },
-  "h_02392": {
-   "n": "Villa Igiea, a Rocco Forte Hotel",
-   "house": "Rocco Forte Hotels",
-   "aff": null,
-   "city": "Palermo",
-   "country": "Italy",
-   "ll": [
-    38.1449,
-    13.3694
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15974827_2_0.webp",
-   "rooms": 100,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
   "h_00744": {
    "n": "Grand Hotel Stockholm",
    "house": null,
@@ -3930,19 +3911,6 @@
     ]
    ]
   },
-  "Palermo": {
-   "n": "Palermo",
-   "ll": [
-    38.1167,
-    13.3667
-   ],
-   "h": [
-    [
-     "h_02392",
-     3.1
-    ]
-   ]
-  },
   "Stockholm": {
    "n": "Stockholm",
    "ll": [
@@ -4221,11 +4189,6 @@
   "18241043": {
    "pre": "Rome",
    "post": "Venice",
-   "house": "Orient Express"
-  },
-  "18262679": {
-   "pre": "Palermo",
-   "post": "Rome",
    "house": "Orient Express"
   },
   "18262682": {

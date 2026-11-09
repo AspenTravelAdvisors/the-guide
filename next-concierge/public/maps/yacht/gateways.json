@@ -5,9 +5,9 @@
   "atlas": "yacht",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 534,
-  "journeysWithStays": 533,
-  "journeysWithHouse": 533,
+  "journeysTotal": 532,
+  "journeysWithStays": 531,
+  "journeysWithHouse": 531,
   "gateways": 58,
   "hotels": 195,
   "houses": [
@@ -20,348 +20,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00135": {
-   "n": "Andaz Tokyo Toranomon Hills",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.6833,
-    139.75
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656837_2_0.webp",
-   "rooms": 164,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01452": {
-   "n": "Palace Hotel Tokyo",
-   "house": null,
-   "aff": null,
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.6832,
-    139.761
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12991056_2_1.webp",
-   "rooms": 284,
-   "perks": [
-    "Daily breakfast",
-    "$200 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00896": {
-   "n": "Hotel New Otani Tokyo EXECUTIVE HOUSE ZEN",
-   "house": null,
-   "aff": null,
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.683,
-    139.738
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16383214_2_0.webp",
-   "rooms": 84,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_v16589873": {
-   "n": "The Prince Gallery Tokyo Kioicho, a Luxury Collection Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.6799,
-    139.738
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16587174_2_0.webp",
-   "rooms": 250,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00062": {
-   "n": "Aman Tokyo",
-   "house": "Aman",
-   "aff": "Aman",
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.6824,
-    139.765
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14839596_2_0.webp",
-   "rooms": 84,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02204": {
-   "n": "The Ritz-Carlton, Tokyo",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Tokyo",
-   "country": "Japan",
-   "ll": [
-    35.6662,
-    139.731
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3452896_2_3.webp",
-   "rooms": 245,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00046": {
-   "n": "Alila Shanghai",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Shanghai",
-   "country": "China",
-   "ll": [
-    31.2272,
-    121.462
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18331907_2_0.webp",
-   "rooms": 186,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v16231001": {
-   "n": "The Sukhothai Shanghai",
-   "house": null,
-   "aff": null,
-   "city": "Shanghai",
-   "country": "China",
-   "ll": [
-    31.2269,
-    121.463
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16230997_2_0.webp",
-   "rooms": 201,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01028": {
-   "n": "Jing An Shangri-La, Shanghai",
-   "house": "Shangri-La Group",
-   "aff": null,
-   "city": "Shanghai",
-   "country": "China",
-   "ll": [
-    31.2229,
-    121.45
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16117025_2_0.webp",
-   "rooms": 508,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02122": {
-   "n": "The PuLi Shanghai",
-   "house": null,
-   "aff": null,
-   "city": "Shanghai",
-   "country": "China",
-   "ll": [
-    31.222309,
-    121.44836
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5601896_2_22.webp",
-   "rooms": 229,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02118": {
-   "n": "The Portman Ritz-Carlton, Shanghai",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Shanghai",
-   "country": "China",
-   "ll": [
-    31.2292,
-    121.45
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3822_2_1.webp",
-   "rooms": 593,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00086": {
-   "n": "Amanyangyun",
-   "house": "Aman",
-   "aff": "Aman",
-   "city": "Shanghai",
-   "country": "China",
-   "ll": [
-    31.0375,
-    121.357
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15765742_2_0.webp",
-   "rooms": 47,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00024": {
-   "n": "Acqualina Resort & Residences on the Beach",
-   "house": null,
-   "aff": null,
-   "city": "Miami Beach",
-   "country": "United States",
-   "ll": [
-    25.9429,
-    -80.1234
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3886_2_4.webp",
-   "rooms": 98,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02136": {
-   "n": "The Ritz-Carlton Bal Harbour, Miami",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Bal Harbour",
-   "country": "United States",
-   "ll": [
-    25.8988,
-    -80.1233
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14388867_2_4.webp",
-   "rooms": 95,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02245": {
-   "n": "The St. Regis Bal Harbour Resort",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Bal Harbour",
-   "country": "United States",
-   "ll": [
-    25.8888,
-    -80.1225
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6655670_2_19.webp",
-   "rooms": 216,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00672": {
-   "n": "Four Seasons Hotel at The Surf Club",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Surfside",
-   "country": "United States",
-   "ll": [
-    25.8776,
-    -80.1216
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5.webp",
-   "rooms": 103,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02202": {
-   "n": "The Ritz-Carlton, South Beach",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Miami Beach",
-   "country": "United States",
-   "ll": [
-    25.7907,
-    -80.1281
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3973_2_0.webp",
-   "rooms": 375,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00657": {
-   "n": "Four Seasons Hotel Miami",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Miami",
-   "country": "United States",
-   "ll": [
-    25.7587,
-    -80.1914
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4278_2_0.webp",
-   "rooms": 221,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_01117": {
    "n": "La Samanna, A Belmond Hotel, St Martin",
    "house": "Belmond",
@@ -624,6 +282,120 @@
    ],
    "promo": 1
   },
+  "h_00024": {
+   "n": "Acqualina Resort & Residences on the Beach",
+   "house": null,
+   "aff": null,
+   "city": "Miami Beach",
+   "country": "United States",
+   "ll": [
+    25.9429,
+    -80.1234
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3886_2_4.webp",
+   "rooms": 98,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02136": {
+   "n": "The Ritz-Carlton Bal Harbour, Miami",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Bal Harbour",
+   "country": "United States",
+   "ll": [
+    25.8988,
+    -80.1233
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14388867_2_4.webp",
+   "rooms": 95,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02245": {
+   "n": "The St. Regis Bal Harbour Resort",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Bal Harbour",
+   "country": "United States",
+   "ll": [
+    25.8888,
+    -80.1225
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6655670_2_19.webp",
+   "rooms": 216,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00672": {
+   "n": "Four Seasons Hotel at The Surf Club",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Surfside",
+   "country": "United States",
+   "ll": [
+    25.8776,
+    -80.1216
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5.webp",
+   "rooms": 103,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02202": {
+   "n": "The Ritz-Carlton, South Beach",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Miami Beach",
+   "country": "United States",
+   "ll": [
+    25.7907,
+    -80.1281
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3973_2_0.webp",
+   "rooms": 375,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00657": {
+   "n": "Four Seasons Hotel Miami",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Miami",
+   "country": "United States",
+   "ll": [
+    25.7587,
+    -80.1914
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4278_2_0.webp",
+   "rooms": 221,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_00636": {
    "n": "Fouquet's Saint-Barth",
    "house": "Barriere Collection",
@@ -765,6 +537,120 @@
    "perks": [
     "Daily breakfast",
     "$200 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00046": {
+   "n": "Alila Shanghai",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.2272,
+    121.462
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18331907_2_0.webp",
+   "rooms": 186,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v16231001": {
+   "n": "The Sukhothai Shanghai",
+   "house": null,
+   "aff": null,
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.2269,
+    121.463
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16230997_2_0.webp",
+   "rooms": 201,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01028": {
+   "n": "Jing An Shangri-La, Shanghai",
+   "house": "Shangri-La Group",
+   "aff": null,
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.2229,
+    121.45
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16117025_2_0.webp",
+   "rooms": 508,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02122": {
+   "n": "The PuLi Shanghai",
+   "house": null,
+   "aff": null,
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.222309,
+    121.44836
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5601896_2_22.webp",
+   "rooms": 229,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02118": {
+   "n": "The Portman Ritz-Carlton, Shanghai",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.2292,
+    121.45
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3822_2_1.webp",
+   "rooms": 593,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00086": {
+   "n": "Amanyangyun",
+   "house": "Aman",
+   "aff": "Aman",
+   "city": "Shanghai",
+   "country": "China",
+   "ll": [
+    31.0375,
+    121.357
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15765742_2_0.webp",
+   "rooms": 47,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
     "Room upgrade"
    ],
    "promo": 0
@@ -1615,6 +1501,120 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_02204": {
+   "n": "The Ritz-Carlton, Tokyo",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.6662,
+    139.731
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3452896_2_3.webp",
+   "rooms": 245,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00062": {
+   "n": "Aman Tokyo",
+   "house": "Aman",
+   "aff": "Aman",
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.6824,
+    139.765
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14839596_2_0.webp",
+   "rooms": 84,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00135": {
+   "n": "Andaz Tokyo Toranomon Hills",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.6833,
+    139.75
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656837_2_0.webp",
+   "rooms": 164,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01452": {
+   "n": "Palace Hotel Tokyo",
+   "house": null,
+   "aff": null,
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.6832,
+    139.761
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12991056_2_1.webp",
+   "rooms": 284,
+   "perks": [
+    "Daily breakfast",
+    "$200 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00896": {
+   "n": "Hotel New Otani Tokyo EXECUTIVE HOUSE ZEN",
+   "house": null,
+   "aff": null,
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.683,
+    139.738
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16383214_2_0.webp",
+   "rooms": 84,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_v16589873": {
+   "n": "The Prince Gallery Tokyo Kioicho, a Luxury Collection Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Tokyo",
+   "country": "Japan",
+   "ll": [
+    35.6799,
+    139.738
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16587174_2_0.webp",
+   "rooms": 250,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
   },
   "h_01674": {
    "n": "Royal Mansour Casablanca",
@@ -3707,105 +3707,6 @@
   }
  },
  "GATES": {
-  "Tokyo, Japan": {
-   "n": "Tokyo, Japan",
-   "ll": [
-    35.6833,
-    139.75
-   ],
-   "h": [
-    [
-     "h_00135",
-     0
-    ],
-    [
-     "h_01452",
-     1
-    ],
-    [
-     "h_00896",
-     1.1
-    ],
-    [
-     "h_v16589873",
-     1.1
-    ],
-    [
-     "h_00062",
-     1.4
-    ],
-    [
-     "h_02204",
-     2.6
-    ]
-   ]
-  },
-  "Shanghai, China": {
-   "n": "Shanghai, China",
-   "ll": [
-    31.2222,
-    121.458
-   ],
-   "h": [
-    [
-     "h_00046",
-     0.7
-    ],
-    [
-     "h_v16231001",
-     0.7
-    ],
-    [
-     "h_01028",
-     0.8
-    ],
-    [
-     "h_02122",
-     0.9
-    ],
-    [
-     "h_02118",
-     1.1
-    ],
-    [
-     "h_00086",
-     22.7
-    ]
-   ]
-  },
-  "Miami, FL, United States": {
-   "n": "Miami, FL, United States",
-   "ll": [
-    25.9388,
-    -80.2144
-   ],
-   "h": [
-    [
-     "h_00024",
-     9.1
-    ],
-    [
-     "h_02136",
-     10.1
-    ],
-    [
-     "h_02245",
-     10.7
-    ],
-    [
-     "h_00672",
-     11.5
-    ],
-    [
-     "h_02202",
-     18.6
-    ],
-    [
-     "h_00657",
-     20.2
-    ]
-   ]
-  },
   "Marigot, Saint Martin": {
    "n": "Marigot, Saint Martin",
    "ll": [
@@ -3889,6 +3790,39 @@
     ]
    ]
   },
+  "Miami, FL, United States": {
+   "n": "Miami, FL, United States",
+   "ll": [
+    25.9388,
+    -80.2144
+   ],
+   "h": [
+    [
+     "h_00024",
+     9.1
+    ],
+    [
+     "h_02136",
+     10.1
+    ],
+    [
+     "h_02245",
+     10.7
+    ],
+    [
+     "h_00672",
+     11.5
+    ],
+    [
+     "h_02202",
+     18.6
+    ],
+    [
+     "h_00657",
+     20.2
+    ]
+   ]
+  },
   "Gustavia, Saint Barthélemy": {
    "n": "Gustavia, Saint Barthélemy",
    "ll": [
@@ -3965,6 +3899,39 @@
     [
      "h_00334",
      11.3
+    ]
+   ]
+  },
+  "Shanghai, China": {
+   "n": "Shanghai, China",
+   "ll": [
+    31.2222,
+    121.458
+   ],
+   "h": [
+    [
+     "h_00046",
+     0.7
+    ],
+    [
+     "h_v16231001",
+     0.7
+    ],
+    [
+     "h_01028",
+     0.8
+    ],
+    [
+     "h_02122",
+     0.9
+    ],
+    [
+     "h_02118",
+     1.1
+    ],
+    [
+     "h_00086",
+     22.7
     ]
    ]
   },
@@ -4243,6 +4210,39 @@
     [
      "h_00062",
      27.9
+    ]
+   ]
+  },
+  "Tokyo, Japan": {
+   "n": "Tokyo, Japan",
+   "ll": [
+    35.6833,
+    139.75
+   ],
+   "h": [
+    [
+     "h_00135",
+     0
+    ],
+    [
+     "h_01452",
+     1
+    ],
+    [
+     "h_00896",
+     1.1
+    ],
+    [
+     "h_v16589873",
+     1.1
+    ],
+    [
+     "h_00062",
+     1.4
+    ],
+    [
+     "h_02204",
+     2.6
     ]
    ]
   },
@@ -5334,11 +5334,6 @@
   "18192133": {
    "pre": "Miami, FL, United States",
    "post": "Málaga, Spain",
-   "house": "Ritz-Carlton"
-  },
-  "18192134": {
-   "pre": "Miami, FL, United States",
-   "post": "Miami, FL, United States",
    "house": "Ritz-Carlton"
   },
   "18192160": {
@@ -7679,11 +7674,6 @@
   "18652100": {
    "pre": "Shanghai, China",
    "post": "Hong Kong, China",
-   "house": "Ritz-Carlton"
-  },
-  "18652101": {
-   "pre": "Tokyo, Japan",
-   "post": "Shanghai, China",
    "house": "Ritz-Carlton"
   },
   "18652113": {
