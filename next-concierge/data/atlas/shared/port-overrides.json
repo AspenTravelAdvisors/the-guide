@@ -443,6 +443,23 @@
    "source": "OSM node/293673697"
   },
   {
+   "name": "La Palma, Spain",
+   "collections": [
+    "world"
+   ],
+   "was": [
+    37.6833,
+    -0.95
+   ],
+   "ll": [
+    28.6833,
+    -17.75
+   ],
+   "place": "Santa Cruz de La Palma, Canary Islands",
+   "why": "a village near Cartagena on the Murcian coast, between Tenerife and San Sebasti\u00e1n de La Gomera; the stop is the Canary island, not a 3,500km detour to the mainland and back",
+   "source": "the yacht feed (Santa Cruz De La Palma, Spain)"
+  },
+  {
    "name": "Guernsey, United Kingdom",
    "collections": [
     "world"
