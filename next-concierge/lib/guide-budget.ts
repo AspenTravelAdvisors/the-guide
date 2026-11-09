@@ -22,9 +22,9 @@
 // to leave running while the balance drains.
 //
 // ACCURACY. Spend is recorded from the usage Anthropic actually reports, so it
-// is exact for the tokens it sees. What it cannot see is a turn killed
-// mid-flight by the 60s function timeout — those tokens are billed and never
-// counted. The ceiling therefore runs slightly UNDER real spend, which is the
+// is exact for the tokens it sees. What it cannot see is the round in flight
+// when a turn is cut off — by its own deadline (see the Guide route) or by the
+// function timeout — whose tokens are billed and never counted. The ceiling therefore runs slightly UNDER real spend, which is the
 // right direction for a safety limit but means it should not be read as a bill.
 
 import { isStoreConfigured, kvPipeline } from "./kv";
@@ -54,6 +54,11 @@ const RATES: Record<string, ModelRate> = {
   "claude-haiku-4-5": { input: 1, output: 5 },
   "claude-opus-5": { input: 5, output: 25 },
   "claude-opus-4-8": { input: 5, output: 25 },
+  // Not a model this route should default to (always-on thinking, 5x Sonnet's
+  // rate), but listed so that pointing CLAUDE_MODEL at it is counted at its
+  // real price, and so the fallback for an unknown model is this one, not Opus.
+  "claude-fable-5-1": { input: 10, output: 50 },
+  "claude-fable-5": { input: 10, output: 50 },
 };
 
 // An unrecognized model bills at the priciest rate we know. Guessing low on an

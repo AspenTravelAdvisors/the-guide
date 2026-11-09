@@ -54,6 +54,8 @@ export interface RateLimitOptions {
   globalMax?: number;
   /** What a caller refused by the per-IP limit is told. */
   message?: string;
+  /** What a caller refused by the global ceiling is told. */
+  globalMessage?: string;
 }
 
 // bucket:ip -> { count, resetAt }
@@ -173,15 +175,38 @@ export async function isRateLimited(
   if (globalMax !== undefined) {
     const globalRec = await bump(globalKey, windowMs, stamp, now);
     if (globalRec.count > globalMax) {
-      return tooMany(
-        globalRec,
-        globalMax,
-        now,
-        "The Guide is handling an unusual volume of requests right now. Please try again in a moment.",
-        extraHeaders,
-      );
+      return tooMany(globalRec, globalMax, now, opts.globalMessage ?? BUSY, extraHeaders);
     }
   }
 
   return null;
+}
+
+const BUSY =
+  "The Guide is handling an unusual volume of requests right now. Please try again in a moment.";
+
+/**
+ * The route-wide ceiling on its own, for a route that wants to count only the
+ * requests that got past everything else.
+ *
+ * `isRateLimited` with `globalMax` counts a request the moment it clears the
+ * per-IP limit. For /api/guide that was too early: a request with no body, one
+ * past its daily cap and one refused as automated all took a place under the
+ * ceiling without ever reaching the model, so a single caller sending ten empty
+ * POSTs a minute held the whole route's allowance and every traveler behind
+ * them got a 429. The Guide now runs its per-IP checks first and calls this
+ * last, immediately before it spends.
+ *
+ * Returns a 429 when the bucket is over `globalMax` for the window, else null.
+ */
+export async function isRouteSaturated(
+  extraHeaders: Record<string, string> = {},
+  opts: { bucket: string; globalMax: number; windowMs?: number; message?: string },
+): Promise<Response | null> {
+  const windowMs = opts.windowMs ?? WINDOW_MS;
+  const now = Date.now();
+  const stamp = Math.floor(now / windowMs);
+  const rec = await bump(`${opts.bucket}:__all__`, windowMs, stamp, now);
+  if (rec.count <= opts.globalMax) return null;
+  return tooMany(rec, opts.globalMax, now, opts.message ?? BUSY, extraHeaders);
 }

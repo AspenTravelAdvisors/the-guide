@@ -1,4 +1,4 @@
-// next-concierge/lib/guide-botid.ts — server half of BotID, in SHADOW MODE.
+// next-concierge/lib/guide-botid.ts — server half of BotID. ENFORCING.
 //
 // WHAT THIS DOES TODAY: classifies the caller, and the Guide refuses to spend a
 // model round on one classified as automated — handing that visitor to an
@@ -60,8 +60,8 @@ export interface BotCheck {
 }
 
 /**
- * Classify the caller. Never throws, never blocks, and in shadow mode the
- * caller is expected to ignore the answer except to log it.
+ * Classify the caller. Never throws and never blocks; `wouldRefuse` below is
+ * what turns the answer into a decision.
  *
  * "unknown" on any failure — a classifier that is down must not be able to
  * change what a traveler sees, today or after this starts enforcing.

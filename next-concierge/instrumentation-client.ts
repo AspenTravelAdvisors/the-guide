@@ -28,6 +28,17 @@ const webCryptoAvailable =
   window.isSecureContext !== false &&
   typeof globalThis.crypto?.subtle?.importKey === "function";
 
+// IF THE CHALLENGE SCRIPT CANNOT LOAD. BotID wraps window.fetch, and when its
+// script is blocked (a privacy extension, a strict network) the wrapped call to
+// /api/guide rejects before any request is made — with a DOM Event, which the
+// chat used to show the traveler as "[object Event]". The browser's own fetch
+// is kept here so the chat can send that one turn unsigned instead (see
+// components/GuideChat.tsx). The server treats it like any other unsigned
+// caller: the hand-off to an advisor, which is the designed failure mode.
+if (typeof window !== "undefined") {
+  (window as Window & { __nativeFetch?: typeof fetch }).__nativeFetch = window.fetch.bind(window);
+}
+
 if (webCryptoAvailable) {
   initBotId({
     protect: [{ path: "/api/guide", method: "POST" }],

@@ -14,10 +14,15 @@
 // says the automatic alerts are not running for this one.
 
 import { corsHeaders } from "@/lib/guide-cors";
-import { isRateLimited } from "@/lib/rate-limit";
 import { arrivalLabel, classifyAiSource } from "@/lib/arrival";
 import { normalizeReferralCode, partnerFor, partnerLabel } from "@/lib/referral";
-import { EMAIL_RE, reelLines, sendToLeadInbox } from "@/lib/lead-inbox";
+import {
+  EMAIL_RE,
+  leadInboxSaturated,
+  leadRateLimited,
+  reelLines,
+  sendToLeadInbox,
+} from "@/lib/lead-inbox";
 import {
   WATCH_MAX_ITEMS,
   fingerprint,
@@ -46,7 +51,7 @@ export async function OPTIONS(req: Request) {
 
 export async function POST(req: Request) {
   const cors = corsHeaders(req);
-  const limited = await isRateLimited(req, cors);
+  const limited = await leadRateLimited(req, cors, "watch");
   if (limited) return limited;
 
   let raw: unknown;
@@ -85,6 +90,9 @@ export async function POST(req: Request) {
       { status: 422, headers: cors },
     );
   }
+
+  const saturated = await leadInboxSaturated(cors);
+  if (saturated) return saturated;
 
   const name = clip(raw.name, 80);
   const partner = normalizeReferralCode(raw.partner);
