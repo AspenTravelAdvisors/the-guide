@@ -142,6 +142,30 @@ jobs:
         working-directory: next-concierge
         run: npm run verify:seo
 
+      # A stop the audit thinks is in the wrong place — the feed geocoding
+      # "La Palma" to a village near Cartagena instead of the Canary island, a
+      # 3,558km detour that sat on main until a person happened to run the
+      # suite. Reported, not enforced: one suspect port out of tens of thousands
+      # is not a reason to hold back a night's offers and departures, so the
+      # data is committed either way and this run carries a warning with the
+      # audit's own findings. The fix is an entry in
+      # data/atlas/shared/port-overrides.json; until it lands, CI on the next
+      # pull request fails verify:ports and says the same thing.
+      - name: Warn about suspect port locations
+        working-directory: next-concierge
+        run: |
+          if ! npm run -s verify:ports > ports.log 2>&1; then
+            echo "::warning title=Suspect port location::verify:ports failed after tonight's sync. See this run's summary, then add a correction to data/atlas/shared/port-overrides.json."
+            {
+              echo "### Suspect port locations"
+              echo
+              echo '```'
+              tail -n 60 ports.log
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+          rm -f ports.log
+
       # This step always commits, and that is deliberate.
       #
       # The heartbeat in virtuoso-sync-status.json moves every night by design:
