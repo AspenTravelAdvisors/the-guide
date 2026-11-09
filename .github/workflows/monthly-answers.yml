@@ -53,7 +53,8 @@ jobs:
         working-directory: next-concierge
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/draft-answers.mjs --count "${{ github.event.inputs.count || '5' }}"
+          COUNT: ${{ github.event.inputs.count || '5' }}
+        run: node scripts/draft-answers.mjs --count "$COUNT"
 
       - name: Open the pull request
         env:
