@@ -153,7 +153,7 @@ export async function OPTIONS(req: Request) {
 }
 
 export async function POST(req: Request) {
-  // Also refused site-wide by the Vercel Firewall "China" rule; repeated here
+  // Also refused site-wide by the Vercel Firewall country rule; repeated here
   // because this is the route that spends money, and it must not depend on a
   // dashboard toggle staying on.
   if (isBlockedCountry(req.headers)) return blockedResponse();
