@@ -254,23 +254,43 @@ for (const [name, itinPath, geoPath] of [
    * were positions in the array. The Virtuoso migration replaced them with the
    * supplier's product ids precisely so a rebuild could not hand 243 to a
    * different voyage — which also means the old fixture no longer points at
-   * anything. Any multi-stop sailing exercises the same code path, so pick the
-   * first one rather than pinning a number that will rot again.
+   * anything. Any multi-stop sailing exercises the same code path, so pick one
+   * rather than pinning a number that will rot again.
+   *
+   * Which one matters, though. This check is stricter than the corpus ones
+   * above: it wants one drawn leg per itinerary hop, no more and no fewer. It
+   * used to take simply the first sailing with six stops, and on 10 November
+   * 2026 a nightly refresh put "San Juan to Panama City" there — a voyage whose
+   * last hop (the canal to Panama City, 9km) is shorter than JOINED, so the
+   * itinerary implied four hops and the geometry rightly drew five. The route
+   * was correct and the suite went red. So pick the first sailing whose
+   * geometry has exactly one leg per hop, which is the case this check is
+   * written for; the corpus assertions already cover every other shape.
    */
-  const trip = d.TRIPS.find((t) => (t.itin || []).filter((s) => s && s.n).length >= 6);
-  const feats = geo.features.filter((f) => (f.properties?.tripIds || []).includes(trip.id));
-  const stops = stopsOf(trip, d.PORTS);
-  const out = frameRoute(feats.map((f) => ({ mode: "primary", coordinates: f.geometry.coordinates })), stops);
+  const hopsOf = (stops) => {
+    const hops = [];
+    for (let i = 1; i < stops.length; i++) if (d2(stops[i], stops[i - 1]) > JOINED) hops.push([stops[i - 1], stops[i]]);
+    return hops;
+  };
+  const legsOf = (t) => geo.features.filter((f) => (f.properties?.tripIds || []).includes(t.id));
+  const trip = d.TRIPS.find((t) =>
+    (t.itin || []).filter((s) => s && s.n).length >= 6
+    && legsOf(t).length === hopsOf(stopsOf(t, d.PORTS)).length);
 
-  // Each drawn leg should run from one itinerary port to the NEXT distinct one.
-  const wanted = [];
-  for (let i = 1; i < stops.length; i++) if (d2(stops[i], stops[i - 1]) > JOINED) wanted.push([stops[i - 1], stops[i]]);
-  const matches = out.length === wanted.length && out.every((l, i) =>
-    d2(l.coordinates[0], wanted[i][0]) < JOINED
-    && d2(l.coordinates[l.coordinates.length - 1], wanted[i][1]) < JOINED);
+  ok(!!trip, "yacht: there is a multi-stop sailing with one traced leg per itinerary hop to test against");
+  if (trip) {
+    const stops = stopsOf(trip, d.PORTS);
+    const out = frameRoute(legsOf(trip).map((f) => ({ mode: "primary", coordinates: f.geometry.coordinates })), stops);
 
-  ok(matches, "yacht #243 Monte-Carlo→Barcelona draws day 1 through day 8, in order",
-    out.map((l) => `${l.coordinates[0]}→${l.coordinates[l.coordinates.length - 1]}`).join("  "));
+    // Each drawn leg should run from one itinerary port to the NEXT distinct one.
+    const wanted = hopsOf(stops);
+    const matches = out.length === wanted.length && out.every((l, i) =>
+      d2(l.coordinates[0], wanted[i][0]) < JOINED
+      && d2(l.coordinates[l.coordinates.length - 1], wanted[i][1]) < JOINED);
+
+    ok(matches, `yacht #${trip.id} draws day 1 through its last day, in order (the trip-243 regression)`,
+      out.map((l) => `${l.coordinates[0]}→${l.coordinates[l.coordinates.length - 1]}`).join("  "));
+  }
 }
 
 rmSync(BUILD, { recursive: true, force: true });
