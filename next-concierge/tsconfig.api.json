@@ -1,0 +1,18 @@
+{
+  // Typecheck for the API routes, which tsconfig.check.json leaves out.
+  //
+  // The routes pull in lib/atlas and lib/search-offerings.js, and those
+  // `require` the inventory JSON. With resolveJsonModule on, TypeScript infers a
+  // literal type for every megabyte of it and the check takes many minutes —
+  // which is why the routes were excluded, and why the endpoint that spends
+  // money was only ever typechecked by the Vercel build. Turning JSON
+  // resolution off here (types/json-untyped.d.ts stands in) checks all of
+  // app/api in a few seconds.
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "incremental": false,
+    "resolveJsonModule": false
+  },
+  "include": ["next-env.d.ts", "types/json-untyped.d.ts", "app/api/**/*.ts"],
+  "exclude": ["node_modules", ".next"]
+}

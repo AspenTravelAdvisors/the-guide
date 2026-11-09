@@ -28,6 +28,7 @@ import { spawnSync } from 'node:child_process';
 // first: a type error makes every later report meaningless.
 const CHECKS = [
   'check',
+  'check:api',
   'verify:virtuoso',
   'verify:adapters',
   'verify:deeplinks',
