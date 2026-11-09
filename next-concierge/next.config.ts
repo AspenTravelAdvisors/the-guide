@@ -100,6 +100,6 @@ const nextConfig: NextConfig = {
 
 // withBotId adds the rewrites that proxy BotID's challenge script through this
 // origin. It changes no behavior on its own: classification only reaches the
-// Guide because app/api/guide/route.ts asks for it, and today that route only
-// logs the answer. See lib/guide-botid.ts.
+// Guide because app/api/guide/route.ts asks for it, and that route refuses a
+// model round to a caller classified as automated. See lib/guide-botid.ts.
 export default withBotId(nextConfig);

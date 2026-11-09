@@ -181,6 +181,41 @@ check(unguarded === 0, 'without globalMax, 40 distinct IPs all pass (per-IP limi
   check(other === null, 'one IP spamming past its own limit does not trip the global ceiling for others');
 }
 
+// The ceiling on its own, as the Guide now counts it: only for turns about to
+// reach the model. Nothing that stops earlier — an empty body, a caller past
+// their daily cap, a refused bot — may take a place under it.
+{
+  const opts = { bucket: 'test-saturated', globalMax: 3 };
+  let last = null;
+  for (let i = 0; i < 3; i++) last = await limit.isRouteSaturated({}, opts);
+  check(last === null, 'the route-wide ceiling admits turns up to its limit');
+  const over = await limit.isRouteSaturated({ 'X-Test': '1' }, opts);
+  check(over?.status === 429 && !!over.headers.get('Retry-After') && over.headers.get('X-Test') === '1',
+    'the next turn is refused with 429, Retry-After and the caller\'s headers');
+  // Shares its counter with isRateLimited's global arm for the same bucket.
+  const viaOther = await limit.isRateLimited(req('192.0.2.200'), {}, { bucket: 'test-saturated', globalMax: 3 });
+  check(viaOther?.status === 429, 'it is the same counter isRateLimited\'s globalMax reads');
+}
+
+// One caller must not be able to hold the whole route. When the per-IP limit
+// equalled the ceiling, ten requests a minute from one address — empty POSTs
+// were enough — used every place under it and the next traveler got a 429.
+// Read off the route's source, like the default model below.
+{
+  const src = readFileSync(path.join(root, 'app/api/guide/route.ts'), 'utf8');
+  const num = (name) => Number(src.match(new RegExp(`process\\.env\\.${name}\\) \\|\\| (\\d+)`))?.[1]);
+  const ipMax = num('GUIDE_RATE_IP_MAX');
+  const globalMax = num('GUIDE_RATE_GLOBAL_MAX');
+  check(ipMax > 0 && globalMax > 0 && ipMax * 2 <= globalMax,
+    `one IP's allowance (${ipMax}/min) is at most half the route's ceiling (${globalMax}/min)`);
+  const at = (needle) => src.indexOf(needle);
+  check(at('isRouteSaturated(cors') > at('checkDailyBudget()') && at('checkDailyBudget()') > at('wouldRefuse(caller)')
+    && at('wouldRefuse(caller)') > at('boundHistory(body'),
+    'the ceiling is counted after the body, bot and budget checks, immediately before the turn');
+  check(!/isRateLimited\(req, cors, \{[^}]*globalMax/.test(src),
+    'the per-IP check no longer counts toward the ceiling');
+}
+
 // The 429 has to be actionable, not just a status.
 const blocked = await limit.isRateLimited(
   req('198.51.100.1'), { 'X-Test': '1' }, { bucket: 'test-global', globalMax: 30 },

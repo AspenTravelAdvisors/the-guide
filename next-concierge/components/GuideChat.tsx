@@ -273,12 +273,24 @@ export default function GuideChat({
     // not count the same failure twice (an HTTP refusal is thrown into it).
     let failReported = false;
     try {
-      const res = await fetch("/api/guide", {
+      const init: RequestInit = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages: history }),
         signal: ctrl.signal,
-      });
+      };
+      let res: Response;
+      try {
+        res = await fetch("/api/guide", init);
+      } catch (e) {
+        // BotID wraps fetch; when its challenge script is blocked the wrapped
+        // call rejects before anything is sent. Send the turn once with the
+        // browser's own fetch (kept by instrumentation-client.ts): unsigned, so
+        // the server answers with the advisor hand-off rather than nothing.
+        const native = (window as Window & { __nativeFetch?: typeof fetch }).__nativeFetch;
+        if (ctrl.signal.aborted || !native) throw e;
+        res = await native("/api/guide", init);
+      }
       if (!res.ok || !res.body) {
         failReported = true;
         askFailed(`http_${res.status}`);
@@ -297,6 +309,10 @@ export default function GuideChat({
       const reader = res.body.getReader();
       const decoder = new TextDecoder();
       let buf = "";
+      // Whether the server closed the turn itself. A stream that simply ends —
+      // the function was killed, a proxy dropped the connection — used to read
+      // as a finished reply, or as an empty bubble if nothing had arrived yet.
+      let finished = false;
       for (;;) {
         const { done, value } = await reader.read();
         if (done) break;
@@ -364,14 +380,21 @@ export default function GuideChat({
             }
           }
           if (frame.type === "error") throw new Error(frame.error);
+          if (frame.type === "done") finished = true;
         }
       }
+      if (!finished) throw new Error("the connection closed early");
     } catch (err) {
       const aborted = err instanceof DOMException && err.name === "AbortError";
       if (!failReported) askFailed(aborted ? "stopped" : "stream");
       // A Start over aborts the fetch on purpose — that's not an error to show.
       if (!aborted) {
-        const detail = err instanceof Error ? err.message : String(err);
+        // Not everything thrown here is an Error (a blocked script rejects with
+        // a DOM Event), and "[object Event]" is not something to show anyone.
+        const detail = err instanceof Error ? err.message : "the connection failed";
+        // The server's own refusals and errors are whole sentences written for
+        // the traveler; show those as they are rather than inside ours.
+        const sentence = /[.!?]$/.test(detail.trim()) ? detail.trim() : null;
         patchReply((turn) => ({
           ...turn,
           // A reply that died mid-stream used to be left exactly as it was: the
@@ -380,8 +403,10 @@ export default function GuideChat({
           // simply stopped. Mark where it ended instead of substituting for it,
           // so the part that did arrive stays useful.
           content: turn.content.trim()
-            ? `${turn.content.trimEnd()}\n\nThat reply was cut off before I finished it (${detail}). Ask again and I will pick it back up.`
-            : `I hit a snag reaching the inventory — ${detail}. Please try again.`,
+            ? `${turn.content.trimEnd()}\n\nThat reply was cut off before I finished it${
+                sentence ? `. ${sentence}` : ` (${detail}). Ask again and I will pick it back up.`
+              }`
+            : (sentence ?? `I hit a snag reaching the inventory — ${detail}. Please try again.`),
         }));
       }
     } finally {

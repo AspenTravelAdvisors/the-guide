@@ -30,7 +30,7 @@ import type {
 import { corsHeaders } from "@/lib/guide-cors";
 import { ADVISOR_HANDOFF } from "@/lib/types";
 import { leadTool } from "@/lib/guide-meta";
-import { isRateLimited } from "@/lib/rate-limit";
+import { isRateLimited, isRouteSaturated } from "@/lib/rate-limit";
 import {
   addRound,
   logGuideTurn,
@@ -44,7 +44,11 @@ import { boundHistory, toolResultForModel, withRollingCache } from "@/lib/guide-
 import { blockedResponse, isBlockedCountry } from "@/lib/blocked-countries";
 
 export const runtime = "nodejs";
-export const maxDuration = 60;
+// Raised from 60 on 9 November 2026. A cross-atlas answer is several search
+// rounds and then two to three thousand tokens of prose; at 60 the long ones
+// were killed mid-sentence. The turn keeps its own clock inside this limit
+// (TURN_DEADLINE_MS below), so nothing should ever actually reach it.
+export const maxDuration = 120;
 
 const EFFORTS = ["low", "medium", "high", "max"] as const;
 type Effort = (typeof EFFORTS)[number];
@@ -90,6 +94,15 @@ const MAX_TOKENS = 4096;
 // them, and at 4 the loop ran out of budget mid-sweep and returned no final
 // text at all. 6 covers the five-category sweep plus a refining call.
 const MAX_TOOL_ROUNDS = 6;
+// A function that reaches maxDuration is killed with no chance to say anything:
+// the traveler's stream just stops, and the rounds already paid for never reach
+// the day's ledger. So the turn keeps its own clock, inside that limit. At
+// TURN_DEADLINE_MS it aborts the round in flight; in the last stretch before
+// that it will not open another one, since a round started then cannot finish.
+// Either way the turn ends with a sentence, a `done` or `error` frame, and its
+// spend recorded. Keep the deadline comfortably under maxDuration above.
+const TURN_DEADLINE_MS = Number(process.env.GUIDE_TURN_DEADLINE_MS) || 105_000;
+const ROUND_CUTOFF_MS = TURN_DEADLINE_MS - 20_000;
 // Claude occasionally returns a transient overloaded_error (HTTP 529) or a
 // 429 / 5xx, especially at peak. Those are not real failures — Anthropic asks
 // callers to back off and retry — so we do, rather than dumping the raw error
@@ -107,6 +120,12 @@ const MAX_MODEL_ATTEMPTS = Number(process.env.GUIDE_MODEL_ATTEMPTS) || 4;
 // normal traffic — while sitting below any flood worth the name. Raise it via
 // env if a real surge ever trips it, rather than guessing higher now.
 const RATE_GLOBAL_MAX = Number(process.env.GUIDE_RATE_GLOBAL_MAX) || 10;
+// Turns per IP per minute. Kept well under the ceiling above on purpose: when
+// both were 10, one caller's allowance WAS the route's, and a single address
+// could hold the Guide shut for everybody. A turn takes ten to twenty seconds
+// to answer, so a traveler cannot reach five a minute by asking questions.
+// scripts/verify-guide-budget.mjs holds the two numbers apart.
+const RATE_IP_MAX = Number(process.env.GUIDE_RATE_IP_MAX) || 5;
 // Turns per IP per day. The per-minute limit stops a burst, but at 10/min it
 // still allows 14,400 a day, so a caller pacing itself at one question every
 // few minutes never meets it. That is exactly the shape of the traffic after
@@ -134,14 +153,20 @@ function isRetryableModelError(err: unknown): boolean {
   return /overloaded|rate[\s_-]?limit|\b(429|500|502|503|504|529)\b/i.test(String(e.message || ""));
 }
 
-// Never surface raw provider JSON to the traveler. Transient capacity issues get
-// a calm "try again" line; anything else passes through its plain message.
+// Never surface raw provider text to the traveler. Transient capacity issues get
+// a calm "try again" line. Everything else gets a plain one too: a non-retryable
+// API error's message is the provider's own JSON ("Your credit balance is too
+// low...", an invalid-request body), which is ours to read in the logs — the
+// caller logs the error itself — and nothing a traveler can act on.
 function friendlyModelError(err: unknown): string {
   if (isRetryableModelError(err)) {
     return "The Guide is in unusually high demand right now and could not complete that reply. Please try again in a moment.";
   }
-  return err instanceof Error ? err.message : String(err);
+  return "The Guide could not complete that reply. Please try again, or use Talk to an advisor and a person will pick it up.";
 }
+
+const TIMEOUT_TEXT =
+  "The Guide ran out of time on that one. Please ask again — a single destination or one way of travelling comes back fastest.";
 
 // CORS preflight. Allowed origins get a 204 carrying the headers; disallowed
 // cross-origin preflights get 403 with none, so the browser refuses the real
@@ -165,7 +190,9 @@ export async function POST(req: Request) {
   const startedAt = Date.now();
   const usage = newUsage();
 
-  const limited = await isRateLimited(req, cors, { globalMax: RATE_GLOBAL_MAX });
+  // Per-IP only here. The route-wide ceiling is counted further down, once the
+  // request is known to be a real turn that will reach the model.
+  const limited = await isRateLimited(req, cors, { max: RATE_IP_MAX });
   if (limited) return limited;
   const daily = await isRateLimited(req, cors, {
     bucket: "guide-day",
@@ -249,11 +276,24 @@ export async function POST(req: Request) {
     );
   }
 
+  // The route-wide ceiling, counted last so that only turns about to spend take
+  // a place under it. Counted any earlier, an empty POST, a caller past their
+  // daily cap and a refused bot each used up the allowance real travelers need.
+  const saturated = await isRouteSaturated(cors, { bucket: "guide", globalMax: RATE_GLOBAL_MAX });
+  if (saturated) return saturated;
+
   // Ends the turn's model calls when nobody is listening any more — the
   // traveler pressed Stop, closed the tab, or a script hung up. Without it the
   // tool loop ran every remaining round, and paid for it, into a closed socket.
   const hangup = new AbortController();
   req.signal?.addEventListener("abort", () => hangup.abort(), { once: true });
+  // The turn's own clock; see TURN_DEADLINE_MS.
+  const deadline = new AbortController();
+  const deadlineTimer = setTimeout(
+    () => deadline.abort(),
+    Math.max(0, TURN_DEADLINE_MS - (Date.now() - startedAt)),
+  );
+  const signal = AbortSignal.any([hangup.signal, deadline.signal]);
 
   const encoder = new TextEncoder();
   const stream = new ReadableStream<Uint8Array>({
@@ -270,7 +310,7 @@ export async function POST(req: Request) {
       let stopReason = "error";
       let ok = false;
       try {
-        const turn = await runGuideTurnStream({ messages, send, usage, signal: hangup.signal });
+        const turn = await runGuideTurnStream({ messages, send, usage, signal, startedAt });
         stopReason = turn.stopReason;
         ok = true;
         send({
@@ -285,11 +325,15 @@ export async function POST(req: Request) {
       } catch (err) {
         if (hangup.signal.aborted) {
           stopReason = "client_closed";
+        } else if (deadline.signal.aborted) {
+          stopReason = "timeout";
+          send({ type: "error", error: TIMEOUT_TEXT });
         } else {
           console.error("Guide error:", err);
           send({ type: "error", error: friendlyModelError(err) });
         }
       } finally {
+        clearTimeout(deadlineTimer);
         // Charge the day's ledger before anything else: a turn that threw still
         // spent tokens on the rounds it completed, and those are exactly the
         // ones that must not go uncounted. Bounded by the store timeout, and
@@ -321,6 +365,7 @@ export async function POST(req: Request) {
       }
     },
     cancel() {
+      clearTimeout(deadlineTimer);
       hangup.abort();
     },
   });
@@ -340,10 +385,13 @@ async function runGuideTurnStream({
   send,
   usage,
   signal,
+  startedAt,
 }: {
   messages: ChatMessage[];
   send: Send;
   signal: AbortSignal;
+  /** When the request arrived, for the turn's time budget. */
+  startedAt: number;
   // Mutated in place rather than returned, so a turn that throws mid-sweep
   // still reports the rounds it already paid for.
   usage: GuideUsage;
@@ -396,6 +444,19 @@ async function runGuideTurnStream({
 
   for (let round = 0; round < MAX_TOOL_ROUNDS; round++) {
     if (signal.aborted) throw new Error("client closed");
+    // Out of time to open another round and still finish inside the function's
+    // limit. Close with what the searches already found: the cards and the map
+    // still arrive on the meta frame, and the sentence says why the prose is
+    // short rather than leaving a reply that simply stops.
+    if (round > 0 && Date.now() - startedAt > ROUND_CUTOFF_MS) {
+      const note =
+        (text.trim() ? "\n\n" : "") +
+        "That search ran longer than I can hold open in one reply. Ask again with a single " +
+        "destination or one way of travelling and I will go properly deep on it.";
+      text += note;
+      send({ type: "delta", text: note });
+      return { text: text.trim(), toolMeta, experiences, stopReason: "time_budget" };
+    }
     const data = await streamRoundWithRetry(
       client,
       {

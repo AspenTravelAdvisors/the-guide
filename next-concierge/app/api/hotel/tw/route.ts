@@ -15,6 +15,7 @@
 // returns four fields per hotel and caches hard.
 
 import atlasDispatch from "@/lib/atlas/index.js";
+import { isRateLimited } from "@/lib/rate-limit";
 
 export const runtime = "nodejs";
 
@@ -29,7 +30,13 @@ interface TwIdentity {
   label?: string;
 }
 
+// Same browsing bucket as the other hotel routes.
+const RATE = { bucket: "hotel", max: 120, windowMs: 60_000 };
+
 export async function GET(req: Request) {
+  const limited = await isRateLimited(req, {}, RATE);
+  if (limited) return limited;
+
   const raw = new URL(req.url).searchParams.get("ids") || "";
   const ids = [...new Set(raw.split(",").map((s) => s.trim()).filter(Boolean))].slice(0, MAX_IDS);
 
