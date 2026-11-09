@@ -860,7 +860,10 @@ function applyExternalFilter(params){
   applyFilters(); fitToResults(); highlightDeepLinkIds();
 }
 window.addEventListener("message",(e)=>{
-  const d=e&&e.data;
+  // Same-origin only. This page can be framed by any site, and a filter pushed
+  // from one of them is not Base Camp's.
+  if(!e || e.origin!==location.origin) return;
+  const d=e.data;
   if(d && d.type==="BASECAMP_FILTER") applyExternalFilter(d.params||{});
 });
 function renderActiveChips(){
@@ -874,7 +877,10 @@ function renderActiveChips(){
   box.style.display="";
   for(const [label,clear] of chips){
     const c=document.createElement("button"); c.type="button"; c.className="afchip";
-    c.innerHTML=label+' <span aria-hidden="true">&times;</span>';
+    // The label carries ?brand= / ?region= straight from the URL: text, never markup.
+    c.textContent=label+" ";
+    const x=document.createElement("span"); x.setAttribute("aria-hidden","true"); x.textContent="×";
+    c.appendChild(x);
     c.setAttribute("aria-label","Remove filter "+label);
     c.addEventListener("click",()=>{ clear(); renderActiveChips(); applyFilters(); syncPinScales(); fitToResults(); });
     box.appendChild(c);
