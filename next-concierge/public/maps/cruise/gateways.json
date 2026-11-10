@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4450,
-  "journeysWithStays": 3738,
+  "journeysTotal": 4448,
+  "journeysWithStays": 3736,
   "journeysWithHouse": 0,
   "gateways": 107,
   "hotels": 287,
@@ -15,82 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00724": {
-   "n": "Gran Hotel Miramar",
-   "house": null,
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.7207,
-    -4.40818
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0.webp",
-   "rooms": 200,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01124": {
-   "n": "La Zambra Resort",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.553,
-    -4.66678
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
-   "rooms": 196,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
-  "h_01293": {
-   "n": "Mashpi Lodge",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.223252,
-    -78.5141
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0.webp",
-   "rooms": 24,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00347": {
-   "n": "Casa Gangotena",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.194181,
-    -78.4532
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
-   "rooms": 30,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
   "h_00141": {
    "n": "Arakur Ushuaia Resort & Spa",
    "house": null,
@@ -373,6 +297,44 @@
     "Daily breakfast",
     "Room upgrade",
     "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_01293": {
+   "n": "Mashpi Lodge",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.223252,
+    -78.5141
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0.webp",
+   "rooms": 24,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00347": {
+   "n": "Casa Gangotena",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.194181,
+    -78.4532
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
+   "rooms": 30,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
    ],
    "promo": 0
   },
@@ -660,6 +622,44 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_00724": {
+   "n": "Gran Hotel Miramar",
+   "house": null,
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.7207,
+    -4.40818
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0.webp",
+   "rooms": 200,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01124": {
+   "n": "La Zambra Resort",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.553,
+    -4.66678
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
+   "rooms": 196,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 1
   },
   "h_01667": {
    "n": "Rosselli AX Privilege",
@@ -5451,40 +5451,6 @@
   }
  },
  "GATES": {
-  "Málaga, Spain": {
-   "n": "Málaga, Spain",
-   "ll": [
-    36.7167,
-    -4.4167
-   ],
-   "h": [
-    [
-     "h_00724",
-     0.9
-    ],
-    [
-     "h_01124",
-     28.8
-    ]
-   ]
-  },
-  "Quito, Ecuador": {
-   "n": "Quito, Ecuador",
-   "ll": [
-    -0.2167,
-    -78.5
-   ],
-   "h": [
-    [
-     "h_01293",
-     1.7
-    ],
-    [
-     "h_00347",
-     5.8
-    ]
-   ]
-  },
   "Ushuaia, Argentina": {
    "n": "Ushuaia, Argentina",
    "ll": [
@@ -5587,6 +5553,23 @@
     [
      "h_01553",
      22.5
+    ]
+   ]
+  },
+  "Quito, Ecuador": {
+   "n": "Quito, Ecuador",
+   "ll": [
+    -0.2167,
+    -78.5
+   ],
+   "h": [
+    [
+     "h_01293",
+     1.7
+    ],
+    [
+     "h_00347",
+     5.8
     ]
    ]
   },
@@ -5701,6 +5684,23 @@
     [
      "h_01811",
      25.1
+    ]
+   ]
+  },
+  "Málaga, Spain": {
+   "n": "Málaga, Spain",
+   "ll": [
+    36.7167,
+    -4.4167
+   ],
+   "h": [
+    [
+     "h_00724",
+     0.9
+    ],
+    [
+     "h_01124",
+     28.8
     ]
    ]
   },
@@ -8331,10 +8331,6 @@
   "16852238": {
    "pre": "Santiago, Chile",
    "post": "Santiago, Chile"
-  },
-  "16852250": {
-   "pre": "Quito, Ecuador",
-   "post": "Quito, Ecuador"
   },
   "16852251": {
    "pre": "Quito, Ecuador",
@@ -13915,10 +13911,6 @@
   "18375798": {
    "pre": "Piraeus, Greece",
    "post": "Nice, France"
-  },
-  "18376541": {
-   "pre": "Málaga, Spain",
-   "post": "Málaga, Spain"
   },
   "18376584": {
    "pre": "Monte-Carlo, Monaco",
