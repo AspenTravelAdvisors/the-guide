@@ -407,7 +407,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02259": {
    "n": "The St. Regis Istanbul",
@@ -806,7 +806,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01664": {
    "n": "Rosewood Vienna",
@@ -2421,7 +2421,7 @@
     38.8834,
     -77.0304
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4095_2_0.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4095_2_1.webp",
    "rooms": 373,
    "perks": [
     "Daily breakfast",
@@ -5156,7 +5156,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02498": {
    "n": "the DOUGLAS, an Autograph Collection Hotel",
