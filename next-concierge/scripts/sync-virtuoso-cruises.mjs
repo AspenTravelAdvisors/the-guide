@@ -57,7 +57,7 @@ const MIN_WORLD_DAYS = 45;
 const SELECTIONS = [
   {
     atlas: 'expedition',
-    lines: ['National Geographic-Lindblad Expeditions', 'PONANT EXPLORATIONS', 'Aqua Expeditions',
+    lines: ['National Geographic-Lindblad Expeditions', 'PONANT EXPLORATIONS',
       'HX Expeditions', 'Seabourn', 'Silversea', 'Atlas Ocean Voyages', 'Swan Hellenic',
       'Quark Expeditions', 'Aurora Expeditions'],
     params: { cruisetypes: 'Expedition' },
@@ -85,6 +85,25 @@ const SELECTIONS = [
     atlas: 'expedition',
     lines: ['Paul Gauguin Cruises'],
     params: {},
+  },
+  /*
+   * Aqua Expeditions is selected by SHIP, not by type.
+   *
+   * It sat in the typed list above until 2026-11-10, when the same query
+   * (`cruiselines=Aqua Expeditions&cruisetypes=Expedition`) went from 355
+   * sailings to none while the line itself still listed 1,050: Virtuoso had
+   * stopped typing them `Expedition`. Those 355 were exactly the three ocean
+   * ships — Aqua Mare (Galápagos), Aqua Blu (Indonesia) and Aqua Lares — so
+   * naming them keeps the same field whatever the catalogue calls it this
+   * month. Aqua Nera and Aqua Mekong are river boats on the Amazon and the
+   * Mekong and were never in the expedition atlas; adding them is an editorial
+   * decision, made by adding a name here.
+   */
+  {
+    atlas: 'expedition',
+    lines: ['Aqua Expeditions'],
+    params: {},
+    ships: ['Aqua Mare', 'Aqua Blu', 'Aqua Lares'],
   },
   {
     atlas: 'yacht',
@@ -123,13 +142,11 @@ function previousLineCounts() {
  */
 async function explainEmptyLine(v, line, params) {
   try {
-    if (Object.keys(params).length) {
-      const { rows } = await v.searchAll('/v2/cruises', { cruiselines: line });
-      const types = [...new Set(rows.flatMap(r => r.cruiseTypes ?? r.cruiseType ?? []))].slice(0, 12);
-      console.log(`    without ${JSON.stringify(params)}: ${rows.length} sailings` +
-        (types.length ? ` — typed ${types.join(', ')}` : ''));
-      if (rows[0]) console.log(`    sample row keys: ${Object.keys(rows[0]).join(', ')}`);
-    }
+    // Catalogue rows carry no cruise type, so the count is the evidence: rows
+    // here and none above means the extra filter (or the ship list) excludes them.
+    const { rows } = await v.searchAll('/v2/cruises', { cruiselines: line });
+    console.log(`    line alone, without ${JSON.stringify(params)}: ${rows.length} sailings` +
+      (rows.length ? ` on ${[...new Set(rows.flatMap(r => r.ships ?? []))].slice(0, 12).join(', ')}` : ''));
     const word = line.split(/\s+/)[0].toLowerCase();
     const facets = await v.filters('/v2/cruises');
     for (const cat of facets) {
@@ -318,7 +335,12 @@ async function main() {
         // One request per line: the API takes a single value for `cruiselines`,
         // and comma or pipe lists come back empty rather than erroring.
         const query = { cruiselines: line, ...spec.params };
-        let { rows } = await v.searchAll('/v2/cruises', query);
+        // `ships` narrows a line client-side, for a line no server-side filter isolates.
+        const fetchLine = async () => {
+          const { rows } = await v.searchAll('/v2/cruises', query);
+          return spec.ships ? rows.filter(r => (r.ships ?? []).some(s => spec.ships.includes(s))) : rows;
+        };
+        let rows = await fetchLine();
         const had = before.get(`${spec.atlas}|${line}`) ?? 0;
         /*
          * A line that had sailings in the committed feed and has none now.
@@ -334,7 +356,7 @@ async function main() {
         for (let attempt = 1; had && !rows.length && attempt <= 3; attempt++) {
           console.log(`  ${spec.atlas} / ${line}: 0 sailings where the last feed had ${had}, retrying`);
           await new Promise(r => setTimeout(r, 2000 * attempt));
-          ({ rows } = await v.searchAll('/v2/cruises', query));
+          rows = await fetchLine();
         }
         console.log(`  ${spec.atlas} / ${line}: ${rows.length} sailings (last feed ${had})`);
         if (had && !rows.length) {
@@ -412,7 +434,7 @@ async function main() {
       source: 'Virtuoso Partner API /v2/cruises + /v2/cruise',
       count: feed.length,
       byAtlas,
-      selection: SELECTIONS.map(s => ({ atlas: s.atlas, lines: s.lines.length, ...s.params, minDays: s.minDays ?? null })),
+      selection: SELECTIONS.map(s => ({ atlas: s.atlas, lines: s.lines.length, ...s.params, minDays: s.minDays ?? null, ...(s.ships ? { ships: s.ships } : {}) })),
       note: 'Day-by-day itineraries carry the supplier\'s own port coordinates.',
     },
     cruises: feed,
