@@ -102,6 +102,46 @@ const SELECTIONS = [
   },
 ];
 
+/** Sailings per `atlas|line` in the committed feed — what each line query is judged against. */
+function previousLineCounts() {
+  const counts = new Map();
+  try {
+    for (const c of JSON.parse(fs.readFileSync(OUT_FILE, 'utf8')).cruises ?? []) {
+      for (const atlas of c.atlases ?? []) {
+        const key = `${atlas}|${c.line}`;
+        counts.set(key, (counts.get(key) ?? 0) + 1);
+      }
+    }
+  } catch { /* no feed yet: nothing to compare against */ }
+  return counts;
+}
+
+/**
+ * Diagnostics for a line whose query came back empty: whether it is the extra
+ * filter that excludes it, and what the facet catalogue calls anything like it.
+ * Never throws — it only explains a failure the caller is about to report.
+ */
+async function explainEmptyLine(v, line, params) {
+  try {
+    if (Object.keys(params).length) {
+      const { rows } = await v.searchAll('/v2/cruises', { cruiselines: line });
+      const types = [...new Set(rows.flatMap(r => r.cruiseTypes ?? r.cruiseType ?? []))].slice(0, 12);
+      console.log(`    without ${JSON.stringify(params)}: ${rows.length} sailings` +
+        (types.length ? ` — typed ${types.join(', ')}` : ''));
+      if (rows[0]) console.log(`    sample row keys: ${Object.keys(rows[0]).join(', ')}`);
+    }
+    const word = line.split(/\s+/)[0].toLowerCase();
+    const facets = await v.filters('/v2/cruises');
+    for (const cat of facets) {
+      const near = (cat.facets ?? []).filter(f => String(f.name ?? '').toLowerCase().includes(word));
+      for (const f of near) console.log(`    facet ${cat.category}: "${f.name}" (${f.count ?? '?'})`);
+    }
+    console.log(`    facet categories: ${facets.map(f => f.category).join(', ')}`);
+  } catch (err) {
+    console.log(`    could not diagnose further: ${err.message}`);
+  }
+}
+
 // Lines that would qualify on type but are not in our brand sets today. Left
 // here so widening an atlas is a one-line edit rather than a rediscovery.
 // yacht:      SeaDream Yacht Club, Star Clippers, Sea Cloud Cruises
@@ -269,13 +309,38 @@ async function main() {
     console.log(`catalog: ${selected.size} sailings (from cache)`);
   } else {
     const v = createClient({ log: msg => console.log(msg) });
+    const before = previousLineCounts();
+    const vanished = [];
     for (const spec of SELECTIONS) {
       if (ONLY_ATLAS && spec.atlas !== ONLY_ATLAS) continue;
       let kept = 0, seen = 0;
       for (const line of spec.lines) {
         // One request per line: the API takes a single value for `cruiselines`,
         // and comma or pipe lists come back empty rather than erroring.
-        const { rows } = await v.searchAll('/v2/cruises', { cruiselines: line, ...spec.params });
+        const query = { cruiselines: line, ...spec.params };
+        let { rows } = await v.searchAll('/v2/cruises', query);
+        const had = before.get(`${spec.atlas}|${line}`) ?? 0;
+        /*
+         * A line that had sailings in the committed feed and has none now.
+         *
+         * This API answers an intermittent empty 200 (see searchAll), and an
+         * unrecognised `cruiselines` value also comes back empty rather than
+         * erroring, so "no rows" is never proof the line is gone. It used to be
+         * taken as exactly that: one empty answer for Aqua Expeditions removed
+         * 355 sailings in a night, under the shrink limit, with nothing in the
+         * log but a smaller total. So: ask again, and if it stays empty, say
+         * what the API does know about the line and refuse to write the feed.
+         */
+        for (let attempt = 1; had && !rows.length && attempt <= 3; attempt++) {
+          console.log(`  ${spec.atlas} / ${line}: 0 sailings where the last feed had ${had}, retrying`);
+          await new Promise(r => setTimeout(r, 2000 * attempt));
+          ({ rows } = await v.searchAll('/v2/cruises', query));
+        }
+        console.log(`  ${spec.atlas} / ${line}: ${rows.length} sailings (last feed ${had})`);
+        if (had && !rows.length) {
+          vanished.push(`${line} (${spec.atlas}, was ${had})`);
+          await explainEmptyLine(v, line, spec.params);
+        }
         seen += rows.length;
         for (const row of rows) {
           if (spec.minDays) {
@@ -290,6 +355,11 @@ async function main() {
         }
       }
       console.log(`  ${spec.atlas}: ${kept} kept of ${seen} returned`);
+    }
+    if (vanished.length) {
+      throw new Error(`${vanished.length} line(s) that had sailings now return none: ${vanished.join('; ')}. ` +
+        'Leaving the committed feed in place. If the line was renamed or retyped, fix SELECTIONS ' +
+        '(the lines above show what the API offers); if it has really left Virtuoso, remove it from SELECTIONS.');
     }
     fs.writeFileSync(CATALOG_FILE, JSON.stringify(
       [...selected.values()].map(s => ({ row: s.row, atlases: [...s.atlases] }))));
