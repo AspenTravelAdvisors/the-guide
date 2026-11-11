@@ -10,6 +10,7 @@ import { MAPBOX_JS, MAPBOX_CSS } from "@/lib/mapbox-cdn";
 import { SITE_URL } from "@/lib/answers";
 import { siteGraphJsonLd } from "@/lib/seo/site";
 import { jsonLd } from "@/lib/seo/json-ld";
+import ScrollMemory from "@/components/ScrollMemory";
 import "./globals.css";
 
 const serif = Cormorant_Garamond({
@@ -162,6 +163,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </header>
           <PartnerRibbon />
           <main className="page">{children}</main>
+          {/* Back/Forward return to where the reader was in the page column. */}
+          <ScrollMemory />
           {/* Mounted app-wide so the route to a human is available from every
               page, including ones with no chat on them. */}
           <AdvisorRequest />

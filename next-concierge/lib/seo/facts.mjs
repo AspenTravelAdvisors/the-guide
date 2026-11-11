@@ -161,6 +161,43 @@ export function parseSupplierToken(kind, arg) {
 }
 
 /**
+ * Entity and page links inside answer prose.
+ *
+ *   {{hotel:Claridge's}}                         "Claridge's", linked to its page
+ *   {{hotel:Aman Kyoto|Aman's Kyoto forest}}     other words, same page
+ *   {{hotel:The Oberoi Beach Resort@Hurghada}}   "@city" when a name repeats
+ *   {{hotel:#<id>|Fonteverde}}                   by feed id, for a name with a "|"
+ *   {{page:/hotels/italy|Italy's hotels}}        any page on the site
+ *   {{villa:Loblolly@British Virgin Islands}}    a villa's detail page ("@destination")
+ *
+ * `hotel:` names the property exactly as the feed does (case and accents
+ * folded), and the path is the entity page's own, so a renamed or retired
+ * property fails the build rather than publishing a dead link. `page:` carries
+ * a site path, which scripts/verify-seo.mjs checks with the same rules as an
+ * answer's related links. Both resolve to plain words everywhere except the
+ * answer page body, exactly like the supplier tokens above.
+ */
+export function parseLinkToken(kind, arg) {
+  const bar = arg.indexOf("|");
+  const target = (bar < 0 ? arg : arg.slice(0, bar)).trim();
+  const words = bar < 0 ? "" : arg.slice(bar + 1).trim();
+  if (kind === "page") {
+    if (!target.startsWith("/")) throw new UnknownFactTerm(`{{page:${arg}}} must name a site path starting with "/"`);
+    if (!words) throw new UnknownFactTerm(`{{page:${arg}}} needs words after a "|"`);
+    return { kind, path: target, label: words };
+  }
+  const at = target.lastIndexOf("@");
+  const name = (at < 0 ? target : target.slice(0, at)).trim();
+  const city = at < 0 ? "" : target.slice(at + 1).trim();
+  if (!name) throw new UnknownFactTerm(`{{${kind}:${arg}}} names no property`);
+  if (target.startsWith("#")) {
+    if (!words) throw new UnknownFactTerm(`{{hotel:${arg}}} needs words after a "|"`);
+    return { kind, name: target, city: "", label: words };
+  }
+  return { kind, name, city, label: words || name };
+}
+
+/**
  * `"country=Italy&experience=Wellness"` -> a predicate. `"*"` matches all.
  *
  * A value containing an ampersand is percent-escaped, query-string style:
@@ -273,6 +310,43 @@ export function makeFacts(hotels, collections = {}, journeys = [], villas = [], 
   }
 
   /**
+   * The one property a `{{hotel:…}}` token names. Zero matches or two is a
+   * thrown error: a sentence recommending a hotel that has left the feed, or
+   * that could mean either of two, is not one to publish.
+   */
+  function hotelNamed({ name, city }) {
+    if (name.startsWith("#")) {
+      const byId = rows.find((h) => String(h.id) === name.slice(1).trim());
+      if (byId) return byId;
+      throw new UnknownFactTerm(`{{hotel:${name}}} matches no property id in the feed`);
+    }
+    const key = (x) => fold(x).replace(/[\u2018\u2019]/g, "'");
+    const want = key(name);
+    const where = key(city);
+    const hits = rows.filter((h) => key(h.name) === want && (!where || key(h.city) === where));
+    if (hits.length === 1) return hits[0];
+    throw new UnknownFactTerm(
+      hits.length
+        ? `{{hotel:${name}}} matches ${hits.length} properties — add "@<city>"`
+        : `{{hotel:${name}${city ? "@" + city : ""}}} matches no property in the feed`,
+    );
+  }
+
+  /** The one villa a `{{villa:Name@Destination}}` token names; throws like hotelNamed. */
+  function villaNamed({ name, city }) {
+    const want = fold(name);
+    const where = fold(city);
+    const hits = villaRows.filter((v) => fold(v.name) === want && (!where || fold(v.destination) === where));
+    if (hits.length === 1) return hits[0];
+    throw new UnknownFactTerm(
+      hits.length
+        ? `{{villa:${name}}} matches ${hits.length} villas — add "@<destination>"`
+        : `{{villa:${name}${city ? "@" + city : ""}}} matches no villa in the feed`,
+    );
+  }
+  const villaHref = (v) => (v.destinationSlug && v.slug ? `/atlas/villa/${v.destinationSlug}/${v.slug}` : null);
+
+  /**
    * Replace every `{{…}}` token in a string.
    *
    *   {{hotels:program=Marriott STARS}}   the count matching a spec
@@ -281,6 +355,9 @@ export function makeFacts(hotels, collections = {}, journeys = [], villas = [], 
    *   {{villaFrom:name=Loblolly}}         lowest published nightly rate, "$728"
    *   {{op:cruise/Silversea|Silversea}}   supplier words, linked when `linked`
    *   {{brand:Aman}}                      (see parseSupplierToken above)
+   *   {{hotel:Claridge's}}                a property, linked to its page
+   *   {{page:/hotels/italy|Italy}}        any site page (see parseLinkToken)
+   *   {{villa:Loblolly@British Virgin Islands}}   a villa, linked to its page
    *
    * An unresolvable token throws. The alternative — leaving `{{…}}` in the
    * rendered HTML — publishes the template to the crawler that was supposed to
@@ -301,6 +378,12 @@ export function makeFacts(hotels, collections = {}, journeys = [], villas = [], 
         const t = parseSupplierToken(kind, arg);
         const href = linked && supplierHref ? supplierHref(t.kind, t.collection, t.name) : null;
         return href ? linkMark(href, t.label) : t.label;
+      }
+      if (kind === "hotel" || kind === "page" || kind === "villa") {
+        const t = parseLinkToken(kind, arg);
+        const href =
+          kind === "page" ? t.path : kind === "villa" ? villaHref(villaNamed(t)) : hotelNamed(t).path || null;
+        return linked && href ? linkMark(href, t.label) : t.label;
       }
       if (kind === "hotels") return nf.format(count(arg));
       // Two journey tokens, because both numbers are true and they differ by a
@@ -336,7 +419,7 @@ export function makeFacts(hotels, collections = {}, journeys = [], villas = [], 
   }
 
   return {
-    count, select, resolve, resolveDeep,
+    count, select, resolve, resolveDeep, hotelNamed, villaNamed,
     countJourneys, countDepartures, selectJourneys, countVillas, villaFrom,
     total: rows.length,
     totalJourneys: journeyRows.length,

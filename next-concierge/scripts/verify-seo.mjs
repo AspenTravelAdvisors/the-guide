@@ -27,7 +27,7 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 import { pathToFileURL } from 'node:url';
 import { repoRoot } from '../lib/virtuoso/env.mjs';
-import { makeFacts, UnknownFactTerm, parseSupplierToken } from '../lib/seo/facts.mjs';
+import { makeFacts, UnknownFactTerm, parseSupplierToken, parseLinkToken } from '../lib/seo/facts.mjs';
 import { buildAdapters } from './lib/adapters-build.mjs';
 import { groupItineraries } from '../lib/seo/journey-key.mjs';
 
@@ -183,8 +183,8 @@ for (const a of answers) {
   }
   // The capsule is never linked (it is the block built to be lifted out whole),
   // so a supplier token there is a link that was meant and will never appear.
-  if (/\{\{(op|brand):/.test(a.capsule || '')) {
-    fail(a.slug, 'the capsule carries a supplier link token; capsules are never linked — write the name');
+  if (/\{\{(op|brand|hotel|villa|page):/.test(a.capsule || '')) {
+    fail(a.slug, 'the capsule carries a link token; capsules are never linked — write the name');
   }
 }
 
@@ -389,7 +389,7 @@ if (orphanVillas.length) {
  */
 const hotelDestinations = new Set([...seen.keys()].map(k => k.split('/')[0]));
 const HUBS = [
-  [/^\/hotels\/([^/?#]+)$/, hotelDestinations, 'a country with no properties'],
+  [/^\/hotels\/(?!brands$)([^/?#]+)$/, hotelDestinations, 'a country with no properties'],
   [/^\/journeys\/([^/?#]+)$/, new Set(Object.keys(JOURNEYS)), 'a collection that does not exist'],
   [/^\/villas\/([^/?#]+)$/, villaDestinations, 'a destination with no villas'],
 ];
@@ -425,7 +425,7 @@ const cruiseCtx = {
 const today = new Date().toISOString().slice(0, 10);
 const answerSlugs = new Set(answers.map(a => a.slug));
 const atlasTypes = new Set(Object.keys(COLLECTION_SOURCES));
-const STATIC_PAGES = new Set(['/', '/answers', '/hotels', '/villas', '/journeys', '/bucket-list', '/atlas/villa']);
+const STATIC_PAGES = new Set(['/', '/answers', '/hotels', '/hotels/brands', '/villas', '/journeys', '/bucket-list', '/atlas/villa']);
 const listOf = v => String(v ?? '').split(',').map(x => x.trim()).filter(Boolean);
 
 function relatedLinkProblem(href) {
@@ -467,6 +467,28 @@ for (const a of answers) {
     ok();
     const why = relatedLinkProblem(r.href || '');
     if (why) fail(a.slug, `related link ${r.href} points at ${why}`);
+  }
+}
+
+// In-copy page links (`{{page:/path|words}}`) are links like any other, so they
+// get the same scrutiny. Property links (`{{hotel:…}}`) need none here: the
+// token throws in check 1 when the name matches no single property.
+for (const a of answers) {
+  for (const [, arg] of JSON.stringify(a).matchAll(/\{\{page:([^}]+)\}\}/g)) {
+    ok();
+    let t;
+    try {
+      t = parseLinkToken('page', arg);
+    } catch (err) {
+      fail(a.slug, err.message);
+      continue;
+    }
+    const hub = HUBS.find(([re, known]) => {
+      const m = re.exec(t.path);
+      return m && !known.has(m[1]);
+    });
+    const why = hub ? hub[2] : relatedLinkProblem(t.path);
+    if (why) fail(a.slug, `{{page:${arg}}} points at ${why}`);
   }
 }
 

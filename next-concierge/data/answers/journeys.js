@@ -16,7 +16,7 @@ export const journeyAnswers = [
     capsule:
       "No. For luxury hotels, cruises and villas you pay the same published rate, the supplier pays the advisor a commission out of its marketing budget, and the advisor's programs add benefits on top — upgrade priority, daily breakfast and property credits typically worth $100 or more a night. Complex custom itineraries are the exception, where a planning fee is normal.",
     answer: [
-      "For luxury hotels, cruises and villas: no — in most cases you pay the same published rate you'd find yourself, the supplier pays the advisor a commission from its marketing budget, and the advisor's programs add benefits on top. At the {{collection:hotel}} hotels in our atlas, an advisor booking layers upgrade priority, daily breakfast, and property credits (typically $100+) onto the hotel's own flexible rate — value the DIY booking simply doesn't receive. On expedition cruises and villas the rate parity works the same way.",
+      "For luxury hotels, cruises and villas: no — in most cases you pay the same published rate you'd find yourself, the supplier pays the advisor a commission from its marketing budget, and the advisor's programs add benefits on top. At the {{collection:hotel}} hotels in {{page:/hotels|our atlas}}, an advisor booking layers upgrade priority, daily breakfast, and property credits (typically $100+) onto the hotel's own flexible rate — value the DIY booking simply doesn't receive. On expedition cruises and villas the rate parity works the same way.",
       "Where fees do exist, they're for labor, not access: many advisors (ours included) charge planning fees for complex multi-stop itineraries, air-ticketing, or bespoke trip design — disclosed up front, often credited against the trip. The scenario where DIY genuinely wins is narrow: prepaid nonrefundable discount rates, points redemptions, and opaque-channel gambles, all of which trade away flexibility, benefits, or certainty.",
     ],
     sections: [
@@ -45,7 +45,7 @@ export const journeyAnswers = [
       {
         h2: "Questions to ask any advisor (including us)",
         list: [
-          "Which programs do you hold? (Virtuoso, Four Seasons Preferred Partner, Marriott STARS, Rosewood Elite, etc. — program access is the benefit engine.)",
+          "Which programs do you hold? ({{page:/answers/virtuoso-perks-vs-booking-direct|Virtuoso}}, {{page:/answers/four-seasons-preferred-partner-benefits|Four Seasons Preferred Partner}}, Marriott STARS, Rosewood Elite, etc. — {{page:/answers/hotel-brand-advisor-programs-compared|program access}} is the benefit engine.)",
           "What are your fees, and what do they cover?",
           "Do you charge for hotel-only bookings? (Most don't.)",
           "What happens when a trip breaks — who do I call at 2 a.m.?",
@@ -63,7 +63,7 @@ export const journeyAnswers = [
       },
       {
         q: "How does the advisor relationship work?",
-        a: "The Guide (our AI concierge) helps you explore the atlas — {{collection:hotel}} hotels, {{collection:cruise}} expedition sailings, {{collection:villa}} villas — and a human advisor takes over for pricing, program benefits, and the booking itself. Ask The Guide anything; it will tell you when a human should take the wheel.",
+        a: "{{page:/|The Guide}} (our AI concierge) helps you explore the atlas — {{collection:hotel}} hotels, {{collection:cruise}} {{page:/journeys/cruise|expedition sailings}}, {{collection:villa}} {{page:/villas|villas}} — and a human advisor takes over for pricing, program benefits, and the booking itself. Ask The Guide anything; it will tell you when a human should take the wheel.",
       },
     ],
     related: [
@@ -84,7 +84,7 @@ export const journeyAnswers = [
     capsule:
       "A full circumnavigation runs 110–180 days and is sold by roughly a dozen lines, from Princess and Holland America at the accessible end through Viking and Oceania in the middle to Regent, Silversea, Seabourn and Crystal at the top. Most guests sail a 15–60 day segment instead. Book 18–24 months ahead; the best cabins go at launch.",
     answer: [
-      "Our world-cruise atlas currently tracks {{collection:worldcruise}} world cruises and grand voyages across 12 lines — Oceania, Azamara, Regent, Viking, Crystal, Silversea, Seabourn, Holland America, Princess, Explora, Cunard and Windstar. Full circumnavigations run roughly 110–180 days (the current longest in our data: Oceania Vista's 245-day Epic Global Adventure); most lines also sell them in 15–60 day segments, which is how the majority of guests actually experience them.",
+      "Our {{page:/journeys/worldcruise|world-cruise atlas}} currently tracks {{collection:worldcruise}} world cruises and grand voyages across 12 lines — Oceania, Azamara, Regent, Viking, Crystal, Silversea, Seabourn, Holland America, Princess, Explora, Cunard and Windstar. Full circumnavigations run roughly 110–180 days (the current longest in our data: Oceania Vista's 245-day Epic Global Adventure); most lines also sell them in 15–60 day segments, which is how the majority of guests actually experience them.",
       "Money, honestly: entry-level full world cruises start around $40,000–$60,000 per person (Princess, Holland America, mainstream Cunard cabins); the premium tier (Oceania, Viking, Azamara) runs roughly $60,000–$100,000; and the luxury all-inclusives (Regent, Silversea, Seabourn, Crystal, Explora) begin near $100,000 and climb past $400,000 in top suites. Book 12–24 months out — the best cabins on marquee sailings sell on opening day, with past-guest waitlists ahead of you.",
     ],
     sections: [
@@ -104,7 +104,7 @@ export const journeyAnswers = [
       {
         h2: "What veterans know that first-timers don't",
         list: [
-          "Segments outsell the full loop for a reason: 30–45 days (a Pacific leg, Cape Town–Sydney) delivers the world-cruise rhythm without the four-month commitment.",
+          "{{page:/answers/world-cruise-segments-explained|Segments}} outsell the full loop for a reason: 30–45 days (a Pacific leg, Cape Town–Sydney) delivers the world-cruise rhythm without the four-month commitment.",
           "The fare is half the spend: overland excursions (Taj Mahal, safari inserts), visas, and the onboard life add 20–40%. All-inclusive lines compress this — part of why their sticker premium shrinks in practice.",
           "Cabin choice is a marriage decision at 140 days — pay for the balcony and the laundry-room proximity joke that stops being a joke.",
           "Opening-day pricing usually is the best pricing (with shipboard-credit sweeteners and past-guest discounts); world cruises rarely fire-sale, they sell out.",
@@ -146,7 +146,7 @@ export const journeyAnswers = [
       "The luxury rail canon: the Venice Simplon-Orient-Express for the definitive one-night journey, La Dolce Vita Orient Express for Italy, Belmond's Royal Scotsman for the Highlands and Andean Explorer for Peru, Rovos Rail and the Blue Train in South Africa, Japan's ballot-only Seven Stars and Shiki-shima, and the Glacier Express Excellence Class through the Alps.",
     answer: [
       "The canon, ranked by how often they reward the fare: the Venice Simplon-Orient-Express ({{op:train/Belmond Trains|Belmond}}) remains the definitive one-night masterpiece — Paris/London to Venice in 1920s carriages, the single best first luxury train; {{op:train/La Dolce Vita Orient Express}} is the new Italian counterpoint, running Rome-based loops in midcentury-modern style; Belmond's Royal Scotsman (Highlands, whisky, 40 guests) and Andean Explorer (Cusco–Titicaca–Arequipa, the highest luxury sleeper on earth) own their landscapes; and Rocky Mountaineer (daylight-only, hotel nights) is the right answer for the Canadian Rockies and travelers who want scenery without sleeping on rails.",
-      "Our rail atlas tracks {{collection:train}} luxury rail journeys and rail-centered itineraries worldwide — including Japan by rail (where the ultra-exclusive Seven Stars and Shiki-shima run by ballot), the Alps by Glacier Express Excellence Class, and multi-country itineraries that thread trains into a larger trip, which is how we most often deploy them.",
+      "Our {{page:/journeys/train|rail atlas}} tracks {{collection:train}} luxury rail journeys and rail-centered itineraries worldwide — including Japan by rail (where the ultra-exclusive Seven Stars and Shiki-shima run by ballot), the Alps by Glacier Express Excellence Class, and multi-country itineraries that thread trains into a larger trip, which is how we most often deploy them.",
     ],
     sections: [
       {
@@ -154,12 +154,12 @@ export const journeyAnswers = [
         table: {
           columns: ["Train", "Route", "Nights", "The verdict"],
           rows: [
-            ["Venice Simplon-Orient-Express", "Paris/London–Venice (+ seasonal routes)", "1–2", "The icon; book Grand Suites for the bathtub-on-rails flex, historic cabins for the romance"],
-            ["La Dolce Vita Orient Express", "Rome loops: Tuscany, Sicily, the south", "1–2", "New-school Italian glamour; food and design forward"],
-            ["Royal Scotsman", "Edinburgh Highlands circuits", "2–7", "House-party-in-tweed; 40 guests, whisky ambassador aboard"],
-            ["Andean Explorer", "Cusco–Puno–Arequipa", "1–2", "Altiplano scenery no road matches; pairs with Machu Picchu's Hiram Bingham day train"],
-            ["Rocky Mountaineer", "Vancouver–Banff/Jasper", "2 days (hotels at night)", "GoldLeaf dome + hotel beds; the pragmatist's great train"],
-            ["Eastern & Oriental Express", "Singapore–Malaysia", "2–3", "Teak, orchids and jungle; Southeast Asia's only true luxury sleeper"],
+            ["{{page:/journeys/train/belmond-trains-paris-to-venice-venice-simplon-orient-express-a-belmond-train|Venice Simplon-Orient-Express}}", "Paris/London–Venice (+ seasonal routes)", "1–2", "The icon; book Grand Suites for the bathtub-on-rails flex, historic cabins for the romance"],
+            ["{{op:train/La Dolce Vita Orient Express}}", "Rome loops: Tuscany, Sicily, the south", "1–2", "New-school Italian glamour; food and design forward"],
+            ["{{page:/journeys/train/belmond-trains-grand-tour-of-scotland-royal-scotsman-a-belmond-train|Royal Scotsman}}", "Edinburgh Highlands circuits", "2–7", "House-party-in-tweed; 40 guests, whisky ambassador aboard"],
+            ["{{page:/journeys/train/belmond-peruvian-trains-feel-the-andes-by-belmond-in-peru|Andean Explorer}}", "Cusco–Puno–Arequipa", "1–2", "Altiplano scenery no road matches; pairs with Machu Picchu's {{page:/journeys/train/belmond-peruvian-trains-from-your-room-to-machu-picchu-aboard-the-hiram-bingham-a-belmond-train|Hiram Bingham day train}}"],
+            ["{{page:/journeys/train/rocky-mountaineer-first-passage-to-the-west-rockies-refined|Rocky Mountaineer}}", "Vancouver–Banff/Jasper", "2 days (hotels at night)", "GoldLeaf dome + hotel beds; the pragmatist's great train"],
+            ["{{page:/journeys/train/belmond-trains-essence-of-malaysia-eastern-and-oriental-express-a-belmond-train|Eastern & Oriental Express}}", "Singapore–Malaysia", "2–3", "Teak, orchids and jungle; Southeast Asia's only true luxury sleeper"],
             ["Glacier Express Excellence Class", "Zermatt–St. Moritz", "Day journey", "Eight hours, seven courses, one guaranteed window seat"],
           ],
         },
@@ -175,7 +175,7 @@ export const journeyAnswers = [
     faqs: [
       {
         q: "Which train first?",
-        a: "VSOE Paris–Venice for couples and celebrations; Rocky Mountaineer for families and view-maximalists; Royal Scotsman if the ideal vacation is a country-house weekend that happens to move.",
+        a: "VSOE Paris–Venice for couples and celebrations ({{page:/answers/venice-simplon-orient-express-worth-it|is it worth it?}}); Rocky Mountaineer for families ({{page:/answers/rocky-mountaineer-vs-via-rail-canadian|vs. VIA Rail's Canadian}}) and view-maximalists; Royal Scotsman if the ideal vacation is a country-house weekend that happens to move.",
       },
       {
         q: "Are the Japanese luxury trains bookable?",
@@ -183,7 +183,7 @@ export const journeyAnswers = [
       },
       {
         q: "Train + expedition in one trip?",
-        a: "The classic pairings: Andean Explorer + Galápagos; Rocky Mountaineer + Alaska cruise; VSOE into a Mediterranean sailing. Rails to the dock is the itinerary trick that makes both halves feel intentional.",
+        a: "The classic pairings: Andean Explorer + {{page:/answers/galapagos-lindblad-vs-silversea-vs-aqua|Galápagos}}; Rocky Mountaineer + Alaska cruise; VSOE into a Mediterranean sailing. Rails to the dock is the itinerary trick that makes both halves feel intentional.",
       },
     ],
     related: [
@@ -204,7 +204,7 @@ export const journeyAnswers = [
     capsule:
       "Book a hotel-brand yacht cruise — Ritz-Carlton, Four Seasons, Orient Express or Aman — when you want yacht life without yacht responsibility, at roughly $1,500–$4,000 a night for two. Charter privately when the group is the point: a crewed six-cabin yacht runs $150,000–$400,000 a week plus about 30–35% in expenses, and the itinerary, chef and guest list answer to you.",
     answer: [
-      "Book the yacht cruise when you want yacht life without yacht responsibility: the hotel-brand fleet — {{op:yacht/Ritz-Carlton Yacht Collection}}, {{op:yacht/Four Seasons Yachts}}, {{op:yacht/Orient Express Sailing Yachts}} and {{op:yacht/Aman at Sea}} — sells suite-level cabins from roughly $1,500–$4,000 per night for two, with restaurants, spas, marinas off the stern and zero decisions required. Our yacht atlas tracks {{collection:yacht}} sailings across these four brands. Charter privately when the group is the point: a crewed 6-cabin yacht for 8–12 guests runs about $150,000–$400,000+ per week plus roughly 30–35% for fuel, food, dockage and gratuity (the APA) — which works out at roughly two and a half to four times the per-person cost of a suite on a brand yacht, and what the difference buys is that the itinerary, the chef and the guest list answer to you.",
+      "Book the yacht cruise when you want yacht life without yacht responsibility: the hotel-brand fleet — {{op:yacht/Ritz-Carlton Yacht Collection}}, {{op:yacht/Four Seasons Yachts}}, {{op:yacht/Orient Express Sailing Yachts}} and {{op:yacht/Aman at Sea}} — sells suite-level cabins from roughly $1,500–$4,000 per night for two, with restaurants, spas, marinas off the stern and zero decisions required. Our {{page:/journeys/yacht|yacht atlas}} tracks {{collection:yacht}} sailings across these four brands. Charter privately when the group is the point: a crewed 6-cabin yacht for 8–12 guests runs about $150,000–$400,000+ per week plus roughly 30–35% for fuel, food, dockage and gratuity (the APA) — which works out at roughly two and a half to four times the per-person cost of a suite on a brand yacht, and what the difference buys is that the itinerary, the chef and the guest list answer to you.",
       "Rule of thumb: fewer than 6 people or a first taste of yacht travel → the brand yachts. Eight-plus people, a milestone, or strong opinions about anchorages → charter.",
     ],
     sections: [
@@ -258,11 +258,11 @@ export const journeyAnswers = [
       },
       {
         q: "Med or Caribbean, and when?",
-        a: "Med June–September (book winter for August), Caribbean December–April (book by early fall for festive weeks). The brand yachts reposition seasonally exactly like charter fleets — our atlas shows both seasons' sailings.",
+        a: "Med June–September (book winter for August), Caribbean December–April ({{page:/answers/caribbean-hurricane-season-travel-by-month-and-island|why not later}}) (book by early fall for festive weeks). The brand yachts reposition seasonally exactly like charter fleets — our atlas shows both seasons' sailings.",
       },
       {
         q: "Are the brand yachts good for non-cruise people?",
-        a: "They're specifically engineered for cruise-skeptics: no announcements, no lido-deck contests, marinas that open from the stern, port-intensive itineraries. If the objection is 'I don't do cruises,' this is the counter-argument in steel.",
+        a: "They're specifically engineered for cruise-skeptics ({{page:/answers/ritz-carlton-vs-four-seasons-vs-orient-express-vs-aman-yachts|the four brands compared}}): no announcements, no lido-deck contests, marinas that open from the stern, port-intensive itineraries. If the objection is 'I don't do cruises,' this is the counter-argument in steel.",
       },
     ],
     related: [
@@ -283,8 +283,8 @@ export const journeyAnswers = [
     capsule:
       "Take Rocky Mountaineer to see the Rockies in comfort: it runs only in daylight from April to October, stops overnight in hotels, and its two-day routes cost from about CA$2,300 per person in SilverLeaf in 2026. Take VIA Rail's Canadian for the journey itself: four nights aboard between Toronto and Vancouver, year-round, from about CA$1,000 for a Sleeper Plus berth to CA$5,500 and up in Prestige.",
     answer: [
-      "They answer different questions. Rocky Mountaineer is a sightseeing train. It travels only by day so you never pass the scenery in the dark, puts you in a hotel each night, and concentrates on the mountain stretches between Vancouver, Jasper, Banff and Lake Louise. Its GoldLeaf service has a two-level glass-dome coach with a dining room below. It runs roughly April to October.",
-      "VIA Rail's Canadian is a working transcontinental train that happens to be one of the great rail journeys. It crosses from Toronto to Vancouver over four nights, through the lakes and forests of northern Ontario, the prairies and then the Rockies, and it runs all year, including snow season. Prestige class adds a larger cabin with its own shower and a dedicated attendant. Of the {{journeys:collection=train&country=Canada}} Canadian rail itineraries in our atlas, {{journeys:collection=train&vessel=Rocky Mountaineer}} are built on Rocky Mountaineer and {{journeys:collection=train&vessel=VIA Rail Canadian}} on the Canadian.",
+      "They answer different questions. {{page:/journeys/train/rocky-mountaineer-first-passage-to-the-west-rockies-refined|Rocky Mountaineer}} is a sightseeing train. It travels only by day so you never pass the scenery in the dark, puts you in a hotel each night, and concentrates on the mountain stretches between Vancouver, Jasper, Banff and Lake Louise. Its GoldLeaf service has a two-level glass-dome coach with a dining room below. It runs roughly April to October.",
+      "{{page:/journeys/train/canada-by-design-grand-canadian-train-journey-halifax-to-vancouver|VIA Rail's Canadian}} is a working transcontinental train that happens to be one of the great rail journeys. It crosses from Toronto to Vancouver over four nights, through the lakes and forests of northern Ontario, the prairies and then the Rockies, and it runs all year, including snow season. Prestige class adds a larger cabin with its own shower and a dedicated attendant. Of the {{journeys:collection=train&country=Canada}} Canadian rail itineraries in our atlas, {{journeys:collection=train&vessel=Rocky Mountaineer}} are built on Rocky Mountaineer and {{journeys:collection=train&vessel=VIA Rail Canadian}} on the Canadian.",
     ],
     sections: [
       {
@@ -321,7 +321,7 @@ export const journeyAnswers = [
       {
         h2: "How the two fit into a trip",
         paras: [
-          "Most Rocky Mountaineer trips are built as circle tours: the train one way, a drive or a flight back, and nights at Jasper, Banff or Lake Louise in between. That is where a Canadian rail trip is really won or lost, because the hotels at the far end are part of the experience rather than somewhere to sleep. The Canadian works best as the spine of a longer trip, often with a few days in Toronto at the start and Vancouver or Vancouver Island at the end.",
+          "Most Rocky Mountaineer trips are built as circle tours: the train one way, a drive or a flight back, and nights at Jasper, Banff or Lake Louise in between ({{page:/hotels/canada|our Canadian hotels}}). That is where a Canadian rail trip is really won or lost, because the hotels at the far end are part of the experience rather than somewhere to sleep. The Canadian works best as the spine of a longer trip, often with a few days in Toronto at the start and Vancouver or Vancouver Island at the end.",
           "The two also combine well. A popular shape is the Canadian from Toronto to Jasper, then Rocky Mountaineer from Jasper on to Vancouver, which gives you both the sleeper experience and the daylight mountain stretch.",
         ],
       },
@@ -406,7 +406,7 @@ export const journeyAnswers = [
           ],
         },
         paras: [
-          "Two patterns stand out. Segments start and end where long-haul flights are easy: Sydney, Hong Kong, Singapore, Cape Town, Los Angeles. And the same ship often sells overlapping pieces, such as Queen Victoria's Sydney to Southampton and Hong Kong to Southampton, so the end of a voyage can be joined at more than one point. Each voyage has its own page in the atlas with every port and departure.",
+          "Two patterns stand out. Segments start and end where long-haul flights are easy: Sydney, Hong Kong, Singapore, Cape Town, Los Angeles. And the same ship often sells overlapping pieces, such as Queen Victoria's Sydney to Southampton and Hong Kong to Southampton, so the end of a voyage can be joined at more than one point. Each voyage has {{page:/journeys/worldcruise|its own page in the atlas}} with every port and departure.",
         ],
       },
       {
@@ -452,7 +452,7 @@ export const journeyAnswers = [
       "A private jet journey is an escorted trip around the world or a region on a chartered, reconfigured aircraft with roughly 40 to 80 guests, lie-flat seats, a dedicated crew and expert lecturers. It removes every airport queue and connection. For 2027, departures cost from about $125,000 per person with National Geographic, $170,000–$190,000 for Abercrombie & Kent's round-the-world trips and $167,000–$235,000 with Four Seasons. They suit travelers who want many far-apart places in two to four weeks.",
     answer: [
       "The idea is simple: the best places on earth are rarely next to each other, and commercial flying between them is what wears a trip down. On a private jet journey the aircraft is yours for the whole trip. You arrive at a private terminal, board the same plane with the same crew each time, and step out in the next country while your luggage goes ahead to the hotel. On the ground, the stays are at the best hotels in each place, with a small team of guides and, on most trips, a physician traveling with the group.",
-      "A few operators run most of these trips. {{op:jet/TCS World Travel}} is the longest-established and operates the Four Seasons Private Jet, and {{op:jet/Abercrombie & Kent}}, {{op:jet/Remote Lands}} and {{op:jet/National Geographic}} run their own departures. Our atlas holds {{journeys:collection=jet}} jet itineraries; the typical trip runs about two to three weeks, and {{journeys:collection=jet&daysMin=21}} of them last three weeks or more.",
+      "A few operators run most of these trips. {{op:jet/TCS World Travel}} is the longest-established and operates the Four Seasons Private Jet, and {{op:jet/Abercrombie & Kent}}, {{op:jet/Remote Lands}} and {{op:jet/National Geographic}} run their own departures. Our atlas holds {{journeys:collection=jet}} {{page:/journeys/jet|jet itineraries}}; the typical trip runs about two to three weeks, and {{journeys:collection=jet&daysMin=21}} of them last three weeks or more.",
     ],
     sections: [
       {

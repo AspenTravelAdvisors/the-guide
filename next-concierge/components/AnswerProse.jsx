@@ -1,9 +1,10 @@
-// One string of answer prose, with its supplier links.
+// One string of answer prose, with its links.
 //
-// `answerBody` (lib/seo/answer-facts.js) resolves `{{op:…}}` and `{{brand:…}}`
-// tokens into link markers; this is the only place those markers are read. A
-// string without markers comes back as itself, so every cell and paragraph on
-// the answer page can go through here unconditionally.
+// `answerBody` (lib/seo/answer-facts.js) resolves `{{op:…}}`, `{{brand:…}}`,
+// `{{hotel:…}}`, `{{villa:…}}` and `{{page:…}}` tokens into link markers;
+// this is the only place those markers are read. A string without markers
+// comes back as itself, so every cell and paragraph on the answer page can go
+// through here unconditionally.
 
 import Link from "next/link";
 import { LINK_MARK_RE } from "@/lib/seo/facts.mjs";

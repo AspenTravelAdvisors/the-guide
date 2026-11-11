@@ -15,7 +15,7 @@ export const generatedAnswers = [
     "capsule": "For a first Maldives trip, choose the resort by transfer and reef before brand. With under six nights, or a flight landing late in the day, pick a speedboat resort in North or South Malé Atoll. With a week and a daylight arrival, a seaplane resort in Baa or Noonu is worth the journey. Split the stay between a beach and an overwater villa, and book half-board at minimum.",
     "answer": [
       "Most first-timers shop the Maldives by villa photographs, and nearly every luxury resort there photographs well. The things that separate a good first trip from a disappointing one are less visible. The first is how you get there. Speedboat resorts near Malé are reachable within about an hour at almost any hour, while seaplanes fly only in daylight, so a late international arrival can mean an unplanned night near the airport. The second is the house reef. Some islands have coral you can swim to from the beach, while others sit in wide, sandy lagoons where snorkelling means a boat trip.",
-      "The villa and the meal plan come next, and both are really about money and mood. Overwater villas are the image people come for, but beach villas give more privacy and shade, and they suit children better. Every resort is its own island with no outside restaurants, so whatever you do not pre-book you pay for at resort prices, which is why the meal plan matters more here than almost anywhere else. Our atlas holds {{hotels:country=Maldives}} Maldives properties, {{hotels:country=Maldives&perks=true}} of them with advisor benefits on file."
+      "The villa and the meal plan come next, and both are really about money and mood. Overwater villas are the image people come for, but beach villas give more privacy and shade, and they suit children better. Every resort is its own island with no outside restaurants, so whatever you do not pre-book you pay for at resort prices, which is why the meal plan matters more here than almost anywhere else. Our atlas holds {{hotels:country=Maldives}} {{page:/hotels/maldives|Maldives properties}}, {{hotels:country=Maldives&perks=true}} of them with advisor benefits on file."
     ],
     "sections": [
       {
@@ -87,7 +87,7 @@ export const generatedAnswers = [
       },
       {
         "q": "Do advisor perks matter in the Maldives?",
-        "a": "More than usual in one respect. Breakfast is often already in the rate, so the useful benefits are resort credits, upgrades from beach to overwater categories, and help with transfer timing when a long-haul flight lands too late for the last seaplane. An advisor who knows which resorts have a reachable house reef is worth more than any single perk."
+        "a": "More than usual in one respect. Breakfast is often already in the rate, so the useful benefits ({{page:/answers/virtuoso-perks-vs-booking-direct|how the advisor benefit stack works}}) are resort credits, upgrades from beach to overwater categories, and help with transfer timing when a long-haul flight lands too late for the last seaplane. An advisor who knows which resorts have a reachable house reef is worth more than any single perk."
       }
     ],
     "related": [
@@ -188,10 +188,10 @@ export const generatedAnswers = [
           "Our honest local note on Aspen: stay in town rather than at Snowmass unless your group is mostly beginners or intermediates who will ski Snowmass every day. Town is where the restaurants are, and the free skier buses make the other mountains easy."
         ],
         "list": [
-          "Aspen: The Little Nell sits at the foot of the Silver Queen Gondola and is the true ski-in, ski-out choice in town. Hotel Jerome, an {{brand:Auberge Resorts|Auberge}} property, is the historic one, a few blocks from the lifts. The St. Regis Aspen is a short walk from the gondola. At Snowmass, the Viceroy is the slopeside pick.",
-          "Vail: The Four Seasons and The Sebastian are both in or beside Vail Village, a short walk to the lifts. The Arrabelle sits on the square in Lionshead by the gondola.",
-          "Beaver Creek: The Ritz-Carlton, Bachelor Gulch and the Park Hyatt Beaver Creek are both ski-in, ski-out, and quieter than Vail for families.",
-          "Telluride: The Madeline, an Auberge property, is ski-in, ski-out in Mountain Village. The New Sheridan is the historic hotel on the main street in town, better for atmosphere than for ski access."
+          "Aspen: {{hotel:The Little Nell}} sits at the foot of the Silver Queen Gondola and is the true ski-in, ski-out choice in town. {{hotel:Hotel Jerome, Auberge Collection|Hotel Jerome}}, an {{brand:Auberge Resorts|Auberge}} property, is the historic one, a few blocks from the lifts. {{hotel:The St. Regis Aspen Resort|The St. Regis Aspen}} is a short walk from the gondola. At Snowmass, the {{hotel:Viceroy Snowmass|Viceroy}} is the slopeside pick.",
+          "Vail: The {{hotel:Four Seasons Resort Vail|Four Seasons}} and {{hotel:The Sebastian - Vail - A Timbers Resort|The Sebastian}} are both in or beside Vail Village, a short walk to the lifts. {{hotel:RockResorts - The Arrabelle at Vail Square|The Arrabelle}} sits on the square in Lionshead by the gondola.",
+          "Beaver Creek: {{hotel:The Ritz-Carlton, Bachelor Gulch}} and the {{hotel:Park Hyatt Beaver Creek Resort|Park Hyatt Beaver Creek}} are both ski-in, ski-out, and quieter than Vail for families.",
+          "Telluride: {{hotel:Madeline Hotel & Residences, Auberge Collection|The Madeline}}, an Auberge property, is ski-in, ski-out in Mountain Village. The New Sheridan is the historic hotel on the main street in town, better for atmosphere than for ski access."
         ]
       },
       {
@@ -255,7 +255,7 @@ export const generatedAnswers = [
     "capsule": "For river crossings, go to the northern Serengeti or Masai Mara between July and October, with August and September the most reliable, though no date guarantees a crossing. For calving, go to the southern Serengeti and Ndutu from late January to March, peaking in February. The herds move year-round, so every month has a right place; the question is where, not whether.",
     "answer": [
       "The Great Migration is not an event but a loop. More than a million wildebeest, with zebra and gazelle alongside, move clockwise around the Serengeti and Masai Mara ecosystem all year, following rain and fresh grass. They spend the early months on the short-grass plains of the southern Serengeti, drift north-west through the central Serengeti and Western Corridor in the long rains, reach the Mara River in the northern Serengeti and Kenya's Masai Mara in the dry season, then turn south again with the short rains. Tanzania holds the herds for most of the year; Kenya has them for roughly three months.",
-      "That leaves two moments most travelers are actually asking about. The river crossings, July to October, are the famous footage, but they are unpredictable, and the Masai Mara crossing points are busy in August. Calving, late January to March, is quieter, more reliable and full of predator action, though without the drama of the river. Our atlas holds {{journeys:collection=safari&country=Tanzania}} safari itineraries touching Tanzania and {{journeys:collection=safari&country=Kenya}} touching Kenya; most can be built around either window, and the choice of month matters more than the choice of operator."
+      "That leaves two moments most travelers are actually asking about. The river crossings, July to October, are the famous footage, but they are unpredictable, and the Masai Mara crossing points are busy in August. Calving, late January to March, is quieter, more reliable and full of predator action, though without the drama of the river. Our atlas holds {{journeys:collection=safari&country=Tanzania}} {{page:/journeys/safari|safari itineraries}} touching Tanzania and {{journeys:collection=safari&country=Kenya}} touching Kenya; most can be built around either window, and the choice of month matters more than the choice of operator."
     ],
     "sections": [
       {
@@ -303,7 +303,7 @@ export const generatedAnswers = [
               "June",
               "Western Corridor, with leading herds pushing north late in the month",
               "Grumeti River crossings, smaller and less predictable than the Mara",
-              "Western Corridor, around the Grumeti"
+              "Western Corridor, around the Grumeti ({{hotel:Singita - Singita Grumeti|Singita Grumeti}})"
             ],
             [
               "July",
@@ -470,7 +470,7 @@ export const generatedAnswers = [
     "capsule": "Stay in Positano if the point is the sea and the scene, and you can handle steps. Choose Ravello for quiet evenings, gardens and cooler air above the coast, at the cost of a beach. Choose Amalfi if you plan to explore, since it is the flattest of the three and the hub for ferries and buses. None of them rewards having a car.",
     "answer": [
       "Positano is the town in the photographs. It falls almost vertically to the sea, which gives it the views and the beach but also the stairs, and from late morning to late afternoon in summer it fills with people arriving by ferry and coach. Ravello sits high on a ridge above Amalfi and Atrani. It has no beach, but it has Villa Rufolo, Villa Cimbrone, a summer music festival and the quietest evenings of the three once the day visitors go back down the hill. Amalfi is the working town: the cathedral, a level main street, a small town beach, and the ferry pier and bus terminus that connect the rest of the coast.",
-      "The usual mistake is picking a town for its photographs and then discovering it does not suit the trip you actually take. If you want to swim every day and eat late by the water, Positano. If you want to read, walk and hear yourself think, Ravello. If you want to see Capri, Positano and Ravello on different days without a driver every time, Amalfi. Our atlas lists {{hotels:region=Campania}} properties across Campania, the region that also takes in Capri, Ischia, Sorrento and Naples, so check which town each one is actually in before you fall for it."
+      "The usual mistake is picking a town for its photographs and then discovering it does not suit the trip you actually take. If you want to swim every day and eat late by the water, Positano. If you want to read, walk and hear yourself think, Ravello. If you want to see Capri, Positano and Ravello on different days without a driver every time, Amalfi. Our atlas lists {{hotels:region=Campania}} properties across Campania ({{page:/hotels/italy|all of Italy here}}), the region that also takes in Capri, Ischia, Sorrento and Naples, so check which town each one is actually in before you fall for it."
     ],
     "sections": [
       {
@@ -540,11 +540,11 @@ export const generatedAnswers = [
           "If two of the columns above both appeal, a split stay works well, ideally three nights or more in each so you are not spending a day of every visit on transfers. Positano then Ravello is the classic pairing: beach and energy first, quiet at the end."
         ],
         "list": [
-          "Positano: first visits where the sea is the point, food-led trips, travellers who are happy on steps.",
-          "Ravello: anniversaries, return visits, anyone who would rather look at the coast than be in it, summer concert-goers.",
-          "Amalfi: travellers who want to cover the coast and Capri by boat, families with older relatives, people who mind stairs.",
+          "Positano ({{hotel:Le Sirenuse}}, {{hotel:Il San Pietro di Positano|Il San Pietro}}): first visits where the sea is the point, food-led trips, travellers who are happy on steps.",
+          "Ravello ({{hotel:Caruso, A Belmond Hotel, Amalfi Coast|Caruso}}, {{hotel:Palazzo Avino}}): anniversaries, return visits, anyone who would rather look at the coast than be in it, summer concert-goers.",
+          "Amalfi ({{hotel:Hotel Santa Caterina|Santa Caterina}}): travellers who want to cover the coast and Capri by boat, families with older relatives, people who mind stairs.",
           "Praiano, between Positano and Amalfi: much quieter than Positano with similar views, though with fewer restaurants and a reliance on hotel shuttles or the bus.",
-          "Atrani and Conca dei Marini, either side of Amalfi: small and peaceful, close to Amalfi's connections without its crowds.",
+          "Atrani and Conca dei Marini (home of {{hotel:Monastero Santa Rosa Hotel & Spa|Monastero Santa Rosa}}), either side of Amalfi: small and peaceful, close to Amalfi's connections without its crowds.",
           "Sorrento, off the coast proper: easier transport and more choice, but you visit the Amalfi Coast rather than stay on it."
         ]
       }
@@ -599,7 +599,7 @@ export const generatedAnswers = [
     "capsule": "Book Ritz-Carlton if you want the most proven product and the widest choice of dates, across three ships of 149 to 226 suites. Book Four Seasons for a 95-suite yacht run to its hotel standard. Choose Orient Express for a sail-assisted, design-led 54-suite ship, and Aman for the smallest, quietest option, accepting that you are sailing with a brand still finding its feet at sea.",
     "answer": [
       "The four brands are selling the same idea, a hotel you already trust put on a small ship, but at very different scales and stages. {{op:yacht/Ritz-Carlton Yacht Collection|Ritz-Carlton}} went to sea first and now runs three yachts: Evrima at 149 suites, and Ilma and Luminara at 224 and 226. Four Seasons I carries 95 suites. {{op:yacht/Orient Express Sailing Yachts|Orient Express}}'s Corinthian and Olympian are 54 suites each and carry sails alongside their engines. {{op:yacht/Aman at Sea|Aman}}'s Amangati is the smallest, at about 50 suites. The Olympian and Amangati figures are from pre-launch brand materials, so treat them as intentions rather than facts until the ships are sailing.",
-      "Suite count is the most useful single number here, because it decides how many people share the pool deck, the restaurants and the tender queue. By that measure the line runs from Aman and Orient Express at the intimate end, through {{op:yacht/Four Seasons Yachts|Four Seasons}}, to Ritz-Carlton's two larger ships, which are small cruise ships by any honest definition. What Ritz-Carlton has that the others do not yet is depth: our atlas holds {{journeys:operator=Ritz-Carlton Yacht Collection}} Ritz-Carlton itineraries against {{journeys:operator=Four Seasons Yachts}} for Four Seasons, {{journeys:operator=Orient Express Sailing Yachts}} for Orient Express and {{journeys:operator=Aman at Sea}} for Aman at Sea, out of {{collection:yacht}} yacht itineraries in total."
+      "Suite count is the most useful single number here, because it decides how many people share the pool deck, the restaurants and the tender queue. By that measure the line runs from Aman and Orient Express at the intimate end, through {{op:yacht/Four Seasons Yachts|Four Seasons}}, to Ritz-Carlton's two larger ships, which are small cruise ships by any honest definition. What Ritz-Carlton has that the others do not yet is depth: {{page:/journeys/yacht|our atlas}} holds {{journeys:operator=Ritz-Carlton Yacht Collection}} Ritz-Carlton itineraries against {{journeys:operator=Four Seasons Yachts}} for Four Seasons, {{journeys:operator=Orient Express Sailing Yachts}} for Orient Express and {{journeys:operator=Aman at Sea}} for Aman at Sea, out of {{collection:yacht}} yacht itineraries in total."
     ],
     "sections": [
       {
@@ -680,7 +680,7 @@ export const generatedAnswers = [
       {
         "h2": "Ritz-Carlton's head start, and what the newer brands are betting on",
         "paras": [
-          "Ritz-Carlton's advantage is not glamour, it is repetition. Three ships and the largest sailing calendar in the category mean more date choice, more port combinations, and crews that have worked through the problems every new ship has. Evrima, the smallest of the three, is the one to choose if intimacy matters; Ilma and Luminara trade some of that for more venues and a busier atmosphere.",
+          "{{op:yacht/Ritz-Carlton Yacht Collection|Ritz-Carlton}}'s advantage is not glamour, it is repetition. Three ships and the largest sailing calendar in the category mean more date choice, more port combinations, and crews that have worked through the problems every new ship has. Evrima, the smallest of the three, is the one to choose if intimacy matters; Ilma and Luminara trade some of that for more venues and a busier atmosphere.",
           "The newer brands are each betting on a single difference. Four Seasons is betting that fewer guests and its hotel service culture beat Ritz-Carlton's scale. Orient Express is betting on design and the experience of a ship that can use the wind, though sail-assisted means sails help when conditions and schedule allow, not on every leg. Aman is betting that its guests want the smallest ship and the least company, which is entirely consistent with how its hotels work.",
           "The cost of being early is real. A new ship's first season is the one most likely to see sailings rescheduled or itineraries changed, and service takes time to settle. If your dates are fixed, for a wedding anniversary or a family gathering, the established ships are the safer bet. If you are flexible and want to be among the first aboard, the newer brands are where the interest lies."
         ]
@@ -688,7 +688,7 @@ export const generatedAnswers = [
       {
         "h2": "Who each one suits",
         "paras": [
-          "If the question is really whether to cruise at all or charter your own boat, the charter-versus-cruise answer linked below covers that decision; this page assumes you have chosen a branded yacht cruise."
+          "If the question is really whether to cruise at all or charter your own boat, {{page:/answers/yacht-charter-vs-luxury-yacht-cruise|the charter-versus-cruise answer}} covers that decision; this page assumes you have chosen a branded yacht cruise."
         ],
         "list": [
           "Ritz-Carlton Yacht Collection: a first yacht cruise, travellers who need specific dates or ports, and anyone who values a proven product over novelty. Choose Evrima for the smaller feel.",
@@ -741,7 +741,7 @@ export const generatedAnswers = [
     "capsule": "For most people, late December through January is the best balance: penguin chicks hatching, the mildest weather and light almost around the clock. Choose November for clean snow, courting penguins and lower fares, February for bigger chicks and more whales, and March for the best whale watching, real sunsets and late-season pricing, accepting messier colonies and rougher weather.",
     "answer": [
       "There is no single best month, because the Antarctic season changes character every few weeks. November is the start: the snow is still white, the ice is at its most dramatic, and penguins are building nests and courting. Late December and January are the height of summer, with chicks hatching, temperatures hovering around freezing and daylight that barely fades. February brings larger chicks, fur seals on the beaches and steadily more whales. March is the end of the season, when whales are most numerous, the sun sets properly again and the light turns gold, but the colonies are muddy and the weather is less forgiving.",
-      "Price and crowding follow the same curve. The Christmas and New Year departures, and January generally, are the most expensive and the first to sell out. November and March are usually cheaper and easier to book. Our atlas holds {{journeys:region=Antarctica}} Antarctic itineraries with {{departures:region=Antarctica}} departure dates behind them. If this is your first trip and you are still choosing a ship and route rather than a month, start with our first-timers answer, then come back here to pick the window."
+      "Price and crowding follow the same curve. The Christmas and New Year departures, and January generally, are the most expensive and the first to sell out. November and March are usually cheaper and easier to book. Our atlas holds {{journeys:region=Antarctica}} Antarctic itineraries with {{departures:region=Antarctica}} departure dates behind them. If this is your first trip and you are still choosing a ship and route rather than a month, start with {{page:/answers/best-antarctica-expedition-for-first-timers|our first-timers answer}}, then come back here to pick the window."
     ],
     "sections": [
       {
@@ -816,7 +816,7 @@ export const generatedAnswers = [
         "h2": "What does not change with the month",
         "paras": [
           "The Drake Passage has no reliably calm month. It can be flat in January and rough in December, and every season has crossings people remember for the wrong reasons. If seasickness is the real worry, the fly-cruise option, flying from Punta Arenas in Chile to the South Shetland Islands, removes the crossing rather than timing it, though flights can be delayed by weather at either end.",
-          "Landing rules do not change either. Operators that are members of IAATO, the industry body, limit the number of passengers ashore at one site at a time, and ships carrying more than 500 passengers do not land at all. A smaller ship gets more time ashore in every month, which matters more than the calendar in the busy weeks of January. Our answers on the smallest expedition ships and on kayaking and camping cover the ship side of the choice."
+          "Landing rules do not change either. Operators that are members of IAATO, the industry body, limit the number of passengers ashore at one site at a time, and ships carrying more than 500 passengers do not land at all. A smaller ship gets more time ashore in every month, which matters more than the calendar in the busy weeks of January. Our answers on {{page:/answers/smallest-luxury-expedition-ships|the smallest expedition ships}} and on {{page:/answers/antarctica-kayaking-camping-submersibles|kayaking and camping}} cover the ship side of the choice."
         ]
       }
     ],
@@ -908,7 +908,7 @@ export const generatedAnswers = [
               "The best odds per night of anywhere on this list, if you can take minus 30°C"
             ],
             [
-              "Churchill, Manitoba",
+              "{{page:/answers/polar-bear-trip-svalbard-vs-churchill|Churchill, Manitoba}}",
               "Under it",
               "Hudson Bay cold and wind",
               "Combining the lights with polar bears in October and November"
@@ -923,7 +923,7 @@ export const generatedAnswers = [
         "h2": "Glass igloos or a proper lodge",
         "paras": [
           "Glass igloos are a Finnish Lapland invention, at places like Kakslauttanen near Saariselkä and Levin Iglut at Levi, and they are fun. They are also overrated as a way of seeing the aurora. Most rooms are small. You watch through glass, which dulls faint displays and spoils photographs. You are often asleep when the display peaks. On a resort site there is usually some artificial light nearby. Treat one or two nights in an igloo as the novelty at the end of a trip, not as the plan.",
-          "Real luxury in the Arctic means a small lodge with dark skies around it, guides who go out with you on clear nights, and a warm room to come back to. In Norway that means places such as Lyngen Lodge in the Lyngen Alps. In Finland it means exclusive-use wilderness lodges such as Octola near Rovaniemi. In Iceland, Deplar Farm on the Troll Peninsula, Ion Adventure Hotel near Thingvellir and Hotel Rangá in the south are all well away from city light. In Canada, fly-in lodges such as Blachford Lake Lodge outside Yellowknife do the same job. The Retreat at Blue Lagoon is the most polished hotel in Iceland, but it sits near the airport and is better for a night of recovery than a night of watching the sky. Many of these lodges will wake you when a display starts."
+          "Real luxury in the Arctic means a small lodge with dark skies around it, guides who go out with you on clear nights, and a warm room to come back to. In Norway that means places such as Lyngen Lodge in the Lyngen Alps. In Finland it means exclusive-use wilderness lodges such as Octola near Rovaniemi. In Iceland, {{hotel:Eleven Deplar Farm|Deplar Farm}} on the Troll Peninsula, Ion Adventure Hotel near Thingvellir and Hotel Rangá in the south are all well away from city light. In Canada, fly-in lodges such as Blachford Lake Lodge outside Yellowknife do the same job. The Retreat at Blue Lagoon is the most polished hotel in Iceland, but it sits near the airport and is better for a night of recovery than a night of watching the sky. Many of these lodges will wake you when a display starts."
         ],
         "list": [
           "Choose glass igloos for one or two nights of novelty, especially with children, and expect the aurora to look better outside.",
@@ -983,7 +983,7 @@ export const generatedAnswers = [
     "capsule": "For most first visits to the Okavango Delta, do both: two or three nights at a water camp for mokoro and boating, then two or three at a land camp for game drives and predators. Water camps give you the Delta's quiet and its birds, land camps give you lions and leopards. The flood peaks in the dry winter, roughly June to August, which sets how much water each camp has.",
     "answer": [
       "The two kinds of camp sell different things. A water camp sits on permanent or deep seasonal channels, and its days are spent in a mokoro, the traditional dugout canoe poled by a guide standing at the stern, or in a motorboat on the wider channels, with walks on islands in between. You see hippos, crocodiles, red lechwe, elephants wading between islands, reed frogs, kingfishers and, with luck, sitatunga in the papyrus. What you see less of is predators, because you are on the water and they mostly are not. A land camp works the drier islands and floodplain edges by open vehicle, and in the private concessions that usually means off-road driving to follow a sighting and night drives for the animals that only show after dark. That is where the lions, leopards and wild dogs are found.",
-      "Doing only one leaves half the Delta unseen. Water only, and you go home with the stillness but often without a big cat. Land only, and you could have been anywhere good in southern Africa. That is why most well-built trips combine a water camp with one or two land camps over seven to ten nights, linked by short light-aircraft hops. Some camps run both activities, and they are useful, but how much water they have depends on the year's flood, so a so-called mixed camp in a low-water month can be a land camp with a boat it cannot use. Our atlas holds {{journeys:collection=safari&country=Botswana}} Botswana safari itineraries and {{hotels:country=Botswana}} Botswana properties, and the shape most of them take is exactly this combination."
+      "Doing only one leaves half the Delta unseen, which is why Botswana is the {{page:/answers/botswana-vs-kenya-vs-south-africa-first-safari|exclusivity pick among first safaris}}. Water only, and you go home with the stillness but often without a big cat. Land only, and you could have been anywhere good in southern Africa. That is why most well-built trips combine a water camp with one or two land camps over seven to ten nights, linked by short light-aircraft hops. Some camps run both activities, and they are useful, but how much water they have depends on the year's flood, so a so-called mixed camp in a low-water month can be a land camp with a boat it cannot use. Our atlas holds {{journeys:collection=safari&country=Botswana}} Botswana safari itineraries and {{hotels:country=Botswana}} Botswana properties, and the shape most of them take is exactly this combination."
     ],
     "sections": [
       {
@@ -1077,8 +1077,8 @@ export const generatedAnswers = [
       {
         "h2": "How the combination usually works",
         "paras": [
-          "The standard rhythm is three nights per camp. Two nights gives you one full day, and with transfer flights eating into the arrival and departure days, it feels like a stopover. Three camps over nine or ten nights, one of them water, is the shape most people end up happiest with. Seven nights fits two camps comfortably, usually water then land, so the trip builds toward the predators rather than tailing off.",
-          "Some trips add a camp outside the Delta proper, such as the Linyanti or Chobe areas to the north and east, for drier country and large elephant herds. Getting the order right, and matching the water camp to that year's flood rather than last year's brochure, is the part where an advisor who follows the camps closely genuinely changes the trip."
+          "The standard rhythm is three nights per camp; {{page:/hotels/botswana|our Botswana lodges}} and {{page:/journeys/safari|safari itineraries}} show the combinations. Two nights gives you one full day, and with transfer flights eating into the arrival and departure days, it feels like a stopover. Three camps over nine or ten nights, one of them water, is the shape most people end up happiest with. Seven nights fits two camps comfortably, usually water then land, so the trip builds toward the predators rather than tailing off.",
+          "Some trips add a camp outside the Delta proper (or stay at a lodge such as {{hotel:Xigera Safari Lodge}} in Moremi, on its edge), such as the Linyanti or Chobe areas to the north and east, for drier country and large elephant herds. Getting the order right, and matching the water camp to that year's flood rather than last year's brochure, is the part where an advisor who follows the camps closely genuinely changes the trip."
         ],
         "list": [
           "Put the water camp first or in the middle; ending on a land camp tends to leave the stronger last impression.",
@@ -1138,7 +1138,7 @@ export const generatedAnswers = [
     "capsule": "Book both. A luxury ryokan is a single, scheduled experience: a set kaiseki dinner at an agreed hour, futons laid on tatami, and hot-spring baths with strict etiquette. It suits one or two nights in an onsen town such as Hakone. Tokyo and Kyoto are better done from a luxury hotel, where real beds, flexible dinners and English-speaking concierges make sightseeing easier.",
     "answer": [
       "A ryokan is a traditional Japanese inn, and at the luxury end it works more like a dinner party you are staying at than a hotel. The rate usually includes dinner and breakfast. You arrive in the afternoon, change into the yukata laid out for you, bathe, and sit down to a long kaiseki dinner of small seasonal courses, often in your room or a private dining room, at a time agreed at check-in. While you eat or soon after, staff clear the low table and lay futons on the tatami. Breakfast is early and set, and check-out is usually mid-morning. It is calm, beautifully run and quite structured, which is the point and also the catch.",
-      "A luxury hotel in Tokyo or Kyoto gives you the opposite: a western bed, room service at midnight, a concierge who can get you into a sushi counter, and no one waiting on you to come back for dinner. Most travellers are happiest using hotels for the cities, where the evenings are the best part of the day, and a ryokan for a night or two in hot-spring country, where there is nothing to do but bathe and eat. Our atlas tracks {{hotels:country=Japan}} properties in Japan, including {{hotels:region=Tokyo}} in Tokyo and {{hotels:region=Kyoto}} in Kyoto. The table below lists them smallest first, which brings the inn-scale places to the top."
+      "A luxury hotel in Tokyo or Kyoto gives you the opposite: a western bed, room service at midnight, a concierge who can get you into a sushi counter, and no one waiting on you to come back for dinner. Most travellers are happiest using hotels for the cities, where the evenings are the best part of the day, and a ryokan for a night or two in hot-spring country, where there is nothing to do but bathe and eat. Our atlas tracks {{hotels:country=Japan}} {{page:/hotels/japan|properties in Japan}}, including {{hotels:region=Tokyo}} in Tokyo and {{hotels:region=Kyoto}} in Kyoto. The table below lists them smallest first, which brings the inn-scale places to the top."
     ],
     "sections": [
       {
@@ -1225,7 +1225,7 @@ export const generatedAnswers = [
           "Choose a ryokan in a hot-spring town rather than in a city. Kyoto's historic city ryokan are lovely, but they generally do not have natural hot springs, and Kyoto is a city you want to be out in at night."
         ],
         "list": [
-          "Tokyo hotel, two ryokan nights in Hakone, then a Kyoto hotel. Hakone is under two hours from Tokyo and sits on the way to Kyoto, so it costs no extra travel day.",
+          "Tokyo hotel, two ryokan nights in Hakone, then a Kyoto hotel ({{hotel:Aman Kyoto}} or {{hotel:Capella Kyoto}}, for instance). Hakone is under two hours from Tokyo and sits on the way to Kyoto, so it costs no extra travel day.",
           "Tokyo hotel, Kyoto hotel, then a ryokan in the countryside near the end as a decompression before the flight home.",
           "If a full ryokan feels like too much, a ryokan-style hotel such as the Hoshinoya properties gives you tatami and Japanese service with more flexibility."
         ]
@@ -1408,11 +1408,11 @@ export const generatedAnswers = [
           "The ships most often compared, each sailing year-round:"
         ],
         "list": [
-          "Silver Origin ({{op:cruise/Silversea}}): the most hotel-like of the group, with butler service in every suite. {{journeys:vessel=Silver Origin}} itineraries in the atlas.",
-          "National Geographic Endeavour II and National Geographic Islander II ({{op:cruise/National Geographic-Lindblad Expeditions|Lindblad Expeditions with National Geographic}}): the strongest naturalist and photography programme. {{journeys:vessel=National Geographic Islander II}} Islander II itineraries in the atlas.",
-          "Aqua Mare ({{op:cruise/Aqua Expeditions}}): a small, private-yacht-style vessel for a handful of guests. {{journeys:vessel=Aqua Mare}} itineraries in the atlas.",
-          "Santa Cruz II ({{op:cruise/HX Expeditions}}): a larger, more relaxed expedition ship, with HX departures about twice a month.",
-          "How they differ in cabins, guiding and price is covered in our Galápagos comparison, linked below."
+          "{{page:/atlas/cruise?ships=Silver+Origin|Silver Origin}} ({{op:cruise/Silversea}}): the most hotel-like of the group, with butler service in every suite. {{journeys:vessel=Silver Origin}} itineraries in the atlas.",
+          "{{page:/atlas/cruise?ships=National+Geographic+Endeavour+II|National Geographic Endeavour II}} and {{page:/atlas/cruise?ships=National+Geographic+Islander+II|National Geographic Islander II}} ({{op:cruise/National Geographic-Lindblad Expeditions|Lindblad Expeditions with National Geographic}}): the strongest naturalist and photography programme. {{journeys:vessel=National Geographic Islander II}} Islander II itineraries in the atlas.",
+          "{{page:/atlas/cruise?ships=Aqua+Mare|Aqua Mare}} ({{op:cruise/Aqua Expeditions}}): a small, private-yacht-style vessel for a handful of guests. {{journeys:vessel=Aqua Mare}} itineraries in the atlas.",
+          "{{page:/atlas/cruise?ships=MS+Santa+Cruz+II|Santa Cruz II}} ({{op:cruise/HX Expeditions}}): a larger, more relaxed expedition ship, with HX departures about twice a month.",
+          "How they differ in cabins, guiding and price is covered in {{page:/answers/galapagos-lindblad-vs-silversea-vs-aqua|our Galápagos comparison}}."
         ]
       }
     ],
@@ -1466,7 +1466,7 @@ export const generatedAnswers = [
     "capsule": "Choose Lake Como for grand villa hotels, steep wooded shores and the deepest choice of top-end rooms. Choose Lake Garda for space, sailing, spa resorts and an easy link to Verona and Venice. Choose Lake Maggiore for gardens, the Borromean Islands and a quieter Belle Époque pace near Malpensa. Base mid-lake on Como, on Garda's western shore, and at Stresa on Maggiore.",
     "answer": [
       "Lake Como is the one most people picture: narrow, deep and shaped like an inverted Y, with mountains dropping straight into the water and old villas along the shore, several of them now hotels. It has the densest concentration of serious luxury hotels of the three, and the summer crowds and prices that come with that. Lake Garda is the largest lake in Italy and really two lakes. The south, around Sirmione and Desenzano, is broad, flat and resort-like. The north, around Limone, Malcesine and Riva del Garda, is narrow and mountainous, with reliable winds that make it a sailing and windsurfing centre. Lake Maggiore is long, partly Swiss at its northern end, and noticeably calmer, known for its gardens and the three Borromean Islands off Stresa.",
-      "Where you sleep matters as much as which lake. On Como, base in the central lake, in Bellagio, Varenna, Tremezzina or Menaggio, where the boats tie everything together. Cernobbio and the southern shore put you close to Como town and Milan, at the cost of a longer ride to the middle of the lake. On Garda, the western shore between Salò and Gargnano holds the quieter high-end hotels, and Sirmione is better as a day or a night than a week. On Maggiore, Stresa is the practical base for the islands and the railway, with Verbania and Pallanza a calmer alternative across the gulf."
+      "Where you sleep matters as much as which lake. On Como, base in the central lake, in Bellagio ({{hotel:Grand Hotel Villa Serbelloni|Villa Serbelloni}}), Varenna, Tremezzina ({{hotel:Grand Hotel Tremezzo}}) or Menaggio, where the boats tie everything together. Cernobbio ({{hotel:Villa d'Este}}) and the southern shore put you close to Como town and Milan, at the cost of a longer ride to the middle of the lake. On Garda, the western shore between Salò and Gargnano holds the quieter high-end hotels, and Sirmione is better as a day or a night than a week. On Maggiore, Stresa is the practical base for the islands and the railway, with Verbania and Pallanza a calmer alternative across the gulf."
     ],
     "sections": [
       {
@@ -1531,7 +1531,7 @@ export const generatedAnswers = [
           ]
         },
         "paras": [
-          "The honest summary: Como is the most beautiful and the most crowded, Garda the most varied and the easiest with children, Maggiore the most restful and the least fashionable. None of them is a mistake, but they suit different trips."
+          "The honest summary ({{page:/answers/quietest-luxury-resorts-italy|and where to find quiet on any of them}}): Como is the most beautiful and the most crowded, Garda the most varied and the easiest with children, Maggiore the most restful and the least fashionable. None of them is a mistake, but they suit different trips."
         ]
       },
       {
@@ -1692,7 +1692,7 @@ export const generatedAnswers = [
           "In Svalbard the ship matters more than the brand on it."
         ],
         "list": [
-          "Small is the point. Norway now bars ships carrying more than 200 passengers from most of Svalbard's protected areas, which is where much of the bear country is. A smaller ship also lands everyone at once and gets more Zodiac time.",
+          "Small is the point ({{page:/answers/smallest-luxury-expedition-ships|the smallest expedition ships}}). Norway now bars ships carrying more than 200 passengers from most of Svalbard's protected areas, which is where much of the bear country is. A smaller ship also lands everyone at once and gets more Zodiac time.",
           "Ice class decides how far north you can go. Later in summer the pack ice retreats north, and a ship that can work along the ice edge has better odds than one that cannot.",
           "June usually has more ice close to Spitsbergen, so bears can be nearer the fjords and the scenery is whiter. By August the ice has pulled back and voyages range further, but the coasts are more open for full circumnavigations.",
           "Rules on approach distances and landings were tightened recently, so the close encounters of older photographs are less likely now. That is a good thing for the bears, and worth knowing before you choose a lens.",
@@ -1703,11 +1703,11 @@ export const generatedAnswers = [
     "faqs": [
       {
         "q": "Can I see polar bears and the northern lights on the same trip?",
-        "a": "In Churchill, yes. October and November nights are long and dark and Churchill sits under the auroral oval, so clear nights can bring both. In Svalbard in summer, no: the midnight sun means there is no darkness to see an aurora."
+        "a": "In Churchill, yes ({{page:/answers/where-to-stay-to-see-the-northern-lights|where else to see the lights}}). October and November nights are long and dark and Churchill sits under the auroral oval, so clear nights can bring both. In Svalbard in summer, no: the midnight sun means there is no darkness to see an aurora."
       },
       {
         "q": "Do Greenland or Northwest Passage voyages see polar bears?",
-        "a": "Sometimes, but less reliably. Bears are spread thinly across Greenland and the Canadian High Arctic, and those routes are chosen for icebergs, Inuit communities and history. If bears are the priority, Svalbard or Churchill gives you far better odds."
+        "a": "Sometimes, but less reliably. Bears are spread thinly across Greenland and the Canadian High Arctic, and those routes are chosen for icebergs, Inuit communities and history. If bears are the priority, Svalbard or Churchill gives you far better odds ({{page:/answers/best-arctic-expedition-svalbard-greenland-northwest-passage|Svalbard, Greenland and the Northwest Passage compared}})."
       },
       {
         "q": "What lens do I need?",
@@ -1839,7 +1839,7 @@ export const generatedAnswers = [
           ]
         },
         "paras": [
-          "For young children the strongest single decision is to avoid malaria altogether, because some antimalarial drugs are not suitable for small children and a travel doctor may advise against them. South Africa has several malaria-free reserves with Big Five game viewing. The trade-off is honest: these reserves are excellent, but the density and the sense of vast, unfenced wilderness you get in the Sabi Sand or the Okavango are not quite the same."
+          "For young children the strongest single decision is to avoid malaria altogether, because some antimalarial drugs are not suitable for small children and a travel doctor may advise against them. South Africa has several malaria-free reserves with Big Five game viewing, and {{page:/hotels/south-africa|our South African lodges}} include family-friendly ones such as {{hotel:Bushmans Kloof Wilderness Reserve & Retreat|Bushmans Kloof}}. The trade-off is honest: these reserves are excellent, but the density and the sense of vast, unfenced wilderness you get in the Sabi Sand or the Okavango are not quite the same."
         ]
       }
     ],
@@ -1861,7 +1861,7 @@ export const generatedAnswers = [
       },
       {
         "q": "What is the minimum age for gorilla trekking?",
-        "a": "15, in both Rwanda and Uganda, and it is enforced at the permit check. Families with younger children often pair a South African or East African safari now and save the gorillas for a later trip."
+        "a": "15, in both Rwanda and Uganda ({{page:/answers/gorilla-trekking-rwanda-vs-uganda|which to choose}}), and it is enforced at the permit check. Families with younger children often pair a South African or East African safari now and save the gorillas for a later trip."
       }
     ],
     "related": [
@@ -1892,7 +1892,7 @@ export const generatedAnswers = [
     "updated": "2026-11-01",
     "capsule": "Yes, if you are buying an evening rather than a bed. One night on the Venice Simplon-Orient-Express is a long, dressed-up dinner in restored 1920s carriages, a piano bar and a small cabin. Historic Cabins have bunks and a washbasin, with shared toilets and no shower. Suites and Grand Suites add private bathrooms. Travelers expecting hotel comfort or a full night's sleep are the ones disappointed.",
     "answer": [
-      "The Venice Simplon-Orient-Express, run by {{op:train/Belmond Trains|Belmond}}, is a set of restored vintage sleeping cars, dining cars and a bar car, most of them dating from the 1920s and 1930s. The classic trip is one night: you board in Paris, or in London with a separate morning on Belmond's British Pullman and a coach transfer through the Channel Tunnel, and you arrive in Venice the following afternoon. Belmond also runs occasional departures to and from cities such as Vienna, Prague and Budapest, and a longer annual journey between Paris and Istanbul. Our atlas holds {{journeys:vessel=Venice Simplon-Orient-Express}} itineraries on this train.",
+      "The {{page:/journeys/train/belmond-trains-paris-to-venice-venice-simplon-orient-express-a-belmond-train|Venice Simplon-Orient-Express}}, run by {{op:train/Belmond Trains|Belmond}}, is a set of restored vintage sleeping cars, dining cars and a bar car, most of them dating from the 1920s and 1930s. The classic trip is one night: you board in Paris, or in London with a separate morning on Belmond's British Pullman and a coach transfer through the Channel Tunnel, and you arrive in Venice the following afternoon. Belmond also runs occasional departures to and from cities such as Vienna, Prague and Budapest, and a longer annual journey between Paris and Istanbul. Our atlas holds {{journeys:vessel=Venice Simplon-Orient-Express}} itineraries on this train.",
       "What you are paying for is the evening. Afternoon in a wood-panelled compartment, a multi-course dinner in a dining car where everyone has dressed for it, then the bar car and its piano until late. The cabin is the weak link at the entry level: Historic Cabins are compact, the beds are upper and lower berths, and the toilets are at the end of the carriage with no shower anywhere for those guests. Suites and Grand Suites fix the bathroom problem and widen the room, at a steep step up in price. If you treat it as one extraordinary night between two good hotels, it is usually worth it. If you treat it as transport or as a hotel on wheels, it rarely is."
     ],
     "sections": [
@@ -1962,7 +1962,7 @@ export const generatedAnswers = [
           "Travelers with limited mobility. Corridors are narrow, steps into carriages are steep, and the carriages are historic rather than adapted.",
           "People who dislike dressing up. Evening wear is expected and most guests go to black tie, so jeans-and-sneakers travelers feel out of place, and Belmond does not permit them on board.",
           "Value-per-hour shoppers. Measured against a five-star hotel night plus a first-class daytime train, the numbers never work. It is priced as an occasion.",
-          "It suits: couples marking something, rail enthusiasts, people who enjoy the ceremony of dressing for dinner, and anyone who will build a Venice stay around the arrival rather than rushing on."
+          "It suits: couples marking something, rail enthusiasts ({{page:/answers/best-luxury-train-journeys|the other great trains, ranked}}), people who enjoy the ceremony of dressing for dinner, and anyone who will build a Venice stay around the arrival rather than rushing on."
         ]
       }
     ],
@@ -2016,7 +2016,7 @@ export const generatedAnswers = [
     "capsule": "Often yes, in June, July and from mid-November, with insurance bought early. The Atlantic season runs 1 June to 30 November, but most hurricanes fall between mid-August and mid-October, when many resorts on islands such as St Barths and Anguilla close anyway. If you must travel at the peak, Aruba, Bonaire and Curaçao sit south of the usual storm tracks and carry far lower risk.",
     "answer": [
       "The official season is long, and the risk inside it is uneven. June and July are usually quiet, and early storms tend to be weaker. Activity builds through August, peaks around 10 September, and stays high into October, with late-season storms often forming in the western Caribbean. By late November the season is effectively over. The chance that a storm disrupts any particular week on any particular island is low, but a disruption is costly when it happens: a cancelled trip, a shortened one, or a hotel running on generators with half its restaurants shut.",
-      "The honest answer depends on the month and the island. June is the best-kept value in the Caribbean: winter rates have dropped, resorts are fully open and staffed, and the weather is hot but generally settled. Early December, after the season ends and before festive-period rates and minimum stays begin around the third week of the month, is the other window worth targeting. September and October are the months to avoid on most islands, partly for the storms and partly because much of the high end closes for refurbishment. The exception is the ABC islands off Venezuela, which are rarely hit and stay open year-round."
+      "The honest answer depends on the month and the island. June is the best-kept value in the Caribbean (and for {{page:/answers/best-caribbean-villas-for-12-guests|big-group villas}} too): winter rates have dropped, resorts are fully open and staffed, and the weather is hot but generally settled. Early December, after the season ends and before festive-period rates and minimum stays begin around the third week of the month, is the other window worth targeting. September and October are the months to avoid on most islands, partly for the storms and partly because much of the high end closes for refurbishment. The exception is the ABC islands off Venezuela, which are rarely hit and stay open year-round."
     ],
     "sections": [
       {
@@ -2122,7 +2122,7 @@ export const generatedAnswers = [
         },
         "paras": [
           "Geography does most of the work. The main storm tracks run west across the Leeward Islands and Puerto Rico toward the Bahamas, Turks and Caicos and the Gulf, or form late in the season in the western Caribbean. Islands at the southern edge of the region sit below most of that traffic. Lower risk is not zero risk: Grenada was devastated by Ivan in 2004, and Beryl struck its island of Carriacou in July 2024.",
-          "Our atlas holds {{hotels:country=Aruba}} properties in Aruba, {{hotels:country=Barbados}} in Barbados and {{hotels:country=Grenada}} in Grenada, against {{hotels:country=Saint Barthélemy}} in St Barths and {{hotels:country=Turks And Caicos Islands}} in Turks and Caicos, where the peak months carry more risk."
+          "Our atlas holds {{hotels:country=Aruba}} properties in {{page:/hotels/aruba|Aruba}}, {{hotels:country=Barbados}} in {{page:/hotels/barbados|Barbados}} and {{hotels:country=Grenada}} in {{page:/hotels/grenada|Grenada}}, against {{hotels:country=Saint Barthélemy}} in {{page:/hotels/saint-barthelemy|St Barths}} and {{hotels:country=Turks And Caicos Islands}} in {{page:/hotels/turks-and-caicos-islands|Turks and Caicos}}, where the peak months carry more risk."
         ]
       },
       {

@@ -26,9 +26,9 @@ export const expeditionAnswers = [
       {
         h2: "The three decisions that matter (in order)",
         paras: [
-          "Ship size first. In Antarctica, IAATO rules allow only 100 guests ashore at a time, and ships carrying more than 500 may not land guests at all. On a sub-200-guest ship you land more often and wait less; on a 400–500-guest ship, shore time is rationed in rotations. This single number changes your trip more than any suite category.",
+          "{{page:/answers/smallest-luxury-expedition-ships|Ship size}} first. In Antarctica, IAATO rules allow only 100 guests ashore at a time, and ships carrying more than 500 may not land guests at all. On a sub-200-guest ship you land more often and wait less; on a 400–500-guest ship, shore time is rationed in rotations. This single number changes your trip more than any suite category.",
           "Drake Passage second. Sailing it takes roughly two days each way and can be genuinely rough; it is also, for many travelers, part of the point. Fly-cruise programs (Silversea and others via Punta Arenas–King George Island) trade the crossing for two more days on the Peninsula — at a premium, with weather-dependent flight windows.",
-          "Month third. Late November–early December is pristine ice and penguin courtship; late December–January is peak chick-hatching and the warmest, longest days; February–March is whale season and richer light for photographers, with some sites more picked-over.",
+          "{{page:/answers/best-month-to-visit-antarctica|Month}} third. Late November–early December is pristine ice and penguin courtship; late December–January is peak chick-hatching and the warmest, longest days; February–March is whale season and richer light for photographers, with some sites more picked-over.",
         ],
       },
       {
@@ -60,7 +60,7 @@ export const expeditionAnswers = [
           "A ship under 200 guests, or accept rationed landings knowingly.",
           "December or January departure for the classic postcard version.",
           "A cabin midship and low if you're sailing the Drake and unsure of your sea legs.",
-          "Kayaking or camping add-ons reserved at booking — they sell out months out and cannot usually be added on board.",
+          "{{page:/answers/antarctica-kayaking-camping-submersibles|Kayaking or camping add-ons}} reserved at booking — they sell out months out and cannot usually be added on board.",
         ],
       },
     ],
@@ -116,16 +116,16 @@ export const expeditionAnswers = [
           columns: ["Ship (operator)", "Guests", "Expedition team", "Approx. ratio"],
           rows: [
             ["Aqua Mare ({{op:cruise/Aqua Expeditions}}, Galápagos)", "16", "2 naturalists + crew", "1:8, near-private"],
-            ["Ultramarine (Quark)", "199", "37", "1:5"],
-            ["World Voyager (Quark)", "168", "~34", "1:5"],
-            ["Ocean Explorer (Quark)", "138", "20", "1:7"],
-            ["Greg Mortimer / Sylvia Earle (Aurora)", "130–132", "18", "1:7"],
-            ["NG Endurance / NG Resolution (Lindblad)", "138", "16", "1:9"],
+            ["{{page:/atlas/cruise?ships=Ultramarine|Ultramarine}} (Quark)", "199", "37", "1:5"],
+            ["{{page:/atlas/cruise?ships=World+Voyager|World Voyager}} (Quark)", "168", "~34", "1:5"],
+            ["{{page:/atlas/cruise?ships=Ocean+Explorer|Ocean Explorer}} (Quark)", "138", "20", "1:7"],
+            ["{{page:/atlas/cruise?ships=Greg+Mortimer,Sylvia+Earle|Greg Mortimer / Sylvia Earle}} (Aurora)", "130–132", "18", "1:7"],
+            ["{{page:/atlas/cruise?ships=National+Geographic+Endurance,National+Geographic+Resolution|NG Endurance / NG Resolution}} (Lindblad)", "138", "16", "1:9"],
             ["Silver Origin ({{op:cruise/Silversea}}, Galápagos)", "100", "10", "1:10"],
             ["Silver Endeavour (Silversea)", "200 polar", "22", "1:9"],
-            ["Santa Cruz II (HX, Galápagos)", "90", "8", "1:11"],
-            ["NG Explorer (Lindblad)", "148", "14", "1:11"],
-            ["Seabourn Venture / Pursuit", "264", "24", "1:11"],
+            ["{{page:/atlas/cruise?ships=MS+Santa+Cruz+II|Santa Cruz II}} (HX, Galápagos)", "90", "8", "1:11"],
+            ["{{page:/atlas/cruise?ships=National+Geographic+Explorer|NG Explorer}} (Lindblad)", "148", "14", "1:11"],
+            ["{{page:/atlas/cruise?ships=Seabourn+Venture,Seabourn+Pursuit|Seabourn Venture / Pursuit}}", "264", "24", "1:11"],
             ["SH Vega / SH Minerva ({{op:cruise/Swan Hellenic}})", "152", "12", "1:13"],
             ["Ponant Explorers class", "184", "12", "1:15"],
             ["MS Roald Amundsen / Fridtjof Nansen (HX)", "up to 500", "20", "1:25"],
@@ -177,7 +177,7 @@ export const expeditionAnswers = [
       "For a photography-led expedition, book Lindblad–National Geographic: a certified photo instructor sails every departure, National Geographic photographers join selected ones, and the onboard culture is built around the craft. Ponant and Silversea offer better light-to-luxury ratios; Quark's helicopters on Ultramarine buy aerial angles nothing else in the fleet can reach.",
     answer: [
       "{{op:cruise/National Geographic-Lindblad Expeditions|Lindblad–National Geographic}} is the category leader for photographers: a certified photo instructor sails on every expedition, National Geographic photographers join select departures, and the onboard culture — lectures, editing help, gear lockers, an undersea team feeding you footage — is built around the craft. If your trip is primarily a photography trip, start there.",
-      "Beyond the brand, book for light and access: Antarctica in late February–March (low golden light, whales, no midnight glare), Svalbard in June–July for polar bears on pack ice, and the Galápagos any month for wildlife that refuses to move away from your lens. Prefer ships under 200 guests — more landings, longer landings — and itineraries with Zodiac-cruising days, which put you at water level where the pictures are.",
+      "Beyond the brand, book for light and access: Antarctica in late February–March (low golden light, whales, no midnight glare), {{page:/answers/polar-bear-trip-svalbard-vs-churchill|Svalbard in June–July for polar bears}} on pack ice, and {{page:/answers/best-time-to-visit-galapagos|the Galápagos any month}} for wildlife that refuses to move away from your lens. Prefer ships under 200 guests — more landings, longer landings — and itineraries with Zodiac-cruising days, which put you at water level where the pictures are.",
     ],
     sections: [
       {
@@ -213,7 +213,7 @@ export const expeditionAnswers = [
     faqs: [
       {
         q: "Which single trip gives the best wildlife photography?",
-        a: "South Georgia in October–November: hundreds of thousands of king penguins, elephant seal beaches, and light that stays low all day. It demands a longer itinerary (18+ days), which is why we call it the best second polar trip.",
+        a: "South Georgia in October–November ({{page:/answers/best-month-to-visit-antarctica|the Antarctic season month by month}}): hundreds of thousands of king penguins, elephant seal beaches, and light that stays low all day. It demands a longer itinerary (18+ days), which is why we call it the best second polar trip.",
       },
       {
         q: "Do I need a long telephoto in Antarctica?",
@@ -263,22 +263,22 @@ export const expeditionAnswers = [
           caption: "Guest capacities as published, July 2026; polar capacity shown where the ship sails reduced in Antarctica.",
           columns: ["Ship", "Operator", "Guests", "Waters"],
           rows: [
-            ["Aqua Mare", "{{op:cruise/Aqua Expeditions}}", "16", "Galápagos"],
-            ["Aqua Blu", "Aqua Expeditions", "30", "Indonesia"],
+            ["{{page:/atlas/cruise?ships=Aqua+Mare|Aqua Mare}}", "{{op:cruise/Aqua Expeditions}}", "16", "Galápagos"],
+            ["{{page:/atlas/cruise?ships=Aqua+Blu|Aqua Blu}}", "Aqua Expeditions", "30", "Indonesia"],
             ["Aria Amazon / Aqua Nera", "Aqua Expeditions", "32–40", "Amazon"],
-            ["NG Islander II", "Lindblad", "48", "Galápagos"],
-            ["Santa Cruz II", "HX Expeditions", "90", "Galápagos"],
-            ["NG Endeavour II", "Lindblad", "96", "Galápagos"],
-            ["Silver Origin", "{{op:cruise/Silversea}}", "100", "Galápagos"],
-            ["NG Orion", "Lindblad", "102", "Antarctica / South Pacific"],
-            ["Sylvia Earle / Greg Mortimer", "Aurora", "130–132", "Polar"],
-            ["Ocean Explorer", "Quark", "138", "Polar"],
-            ["NG Endurance / NG Resolution", "Lindblad", "138", "Polar"],
+            ["{{page:/atlas/cruise?ships=National+Geographic+Islander+II|NG Islander II}}", "Lindblad", "48", "Galápagos"],
+            ["{{page:/atlas/cruise?ships=MS+Santa+Cruz+II|Santa Cruz II}}", "HX Expeditions", "90", "Galápagos"],
+            ["{{page:/atlas/cruise?ships=National+Geographic+Endeavour+II|NG Endeavour II}}", "Lindblad", "96", "Galápagos"],
+            ["{{page:/atlas/cruise?ships=Silver+Origin|Silver Origin}}", "{{op:cruise/Silversea}}", "100", "Galápagos"],
+            ["{{page:/atlas/cruise?ships=National+Geographic+Orion|NG Orion}}", "Lindblad", "102", "Antarctica / South Pacific"],
+            ["{{page:/atlas/cruise?ships=Sylvia+Earle,Greg+Mortimer|Sylvia Earle / Greg Mortimer}}", "Aurora", "130–132", "Polar"],
+            ["{{page:/atlas/cruise?ships=Ocean+Explorer|Ocean Explorer}}", "Quark", "138", "Polar"],
+            ["{{page:/atlas/cruise?ships=National+Geographic+Endurance,National+Geographic+Resolution|NG Endurance / NG Resolution}}", "Lindblad", "138", "Polar"],
             ["SH Vega / SH Minerva", "{{op:cruise/Swan Hellenic}}", "152", "Polar"],
-            ["World Voyager", "Quark", "168", "Polar"],
+            ["{{page:/atlas/cruise?ships=World+Voyager|World Voyager}}", "Quark", "168", "Polar"],
             ["Ponant Explorers class", "{{op:cruise/PONANT EXPLORATIONS|Ponant}}", "184", "Worldwide"],
             ["World Navigator class", "{{op:cruise/Atlas Ocean Voyages}}", "198", "Polar / Med"],
-            ["Ultramarine", "Quark", "199", "Polar"],
+            ["{{page:/atlas/cruise?ships=Ultramarine|Ultramarine}}", "Quark", "199", "Polar"],
           ],
         },
       },
@@ -353,7 +353,7 @@ export const expeditionAnswers = [
             ["National Geographic Explorer", "Lindblad", "148", "14", "10.6", "14", "1A"],
             ["Silver Endeavour", "Silversea", "200 in Antarctica (220 built)", "22", "9.1", "16", "PC6"],
             ["Silver Cloud", "Silversea", "200 in Antarctica (254 built)", "19", "10.5", "18", "1C"],
-            ["Le Commandant Charcot", "Ponant", "245", "16", "15.3", "16", "PC2"],
+            ["{{page:/atlas/cruise?ships=Le+Commandant+Charcot|Le Commandant Charcot}}", "Ponant", "245", "16", "15.3", "16", "PC2"],
             ["Ponant Explorers (Le Bellot, Le Jacques-Cartier and sisters)", "Ponant", "184", "12", "15.3", "12", "1C"],
             ["Le Boréal, L'Austral, Le Soléal, Le Lyrial", "Ponant", "199 in Antarctica (264 built)", "12", "16.6", "12", "1C"],
             ["National Geographic Islander II (Galápagos)", "Lindblad", "48", "5", "9.6", "4", "—"],
@@ -385,7 +385,7 @@ export const expeditionAnswers = [
     faqs: [
       {
         q: "Which is best for a first Antarctica trip?",
-        a: "All three work. Default: Lindblad for travelers who want the trip explained, Silversea for travelers who want it effortless, Ponant for travelers who want it delicious. See our first-timers guide for the ship-size and season logic that matters more than the brand.",
+        a: "All three work. Default: Lindblad for travelers who want the trip explained, Silversea for travelers who want it effortless, Ponant for travelers who want it delicious. See {{page:/answers/best-antarctica-expedition-for-first-timers|our first-timers guide}} for the ship-size and season logic that matters more than the brand.",
       },
       {
         q: "Which has the best Galápagos program?",
@@ -419,7 +419,7 @@ export const expeditionAnswers = [
     answer: [
       "The Galápagos choice is really a size choice. {{op:cruise/National Geographic-Lindblad Expeditions|Lindblad–National Geographic}} runs the deepest program in the islands ({{departures:collection=cruise&operator=National Geographic-Lindblad Expeditions&region=Galápagos}} departures tracked in our atlas across ships of 48 and 96 guests) with the strongest naturalist bench and family programming. {{op:cruise/Silversea}}'s Silver Origin (100 guests) is the plushest purpose-built ship in the archipelago — butlers, a 1:10 guide ratio, Ecuadorian fine dining. {{op:cruise/Aqua Expeditions}}' Aqua Mare takes 16 guests on a genuine superyacht: the closest thing to a private Galápagos.",
       "{{op:cruise/HX Expeditions}} is the fourth option and the one most often overlooked. Its 90-guest Santa Cruz II is run with Metropolitan Touring, the Ecuadorian company that has sailed these islands longer than anyone, and HX sells it as a complete journey: Quito, the islands, and on most departures Lima and Machu Picchu as well, with flights inside Ecuador included. It is less polished than Silver Origin and has less of a teaching program than Lindblad, but for travelers who want the islands and the Andes in one booking at a sensible price, it is often the best fit.",
-      "Wildlife access is effectively identical — the national park assigns every vessel fixed itineraries and licensed naturalists, and the animals are equally indifferent to everyone. You're choosing the vessel you return to at lunch, not the islands you see.",
+      "Wildlife access ({{page:/answers/best-time-to-visit-galapagos|month by month here}}) is effectively identical — the national park assigns every vessel fixed itineraries and licensed naturalists, and the animals are equally indifferent to everyone. You're choosing the vessel you return to at lunch, not the islands you see.",
     ],
     sections: [
       {
@@ -446,21 +446,21 @@ export const expeditionAnswers = [
       {
         h2: "Where HX's Santa Cruz II fits",
         paras: [
-          "Santa Cruz II is the largest of the four ships here, at 90 guests, and the one priced for travelers who care more about the islands than the thread count. What sets it apart is the packaging. Almost every departure in our atlas is HX's 13-night In Darwin's Footsteps Plus Machu Picchu, which starts in Lima, goes up to Cusco and Machu Picchu, then flies to Quito and on to the islands. Lindblad and Silversea sell the Andes as add-ons; HX puts them in the fare.",
+          "{{page:/atlas/cruise?ships=MS+Santa+Cruz+II|Santa Cruz II}} is the largest of the four ships here, at 90 guests, and the one priced for travelers who care more about the islands than the thread count. What sets it apart is the packaging. Almost every departure in our atlas is HX's 13-night In Darwin's Footsteps Plus Machu Picchu, which starts in Lima, goes up to Cusco and Machu Picchu, then flies to Quito and on to the islands. Lindblad and Silversea sell the Andes as add-ons; HX puts them in the fare.",
           "On board, expect a working expedition ship rather than a floating hotel: one main restaurant, a lecture lounge, glass-bottom boat and kayaks for the days ashore, and naturalists who have spent their careers in the islands. Departures run about twice a month, all year, so it is also the easiest of the four to book at short notice.",
         ],
       },
       {
         h2: "How to choose in one paragraph",
         paras: [
-          "Traveling with kids or want the trip taught? Lindblad. Want the best suite, shower and ceviche in the archipelago? Silver Origin. Celebrating something, or eight to sixteen of you traveling together? Charter Aqua Mare and the Galápagos becomes yours. Want Machu Picchu and the islands in one trip, with the logistics handled? HX on Santa Cruz II. If the budget question decides it: Santa Cruz II is usually the value entry, Lindblad's Endeavour II departures are the value entry to the luxury tier, and December and early-June shoulder weeks price softest across all four.",
+          "Traveling with kids or want the trip taught? Lindblad. Want the best suite, shower and ceviche in the archipelago? {{page:/atlas/cruise?ships=Silver+Origin|Silver Origin}}. Celebrating something, or eight to sixteen of you traveling together? Charter {{page:/atlas/cruise?ships=Aqua+Mare|Aqua Mare}} and the Galápagos becomes yours. Want Machu Picchu and the islands in one trip, with the logistics handled? HX on Santa Cruz II. If the budget question decides it: Santa Cruz II is usually the value entry, Lindblad's Endeavour II departures are the value entry to the luxury tier, and December and early-June shoulder weeks price softest across all four.",
         ],
       },
     ],
     faqs: [
       {
         q: "When is the best time to visit the Galápagos?",
-        a: "There is no bad month — it's an equatorial destination with two seasons, warm/wet (December–May, calm seas, green islands, sea turtle nesting) and cool/dry (June–November, richer marine life as the Humboldt current arrives). Divers and snorkelers favor June–November; families favor the calm warm season.",
+        a: "There is no bad month ({{page:/answers/best-time-to-visit-galapagos|month by month here}}) — it's an equatorial destination with two seasons, warm/wet (December–May, calm seas, green islands, sea turtle nesting) and cool/dry (June–November, richer marine life as the Humboldt current arrives). Divers and snorkelers favor June–November; families favor the calm warm season.",
       },
       {
         q: "Land-based or by ship?",
@@ -533,7 +533,7 @@ export const expeditionAnswers = [
     faqs: [
       {
         q: "When will I see polar bears in Svalbard?",
-        a: "June and July, when ships can work the pack-ice edge where bears hunt seals. Sightings are near-universal across a week in season but never guaranteed — and distances are respectful; bring the long lens.",
+        a: "June and July, when ships can work the pack-ice edge where bears hunt seals ({{page:/answers/polar-bear-trip-svalbard-vs-churchill|Svalbard vs. Churchill compared}}). Sightings are near-universal across a week in season but never guaranteed — and distances are respectful; bring the long lens.",
       },
       {
         q: "Is the Northwest Passage rough?",
@@ -541,7 +541,7 @@ export const expeditionAnswers = [
       },
       {
         q: "Arctic or Antarctica first?",
-        a: "Antarctica, for most travelers — it's the more otherworldly spectacle and the easier 'wow.' The Arctic is subtler, wilder, more human (4 million people live there), and lands better once you've caught the polar bug.",
+        a: "{{page:/answers/best-antarctica-expedition-for-first-timers|Antarctica}}, for most travelers — it's the more otherworldly spectacle and the easier 'wow.' The Arctic is subtler, wilder, more human (4 million people live there), and lands better once you've caught the polar bug.",
       },
     ],
     related: [
@@ -578,8 +578,8 @@ export const expeditionAnswers = [
           rows: [
             ["Sea kayaking", "Quark, Aurora, Lindblad, Silversea, Seabourn, Ponant, {{op:cruise/HX Expeditions|HX}}", "10–16 guests per sailing", "Paid program; some lines require prior experience, others train"],
             ["Overnight ice camping", "Quark, Aurora", "20–30 per night", "One night, bivvy bags on snow; sells out first"],
-            ["Submersible dives", "Seabourn (Venture, Pursuit)", "2 subs × 6 guests", "Weather- and site-dependent; book early, expect waitlists"],
-            ["Helicopter flightseeing / heli-hiking", "Quark (Ultramarine)", "2 helicopters", "The only heli program in the luxury Antarctic fleet"],
+            ["Submersible dives", "{{op:cruise/Seabourn}} ({{page:/atlas/cruise?ships=Seabourn+Venture,Seabourn+Pursuit|Venture, Pursuit}})", "2 subs × 6 guests", "Weather- and site-dependent; book early, expect waitlists"],
+            ["Helicopter flightseeing / heli-hiking", "{{op:cruise/Quark Expeditions|Quark}} ({{page:/atlas/cruise?ships=Ultramarine|Ultramarine}})", "2 helicopters", "The only heli program in the luxury Antarctic fleet"],
             ["Polar plunge", "Everyone", "All guests", "Free, supervised, unforgettable, brief"],
             ["Snowshoeing / hiking tiers", "Aurora, Quark, Lindblad", "Varies", "Usually included; sign up on board"],
             ["Polar scuba diving", "Aurora (select departures)", "Small, certified divers only", "Dry-suit experience required"],
@@ -640,7 +640,7 @@ export const expeditionAnswers = [
         list: [
           "The destinations and landing sites — regulated by IAATO and the national parks, not by brand.",
           "Zodiac operations, parkas, boots, briefings, biosecurity vacuuming of your velcro.",
-          "Serious expedition staff — Silversea's teams are as credentialed as anyone's.",
+          "Serious expedition staff — Silversea's teams are as credentialed as anyone's ({{page:/answers/which-expedition-ships-have-the-highest-guide-ratio|team sizes compared}}).",
           "Weather's veto. Nobody's butler can fix Force 9.",
         ],
       },
@@ -663,14 +663,14 @@ export const expeditionAnswers = [
         h2: "Our advice by traveler",
         paras: [
           "If the destination is the reward and the ship is transport: Quark, Aurora, {{op:cruise/National Geographic-Lindblad Expeditions|Lindblad}}. If the trip must also be a holiday — a couple where one person is being persuaded, an anniversary, anyone allergic to bunk-adjacent bathrooms — the luxury tier is precisely what gets that second traveler to Antarctica happily, and it loses surprisingly little. The failure mode is only ever mismatch: hardcore travelers feeling scheduled on a luxury ship, or comfort travelers feeling weathered on a field ship.",
-          "One genuinely underrated option: {{op:cruise/PONANT EXPLORATIONS|Ponant}}'s Le Commandant Charcot is simultaneously the most luxurious and the most capable vessel in the fleet — the one place the dichotomy collapses.",
+          "One genuinely underrated option: {{op:cruise/PONANT EXPLORATIONS|Ponant}}'s {{page:/atlas/cruise?ships=Le+Commandant+Charcot|Le Commandant Charcot}} is simultaneously the most luxurious and the most capable vessel in the fleet — the one place the dichotomy collapses.",
         ],
       },
     ],
     faqs: [
       {
         q: "Do luxury expedition ships land less often?",
-        a: "Marginally. A 264-guest ship rotates guests through the 100-ashore limit, so each landing window per guest is shorter than on a 130-guest ship. Over ten days that compounds to a real but not ruinous difference — and scenic days are identical.",
+        a: "Marginally. A 264-guest ship rotates guests through the {{page:/answers/smallest-luxury-expedition-ships|100-ashore limit}}, so each landing window per guest is shorter than on a 130-guest ship. Over ten days that compounds to a real but not ruinous difference — and scenic days are identical.",
       },
       {
         q: "Is the food really that different?",

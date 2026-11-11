@@ -34,7 +34,7 @@ export const hotelAnswers = [
       "Yes, it is worth it: booking Four Seasons through a Preferred Partner advisor costs the same as the hotel's own rate and, in 2026, adds daily breakfast for two, a $100 property credit per stay ($200 in suites), an upgrade at check-in when available, priority early check-in and late check-out, and a VIP flag on the reservation. On a five-night resort stay that is typically $700–$1,500 of value.",
     answer: [
       "Yes. Booking {{brand:Four Seasons}} through a Preferred Partner advisor gets you, at no extra cost over the hotel's own rate: an upgrade at check-in when available (with Preferred Partner reservations prioritized for them), daily breakfast for two, a property credit of $100 per stay in guest rooms and $200 in suites, early check-in and late check-out priority, and — the part regulars value most — your reservation flagged in the hotel's system as a Preferred Partner VIP before you land.",
-      "The rate itself is the same as booking direct. Four Seasons runs Preferred Partner as its official top-tier advisor program precisely so the benefits ride on top of published rates rather than discounting them. Our atlas currently tracks {{hotels:program=Four Seasons Preferred Partner}} Four Seasons Preferred Partner properties, out of {{hotels:name=four seasons}} Four Seasons hotels in it overall.",
+      "The rate itself is the same as {{page:/answers/virtuoso-perks-vs-booking-direct|booking direct}}. Four Seasons runs Preferred Partner as its official top-tier advisor program precisely so the benefits ride on top of published rates rather than discounting them. {{page:/hotels|Our atlas}} currently tracks {{hotels:program=Four Seasons Preferred Partner}} Four Seasons Preferred Partner properties, out of {{hotels:name=four seasons}} Four Seasons hotels in it overall.",
     ],
     sections: [
       {
@@ -44,7 +44,7 @@ export const hotelAnswers = [
         ],
         list: [
           "Daily breakfast for two guests per bedroom, in the restaurant or through in-room dining at most hotels. A few city hotels give a per-person breakfast credit instead.",
-          "A property credit once per stay: $100 in guest rooms, $200 in suites, specialty suites and villas. It is used for dining or spa and has no cash value.",
+          "A property credit once per stay: $100 in guest rooms, $200 in suites, specialty suites and villas. It is used for dining or spa and has no cash value. Our {{page:/answers/which-four-seasons-have-swimmable-beaches|guide to the Four Seasons with swimmable beaches}} is a good place to spend it.",
           "An upgrade of one category at check-in, when available. Preferred Partner reservations are near the front of the queue, but it is not guaranteed.",
           "Early check-in and late check-out, when available, with priority over ordinary bookings.",
           "Complimentary Wi-Fi.",
@@ -119,12 +119,12 @@ export const hotelAnswers = [
     question: "Virtuoso perks vs. booking direct: what's actually worth it?",
     title: "Virtuoso Perks vs. Booking Direct — What's Actually Worth It",
     description:
-      "A plain-English audit of Virtuoso benefits — upgrades, breakfast, $100 credits, VIP status — versus booking hotels direct or through points, with the 2026 amenities on file at real properties, across {{hotels:program=Virtuoso}} Virtuoso properties.",
-    updated: "2026-10-01",
+      "A plain-English audit of Virtuoso benefits — upgrades, breakfast, $100 credits, VIP status — versus booking hotels direct or through points, with the 2026 amenities on file at real properties, across all {{hotels:*}} Virtuoso properties in our atlas.",
+    updated: "2026-11-11",
     capsule:
       "A Virtuoso booking costs the same as the hotel's best flexible rate and adds an upgrade when available, daily breakfast for two, a property credit of about $100, early check-in and late check-out priority, and a VIP flag — $150–$400 a night of countable value. Booking direct wins only on prepaid discount rates or points redemptions.",
     answer: [
-      "At the {{hotels:program=Virtuoso}} Virtuoso properties in our atlas, a Virtuoso booking adds — on top of the hotel's own best flexible rate — a room upgrade when available, daily breakfast for two, a property credit (typically $100), early check-in/late check-out priority, and a VIP flag on your reservation. On a typical luxury stay that's $150–$400 per night of countable value at zero rate premium, which is why the honest answer to 'is it worth it' is: it's free money unless you specifically need a prepaid discount rate or are burning points.",
+      "Every one of the {{hotels:*}} properties in {{page:/hotels|our hotel atlas}} is a Virtuoso hotel, including those that also belong to a brand's own advisor program such as {{page:/answers/four-seasons-preferred-partner-benefits|Four Seasons Preferred Partner}}. At each of them, a Virtuoso booking adds — on top of the hotel's own best flexible rate — a room upgrade when available, daily breakfast for two, a property credit (typically $100), early check-in/late check-out priority, and a VIP flag on your reservation. On a typical luxury stay that's $150–$400 per night of countable value at zero rate premium, which is why the honest answer to 'is it worth it' is: it's free money unless you specifically need a prepaid discount rate or are burning points.",
       "Booking direct wins in exactly two cases: non-refundable advance-purchase rates where the discount exceeds the benefit stack (do the math — breakfast for two at a resort is often $120), and loyalty-program stays where elite status plus points redemption beats cash entirely.",
     ],
     sections: [
@@ -148,26 +148,26 @@ export const hotelAnswers = [
           caption: "The 2026 Virtuoso amenities on file for each property in the supplier feed, checked 2026-10-01. Upgrades and early or late check-out are always subject to availability. Each property's page in our atlas lists its current terms in full.",
           columns: ["Property", "Breakfast", "Credit, once per stay", "Upgrade", "Early / late", "Anything extra"],
           rows: [
-            ["Claridge's, London", "Full breakfast for two, restaurant or in-room", "$100 hotel credit", "On arrival", "Yes", "—"],
-            ["Aman Kyoto", "Breakfast for two (already in Aman's rate)", "$100 resort credit", "On arrival", "Yes", "—"],
-            ["Casa Cipriani New York", "$45 per person daily breakfast credit", "$100 food and beverage credit", "On arrival", "Yes", "—"],
-            ["Capella Kyoto", "Full breakfast for two, restaurant or in-room", "$100; $200 in Junior Suites and above", "On arrival", "Yes", "A further $200 credit on stays of 7+ nights"],
-            ["Cheval Blanc Randheli, Maldives", "Breakfast for two (already in the rate)", "$150 food and beverage credit", "On arrival", "Yes", "—"],
-            ["Cheval Blanc Paris", "Full breakfast for two, restaurant or in-room", "None", "On arrival", "Yes", "Round-trip private airport or train transfers with meet and greet"],
-            ["Amanyara, Turks and Caicos", "Breakfast for two (already in the rate)", "$100; plus $100 per villa bedroom", "On arrival", "Yes", "—"],
-            ["Chileno Bay, Auberge Collection, Los Cabos", "$45 per person daily breakfast credit", "$100; $250 in villas of 2+ bedrooms", "On arrival", "Yes", "—"],
+            ["{{hotel:Claridge's, London}}", "Full breakfast for two, restaurant or in-room", "$100 hotel credit", "On arrival", "Yes", "—"],
+            ["{{hotel:Aman Kyoto}}", "Breakfast for two (already in Aman's rate)", "$100 resort credit", "On arrival", "Yes", "—"],
+            ["{{hotel:Casa Cipriani New York}}", "$45 per person daily breakfast credit", "$100 food and beverage credit", "On arrival", "Yes", "—"],
+            ["{{hotel:Capella Kyoto}}", "Full breakfast for two, restaurant or in-room", "$100; $200 in Junior Suites and above", "On arrival", "Yes", "A further $200 credit on stays of 7+ nights"],
+            ["{{hotel:Cheval Blanc Randheli, Maldives}}", "Breakfast for two (already in the rate)", "$150 food and beverage credit", "On arrival", "Yes", "—"],
+            ["{{hotel:Cheval Blanc Paris}}", "Full breakfast for two, restaurant or in-room", "None", "On arrival", "Yes", "Round-trip private airport or train transfers with meet and greet"],
+            ["{{hotel:Amanyara|Amanyara, Turks and Caicos}}", "Breakfast for two (already in the rate)", "$100; plus $100 per villa bedroom", "On arrival", "Yes", "—"],
+            ["{{hotel:Chileno Bay Resort & Residences, Auberge Collection|Chileno Bay, Auberge Collection, Los Cabos}}", "$45 per person daily breakfast credit", "$100; $250 in villas of 2+ bedrooms", "On arrival", "Yes", "—"],
           ],
         },
         paras: [
-          "Two patterns are worth knowing. Where breakfast is already in a resort's rate, as at most Amans and Maldives islands, the credit and the upgrade are the benefits that count. And several hotels scale the credit with the booking, so a suite or a long stay can be worth two or three times the headline $100.",
-          "At hotels that belong to a big group, the group's own advisor program can carry a different list. Our brand-by-brand comparison of those programs is in the link below.",
+          "Two patterns are worth knowing. Where breakfast is already in a resort's rate, as at most {{brand:Aman|Amans}} and {{page:/hotels/maldives|Maldives islands}}, the credit and the upgrade are the benefits that count. And several hotels scale the credit with the booking, so a suite or a long stay can be worth two or three times the headline $100.",
+          "At hotels that belong to a big group, the group's own advisor program can carry a different list. Our {{page:/answers/hotel-brand-advisor-programs-compared|brand-by-brand comparison of those programs}} sets them side by side.",
         ],
       },
       {
         h2: "What the brochures undersell",
         paras: [
           "The soft benefit is the durable one: a Virtuoso reservation arrives at the hotel flagged with your advisor's name and agency relationship. Rooms are assigned before you land, and when a stay goes wrong, the fix comes from the GM's office rather than a call center queue. None of that appears in a rate comparison; all of it appears in how the stay actually goes.",
-          "Also underrated: brand sub-programs stacked by good advisors. Our atlas tracks Marriott STARS ({{hotels:program=Marriott STARS}} properties), Four Seasons Preferred Partner ({{hotels:program=Four Seasons Preferred Partner}}), Rosewood Elite ({{hotels:program=Rosewood Elite}}), Shangri-La The Luxury Circle ({{hotels:program=Shangri-La The Luxury Circle}}), Hilton for Luxury ({{hotels:program=Hilton for Luxury}}), The Peninsula Pen Club ({{hotels:program=The Peninsula Pen Club}}), Jumeirah Passport to Luxury ({{hotels:program=Jumeirah Passport to Luxury}}) and others — at those hotels, the brand's own advisor program often out-benefits generic Virtuoso, and the booking should go through whichever is stronger.",
+          "Also underrated: brand sub-programs stacked by good advisors. Our atlas tracks Marriott STARS ({{hotels:program=Marriott STARS}} properties), {{brand:Four Seasons|Four Seasons Preferred Partner}} ({{hotels:program=Four Seasons Preferred Partner}}), {{brand:Rosewood|Rosewood Elite}} ({{hotels:program=Rosewood Elite}}), {{brand:Shangri-La|Shangri-La The Luxury Circle}} ({{hotels:program=Shangri-La The Luxury Circle}}), Hilton for Luxury ({{hotels:program=Hilton for Luxury}}), {{brand:The Peninsula|The Peninsula Pen Club}} ({{hotels:program=The Peninsula Pen Club}}), {{brand:Jumeirah|Jumeirah Passport}} to Luxury ({{hotels:program=Jumeirah Passport to Luxury}}) and others — at those hotels, the brand's own advisor program often out-benefits generic Virtuoso, and the booking should go through whichever is stronger.",
           "One thing the comparison tables never show, because it changes weekly: {{hotels:promo=true}} of the properties in the atlas are carrying a live supplier promotion right now — a resort credit, a fourth night, a wellness package — on top of the benefits above. Those are what an advisor is actually checking when they say they will \"look at both paths.\"",
         ],
       },
@@ -223,25 +223,25 @@ export const hotelAnswers = [
           caption: "Compiled from our resort files and advisor stay notes, July 2026. Surf conditions are seasonal — confirm for your travel dates.",
           columns: ["Resort", "Swim verdict"],
           rows: [
-            ["Nevis", "Yes — calm Caribbean sand, gentle entry"],
-            ["Anguilla", "Yes — Barnes Bay; among the best swim beaches in the portfolio"],
-            ["Ocean Club, Bahamas", "Yes — long, calm, classic"],
-            ["Punta Mita, Mexico", "Yes — protected bay; some rock, water shoes help at low tide"],
-            ["Los Cabos at Costa Palmas", "Yes — Sea of Cortez side, genuinely swimmable (rare for Cabo)"],
-            ["Peninsula Papagayo, Costa Rica", "Yes — calm gulf beach"],
-            ["Oahu at Ko Olina", "Yes — man-made protected lagoons, ideal for kids"],
-            ["Maui at Wailea", "Yes — Wailea Beach; winter swells occasionally spirited"],
-            ["Hualalai, Big Island", "Mostly no in the open ocean — swim King's Pond and pools instead"],
-            ["Lanai", "Seasonal — Hulopoe Bay superb in calm months, winter surf advisories"],
-            ["Bora Bora", "Yes — lagoon swimming, effectively a pool the size of a sea"],
+            ["{{hotel:Four Seasons Resort Nevis|Nevis}}", "Yes — calm Caribbean sand, gentle entry"],
+            ["{{hotel:Four Seasons Resort and Residences Anguilla|Anguilla}}", "Yes — Barnes Bay; among the best swim beaches in the portfolio"],
+            ["{{hotel:The Ocean Club, A Four Seasons Resort, Bahamas|Ocean Club, Bahamas}}", "Yes — long, calm, classic"],
+            ["{{hotel:Four Seasons Resort Punta Mita|Punta Mita, Mexico}}", "Yes — protected bay; some rock, water shoes help at low tide"],
+            ["{{hotel:Four Seasons Resort and Residences Los Cabos at Costa Palmas|Los Cabos at Costa Palmas}}", "Yes — Sea of Cortez side, genuinely swimmable (rare for Cabo)"],
+            ["{{hotel:Four Seasons Resort Peninsula Papagayo, Costa Rica|Peninsula Papagayo, Costa Rica}}", "Yes — calm gulf beach"],
+            ["{{hotel:Four Seasons Resort Oahu at Ko Olina|Oahu at Ko Olina}}", "Yes — man-made protected lagoons, ideal for kids"],
+            ["{{hotel:Four Seasons Resort Maui at Wailea|Maui at Wailea}}", "Yes — Wailea Beach; winter swells occasionally spirited"],
+            ["{{hotel:Four Seasons Resort Hualalai|Hualalai, Big Island}}", "Mostly no in the open ocean — swim King's Pond and pools instead"],
+            ["{{hotel:Four Seasons Resort Lana'i|Lanai}}", "Seasonal — Hulopoe Bay superb in calm months, winter surf advisories"],
+            ["{{hotel:Four Seasons Resort Bora Bora|Bora Bora}}", "Yes — lagoon swimming, effectively a pool the size of a sea"],
             ["Maldives (both resorts)", "Yes — lagoon perfection"],
-            ["Bali at Jimbaran Bay", "Yes — calm bay, best in dry season"],
-            ["The Nam Hai, Hoi An", "Seasonal — lovely May–September; NE monsoon churns Oct–March"],
+            ["{{hotel:Four Seasons Resort Bali at Jimbaran Bay|Bali at Jimbaran Bay}}", "Yes — calm bay, best in dry season"],
+            ["{{hotel:Four Seasons Resort The Nam Hai, Hoi An, Vietnam|The Nam Hai, Hoi An}}", "Seasonal — lovely May–September; NE monsoon churns Oct–March"],
             ["Koh Samui", "Yes — with seasonal variation"],
             ["Langkawi", "Yes — sheltered Andaman beach"],
             ["Seychelles (Mahé, Desroches)", "Yes — Petite Anse is postcard swimming; some seasonal seaweed/wind sides"],
             ["Mauritius at Anahita", "Lagoon swimming yes; ocean-side better for kitesurfers"],
-            ["Tamarindo, Mexico", "No for swim-focused trips — surf coast, pools compensate"],
+            ["{{hotel:Four Seasons Resort Tamarindo|Tamarindo, Mexico}}", "No for swim-focused trips — surf coast, pools compensate"],
           ],
         },
       },
@@ -293,7 +293,7 @@ export const hotelAnswers = [
       "For a first Aman, choose one where the landscape does the work: Amangiri in Utah, Amanzoe in Greece, Amankila in east Bali, or Amanpuri in Phuket. Leave the city Amans (Tokyo, New York, Venice) and the remote camps for a second visit — they reward travelers who already trust the formula.",
     answer: [
       "For a first {{brand:Aman}}, book the one where the setting does the heavy lifting: Amangiri (Utah desert theater, the most photographed Aman on earth), Amanzoe (Greek hilltop temple, beach club below), Amankila (Bali's east-coast original with the three-tier pool), or Amanpuri (the 1988 founding resort in Phuket, still the purest expression of the formula). Each delivers the Aman thesis — monastic architecture, staff ratios that feel telepathic, silence as the luxury — without asking you to already be a convert.",
-      "Skip on a first pass: the city Amans (Tokyo, New York, Venice — magnificent, but they demonstrate the brand's restraint without its landscapes, and at the highest nightly rates in the portfolio), and the remotest lodges (Amanwana's tented island, Aman-i-Khas's wilderness camp) which reward you more once you already trust the brand. Our atlas carries {{hotels:name=aman}} Aman properties, all with advisor VIP benefits.",
+      "Skip on a first pass: the city Amans ({{hotel:Aman Tokyo|Tokyo}}, {{hotel:Aman New York|New York}}, {{hotel:Aman Venice|Venice}} — magnificent, but they demonstrate the brand's restraint without its landscapes, and at the highest nightly rates in the portfolio), and the remotest lodges ({{hotel:Amanwana|Amanwana's}} tented island, {{hotel:Aman-i-Khas|Aman-i-Khas's}} wilderness camp) which reward you more once you already trust the brand. Our atlas carries {{hotels:name=aman}} Aman properties, all with advisor VIP benefits.",
     ],
     sections: [
       {
@@ -301,12 +301,12 @@ export const hotelAnswers = [
         table: {
           columns: ["You want", "Book", "Why"],
           rows: [
-            ["The iconic one", "Amangiri, Utah", "Desert amphitheater; combine with Camp Sarika tents; easy US access via Page or Vegas+drive"],
-            ["Europe, sea, ruins", "Amanzoe, Greece", "Peloponnese hilltop, private beach club, day trips to Epidaurus/Hydra"],
-            ["Asia classic", "Amanpuri, Thailand", "The original; black-tiled pool, Andaman beach, the service benchmark"],
-            ["Bali without the crowds", "Amankila (or Amandari for the valley)", "East Bali serenity; the anti-Canggu"],
-            ["Wellness immersion", "Amanemu, Japan", "Onsen ryokan reimagined; pairs with Kyoto (Aman Kyoto) rail journey"],
-            ["Island castaway", "Amanpulo, Philippines", "Private island, private plane from Manila; the hardest to leave"],
+            ["The iconic one", "{{hotel:Amangiri|Amangiri, Utah}}", "Desert amphitheater; combine with Camp Sarika tents; easy US access via Page or Vegas+drive"],
+            ["Europe, sea, ruins", "{{hotel:Amanzoe|Amanzoe, Greece}}", "Peloponnese hilltop, private beach club, day trips to Epidaurus/Hydra"],
+            ["Asia classic", "{{hotel:Amanpuri|Amanpuri, Thailand}}", "The original; black-tiled pool, Andaman beach, the service benchmark"],
+            ["Bali without the crowds", "{{hotel:Amankila}} (or {{hotel:Amandari}} for the valley)", "East Bali serenity; the anti-Canggu"],
+            ["Wellness immersion", "{{hotel:Amanemu|Amanemu, Japan}}", "Onsen ryokan reimagined; pairs with Kyoto ({{hotel:Aman Kyoto}}) rail journey"],
+            ["Island castaway", "{{hotel:Amanpulo|Amanpulo, Philippines}}", "Private island, private plane from Manila; the hardest to leave"],
           ],
         },
       },
@@ -329,7 +329,7 @@ export const hotelAnswers = [
     faqs: [
       {
         q: "Which Aman is the least expensive way in?",
-        a: "Rates move seasonally, but the Southeast Asian resorts (Amandari, Amankila, Amanjiwo) in green season are typically the gentlest entry, often 30–40% below the marquee properties. Amangiri and the city Amans anchor the top.",
+        a: "Rates move seasonally, but the Southeast Asian resorts (Amandari, Amankila, {{hotel:Amanjiwo}}) in green season are typically the gentlest entry, often 30–40% below the marquee properties. Amangiri and the city Amans anchor the top.",
       },
       {
         q: "Are Amans good for children?",
@@ -337,7 +337,7 @@ export const hotelAnswers = [
       },
       {
         q: "Aman vs. Six Senses vs. Rosewood — quickly?",
-        a: "Aman: silence and architecture. {{brand:Six Senses}}: wellness and sustainability with more playfulness. Rosewood: residential glamour and better food scenes. All three sit in our atlas with VIP terms; the right one depends on whether the trip is a retreat, a reset, or a stage.",
+        a: "Aman: silence and architecture. {{brand:Six Senses}}: wellness and sustainability with more playfulness. Rosewood: residential glamour and better food scenes ({{page:/answers/ritz-carlton-vs-four-seasons-vs-rosewood|how Rosewood compares with Four Seasons and Ritz-Carlton}}). All three sit in our atlas with VIP terms; the right one depends on whether the trip is a retreat, a reset, or a stage.",
       },
     ],
     related: [
@@ -359,7 +359,7 @@ export const hotelAnswers = [
       "Four Seasons is the consistency machine — the highest floor in luxury hospitality and the best with children. Ritz-Carlton is formal classicism attached to Bonvoy, so it is the only one of the three where points and status do real work, with more variance between properties. Rosewood is the design and food pick, with the smallest fleet and the most upside.",
     answer: [
       "The caricature that holds up in practice: {{brand:Four Seasons}} is the consistency machine — the highest floor in luxury hospitality, superb with children, almost never the wrong answer and occasionally the boring one. {{brand:Ritz-Carlton}} is formal classicism attached to Marriott's Bonvoy engine — the only one of the three where points and status do real work, with more property-to-property variance (the Reserve tier is exceptional; some city flags are dated). {{brand:Rosewood}} is the style pick — residential 'sense of place' design, the best bars and restaurants of the three, a younger crowd, and the most upside when the property is great.",
-      "Our atlas tracks {{hotels:name=ritz-carlton}} Ritz-Carltons, {{hotels:name=four seasons}} Four Seasons and {{hotels:name=rosewood}} Rosewoods, each with their advisor programs (FS Preferred Partner, Marriott STARS, Rosewood Elite) layering upgrades, breakfast and credits on top of published rates.",
+      "{{page:/hotels|Our atlas}} tracks {{hotels:name=ritz-carlton}} Ritz-Carltons, {{hotels:name=four seasons}} Four Seasons and {{hotels:name=rosewood}} Rosewoods, each with their advisor programs ({{page:/answers/four-seasons-preferred-partner-benefits|FS Preferred Partner}}, Marriott STARS, Rosewood Elite — {{page:/answers/hotel-brand-advisor-programs-compared|compared here}}) layering upgrades, breakfast and credits on top of published rates.",
     ],
     sections: [
       {
@@ -391,11 +391,11 @@ export const hotelAnswers = [
       },
       {
         q: "Are these brands' rates negotiable?",
-        a: "Rates no, value yes: advisor-program bookings (Preferred Partner, STARS, Rosewood Elite) add $150–$400/night in benefits at published rates, and advisors see promotional inventory (third/fourth night free, suite deals) that rarely surfaces on brand.com.",
+        a: "Rates no, value yes: advisor-program bookings (Preferred Partner, STARS, Rosewood Elite) add {{page:/answers/virtuoso-perks-vs-booking-direct|$150–$400/night in benefits}} at published rates, and advisors see promotional inventory (third/fourth night free, suite deals) that rarely surfaces on brand.com.",
       },
       {
         q: "Where does Mandarin Oriental fit in this comparison?",
-        a: "Closest to Four Seasons in consistency with a stronger Asian design identity and the best spas in the segment; our atlas carries {{hotels:name=mandarin oriental}} of them, {{hotels:program=Mandarin Oriental Fan Club}} filed under the Fan Club advisor program and the rest booking through Virtuoso. If the trip revolves around a spa, start there.",
+        a: "Closest to Four Seasons in consistency, {{brand:Mandarin Oriental}} has a stronger Asian design identity and the best spas in the segment; our atlas carries {{hotels:name=mandarin oriental}} of them, {{hotels:program=Mandarin Oriental Fan Club}} filed under the Fan Club advisor program and the rest booking through Virtuoso. If the trip revolves around a spa, start there.",
       },
     ],
     related: [
@@ -417,7 +417,7 @@ export const hotelAnswers = [
       "Quiet in Italy is bought with distance from a ferry dock or a funicular, and with a small room count. The quietest luxury hotels we book: Borgo Santo Pietro (22 rooms) and Castello di Velona (45) in Tuscany, Passalacqua (24) and Il Sereno (40) on Lake Como, Monastero Santa Rosa (20) on the Amalfi cliffs, Monaci delle Terre Nere (25) on Etna, and Aman Rosa Alpina (51) in the Dolomites.",
     answer: [
       "For genuine quiet, rather than Positano with a better pool deck, book small hotels that are the destination themselves. In Tuscany that means the farm and wine estates: Borgo Santo Pietro, 22 rooms in its own valley below Chiusdino; Castello di Velona, a castle above the Val d'Orcia; and Borgo San Felice, a whole hamlet inside a Chianti vineyard. On Lake Como it means Passalacqua's 24 rooms in a private park at Moltrasio, and Il Sereno on the east shore at Torno, away from the Bellagio and Varenna ferry docks. On the Amalfi Coast it is Monastero Santa Rosa, 20 rooms in a former monastery on the cliff between the towns rather than in one of them. In Sicily it is Monaci delle Terre Nere, 25 rooms on an organic estate on the slopes of Etna, and in the Dolomites, Aman Rosa Alpina in San Cassiano.",
-      "The pattern: quiet in Italy is bought with distance from a ferry dock, a funicular, or a name that appears on tote bags, and with a room count under about sixty. Our atlas holds {{hotels:country=Italy}} Italian properties, of which the supplier flags {{hotels:country=Italy&experience=Seclusion}} for seclusion; the loudest thirty are the most requested, and the quietest thirty are the best reviewed afterward.",
+      "The pattern: quiet in Italy is bought with distance from a ferry dock, a funicular, or a name that appears on tote bags, and with a room count under about sixty. Our atlas holds {{hotels:country=Italy}} {{page:/hotels/italy|Italian properties}}, of which the supplier flags {{hotels:country=Italy&experience=Seclusion}} for seclusion; the loudest thirty are the most requested, and the quietest thirty are the best reviewed afterward.",
     ],
     sections: [
       {
@@ -426,31 +426,31 @@ export const hotelAnswers = [
           caption: "Every property below is in our atlas with Virtuoso VIP benefits. Room counts are from the supplier feed, checked 2026-10-01.",
           columns: ["Region", "Property", "Rooms", "Why it's quiet"],
           rows: [
-            ["Tuscany (Siena hills)", "Borgo Santo Pietro", "22", "A 13th-century farmhouse estate with its own gardens, farm and kitchen, at the end of a country road below Chiusdino"],
-            ["Tuscany (Val d'Orcia)", "Castello di Velona", "45", "A castle above thermal vineyards; the nearest crowd is Montalcino, far below"],
-            ["Tuscany (Chianti)", "Borgo San Felice", "63", "An entire restored hamlet inside a wine estate"],
-            ["Tuscany (Arezzo)", "Il Borro Estate", "60", "The Ferragamo family valley — vineyards, villas, no through-road"],
-            ["Tuscany (thermal)", "Fonteverde, San Casciano dei Bagni", "78", "A Medici spa town the tour buses skip"],
-            ["Umbria", "Borgo dei Conti, Perugia", "40", "Umbria is Tuscany with half the traffic; this estate proves it"],
-            ["Lake Como (west shore)", "Passalacqua, Moltrasio", "24", "An 18th-century villa in terraced private gardens, with no ferry dock or public promenade in front of it"],
-            ["Lake Como (east shore)", "Il Sereno, Torno", "40", "On the quieter eastern shore near Como, well away from the Bellagio and Varenna ferry circus, with its own boats for the lake"],
-            ["Lake Como (Menaggio)", "Grand Hotel Victoria", "73", "Menaggio's garden end, off the main ferry triangle"],
-            ["Lake Garda", "Lefay Lago di Garda", "96", "A wellness estate high above the lake road"],
-            ["Amalfi Coast", "Monastero Santa Rosa", "20", "A clifftop former monastery at Conca dei Marini, between the towns rather than in one"],
-            ["Ischia", "Mezzatorre Hotel & Thermal Spa", "48", "A 16th-century watchtower in a pine cove; Capri's crowds stay on Capri"],
-            ["Sicily (Etna)", "Monaci delle Terre Nere", "25", "An organic farm estate among lava-stone terraces on Etna's eastern slope, far from Taormina's crowds"],
-            ["Sicily (Sciacca)", "Verdura Resort", "203", "230 private coastal acres with nothing to walk to; for more privacy, its 20 private villas"],
-            ["Sardinia (Gallura hills)", "Petra Segreta, San Pantaleo", "27", "In granite hills above the Costa Smeralda, out of earshot of Porto Cervo"],
-            ["Puglia", "Masseria Torre Maizza", "40", "A fortified 16th-century farmhouse among olive groves near Savelletri"],
-            ["Dolomites", "Aman Rosa Alpina, San Cassiano", "51", "Alpine village hush, Aman staffing"],
-            ["Dolomites", "Lefay Dolomiti, Pinzolo", "88", "Spa-first, ski-adjacent, serenely un-Cortina"],
+            ["Tuscany (Siena hills)", "{{hotel:Borgo Santo Pietro|Borgo Santo Pietro}}", "22", "A 13th-century farmhouse estate with its own gardens, farm and kitchen, at the end of a country road below Chiusdino"],
+            ["Tuscany (Val d'Orcia)", "{{hotel:Castello di Velona Resort, Thermal SPA & Winery|Castello di Velona}}", "45", "A castle above thermal vineyards; the nearest crowd is Montalcino, far below"],
+            ["Tuscany (Chianti)", "{{hotel:Borgo San Felice Resort|Borgo San Felice}}", "63", "An entire restored hamlet inside a wine estate"],
+            ["Tuscany (Arezzo)", "{{hotel:Il Borro Estate|Il Borro Estate}}", "60", "The Ferragamo family valley — vineyards, villas, no through-road"],
+            ["Tuscany (thermal)", "{{hotel:#h_00630|Fonteverde, San Casciano dei Bagni}}", "78", "A Medici spa town the tour buses skip"],
+            ["Umbria", "{{hotel:Borgo dei Conti Resort|Borgo dei Conti, Perugia}}", "40", "Umbria is Tuscany with half the traffic; this estate proves it"],
+            ["Lake Como (west shore)", "{{hotel:Passalacqua|Passalacqua, Moltrasio}}", "24", "An 18th-century villa in terraced private gardens, with no ferry dock or public promenade in front of it"],
+            ["Lake Como (east shore)", "{{hotel:Il Sereno|Il Sereno, Torno}}", "40", "On the quieter eastern shore near Como, well away from the Bellagio and Varenna ferry circus, with its own boats for the lake"],
+            ["Lake Como (Menaggio)", "{{hotel:Grand Hotel Victoria Concept & Spa|Grand Hotel Victoria}}", "73", "Menaggio's garden end, off the main ferry triangle"],
+            ["Lake Garda", "{{hotel:Lefay Resort & SPA Lago di Garda|Lefay Lago di Garda}}", "96", "A wellness estate high above the lake road"],
+            ["Amalfi Coast", "{{hotel:Monastero Santa Rosa Hotel & Spa|Monastero Santa Rosa}}", "20", "A clifftop former monastery at Conca dei Marini, between the towns rather than in one"],
+            ["Ischia", "{{hotel:Mezzatorre Hotel & Thermal Spa|Mezzatorre Hotel & Thermal Spa}}", "48", "A 16th-century watchtower in a pine cove; Capri's crowds stay on Capri"],
+            ["Sicily (Etna)", "{{hotel:Monaci delle Terre Nere|Monaci delle Terre Nere}}", "25", "An organic farm estate among lava-stone terraces on Etna's eastern slope, far from Taormina's crowds"],
+            ["Sicily (Sciacca)", "{{hotel:Verdura Resort, a Rocco Forte Hotel|Verdura Resort}}", "203", "230 private coastal acres with nothing to walk to; for more privacy, its 20 private villas"],
+            ["Sardinia (Gallura hills)", "{{hotel:Petra Segreta Resort & Spa|Petra Segreta, San Pantaleo}}", "27", "In granite hills above the Costa Smeralda, out of earshot of Porto Cervo"],
+            ["Puglia", "{{hotel:Masseria Torre Maizza, a Rocco Forte hotel|Masseria Torre Maizza}}", "40", "A fortified 16th-century farmhouse among olive groves near Savelletri"],
+            ["Dolomites", "{{hotel:Aman Rosa Alpina|Aman Rosa Alpina, San Cassiano}}", "51", "Alpine village hush, Aman staffing"],
+            ["Dolomites", "{{hotel:Lefay Resort & SPA Dolomiti|Lefay Dolomiti, Pinzolo}}", "88", "Spa-first, ski-adjacent, serenely un-Cortina"],
           ],
         },
       },
       {
         h2: "Timing is half the quiet",
         paras: [
-          "Even the famous coasts go quiet on the calendar's edges: Amalfi and the lakes in late September–October and May deliver open restaurants and empty pools; August delivers neither anywhere. If the heart is set on a marquee town — Positano, Taormina, Portofino — book the quietest property in it (Villa Treville's 22 rooms in Positano; Villa Sant'Andrea on Taormina's beach below the town) and take the town in doses.",
+          "Even the famous coasts go quiet on the calendar's edges: Amalfi and the lakes in late September–October and May deliver open restaurants and empty pools; August delivers neither anywhere. If the heart is set on a marquee town — Positano, Taormina, Portofino — book the quietest property in it ({{hotel:Villa Treville|Villa Treville's}} 22 rooms in Positano; {{hotel:Villa Sant'Andrea, A Belmond Hotel, Taormina Mare|Villa Sant'Andrea}} on Taormina's beach below the town) and take the town in doses.",
           "For total silence with Italian polish, remember the country's own countryside brands: the wine-estate hotels above are functionally Italy's answer to Aman pricing at half the rate, with cellars attached.",
         ],
       },
@@ -470,11 +470,11 @@ export const hotelAnswers = [
       },
       {
         q: "Is Lake Como quiet anywhere in summer?",
-        a: "Midweek, yes, away from Bellagio and Varenna docks: the Menaggio and Tremezzo garden shores, and hotels whose grounds are the destination (Villa d'Este, Villa Serbelloni's park). Weekends belong to Milan.",
+        a: "Midweek, yes, away from Bellagio and Varenna docks: the Menaggio and Tremezzo garden shores, and hotels whose grounds are the destination ({{hotel:Villa d'Este}}, {{hotel:Grand Hotel Villa Serbelloni|Villa Serbelloni's}} park). Weekends belong to Milan.",
       },
       {
         q: "What about Puglia or Sardinia?",
-        a: "Puglia's masserie (Borgo Egnazia's quieter rivals) and northern Sardinia outside Porto Cervo (Petra Segreta in the hills, 7Pines' cliff end) are exactly the right instinct — Sardinia in June or September especially.",
+        a: "Puglia's masserie ({{hotel:Borgo Egnazia|Borgo Egnazia's}} quieter rivals) and northern Sardinia outside Porto Cervo (Petra Segreta in the hills, {{hotel:7Pines Resort Sardinia|7Pines'}} cliff end) are exactly the right instinct — Sardinia in June or September especially.",
       },
     ],
     related: [
@@ -498,7 +498,7 @@ export const hotelAnswers = [
     capsule:
       "The safari lodges we send travelers to first are Jack's Camp in Botswana's Makgadikgadi, Belmond's Okavango camps, Bushmans Kloof in the malaria-free Cederberg, Elewana Loisaba on Kenya's Laikipia plateau, Londolozi and Singita in the Sabi Sand, and Fairmont Mara Safari Club. On safari the advisor's value is itinerary spine and private vehicles, not breakfast credits.",
     answer: [
-      "From the {{hotels:category=Lodge / Safari}} safari and wilderness lodges in our atlas — most in Africa, the rest wilderness camps and ranches on other continents — the ones we send travelers to first: Jack's Camp in Botswana's Makgadikgadi (the great eccentric — Kalahari meerkats, desert-Baroque tents), {{brand:Belmond}}'s Botswana camps in the Okavango, Bushmans Kloof in the Cederberg (rock art, no malaria, family-friendly South Africa), Elewana Loisaba Tented Camp on Kenya's Laikipia plateau, Londolozi and Singita in the Sabi Sand, and Fairmont Mara Safari Club for the Mara circuit with big-hotel polish.",
+      "From the {{hotels:category=Lodge / Safari}} safari and wilderness lodges in our atlas — most in Africa, the rest wilderness camps and ranches on other continents — the ones we send travelers to first: {{hotel:Jack's Camp}} in Botswana's Makgadikgadi (the great eccentric — Kalahari meerkats, desert-Baroque tents), {{brand:Belmond}}'s Botswana camps in the Okavango, {{hotel:Bushmans Kloof Wilderness Reserve & Retreat|Bushmans Kloof}} in the Cederberg (rock art, no malaria, family-friendly South Africa), {{hotel:Elewana Loisaba Tented Camp}} on Kenya's Laikipia plateau, {{hotel:Londolozi Private Game Reserve|Londolozi}} and {{hotel:Singita - Singita Sabi Sand|Singita}} in the Sabi Sand, and {{hotel:Fairmont Mara Safari Club}} for the Mara circuit with big-hotel polish.",
       "On safari, advisor value is less about breakfast credits (everything's included anyway) and more about the itinerary spine: which camps combine, private-vehicle guarantees, guide requests, charter logistics between airstrips, and the green-season pricing that halves rates in months that are often better game viewing than the brochure months.",
     ],
     sections: [
@@ -510,12 +510,12 @@ export const hotelAnswers = [
             ["The surrealist safari", "Jack's Camp, Makgadikgadi, Botswana", "Salt pans, habituated meerkats, museum-tent glamour — pairs with an Okavango water camp"],
             ["Classic Kenya", "Elewana Loisaba + Fairmont Mara Safari Club", "Laikipia exclusivity plus the Mara river-crossing theater"],
             ["Malaria-free family safari", "Bushmans Kloof, South Africa", "Cederberg wilderness, ancient rock art, kids welcome"],
-            ["Okavango water-and-land", "Belmond Safaris (Eagle Island, Savute, Khwai)", "Mokoro canoes, elephants, Belmond service — Bellini Club perks apply"],
-            ["Green-season value", "Anantara Kafue River Tented Camp, Zambia", "Emerging Kafue at pre-fame pricing"],
+            ["Okavango water-and-land", "{{hotel:Belmond Safaris}} ({{hotel:Eagle Island Lodge, A Belmond Safari|Eagle Island}}, Savute, Khwai)", "Mokoro canoes, elephants, Belmond service — Bellini Club perks apply"],
+            ["Green-season value", "{{hotel:Anantara Tented Camp Kafue River|Anantara Kafue River Tented Camp, Zambia}}", "Emerging Kafue at pre-fame pricing"],
           ],
         },
         paras: [
-          "The {{hotels:category=Lodge / Safari}} 'lodge/safari' properties also include wilderness lodges beyond Africa — Clayoquot in British Columbia, Blancaneaux in Belize, Explora in Patagonia and the Atacama, Huka Lodge in New Zealand — for travelers who want the safari rhythm (guides, wild luxury, all-inclusive days) on other continents.",
+          "The {{hotels:category=Lodge / Safari}} 'lodge/safari' properties also include wilderness lodges beyond Africa — {{hotel:Clayoquot Wilderness Lodge, Beckons|Clayoquot}} in British Columbia, {{hotel:Blancaneaux Lodge|Blancaneaux}} in Belize, Explora in {{hotel:Explora Torres del Paine|Patagonia}} and {{hotel:Explora Atacama|the Atacama}}, {{hotel:Huka Lodge, Beckons|Huka Lodge}} in New Zealand — for travelers who want the safari rhythm (guides, wild luxury, all-inclusive days) on other continents.",
         ],
       },
       {
@@ -524,7 +524,7 @@ export const hotelAnswers = [
           "Camp combinations over camp names: two contrasting ecosystems (water + land in Botswana; Laikipia + Mara in Kenya) beat two famous lookalikes.",
           "Private vehicle on at least the photographic legs — the single upgrade that changes the trip most.",
           "Green/shoulder season: January–March Botswana and November Kenya price 30–50% below peak with dramatic skies and newborn everything.",
-          "Charter weight limits (often 15kg soft bags) — plan camera gear accordingly.",
+          "Charter weight limits (often 15kg soft bags; {{page:/journeys/safari|our safari itineraries}} list the legs) — plan camera gear accordingly.",
           "Book 9–15 months out for dry-season marquee camps; they sell by the tent, not the hundred rooms.",
         ],
       },
@@ -532,7 +532,7 @@ export const hotelAnswers = [
     faqs: [
       {
         q: "Botswana or Kenya for a first safari?",
-        a: "Kenya for spectacle and value breadth (the Mara migration July–October); Botswana for exclusivity and water-based variety at higher cost. Both in 10–12 days is the honeymoon classic for a reason.",
+        a: "Kenya for spectacle and value breadth ({{page:/answers/best-time-to-see-the-great-migration-month-by-month|the Mara migration July–October}}); see also {{page:/answers/botswana-vs-kenya-vs-south-africa-first-safari|Botswana vs. Kenya vs. South Africa for a first safari}}; Botswana for exclusivity and water-based variety at higher cost. Both in 10–12 days is the honeymoon classic for a reason.",
       },
       {
         q: "Are safaris all-inclusive?",
@@ -580,25 +580,25 @@ export const hotelAnswers = [
           caption: "Hand-kept, from the {{hotels:category=Mountain / Ski}} mountain and ski properties in the atlas. \"Ski-in/ski-out\" is our verdict, not a supplier flag — which is exactly why it is a written table rather than a query.",
           columns: ["Property", "Resort", "Real verdict"],
           rows: [
-            ["Cheval Blanc Courchevel", "Courchevel 1850", "True ski-in/out; LVMH polish; the segment's benchmark"],
-            ["Airelles Courchevel", "Courchevel 1850", "True ski-in/out; maximalist fantasy; best kids' program in the Alps"],
-            ["L'Apogée Courchevel", "Courchevel 1850", "True ski-in/out via Jardin Alpin; the quiet-confident choice"],
-            ["Four Seasons Megève", "Megève", "On-piste at Mont d'Arbois; gentler terrain, superb spa"],
-            ["Alpaga", "Megève", "Chalet hamlet — shuttle to lifts, charm compensates"],
-            ["Grand Hotel Zermatterhof / Mont Cervin Palace", "Zermatt", "Not ski-in/out (car-free town) — but Zermatt logistics are easy and the Matterhorn forgives all"],
-            ["Stein Eriksen Residences", "Deer Valley", "True ski-in/out; residence-style space; Deer Valley grooming cult"],
-            ["Goldener Hirsch", "Deer Valley", "Ski-in/out at Silver Lake; Austrian-Aspen hybrid charm"],
-            ["Four Seasons Whistler", "Whistler Blackcomb", "Ski concierge shuttle to base (not on-snow) — biggest terrain on the continent"],
-            ["Fairmont Chateau Whistler", "Whistler Blackcomb", "True ski-in/out at Blackcomb base"],
-            ["Grand Hyatt Vail", "Vail", "Own chairlift (No. 20) — the sleeper ski-in/out of Vail"],
-            ["MOLLIE Aspen / W Aspen", "Aspen", "Gondola-steps, not ski-in/out; Aspen's trade-off is the town itself"],
+            ["{{hotel:Cheval Blanc Courchevel}}", "Courchevel 1850", "True ski-in/out; LVMH polish; the segment's benchmark"],
+            ["{{hotel:Les Airelles, Courchevel|Airelles Courchevel}}", "Courchevel 1850", "True ski-in/out; maximalist fantasy; best kids' program in the Alps"],
+            ["{{hotel:L'Apogee Courchevel, Oetker Hotels|L'Apogée Courchevel}}", "Courchevel 1850", "True ski-in/out via Jardin Alpin; the quiet-confident choice"],
+            ["{{hotel:Four Seasons Resort Megeve|Four Seasons Megève}}", "Megève", "On-piste at Mont d'Arbois; gentler terrain, superb spa"],
+            ["{{hotel:L'Alpaga Megève, a Beaumier Hotel|Alpaga}}", "Megève", "Chalet hamlet — shuttle to lifts, charm compensates"],
+            ["{{hotel:Grand Hotel Zermatterhof}} / {{hotel:Mont Cervin Palace Zermatt|Mont Cervin Palace}}", "Zermatt", "Not ski-in/out (car-free town) — but Zermatt logistics are easy and the Matterhorn forgives all"],
+            ["{{hotel:Stein Eriksen Lodge Deer Valley|Stein Eriksen Residences}}", "Deer Valley", "True ski-in/out; residence-style space; Deer Valley grooming cult"],
+            ["{{hotel:The Goldener Hirsch, Auberge Collection|Goldener Hirsch}}", "Deer Valley", "Ski-in/out at Silver Lake; Austrian-Aspen hybrid charm"],
+            ["{{hotel:Four Seasons Resort & Residences Whistler|Four Seasons Whistler}}", "Whistler Blackcomb", "Ski concierge shuttle to base (not on-snow) — biggest terrain on the continent"],
+            ["{{hotel:Fairmont Chateau Whistler}}", "Whistler Blackcomb", "True ski-in/out at Blackcomb base"],
+            ["{{hotel:Grand Hyatt Vail}}", "Vail", "Own chairlift (No. 20) — the sleeper ski-in/out of Vail"],
+            ["{{hotel:MOLLIE Aspen}} / {{hotel:W Aspen & The Sky Residences at W Aspen|W Aspen}}", "Aspen", "Gondola-steps, not ski-in/out; Aspen's trade-off is the town itself"],
           ],
         },
       },
       {
         h2: "Alps or Rockies, decided honestly",
         paras: [
-          "Choose the Alps when the trip is as much dinner as descent: Courchevel 1850 holds more Michelin stars than most capital cities, and the Trois Vallées' 600km dwarf anything in North America. Choose the Rockies when snow certainty, tree-skiing, and effortless logistics (direct flights, English-speaking ski school, no lunchtime reservations arms race) matter more — Deer Valley for polish, Whistler for terrain, Vail for both in bulk.",
+          "Choose the Alps when the trip is as much dinner as descent: Courchevel 1850 holds more Michelin stars than most capital cities, and the Trois Vallées' 600km dwarf anything in North America. Choose the Rockies when snow certainty, tree-skiing, and effortless logistics (direct flights, English-speaking ski school, no lunchtime reservations arms race) matter more — Deer Valley for polish, Whistler for terrain, Vail for both in bulk — and if it is Colorado, {{page:/answers/aspen-vs-vail-vs-telluride-luxury-ski-trip|Aspen vs. Vail vs. Telluride}} settles which town.",
           "January (post–Jan 6) and the last three weeks of March are the luxury ski calendar's open secret: identical mountains, 40–50% off festive-week rates, and actual availability at the palaces above.",
         ],
       },
@@ -643,7 +643,7 @@ export const hotelAnswers = [
     capsule:
       "Hotels with advisor perks, brand by brand: Four Seasons (Preferred Partner), Marriott's Ritz-Carlton and St. Regis (STARS), IHG's InterContinental and Six Senses (Destined), Hilton's Waldorf Astoria and Conrad (Hilton for Luxury), Hyatt (Privé), Rosewood (Elite), Shangri-La (The Luxury Circle), Peninsula (Pen Club), Mandarin Oriental (Fan Club) and Jumeirah (Passport to Luxury). Booked through a member advisor at the hotel's own rate, each typically adds breakfast for two, a $100 credit, an upgrade when available and early or late check-out.",
     answer: [
-      "Which hotel brands give perks through an advisor? Nearly every luxury group does, each through its own invitation-only program: Four Seasons Preferred Partner, Marriott STARS, IHG Destined, Hilton for Luxury, Hyatt Privé, Rosewood Elite, Shangri-La The Luxury Circle, The Peninsula Pen Club, Mandarin Oriental Fan Club and Jumeirah Passport to Luxury. The list below gives each brand's benefits; independent hotels such as {{brand:Aman}}, {{brand:Belmond}} and {{brand:Cheval Blanc}} give theirs through Virtuoso.",
+      "Which hotel brands give perks through an advisor? Nearly every luxury group does, each through its own invitation-only program: {{page:/answers/four-seasons-preferred-partner-benefits|Four Seasons Preferred Partner}}, Marriott STARS, IHG Destined, Hilton for Luxury, Hyatt Privé, Rosewood Elite, Shangri-La The Luxury Circle, The Peninsula Pen Club, Mandarin Oriental Fan Club and Jumeirah Passport to Luxury. The list below gives each brand's benefits; independent hotels such as {{brand:Aman}}, {{brand:Belmond}} and {{brand:Cheval Blanc}} give theirs through {{page:/answers/virtuoso-perks-vs-booking-direct|Virtuoso}}.",
       "Hotel groups keep a short list of travel advisors whose clients they most want, and give those clients a standard set of benefits. The names differ but the shape is similar: daily breakfast for two, a property credit (commonly $100), an upgrade on arrival when available, early check-in and late check-out when available, and a welcome amenity. The rate is the hotel's own flexible rate, so the benefits cost nothing extra.",
       "These brand programs sit alongside Virtuoso rather than replacing it. At a {{brand:Ritz-Carlton}} or {{brand:St. Regis}}, Marriott STARS is often the stronger stack; at an {{brand:InterContinental}} or {{brand:Six Senses}}, IHG Destined. An advisor who holds several can book each hotel through whichever serves you best. In our atlas, {{hotels:program=Marriott STARS}} properties are filed under Marriott STARS, {{hotels:program=IHG Destined}} under IHG Destined, {{hotels:program=Hilton for Luxury}} under Hilton for Luxury, {{hotels:program=Rosewood Elite}} under Rosewood Elite and {{hotels:program=Shangri-La The Luxury Circle}} under Shangri-La's Luxury Circle.",
     ],
@@ -666,7 +666,7 @@ export const hotelAnswers = [
           "Independent hotels and smaller brands (Aman, Cheval Blanc, {{brand:Capella}} and most Relais & Châteaux) — usually through Virtuoso, with a similar list.",
         ],
         paras: [
-          "Benefits are as filed for 2026 in the supplier feed behind our atlas, checked 2026-10-01. Hotels vary the details, and each property's own page lists what is on file for it.",
+          "Benefits are as filed for 2026 in the supplier feed behind our atlas, checked 2026-10-01. Hotels vary the details, and each property's own page lists what is on file for it; {{page:/hotels/brands|our brand pages}} gather them by group.",
         ],
       },
       {

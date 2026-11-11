@@ -47,7 +47,7 @@ export const safariAnswers = [
             ["Micato Safaris", "Ground operation in East Africa", "Kenya and Tanzania", "First safari, and you want to be looked after"],
             ["Ker & Downey", "Nothing — it designs", "Bespoke Africa, wide range", "The trip should be built rather than chosen"],
             ["Artisans of Leisure", "Nothing — it designs", "Multi-country, culture plus wildlife", "Safari is one half of a longer trip"],
-            ["{{op:safari/Natural Habitat}}", "Naturalist programme", "Churchill polar bears, Alaska, the Galápagos", "The wildlife is the whole point, Africa or not"],
+            ["{{op:safari/Natural Habitat}}", "Naturalist programme", "{{page:/answers/polar-bear-trip-svalbard-vs-churchill|Churchill polar bears}}, Alaska, {{page:/answers/galapagos-lindblad-vs-silversea-vs-aqua|the Galápagos}}", "The wildlife is the whole point, Africa or not"],
           ],
         },
         paras: [
@@ -57,7 +57,7 @@ export const safariAnswers = [
       {
         h2: "The half of a safari that is not the itinerary",
         paras: [
-          "A safari has two halves and travellers reliably shop for only one. The itinerary — which countries, which camps, in what order — is the operator's. The lodges are the atlas's: {{hotels:category=Lodge / Safari}} safari and wilderness properties, {{hotels:category=Lodge / Safari&perks=true}} of them with VIP benefits on file that a booking through an advisor carries. Booking the trip through one channel and the camps through another loses those benefits; booking both together does not.",
+          "A safari has two halves and travellers reliably shop for only one. The itinerary — which countries, which camps, in what order — is the operator's. The lodges are {{page:/atlas/hotel?category=Lodge+%2F+Safari|the atlas's}}: {{hotels:category=Lodge / Safari}} safari and wilderness properties, {{hotels:category=Lodge / Safari&perks=true}} of them with VIP benefits on file that a booking through an advisor carries. Booking the trip through one channel and the camps through another loses those benefits; booking both together does not.",
           "On safari the advisor's value is also not what it is in a hotel. Everything is already included — meals, drinks, twice-daily game drives, often laundry — so there is no breakfast credit to add. What there is: which camps combine into one trip, private-vehicle guarantees on the photographic legs, guide requests by name, the charter weight limits nobody mentions until you are at the airstrip, and green-season pricing that halves the rate in months that often view better than the brochure ones.",
         ],
       },
@@ -114,9 +114,9 @@ export const safariAnswers = [
           columns: ["If this is you", "Go to", "Runner-up", "Why"],
           rows: [
             ["First safari, short on time (under a week)", "Kenya", "South Africa", "The Masai Mara shows the most game per hour, and Nairobi has the most direct long-haul flights"],
-            ["The Great Migration is the picture in your head", "Kenya, July to October", "Tanzania", "River crossings on the Mara; calving in Tanzania's southern Serengeti in January to March"],
-            ["Travelling with children under twelve", "South Africa", "Kenya", "Malaria-free reserves, family lodges, and camps without a minimum age"],
-            ["You want to avoid malaria altogether", "South Africa", "—", "Madikwe and the Eastern Cape reserves are malaria-free; Kenya and Botswana are not"],
+            ["The Great Migration is the picture in your head", "Kenya, July to October", "Tanzania", "{{page:/answers/best-time-to-see-the-great-migration-month-by-month|River crossings on the Mara}}; calving in Tanzania's southern Serengeti in January to March"],
+            ["{{page:/answers/safari-with-children-minimum-ages|Travelling with children under twelve}}", "South Africa", "Kenya", "Malaria-free reserves, family lodges, and camps without a minimum age"],
+            ["You want to avoid malaria altogether", "South Africa", "—", "Madikwe and the Eastern Cape reserves ({{page:/hotels/south-africa|our South African lodges}}) are malaria-free; Kenya and Botswana are not"],
             ["You want no other vehicles at a sighting", "Botswana", "Kenya's conservancies", "Private Okavango concessions limit vehicles; Mara conservancies cap them too"],
             ["You want water: mokoro, boats, flooded plains", "Botswana", "—", "The Okavango Delta is the only one of the three with water-based game viewing"],
             ["Leopard is the animal you most want to see", "South Africa (Sabi Sand)", "Botswana", "Habituated leopards and off-road tracking in the private reserves"],
@@ -134,8 +134,8 @@ export const safariAnswers = [
           rows: [
             ["Game density", "Highest — the Mara concentrates everything", "Lower per hour, higher quality of sighting", "Very good; Sabi Sand is the leopard capital"],
             ["Other vehicles", "Many in the reserve, few in the conservancies", "Fewest anywhere", "Few in private reserves, many in Kruger proper"],
-            ["Cost", "Best value of the three", "Highest — concessions price exclusivity", "Widest range, from modest to Singita"],
-            ["Water game viewing", "No", "Yes — mokoro, boats, flooded plains", "No"],
+            ["Cost", "Best value of the three", "Highest — concessions price exclusivity", "Widest range, from modest to {{hotel:Singita - Singita Sabi Sand|Singita}}"],
+            ["Water game viewing", "No", "Yes — {{page:/answers/okavango-delta-water-camp-vs-land-camp|mokoro, boats, flooded plains}}", "No"],
             ["Malaria", "Present", "Present", "Malaria-free reserves exist (Madikwe, Cederberg)"],
             ["With children", "Good from about 8", "Most camps set a minimum age", "Best of the three — family lodges and no malaria"],
             ["Pairs with", "Beach at Lamu or Zanzibar", "Victoria Falls, Cape Town", "Cape Town, the winelands, the Garden Route"],
@@ -200,7 +200,7 @@ export const safariAnswers = [
     capsule:
       "Gorilla permits as of October 2026: $1,500 per trek in Rwanda, $800 per trek in Uganda, and $1,500 for Uganda's four-hour habituation experience. Choose Rwanda when time is short and comfort matters: Volcanoes National Park is about three hours by road from Kigali and the lodges are among Africa's best. Choose Uganda when you have more days and want better value: the forest is wilder, the treks often harder, and Kibale adds the best chimpanzee tracking in Africa.",
     answer: [
-      "Both countries give you the same thing at the end of the trek: one hour, in a group of at most eight, with a habituated mountain gorilla family. What differs is everything around that hour. Rwanda is the efficient, polished version. You land in Kigali, drive about three hours to Volcanoes National Park, and trek from a lodge that is often the best room of the whole Africa trip. The price of that ease is the permit, $1,500 per person per trek.",
+      "Both countries give you the same thing at the end of the trek: one hour, in a group of at most eight, with a habituated mountain gorilla family. What differs is everything around that hour. Rwanda is the efficient, polished version. You land in Kigali, drive about three hours to Volcanoes National Park, and trek from a lodge — {{hotel:One&Only Gorilla's Nest}} or {{hotel:Singita - Singita Volcanoes National Park|Singita Volcanoes}} — that is often the best room of the whole Africa trip. The price of that ease is the permit, $1,500 per person per trek.",
       "Uganda is the version with more forest and more time in it. Bwindi Impenetrable is steeper and denser, reached by light aircraft or a long drive, and its permits cost $800. It also has more gorilla families to allocate, a four-hour habituation experience that Rwanda does not offer, and Kibale Forest, which is where serious chimpanzee tracking happens. Of the {{journeys:collection=safari&region=GREATAPES}} great-ape itineraries in our atlas, {{journeys:collection=safari&country=Rwanda}} go to Rwanda and {{journeys:collection=safari&country=Uganda}} to Uganda.",
     ],
     sections: [
@@ -244,7 +244,7 @@ export const safariAnswers = [
           "A week or more, and the primates are the point: Uganda, with Bwindi and Kibale together.",
           "Two treks rather than one: either works, but the second trek costs $800 in Uganda and $1,500 in Rwanda.",
           "Fitness is a real concern: Rwanda, where rangers can often assign a nearer family on request. It is a request, not a promise.",
-          "Honeymoon or a milestone: Rwanda's lodges are the reason, and they are worth it.",
+          "Honeymoon or a milestone: {{page:/hotels/rwanda|Rwanda's lodges}} are the reason, and they are worth it.",
         ],
       },
       {
