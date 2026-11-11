@@ -3,16 +3,16 @@
   "purpose": "Safari lodges from the hotel atlas, joined to safari journeys by coordinate proximity. Built by scripts/build-safari-camps.mjs; do not hand-edit.",
   "built": "derived — see scripts/build-safari-camps.mjs",
   "radiusKm": 25,
-  "lodgesInCategory": 71,
-  "lodgesInSafariCountries": 69,
+  "lodgesInCategory": 68,
+  "lodgesInSafariCountries": 66,
   "journeysWithCamps": 269,
   "journeysTotal": 516,
   "campsMatched": 42
  },
  "radiusKm": 25,
  "totals": {
-  "category": 71,
-  "inSafariCountries": 69
+  "category": 68,
+  "inSafariCountries": 66
  },
  "CAMPS": {
   "h_01781": {

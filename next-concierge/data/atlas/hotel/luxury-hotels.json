@@ -689,29 +689,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00008",
-  "name": "1 Hotel Toronto",
-  "brand": "1 Hotel",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Canada",
-  "city": "Toronto",
-  "address": "550 Wellington St W",
-  "lat": 43.643042,
-  "lng": -79.401618,
-  "region": null,
-  "adminRegion": "Ontario",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00009",
   "vid": "16257303",
   "name": "1 Hotel West Hollywood",
@@ -5816,29 +5793,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00061",
-  "name": "Aman Summer Palace",
-  "brand": "Aman",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "China",
-  "city": "Beijing",
-  "address": "1 Gongmenqian St",
-  "lat": 39.904211,
-  "lng": 116.407395,
-  "region": null,
-  "adminRegion": "Beijing Municipality",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00062",
   "vid": "14934724",
   "name": "Aman Tokyo",
@@ -6928,29 +6882,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00072",
-  "name": "Amangani",
-  "brand": "Aman",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "Jackson",
-  "address": "PO Box 15030",
-  "lat": 43.50405,
-  "lng": -110.774394,
-  "region": null,
-  "adminRegion": "Wyoming",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00073",
   "vid": "6164435",
   "name": "Amangiri",
@@ -7893,29 +7824,6 @@
    "zen"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00081",
-  "name": "Amanruya",
-  "brand": "Aman",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Turkey",
-  "city": "Bodrum",
-  "address": "Bulent Ecevit Cad., Demir Mevkii",
-  "lat": 37.097851,
-  "lng": 27.444212,
-  "region": "mediterranean",
-  "adminRegion": "Mugla",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_00082",
@@ -12245,29 +12153,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00119",
-  "name": "Anantara Vilamoura Algarve Resort",
-  "brand": "Anantara",
-  "program": "Virtuoso",
-  "category": "Resort / Leisure",
-  "country": "Portugal",
-  "city": "Vilamoura",
-  "address": "Av. dos Descobrimentos",
-  "lat": 37.103139,
-  "lng": -8.142139,
-  "region": null,
-  "adminRegion": "Algarve",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00120",
   "vid": "16728551",
   "name": "Anantara Villa Padierna Palace - Benahavis Marbella Resort",
@@ -12395,30 +12280,6 @@
    "spa"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00121",
-  "name": "Anantara World Islands Dubai Resort",
-  "brand": "Anantara",
-  "program": "Virtuoso",
-  "category": "Island Resort",
-  "country": "United Arab Emirates",
-  "city": "Dubai",
-  "address": "South America - The World Islands",
-  "lat": 25.194259,
-  "lng": 55.17656,
-  "region": null,
-  "adminRegion": "Dubai Emirate",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "island",
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_00122",
@@ -13005,35 +12866,6 @@
    "spa"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00127",
-  "name": "Andaz Mayakoba Resort Riviera Maya",
-  "brand": "Andaz",
-  "program": "Virtuoso",
-  "category": "Resort / Leisure",
-  "country": "Mexico",
-  "city": "Playa del Carmen",
-  "address": "Carretera Federal 307 km 298",
-  "lat": 20.689833,
-  "lng": -87.036253,
-  "region": null,
-  "adminRegion": "Quintana Roo",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability (to next room category)",
-   "Daily Buffet breakfast for up to two guests per bedroom, served at NA Cocina Local",
-   "$100 USD equivalent Resort or Hotel credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early check-in / Late check-out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_00128",
@@ -14051,29 +13883,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00139",
-  "name": "Annandale",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Saint Vincent and the Grenadines",
-  "city": "St. Vincent",
-  "address": "Mesopotamia Valley",
-  "lat": 13.168514,
-  "lng": -61.166538,
-  "region": null,
-  "adminRegion": "Saint Vincent",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_v18620918",
   "vid": "18620918",
   "name": "Appellation Healdsburg",
@@ -14392,29 +14201,6 @@
    "spa"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00142",
-  "name": "Ararat Park Hyatt Moscow",
-  "brand": "Park Hyatt",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Russia",
-  "city": "Moscow",
-  "address": "4 Neglinnaya Street",
-  "lat": 55.759897,
-  "lng": 37.62165,
-  "region": null,
-  "adminRegion": "Moscow City",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_00017",
@@ -23662,29 +23448,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00229",
-  "name": "Borgo Finocchieto",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Italy",
-  "city": "Buonconvento",
-  "address": "Loc Bibbiano",
-  "lat": 43.11879,
-  "lng": 11.460843,
-  "region": "mediterranean",
-  "adminRegion": "Toscana",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00230",
   "vid": "18232453",
   "name": "Borgo Pignano Florence",
@@ -26003,36 +25766,6 @@
    "wellness"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00255",
-  "name": "Burgenstock Hotel and Alpine Spa - The Contemporary",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Spa / Wellness Resort",
-  "country": "Switzerland",
-  "city": "Nidwalden",
-  "address": "Bürgenstock",
-  "lat": 46.926702,
-  "lng": 8.384998,
-  "region": null,
-  "adminRegion": "Canton of Nidwalden",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability",
-   "Daily breakfast for up to two guests per bedroom, served in the restaurant (already included in property rates)",
-   "$100 USD equivalent Resort or Hotel credit utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early Check-In / Late Check-Out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "spa",
-   "wellness"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_00256",
@@ -31942,66 +31675,6 @@
    "wellness"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00332",
-  "name": "Carilion Miami Wellness Resort",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Spa / Wellness Resort",
-  "country": "United States",
-  "city": "Miami",
-  "address": "4250 Collins Ave",
-  "lat": 25.814162,
-  "lng": -80.123071,
-  "region": null,
-  "adminRegion": "Florida",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability",
-   "Daily breakfast credit of $45 per person, for up to two guests per bedroom, served in the restaurant (credit is non-cumulative)",
-   "$100 USD Spa Services credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early Check-In / Late Check-Out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "spa",
-   "wellness"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
-  "id": "h_00333",
-  "name": "Carillon Miami Wellness Resort",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Spa / Wellness Resort",
-  "country": "United States",
-  "city": "Miami Beach",
-  "address": "6801 Collins Avenue",
-  "lat": 25.852981,
-  "lng": -80.120179,
-  "region": null,
-  "adminRegion": "Florida",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability",
-   "Daily breakfast credit of $45 per person, for up to two guests per bedroom, served in the restaurant (credit is non-cumulative)",
-   "$100 USD Spa Services credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early Check-In / Late Check-Out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "spa",
-   "wellness"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_00334",
@@ -39597,29 +39270,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00411",
-  "name": "Cibolo Creek Ranch",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Resort / Leisure",
-  "country": "United States",
-  "city": "Marfa",
-  "address": "Presidio County Hwy 67",
-  "lat": 29.893536,
-  "lng": -104.260769,
-  "region": null,
-  "adminRegion": "Texas",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00412",
   "vid": "6163642",
   "name": "Ciragan Palace Kempinski Istanbul",
@@ -41151,30 +40801,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00271",
-  "name": "COMO Laucala Island",
-  "brand": "COMO",
-  "program": "Virtuoso",
-  "category": "Island Resort",
-  "country": "Fiji",
-  "city": "Laucala Island",
-  "address": "Laucala Island",
-  "lat": -16.743591,
-  "lng": -179.682717,
-  "region": "polynesia",
-  "adminRegion": "Cakaudrove Province",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "island",
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_v18394239",
   "vid": "18394239",
   "name": "COMO Le Beauvallon",
@@ -41709,29 +41335,6 @@
    "wellness"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00278",
-  "name": "COMO Uma",
-  "brand": "COMO",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Indonesia",
-  "city": "Bali",
-  "address": "Ubud",
-  "lat": -8.491662,
-  "lng": 115.254054,
-  "region": null,
-  "adminRegion": "Bali Province",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_00279",
@@ -47425,29 +47028,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00488",
-  "name": "Delamar West Hartford",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "West Hartford",
-  "address": "1 Memorial Rd",
-  "lat": 41.759852,
-  "lng": -72.73868,
-  "region": null,
-  "adminRegion": "Connecticut",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00489",
   "vid": "16827998",
   "name": "Delano Dubai",
@@ -47797,36 +47377,6 @@
    "wellness"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00494",
-  "name": "Desaru Coast",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Malaysia",
-  "city": "Johor",
-  "address": "No. 7, Persiaran Damai",
-  "lat": 1.530243,
-  "lng": 104.271333,
-  "region": null,
-  "adminRegion": "Johor State",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade at time of booking, subject to availability",
-   "Daily Buffet breakfast for up to two guests per bedroom, served in the restaurant",
-   "$100 USD equivalent Food & Beverage credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Bookings in our Residences will also receive complimentary daily in-residence afternoon tea",
-   "Early Check-In / Late Check-Out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_v18379982",
@@ -50042,29 +49592,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00516",
-  "name": "Dylan Hotel",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "New York",
-  "address": "52 E 41st St",
-  "lat": 40.751635,
-  "lng": -73.979093,
-  "region": null,
-  "adminRegion": "New York State",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00517",
   "vid": "18049917",
   "name": "Dylan Hotel, Dublin",
@@ -50498,29 +50025,6 @@
    "zen"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00518",
-  "name": "EAST Miami",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "Miami",
-  "address": "788 Brickell Plaza",
-  "lat": 25.766674,
-  "lng": -80.192748,
-  "region": null,
-  "adminRegion": "Florida",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_00523",
@@ -56268,29 +55772,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00581",
-  "name": "Fairmont Copley Plaza",
-  "brand": "Fairmont",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "Boston",
-  "address": "138 St James Ave",
-  "lat": 42.349033,
-  "lng": -71.076239,
-  "region": null,
-  "adminRegion": "Massachusetts",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00582",
   "vid": "16384305",
   "name": "Fairmont Doha",
@@ -59054,29 +58535,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00605",
-  "name": "Fairmont San Francisco",
-  "brand": "Fairmont",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "San Francisco",
-  "address": "950 Mason St",
-  "lat": 37.79239,
-  "lng": -122.410444,
-  "region": null,
-  "adminRegion": "California",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00606",
   "vid": "6163825",
   "name": "Fairmont Scottsdale Princess",
@@ -59574,29 +59032,6 @@
    "wellness"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00609",
-  "name": "Fairmont St Andrews",
-  "brand": "Fairmont",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United Kingdom",
-  "city": "St Andrews",
-  "address": "KY16 8PS",
-  "lat": 56.320442,
-  "lng": -2.73076,
-  "region": null,
-  "adminRegion": "Scotland",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_v18514313",
@@ -71443,29 +70878,6 @@
   "source": "local"
  },
  {
-  "id": "h_00730",
-  "name": "Grand Hotel Europe, A Belmond Hotel, St Petersburg",
-  "brand": "Belmond",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Russia",
-  "city": "St. Petersburg",
-  "address": "Nevsky Prospekt",
-  "lat": 59.93582,
-  "lng": 30.330753,
-  "region": null,
-  "adminRegion": "City of St. Petersburg",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00731",
   "vid": "6164281",
   "name": "Grand Hotel Excelsior Vittoria",
@@ -76184,29 +75596,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00784",
-  "name": "Halcyon House",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Australia",
-  "city": "Cabarita Beach",
-  "address": "21 Cabarita Rd",
-  "lat": -28.328985,
-  "lng": 153.5698,
-  "region": null,
-  "adminRegion": "New South Wales",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00785",
   "vid": "6163848",
   "name": "Halekulani",
@@ -78186,29 +77575,6 @@
   "source": "local"
  },
  {
-  "id": "h_00807",
-  "name": "Hotel 1000, LXR Hotels & Resorts",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Resort / Leisure",
-  "country": "United States",
-  "city": "Seattle",
-  "address": "1000 1st Ave",
-  "lat": 47.605053,
-  "lng": -122.336119,
-  "region": null,
-  "adminRegion": "Washington",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00809",
   "vid": "6164067",
   "name": "Hotel Adlon Kempinski Berlin",
@@ -78749,29 +78115,6 @@
   "source": "local"
  },
  {
-  "id": "h_00816",
-  "name": "Hotel Astoria, a Rocco Forte hotel",
-  "brand": "Rocco Forte",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Russia",
-  "city": "St. Petersburg",
-  "address": "St. Issac's Square / UI. Bolshaya Morskaya, 39",
-  "lat": 59.933207,
-  "lng": 30.307436,
-  "region": null,
-  "adminRegion": "City of St. Petersburg",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00808",
   "vid": "17905568",
   "name": "Hotel AWA",
@@ -79037,29 +78380,6 @@
    "wellness"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00948",
-  "name": "Hôtel Barrière Le Carl Gustaf",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Saint Barthélemy",
-  "city": "Gustavia",
-  "address": "Rue du Roi Oscar II",
-  "lat": 17.897264,
-  "lng": -62.848525,
-  "region": null,
-  "adminRegion": "St. Barthélemy",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_00821",
@@ -79381,29 +78701,6 @@
    "wellness"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00824",
-  "name": "Hotel Barriere Les Neiges",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "France",
-  "city": "Courchevel",
-  "address": "Place du Rocher",
-  "lat": 45.412326,
-  "lng": 6.636732,
-  "region": "mediterranean",
-  "adminRegion": "Savoie",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_00825",
@@ -82096,52 +81393,6 @@
    "urban"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_00849",
-  "name": "Hotel Danieli",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Italy",
-  "city": "Venice",
-  "address": "Castello 4196",
-  "lat": 45.433966,
-  "lng": 12.34209,
-  "region": "mediterranean",
-  "adminRegion": "Veneto",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
-  "id": "h_00850",
-  "name": "Hotel Danieli, Venice",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Italy",
-  "city": "Venice",
-  "address": "4196 Riva degli Schiavoni",
-  "lat": 45.433966,
-  "lng": 12.34209,
-  "region": "mediterranean",
-  "adminRegion": "Veneto",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_00923",
@@ -90474,29 +89725,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_00914",
-  "name": "Hotel Traube Tonbach",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Germany",
-  "city": "Baiersbronn",
-  "address": "Tonbachstraße 237",
-  "lat": 48.536786,
-  "lng": 8.358176,
-  "region": null,
-  "adminRegion": "Baden-Württemberg",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_00915",
   "vid": "15848650",
   "name": "Hotel TwentySeven",
@@ -98001,29 +97229,6 @@
    "wellness"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_01011",
-  "name": "Islington Hotel",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Australia",
-  "city": "Hobart",
-  "address": "321 Davey St",
-  "lat": -42.896649,
-  "lng": 147.313485,
-  "region": null,
-  "adminRegion": "Tasmania",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_01012",
@@ -114045,35 +113250,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_01177",
-  "name": "Liao Liao Resort",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Resort / Leisure",
-  "country": "Argentina",
-  "city": "Bariloche",
-  "address": "Av. Bustillo km 25",
-  "lat": -41.05818,
-  "lng": -71.530739,
-  "region": "patagonia",
-  "adminRegion": "Rio Negro",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability",
-   "Daily Buffet Breakfast for up to two guests per bedroom, served in the hotel restaurant",
-   "A complimentary round of golf for up to two people, per room, including greens fees and cart rental, once during stay (must have minimum value of $100 USD equivalent)",
-   "Early Check-In / Late Check-Out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_01178",
   "vid": "16387589",
   "name": "Lido House, Autograph Collection",
@@ -115805,29 +114981,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_01193",
-  "name": "Lotte Hotel St. Petersburg",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Russia",
-  "city": "Saint Petersburg",
-  "address": "St. Isaac's Square",
-  "lat": 59.931402,
-  "lng": 30.310422,
-  "region": null,
-  "adminRegion": "City of St. Petersburg",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_01195",
   "vid": "6164389",
   "name": "Lucknam Park, Emblems Collection",
@@ -116877,36 +116030,6 @@
    "spa"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_01208",
-  "name": "Maison Albar - Le Monumental Palace.",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Portugal",
-  "city": "Porto",
-  "address": "Rua Gonçalo Cristóvão 183",
-  "lat": 41.153364,
-  "lng": -8.608438,
-  "region": null,
-  "adminRegion": "Norte",
-  "vipUpgrades": [
-   "For 2025:",
-   "Upgrade on arrival, subject to availability",
-   "Daily Buffet Breakfast for up to two guests per bedroom, served in the restaurant",
-   "The Monumental Wine Experience is a tasting of some of the very best wines produced in the region together with a selection of cheeses and cold cuts, all explained by our head sommelier. This is served in our beautiful bar during the afternoon.",
-   "Early Check-In / Late Check-Out, subject to availability",
-   "Complimentary Wi-Fi"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_01209",
@@ -127894,30 +127017,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_01330",
-  "name": "Montage Kapalua Bay",
-  "brand": "Montage",
-  "program": "Virtuoso",
-  "category": "Beach Resort",
-  "country": "United States",
-  "city": "Lahaina, Maui",
-  "address": "One Bay Drive",
-  "lat": 20.999764,
-  "lng": -156.666302,
-  "region": null,
-  "adminRegion": "Hawaii",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "beach",
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_01331",
   "vid": "6163716",
   "name": "Montage Laguna Beach",
@@ -129978,37 +129077,6 @@
    "seclusion"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_01351",
-  "name": "Mustang Monument",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "Wells",
-  "address": "HC 60 Box 300",
-  "lat": 40.752826,
-  "lng": -115.031436,
-  "region": null,
-  "adminRegion": "Nevada",
-  "vipUpgrades": [
-   "For 2025:",
-   "Upgrade on arrival, subject to availability",
-   "Daily Full breakfast for up to two guests per bedroom, via in-room dining",
-   "Complimentary roundtrip private airport transfers (must have minimum value of $100 USD equivalent)",
-   "Welcome fruit & cheese basket with Authentic Cowboy hat",
-   "Early Check-In / Late Check-Out, subject to availability",
-   "Complimentary Wi-Fi"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_01352",
@@ -132357,29 +131425,6 @@
    "spa"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_01377",
-  "name": "Nekupe Sporting Resort & Retreat",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Resort / Leisure",
-  "country": "Nicaragua",
-  "city": "Nandaime",
-  "address": "30 minutes from Granada",
-  "lat": 11.756511,
-  "lng": -86.050411,
-  "region": null,
-  "adminRegion": "Granada",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_01378",
@@ -135289,29 +134334,6 @@
    "urban"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_01397",
-  "name": "North Bend Suites",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "North Bend",
-  "address": "7428 Moon Valley Rd SE",
-  "lat": 47.532628,
-  "lng": -121.744298,
-  "region": null,
-  "adminRegion": "Washington",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_01398",
@@ -139185,35 +138207,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_01435",
-  "name": "Orient Express Palazzo Dona Giovannelli - A Virtuoso Preview Property",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Italy",
-  "city": "Venice",
-  "address": "Cannaregio 2368",
-  "lat": 45.442616,
-  "lng": 12.332799,
-  "region": "mediterranean",
-  "adminRegion": "Veneto",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability",
-   "Daily breakfast for up to two guests per bedroom, served in the restaurant and via in-room dining (already included in property rates)",
-   "$100 USD equivalent Resort or Hotel credit utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early check-in / Late check-out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_01436",
   "vid": "16867175",
   "name": "Orient Express Venezia",
@@ -139642,35 +138635,6 @@
    "zen"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_01440",
-  "name": "Our Habitas Bacalar",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Mexico",
-  "city": "Bacalar",
-  "address": "Carretera Federal 307 Xul Ha",
-  "lat": 18.549743,
-  "lng": -88.467178,
-  "region": null,
-  "adminRegion": "Quintana Roo",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability",
-   "Daily breakfast for up to two guests per bedroom, served in the restaurant (already included in property rates)",
-   "$100 USD equivalent Resort or Hotel credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early Check-In / Late Check-Out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_01441",
@@ -141849,37 +140813,6 @@
    "zen"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_01471",
-  "name": "Palazzo Fiuggi Rome",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Italy",
-  "city": "Rome",
-  "address": "Via delle Terme 1",
-  "lat": 41.896707,
-  "lng": 12.482202,
-  "region": "mediterranean",
-  "adminRegion": "Lazio",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability",
-   "Daily Full breakfast for up to two guests per bedroom, served in the restaurant",
-   "$150 USD equivalent credit applicable towards Spa treatments (not combinable, no cash value if not redeemed in full)",
-   "Bookings in our Suites and higher categories will receive an additional $100 credit applicable towards Spa treatments (for a total of $250 during stay)",
-   "Complimentary water from in-room mini bar, replenished daily",
-   "Early Check-In / Late Check-Out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_01472",
@@ -151181,29 +150114,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_01555",
-  "name": "Ponta dos Ganchos Exclusive Resort",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Resort / Leisure",
-  "country": "Brazil",
-  "city": "Governador Celso Ramos",
-  "address": "Rod. Governador Jorge Lacerda",
-  "lat": -27.305735,
-  "lng": -48.551531,
-  "region": null,
-  "adminRegion": "Santa Catarina",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_01556",
   "vid": "15634706",
   "name": "Porto Zante Villas & Spa",
@@ -152283,29 +151193,6 @@
    "zen"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_01567",
-  "name": "Prestige at the Palazzo",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "Las Vegas",
-  "address": "3325 Las Vegas Blvd S",
-  "lat": 36.124005,
-  "lng": -115.167958,
-  "region": null,
-  "adminRegion": "Nevada",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_01571",
@@ -154855,30 +153742,6 @@
    "wellness"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_01595",
-  "name": "Raffles Maldives Meradhoo Resort",
-  "brand": "Raffles",
-  "program": "Virtuoso",
-  "category": "Beach Resort",
-  "country": "Maldives",
-  "city": "Gaafu Alifu Atoll",
-  "address": "Meradhoo Island, Huvadhoo",
-  "lat": 0.578325,
-  "lng": 73.094663,
-  "region": null,
-  "adminRegion": "Gaafu Alifu Atoll District",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "beach",
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_v18535512",
@@ -164245,35 +163108,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_01700",
-  "name": "Salamander Washington DC",
-  "brand": "Aman",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "Washington",
-  "address": "1330 Maryland Avenue, SW",
-  "lat": 38.883738,
-  "lng": -77.030099,
-  "region": null,
-  "adminRegion": "District of Columbia",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability",
-   "Daily breakfast credit of $50 per person, for up to two guests per bedroom, served in the restaurant and via in-room dining (credit is non-cumulative)",
-   "$100 USD equivalent Resort or Hotel credit to be utilized during stay (Not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early Check-in/Late Check-out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_v18379230",
   "vid": "18379230",
   "name": "Salterra, a Luxury Collection Resort & Spa, South Caicos",
@@ -167964,29 +166798,6 @@
   ],
   "perksSource": "partner-program",
   "perksAsOf": "Cadence Partner Programs, version 2025-09-18",
-  "vid": null,
-  "source": "local"
- },
- {
-  "id": "h_01731",
-  "name": "Shangri-La Al Husn, Muscat",
-  "brand": "Shangri-La",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Oman",
-  "city": "Muscat",
-  "address": "Al Jissah Street, Muscat 100",
-  "lat": 23.540899,
-  "lng": 58.644433,
-  "region": null,
-  "adminRegion": "Masqat",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
   "vid": null,
   "source": "local"
  },
@@ -175446,30 +174257,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_01689",
-  "name": "SLS South Beach",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Beach Resort",
-  "country": "United States",
-  "city": "Miami Beach",
-  "address": "1701 Collins Ave",
-  "lat": 25.792676,
-  "lng": -80.128443,
-  "region": null,
-  "adminRegion": "Florida",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "beach",
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_01690",
   "vid": "15991919",
   "name": "SO/ Auckland",
@@ -179028,29 +177815,6 @@
    "zen"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_01835",
-  "name": "Soneva Kiri",
-  "brand": "Soneva",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Thailand",
-  "city": "Trat",
-  "address": "110 Moo 4, Koh Kood",
-  "lat": 11.694439,
-  "lng": 102.52814,
-  "region": null,
-  "adminRegion": "Trat Province",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_01836",
@@ -188067,60 +186831,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_01935",
-  "name": "The Chatwal",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "New York",
-  "address": "130 W 44th St",
-  "lat": 40.756518,
-  "lng": -73.984602,
-  "region": null,
-  "adminRegion": "New York State",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability",
-   "Daily breakfast credit of $40 per person, for up to two guests per bedroom, served in the restaurant and via in-room dining",
-   "$100 USD equivalent Resort or Hotel credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "$50 USD Spa treatment credit to be utilized during stay (not combinable, no cash value if not redeemed in full)",
-   "Early Check-In / Late Check-Out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
-  "id": "h_01936",
-  "name": "The Chatwal Lodge",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Lodge / Safari",
-  "country": "United States",
-  "city": "White Lake",
-  "address": "338 Chapin Trail",
-  "lat": 41.636667,
-  "lng": -74.835536,
-  "region": null,
-  "adminRegion": "New York",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "safari",
-   "lodge"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_01938",
   "vid": "14676792",
   "name": "The Chedi Andermatt",
@@ -193182,29 +191892,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_01988",
-  "name": "The Grand",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United Kingdom",
-  "city": "Brighton",
-  "address": "Grand Terminus Sq",
-  "lat": 50.821503,
-  "lng": -0.147431,
-  "region": null,
-  "adminRegion": "East Sussex",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_v16143195",
   "vid": "16143195",
   "name": "THE GRAND LOTTE SEOUL - Executive Tower.",
@@ -197959,30 +196646,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_02039",
-  "name": "The Lodge",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Lodge / Safari",
-  "country": "United Kingdom",
-  "city": "St Andrews",
-  "address": "1 Devonshire Rd",
-  "lat": 56.339775,
-  "lng": -2.796721,
-  "region": null,
-  "adminRegion": "Scotland",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "safari",
-   "lodge"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_02041",
   "vid": "15682236",
   "name": "The Lodge at Blue Sky, Auberge Collection",
@@ -199738,66 +198401,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_02057",
-  "name": "The Manor On Golden Pond",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "Holderness",
-  "address": "Manor Dr",
-  "lat": 43.730728,
-  "lng": -71.580566,
-  "region": null,
-  "adminRegion": "New Hampshire",
-  "vipUpgrades": [
-   "For 2025:",
-   "Upgrade on arrival, subject to availability",
-   "Daily breakfast for up to two guests per bedroom, served in the restaurant and via in-room dining (already included in property rates)",
-   "$100 USD equivalent Food & Beverage credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early Check-In / Late Check-Out, subject to availability",
-   "Complimentary Wi-Fi"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
-  "id": "h_02058",
-  "name": "The Manor On Van Horn Estate",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Resort / Leisure",
-  "country": "United States",
-  "city": "Holderness",
-  "address": "31 Manor Dr.",
-  "lat": 43.730473,
-  "lng": -71.579362,
-  "region": null,
-  "adminRegion": "New Hampshire",
-  "vipUpgrades": [
-   "For 2025:",
-   "Upgrade on arrival, subject to availability",
-   "Daily breakfast for up to two guests per bedroom, served in the restaurant and via in-room dining (already included in property rates)",
-   "$100 USD equivalent Food & Beverage credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early Check-In / Late Check-Out, subject to availability",
-   "Complimentary Wi-Fi"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_02059",
   "vid": "6164466",
   "name": "The Mark",
@@ -200454,35 +199057,6 @@
    "wellness"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_02065",
-  "name": "The Middle House",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "China",
-  "city": "Shanghai",
-  "address": "No.1, Wuzhong Rd",
-  "lat": 31.18877,
-  "lng": 121.4206,
-  "region": null,
-  "adminRegion": "Shanghai Municipality",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability",
-   "Daily Full breakfast for up to two guests per bedroom, served in the restaurant",
-   "$100 USD equivalent Food & Beverage credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early Check-In / Late Check-Out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_02066",
@@ -201396,54 +199970,6 @@
    "urban"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_02073",
-  "name": "The Oberoi Beach Resort",
-  "brand": null,
-  "program": "Al Zorah",
-  "category": "Beach Resort",
-  "country": "Egypt",
-  "city": "Hurghada",
-  "address": "Sahl Hasheesh",
-  "lat": 27.07632,
-  "lng": 33.882022,
-  "region": null,
-  "adminRegion": "Red Sea",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "beach",
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
-  "id": "h_02074",
-  "name": "The Oberoi Beach Resort",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Beach Resort",
-  "country": "Egypt",
-  "city": "Hurghada",
-  "address": "Sahl Hasheesh",
-  "lat": 27.07632,
-  "lng": 33.882022,
-  "region": null,
-  "adminRegion": "Red Sea",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "beach",
-   "resort"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_02077",
@@ -216726,29 +215252,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_02230",
-  "name": "The Setal",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "Portugal",
-  "city": "Comporta",
-  "address": "Rua do Zambujeiro 5",
-  "lat": 38.381524,
-  "lng": -8.785532,
-  "region": null,
-  "adminRegion": "Setúbal",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_v16156778",
   "vid": "16156778",
   "name": "The Shanghai EDITION",
@@ -223080,35 +221583,6 @@
   "source": "virtuoso-new"
  },
  {
-  "id": "h_02289",
-  "name": "The Temple House",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "China",
-  "city": "Chengdu",
-  "address": "81 Bitieshi St",
-  "lat": 30.651789,
-  "lng": 104.084835,
-  "region": null,
-  "adminRegion": "Sichuan",
-  "vipUpgrades": [
-   "For 2026:",
-   "Upgrade on arrival, subject to availability",
-   "Daily Full breakfast for up to two guests per bedroom, served in the restaurant",
-   "$100 USD equivalent Food & Beverage or Spa credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early Check-In / Late Check-Out, subject to availability"
-  ],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_v18376874",
   "vid": "18376874",
   "name": "The Tides Inn",
@@ -225349,29 +223823,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_02312",
-  "name": "Thompson Buckhead",
-  "brand": "Thompson",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "Atlanta",
-  "address": "3242 Peachtree Rd NE",
-  "lat": 33.843851,
-  "lng": -84.373117,
-  "region": null,
-  "adminRegion": "Georgia",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_02313",
   "vid": "16220494",
   "name": "Thompson Dallas",
@@ -226146,29 +224597,6 @@
   "source": "virtuoso"
  },
  {
-  "id": "h_02319",
-  "name": "Thompson Seattle",
-  "brand": "Thompson",
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "United States",
-  "city": "Seattle",
-  "address": "110 Stewart St",
-  "lat": 47.610576,
-  "lng": -122.341202,
-  "region": null,
-  "adminRegion": "Washington",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
   "id": "h_02320",
   "vid": "6164176",
   "name": "Thompson Zihuatanejo",
@@ -226279,53 +224707,6 @@
    "zen"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_02321",
-  "name": "Thorntree River Lodge",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Lodge / Safari",
-  "country": "Zambia",
-  "city": "Southern Province",
-  "address": "Kafue National Park",
-  "lat": -16.962063,
-  "lng": 26.419389,
-  "region": null,
-  "adminRegion": "Southern Province, Zambia",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "safari",
-   "lodge"
-  ],
-  "vid": null,
-  "source": "local"
- },
- {
-  "id": "h_01879",
-  "name": "THotel",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "City Hotel",
-  "country": "China",
-  "city": "Beijing",
-  "address": "55555",
-  "lat": 39.904211,
-  "lng": 116.407395,
-  "region": null,
-  "adminRegion": "Beijing Municipality",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "urban"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_02322",
@@ -231844,30 +230225,6 @@
    "zen"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_02375",
-  "name": "Victoria Golf Resort and Spa, Managed by Accor",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Spa / Wellness Resort",
-  "country": "Portugal",
-  "city": "Vilamoura",
-  "address": "Av Dos Descobrimentos",
-  "lat": 37.103258,
-  "lng": -8.142104,
-  "region": null,
-  "adminRegion": "Faro",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "spa",
-   "wellness"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_02353",
@@ -238006,30 +236363,6 @@
    "spa"
   ],
   "source": "virtuoso"
- },
- {
-  "id": "h_02438",
-  "name": "Waldhaus Flims Wellness Resort",
-  "brand": null,
-  "program": "Virtuoso",
-  "category": "Spa / Wellness Resort",
-  "country": "Switzerland",
-  "city": "Flims",
-  "address": "Via dil Parc 1",
-  "lat": 46.826487,
-  "lng": 9.286172,
-  "region": null,
-  "adminRegion": "Graubünden",
-  "vipUpgrades": [],
-  "bookUrl": "https://www.VipTravelAi.com",
-  "bookPassword": "VIP",
-  "thumb": null,
-  "tags": [
-   "spa",
-   "wellness"
-  ],
-  "vid": null,
-  "source": "local"
  },
  {
   "id": "h_02439",

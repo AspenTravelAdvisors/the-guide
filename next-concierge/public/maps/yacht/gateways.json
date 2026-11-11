@@ -9,7 +9,7 @@
   "journeysWithStays": 530,
   "journeysWithHouse": 530,
   "gateways": 58,
-  "hotels": 195,
+  "hotels": 194,
   "houses": [
    "Aman",
    "Four Seasons",
@@ -415,21 +415,6 @@
    ],
    "promo": 0
   },
-  "h_00948": {
-   "n": "Hôtel Barrière Le Carl Gustaf",
-   "house": null,
-   "aff": null,
-   "city": "Gustavia",
-   "country": "Saint Barthélemy",
-   "ll": [
-    17.897264,
-    -62.848525
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
-  },
   "h_01142": {
    "n": "Le Barth Villas",
    "house": null,
@@ -462,6 +447,25 @@
    "rooms": 405,
    "perks": [
     "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00526": {
+   "n": "Eden Rock - St Barths, Oetker Hotels",
+   "house": "Oetker Hotels",
+   "aff": null,
+   "city": "Saint Barthelemy",
+   "country": "Saint Barthélemy",
+   "ll": [
+    17.9033,
+    -62.8359
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4398_2_3.webp",
+   "rooms": 37,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
    ],
    "promo": 0
   },
@@ -2528,25 +2532,6 @@
    ],
    "promo": 0
   },
-  "h_01435": {
-   "n": "Orient Express Palazzo Dona Giovannelli - A Virtuoso Preview Property",
-   "house": null,
-   "aff": "Orient Express",
-   "city": "Venice",
-   "country": "Italy",
-   "ll": [
-    45.442616,
-    12.332799
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_02386": {
    "n": "Villa Dubrovnik",
    "house": null,
@@ -3835,16 +3820,16 @@
      1.3
     ],
     [
-     "h_00948",
-     1.6
-    ],
-    [
      "h_01142",
      1.6
     ],
     [
      "h_02436",
      2.6
+    ],
+    [
+     "h_00526",
+     2.7
     ],
     [
      "h_01117",
@@ -4564,10 +4549,6 @@
     ],
     [
      "h_00280",
-     0.7
-    ],
-    [
-     "h_01435",
      0.7
     ]
    ]

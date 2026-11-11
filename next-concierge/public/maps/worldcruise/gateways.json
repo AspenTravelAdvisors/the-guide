@@ -9,7 +9,7 @@
   "journeysWithStays": 311,
   "journeysWithHouse": 0,
   "gateways": 54,
-  "hotels": 179,
+  "hotels": 178,
   "houses": []
  },
  "radiusKm": 40,
@@ -2388,21 +2388,6 @@
    ],
    "promo": 0
   },
-  "h_00807": {
-   "n": "Hotel 1000, LXR Hotels & Resorts",
-   "house": null,
-   "aff": null,
-   "city": "Seattle",
-   "country": "United States",
-   "ll": [
-    47.605053,
-    -122.336119
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
-  },
   "h_01974": {
    "n": "The Fairmont Olympic Hotel",
    "house": "Accor",
@@ -3201,21 +3186,6 @@
    ],
    "promo": 0
   },
-  "h_00581": {
-   "n": "Fairmont Copley Plaza",
-   "house": "Fairmont",
-   "aff": null,
-   "city": "Boston",
-   "country": "United States",
-   "ll": [
-    42.349033,
-    -71.076239
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
-  },
   "h_01585": {
    "n": "Raffles Boston",
    "house": "Accor",
@@ -3272,6 +3242,25 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00666": {
+   "n": "Four Seasons Hotel One Dalton Street, Boston",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Boston",
+   "country": "United States",
+   "ll": [
+    42.345,
+    -71.0843
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15857466_2_0.webp",
+   "rooms": 214,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_02077": {
    "n": "The Oberoi Beach Resort, Mauritius",
@@ -4274,10 +4263,6 @@
      0.7
     ],
     [
-     "h_00807",
-     0.7
-    ],
-    [
      "h_01974",
      0.8
     ]
@@ -4563,10 +4548,6 @@
    ],
    "h": [
     [
-     "h_00581",
-     0.1
-    ],
-    [
      "h_01585",
      0.1
     ],
@@ -4577,6 +4558,10 @@
     [
      "h_01266",
      0.6
+    ],
+    [
+     "h_00666",
+     0.9
     ]
    ]
   },
