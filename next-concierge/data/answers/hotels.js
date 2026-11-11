@@ -566,11 +566,11 @@ export const hotelAnswers = [
     title: "Best Ski-In/Ski-Out Luxury Hotels: Alps vs. Rockies",
     description:
       "The true ski-in/ski-out properties among the luxury set — Courchevel's palaces, Zermatt classics, and North America's Deer Valley, Vail, Whistler and Aspen options — compared honestly.",
-    updated: UPDATED,
+    updated: "2026-11-11",
     capsule:
-      "The true ski-in/ski-out luxury hotels are Courchevel 1850's trio — Cheval Blanc, Airelles and L'Apogée — plus Four Seasons Megève in the Alps; and in North America, Stein Eriksen Residences and Goldener Hirsch at Deer Valley, Four Seasons and Fairmont Chateau at Whistler, and Grand Hyatt Vail. Zermatt and Aspen have almost none, for reasons of town layout.",
+      "The true ski-in/ski-out luxury hotels are Courchevel 1850's trio — Cheval Blanc, Airelles and L'Apogée — plus Four Seasons Megève in the Alps; and in North America, Stein Eriksen Residences and Goldener Hirsch at Deer Valley, Four Seasons and Fairmont Chateau at Whistler, and Grand Hyatt Vail. In Aspen, The Little Nell is ski-in at the base of the gondola, and Snowmass's Viceroy is ski-in/ski-out. Zermatt has almost none, for reasons of town layout.",
     answer: [
-      "In the Alps, the benchmark ski-in/ski-out palaces are Courchevel 1850's trio — Cheval Blanc, Airelles, and L'Apogée — where the Trois Vallées' groomers run essentially to the ski butler's door; Megève adds Four Seasons Megève (the brand's alpine flagship) and Alpaga for village charm. In North America, the honest ski-in/ski-out list is led by Stein Eriksen Residences and Goldener Hirsch in Deer Valley, Four Seasons Whistler and Fairmont Chateau Whistler at the base of North America's biggest terrain, Grand Hyatt Vail on the creek with its own lift, and in Aspen — where true ski-in/ski-out barely exists — MOLLIE and the W put you steps from the gondola rather than on the snow.",
+      "In the Alps, the benchmark ski-in/ski-out palaces are Courchevel 1850's trio — Cheval Blanc, Airelles, and L'Apogée — where the Trois Vallées' groomers run essentially to the ski butler's door; Megève adds Four Seasons Megève (the brand's alpine flagship) and Alpaga for village charm. In North America, the honest ski-in/ski-out list is led by Stein Eriksen Residences and Goldener Hirsch in Deer Valley, Four Seasons Whistler and Fairmont Chateau Whistler at the base of North America's biggest terrain, Grand Hyatt Vail on the creek with its own lift, and in Aspen, The Little Nell, ski-in at the base of the Silver Queen Gondola, with The St. Regis and the W a short walk from it. Nearby in Snowmass, the Viceroy is ski-in/ski-out.",
       "The Alps sell altitude romance, michelin density and ski butlers; the Rockies sell snow reliability, service informality and direct flights. Both are in our atlas — {{hotels:category=Mountain / Ski}} mountain and ski properties, {{hotels:experience=Ski}} of them flagged for skiing by the supplier — with VIP amenities — and in ski hotels the advisor's real work is January and March weeks that cost half of Christmas.",
     ],
     sections: [
@@ -591,7 +591,9 @@ export const hotelAnswers = [
             ["{{hotel:Four Seasons Resort & Residences Whistler|Four Seasons Whistler}}", "Whistler Blackcomb", "Ski concierge shuttle to base (not on-snow) — biggest terrain on the continent"],
             ["{{hotel:Fairmont Chateau Whistler}}", "Whistler Blackcomb", "True ski-in/out at Blackcomb base"],
             ["{{hotel:Grand Hyatt Vail}}", "Vail", "Own chairlift (No. 20) — the sleeper ski-in/out of Vail"],
-            ["{{hotel:MOLLIE Aspen}} / {{hotel:W Aspen & The Sky Residences at W Aspen|W Aspen}}", "Aspen", "Gondola-steps, not ski-in/out; Aspen's trade-off is the town itself"],
+            ["{{hotel:The Little Nell}}", "Aspen", "Ski-in, at the base of the Silver Queen Gondola; the one true slopeside address in town"],
+            ["{{hotel:The St. Regis Aspen Resort|The St. Regis Aspen}} / {{hotel:W Aspen & The Sky Residences at W Aspen|W Aspen}}", "Aspen", "A short walk to the gondola, not ski-in/out; Aspen's trade-off is the town itself"],
+            ["{{hotel:Viceroy Snowmass}}", "Snowmass", "True ski-in/ski-out; Aspen's biggest mountain, on the same lift ticket"],
           ],
         },
       },
