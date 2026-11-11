@@ -4,6 +4,7 @@
 // (status → delta* → meta → done) and renders the reply as it types, with
 // inventory result cards and an "Open in Atlas" handoff from the meta frame.
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { ChatMessage, GuideFrame, GuideMeta, GuideTurn, TripState } from "@/lib/types";
 import { ADVISOR_HANDOFF } from "@/lib/types";
@@ -573,16 +574,26 @@ export default function GuideChat({
                     fifth block has to displace something, and a first-timer's
                     "what is this?" outranks "I already have dates", which is
                     the refinement of someone who has already decided. */}
-                <button
-                  type="button"
-                  className="empty-tour"
-                  onClick={() => {
-                    tourOpened();
-                    startHowItWorks();
-                  }}
-                >
-                  New here? See how this works
-                </button>
+                {/* "Find by name" shares the tour link's row rather than taking
+                    a row of its own — the phone sheet's height budget (above)
+                    has no fifth row to give. It is for the visitor who already
+                    knows what they want and would otherwise type a hotel's name
+                    here and wait for a reply to link it. */}
+                <div className="empty-links">
+                  <button
+                    type="button"
+                    className="empty-tour"
+                    onClick={() => {
+                      tourOpened();
+                      startHowItWorks();
+                    }}
+                  >
+                    New here? See how this works
+                  </button>
+                  <Link className="empty-tour" href="/browse">
+                    Find by name
+                  </Link>
+                </div>
 
                 {about}
 

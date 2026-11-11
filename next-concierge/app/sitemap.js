@@ -33,6 +33,8 @@ export default function sitemap() {
   const core = [
     { url: `${SITE_URL}/`, lastModified: now, priority: 1 },
     { url: `${SITE_URL}/answers`, lastModified: now, priority: 0.9 },
+    // Find by name. Its letter pages are noindex, follow and are not listed.
+    { url: `${SITE_URL}/browse`, lastModified: now, priority: 0.6 },
   ];
 
   const answers = ALL_ANSWERS.map((a) => ({

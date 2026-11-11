@@ -8520,3 +8520,227 @@ html.flyover-on body {
     min-height: 150px;
   }
 }
+
+/* ── Find by name (components/FindByName, app/browse) ─────────────────────
+   The name-first way in: /browse, the letter pages, the hubs' scoped boxes and
+   the 404. 16px input text so iOS does not zoom the page on focus. */
+.find {
+  /* Top and bottom only: .answers-wrap centres its children with auto side
+     margins, and a shorthand here pulled the box out to the left edge. */
+  margin-top: 18px;
+  margin-bottom: 4px;
+}
+.find-label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 7px;
+}
+.find-box {
+  position: relative;
+}
+.find-box input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 48px;
+  padding: 0 42px 0 40px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.15s;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.find-box input::placeholder {
+  color: var(--muted);
+}
+.find-box input:focus {
+  border-color: var(--gold);
+}
+.find-box input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  display: none;
+}
+.find-glyph {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  color: var(--muted);
+  pointer-events: none;
+}
+.find-clear {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  color: var(--muted);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+.find-clear:hover {
+  color: var(--gold-light);
+}
+.find-status {
+  min-height: 1em;
+  margin: 8px 2px 4px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.find-status:empty {
+  margin: 0;
+}
+.answers-group .find-results,
+.find-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--line-soft);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.answers-group .find-results li,
+.find-results li {
+  margin: 0;
+}
+.find-results li + li {
+  border-top: 1px solid var(--line-soft);
+}
+.answers-group .find-results li a,
+.find-results a {
+  display: block;
+  padding: 10px 14px;
+  font-size: inherit;
+  font-weight: inherit;
+  color: var(--text);
+  text-decoration: none;
+}
+.find-results a:hover,
+.find-results a:focus-visible {
+  background: var(--card);
+  outline: none;
+}
+.find-results a:focus-visible {
+  box-shadow: inset 3px 0 0 var(--gold);
+}
+.find-name {
+  display: block;
+  font-size: 15.5px;
+  font-weight: 500;
+  color: var(--gold-light);
+}
+.find-meta {
+  display: block;
+  margin-top: 2px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.find-type {
+  color: var(--sub);
+}
+.find-place::before {
+  content: " · ";
+}
+
+/* A B C … 0–9 */
+.browse-letters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 4px 0 16px;
+}
+.browse-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  height: 38px;
+  padding: 0 6px;
+  box-sizing: border-box;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--sub);
+  font-size: 14px;
+  text-decoration: none;
+}
+a.browse-letter:hover {
+  color: var(--gold-light);
+  background: var(--card);
+  text-decoration: none;
+}
+.browse-letter[aria-current="page"] {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--bg);
+}
+.browse-letter[aria-disabled="true"] {
+  opacity: 0.35;
+}
+.browse-byplace {
+  margin: 12px 0;
+  font-size: 13.5px;
+  color: var(--muted);
+}
+.answers-group .browse-list li {
+  margin: 0 0 11px;
+}
+.answers-group .browse-list li a {
+  font-size: 15.5px;
+}
+
+/* The Explore menu's first entry: not a map, so above the "on a map" caption. */
+.nav-menu-find {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 8px 9px;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  border-bottom: 1px solid var(--line-soft);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  text-decoration: none;
+}
+.nav-menu-find:hover,
+.nav-menu-find[data-active="true"] {
+  background: var(--card);
+  text-decoration: none;
+}
+.nav-menu-find-glyph {
+  flex: 0 0 auto;
+  margin-top: 2px;
+  color: var(--gold);
+}
+
+/* The home page's empty state: the tour link and Find by name on one row. */
+.empty-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 18px;
+}
+.empty-links .empty-tour {
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 1.4;
+  text-decoration: none;
+}
+@media (max-width: 640px) {
+  .empty-links {
+    justify-content: flex-start;
+    column-gap: 14px;
+  }
+}
