@@ -9,7 +9,7 @@
   "journeysWithStays": 3736,
   "journeysWithHouse": 0,
   "gateways": 107,
-  "hotels": 287,
+  "hotels": 285,
   "houses": []
  },
  "radiusKm": 40,
@@ -1173,21 +1173,6 @@
     "Room upgrade"
    ],
    "promo": 1
-  },
-  "h_01011": {
-   "n": "Islington Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Hobart",
-   "country": "Australia",
-   "ll": [
-    -42.896649,
-    147.313485
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
   },
   "h_v16336357": {
    "n": "Sofitel Fiji Resort & Spa",
@@ -2992,21 +2977,6 @@
    ],
    "promo": 0
   },
-  "h_00807": {
-   "n": "Hotel 1000, LXR Hotels & Resorts",
-   "house": null,
-   "aff": null,
-   "city": "Seattle",
-   "country": "United States",
-   "ll": [
-    47.605053,
-    -122.336119
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
-  },
   "h_01974": {
    "n": "The Fairmont Olympic Hotel",
    "house": "Accor",
@@ -3311,25 +3281,6 @@
    ],
    "promo": 1
   },
-  "h_01471": {
-   "n": "Palazzo Fiuggi Rome",
-   "house": null,
-   "aff": null,
-   "city": "Rome",
-   "country": "Italy",
-   "ll": [
-    41.896707,
-    12.482202
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [
-    "Daily breakfast",
-    "$150 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_00463": {
    "n": "Corinthia Rome",
    "house": "Corinthia Hotels",
@@ -3342,6 +3293,25 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16635407_2_0.webp",
    "rooms": 60,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01434": {
+   "n": "Orient Express La Minerva",
+   "house": "Accor",
+   "aff": "Orient Express",
+   "city": "Rome",
+   "country": "Italy",
+   "ll": [
+    41.8977,
+    12.4776
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16814908_2_0.webp",
+   "rooms": 93,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -4203,21 +4173,6 @@
    ],
    "promo": 0
   },
-  "h_00008": {
-   "n": "1 Hotel Toronto",
-   "house": "1 Hotel",
-   "aff": null,
-   "city": "Toronto",
-   "country": "Canada",
-   "ll": [
-    43.643042,
-    -79.401618
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
-  },
   "h_00173": {
    "n": "BISHA, a Luxury Collection Hotel, Toronto",
    "house": "Luxury Group at Marriott International",
@@ -4236,6 +4191,25 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_01392": {
+   "n": "Nobu Hotel Toronto",
+   "house": "Nobu Hotels",
+   "aff": null,
+   "city": "Toronto",
+   "country": "Canada",
+   "ll": [
+    43.6455,
+    -79.3909
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18074732_2_0.webp",
+   "rooms": 36,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_01576": {
    "n": "Pulitzer Amsterdam",
@@ -4370,21 +4344,6 @@
    ],
    "promo": 1
   },
-  "h_00581": {
-   "n": "Fairmont Copley Plaza",
-   "house": "Fairmont",
-   "aff": null,
-   "city": "Boston",
-   "country": "United States",
-   "ll": [
-    42.349033,
-    -71.076239
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
-  },
   "h_01585": {
    "n": "Raffles Boston",
    "house": "Accor",
@@ -4441,6 +4400,25 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00666": {
+   "n": "Four Seasons Hotel One Dalton Street, Boston",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Boston",
+   "country": "United States",
+   "ll": [
+    42.345,
+    -71.0843
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15857466_2_0.webp",
+   "rooms": 214,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_00869": {
    "n": "Hotel Hermitage Monte-Carlo",
@@ -4955,25 +4933,6 @@
    ],
    "promo": 0
   },
-  "h_01208": {
-   "n": "Maison Albar - Le Monumental Palace.",
-   "house": null,
-   "aff": null,
-   "city": "Porto",
-   "country": "Portugal",
-   "ll": [
-    41.153364,
-    -8.608438
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
   "h_02090": {
    "n": "The One Monumental Palace",
    "house": null,
@@ -4992,6 +4951,25 @@
     "Early check-in"
    ],
    "promo": 0
+  },
+  "h_v18385673": {
+   "n": "The Largo",
+   "house": null,
+   "aff": null,
+   "city": "Porto",
+   "country": "Portugal",
+   "ll": [
+    41.1432,
+    -8.61484
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18382401_2_0.webp",
+   "rooms": 18,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
   },
   "h_00135": {
    "n": "Andaz Tokyo Toranomon Hills",
@@ -5912,10 +5890,6 @@
     [
      "h_v16402240",
      3.2
-    ],
-    [
-     "h_01011",
-     3.5
     ]
    ]
   },
@@ -6636,10 +6610,6 @@
      0.7
     ],
     [
-     "h_00807",
-     0.7
-    ],
-    [
      "h_01974",
      0.8
     ]
@@ -6749,11 +6719,11 @@
      0.2
     ],
     [
-     "h_01471",
-     0.4
+     "h_00463",
+     0.5
     ],
     [
-     "h_00463",
+     "h_01434",
      0.5
     ]
    ]
@@ -7121,12 +7091,12 @@
      2.6
     ],
     [
-     "h_00008",
-     4
-    ],
-    [
      "h_00173",
      4.2
+    ],
+    [
+     "h_01392",
+     4.3
     ]
    ]
   },
@@ -7193,10 +7163,6 @@
    ],
    "h": [
     [
-     "h_00581",
-     0.1
-    ],
-    [
      "h_01585",
      0.1
     ],
@@ -7207,6 +7173,10 @@
     [
      "h_01266",
      0.6
+    ],
+    [
+     "h_00666",
+     0.9
     ]
    ]
   },
@@ -7407,12 +7377,12 @@
      8.3
     ],
     [
-     "h_01208",
+     "h_02090",
      8.3
     ],
     [
-     "h_02090",
-     8.3
+     "h_v18385673",
+     8.4
     ]
    ]
   },

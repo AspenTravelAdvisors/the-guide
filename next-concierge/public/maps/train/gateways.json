@@ -9,7 +9,7 @@
   "journeysWithStays": 104,
   "journeysWithHouse": 47,
   "gateways": 44,
-  "hotels": 156,
+  "hotels": 154,
   "houses": [
    "Belmond",
    "Orient Express"
@@ -1253,21 +1253,6 @@
    ],
    "promo": 1
   },
-  "h_01330": {
-   "n": "Montage Kapalua Bay",
-   "house": "Montage",
-   "aff": null,
-   "city": "Lahaina, Maui",
-   "country": "United States",
-   "ll": [
-    20.999764,
-    -156.666302
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
-  },
   "h_02148": {
    "n": "The Ritz-Carlton Maui, Kapalua",
    "house": "Luxury Group at Marriott International",
@@ -1626,25 +1611,6 @@
     "Daily breakfast",
     "Room upgrade",
     "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_01435": {
-   "n": "Orient Express Palazzo Dona Giovannelli - A Virtuoso Preview Property",
-   "house": null,
-   "aff": "Orient Express",
-   "city": "Venice",
-   "country": "Italy",
-   "ll": [
-    45.442616,
-    12.332799
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
    ],
    "promo": 0
   },
@@ -2902,21 +2868,6 @@
    ],
    "promo": 0
   },
-  "h_00229": {
-   "n": "Borgo Finocchieto",
-   "house": null,
-   "aff": null,
-   "city": "Buonconvento",
-   "country": "Italy",
-   "ll": [
-    43.11879,
-    11.460843
-   ],
-   "thumb": null,
-   "rooms": null,
-   "perks": [],
-   "promo": 0
-  },
   "h_00371": {
    "n": "Castello di Velona Resort, Thermal SPA & Winery",
    "house": null,
@@ -2952,6 +2903,25 @@
     "Daily breakfast",
     "Room upgrade",
     "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00372": {
+   "n": "Castello di Vicarello",
+   "house": null,
+   "aff": null,
+   "city": "Cinigiano",
+   "country": "Italy",
+   "ll": [
+    42.9068,
+    11.3224
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16728288_2_0.webp",
+   "rooms": 11,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
    ],
    "promo": 0
   },
@@ -3406,10 +3376,6 @@
      7.1
     ],
     [
-     "h_01330",
-     38.1
-    ],
-    [
      "h_02148",
      39.2
     ]
@@ -3422,10 +3388,6 @@
     -156.666
    ],
    "h": [
-    [
-     "h_01330",
-     0.3
-    ],
     [
      "h_02148",
      1.2
@@ -3553,10 +3515,6 @@
     ],
     [
      "h_00280",
-     0.7
-    ],
-    [
-     "h_01435",
      0.7
     ],
     [
@@ -3739,7 +3697,7 @@
      0.8
     ],
     [
-     "h_01435",
+     "h_01436",
      1.1
     ]
    ]
@@ -3994,16 +3952,16 @@
      6.3
     ],
     [
-     "h_00229",
-     7.9
-    ],
-    [
      "h_00371",
      8.6
     ],
     [
      "h_00366",
      10.5
+    ],
+    [
+     "h_00372",
+     20.6
     ]
    ]
   },

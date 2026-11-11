@@ -200,6 +200,7 @@ for (const start of [...dropped.keys()]) {
 const JUNK = /^(iceportal hotel test|virtuoso hotel( (test|training|core training|local training|for iceportal testing))?$|virtuoso nw trainging$|virtuoso test training$|new hotel supplier in pro\b)/i;
 
 const merged = [];
+const delisted = [];                           // Virtuoso-only records the feed no longer returns
 const stats = { upgraded: 0, localOnly: 0, added: 0, dropped: 0, junk: 0, categoryChanged: 0, perksReplaced: 0, photos: 0, partnerPerks: 0 };
 
 for (const h of base) {
@@ -210,6 +211,26 @@ for (const h of base) {
   const v = vid ? byVid.get(vid) : null;
 
   if (!v) {
+    /*
+     * Virtuoso no longer returns it, and Virtuoso is the only reason we list it.
+     *
+     * This branch used to keep every unmatched record on the assumption that it
+     * was a partner Virtuoso doesn't carry. But most of the base came in through
+     * the old Virtuoso import, so "unmatched" also meant "Virtuoso has dropped
+     * it" — closed (Raffles Maldives Meradhoo), pulled from the programme (the
+     * Moscow and St Petersburg hotels), or renamed and already listed under the
+     * new name (The Temple House is Upper House Chengdu). 66 such records were
+     * still on the map as Virtuoso properties, months after the supplier had
+     * stopped carrying them.
+     *
+     * Program membership is resolved through program-overrides first, the way
+     * the atlas reads it, so a record labelled "Virtuoso" that actually belongs
+     * to a partner program (One&Only, Marriott STARS, Cadence) is still kept.
+     */
+    if (applyOverride(h).program === 'Virtuoso') {
+      delisted.push(h);
+      continue;
+    }
     // A partner Virtuoso doesn't carry — Cadence-only, Belmond, Marriott STARS.
     // Left exactly as curated; nothing here is supplier-verifiable.
     merged.push({ ...h, ...partnerPerks(h), vid: null, source: 'local' });
@@ -453,7 +474,8 @@ fs.writeFileSync(path.join(D, 'hotel-fit.json'), JSON.stringify(newFit, null, 1)
 
 console.log(`luxury-hotels.json — ${merged.length} properties`);
 console.log(`  ${stats.upgraded} upgraded from Virtuoso · ${stats.added} newly added · ${stats.localOnly} local-only partners (${stats.partnerPerks} given partner-program benefits)`);
-console.log(`  ${stats.dropped} duplicates folded away · ${stats.junk} junk records removed`);
+console.log(`  ${stats.dropped} duplicates folded away · ${stats.junk} junk records removed · ${delisted.length} no longer carried by Virtuoso`);
+for (const h of delisted) console.log(`    delisted ${h.id}  ${h.name}, ${h.country}`);
 console.log(`  ${stats.categoryChanged} categories corrected · ${stats.perksReplaced} perk lists from supplier · ${stats.photos} photos attached`);
 {
   const withDesc = merged.filter(h => h.description).length;
