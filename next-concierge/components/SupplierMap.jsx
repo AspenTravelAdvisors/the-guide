@@ -99,7 +99,7 @@ export default function SupplierMap({ lines = [], dots = [], title, caption }) {
           </polyline>
         ))}
         {pts.map((d, i) => (
-          <circle key={i} cx={x(d.at[0])} cy={y(d.at[1])} r={r} fill={d.color || "var(--gold-light)"} stroke="#09090b" strokeWidth={r * 0.35}>
+          <circle key={i} cx={x(d.at[0])} cy={y(d.at[1])} r={r} fill={d.color || "var(--gold-light)"} stroke="var(--bg)" strokeWidth={r * 0.35}>
             {d.label ? <title>{d.label}</title> : null}
           </circle>
         ))}

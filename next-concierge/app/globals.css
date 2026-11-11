@@ -1,20 +1,144 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   Themes. Every color below is a token: the dark theme (near-black and antique
+   gold) is the default, and :root[data-theme="light"] redefines the tokens for
+   the light one (warm ivory, blush and dusty rose, with champagne gold).
+   lib/theme.ts sets data-theme on <html> before the first paint, from the
+   footer's Auto · Light · Dark switch or, on Auto, from the device.
+
+   The names are the dark theme's: --gold is "the accent", which is rose in the
+   light theme. The *-rgb tokens are bare channels for rgba(var(--x), alpha).
+   ═══════════════════════════════════════════════════════════════════════════ */
 :root {
   --bg: #09090b;
+  --bg-rgb: 9, 9, 11;
   --panel: #111113;
   --card: #18181b;
   --card-hover: #1f1f23;
   --gold: #c9a84c;
+  --gold-rgb: 201, 168, 76;
   --gold-light: #e2c87a;
   --gold-dim: #7a6228;
+  --gold-dim-rgb: 122, 98, 40;
+  --gold-dim-2: #a98a3e;
+  --gold-soft: #e3c98a;
+  --gold-pale: #f0dca6;
+  --gold-mute: #9c8a5e;
+  /* Text on a --gold fill (buttons, avatar discs). */
+  --on-gold: #1a1407;
   --text: #e8e0d0;
   --muted: #7a7060;
   --sub: #a09070;
+  --dim: #9c998f;
+  --dim-2: #b9b6ad;
   --line: #2a2419;
   --line-soft: #1e1c16;
   --user: #16140d;
+  /* Surfaces. */
+  --header-top: #0c0c0e;
+  --ribbon: #0f0d09;
+  --panel-warm: #14130e;
+  --panel-deep: #0d0d10;
+  --raised-top: #17171a;
+  --raised-bot: #101013;
+  /* Translucent panels floating over the map. */
+  --glass-rgb: 12, 12, 14;
+  /* White hairlines and hover tints. */
+  --tint-rgb: 255, 255, 255;
+  --scrim-rgb: 6, 6, 8;
+  --scrim-k: 1;
+  --shadow-rgb: 0, 0, 0;
+  --shadow-k: 1;
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  /* Text-shadow for type set directly on the map. */
+  --halo: rgba(0, 0, 0, 0.9);
+  /* Named accents. */
+  --champ: #d8c98a;
+  --champ-hi: #e0cd8b;
+  --brass: #c9ad6a;
+  --champ-rgb: 230, 212, 136;
+  --ok: #b8e09a;
+  --ok-line: #3f5d33;
+  --lilac: #c9a7e6;
+  --lilac-pale: #d8bff0;
+  --lilac-rgb: 181, 126, 220;
+  --warn: #e0a05a;
+  --stale: #d08b6a;
+  --sea: #6f6d67;
+  --promo-line: #4a412a;
+  --promo-bg: rgba(28, 24, 14, 0.7);
+  --promo-text: #c8bf9f;
+  --av-a: #caa44e;
+  --av-b: #ffe9b0;
+  --av-ink: #3a2c0d;
+  --cta-top: #d9b95e;
+  --cta-bot: #b8973d;
   --serif: var(--font-serif), "Cormorant Garamond", Georgia, serif;
   --sans: var(--font-sans), "Inter", system-ui, -apple-system, sans-serif;
-  --shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  color-scheme: dark;
+}
+
+/* Light: blush & champagne. Warm ivory ground, dusty-rose accent, plum-brown
+   ink, champagne-bronze for secondary text. Contrast against --bg: text 12:1,
+   --sub 5.2:1, --muted 4.6:1, --gold 4.2:1, --gold-light 5.4:1. */
+:root[data-theme="light"] {
+  --bg: #fbf6f3;
+  --bg-rgb: 251, 246, 243;
+  --panel: #fffdfc;
+  --card: #f8efeb;
+  --card-hover: #f3e5e0;
+  --gold: #a8627a;
+  --gold-rgb: 176, 108, 132;
+  --gold-light: #94506a;
+  --gold-dim: #ddbac6;
+  --gold-dim-rgb: 214, 160, 178;
+  --gold-dim-2: #c98fa3;
+  --gold-soft: #94506a;
+  --gold-pale: #8a4a62;
+  --gold-mute: #8f7258;
+  --on-gold: #ffffff;
+  --text: #3e2c30;
+  --muted: #86686e;
+  --sub: #7f6244;
+  --dim: #86686e;
+  --dim-2: #6f5a5f;
+  --line: #ecdcd7;
+  --line-soft: #f4e9e5;
+  --user: #f7e6ea;
+  --header-top: #fffbf9;
+  --ribbon: #f8ece8;
+  --panel-warm: #faf0ec;
+  --panel-deep: #f5eae6;
+  --raised-top: #ffffff;
+  --raised-bot: #fbf3f0;
+  --glass-rgb: 255, 252, 250;
+  --tint-rgb: 120, 72, 86;
+  --scrim-rgb: 62, 38, 46;
+  --scrim-k: 0.6;
+  --shadow-rgb: 120, 72, 86;
+  --shadow-k: 0.3;
+  --shadow: 0 10px 40px rgba(120, 72, 86, 0.14);
+  --halo: rgba(251, 246, 243, 0.95);
+  --champ: #8a6a48;
+  --champ-hi: #8a6a48;
+  --brass: #8a6a48;
+  --champ-rgb: 184, 149, 106;
+  --ok: #4f7a3a;
+  --ok-line: #b9d3a8;
+  --lilac: #7d559e;
+  --lilac-pale: #6a4489;
+  --lilac-rgb: 150, 110, 190;
+  --warn: #a85a1a;
+  --stale: #b0583a;
+  --sea: #9a858c;
+  --promo-line: #e6cfc9;
+  --promo-bg: rgba(250, 240, 237, 0.9);
+  --promo-text: #6f5a5f;
+  --av-a: #c98aa0;
+  --av-b: #f4d9cc;
+  --av-ink: #5a2f3e;
+  --cta-top: #b97389;
+  --cta-bot: #9d5770;
+  color-scheme: light;
 }
 
 * {
@@ -56,7 +180,7 @@ header.site {
   gap: 14px;
   padding: 13px 20px;
   border-bottom: 1px solid var(--line);
-  background: linear-gradient(180deg, #0c0c0e, #09090b);
+  background: linear-gradient(180deg, var(--header-top), var(--bg));
 }
 /* Brand lockup: mark + wordmark (→ expeditionbucketlist.com).
    This was a two-row column — wordmark on top, the app's own address beneath
@@ -131,7 +255,7 @@ header.site .tag .byline:hover {
   gap: 12px;
   padding: 7px 20px;
   border-bottom: 1px solid var(--line);
-  background: #0f0d09;
+  background: var(--ribbon);
   color: var(--sub);
   font-size: 12.5px;
   line-height: 1.4;
@@ -406,7 +530,7 @@ main.page {
 }
 .msg.guide .who {
   background: linear-gradient(135deg, var(--gold), var(--gold-dim));
-  color: #1a1407;
+  color: var(--on-gold);
 }
 .msg .body {
   flex: 1;
@@ -693,7 +817,7 @@ main.page {
   cursor: pointer;
   border: 0;
   background: linear-gradient(135deg, var(--gold), var(--gold-dim));
-  color: #1a1407;
+  color: var(--on-gold);
   font-weight: 600;
   font-size: 13.5px;
   letter-spacing: 0.4px;
@@ -756,7 +880,7 @@ main.page {
   min-height: 380px;
   border: 1px solid var(--line);
   border-radius: 14px;
-  background: radial-gradient(ellipse at 30% 20%, #14130e, var(--panel));
+  background: radial-gradient(ellipse at 30% 20%, var(--panel-warm), var(--panel));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -792,7 +916,7 @@ main.page {
   justify-content: center;
   text-align: center;
   padding: 24px;
-  background: radial-gradient(ellipse at 30% 20%, #14130e, var(--panel));
+  background: radial-gradient(ellipse at 30% 20%, var(--panel-warm), var(--panel));
   pointer-events: none;
   transition: opacity 0.5s ease;
 }
@@ -831,7 +955,7 @@ main.page {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: rgba(12, 12, 14, 0.92);
+  background: rgba(var(--glass-rgb), 0.92);
   border: 1px solid var(--gold-dim);
   color: var(--gold-light);
   font-family: var(--sans);
@@ -869,12 +993,12 @@ main.page {
 .atlas-ctrls .actrl.on {
   background: var(--gold);
   border-color: var(--gold);
-  color: #0c0c0e;
+  color: var(--on-gold);
 }
 .atlas-ctrls .actrl.on:hover {
   background: var(--gold-light);
   border-color: var(--gold-light);
-  color: #0c0c0e;
+  color: var(--on-gold);
 }
 /* "Search this area" cluster, bottom-left of the villa map (bottom-right holds
    the Mapbox zoom control, top-right the fullscreen/style/share stack). */
@@ -898,7 +1022,7 @@ main.page {
   font-size: 13px;
   font-style: italic;
   color: var(--gold-light);
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+  text-shadow: 0 1px 10px var(--halo);
   pointer-events: none;
   transition: opacity 0.6s ease;
 }
@@ -941,7 +1065,7 @@ main.page {
   width: 11px;
   height: 11px;
   border-radius: 3px;
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(var(--tint-rgb), 0.22);
   flex: none;
 }
 .atlas-ctrls .actrl-style {
@@ -959,7 +1083,7 @@ main.page {
   min-width: 138px;
   display: flex;
   flex-direction: column;
-  background: rgba(12, 12, 14, 0.96);
+  background: rgba(var(--glass-rgb), 0.96);
   border: 1px solid var(--gold-dim);
   border-radius: 8px;
   overflow: hidden;
@@ -980,7 +1104,7 @@ main.page {
   cursor: pointer;
 }
 .atlas-ctrls .actrl-menu button:hover {
-  background: rgba(201, 168, 76, 0.12);
+  background: rgba(var(--gold-rgb), 0.12);
 }
 .atlas-ctrls .actrl-menu button.active {
   color: var(--gold-light);
@@ -996,7 +1120,7 @@ main.page {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: rgba(12, 12, 14, 0.86);
+  background: rgba(var(--glass-rgb), 0.86);
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 7px 11px;
@@ -1066,7 +1190,7 @@ main.page {
   left: 12px;
   top: 12px;
   z-index: 3;
-  background: rgba(10, 10, 12, 0.78);
+  background: rgba(var(--glass-rgb), 0.78);
   backdrop-filter: blur(8px);
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -1097,14 +1221,14 @@ main.page {
   text-align: left;
 }
 .atlas-legend .lgi:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(var(--tint-rgb), 0.05);
 }
 .atlas-legend .lgi i {
   width: 9px;
   height: 9px;
   border-radius: 50%;
   flex: none;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 1px rgba(var(--shadow-rgb), calc(0.6 * var(--shadow-k)));
 }
 /* Pushed back, not switched off. The strike-through that used to live here
    said "removed", which is what the map used to do and no longer does — the
@@ -1116,7 +1240,7 @@ main.page {
 /* The isolated row. Solo is a positive state — "this is what you are looking
    at" — so it gets the emphasis and the dimmed rows carry the consequence. */
 .atlas-legend .lgi.solo {
-  background: rgba(255, 255, 255, 0.09);
+  background: rgba(var(--tint-rgb), 0.09);
 }
 .atlas-legend .lgi.solo span {
   color: var(--text);
@@ -1165,7 +1289,7 @@ main.page {
     padding: 0 12px;
     border: 1px solid var(--line);
     border-radius: 30px;
-    background: rgba(10, 10, 12, 0.82);
+    background: rgba(var(--glass-rgb), 0.82);
     backdrop-filter: blur(8px);
     color: var(--text);
     font-family: var(--sans);
@@ -1188,7 +1312,7 @@ main.page {
     position: fixed;
     inset: 0;
     z-index: 1250;
-    background: rgba(3, 6, 11, 0.5);
+    background: rgba(var(--scrim-rgb), calc(0.5 * var(--scrim-k)));
   }
   /* Off-screen rather than display:none so it slides, and so the rows keep
      their layout for the transition. */
@@ -1246,7 +1370,7 @@ main.page {
 
 /* Mapbox popup → house style. */
 .mapboxgl-popup-content {
-  background: #14130e !important;
+  background: var(--panel-warm) !important;
   border: 1px solid var(--line);
   border-radius: 10px;
   color: var(--text);
@@ -1254,8 +1378,8 @@ main.page {
   padding: 11px 13px !important;
 }
 .mapboxgl-popup-tip {
-  border-top-color: #14130e !important;
-  border-bottom-color: #14130e !important;
+  border-top-color: var(--panel-warm) !important;
+  border-bottom-color: var(--panel-warm) !important;
 }
 .mapboxgl-popup-close-button {
   color: var(--sub);
@@ -1278,9 +1402,9 @@ main.page {
    anything that looks dismissible invites the dismissal reflex the old
    auto-opening tour taught us to avoid. */
 .atlas-tourcap .mapboxgl-popup-content {
-  background: rgba(11, 14, 20, 0.82) !important;
+  background: rgba(var(--glass-rgb), 0.82) !important;
   backdrop-filter: blur(6px);
-  border: 1px solid rgba(230, 212, 136, 0.28);
+  border: 1px solid rgba(var(--champ-rgb), 0.28);
   border-radius: 12px;
   padding: 9px 13px !important;
   pointer-events: none;
@@ -1411,7 +1535,7 @@ main.page {
   font-size: 21px;
   font-weight: 600;
   margin: 0 0 4px;
-  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.9);
+  text-shadow: 0 1px 12px var(--halo);
   /* Lining, equal-width digits. Proportional numerals in a serif set "10,851"
      with a narrow 1, which makes the headline figure read smaller than it is —
      precisely the wrong optical effect for the one number carrying the pitch. */
@@ -1442,7 +1566,7 @@ main.page {
   font-size: 12px;
   margin: 0;
   max-width: 560px;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+  text-shadow: 0 1px 10px var(--halo);
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -1556,8 +1680,8 @@ main.page {
     padding: 8px 18px 8px 8px;
     border: 1px solid var(--gold-dim);
     border-radius: 999px;
-    background: linear-gradient(180deg, #17171a, #101013);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+    background: linear-gradient(180deg, var(--raised-top), var(--raised-bot));
+    box-shadow: 0 10px 30px rgba(var(--shadow-rgb), calc(0.55 * var(--shadow-k)));
     color: var(--sub);
     font-family: var(--sans);
     font-size: 14px;
@@ -1572,7 +1696,7 @@ main.page {
     justify-content: center;
     font-size: 12px;
     font-weight: 600;
-    color: #1a1407;
+    color: var(--on-gold);
     background: linear-gradient(135deg, var(--gold), var(--gold-dim));
   }
 
@@ -1946,7 +2070,7 @@ main.page {
        as one block rather than as two captions. */
     line-height: 1.25;
     margin: 0 0 2px;
-    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.85);
+    text-shadow: 0 1px 10px var(--halo);
   }
   /* No blurb over a phone-sized map: the sheet below already carries the
      promise, and the map's job here is to be the map. (These were two
@@ -1975,7 +2099,7 @@ main.page {
     background: var(--panel);
     border-top: 1px solid var(--gold-dim);
     border-radius: 16px 16px 0 0;
-    box-shadow: 0 -16px 44px rgba(0, 0, 0, 0.55);
+    box-shadow: 0 -16px 44px rgba(var(--shadow-rgb), calc(0.55 * var(--shadow-k)));
     /* Pill ↔ half slides with transform (cheap, uninterruptible); only the
        half ↔ full step animates height. */
     transition:
@@ -2102,7 +2226,7 @@ main.page {
     justify-content: center;
     font-size: 11px;
     font-weight: 600;
-    color: #1a1407;
+    color: var(--on-gold);
     background: linear-gradient(135deg, var(--gold), var(--gold-dim));
   }
   .gsb-meta {
@@ -2135,7 +2259,7 @@ main.page {
     bottom: 0;
     z-index: 5;
     padding: 26px 12px calc(12px + env(safe-area-inset-bottom));
-    background: linear-gradient(180deg, rgba(6, 6, 8, 0) 0%, rgba(6, 6, 8, 0.86) 46%);
+    background: linear-gradient(180deg, rgba(var(--bg-rgb), 0) 0%, rgba(var(--bg-rgb), 0.86) 46%);
     pointer-events: none; /* the gradient is decoration — children re-enable */
   }
   .atlas-dock > * {
@@ -2160,8 +2284,8 @@ main.page {
     padding: 8px 10px 8px 8px;
     border: 1px solid var(--gold-dim);
     border-radius: 999px;
-    background: linear-gradient(180deg, #17171a, #101013);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+    background: linear-gradient(180deg, var(--raised-top), var(--raised-bot));
+    box-shadow: 0 10px 30px rgba(var(--shadow-rgb), calc(0.55 * var(--shadow-k)));
     color: var(--sub);
     font-family: var(--sans);
     font-size: 14.5px;
@@ -2177,7 +2301,7 @@ main.page {
     justify-content: center;
     font-size: 13px;
     font-weight: 600;
-    color: #1a1407;
+    color: var(--on-gold);
     background: linear-gradient(135deg, var(--gold), var(--gold-dim));
   }
   .dock-pill-text {
@@ -2281,7 +2405,7 @@ main.page {
 .tour-scrim {
   position: absolute;
   inset: 0;
-  background: rgba(6, 6, 8, 0.349);
+  background: rgba(var(--scrim-rgb), calc(0.349 * var(--scrim-k)));
   backdrop-filter: blur(2px);
   animation: tour-fade 0.25s ease;
 }
@@ -2293,9 +2417,9 @@ main.page {
   border-radius: 14px;
   border: 1.5px solid var(--gold);
   box-shadow:
-    0 0 0 9999px rgba(6, 6, 8, 0.371),
-    0 0 0 2px rgba(201, 168, 76, 0.35),
-    0 0 26px 4px rgba(201, 168, 76, 0.28);
+    0 0 0 9999px rgba(var(--scrim-rgb), calc(0.371 * var(--scrim-k))),
+    0 0 0 2px rgba(var(--gold-rgb), 0.35),
+    0 0 26px 4px rgba(var(--gold-rgb), 0.28);
   pointer-events: none;
   transition: top 0.28s ease, left 0.28s ease, width 0.28s ease, height 0.28s ease;
   animation: tour-fade 0.25s ease;
@@ -2309,11 +2433,11 @@ main.page {
 .tour-card {
   position: absolute;
   width: min(360px, calc(100vw - 32px));
-  background: linear-gradient(180deg, #141416, #0e0e10);
+  background: linear-gradient(180deg, var(--raised-top), var(--raised-bot));
   border: 1px solid var(--line);
   border-radius: 16px;
   padding: 20px 20px 16px;
-  box-shadow: var(--shadow), 0 0 0 1px rgba(201, 168, 76, 0.08);
+  box-shadow: var(--shadow), 0 0 0 1px rgba(var(--gold-rgb), 0.08);
   transition: top 0.28s ease, left 0.28s ease;
   animation: tour-rise 0.28s ease;
 }
@@ -2445,7 +2569,7 @@ main.page {
   border-color: var(--sub);
 }
 .tour-btn.primary {
-  color: #1a1408;
+  color: var(--on-gold);
   background: linear-gradient(180deg, var(--gold-light), var(--gold));
   border: 1px solid var(--gold);
   font-weight: 600;
@@ -2519,7 +2643,7 @@ main.page {
   font-size: 13.5px;
 }
 .villa-count {
-  color: #c9ad6a;
+  color: var(--brass);
   white-space: nowrap;
   padding-bottom: 4px;
 }
@@ -2529,7 +2653,7 @@ main.page {
   border: 1px solid var(--line);
   border-radius: 10px;
   overflow: hidden;
-  background: #0b0d12;
+  background: var(--panel-deep);
   margin-bottom: 14px;
 }
 /* Fullscreen (CSS fallback + native): fill the viewport like .atlas-map.fs. */
@@ -2588,7 +2712,7 @@ main.page {
   font-family: var(--sans);
   font-size: 13px;
   font-weight: 700;
-  color: #17140c;
+  color: var(--on-gold);
   background: linear-gradient(135deg, var(--gold), var(--gold-light));
   border: 1px solid var(--gold);
   border-radius: 9px;
@@ -2639,7 +2763,7 @@ main.page {
   color: #8a6d1f;
 }
 .villa-shortlist-note {
-  color: #e3c98a;
+  color: var(--gold-soft);
   margin: 0 0 10px;
 }
 .villa-shortlist-note button {
@@ -2704,15 +2828,15 @@ main.page {
   cursor: pointer;
 }
 .villa-check input {
-  accent-color: #c9a84c;
+  accent-color: var(--gold);
 }
 .villa-badge {
   position: absolute;
   top: 8px;
   left: 8px;
-  background: rgba(20, 17, 8, 0.85);
-  border: 1px solid #7a6228;
-  color: #e3c98a;
+  background: rgba(var(--glass-rgb), 0.85);
+  border: 1px solid var(--gold-dim);
+  color: var(--gold-soft);
   font-size: 10px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -2722,8 +2846,8 @@ main.page {
 .villa-badge.special {
   top: auto;
   bottom: 8px;
-  border-color: #3f5d33;
-  color: #b8e09a;
+  border-color: var(--ok-line);
+  color: var(--ok);
 }
 .villa-hero-badges .villa-badge {
   position: static;
@@ -2784,7 +2908,7 @@ main.page {
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid var(--line);
-  background: #0e0f13;
+  background: var(--panel-deep);
 }
 .villa-hero img {
   width: 100%;
@@ -2813,13 +2937,13 @@ main.page {
   margin: 0 0 14px;
 }
 .villa-detail-stats b {
-  color: #e3c98a;
+  color: var(--gold-soft);
   font-weight: 500;
 }
 .villa-detail-cfp {
   color: var(--sub);
   font-size: 13.5px;
-  border-left: 2px solid #7a6228;
+  border-left: 2px solid var(--gold-dim);
   padding-left: 12px;
 }
 .villa-detail-summary {
@@ -2850,8 +2974,8 @@ main.page {
   margin: 26px 0 10px;
 }
 .villa-cta-primary {
-  background: linear-gradient(180deg, #d9b95e, #b8973d);
-  color: #171204;
+  background: linear-gradient(180deg, var(--cta-top), var(--cta-bot));
+  color: var(--on-gold);
   font-weight: 600;
   font-size: 14px;
   padding: 11px 20px;
@@ -2870,7 +2994,7 @@ main.page {
 }
 .villa-cta-secondary:hover {
   text-decoration: none;
-  background: rgba(201, 168, 76, 0.08);
+  background: rgba(var(--gold-rgb), 0.08);
 }
 .villa-detail-value {
   color: var(--sub);
@@ -3015,11 +3139,11 @@ main.page {
 .answers-table-scroll thead th {
   color: var(--gold-light);
   font-weight: 600;
-  background: rgba(201, 168, 76, 0.06);
+  background: rgba(var(--gold-rgb), 0.06);
   white-space: nowrap;
 }
 .answers-table-scroll tbody th[scope="row"] {
-  color: #e3c98a;
+  color: var(--gold-soft);
   font-weight: 500;
 }
 .answers-table-scroll tbody tr:last-child th,
@@ -3185,6 +3309,11 @@ main.page {
   height: 8px;
   border-radius: 50%;
   flex: 0 0 auto;
+}
+/* The collection colors are map-pin colors, picked to show on a dark map; the
+   palest (jets, hotels) need an edge on the light theme's ivory menu. */
+:root[data-theme="light"] .nav-dot {
+  box-shadow: 0 0 0 1px rgba(var(--tint-rgb), 0.35);
 }
 .nav-menu-label {
   flex: 1;
@@ -3390,7 +3519,7 @@ header.site > .site-nav {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: rgba(6, 6, 8, 0.72);
+  background: rgba(var(--scrim-rgb), calc(0.72 * var(--scrim-k)));
   backdrop-filter: blur(3px);
 }
 .adv-dialog {
@@ -3535,7 +3664,7 @@ header.site > .site-nav {
 .adv-error {
   margin: 2px 0 8px;
   font-size: 12.5px;
-  color: #e0a05a;
+  color: var(--warn);
 }
 .adv-actions {
   display: flex;
@@ -3836,9 +3965,9 @@ button.card-book {
      rather than let Safari draw its own underneath. */
   -webkit-appearance: none;
   appearance: none;
-  border: 1px solid #4a412a;
-  background: rgba(28, 24, 14, 0.7);
-  color: #c8bf9f;
+  border: 1px solid var(--promo-line);
+  background: var(--promo-bg);
+  color: var(--promo-text);
   font-size: 12px;
   letter-spacing: 0.02em;
   padding: 6px 11px;
@@ -3847,13 +3976,13 @@ button.card-book {
   white-space: nowrap;
 }
 .atlas-promo:hover {
-  border-color: #7a6228;
-  color: #e3c98a;
+  border-color: var(--gold-dim);
+  color: var(--gold-soft);
 }
 .atlas-promo.on {
-  background: rgba(122, 98, 40, 0.28);
-  border-color: #a98a3e;
-  color: #f0dca6;
+  background: rgba(var(--gold-dim-rgb), 0.28);
+  border-color: var(--gold-dim-2);
+  color: var(--gold-pale);
 }
 /* The result-side group: count · "first 120" · Sort · Share · Reset. One
    auto-margin on the group, rather than one on each item — the old
@@ -3973,7 +4102,7 @@ button.card-book {
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 12px 12px 10px;
-  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 18px 44px rgba(var(--shadow-rgb), calc(0.55 * var(--shadow-k)));
 }
 /* Opened upward when the rail is sitting low on the screen — see daysUp. */
 .atlas-dayspop.up {
@@ -4029,7 +4158,7 @@ button.card-book {
   /* A face for the dial. Without it the rows either side of the band fade into
      the page and the wheel reads as loose numbers floating in a gap — most
      visible in the drawer, where the control has a whole row to itself. */
-  background: rgba(255, 255, 255, 0.022);
+  background: rgba(var(--tint-rgb), 0.022);
   border-radius: 10px;
 }
 /* The selection band — the wheel's only piece of chrome, and what makes a
@@ -4042,7 +4171,7 @@ button.card-book {
   height: var(--wheel-row);
   border-top: 1px solid var(--gold);
   border-bottom: 1px solid var(--gold);
-  background: rgba(198, 164, 92, 0.1);
+  background: rgba(var(--gold-rgb), 0.1);
   border-radius: 4px;
   pointer-events: none;
 }
@@ -4068,7 +4197,7 @@ button.card-book {
   outline: none;
 }
 .atlas-wheelbox:focus-within .atlas-wheelband {
-  background: rgba(198, 164, 92, 0.2);
+  background: rgba(var(--gold-rgb), 0.2);
   box-shadow: 0 0 0 1px var(--gold);
 }
 .atlas-wheelrow {
@@ -4284,28 +4413,28 @@ button.card-book {
  * beneath it read as one fact rather than two.
  */
 .atlas-card--stay .ac-note--offer {
-  color: #b8e09a;
+  color: var(--ok);
 }
 
 /* Safari's card note is neither a perk nor an offer — it is a pointer into
    another collection — so it takes the atlas's own jacaranda rather than the
    gold, and leads with a flag that says which claim is being made. */
 .atlas-collection--safari .atlas-card--stay .ac-note {
-  color: #c9a7e6;
+  color: var(--lilac);
 }
 .sf-camp-flag {
   margin-right: 6px;
   padding: 1px 5px;
   border-radius: 3px;
-  background: rgba(181, 126, 220, 0.16);
-  color: #d8bff0;
+  background: rgba(var(--lilac-rgb), 0.16);
+  color: var(--lilac-pale);
   font-size: 10px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 /* The collection-level link, in the row that already carries the count. */
 .sf-lodges {
-  color: #c9a7e6;
+  color: var(--lilac);
   font-size: 12px;
   text-decoration: none;
   white-space: nowrap;
@@ -4329,7 +4458,7 @@ button.card-book {
   position: relative;
   display: block;
   aspect-ratio: 3 / 2;
-  background: #0e0f13;
+  background: var(--panel-deep);
 }
 .atlas-card--stay .ac-media img {
   display: block;
@@ -4341,7 +4470,7 @@ button.card-book {
 .atlas-card--stay .ac-media-empty {
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at center, #14151b, #0b0c10);
+  background: radial-gradient(ellipse at center, var(--panel-warm), var(--panel-deep));
 }
 /* The photograph with the brand mark riding on it (AtlasCollection's
    `markOverMedia`). The wrapper exists only to give the mark something to
@@ -4827,7 +4956,7 @@ button.card-book {
   position: fixed;
   inset: 0;
   z-index: 45;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(var(--scrim-rgb), calc(0.55 * var(--scrim-k)));
 }
 .atlas-sheet {
   position: fixed;
@@ -4946,7 +5075,7 @@ button.card-book {
 .atlas-apply {
   flex: 1;
   background: var(--gold);
-  color: #17140c;
+  color: var(--on-gold);
   border: 1px solid var(--gold);
   border-radius: 9px;
   padding: 12px 16px;
@@ -4978,7 +5107,7 @@ button.card-book {
    first appeared is what keeps the two homes identical. */
 .atlas-share {
   background: var(--gold);
-  color: #17140c;
+  color: var(--on-gold);
   border: 1px solid var(--gold);
   border-radius: 7px;
   padding: 7px 14px;
@@ -5044,9 +5173,9 @@ button.card-book {
 .atlas-sort select {
   font-family: var(--sans);
   font-size: 12.5px;
-  color: var(--ink, #f4efe3);
+  color: var(--ink, var(--text));
   background: transparent;
-  border: 1px solid var(--hairline, rgba(255, 255, 255, 0.16));
+  border: 1px solid var(--hairline, rgba(var(--tint-rgb), 0.16));
   border-radius: 999px;
   padding: 4px 26px 4px 11px;
   cursor: pointer;
@@ -5067,7 +5196,7 @@ button.card-book {
 }
 /* The menu itself is drawn by the OS, which does not inherit the dark page. */
 .atlas-sort option {
-  color: #17140c;
+  color: var(--on-gold);
   background: #f4efe3;
 }
 /* Desktop: the sort control lives in the filter rail, so its standalone bar
@@ -5101,8 +5230,8 @@ button.card-book {
   font-weight: 600;
   letter-spacing: 0.01em;
   color: var(--gold);
-  background: rgba(201, 168, 76, 0.08);
-  border: 1px solid rgba(201, 168, 76, 0.45);
+  background: rgba(var(--gold-rgb), 0.08);
+  border: 1px solid rgba(var(--gold-rgb), 0.45);
   border-radius: 8px;
   padding: 6px 12px;
   text-decoration: none;
@@ -5112,7 +5241,7 @@ button.card-book {
 .atlas-card .ac-book:hover,
 .atlas-card .ac-fly:hover,
 .atlas-card .ac-3d:hover {
-  background: rgba(201, 168, 76, 0.16);
+  background: rgba(var(--gold-rgb), 0.16);
   border-color: var(--gold);
   text-decoration: none;
 }
@@ -5127,8 +5256,8 @@ button.card-book {
   white-space: nowrap;
   padding: 6px 11px;
   border-radius: 8px;
-  background: rgba(201, 168, 76, 0.08);
-  border: 1px solid rgba(201, 168, 76, 0.45);
+  background: rgba(var(--gold-rgb), 0.08);
+  border: 1px solid rgba(var(--gold-rgb), 0.45);
   color: var(--gold);
   font-size: 12px;
   font-weight: 600;
@@ -5136,7 +5265,7 @@ button.card-book {
 }
 .mapboxgl-popup .iw .iwbook:hover,
 .mapboxgl-popup .iw .iw3d:hover {
-  background: rgba(201, 168, 76, 0.16);
+  background: rgba(var(--gold-rgb), 0.16);
   border-color: var(--gold);
 }
 .mapboxgl-popup .iw .iwbook-wrap {
@@ -5165,7 +5294,7 @@ button.card-book {
 .nav-menu-group + .nav-menu-group {
   margin-top: 4px;
   padding-top: 6px;
-  border-top: 1px solid var(--hairline, rgba(255, 255, 255, 0.08));
+  border-top: 1px solid var(--hairline, rgba(var(--tint-rgb), 0.08));
 }
 .nav-menu-group-head {
   display: flex;
@@ -5201,7 +5330,7 @@ button.card-book {
   font-size: 11.5px;
   color: var(--sub);
   background: transparent;
-  border: 1px solid var(--hairline, rgba(255, 255, 255, 0.16));
+  border: 1px solid var(--hairline, rgba(var(--tint-rgb), 0.16));
   border-radius: 999px;
   cursor: pointer;
   white-space: nowrap;
@@ -5243,7 +5372,7 @@ button.card-book {
   gap: 10px;
   text-align: center;
   padding: 24px;
-  background: radial-gradient(ellipse at 30% 20%, #14130e, var(--panel));
+  background: radial-gradient(ellipse at 30% 20%, var(--panel-warm), var(--panel));
   pointer-events: none;
 }
 .atlas-3d-boot p {
@@ -5267,12 +5396,12 @@ button.card-book {
   max-width: min(420px, calc(100% - 32px));
   padding: 9px 12px 9px 15px;
   border-radius: 30px;
-  background: rgba(12, 12, 14, 0.94);
+  background: rgba(var(--glass-rgb), 0.94);
   border: 1px solid var(--gold-dim);
   color: var(--gold-light);
   font-size: 12.5px;
   line-height: 1.35;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 32px rgba(var(--shadow-rgb), calc(0.5 * var(--shadow-k)));
 }
 .atlas-3d-note button {
   border: 0;
@@ -5319,12 +5448,12 @@ button.card-book {
   max-height: 100%;
   overflow: auto;
   overscroll-behavior: contain;
-  background: rgba(12, 12, 14, 0.95);
+  background: rgba(var(--glass-rgb), 0.95);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   border: 1px solid var(--gold-dim);
   border-radius: 14px;
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 18px 48px rgba(var(--shadow-rgb), calc(0.55 * var(--shadow-k)));
 }
 .hotel-dossier header {
   display: flex;
@@ -5396,8 +5525,8 @@ button.card-book {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  border: 1px solid rgba(201, 168, 76, 0.5);
-  background: rgba(201, 168, 76, 0.1);
+  border: 1px solid rgba(var(--gold-rgb), 0.5);
+  background: rgba(var(--gold-rgb), 0.1);
   color: var(--gold-light);
   border-radius: 999px;
   padding: 4px 9px;
@@ -5424,7 +5553,7 @@ button.card-book {
 .hotel-dossier dd {
   margin: 0;
   font-size: 12.5px;
-  color: var(--ink, #eae4d8);
+  color: var(--ink, var(--text));
 }
 .hotel-dossier .hd-prog {
   display: flex;
@@ -5452,10 +5581,10 @@ button.card-book {
   margin: 8px 0 0;
   font-size: 13px;
   line-height: 1.5;
-  color: var(--ink-dim, #b9b6ad);
+  color: var(--ink-dim, var(--dim-2));
 }
 .hd-know span {
-  color: var(--gold-light, #e3c98a);
+  color: var(--gold-light, var(--gold-soft));
   letter-spacing: 0.06em;
   text-transform: uppercase;
   font-size: 10px;
@@ -5483,12 +5612,12 @@ button.card-book {
   max-height: 100%;
   overflow: auto;
   overscroll-behavior: contain;
-  background: rgba(12, 12, 14, 0.95);
+  background: rgba(var(--glass-rgb), 0.95);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   border: 1px solid var(--gold-dim);
   border-radius: 14px;
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 18px 48px rgba(var(--shadow-rgb), calc(0.55 * var(--shadow-k)));
 }
 /* The title and the close button stay put while a long itinerary scrolls under
    them — a hundred-day voyage otherwise scrolls its own dismiss control away. */
@@ -5497,75 +5626,75 @@ button.card-book {
   justify-content: space-between;
   gap: 12px;
   padding: 14px 16px;
-  border-bottom: 1px solid #24252b;
+  border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
   z-index: 1;
-  background: rgba(12, 12, 14, 0.97);
+  background: rgba(var(--glass-rgb), 0.97);
 }
 .jd-head h2 {
   margin: 0;
   font-size: 16px;
   line-height: 1.3;
-  color: var(--ink, #e8e5dc);
+  color: var(--ink, var(--text));
 }
 .jd-meta, .jd-where, .jd-dates {
   margin: 3px 0 0;
   font-size: 12px;
-  color: var(--ink-dim, #9c998f);
+  color: var(--ink-dim, var(--dim));
 }
-.jd-where { color: #c8bf9f; }
+.jd-where { color: var(--promo-text); }
 .jd-close {
   background: none;
   border: none;
-  color: var(--ink-dim, #9c998f);
+  color: var(--ink-dim, var(--dim));
   font-size: 22px;
   line-height: 1;
   cursor: pointer;
   padding: 0 2px;
   align-self: flex-start;
 }
-.jd-close:hover { color: var(--ink, #e8e5dc); }
+.jd-close:hover { color: var(--ink, var(--text)); }
 .jd-body { padding: 14px 16px; }
 .jd-desc {
   margin: 0 0 12px;
   font-size: 13px;
   line-height: 1.55;
-  color: var(--ink-dim, #b9b6ad);
+  color: var(--ink-dim, var(--dim-2));
 }
 .jd-label {
   margin: 14px 0 4px;
   font-size: 10px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--gold-light, #e3c98a);
+  color: var(--gold-light, var(--gold-soft));
 }
 .jd-label:first-child { margin-top: 0; }
 /* Offers, matching the hotel dossier's treatment. */
 .jd-offers { list-style: none; margin: 6px 0 0; padding: 0; }
-.jd-offers li { margin-bottom: 10px; padding-left: 10px; border-left: 2px solid #7a6228; }
-.jd-offer-name { display: block; font-size: 13px; color: #e3c98a; }
+.jd-offers li { margin-bottom: 10px; padding-left: 10px; border-left: 2px solid var(--gold-dim); }
+.jd-offer-name { display: block; font-size: 13px; color: var(--gold-soft); }
 .jd-offer-excl {
   display: inline-block;
   margin-right: 6px;
   padding: 1px 5px;
-  border: 1px solid #7a6228;
+  border: 1px solid var(--gold-dim);
   border-radius: 4px;
   font-size: 9px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #f0dca6;
+  color: var(--gold-pale);
 }
-.jd-offer-desc { display: block; font-size: 12px; line-height: 1.45; color: var(--ink-dim, #9c998f); }
-.jd-offer-until { display: block; margin-top: 2px; font-size: 11px; color: #9c8a5e; }
+.jd-offer-desc { display: block; font-size: 12px; line-height: 1.45; color: var(--ink-dim, var(--dim)); }
+.jd-offer-until { display: block; margin-top: 2px; font-size: 11px; color: var(--gold-mute); }
 /* The day-by-day list. A sea day is dimmed rather than hidden: the gap between
    two ports is part of the shape of a voyage. */
 .jd-itin { list-style: none; margin: 6px 0 0; padding: 0; }
 .jd-itin li { display: flex; gap: 10px; font-size: 12px; line-height: 1.6; }
-.jd-itin li.sea .jd-stop { color: #6f6d67; font-style: italic; }
-.jd-day { flex: 0 0 52px; color: var(--ink-dim, #9c998f); }
-.jd-stop { color: var(--ink, #e8e5dc); }
-.jd-included { margin: 6px 0 0; padding-left: 18px; font-size: 12px; line-height: 1.55; color: var(--ink-dim, #b9b6ad); }
+.jd-itin li.sea .jd-stop { color: var(--sea); font-style: italic; }
+.jd-day { flex: 0 0 52px; color: var(--ink-dim, var(--dim)); }
+.jd-stop { color: var(--ink, var(--text)); }
+.jd-included { margin: 6px 0 0; padding-left: 18px; font-size: 12px; line-height: 1.55; color: var(--ink-dim, var(--dim-2)); }
 
 /* The camps on a safari route — the one block in this dossier that links out
    of the collection, so it is a list of TARGETS and reads like the hotel
@@ -5574,7 +5703,7 @@ button.card-book {
   margin: 6px 0 0;
   font-size: 11px;
   line-height: 1.5;
-  color: var(--ink-dim, #9c998f);
+  color: var(--ink-dim, var(--dim));
 }
 .jd-camps { list-style: none; margin: 8px 0 0; padding: 0; }
 .jd-camps li + li { margin-top: 6px; }
@@ -5583,24 +5712,24 @@ button.card-book {
   gap: 10px;
   align-items: center;
   padding: 6px;
-  border: 1px solid rgba(181, 126, 220, 0.28);
+  border: 1px solid rgba(var(--lilac-rgb), 0.28);
   border-radius: 7px;
-  background: rgba(181, 126, 220, 0.07);
+  background: rgba(var(--lilac-rgb), 0.07);
   text-decoration: none;
 }
-.jd-camp:hover { border-color: rgba(181, 126, 220, 0.6); background: rgba(181, 126, 220, 0.13); }
+.jd-camp:hover { border-color: rgba(var(--lilac-rgb), 0.6); background: rgba(var(--lilac-rgb), 0.13); }
 .jd-camp img, .jd-camp-empty {
   flex: 0 0 54px;
   width: 54px;
   height: 40px;
   border-radius: 4px;
   object-fit: cover;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(var(--tint-rgb), 0.05);
 }
 .jd-camp-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
-.jd-camp-name { font-size: 12px; color: var(--ink, #e8e5dc); }
-.jd-camp-meta { font-size: 11px; color: var(--ink-dim, #9c998f); }
-.jd-camp-perks { font-size: 11px; color: #c9a7e6; }
+.jd-camp-name { font-size: 12px; color: var(--ink, var(--text)); }
+.jd-camp-meta { font-size: 11px; color: var(--ink-dim, var(--dim)); }
+.jd-camp-perks { font-size: 11px; color: var(--lilac); }
 /* The nights either side of a journey — the gateway hotels. Same row shape as
    the camps above (thumbnail, name, meta, perks), because they are the same
    object from the same atlas, but in the dossier's own gold rather than
@@ -5610,7 +5739,7 @@ button.card-book {
   margin: 6px 0 0;
   font-size: 11px;
   line-height: 1.5;
-  color: var(--ink-dim, #9c998f);
+  color: var(--ink-dim, var(--dim));
 }
 /* "Before — Venice, Italy". A caption under the block's one heading, not a
    heading of its own: the two ends are halves of one subject. */
@@ -5619,7 +5748,7 @@ button.card-book {
   font-size: 11px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #d8c98a;
+  color: var(--champ);
 }
 .jd-stays { list-style: none; margin: 6px 0 0; padding: 0; }
 .jd-stays li + li { margin-top: 6px; }
@@ -5628,41 +5757,41 @@ button.card-book {
   gap: 10px;
   align-items: center;
   padding: 6px;
-  border: 1px solid rgba(230, 212, 136, 0.24);
+  border: 1px solid rgba(var(--champ-rgb), 0.24);
   border-radius: 7px;
-  background: rgba(230, 212, 136, 0.06);
+  background: rgba(var(--champ-rgb), 0.06);
   text-decoration: none;
 }
-.jd-stay:hover { border-color: rgba(230, 212, 136, 0.55); background: rgba(230, 212, 136, 0.12); }
+.jd-stay:hover { border-color: rgba(var(--champ-rgb), 0.55); background: rgba(var(--champ-rgb), 0.12); }
 /* The journey's own house, which is also why this row sorted first. */
-.jd-stay--house { border-color: rgba(230, 212, 136, 0.5); background: rgba(230, 212, 136, 0.11); }
+.jd-stay--house { border-color: rgba(var(--champ-rgb), 0.5); background: rgba(var(--champ-rgb), 0.11); }
 .jd-stay img, .jd-stay-empty {
   flex: 0 0 54px;
   width: 54px;
   height: 40px;
   border-radius: 4px;
   object-fit: cover;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(var(--tint-rgb), 0.05);
 }
 .jd-stay-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
-.jd-stay-name { font-size: 12px; color: var(--ink, #e8e5dc); }
+.jd-stay-name { font-size: 12px; color: var(--ink, var(--text)); }
 .jd-stay-flag {
   margin-right: 6px;
   padding: 1px 5px;
   border-radius: 3px;
-  background: rgba(230, 212, 136, 0.18);
-  color: #f0dca6;
+  background: rgba(var(--champ-rgb), 0.18);
+  color: var(--gold-pale);
   font-size: 10px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
-.jd-stay-meta { font-size: 11px; color: var(--ink-dim, #9c998f); }
-.jd-stay-perks { font-size: 11px; color: #e0cd8b; }
+.jd-stay-meta { font-size: 11px; color: var(--ink-dim, var(--dim)); }
+.jd-stay-perks { font-size: 11px; color: var(--champ-hi); }
 .jd-stays-more {
   display: inline-block;
   margin-top: 8px;
   font-size: 11px;
-  color: #e0cd8b;
+  color: var(--champ-hi);
   text-decoration: none;
 }
 .jd-stays-more:hover { text-decoration: underline; }
@@ -5670,14 +5799,14 @@ button.card-book {
   display: inline-block;
   margin-top: 14px;
   padding: 7px 13px;
-  border: 1px solid #7a6228;
+  border: 1px solid var(--gold-dim);
   border-radius: 6px;
-  background: rgba(122, 98, 40, 0.22);
-  color: #f0dca6;
+  background: rgba(var(--gold-dim-rgb), 0.22);
+  color: var(--gold-pale);
   font-size: 12px;
   text-decoration: none;
 }
-.jd-book:hover { border-color: #a98a3e; }
+.jd-book:hover { border-color: var(--gold-dim-2); }
 /* The advisor hand-off, at the top of the dossier. Gold like the header's
    .nav-cta so it reads as the same action; full width with a 44px target
    because most of the traffic reaching these panels is on a phone. */
@@ -5703,7 +5832,7 @@ button.card-book {
 }
 .jd-advisor-sla {
   margin: 6px 0 0;
-  color: var(--ink-dim, #b9b6ad);
+  color: var(--ink-dim, var(--dim-2));
   font-size: 11.5px;
 }
 /* The days at the embarkation port — a question the supplier's file never
@@ -5716,7 +5845,7 @@ button.card-book {
   border: 1px solid var(--line, #2a2a2c);
   border-radius: 6px;
   background: transparent;
-  color: var(--ink-dim, #b9b6ad);
+  color: var(--ink-dim, var(--dim-2));
   font-family: var(--sans);
   font-size: 12px;
   text-align: left;
@@ -5724,8 +5853,8 @@ button.card-book {
   transition: 0.15s;
 }
 .jd-ask:hover {
-  color: #f0dca6;
-  border-color: #7a6228;
+  color: var(--gold-pale);
+  border-color: var(--gold-dim);
 }
 
 .hd-offers {
@@ -5736,35 +5865,35 @@ button.card-book {
 .hd-offers li {
   margin-bottom: 10px;
   padding-left: 10px;
-  border-left: 2px solid #7a6228;
+  border-left: 2px solid var(--gold-dim);
 }
 .hd-offer-name {
   display: block;
   font-size: 13px;
-  color: #e3c98a;
+  color: var(--gold-soft);
 }
 .hd-offer-excl {
   display: inline-block;
   margin-right: 6px;
   padding: 1px 5px;
-  border: 1px solid #7a6228;
+  border: 1px solid var(--gold-dim);
   border-radius: 4px;
   font-size: 9px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #f0dca6;
+  color: var(--gold-pale);
 }
 .hd-offer-desc {
   display: block;
   font-size: 12px;
   line-height: 1.45;
-  color: var(--ink-dim, #9c998f);
+  color: var(--ink-dim, var(--dim));
 }
 .hd-offer-until {
   display: block;
   margin-top: 2px;
   font-size: 11px;
-  color: #9c8a5e;
+  color: var(--gold-mute);
 }
 /* On the card, over the photograph, opposite corner from the brand mark. */
 .atlas-card--stay .ac-offer-badge {
@@ -5772,9 +5901,9 @@ button.card-book {
   top: 10px;
   right: 10px;
   z-index: 1;
-  background: rgba(20, 17, 8, 0.85);
-  border: 1px solid #7a6228;
-  color: #f0dca6;
+  background: rgba(var(--glass-rgb), 0.85);
+  border: 1px solid var(--gold-dim);
+  color: var(--gold-pale);
   font-size: 10px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -5792,23 +5921,23 @@ button.card-book {
 .hd-room-name {
   display: block;
   font-size: 13px;
-  color: var(--ink, #e8e5dc);
+  color: var(--ink, var(--text));
 }
 .hd-room-desc {
   display: block;
   font-size: 12px;
   line-height: 1.45;
-  color: var(--ink-dim, #9c998f);
+  color: var(--ink-dim, var(--dim));
 }
 .hd-roomcount,
 .hd-perkyear {
   text-transform: none;
   letter-spacing: 0;
-  color: var(--ink-dim, #9c998f);
+  color: var(--ink-dim, var(--dim));
 }
 /* A benefit block written for a year already gone needs to look wrong. */
 .hd-perkyear.stale {
-  color: #d08b6a;
+  color: var(--stale);
 }
 .hd-ups {
   list-style: none;
@@ -5867,7 +5996,7 @@ button.card-book {
   gap: 8px;
   padding: 14px 16px 16px;
   margin-top: auto;
-  background: rgba(12, 12, 14, 0.97);
+  background: rgba(var(--glass-rgb), 0.97);
   border-top: 1px solid var(--line);
 }
 .hotel-dossier .hd-ask,
@@ -5880,12 +6009,12 @@ button.card-book {
   cursor: pointer;
 }
 .hotel-dossier .hd-ask {
-  background: rgba(201, 168, 76, 0.1);
-  border: 1px solid rgba(201, 168, 76, 0.45);
+  background: rgba(var(--gold-rgb), 0.1);
+  border: 1px solid rgba(var(--gold-rgb), 0.45);
   color: var(--gold-light);
 }
 .hotel-dossier .hd-ask:hover {
-  background: rgba(201, 168, 76, 0.18);
+  background: rgba(var(--gold-rgb), 0.18);
   border-color: var(--gold);
 }
 /* Solid gold, the same as the header's .nav-cta: one action, one look. It was
@@ -5961,14 +6090,14 @@ button.card-book {
   height: 46px;
   padding: 0 18px 0 8px;
   border-radius: 40px;
-  background: rgba(12, 12, 14, 0.94);
+  background: rgba(var(--glass-rgb), 0.94);
   border: 1px solid var(--gold-dim);
   color: var(--gold-light);
   font-family: var(--sans);
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 34px rgba(var(--shadow-rgb), calc(0.5 * var(--shadow-k)));
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
@@ -5982,8 +6111,8 @@ button.card-book {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #caa44e, #ffe9b0);
-  color: #3a2c0d;
+  background: linear-gradient(135deg, var(--av-a), var(--av-b));
+  color: var(--av-ink);
   font-family: var(--serif);
   font-weight: 700;
 }
@@ -5998,9 +6127,9 @@ button.card-book {
   flex-direction: column;
   overflow: hidden;
   border-radius: 16px;
-  background: rgba(10, 10, 12, 0.97);
+  background: rgba(var(--glass-rgb), 0.97);
   border: 1px solid var(--gold-dim);
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 24px 64px rgba(var(--shadow-rgb), calc(0.6 * var(--shadow-k)));
   -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
   /* Hidden rather than unmounted: a reply still streaming when the sheet is
@@ -6050,7 +6179,7 @@ button.card-book {
   text-decoration: none;
 }
 .nav-menu-view:hover {
-  background: rgba(201, 168, 76, 0.07);
+  background: rgba(var(--gold-rgb), 0.07);
 }
 .nav-menu-view-label {
   display: block;
@@ -6207,7 +6336,7 @@ button.atlas-cta {
   height: 38px;
   padding: 0 15px;
   border-radius: 999px;
-  background: rgba(12, 12, 14, 0.94);
+  background: rgba(var(--glass-rgb), 0.94);
   border: 1px solid var(--line);
   color: var(--text);
   font-family: var(--sans);
@@ -6215,7 +6344,7 @@ button.atlas-cta {
   font-weight: 600;
   letter-spacing: 0.02em;
   cursor: pointer;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 30px rgba(var(--shadow-rgb), calc(0.5 * var(--shadow-k)));
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   /* Absent until the top is actually out of reach: it fades in on the scroll
@@ -6303,8 +6432,8 @@ button.atlas-cta {
   border-color: var(--gold-dim);
 }
 .bl-btn--button[data-saved] {
-  border-color: rgba(201, 168, 76, 0.45);
-  background: rgba(201, 168, 76, 0.08);
+  border-color: rgba(var(--gold-rgb), 0.45);
+  background: rgba(var(--gold-rgb), 0.08);
 }
 /* A text control, for cards and panels whose actions are text links. */
 .bl-btn--quiet {
@@ -6366,8 +6495,8 @@ button.atlas-cta {
 }
 .mapboxgl-popup .iw .iwbucket[data-saved] {
   color: var(--gold);
-  border-color: rgba(201, 168, 76, 0.45);
-  background: rgba(201, 168, 76, 0.08);
+  border-color: rgba(var(--gold-rgb), 0.45);
+  background: rgba(var(--gold-rgb), 0.08);
 }
 
 /* ── The header's count ─────────────────────────────────────────────────────
@@ -6382,8 +6511,8 @@ button.atlas-cta {
   min-width: 17px;
   padding: 1px 5px;
   border-radius: 9px;
-  background: rgba(201, 168, 76, 0.16);
-  border: 1px solid rgba(201, 168, 76, 0.35);
+  background: rgba(var(--gold-rgb), 0.16);
+  border: 1px solid rgba(var(--gold-rgb), 0.35);
   color: var(--gold-light);
   font-size: 10.5px;
   font-weight: 700;
@@ -6477,7 +6606,7 @@ button.atlas-cta {
   border: none;
   border-radius: 10px;
   background: linear-gradient(135deg, var(--gold), var(--gold-dim));
-  color: #17130a;
+  color: var(--on-gold);
   font-family: var(--sans);
   font-size: 13px;
   font-weight: 700;
@@ -6488,7 +6617,7 @@ button.atlas-cta {
 .bl-send:hover {
   filter: brightness(1.08);
   text-decoration: none;
-  color: #17130a;
+  color: var(--on-gold);
 }
 .bl-ask-all {
   padding: 10px 16px;
@@ -6681,7 +6810,7 @@ button.atlas-cta {
    block's `speakable` names this exact selector. */
 .answers-capsule {
   border-left: 2px solid var(--gold-light);
-  background: rgba(201, 168, 76, 0.05);
+  background: rgba(var(--gold-rgb), 0.05);
   border-radius: 0 8px 8px 0;
   padding: 14px 18px;
   margin: 0 0 22px;
@@ -6758,6 +6887,47 @@ button.atlas-cta {
   margin: 0;
   max-width: 760px;
   line-height: 1.6;
+}
+/* Auto · Light · Dark (components/ThemeSwitch). A segmented control: the
+   chosen segment is filled, the others read as plain footer links. */
+.theme-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-top: 16px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+}
+.theme-switch-label {
+  padding: 0 10px 0 9px;
+  font-size: 10.5px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.theme-switch button {
+  border: none;
+  border-radius: 999px;
+  padding: 5px 13px;
+  background: none;
+  color: var(--sub);
+  font: inherit;
+  font-size: 12.5px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.theme-switch button:hover {
+  color: var(--gold-light);
+}
+.theme-switch button[aria-checked="true"] {
+  background: var(--gold);
+  color: var(--on-gold);
+}
+.theme-switch button:focus-visible {
+  outline: 2px solid var(--gold-light);
+  outline-offset: 1px;
 }
 
 /* ── /?demo — the scripted capture of the home globe (components/AtlasDemo) ──
@@ -7020,7 +7190,7 @@ html.intro-on .atlas-dock {
 .ad-ctrl.ad-ctrl-visit button.primary {
   border-color: var(--gold);
   background: var(--gold);
-  color: #17130a;
+  color: var(--on-gold);
   font-weight: 600;
 }
 
@@ -7109,7 +7279,7 @@ html.flyover-on body {
   border: 1px solid var(--gold);
   border-radius: 999px;
   background: var(--gold);
-  color: #17130a;
+  color: var(--on-gold);
   font-family: var(--sans);
   font-size: 16px;
   font-weight: 600;
@@ -7298,7 +7468,7 @@ html.flyover-on body {
 .fo-tune-btns button.primary {
   border-color: var(--gold);
   background: var(--gold);
-  color: #17130a;
+  color: var(--on-gold);
   font-weight: 600;
 }
 .fo-tune-link {
@@ -7331,7 +7501,7 @@ html.flyover-on body {
   margin: 22px 0;
   padding: 16px 18px;
   border-left: 3px solid var(--gold);
-  background: rgba(201, 168, 76, 0.07);
+  background: rgba(var(--gold-rgb), 0.07);
   border-radius: 0 10px 10px 0;
 }
 .guide-take h2 {
@@ -7412,10 +7582,16 @@ html.flyover-on body {
   height: auto;
   border: 1px solid var(--line);
   border-radius: 12px;
-  background: #0d0d10;
+  background: var(--panel-deep);
 }
 .supplier-map-sea {
-  fill: #0d0d10;
+  fill: var(--panel-deep);
+}
+/* The land is one shared file with a fixed near-black fill (it is an <image>,
+   out of reach of CSS fill). The light theme recolors it to a soft rose-taupe
+   rather than shipping a second file. */
+:root[data-theme="light"] .supplier-map image {
+  filter: invert(1) sepia(0.5) saturate(1.6) hue-rotate(295deg) brightness(0.93);
 }
 .supplier-map figcaption,
 .supplier-caption {
@@ -7632,6 +7808,17 @@ html.flyover-on body {
   border-radius: 50%;
   background: var(--tc);
 }
+/* Collection colors are map-pin colors, bright enough for a dark map and too
+   pale to read as text on ivory (the hotel and yacht yellows above all). The
+   light theme mixes them toward the ink: same hue, readable. The dot keeps the
+   pure color, with an edge. */
+:root[data-theme="light"] .home-eyebrow--tc {
+  color: color-mix(in srgb, var(--tc) 45%, var(--text));
+}
+:root[data-theme="light"] .home-eyebrow--tc::before,
+:root[data-theme="light"] .home-jump i {
+  box-shadow: 0 0 0 1px rgba(var(--tint-rgb), 0.3);
+}
 .home-jump {
   display: flex;
   flex-wrap: wrap;
@@ -7809,7 +7996,7 @@ html.flyover-on body {
   align-self: flex-start;
   font-size: 13.5px;
   font-weight: 600;
-  color: #16130a;
+  color: var(--on-gold);
   background: var(--gold);
   border-radius: 999px;
   padding: 9px 15px;
@@ -8080,12 +8267,12 @@ html.flyover-on body {
   bottom: calc(env(safe-area-inset-bottom, 0px) + 16px);
   z-index: 20;
   font: 600 14px var(--sans);
-  color: #16130a;
+  color: var(--on-gold);
   background: var(--gold);
   border: 0;
   border-radius: 999px;
   padding: 12px 18px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 10px 30px rgba(var(--shadow-rgb), calc(0.55 * var(--shadow-k)));
   cursor: pointer;
   transition: opacity 0.25s, transform 0.25s;
 }
@@ -8117,13 +8304,13 @@ html.flyover-on body {
     z-index: 19;
     font: 500 13px var(--sans);
     color: var(--gold-light);
-    background: rgba(12, 12, 14, 0.88);
+    background: rgba(var(--glass-rgb), 0.88);
     backdrop-filter: blur(6px);
     border: 1px solid var(--gold-dim);
     border-radius: 999px;
     padding: 9px 16px;
     white-space: nowrap;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
+    box-shadow: 0 8px 24px rgba(var(--shadow-rgb), calc(0.55 * var(--shadow-k)));
     cursor: pointer;
     transition: opacity 0.25s, transform 0.25s;
   }
@@ -8491,7 +8678,7 @@ html.flyover-on body {
   padding: 16px 18px;
   border: 1px solid var(--gold-dim);
   border-radius: 14px;
-  background: #0d0d10;
+  background: var(--panel-deep);
 }
 .hotel-top {
   display: grid;
