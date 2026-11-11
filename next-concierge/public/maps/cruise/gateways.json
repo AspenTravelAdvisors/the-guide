@@ -5,206 +5,16 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4448,
-  "journeysWithStays": 3736,
+  "journeysTotal": 4431,
+  "journeysWithStays": 3721,
   "journeysWithHouse": 0,
-  "gateways": 107,
-  "hotels": 285,
+  "gateways": 106,
+  "hotels": 281,
   "houses": []
  },
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00141": {
-   "n": "Arakur Ushuaia Resort & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.7864,
-    -68.2575
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
-   "rooms": 129,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 0
-  },
-  "h_01191": {
-   "n": "Los Cauquenes Resort + Spa + Experiences",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.8364,
-    -68.3502
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
-   "rooms": 48,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_01598": {
-   "n": "Raffles Singapore",
-   "house": "Accor",
-   "aff": null,
-   "city": "Singapore",
-   "country": "Singapore",
-   "ll": [
-    1.29489,
-    103.854
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4066_2_0.webp",
-   "rooms": 115,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_v16675647": {
-   "n": "Fairmont Singapore South Tower",
-   "house": null,
-   "aff": null,
-   "city": "Singapore",
-   "country": "Singapore",
-   "ll": [
-    1.2934,
-    103.853
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16667940_2_1.webp",
-   "rooms": 450,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01280": {
-   "n": "Mandarin Oriental, Singapore",
-   "house": "Mandarin Oriental",
-   "aff": null,
-   "city": "Singapore",
-   "country": "Singapore",
-   "ll": [
-    1.2906,
-    103.858
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6147630_2_0.webp",
-   "rooms": 510,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02189": {
-   "n": "The Ritz-Carlton, Millenia Singapore",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Singapore",
-   "country": "Singapore",
-   "ll": [
-    1.29084,
-    103.86
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3812_2_0.webp",
-   "rooms": 608,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02037": {
-   "n": "The Legian Seminyak, Bali",
-   "house": null,
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.68414,
-    115.159
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16636575_2_0.webp",
-   "rooms": 80,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00125": {
-   "n": "Andaz Bali",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.69948,
-    115.264
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16597012_2_0.webp",
-   "rooms": 149,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01562": {
-   "n": "Desa Potato Head Bali",
-   "house": null,
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.67908,
-    115.151
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15803682_2_0.webp",
-   "rooms": 88,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02076": {
-   "n": "The Oberoi, Bali",
-   "house": "The Oberoi Group",
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.69201,
-    115.158
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3742_2_0.webp",
-   "rooms": 74,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
   "h_00055": {
    "n": "Alvear Palace Hotel",
    "house": null,
@@ -278,6 +88,44 @@
     "Daily breakfast",
     "$100 credit",
     "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00141": {
+   "n": "Arakur Ushuaia Resort & Spa",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.7864,
+    -68.2575
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
+   "rooms": 129,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 0
+  },
+  "h_01191": {
+   "n": "Los Cauquenes Resort + Spa + Experiences",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.8364,
+    -68.3502
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
+   "rooms": 48,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
    ],
    "promo": 0
   },
@@ -868,7 +716,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01866": {
    "n": "Sunset Tower Hotel",
@@ -944,7 +792,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01901": {
    "n": "The Apurva Kempinski Bali",
@@ -1172,7 +1020,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v16336357": {
    "n": "Sofitel Fiji Resort & Spa",
@@ -1210,7 +1058,7 @@
     "Room upgrade",
     "Spa treatment"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00360": {
    "n": "Castaway Island, Fiji",
@@ -1303,7 +1151,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00550": {
    "n": "Esperanza, Auberge Collection",
@@ -2236,6 +2084,82 @@
    ],
    "promo": 0
   },
+  "h_01598": {
+   "n": "Raffles Singapore",
+   "house": "Accor",
+   "aff": null,
+   "city": "Singapore",
+   "country": "Singapore",
+   "ll": [
+    1.29489,
+    103.854
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4066_2_0.webp",
+   "rooms": 115,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_v16675647": {
+   "n": "Fairmont Singapore South Tower",
+   "house": null,
+   "aff": null,
+   "city": "Singapore",
+   "country": "Singapore",
+   "ll": [
+    1.2934,
+    103.853
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16667940_2_1.webp",
+   "rooms": 450,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01280": {
+   "n": "Mandarin Oriental, Singapore",
+   "house": "Mandarin Oriental",
+   "aff": null,
+   "city": "Singapore",
+   "country": "Singapore",
+   "ll": [
+    1.2906,
+    103.858
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6147630_2_0.webp",
+   "rooms": 510,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02189": {
+   "n": "The Ritz-Carlton, Millenia Singapore",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Singapore",
+   "country": "Singapore",
+   "ll": [
+    1.29084,
+    103.86
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3812_2_0.webp",
+   "rooms": 608,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
   "h_v16768337": {
    "n": "Torel Palace Lisbon",
    "house": null,
@@ -2386,7 +2310,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01728": {
    "n": "Serras Barcelona",
@@ -2405,7 +2329,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00727": {
    "n": "Grand Hotel Central",
@@ -2709,7 +2633,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01159": {
    "n": "Le Negresco",
@@ -2766,7 +2690,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00951": {
    "n": "Hôtel du Couvent, Luxury Collection Hotel",
@@ -3260,7 +3184,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01800": {
    "n": "Six Senses Rome",
@@ -3602,7 +3526,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01477": {
    "n": "Palazzo Venart Luxury Hotel",
@@ -4475,7 +4399,7 @@
     "$100 credit",
     "Early check-in"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01334": {
    "n": "Monte-Carlo Beach",
@@ -4665,7 +4589,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v18565178": {
    "n": "Dinso Resort & Villas Phuket, Vignette Collection by IHG",
@@ -4722,7 +4646,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02021": {
    "n": "Mandarin Oriental The Landmark, Hong Kong",
@@ -5429,73 +5353,6 @@
   }
  },
  "GATES": {
-  "Ushuaia, Argentina": {
-   "n": "Ushuaia, Argentina",
-   "ll": [
-    -54.8,
-    -68.3
-   ],
-   "h": [
-    [
-     "h_00141",
-     3.1
-    ],
-    [
-     "h_01191",
-     5.2
-    ]
-   ]
-  },
-  "Singapore, Singapore": {
-   "n": "Singapore, Singapore",
-   "ll": [
-    1.2931,
-    103.856
-   ],
-   "h": [
-    [
-     "h_01598",
-     0.3
-    ],
-    [
-     "h_v16675647",
-     0.3
-    ],
-    [
-     "h_01280",
-     0.4
-    ],
-    [
-     "h_02189",
-     0.5
-    ]
-   ]
-  },
-  "Denpasar, Indonesia": {
-   "n": "Denpasar, Indonesia",
-   "ll": [
-    -8.65,
-    115.217
-   ],
-   "h": [
-    [
-     "h_02037",
-     7.4
-    ],
-    [
-     "h_00125",
-     7.5
-    ],
-    [
-     "h_01562",
-     7.9
-    ],
-    [
-     "h_02076",
-     8
-    ]
-   ]
-  },
   "Buenos Aires, Argentina": {
    "n": "Buenos Aires, Argentina",
    "ll": [
@@ -5518,6 +5375,23 @@
     [
      "h_00641",
      26.6
+    ]
+   ]
+  },
+  "Ushuaia, Argentina": {
+   "n": "Ushuaia, Argentina",
+   "ll": [
+    -54.8,
+    -68.3
+   ],
+   "h": [
+    [
+     "h_00141",
+     3.1
+    ],
+    [
+     "h_01191",
+     5.2
     ]
    ]
   },
@@ -6301,6 +6175,31 @@
     [
      "h_v16149147",
      11
+    ]
+   ]
+  },
+  "Singapore, Singapore": {
+   "n": "Singapore, Singapore",
+   "ll": [
+    1.2931,
+    103.856
+   ],
+   "h": [
+    [
+     "h_01598",
+     0.3
+    ],
+    [
+     "h_v16675647",
+     0.3
+    ],
+    [
+     "h_01280",
+     0.4
+    ],
+    [
+     "h_02189",
+     0.5
     ]
    ]
   },
@@ -8818,10 +8717,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
-  "18048830": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
-  },
   "18048832": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -9278,10 +9173,6 @@
    "pre": "Labuan Bajo, Flores, Indonesia",
    "post": "Benoa (Bali), Indonesia"
   },
-  "18052497": {
-   "pre": "Singapore, Singapore",
-   "post": "Denpasar, Indonesia"
-  },
   "18052503": {
    "pre": "Labuan Bajo, Flores, Indonesia",
    "post": "Benoa (Bali), Indonesia"
@@ -9574,10 +9465,6 @@
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
   },
-  "18104318": {
-   "pre": "Cabo San Lucas, Mexico",
-   "post": "Cabo San Lucas, Mexico"
-  },
   "18104319": {
    "pre": "Cabo San Lucas, Mexico",
    "post": "Cabo San Lucas, Mexico"
@@ -9867,10 +9754,6 @@
    "post": "Quito, Ecuador"
   },
   "18137400": {
-   "pre": "Quito, Ecuador",
-   "post": "Quito, Ecuador"
-  },
-  "18137401": {
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
   },
@@ -10695,10 +10578,6 @@
    "post": "Puerto Natales, Chile"
   },
   "18142630": {
-   "pre": "Quito, Ecuador",
-   "post": "Lima, Peru"
-  },
-  "18142631": {
    "pre": "Quito, Ecuador",
    "post": "Lima, Peru"
   },
@@ -12526,10 +12405,6 @@
    "pre": null,
    "post": "Kobe, Japan"
   },
-  "18256930": {
-   "pre": null,
-   "post": "Lautoka, Fiji"
-  },
   "18256931": {
    "pre": null,
    "post": "Papeete, French Polynesia"
@@ -12541,10 +12416,6 @@
   "18256995": {
    "pre": "Lautoka, Fiji",
    "post": null
-  },
-  "18256996": {
-   "pre": "Lautoka, Fiji",
-   "post": "Kobe, Japan"
   },
   "18257063": {
    "pre": "Lautoka, Fiji",
@@ -13841,10 +13712,6 @@
   "18369086": {
    "pre": "Ushuaia, Argentina",
    "post": null
-  },
-  "18369388": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
   },
   "18369390": {
    "pre": "Ushuaia, Argentina",
@@ -16534,10 +16401,6 @@
    "pre": "Glasgow, United Kingdom",
    "post": null
   },
-  "18524214": {
-   "pre": "Glasgow, United Kingdom",
-   "post": null
-  },
   "18524215": {
    "pre": null,
    "post": "Glasgow, United Kingdom"
@@ -16573,10 +16436,6 @@
   "18524223": {
    "pre": "Reykjavík, Iceland",
    "post": "Reykjavík, Iceland"
-  },
-  "18524224": {
-   "pre": "Helsinki, Finland",
-   "post": "Copenhagen, Denmark"
   },
   "18524225": {
    "pre": "Manila, Philippines",
@@ -16710,10 +16569,6 @@
    "pre": "Glasgow, United Kingdom",
    "post": "Glasgow, United Kingdom"
   },
-  "18524260": {
-   "pre": "Glasgow, United Kingdom",
-   "post": "Glasgow, United Kingdom"
-  },
   "18524261": {
    "pre": null,
    "post": "Halifax, NS, Canada"
@@ -16721,10 +16576,6 @@
   "18524757": {
    "pre": "Helsinki, Finland",
    "post": "Copenhagen, Denmark"
-  },
-  "18524758": {
-   "pre": "Honfleur, France",
-   "post": "Glasgow, United Kingdom"
   },
   "18528930": {
    "pre": "Lautoka, Fiji",
@@ -17318,10 +17169,6 @@
    "pre": "Málaga, Spain",
    "post": "Valletta, Malta"
   },
-  "18568156": {
-   "pre": "Istanbul, Türkiye",
-   "post": "Piraeus, Greece"
-  },
   "18568157": {
    "pre": "Piraeus, Greece",
    "post": "Piraeus, Greece"
@@ -17347,10 +17194,6 @@
    "post": "Piraeus, Greece"
   },
   "18568163": {
-   "pre": "Piraeus, Greece",
-   "post": "Piraeus, Greece"
-  },
-  "18568164": {
    "pre": "Piraeus, Greece",
    "post": "Piraeus, Greece"
   },
@@ -21529,10 +21372,6 @@
   "18636843": {
    "pre": "Lima, Peru",
    "post": "Lima, Peru"
-  },
-  "18636851": {
-   "pre": null,
-   "post": "Manila, Philippines"
   },
   "18636875": {
    "pre": "San Jose, Costa Rica",

@@ -54,7 +54,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02012": {
    "n": "The Jefferson, Washington, DC",
@@ -388,7 +388,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02259": {
    "n": "The St. Regis Istanbul",
@@ -635,7 +635,7 @@
     "Room upgrade",
     "Early check-in"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00397": {
    "n": "Cheval Blanc Paris",
@@ -654,7 +654,7 @@
     "Room upgrade",
     "Airport transfer"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00647": {
    "n": "Four Seasons Hotel George V",
@@ -692,7 +692,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00319": {
    "n": "Capella Kyoto",
@@ -2060,7 +2060,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01866": {
    "n": "Sunset Tower Hotel",
@@ -2193,7 +2193,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02136": {
    "n": "The Ritz-Carlton Bal Harbour, Miami",
@@ -2364,7 +2364,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v6163952": {
    "n": "The Potomac Hotel, Autograph Collection",
@@ -2611,7 +2611,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02234": {
    "n": "The Siam",
@@ -2839,7 +2839,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00046": {
    "n": "Alila Shanghai",
@@ -2915,7 +2915,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00086": {
    "n": "Amanyangyun",
@@ -2991,7 +2991,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02442": {
    "n": "Waldorf Astoria Bangkok",
@@ -3105,7 +3105,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00869": {
    "n": "Hotel Hermitage Monte-Carlo",
@@ -3162,7 +3162,7 @@
     "$100 credit",
     "Early check-in"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01334": {
    "n": "Monte-Carlo Beach",
@@ -3390,7 +3390,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v18575535": {
    "n": "Hotel Charleston Santa Teresa",
@@ -3485,7 +3485,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00727": {
    "n": "Grand Hotel Central",
@@ -3770,7 +3770,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01192": {
    "n": "Lotte Hotel Seattle",
@@ -4568,7 +4568,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00550": {
    "n": "Esperanza, Auberge Collection",
@@ -4621,7 +4621,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01080": {
    "n": "Kona Village, A Rosewood Resort",
@@ -4697,7 +4697,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02214": {
    "n": "The Roosevelt New Orleans, A Waldorf Astoria Hotel",
@@ -4868,7 +4868,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v18565178": {
    "n": "Dinso Resort & Villas Phuket, Vignette Collection by IHG",
@@ -4925,7 +4925,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00080": {
    "n": "Amanpuri",
@@ -5191,7 +5191,7 @@
     "Room upgrade",
     "Spa treatment"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00360": {
    "n": "Castaway Island, Fiji",
@@ -5284,7 +5284,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02408": {
    "n": "Villas of Distinction",

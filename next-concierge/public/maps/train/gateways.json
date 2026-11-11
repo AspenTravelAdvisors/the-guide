@@ -130,7 +130,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00135": {
    "n": "Andaz Tokyo Toranomon Hills",
@@ -510,7 +510,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01526": {
    "n": "Park Hyatt Zurich",
@@ -643,7 +643,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00727": {
    "n": "Grand Hotel Central",
@@ -1080,7 +1080,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01280": {
    "n": "Mandarin Oriental, Singapore",
@@ -1232,7 +1232,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00679": {
    "n": "Four Seasons Resort Lana'i",
@@ -1555,7 +1555,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01477": {
    "n": "Palazzo Venart Luxury Hotel",
@@ -2106,7 +2106,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01396": {
    "n": "Nolinski Venezia - Evok Collection",
@@ -2429,7 +2429,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01328": {
    "n": "Montage Deer Valley",

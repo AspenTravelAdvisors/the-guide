@@ -8,8 +8,8 @@
   "journeysTotal": 531,
   "journeysWithStays": 530,
   "journeysWithHouse": 530,
-  "gateways": 58,
-  "hotels": 194,
+  "gateways": 57,
+  "hotels": 188,
   "houses": [
    "Aman",
    "Four Seasons",
@@ -223,7 +223,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02136": {
    "n": "The Ritz-Carlton Bal Harbour, Miami",
@@ -545,75 +545,56 @@
    ],
    "promo": 0
   },
-  "h_00046": {
-   "n": "Alila Shanghai",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Shanghai",
-   "country": "China",
-   "ll": [
-    31.2272,
-    121.462
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18331907_2_0.webp",
-   "rooms": 186,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v16231001": {
-   "n": "The Sukhothai Shanghai",
+  "h_01399": {
+   "n": "O2 Beach Club & Spa",
    "house": null,
    "aff": null,
-   "city": "Shanghai",
-   "country": "China",
+   "city": "Christ Church",
+   "country": "Barbados",
    "ll": [
-    31.2269,
-    121.463
+    13.0656,
+    -59.5657
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16230997_2_0.webp",
-   "rooms": 201,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930957_2_0.webp",
+   "rooms": 116,
    "perks": [
     "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
+    "Room upgrade",
+    "Early check-in"
    ],
    "promo": 0
   },
-  "h_01028": {
-   "n": "Jing An Shangri-La, Shanghai",
-   "house": "Shangri-La Group",
+  "h_01709": {
+   "n": "Sandy Lane Hotel",
+   "house": "Sandy Lane",
    "aff": null,
-   "city": "Shanghai",
-   "country": "China",
+   "city": "Holetown",
+   "country": "Barbados",
    "ll": [
-    31.2229,
-    121.45
+    13.1731,
+    -59.6369
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16117025_2_0.webp",
-   "rooms": 508,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3861_2_0.webp",
+   "rooms": 114,
    "perks": [
     "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
+    "Room upgrade",
+    "Spa treatment"
    ],
-   "promo": 0
+   "promo": 1
   },
-  "h_02122": {
-   "n": "The PuLi Shanghai",
-   "house": null,
+  "h_00603": {
+   "n": "Fairmont Royal Pavilion",
+   "house": "Accor",
    "aff": null,
-   "city": "Shanghai",
-   "country": "China",
+   "city": "Porters",
+   "country": "Barbados",
    "ll": [
-    31.222309,
-    121.44836
+    13.178,
+    -59.549
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5601896_2_22.webp",
-   "rooms": 229,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15739548_2_0.webp",
+   "rooms": 75,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -621,41 +602,22 @@
    ],
    "promo": 1
   },
-  "h_02118": {
-   "n": "The Portman Ritz-Carlton, Shanghai",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Shanghai",
-   "country": "China",
+  "h_00421": {
+   "n": "Cobblers Cove",
+   "house": null,
+   "aff": null,
+   "city": "Speightstown",
+   "country": "Barbados",
    "ll": [
-    31.2292,
-    121.45
+    13.2531,
+    -59.6377
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3822_2_1.webp",
-   "rooms": 593,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4571_2_0.webp",
+   "rooms": 41,
    "perks": [
     "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00086": {
-   "n": "Amanyangyun",
-   "house": "Aman",
-   "aff": "Aman",
-   "city": "Shanghai",
-   "country": "China",
-   "ll": [
-    31.0375,
-    121.357
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15765742_2_0.webp",
-   "rooms": 47,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
+    "Room upgrade",
+    "Early check-in"
    ],
    "promo": 0
   },
@@ -753,82 +715,6 @@
     "Room upgrade"
    ],
    "promo": 1
-  },
-  "h_01399": {
-   "n": "O2 Beach Club & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Christ Church",
-   "country": "Barbados",
-   "ll": [
-    13.0656,
-    -59.5657
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930957_2_0.webp",
-   "rooms": 116,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_01709": {
-   "n": "Sandy Lane Hotel",
-   "house": "Sandy Lane",
-   "aff": null,
-   "city": "Holetown",
-   "country": "Barbados",
-   "ll": [
-    13.1731,
-    -59.6369
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3861_2_0.webp",
-   "rooms": 114,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 1
-  },
-  "h_00603": {
-   "n": "Fairmont Royal Pavilion",
-   "house": "Accor",
-   "aff": null,
-   "city": "Porters",
-   "country": "Barbados",
-   "ll": [
-    13.178,
-    -59.549
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15739548_2_0.webp",
-   "rooms": 75,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00421": {
-   "n": "Cobblers Cove",
-   "house": null,
-   "aff": null,
-   "city": "Speightstown",
-   "country": "Barbados",
-   "ll": [
-    13.2531,
-    -59.6377
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4571_2_0.webp",
-   "rooms": 41,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
   },
   "h_01569": {
    "n": "Prince Waikiki",
@@ -1181,7 +1067,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00189": {
    "n": "Banyan Tree Krabi",
@@ -1200,7 +1086,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v18565178": {
    "n": "Dinso Resort & Villas Phuket, Vignette Collection by IHG",
@@ -1257,7 +1143,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00080": {
    "n": "Amanpuri",
@@ -1314,7 +1200,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01280": {
    "n": "Mandarin Oriental, Singapore",
@@ -1808,7 +1694,7 @@
     "Room upgrade",
     "Spa treatment"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01832": {
    "n": "Son Bunyola Hotel & Villas",
@@ -1960,7 +1846,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00727": {
    "n": "Grand Hotel Central",
@@ -2264,7 +2150,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00951": {
    "n": "Hôtel du Couvent, Luxury Collection Hotel",
@@ -2359,7 +2245,7 @@
     "$100 credit",
     "Early check-in"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01334": {
    "n": "Monte-Carlo Beach",
@@ -2473,7 +2359,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01477": {
    "n": "Palazzo Venart Luxury Hotel",
@@ -3422,7 +3308,7 @@
     "$150 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01608": {
    "n": "Regent Porto Montenegro",
@@ -3887,36 +3773,28 @@
     ]
    ]
   },
-  "Shanghai, China": {
-   "n": "Shanghai, China",
+  "Bridgetown, Barbados": {
+   "n": "Bridgetown, Barbados",
    "ll": [
-    31.2222,
-    121.458
+    13.1,
+    -59.6167
    ],
    "h": [
     [
-     "h_00046",
-     0.7
+     "h_01399",
+     6.7
     ],
     [
-     "h_v16231001",
-     0.7
+     "h_01709",
+     8.4
     ],
     [
-     "h_01028",
-     0.8
+     "h_00603",
+     11.4
     ],
     [
-     "h_02122",
-     0.9
-    ],
-    [
-     "h_02118",
-     1.1
-    ],
-    [
-     "h_00086",
-     22.7
+     "h_00421",
+     17.2
     ]
    ]
   },
@@ -3946,31 +3824,6 @@
     [
      "h_02181",
      2.6
-    ]
-   ]
-  },
-  "Bridgetown, Barbados": {
-   "n": "Bridgetown, Barbados",
-   "ll": [
-    13.1,
-    -59.6167
-   ],
-   "h": [
-    [
-     "h_01399",
-     6.7
-    ],
-    [
-     "h_01709",
-     8.4
-    ],
-    [
-     "h_00603",
-     11.4
-    ],
-    [
-     "h_00421",
-     17.2
     ]
    ]
   },
@@ -7482,6 +7335,11 @@
    "post": "Lisbon, Portugal",
    "house": "Orient Express"
   },
+  "18619008": {
+   "pre": "London, United Kingdom",
+   "post": "London, United Kingdom",
+   "house": "Orient Express"
+  },
   "18633945": {
    "pre": "Piraeus, Greece",
    "post": "Piraeus, Greece",
@@ -7645,11 +7503,6 @@
   "18649034": {
    "pre": "Miami, FL, United States",
    "post": "Miami, FL, United States",
-   "house": "Ritz-Carlton"
-  },
-  "18652100": {
-   "pre": "Shanghai, China",
-   "post": "Hong Kong, China",
    "house": "Ritz-Carlton"
   },
   "18652113": {
