@@ -182,8 +182,22 @@ export default function SiteNav() {
         type="button"
         className="nav-cta"
         onClick={() => openAdvisor({ source: "header" })}
+        aria-label={ADVISOR_CTA_COLD}
       >
-        {ADVISOR_CTA_COLD}
+        {/* A face on the button: the people who answer, cropped from the
+            photo of Brian and Kerry at the foot of the home page. Decorative
+            here; the label says what the button does. */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          className="nav-cta-face"
+          src="/advisors/advisor-avatar.jpg"
+          srcSet="/advisors/advisor-avatar.jpg 1x, /advisors/advisor-avatar@2x.jpg 2x"
+          alt=""
+          width={26}
+          height={26}
+        />
+        <span className="nav-cta-long">{ADVISOR_CTA_COLD}</span>
+        <span className="nav-cta-short" aria-hidden="true">Advisor</span>
       </button>
     </nav>
   );

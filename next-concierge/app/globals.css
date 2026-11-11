@@ -3238,6 +3238,104 @@ main.page {
   }
 }
 
+/* ── Header: one compact bar ───────────────────────────────────────────────
+   The header used to wrap: on a laptop the advisor button dropped to a second
+   line under the links, and on a phone the logo, a two-line tagline, the links
+   and the button stacked into four rows, over a quarter of the screen before
+   any content. The tagline is the part that gives way: it shrinks first, hides
+   on narrower screens, and the links and button stay on one line. */
+header.site .tag {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+header.site > .site-nav {
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+}
+@media (max-width: 1180px) {
+  header.site .tag {
+    display: none;
+  }
+}
+
+/* The advisor button carries a face: Brian and Kerry, the people who reply. */
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 14px 3px 3px;
+  border-radius: 999px;
+}
+.nav-cta-face {
+  width: 26px;
+  height: 26px;
+  flex: none;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 1.5px var(--bg);
+}
+.nav-cta-short {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  /* Two short rows: the brand, then the links with the button at the end. */
+  header.site {
+    align-items: center;
+    gap: 8px 12px;
+    padding: calc(8px + env(safe-area-inset-top)) 12px 8px;
+  }
+  header.site > .site-nav {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    gap: 2px;
+  }
+  .site-nav .nav-link {
+    padding: 7px 8px;
+    font-size: 11.5px;
+    letter-spacing: 0.4px;
+  }
+  .site-nav .nav-cta {
+    margin-left: auto;
+    font-size: 11.5px;
+    letter-spacing: 0.4px;
+    padding-right: 12px;
+  }
+}
+@media (max-width: 440px) {
+  .site-nav .nav-cta-long {
+    display: none;
+  }
+  .site-nav .nav-cta-short {
+    display: inline;
+  }
+  .site-nav .nav-link {
+    padding: 7px 6px;
+    font-size: 11px;
+  }
+  .site-nav .nav-cta {
+    gap: 6px;
+    padding-right: 10px;
+    font-size: 11px;
+  }
+}
+/* The smallest phones: the faces alone carry the button (its aria-label still
+   says "Talk to an advisor"). */
+@media (max-width: 350px) {
+  .site-nav .nav-cta-short {
+    display: none;
+  }
+  .site-nav .nav-cta {
+    padding: 3px;
+  }
+  .site-nav .nav-cta-face {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 /* ── Advisor dialog — the conversion event ─────────────────────────────── */
 .adv-scrim {
   position: fixed;
@@ -8278,6 +8376,11 @@ html.flyover-on body {
   align-items: stretch;
   margin-top: 14px;
   margin-bottom: 20px;
+}
+/* Photo first, then the map teaser and booking card directly beneath it. */
+.hotel-hero + .hotel-top,
+.hotel-hero + .atlas-teaser {
+  margin-top: -14px;
 }
 .hotel-top > .atlas-teaser {
   margin: 0;

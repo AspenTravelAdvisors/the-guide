@@ -169,7 +169,14 @@ export default async function HotelPage({ params }) {
         {h.perksYear ? ` · ${h.perksYear} benefits` : ""}
       </p>
 
-      {/* The two ways forward, side by side at the top of the page: see it on
+      {/* The photo first. People choose a hotel by looking at it, so the
+          picture comes before the map teaser and the booking card. */}
+      {h.thumb && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img className="hotel-hero" src={h.thumb} alt={h.name} loading="eager" />
+      )}
+
+      {/* The two ways forward, side by side under the photo: see it on
           the globe, or book it now at the VIP rate. Booking it yourself is the
           automated revenue path, so it sits level with the map rather than in
           the closing paragraph. */}
@@ -183,11 +190,6 @@ export default async function HotelPage({ params }) {
         />
         {booking && <VipBooking hotel={booking} variant="card" />}
       </div>
-
-      {h.thumb && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img className="hotel-hero" src={h.thumb} alt={h.name} loading="eager" />
-      )}
 
       {/* The direct answer to "what is this place", in the supplier's own
           words — first, before any of our framing, because it is the part an
