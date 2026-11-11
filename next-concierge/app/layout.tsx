@@ -11,6 +11,8 @@ import { SITE_URL } from "@/lib/answers";
 import { siteGraphJsonLd } from "@/lib/seo/site";
 import { jsonLd } from "@/lib/seo/json-ld";
 import ScrollMemory from "@/components/ScrollMemory";
+import { ThemeWatcher } from "@/components/ThemeSwitch";
+import { THEME_SCRIPT } from "@/lib/theme";
 import "./globals.css";
 
 const serif = Cormorant_Garamond({
@@ -76,7 +78,14 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${serif.variable} ${sans.variable}`}>
+    // suppressHydrationWarning: THEME_SCRIPT sets data-theme, data-theme-pref
+    // and color-scheme on <html> before React hydrates it. See lib/theme.ts.
+    <html lang="en" className={`${serif.variable} ${sans.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Light or dark, decided before the first paint so neither theme
+            flashes the other while the app loads. */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body>
         {/* Mapbox boots from a client component, so without hints the browser
             only discovers mapbox-gl.js after the app chunks execute (~1.6s of
@@ -170,6 +179,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <AdvisorRequest />
           <IntroTour />
         </div>
+        <ThemeWatcher />
         <Analytics />
         <ArrivalCapture />
       </body>

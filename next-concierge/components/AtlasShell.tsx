@@ -58,6 +58,7 @@ import { bookingLink } from "@/lib/atlas/booking.js";
 import { getTrip } from "@/lib/trip-state";
 import { demoRequested, type DemoLoadedDetail, type DemoStageDetail } from "@/lib/demo";
 import { CHART_STYLE, basemapInput } from "@/lib/atlas/chart-style";
+import { currentTheme, THEME_EVENT } from "@/lib/theme";
 
 // Public Mapbox token (Aspen Travel) — public by design, URL-restricted in the
 // Mapbox account, and already shipped in the deployed atlas. Inlined as a
@@ -1864,6 +1865,13 @@ export default function AtlasShell({
     const storedStyle = readStoredStyle();
     let styleKeyLocal: StyleKey =
       initialStyle ?? linkedStyle ?? storedStyle ?? "satellite";
+    // The light theme opens on daylight satellite: the dusk preset is the dark
+    // theme's mood, and a night-lit globe on an ivory page reads as a hole in
+    // it. Only the house default moves; a Share link or the traveller's own
+    // pick still wins. See lightDefault in syncAutoLight.
+    if (!linkedStyle && !storedStyle && styleKeyLocal === "satellite" && currentTheme() === "light") {
+      styleKeyLocal = "daylight";
+    }
     /*
      * Auto daylight is armed unless a PERSON picked the boot basemap.
      *
@@ -1895,6 +1903,7 @@ export default function AtlasShell({
     let ro: ResizeObserver | undefined;
     let loadTimeout = 0;
     let styleWatchdog = 0;
+    let themeCleanup = () => {};
     // Basemaps that failed to load this session. plotResults flips to Satellite
     // to reveal results, so without this every plot would re-attempt a known-
     // broken style and stall for STYLE_FALLBACK_MS again.
@@ -5805,6 +5814,12 @@ export default function AtlasShell({
           // close-in call. The light catches up on the next camera stop after.
           if (flyingRef.current) return;
           if (!SATELLITE_KEYS.has(styleKeyLocal)) return;
+          // Light theme: always daylight. Zooming back out keeps the lights up
+          // rather than dropping the globe to dusk on an ivory page.
+          if (currentTheme() === "light") {
+            if (styleKeyLocal === "satellite") api.setStyle("daylight", "auto");
+            return;
+          }
           const z = map.getZoom();
           if (z >= AUTO_DAYLIGHT_IN && styleKeyLocal === "satellite") {
             api.setStyle("daylight", "auto");
@@ -5813,11 +5828,22 @@ export default function AtlasShell({
           }
         };
         map.on("zoomend", syncAutoLight);
+        // The footer's theme switch, or the device going light/dark while the
+        // page is open: re-tint the space around the globe, and move an
+        // unpicked satellite basemap between dusk and daylight to match.
+        const onTheme = () => {
+          if (cancelled || restyling) return;
+          setFog(map, (ATLAS_STYLES[styleKeyLocal] || ATLAS_STYLES.satellite).fog);
+          syncAutoLight();
+        };
+        document.documentElement.addEventListener(THEME_EVENT, onTheme);
+        themeCleanup = () => document.documentElement.removeEventListener(THEME_EVENT, onTheme);
       })
       .catch(() => setMapFailed(true));
 
     return () => {
       cancelled = true;
+      themeCleanup();
       cancelAnimationFrame(spinRAF);
       // Ends the flight's rAF and its arrival timer, both of which live with
       // the route drawing inside wireHandlers().
@@ -7276,7 +7302,18 @@ function addLayer(map: MBMap, spec: Record<string, unknown>, before?: string) {
 }
 
 function setFog(map: MBMap, fog: Record<string, unknown>) {
-  try { map.setFog(fog); } catch { /* fog optional */ }
+  try { map.setFog(themedFog(fog)); } catch { /* fog optional */ }
+}
+
+/**
+ * In the light theme the space around the globe is blush rather than night
+ * sky, so the planet sits on the page instead of in a black hole cut into it.
+ * The basemap's own atmosphere (color, high-color) is kept, so the limb still
+ * matches the imagery; only the backdrop and the stars change.
+ */
+function themedFog(fog: Record<string, unknown>): Record<string, unknown> {
+  if (currentTheme() !== "light") return fog;
+  return { ...fog, "space-color": "rgb(246,234,233)", "star-intensity": 0, "horizon-blend": 0.09 };
 }
 
 interface MBEvent {

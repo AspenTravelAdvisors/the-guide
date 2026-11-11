@@ -16,6 +16,7 @@
 
 import Link from "next/link";
 import { COLLECTIONS } from "@/lib/atlas-config";
+import ThemeSwitch from "@/components/ThemeSwitch";
 import { AGENCY_NAME, AGENCY_URL, VIRTUOSO_ADVISOR_URL } from "@/lib/seo/site";
 
 export default function SiteFooter() {
@@ -46,6 +47,7 @@ export default function SiteFooter() {
           Virtuoso profile
         </a>
       </p>
+      <ThemeSwitch />
     </footer>
   );
 }
