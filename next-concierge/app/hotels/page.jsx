@@ -11,6 +11,7 @@ import { SITE_URL } from "@/lib/answers";
 import { orgRef } from "@/lib/seo/site";
 import { jsonLd } from "@/lib/seo/json-ld";
 import SiteFooter from "@/components/SiteFooter";
+import FindByName from "@/components/FindByName";
 
 export const metadata = {
   title: "Luxury Hotels — Every Property in the Atlas, by Country",
@@ -61,6 +62,15 @@ export default function HotelsIndex() {
           ask about it, <Link href="/answers">the answers</Link>.
         </p>
       </header>
+
+      <FindByName
+        kinds={["h"]}
+        label="Find a hotel by name"
+        placeholder="A hotel’s name, or part of it…"
+      />
+      <p className="browse-byplace">
+        Hotels, villas and journeys together: <Link href="/browse">find anything by name</Link>.
+      </p>
 
       <section className="answers-group">
         <h2>By country</h2>

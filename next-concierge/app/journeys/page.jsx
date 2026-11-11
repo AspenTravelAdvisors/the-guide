@@ -6,6 +6,7 @@ import { SITE_URL } from "@/lib/answers";
 import { orgRef } from "@/lib/seo/site";
 import { jsonLd } from "@/lib/seo/json-ld";
 import SiteFooter from "@/components/SiteFooter";
+import FindByName from "@/components/FindByName";
 
 export const metadata = {
   title: "Journeys — Expedition Cruises, World Cruises, Rail, Jets and Safaris",
@@ -60,6 +61,15 @@ export default function JourneysIndex() {
           ask about it, <Link href="/answers">the answers</Link>.
         </p>
       </header>
+
+      <FindByName
+        kinds={["j"]}
+        label="Find a journey by name"
+        placeholder="A journey’s name, or part of it…"
+      />
+      <p className="browse-byplace">
+        Hotels, villas and journeys together: <Link href="/browse">find anything by name</Link>.
+      </p>
 
       <section className="answers-group">
         <h2>By collection</h2>

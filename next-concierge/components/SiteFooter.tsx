@@ -24,6 +24,7 @@ export default function SiteFooter() {
       <nav aria-label="Site">
         <Link href="/">The Guide</Link>
         <Link href="/answers">Answers</Link>
+        <Link href="/browse">Find by name</Link>
         <Link href="/hotels">Hotels A–Z</Link>
         <Link href="/villas">Villas A–Z</Link>
         <Link href="/journeys">Journeys A–Z</Link>

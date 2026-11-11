@@ -75,6 +75,27 @@ export default function SiteNav() {
 
         {open && (
           <div className="nav-menu" role="menu">
+            {/*
+              For the visitor who already knows the name. First, because it is
+              the one entry here that needs no decision about category — and
+              it is not a map, so it sits above the caption that says "on a
+              map" rather than under it.
+            */}
+            <Link
+              role="menuitem"
+              className="nav-menu-find"
+              href="/browse"
+              data-active={pathname?.startsWith("/browse") ? "true" : undefined}
+            >
+              <svg className="nav-menu-find-glyph" viewBox="0 0 20 20" width="14" height="14" aria-hidden="true">
+                <circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" strokeWidth="1.8" />
+                <path d="M12.7 12.7 17 17" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+              </svg>
+              <span>
+                <span className="nav-menu-view-label">Find by name</span>
+                <span className="nav-menu-view-blurb">Every hotel, villa &amp; journey, A–Z</span>
+              </span>
+            </Link>
             <div className="nav-menu-cap">Browse the collection on a map</div>
             {/*
               Grouped by INTENT, not by inventory type (D4). A flat list of
