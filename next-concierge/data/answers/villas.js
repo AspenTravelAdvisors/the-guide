@@ -138,7 +138,7 @@ export const villaAnswers = [
       },
       {
         q: "Is a villa riskier — what if it's not as pictured?",
-        a: "This is why the supplier matters. Our villa inventory is professionally managed and inspected (Villas of Distinction network), with local managers on call — not peer-to-peer listings. The advisor's job is knowing which houses photograph better than they live, and vice versa.",
+        a: "This is why the supplier matters. Our villa inventory is professionally managed and inspected, with local managers on call — not peer-to-peer listings. The advisor's job is knowing which houses photograph better than they live, and vice versa.",
       },
     ],
     related: [
