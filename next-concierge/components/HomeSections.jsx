@@ -10,7 +10,7 @@ import { homeSections, homeQuestions, EDITION } from "@/lib/home-sections";
 import { ATLASES } from "@/lib/atlas-config";
 import SiteFooter from "@/components/SiteFooter";
 import AnswerAdvisorCta from "@/components/AnswerAdvisorCta";
-import { HomeAsk, HomeBackToGuide, HomeThumb } from "@/components/HomeAsk";
+import { HomeAsk, HomeBackToGuide, HomeMoreBelow, HomeThumb } from "@/components/HomeAsk";
 
 // Every row and villa tile arrives with its own working photo: lib/home-sections.js
 // passes over candidates without one at build time (no photo, a repeat, or a
@@ -189,6 +189,7 @@ export default async function HomeSections() {
 
       <SiteFooter />
       <HomeBackToGuide />
+      <HomeMoreBelow />
     </div>
   );
 }

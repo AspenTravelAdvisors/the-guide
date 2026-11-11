@@ -851,6 +851,19 @@ main.page {
   border-color: var(--gold);
   color: var(--gold);
 }
+/* "Map options" (phone homepage): one button that unfolds the stack. Hidden
+   everywhere else, where the stack simply shows. */
+.atlas-ctrls .actrl-fold {
+  display: none;
+}
+@media (max-width: 640px) {
+  .atlas-ctrls[data-fold] .actrl-fold {
+    display: inline-flex;
+  }
+  .atlas-ctrls[data-fold="closed"] > :not(.actrl-fold) {
+    display: none;
+  }
+}
 /* Toggles that stay on (Tilt) read as filled, so the button agrees with the
    camera without needing a second label. */
 .atlas-ctrls .actrl.on {
@@ -3247,6 +3260,53 @@ main.page {
 header.site .tag {
   flex: 1 1 auto;
   min-width: 0;
+}
+/* "by Aspen Travel Advisors", on the wordmark's line: the agency link, which
+   the tagline carried until the tagline had to hide on smaller screens. */
+header.site .brand {
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+}
+header.site .brand-face {
+  align-self: center;
+}
+header.site .brand-by {
+  font-family: var(--serif);
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--sub);
+  text-decoration: none;
+  align-self: center;
+  padding-top: 4px;
+}
+header.site .brand-by:hover {
+  color: var(--gold-light);
+  text-decoration: none;
+}
+@media (max-width: 640px) {
+  /* Sized to the screen so the name and the byline share one line on any
+     phone. */
+  header.site .brand {
+    gap: 6px;
+  }
+  header.site .brand-face {
+    gap: 7px;
+  }
+  header.site .brand-logo {
+    width: 30px;
+    height: 30px;
+  }
+  header.site .mark {
+    font-size: clamp(14px, 4.3vw, 18px);
+    letter-spacing: 0.2px;
+  }
+  header.site .brand-by {
+    font-size: clamp(10.5px, 3.1vw, 13px);
+    padding-top: 3px;
+  }
 }
 header.site > .site-nav {
   flex: 0 0 auto;
@@ -7506,12 +7566,20 @@ html.flyover-on body {
     position: relative;
     inset: auto;
     flex: none !important;
-    height: calc(var(--home-h-or-guess) - 40px);
+    /* 130px short of the screen, and snapped to the top, so the season's
+       label and first lines show beneath the frame: on a phone that peek is
+       the only thing that says the page goes on. */
+    height: calc(var(--home-h-or-guess) - 130px);
     margin: 10px 14px 0;
     border: 1px solid var(--gold-dim);
     border-radius: 14px;
     overflow: hidden;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
+    scroll-margin-top: 10px;
+  }
+  /* The season sits close under the frame so its text is what peeks. */
+  .home-scroll .home-season {
+    padding-top: 10px;
   }
   .home-scroll .atlas-dock,
   .home-scroll .home--sheet-half .atlas-dock,
@@ -8028,6 +8096,49 @@ html.flyover-on body {
 }
 @media (prefers-reduced-motion: reduce) {
   .home-back {
+    transition: none;
+  }
+}
+/* "Trip inspiration below" (HomeMoreBelow). Phones only: a desktop already
+   sees the season's lines under the globe. Outlined, not gold-filled, so it
+   does not compete with Send or the advisor button. */
+.home-more {
+  display: none;
+}
+@media (max-width: 640px) {
+  .home-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    position: fixed;
+    left: 50%;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 14px);
+    transform: translateX(-50%);
+    z-index: 19;
+    font: 500 13px var(--sans);
+    color: var(--gold-light);
+    background: rgba(12, 12, 14, 0.88);
+    backdrop-filter: blur(6px);
+    border: 1px solid var(--gold-dim);
+    border-radius: 999px;
+    padding: 9px 16px;
+    white-space: nowrap;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+    transition: opacity 0.25s, transform 0.25s;
+  }
+  .home-more[data-show="false"] {
+    opacity: 0;
+    transform: translate(-50%, 10px);
+    pointer-events: none;
+  }
+  /* The globe's intro has the screen to itself. */
+  html.demo-on .home-more {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-more {
     transition: none;
   }
 }

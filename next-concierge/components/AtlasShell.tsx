@@ -1619,6 +1619,9 @@ export default function AtlasShell({
   const [hasRoute, setHasRoute] = useState(false);
   const [flyingRoute, setFlyingRoute] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  // Phone homepage only: the control stack folds behind one "Map options"
+  // button, so a short framed globe is not half covered by five buttons.
+  const [ctrlsOpen, setCtrlsOpen] = useState(false);
 
   /* ── Engine ───────────────────────────────────────────────────────────
    *
@@ -6314,7 +6317,26 @@ export default function AtlasShell({
         </div>
       )}
       {!showFallback && (
-        <div className="atlas-ctrls" onClick={(e) => e.stopPropagation()}>
+        <div
+          className="atlas-ctrls"
+          // Folds on the phone homepage (CSS, under 641px). Never in
+          // fullscreen: the way out must not be hidden behind a menu.
+          data-fold={sharesPageScroll && !isFull ? (ctrlsOpen ? "open" : "closed") : undefined}
+          onClick={(e) => e.stopPropagation()}
+        >
+          {sharesPageScroll && !isFull && (
+            <button
+              type="button"
+              className={`actrl actrl-fold${ctrlsOpen ? " on" : ""}`}
+              aria-expanded={ctrlsOpen}
+              onClick={() => {
+                setCtrlsOpen((v) => !v);
+                setMenuOpen(false);
+              }}
+            >
+              {ctrlsOpen ? "✕ Close" : "Map options ▾"}
+            </button>
+          )}
           <button
             type="button"
             className="actrl"

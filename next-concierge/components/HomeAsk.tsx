@@ -11,6 +11,11 @@
 // HomeBackToGuide — once The Guide has scrolled out of view, a pill that brings
 // it back. Without it the only way to talk to the Guide from the middle of the
 // page is to scroll a long way up.
+//
+// HomeMoreBelow — phones only (CSS). The first screen is The Guide and the top
+// of the globe, with nothing to say a magazine of photos runs beneath them. A
+// small pill at the foot of the screen says so and scrolls there on a tap; it
+// steps aside as soon as the first section's own text has come into view.
 
 import { useEffect, useRef, useState } from "react";
 import { askGuide, askGuideHref } from "@/lib/atlas/ask";
@@ -62,6 +67,45 @@ export function HomeBackToGuide() {
       }}
     >
       Ask The Guide
+    </button>
+  );
+}
+
+export function HomeMoreBelow() {
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    const el = document.querySelector<HTMLElement>(".home-scroll");
+    const below = document.querySelector<HTMLElement>(".home-below");
+    if (!el || !below) return;
+    // Shown until the sections' first lines are on screen: from there the text
+    // itself says there is more, and the pill would only sit on top of it.
+    const onScroll = () =>
+      setShow(below.getBoundingClientRect().top > el.getBoundingClientRect().bottom - 24);
+    onScroll();
+    el.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      el.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, []);
+  return (
+    <button
+      type="button"
+      className="home-more"
+      data-show={show ? "true" : "false"}
+      aria-hidden={!show}
+      tabIndex={show ? 0 : -1}
+      onClick={() => {
+        const el = document.querySelector<HTMLElement>(".home-scroll");
+        const below = document.querySelector<HTMLElement>(".home-below");
+        if (!el || !below) return;
+        const top = el.scrollTop + below.getBoundingClientRect().top - el.getBoundingClientRect().top - 8;
+        const smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        el.scrollTo({ top, behavior: smooth ? "smooth" : "auto" });
+      }}
+    >
+      Trip inspiration below <span aria-hidden="true">↓</span>
     </button>
   );
 }

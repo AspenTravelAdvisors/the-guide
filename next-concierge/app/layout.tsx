@@ -135,6 +135,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   Expedition <b>Bucket List</b>
                 </span>
               </a>
+              {/* The agency, beside the name, linking to the agency's own
+                  site. On every screen size, since the tagline that used to
+                  carry this link hides on smaller ones. */}
+              <a
+                className="brand-by"
+                href="https://aspentraveladvisors.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                by Aspen Travel Advisors
+              </a>
             </div>
             <span className="tag">
               Private travel, powered by{" "}
@@ -145,15 +156,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 rel="noreferrer"
               >
                 Virtuoso®
-              </a>{" "}
-              · Arranged by{" "}
-              <a
-              className="byline"
-                href="https://aspentraveladvisors.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Aspen Travel Advisors
               </a>
             </span>
             <SiteNav />
