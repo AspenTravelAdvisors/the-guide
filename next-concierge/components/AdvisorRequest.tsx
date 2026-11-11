@@ -264,6 +264,24 @@ function AdvisorForm({
         </button>
       </div>
 
+      {/* Who replies: the faces from the photo at the foot of the home page.
+          A name and a face make the form a note to people, not a toll gate. */}
+      <div className="adv-who">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          className="adv-who-face"
+          src="/advisors/advisor-avatar.jpg"
+          srcSet="/advisors/advisor-avatar.jpg 1x, /advisors/advisor-avatar@2x.jpg 2x"
+          alt="Brian and Kerry Harris"
+          width={52}
+          height={52}
+        />
+        <div>
+          <p className="adv-who-name">Brian &amp; Kerry Harris</p>
+          <p className="adv-who-role">Owners, Aspen Travel Advisors</p>
+        </div>
+      </div>
+
       <p className="adv-note">
         {HANDOFF_BLURB[context.category] ?? HANDOFF_BLURB.generic} <b>{ADVISOR_SLA}</b>
       </p>

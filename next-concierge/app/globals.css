@@ -3258,23 +3258,6 @@ header.site > .site-nav {
   }
 }
 
-/* The advisor button carries a face: Brian and Kerry, the people who reply. */
-.nav-cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 3px 14px 3px 3px;
-  border-radius: 999px;
-}
-.nav-cta-face {
-  width: 26px;
-  height: 26px;
-  flex: none;
-  display: block;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 0 0 1.5px var(--bg);
-}
 .nav-cta-short {
   display: none;
 }
@@ -3299,9 +3282,9 @@ header.site > .site-nav {
   }
   .site-nav .nav-cta {
     margin-left: auto;
+    padding: 7px 12px;
     font-size: 11.5px;
     letter-spacing: 0.4px;
-    padding-right: 12px;
   }
 }
 @media (max-width: 440px) {
@@ -3316,23 +3299,25 @@ header.site > .site-nav {
     font-size: 11px;
   }
   .site-nav .nav-cta {
-    gap: 6px;
-    padding-right: 10px;
+    padding: 7px 10px;
     font-size: 11px;
   }
 }
-/* The smallest phones: the faces alone carry the button (its aria-label still
-   says "Talk to an advisor"). */
-@media (max-width: 350px) {
-  .site-nav .nav-cta-short {
-    display: none;
+/* Narrow phones: tighter spacing so "Ask an advisor" still fits; on the very
+   narrowest the button just says "Advisor". */
+@media (max-width: 380px) {
+  .site-nav .nav-link {
+    padding: 7px 4px;
+    letter-spacing: 0;
   }
   .site-nav .nav-cta {
-    padding: 3px;
+    padding: 7px 8px;
+    letter-spacing: 0;
   }
-  .site-nav .nav-cta-face {
-    width: 30px;
-    height: 30px;
+}
+@media (max-width: 345px) {
+  .site-nav .nav-cta-ask {
+    display: none;
   }
 }
 
@@ -3387,6 +3372,34 @@ header.site > .site-nav {
 .adv-close:hover {
   color: var(--gold-light);
   border-color: var(--gold-dim);
+}
+/* Who replies: Brian and Kerry, cropped from the home page photo. */
+.adv-who {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px;
+}
+.adv-who-face {
+  width: 52px;
+  height: 52px;
+  flex: none;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 2px var(--gold-dim, var(--line));
+}
+.adv-who-name {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+}
+.adv-who-role {
+  margin: 2px 0 0;
+  font-size: 12.5px;
+  color: var(--muted);
 }
 .adv-note {
   margin: 0 0 14px;
