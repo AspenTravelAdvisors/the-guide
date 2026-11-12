@@ -18,7 +18,7 @@
  * twice at most; a draft that still fails is dropped and its topic marked
  * `failed`, so one bad topic never blocks the month.
  *
- * Cost: a handful of requests a month, each well under a dollar.
+ * Cost: a handful of requests a month, each around a dollar.
  */
 
 import fs from 'node:fs';
@@ -39,7 +39,7 @@ const opt = (name, fallback) => {
 };
 const COUNT = Math.max(1, Number(opt('count', 3)) || 3);
 const DRY_RUN = flag('dry-run');
-const MODEL = 'claude-opus-5-5';
+const MODEL = 'claude-fable-5-2';
 const MAX_ATTEMPTS = 3;
 
 const BACKLOG = path.join(repoRoot, 'data/answers/backlog.json');
@@ -136,7 +136,7 @@ const SYSTEM = `You write answer pages for The Guide, the luxury travel atlas ru
 
 Voice: a well-traveled advisor talking quietly at a bar in Aspen. Plain, specific, honest about trade-offs, including when something is not worth it. Never salesy. Mention booking through an advisor at most once, briefly, and only where it genuinely changes the outcome. Do not use exclamation marks, the phrases "bucket list" or "once in a lifetime", or marketing adjectives like "unparalleled" or "breathtaking". Prefer commas and full stops to em dashes.
 
-Facts: every claim must be something you are confident is true and stable. Leave out anything you are unsure of rather than hedging it. Do not state prices or rates for specific properties; widely published public fees (such as a national park permit) are fine. Do not invent quotes, awards, statistics, launch dates or ship specifications. List every claim a careful editor should double-check in review_notes; they are shown to the reviewer, never published.
+Facts: every claim must be something you are confident is true and stable. Leave out anything you are unsure of rather than hedging it. Do not state prices or rates for specific properties; widely published public fees (such as a national park permit) are fine. Do not invent quotes, awards, statistics, launch dates or ship specifications. Ship sizes, launch dates and which ships are in service change; state them only when the brief gives them. List every claim a careful editor should double-check in review_notes; they are shown to the reviewer, never published.
 
 Counts: never type a count of properties or itineraries. Write a fact token instead and it is computed from the live feed when the page renders:
   {{hotels:<spec>}}       properties matching the spec, e.g. {{hotels:country=Italy&experience=Wellness}}
@@ -153,7 +153,7 @@ Fields:
 - capsule: 40 to 70 words that answer the question on their own, out of context. Must not start with "This", "These", "Here", "Below" or "As noted". Tokens are allowed but rarely needed.
 - answer: two paragraphs expanding the capsule.
 - sections: two or three, each with an h2 and some of paras, list, table (use [] or null for the parts not used). Tables are where comparisons belong.
-- evidence: a hotel query whose matching properties are rendered as a linked table under the answer, or null when no hotel query fits (villa and pure journey topics). It queries the hotel feed only.
+- evidence: a hotel query whose matching properties are rendered as a linked table under the answer, or null when no hotel query fits (villa and pure journey topics). It queries the hotel feed only, and its table must show what its heading promises. Categories and tags are the supplier's own and run wider than their names: Lodge / Safari takes in wilderness lodges from Alaska to New Zealand, a region can span several countries, and private-island misses some one-resort islands. Narrow the query by country or region when the page is about one place, and say in the note what the table leaves out.
 - faqs: three real follow-up questions with direct answers.
 - related: two to four links, chosen only from the allowed links listed below.`;
 

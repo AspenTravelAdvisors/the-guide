@@ -2188,11 +2188,11 @@ export const generatedAnswers = [
     "question": "Why do luxury safaris cost so much?",
     "title": "Why Luxury Safaris Cost So Much, and Where You Can Save",
     "description": "Where the money in a luxury safari actually goes, including concession and conservation fees, bush flights, small camps and full board, and the honest ways to spend less, drawn from the {{journeys:collection=safari}} safari itineraries in our atlas.",
-    "updated": "2026-11-01",
-    "capsule": "Luxury safaris cost what they do because most of the money goes on things guests never see: concession and conservation fees, flying every guest, staff member and crate of food into a remote camp, and running a camp of eight to twelve tents for very few people. Rates are fully inclusive. The real savings come from green season and from staying longer in fewer camps.",
+    "updated": "2026-11-12",
+    "capsule": "Luxury safaris cost what they do because most of the money goes on things guests never see: concession and conservation fees, flying every guest, staff member and crate of food into a remote camp, and running a camp of eight to twelve tents for very few people. The rate also covers meals, drinks, guiding and game drives. The real savings come from green season and from staying longer in fewer camps.",
     "answer": [
       "A night at a top safari camp is not priced like a hotel room, because it is not built like one. The camp usually sits on a private concession leased from a government or a local community, and the lease, the conservation levy and the community payments are paid whether the tents are full or not. Everything in the camp, from diesel and fresh produce to the chef, arrives by light aircraft or a long track. Staff often outnumber guests. Then the rate covers what a hotel would bill separately: every meal, most drinks, two game drives a day with a trained guide and tracker, laundry, and usually the park or conservancy fees.",
-      "The low numbers are the point rather than a side effect. Botswana in particular has long run a high-value, low-volume policy, keeping beds few on large concessions so that a leopard sighting is shared with one other vehicle rather than twenty. You are paying for space and quiet, and the bill reflects it. Where you can save is in the timing and the shape of the trip, not the camp itself: green season rates are noticeably lower, and every camp you drop removes a bush flight and a half-day lost to transfers. The atlas holds {{journeys:collection=safari}} safari itineraries and {{hotels:category=Lodge / Safari}} lodges and camps, and the cheapest good trip among them is almost always the one with two or three camps rather than five."
+      "The low numbers are the point rather than a side effect. Botswana in particular has long run a high-value, low-volume policy, keeping beds few on large concessions so that a leopard sighting is shared with one other vehicle rather than twenty. You are paying for space and quiet, and the bill reflects it. Where you can save is in the timing and the shape of the trip, not the camp itself: green season rates are noticeably lower, and every camp you drop removes a bush flight and a half-day lost to transfers. The atlas holds {{journeys:collection=safari}} safari itineraries and {{hotels:category=Lodge / Safari}} wilderness lodges and safari camps worldwide, and the cheapest good safari among them is almost always the one with two or three camps rather than five."
     ],
     "sections": [
       {
@@ -2237,7 +2237,7 @@ export const generatedAnswers = [
             ],
             [
               "Permits for specific activities",
-              "Gorilla and chimpanzee trekking permits are set by governments; Rwanda's gorilla permit is US$1,500 per person",
+              "Gorilla and chimpanzee trekking permits are set by governments; Rwanda's gorilla permit is US$1,500 per person and Uganda's is US$800",
               "Choose Uganda for gorillas, or do one trek rather than two"
             ]
           ]
@@ -2269,9 +2269,9 @@ export const generatedAnswers = [
       }
     ],
     "evidence": {
-      "h2": "The safari lodges and camps in the atlas, smallest first",
-      "note": "Every property the supplier files as a lodge or safari camp, sorted by size. The smallest camps carry the highest fixed costs per guest, which is much of what you are paying for. Each links to its own page, where the benefits currently on file for it are listed.",
-      "query": "category=Lodge / Safari",
+      "h2": "South Africa's safari lodges in the atlas, smallest first",
+      "note": "The supplier's lodge and safari category also takes in wilderness lodges from Alaska to New Zealand, so this table is limited to South Africa, the easiest place to start and the country with the most safari lodges in the atlas. The smallest lodges carry the highest fixed costs per guest, which is much of what you are paying for. Each links to its own page, where the benefits currently on file for it are listed.",
+      "query": "country=South Africa&category=Lodge / Safari",
       "sort": "smallest",
       "limit": 15
     },
@@ -2314,11 +2314,11 @@ export const generatedAnswers = [
     "question": "What are the best private-island resorts?",
     "title": "The Best Private-Island Resorts, and Which Ones Really Have the Island to Themselves",
     "description": "Which private-island resorts truly occupy their own island, how you get to each, and what exclusivity buys, across the {{hotels:tag=private-island}} private-island properties in our atlas.",
-    "updated": "2026-11-01",
+    "updated": "2026-11-12",
     "capsule": "The best private-island resorts are the ones where the resort is the only thing on the island: The Brando on Tetiaroa, North Island in the Seychelles, Petit St Vincent in the Grenadines, Laucala in Fiji, Amanpulo in the Philippines and most Maldives resorts. Many others share their island with private homes or other hotels. That is pleasant, but it is a different kind of quiet.",
     "answer": [
-      "Start by sorting the field into three groups, because the phrase covers all of them. The first is one island, one resort. Nothing else is there except staff housing and perhaps a research station. The Brando, North Island, Petit St Vincent, Laucala, Amanpulo and nearly every resort in the Maldives fit here. The second group is a resort that shares its island with privately owned homes, such as Jumby Bay off Antigua or Parrot Cay in Turks and Caicos. Residents use the same beaches and paths, so it is quiet, but the island is not the hotel's alone. The third group is the resort that calls itself private because it has a private beach or its own cay for day trips. It is often a fine hotel, but it is not a private island.",
-      "Exclusivity is mostly a matter of who else can arrive, and the answer depends on the transfer. Almost every true private island is reached by seaplane, helicopter, small aircraft or the resort's own boat. That keeps day-trippers out, and it adds cost, weight limits and weather risk to both ends of the trip. Our atlas tags {{hotels:tag=private-island}} properties as private-island resorts, and {{hotels:tag=private-island&perks=true}} of them carry advisor benefits on file. The Maldives alone accounts for {{hotels:country=Maldives}} properties in the atlas, most of them alone on their islands."
+      "Start by sorting the field into three groups, because the phrase covers all of them. The first is one island, one resort. Nothing else is there except staff housing and perhaps a research station. The Brando, North Island, Petit St Vincent, Laucala, Amanpulo and nearly every resort in the Maldives fit here. The second group is a resort that shares its island with privately owned homes, such as Jumby Bay off Antigua or Parrot Cay in Turks and Caicos. Residents use the same beaches and paths, so it is quiet, but the island is not the hotel's alone. The third group is the resort that calls itself private because it has a private beach or its own cay for day trips. It is often a fine hotel, but it is not a private island. A fourth kind, the island rented whole to a single party, is a different purchase and has its own row in the table below.",
+      "Exclusivity is mostly a matter of who else can arrive, and the answer depends on the transfer. Almost every true private island is reached by seaplane, helicopter, small aircraft or the resort's own boat. That keeps day-trippers out, and it adds cost, weight limits and weather risk to both ends of the trip. Our atlas tags {{hotels:tag=private-island}} properties as private-island resorts, and {{hotels:tag=private-island&perks=true}} of them carry advisor benefits on file. The tag is the supplier's and is narrower than this page: {{hotel:North Island}} and {{hotel:The Brando}} carry it, while {{hotel:Amanpulo}}, {{hotel:Soneva Fushi}} and {{hotel:Cheval Blanc Randheli, Maldives|Cheval Blanc Randheli}} are in the atlas without it. The Maldives alone accounts for {{hotels:country=Maldives}} properties in the atlas, most of them alone on their islands."
     ],
     "sections": [
       {
@@ -2391,10 +2391,16 @@ export const generatedAnswers = [
               "An unplugged Caribbean week with no televisions and no fuss"
             ],
             [
-              "Laucala Island",
+              "COMO Laucala Island",
               "Laucala, Fiji",
               "The resort's own aircraft from Nadi",
               "Active travellers: golf, diving, riding and sailing on one island"
+            ],
+            [
+              "Kokomo Private Island",
+              "Yaukuve Levu, Fiji",
+              "Seaplane or helicopter from Nadi",
+              "Families and divers, on the edge of the Great Astrolabe Reef"
             ],
             [
               "Amanpulo",
@@ -2423,7 +2429,7 @@ export const generatedAnswers = [
       {
         "h2": "Transfers, and when it is not worth it",
         "paras": [
-          "The transfer is half the experience and most of the friction. In the Maldives, seaplanes fly only in daylight, so a late-evening international arrival usually means a night in Malé before you reach the resort. Small aircraft, helicopters and seaplanes all have baggage weight limits that are stricter than airline limits, and weather can delay them at either end. Build a buffer day into the return before any long-haul connection. This is where an advisor earns their keep: lining up flight times, transfer slots and the inevitable rebooking when a seaplane does not go.",
+          "The transfer is half the experience and most of the friction. In the Maldives, seaplanes fly only in daylight, so a late-evening international arrival usually means a night near Malé airport before you reach the resort. Small aircraft, helicopters and seaplanes all have baggage weight limits that are stricter than airline limits, and weather can delay them at either end. Build a buffer day into the return before any long-haul connection. This is where an advisor earns their keep: lining up flight times, transfer slots and the inevitable rebooking when a seaplane does not go.",
           "A private island is not worth it for everyone. If you like to change restaurants every night, walk into a town, or spend long days on excursions, you will feel confined after three or four nights. Shared-island resorts or a hotel on a larger island will suit you better."
         ],
         "list": [
@@ -2437,7 +2443,7 @@ export const generatedAnswers = [
     ],
     "evidence": {
       "h2": "The private-island resorts in the atlas, smallest first",
-      "note": "Every property the supplier feed tags as a private-island resort, sorted by size. The tag follows supplier filings, so check the table above for which kind of private each one is. Each links to its own page, where the benefits currently on file for it are listed in full.",
+      "note": "Every property the supplier feed tags as a private-island resort, sorted by size. The tag follows supplier filings: it includes a few islands shared with private homes and leaves out several one-resort islands named above, so use the first table to tell which kind of private each one is. Each links to its own page, where the benefits currently on file for it are listed in full.",
       "query": "tag=private-island",
       "sort": "smallest",
       "limit": 15
@@ -2481,7 +2487,7 @@ export const generatedAnswers = [
     "question": "How should you plan a luxury honeymoon?",
     "title": "How to Plan a Luxury Honeymoon: Pairings, Seasons, Amenities and When to Book",
     "description": "How to plan a luxury honeymoon: pairing a city or safari with a beach, matching the destination to the wedding month, what honeymoon amenities actually include, and how far ahead to book.",
-    "updated": "2026-11-01",
+    "updated": "2026-11-12",
     "capsule": "Plan a luxury honeymoon around the wedding month first, then choose one long-haul pairing: a city or safari followed by a beach, three or four nights at each, with the beach last. Book nine to twelve months out for peak-season safari camps and island resorts, tell every hotel it is a honeymoon, and price any honeymoon package against the standard rate with program perks.",
     "answer": [
       "The decision that shapes everything else is the pairing. Most good honeymoons are one long-haul flight and two bases, rarely three: a safari or a city for the first half, a beach for the second. Three or four nights at each is the minimum that feels like a stay rather than a transit, and ten to fourteen nights in total covers it comfortably. Ending at the beach is the usual advice for good reason, since you fly home rested rather than straight off a dawn game drive. The exception is the couple who arrive exhausted from the wedding itself, who often do better with two quiet nights somewhere easy before anything involving an alarm clock.",
@@ -2503,13 +2509,13 @@ export const generatedAnswers = [
               "Kenya or Tanzania safari + Zanzibar or the Seychelles",
               "June to October",
               "Dry-season game viewing, then a short flight to the Indian Ocean",
-              "Busy vehicle sightings in the Mara at peak migration; light-aircraft baggage limits mean soft bags"
+              "Busy vehicle sightings in the Mara at peak migration; light-aircraft baggage limits mean soft bags; the southeast trade winds make some Seychelles beaches rough from June to September"
             ],
             [
               "Botswana safari + Mauritius",
               "June to October",
-              "Botswana's best months line up with Mauritius's dry, cooler winter",
-              "The smallest Botswana camps book out first; Mauritius is warm rather than hot in July"
+              "Botswana's best months line up with Mauritius's drier, cooler winter",
+              "The smallest Botswana camps book out first; Mauritius is warm rather than hot in July, and its east coast is breezy"
             ],
             [
               "Cape Town and the Winelands + a South African safari",
@@ -2527,12 +2533,12 @@ export const generatedAnswers = [
               "Tokyo and Kyoto + Bali",
               "April to May, October",
               "A culture-heavy first half, a villa with a pool for the second",
-              "Bali's wet season runs roughly November to March; Kyoto books out early in blossom and autumn-leaf weeks"
+              "Bali is about seven hours from Tokyo, the longest second leg here, and its wet season runs roughly November to March; Kyoto books out early in blossom and autumn-leaf weeks"
             ]
           ]
         },
         "paras": [
-          "The pairings below share one trait: the second leg is a short regional flight or a drive, not a second long-haul. That is what keeps a two-week trip from losing three days to airports.",
+          "The pairings below share one trait: the second leg is a regional flight or a drive, not a second intercontinental one. That is what keeps a two-week trip from losing three days to airports.",
           "Pairings that fail tend to fail on flights. Paris followed by the Maldives, or London followed by a Caribbean island, adds a second long-haul leg and a second jet-lag reset to a trip with no slack for either. The other common mistake is a third or fourth stop. Every move costs most of a day, and on a ten-night trip two moves is the most that still leaves room to do nothing, which is most of the point."
         ]
       },
@@ -2548,7 +2554,7 @@ export const generatedAnswers = [
           "rows": [
             [
               "May to June",
-              "Mediterranean, Botswana and East African safari as the dry season begins, Bali, French Polynesia",
+              "Mediterranean, Botswana, East Africa from June once the long rains end, Bali, French Polynesia",
               "The Maldives (wetter southwest monsoon); the Caribbean from June, when hurricane season begins, though early-season risk is low"
             ],
             [
@@ -2603,7 +2609,7 @@ export const generatedAnswers = [
     ],
     "evidence": {
       "h2": "Secluded beach resorts with VIP benefits on file, smallest first",
-      "note": "Beach resorts the supplier files under seclusion, with advisor benefits on record, sorted so the most intimate properties come first. Each links to its own page, where the benefits currently on file for it are listed in full.",
+      "note": "Beach resorts the supplier files under seclusion, with advisor benefits on record, sorted so the most intimate properties come first. The category is the supplier's own, so one or two sit near the sea, not on it. Each links to its own page, where the benefits currently on file for it are listed in full.",
       "query": "category=Beach Resort&experience=Seclusion&perks=true",
       "sort": "smallest",
       "limit": 15
@@ -2647,11 +2653,11 @@ export const generatedAnswers = [
     "question": "What's the best small ship for a Mediterranean cruise?",
     "title": "The Best Small Ship for a Mediterranean Cruise: Yacht-Style Ships vs Seabourn and Silversea",
     "description": "Yacht-style ships from Ritz-Carlton, Four Seasons, Orient Express, Aman and Sea Cloud, or small luxury ships from Seabourn and Silversea? How ship size changes harbours, tendering and the summer season, across the {{journeys:collection=yacht}} yacht itineraries in our atlas.",
-    "updated": "2026-11-01",
+    "updated": "2026-11-12",
     "capsule": "For a summer coastal Mediterranean trip, a yacht-style ship of a few hundred guests or fewer is the better choice: Ritz-Carlton, Four Seasons, Aman at Sea, or a sailing ship from Sea Cloud or Orient Express. They reach smaller harbours, tender faster and stay later. Seabourn and Silversea are better value on longer, city-heavy itineraries, where ship size changes less.",
     "answer": [
-      "The Mediterranean rewards small ships more than almost any other cruising region, because the places people most want to be, Portofino, Saint-Tropez, Capri, Hydra, the Dalmatian islands, are small harbours with little room for large ships. Yacht-style ships get you there on better terms: more of their calls are in those harbours, a tender run clears a ship of a hundred or two hundred guests quickly, and their itineraries lean towards evenings and overnights ashore rather than early sail-aways. The hotel-brand lines, Ritz-Carlton, Four Seasons, Orient Express and Aman, and the tall ship Sea Cloud II are the ones to look at, and the smaller the ship, the more pronounced the difference.",
-      "Seabourn and Silversea are the honest alternative, not a lesser one. Their ships carry several hundred guests, still small by cruise standards, and in return you get more space at sea, a steadier ride in a swell, more dining choice and generally a lower fare per night for comparable service. On itineraries built around Rome, Florence, Barcelona and Athens, where every ship uses the same commercial port and Rome and Florence are an hour or more inland whatever you sail on, size buys you little and they are the better buy. For scale, across all regions rather than the Mediterranean alone, our atlas holds Ritz-Carlton {{journeys:operator=Ritz-Carlton Yacht Collection}}, Four Seasons {{journeys:operator=Four Seasons Yachts}}, Orient Express {{journeys:operator=Orient Express Sailing Yachts}}, Aman at Sea {{journeys:operator=Aman at Sea}}, Sea Cloud II {{journeys:vessel=Sea Cloud II}}, Seabourn {{journeys:operator=Seabourn}} and Silversea {{journeys:operator=Silversea}} itineraries."
+      "The Mediterranean rewards small ships more than almost any other cruising region, because the places people most want to be, Portofino, Saint-Tropez, Capri, Hydra, the Dalmatian islands, are small harbours with little room for large ships. Yacht-style ships get you there on better terms: more of their calls are in those harbours, a tender run clears a ship of a hundred or two hundred guests quickly, and their itineraries lean towards evenings and overnights ashore rather than early sail-aways. The hotel-brand lines, Ritz-Carlton, Four Seasons, Orient Express and Aman, and the tall ship Sea Cloud II are the ones to look at, and the smaller the ship, the more pronounced the difference. Aman's first ship, Amangati, is due to enter service in May 2027, so for now it is one to book ahead, not one to sail this summer.",
+      "Seabourn and Silversea are the honest alternative, not a lesser one. Their ships carry several hundred guests, still small by cruise standards, and in return you get more space at sea, a steadier ride in a swell, more dining choice and generally a lower fare per night for comparable service. On itineraries built around Rome, Florence, Barcelona and Athens, where every ship uses the same commercial port and Rome and Florence are an hour or more inland whatever you sail on, size buys you little and they are the better buy. For scale, across all regions rather than the Mediterranean alone, our atlas holds Ritz-Carlton {{journeys:operator=Ritz-Carlton Yacht Collection}}, Four Seasons {{journeys:operator=Four Seasons Yachts}}, Orient Express {{journeys:operator=Orient Express Sailing Yachts}}, Aman at Sea {{journeys:operator=Aman at Sea}} and Sea Cloud II {{journeys:vessel=Sea Cloud II}} itineraries. Among conventional small ships, the deepest Mediterranean list in the atlas is {{op:cruise/PONANT EXPLORATIONS|PONANT}}'s, at {{journeys:operator=PONANT EXPLORATIONS&region=Mediterranean}} itineraries on ships of fewer than 300 guests, which puts it between the two camps."
     ],
     "sections": [
       {
@@ -2669,14 +2675,14 @@ export const generatedAnswers = [
             [
               "Sailing ships",
               "Sea Cloud II, Orient Express Corinthian",
-              "Around 100 guests or fewer",
+              "Around 100 guests; Corinthian has 54 suites",
               "The smallest harbours, and the voyage itself under sail",
               "More motion, fewer facilities, cabins smaller than a hotel-brand yacht's"
             ],
             [
               "Small yacht-style ships",
-              "Aman at Sea's Amangati, Four Seasons I and II",
-              "Under 200 guests",
+              "Four Seasons I; Aman at Sea's Amangati from 2027",
+              "95 suites and up to about 220 guests on Four Seasons I; Amangati is planned at about 50 suites",
               "Intimate, hotel-level service, quick tenders, late evenings ashore",
               "Among the highest fares per night at sea; limited dining choice on long trips"
             ],
@@ -2705,7 +2711,7 @@ export const generatedAnswers = [
         "h2": "Marina berths, tender ports and why size matters",
         "paras": [
           "Most of the Mediterranean's famous small ports cannot berth an ocean ship of any size, so everyone anchors off and tenders in. The tender ride is the same; what changes is the queue and the schedule. A small ship empties in a few runs and can stay into the evening, while a ship of several hundred guests usually needs ticketed tender times and an earlier all-aboard. The smallest ships are also more often allowed into the inner harbour, or given a berth in the old port rather than at a commercial terminal outside town.",
-          "Ritz-Carlton and Four Seasons ships also carry a fold-down water-sports platform at the stern, used for swimming, kayaking and paddleboarding at anchor. In a calm cove in June it is one of the real pleasures of a yacht-style ship. Most classic Seabourn and Silversea ships do not offer the same, so check the specific ship if swimming off the stern matters to you."
+          "Ritz-Carlton and Four Seasons ships also open a marina at the waterline when at anchor, at the stern on the Ritz-Carlton yachts and across both sides of Four Seasons I, for swimming, kayaking and paddleboarding. In a calm cove in June it is one of the real pleasures of a yacht-style ship. Seabourn's ships have a fold-out stern marina too, used on calm days. Silversea's classic ships do not, so check the specific ship if swimming from it matters to you."
         ],
         "list": [
           "Portofino: tender only for every ship. The smaller the ship, the shorter the wait and the longer the evening.",
@@ -2750,7 +2756,7 @@ export const generatedAnswers = [
               "September",
               "Sea at its warmest, heat easing",
               "Easing after mid-month",
-              "A strong choice, especially for swimming off the stern"
+              "A strong choice, especially for swimming from the ship"
             ],
             [
               "October",
@@ -2772,8 +2778,8 @@ export const generatedAnswers = [
       }
     ],
     "evidence": {
-      "h2": "Where to spend the night before you sail",
-      "note": "Mediterranean city hotels with VIP benefits on file, those with the most benefits first. Arrive at least a day before embarkation: ships sail on schedule and do not wait for a delayed connection. Each links to the property's own page, where the benefits currently on file are listed in full.",
+      "h2": "City hotels around the Mediterranean, for the night before you sail",
+      "note": "Mediterranean city hotels with VIP benefits on file, those with the most benefits first. Embarkation ports change with the itinerary, most often Rome (for Civitavecchia), Barcelona, Athens (for Piraeus), Venice and Nice or Monte Carlo, so look for the city your ship sails from; the list runs wider than the ports. Arrive at least a day before embarkation: ships sail on schedule and do not wait for a delayed connection. Each links to the property's own page, where the benefits currently on file are listed in full.",
       "query": "region=mediterranean&category=City Hotel&perks=true",
       "sort": "perks",
       "limit": 15
@@ -2807,7 +2813,7 @@ export const generatedAnswers = [
       },
       {
         "href": "/journeys/cruise",
-        "label": "Seabourn, Silversea and other small-ship cruises"
+        "label": "Small-ship and expedition cruises in the atlas"
       }
     ]
   },
@@ -2981,11 +2987,11 @@ export const generatedAnswers = [
     "question": "Where should you stay in Patagonia?",
     "title": "Where to Stay in Patagonia: Torres del Paine vs. El Calafate and El Chaltén",
     "description": "Torres del Paine or the Argentine side? How the all-inclusive lodges work, which base suits which traveler, and how wind and season from October to April should shape the trip, across the {{hotels:region=patagonia}} Patagonia properties in our atlas.",
-    "updated": "2026-11-01",
+    "updated": "2026-11-12",
     "capsule": "For a first trip, base yourself in Torres del Paine, Chile, at an all-inclusive lodge such as explora, Awasi or Tierra Patagonia, where guided hikes, meals and transfers are built in. Add El Calafate and El Chaltén in Argentina if you want the Perito Moreno Glacier and the Fitz Roy trails. Travel between October and April, and plan around the wind rather than the temperature.",
     "answer": [
-      "Torres del Paine is the better single base. The granite towers, the Cuernos and the lakes sit close together, and the lodges there were built for exactly this trip: you arrive, a guide sits down with you each evening to choose the next day's outing, and everything from the packed lunch to the van to the trailhead is handled. explora sits inside the park on Lake Pehoé, Tierra Patagonia on Lake Sarmiento at the park's edge, and Awasi on a private reserve where each villa has its own guide and vehicle. If you would rather sleep in a town and dip in, The Singular near Puerto Natales is the polished option, at the cost of a longer drive into the park each day.",
-      "The Argentine side is two different places. El Calafate is a glacier town: you go for Perito Moreno, boat trips on Lago Argentino and an estancia or two, and two nights is usually enough. El Chaltén is a trekking village under Fitz Roy and Cerro Torre, where the trails leave from the edge of town and the hotels are comfortable rather than grand. Doing both countries works well on a trip of ten days or more, connected by road across the border. On anything shorter, pick one side and give it the days, because Patagonian weather rewards people who have a spare morning to wait out a storm."
+      "Torres del Paine is the better single base. The granite towers, the Cuernos and the lakes sit close together, and the lodges there were built for exactly this trip: you arrive, a guide sits down with you each evening to choose the next day's outing, and everything from the packed lunch to the van to the trailhead is handled. {{hotel:Explora Torres del Paine|explora}} sits inside the park on Lake Pehoé, {{hotel:Tierra Patagonia, Beckons|Tierra Patagonia}} on Lake Sarmiento at the park's edge, and {{hotel:Awasi Patagonia Relais & Chateaux|Awasi}} on a private reserve where each villa has its own guide and vehicle. If you would rather sleep in a town and dip in, {{hotel:The Singular Patagonia, Chile|The Singular}} near Puerto Natales is the polished option, at the cost of a longer drive into the park each day.",
+      "The Argentine side is two different places. El Calafate is a glacier town: you go for Perito Moreno, boat trips on Lago Argentino and an estancia or two, and two nights is usually enough. El Chaltén is a trekking village under Fitz Roy and Cerro Torre, where the trails leave from the edge of town. Most hotels there are comfortable rather than grand. The exception is {{hotel:Explora El Chaltén}}, an all-inclusive lodge in a private reserve north of the village, run on the same guided model as the Chilean lodges. Doing both countries works well on a trip of ten days or more, connected by road across the border. On anything shorter, pick one side and give it the days, because Patagonian weather rewards people who have a spare morning to wait out a storm."
     ],
     "sections": [
       {
@@ -3017,9 +3023,9 @@ export const generatedAnswers = [
             [
               "El Chaltén, Argentina",
               "Serious day hiking to Laguna de los Tres and Laguna Torre",
-              "Smaller hotels and lodges in or near the village",
+              "Small hotels in the village, plus explora's all-inclusive lodge in a private reserve nearby",
               "Road from El Calafate, roughly three hours",
-              "Fewer full-service options, and cloud can hide Fitz Roy for days"
+              "Few full-service options, and cloud can hide Fitz Roy for days"
             ]
           ]
         },
@@ -3039,11 +3045,47 @@ export const generatedAnswers = [
           "Stays are normally sold as packages of several nights, and that minimum is worth respecting, since one lost day to wind can wipe out a short visit.",
           "A town hotel in Puerto Natales costs less and gives you restaurants and freedom, but you will spend a couple of hours a day driving to and from the park's best areas."
         ]
+      },
+      {
+        "h2": "Wind and season, October to April",
+        "table": {
+          "caption": "The Patagonian season. Weather varies year to year, and day to day.",
+          "columns": [
+            "Months",
+            "What it is like",
+            "Verdict"
+          ],
+          "rows": [
+            [
+              "October and November",
+              "Spring. Snow still on the peaks, lodges reopening, wind building through November",
+              "Quiet and good value; the highest trails may still hold snow"
+            ],
+            [
+              "December to February",
+              "The longest days, around 17 hours of daylight in December, and the warmest. Also the windiest and busiest months",
+              "Best for the long hikes. Book early, and expect company on the Base of the Towers trail"
+            ],
+            [
+              "March and April",
+              "Autumn. The wind usually eases, the lenga forests turn red, days shorten and mornings are cold",
+              "Our pick for walkers and photographers who do not need the longest days"
+            ],
+            [
+              "May to September",
+              "Winter. Many lodges close or run reduced programmes, days are short and snow is likely",
+              "Only if you want solitude and accept limited access"
+            ]
+          ]
+        },
+        "paras": [
+          "Wind, not cold, is what changes plans in Patagonia. Summer temperatures are mild, but gusts can close exposed trails, cancel boat crossings and make a ridge walk unpleasant. Lodges handle this by deciding outings the evening before and keeping sheltered alternatives ready, which is one more argument for the guided model and for staying four nights, not two."
+        ]
       }
     ],
     "evidence": {
       "h2": "Patagonia properties in the atlas, smallest first",
-      "note": "Every property the supplier files under Patagonia, across Chile and Argentina, with the smallest lodges first, since a few dozen rooms and a few hundred are different trips. Each links to its own page, where the benefits currently on file for it are listed in full.",
+      "note": "Every property the supplier files under Patagonia, from the Chilean Lake District to Tierra del Fuego, with the smallest lodges first, since a few dozen rooms and a few hundred are different trips. Tierra Patagonia is in the atlas too, filed under its lake, not the region, so it is missing from this table. Each links to its own page, where the benefits currently on file for it are listed in full.",
       "query": "region=patagonia",
       "sort": "smallest",
       "limit": 15
@@ -3076,8 +3118,8 @@ export const generatedAnswers = [
         "label": "What advisor perks add at all-inclusive lodges"
       },
       {
-        "href": "/atlas/hotel",
-        "label": "The hotel atlas, on the map"
+        "href": "/hotels/chile",
+        "label": "Every Chile property in the hotel atlas"
       }
     ]
   },
@@ -3087,7 +3129,7 @@ export const generatedAnswers = [
     "question": "How do you prepare for a world cruise?",
     "title": "How to Prepare for a World Cruise: Visas, Medications, Home and Life On Board",
     "description": "A calm, practical guide to preparing for a world cruise: passports and visas, a full voyage's medication, mail and banking at home, dress codes, laundry and staying connected, with the {{journeys:collection=worldcruise}} world cruise itineraries in our atlas.",
-    "updated": "2026-11-01",
+    "updated": "2026-11-12",
     "capsule": "Start nine to twelve months out with the passport, which should be valid at least six months beyond the voyage and have plenty of blank pages. Most lines work with a visa service that sequences entry permits for you. Bring every medication for the whole voyage plus a margin, move mail and bills online, fix two-factor codes so they reach you abroad, and pack for two weeks, not four months.",
     "answer": [
       "Preparing for a world cruise is mostly paperwork and household logistics, done early and in the right order. The passport comes first, because almost everything else depends on it: visa applications need it, and some countries will not issue a visa on a passport that expires too soon after your visit. Then visas, which your cruise line will usually route through a partner visa service that knows which countries need one, which accept an electronic authorisation, and how close to arrival each can be issued. Then health: a travel clinic visit, any vaccinations, and enough of every prescription to last the full voyage with a margin, because refills at sea or in port are unreliable.",
@@ -3116,7 +3158,7 @@ export const generatedAnswers = [
             [
               "3 to 6 months out",
               "Apply for visas through the line's recommended service, in the order it suggests.",
-              "Some visas and electronic authorisations can only be issued within a set window before arrival, so timing matters as much as paperwork."
+              "Some visas and electronic authorisations can only be issued within a set window before arrival, so timing matters as much as paperwork. Some world cruise fares include a visa package, so check before paying a service yourself."
             ],
             [
               "3 months out",
@@ -3147,8 +3189,8 @@ export const generatedAnswers = [
           "Cash: a modest supply of small US dollar notes is useful for tips and taxis in many ports; draw local currency from ATMs as you go.",
           "Taxes: a January departure usually means you are at sea in April. US travellers should file early or arrange an extension before leaving.",
           "Legal: leave a power of attorney and copies of key documents with someone at home, and make sure they know how to reach the ship.",
-          "Medications: carry them in original packaging with prescriptions that show generic names. Some countries restrict medicines that are routine at home, Japan's rules on stimulant-based ADHD medication being the usual example, so check each country on the route.",
-          "Insurance: confirm your health cover works abroad. US Medicare generally does not, so a travel medical and evacuation policy is worth having for a voyage this long."
+          "Medications: carry them in original packaging with prescriptions that show generic names. Some countries restrict medicines that are routine at home. Japan, the usual example, bans some stimulant ADHD medication outright and requires advance permission for others, so check each country on the route.",
+          "Insurance: confirm your health cover works abroad. US Medicare, with narrow exceptions, does not, so a travel medical and evacuation policy is worth having for a voyage this long."
         ]
       },
       {
@@ -3205,10 +3247,10 @@ export const generatedAnswers = [
     "question": "Can you see Japan by luxury train?",
     "title": "Japan by Luxury Train: Green Car, Gran Class and the Cruise Trains",
     "description": "How to see Japan by train in comfort: Shinkansen Green Car and Gran Class for the main legs, how hard Seven Stars in Kyushu, Shiki-shima and Twilight Express Mizukaze are to book, and how operators build Japan rail itineraries.",
-    "updated": "2026-11-01",
+    "updated": "2026-11-12",
     "capsule": "Yes, but mostly by Shinkansen. The main legs run in Green Car, Japan's first class, or in Gran Class on the northern and Hokuriku lines, which is comfortable rather than lavish. The true luxury trains, Seven Stars in Kyushu, Train Suite Shiki-shima and Twilight Express Mizukaze, are short sleeper cruises sold by lottery, so treat a berth as a bonus, not the plan.",
     "answer": [
-      "Japan is the easiest country in the world to cross by train and one of the hardest in which to book a luxury train. The everyday answer is the Shinkansen. Green Car, the first-class carriage on almost every bullet train, gives you wider seats, more legroom and a quieter carriage, and it is enough for Tokyo to Kyoto, Osaka, Hiroshima and on to Kyushu. Gran Class, a small premium carriage above Green, exists only on the lines running north and northwest from Tokyo: the Tohoku and Hokkaido Shinkansen towards Aomori and Hakodate, and the Hokuriku Shinkansen towards Kanazawa. If your route is the classic Tokyo, Kyoto, Osaka line, Gran Class is simply not available, and Green Car is the top of the market.",
+      "Japan is the easiest country in the world to cross by train and one of the hardest in which to book a luxury train. The everyday answer is the Shinkansen. Green Car, the first-class carriage on almost every bullet train, gives you wider seats, more legroom and a quieter carriage, and it is enough for Tokyo to Kyoto, Osaka, Hiroshima and on to Kyushu. Gran Class, a small premium carriage above Green, exists only on the lines running north and northwest from Tokyo: the Tohoku and Hokkaido Shinkansen towards Aomori and Hakodate, the Joetsu Shinkansen to Niigata, and the Hokuriku Shinkansen towards Kanazawa and Tsuruga. If your route is the classic Tokyo, Kyoto, Osaka line, Gran Class is simply not available, and Green Car is the top of the market.",
       "The cruise trains are a different thing entirely. Seven Stars in Kyushu, Shiki-shima and Twilight Express Mizukaze are run by JR Kyushu, JR East and JR West as short all-inclusive journeys of a few days, with suites, dining cars and excursions off the train. They carry very few guests, applications open in windows months ahead, and when demand exceeds space, which is normal, places are drawn by lottery. Nobody can promise you one. The sensible Japan rail trip is built on Shinkansen legs with good hotels and ryokan at each stop, with a cruise train or a day excursion train added if the draw goes your way. Our atlas holds {{journeys:country=Japan}} Japan itineraries and {{hotels:country=Japan}} Japanese hotels to build around."
     ],
     "sections": [
@@ -3238,13 +3280,13 @@ export const generatedAnswers = [
             [
               "Gran Class",
               "2-1, a small carriage with the fewest seats on the train",
-              "Tohoku and Hokkaido Shinkansen, Hokuriku Shinkansen; not Tokaido, Sanyo or Kyushu",
-              "Long northern runs such as Tokyo to Aomori or Hakodate, or Tokyo to Kanazawa, on trains with attendant service"
+              "Tohoku and Hokkaido, Joetsu and Hokuriku Shinkansen; not Tokaido, Sanyo or Kyushu",
+              "Long northern runs such as Tokyo to Aomori or Hakodate, or Tokyo to Kanazawa, on trains with attendant service such as the Hayabusa and Kagayaki"
             ]
           ]
         },
         "paras": [
-          "Seat layout is the clearest way to tell the classes apart. Gran Class is the only one with a single seat on one side of the aisle, and on some trains it comes with an attendant serving food and drink, while on others it is sold as seat-only. Check which service your train runs before paying for it, because without the attendant it is a better seat and little more."
+          "Seat layout is the clearest way to tell the classes apart. Gran Class is the only one with a single seat on one side of the aisle, and on some trains it comes with an attendant serving food and drink, while on others, including the Hakutaka, Asama, Toki and Tanigawa services, it is sold as seat-only. Check which service your train runs before paying for it, because without the attendant it is a better seat and little more."
         ]
       },
       {
@@ -3283,9 +3325,9 @@ export const generatedAnswers = [
           "If the lottery goes against you, several day trains give much of the pleasure with ordinary booking. They are worth an afternoon in the itinerary on their own merits."
         ],
         "list": [
-          "Aru Ressha, JR Kyushu's dessert-course train, designed by Eiji Mitooka, who also designed Seven Stars.",
+          "Aru Ressha, JR Kyushu's dining train between Hakata and Yufuin, which serves a course lunch on board. It was designed by Eiji Mitooka, who also designed Seven Stars.",
           "Yufuin no Mori, a JR Kyushu sightseeing train from Hakata to the onsen town of Yufuin.",
-          "Shimakaze, Kintetsu's premium limited express from Osaka, Kyoto and Nagoya to Ise-Shima, with a dining car and semi-private compartments."
+          "Shimakaze, Kintetsu's premium limited express from Osaka, Kyoto and Nagoya to Ise-Shima, with a café car and private compartments."
         ]
       },
       {
@@ -3313,7 +3355,7 @@ export const generatedAnswers = [
     "faqs": [
       {
         "q": "Is the Japan Rail Pass worth it in Green Car?",
-        "a": "Less often than it used to be. The pass rose sharply in price in 2023, and for a classic Tokyo, Kyoto, Osaka and Hiroshima trip, point-to-point Green Car tickets frequently come out close or cheaper. Price the specific route both ways before buying; the pass still wins on long, dense itineraries that cover the north as well."
+        "a": "Less often than it used to be. The pass rose sharply in price in 2023, and for a classic Tokyo, Kyoto, Osaka and Hiroshima trip, point-to-point Green Car tickets frequently come out close or cheaper. The pass also needs a paid supplement for the fastest Nozomi and Mizuho trains. Price the specific route both ways before buying; the pass still wins on long, dense itineraries that cover the north as well."
       },
       {
         "q": "Can an advisor guarantee a place on Seven Stars or Shiki-shima?",
@@ -3349,10 +3391,10 @@ export const generatedAnswers = [
     "question": "What travel insurance do you need for an expensive trip?",
     "title": "Travel Insurance for an Expensive Trip: Cancel For Any Reason, Evacuation and When to Buy",
     "description": "What insurance a high-value trip actually needs: standard trip cancellation versus Cancel For Any Reason, why evacuation limits matter on expeditions and safari, and why buying soon after your first deposit protects the most.",
-    "updated": "2026-11-01",
+    "updated": "2026-11-12",
     "capsule": "For an expensive trip you need three things: trip cancellation covering the nonrefundable money you have prepaid, medical cover that works abroad, and a high emergency evacuation limit if you are going anywhere remote. Add Cancel For Any Reason only if you might cancel for reasons a standard policy excludes. Buy within days of your first deposit, because several of the best benefits depend on it.",
     "answer": [
-      "Most people shop for travel insurance as one product. It is really three. Trip cancellation and interruption protects the money you cannot get back if you have to call the trip off or come home early. Medical cover pays for treatment abroad, where many domestic plans pay little or nothing, and US Medicare generally pays nothing at all. Emergency evacuation pays to move you from a remote place to adequate care, and on an Antarctic ship, a Botswana camp or a Galápagos yacht it is the line that matters most, because the bill for a long-distance air ambulance can be far larger than the trip itself.",
+      "Most people shop for travel insurance as one product. It is really three. Trip cancellation and interruption protects the money you cannot get back if you have to call the trip off or come home early. Medical cover pays for treatment abroad, where many domestic plans pay little or nothing, and US Medicare, with narrow exceptions, pays nothing at all. Emergency evacuation pays to move you from a remote place to adequate care, and on an Antarctic ship, a Botswana camp or a Galápagos yacht it is the line that matters most, because the bill for a long-distance air ambulance can be far larger than the trip itself.",
       "Cancel For Any Reason, usually shortened to CFAR, is an upgrade to cancellation cover, not a replacement for it. A standard policy only pays when you cancel for a reason it lists, such as serious illness, injury or a death in the family. CFAR pays a portion of your nonrefundable costs whatever the reason, provided you cancel early enough before departure and bought the policy on time. It costs noticeably more and reimburses only part of the loss, so it earns its place when your reasons for possibly cancelling are ones a standard policy would refuse: work, a wobbly family situation, or simply not wanting to go any more."
     ],
     "sections": [
@@ -3374,12 +3416,12 @@ export const generatedAnswers = [
             [
               "How much it repays",
               "Usually the full insured nonrefundable cost",
-              "A stated percentage of the insured cost, never all of it"
+              "A stated percentage of the insured cost, commonly 50 to 75 percent, never all of it"
             ],
             [
               "When you must buy",
               "Any time before departure, though some benefits need early purchase",
-              "Within a short window after your first trip deposit"
+              "Within a short window after your first trip deposit, commonly 14 to 21 days"
             ],
             [
               "Insuring the full trip cost",
@@ -3389,7 +3431,7 @@ export const generatedAnswers = [
             [
               "Latest cancellation date",
               "Any time a covered reason arises, even mid-trip as interruption",
-              "A set number of days or hours before departure"
+              "A set deadline before departure, commonly 48 hours"
             ],
             [
               "Who it suits",
@@ -3399,7 +3441,7 @@ export const generatedAnswers = [
           ]
         },
         "paras": [
-          "Terms vary by policy and by state, so treat this as the typical shape rather than a promise. Read the actual certificate before you rely on any of it."
+          "Terms vary by policy and by state, and Cancel For Any Reason is not sold in every US state, so treat this as the typical shape, not a promise. Read the actual certificate before you rely on any of it."
         ]
       },
       {
@@ -3468,7 +3510,7 @@ export const generatedAnswers = [
     "question": "How do you choose an expedition cruise advisor?",
     "title": "How to Choose an Expedition Cruise Advisor: The Questions That Matter",
     "description": "What to ask an expedition cruise advisor before booking Antarctica, the Arctic or the Galápagos: sailings booked and sailed, preferred status with several lines, whether they compare ships across brands, and what happens when a voyage is cancelled or rerouted.",
-    "updated": "2026-11-01",
+    "updated": "2026-11-12",
     "capsule": "Choose an advisor who has booked, and ideally sailed, the region you want. They should hold preferred status with several expedition lines rather than one, and put ships from different operators side by side. They should also explain plainly what happens to your money when ice, weather or the operator changes the voyage. Polar and Galápagos track record matters more than general cruise volume.",
     "answer": [
       "Expedition cruising is a narrow specialty inside a broad trade, and most of the questions that decide whether a trip goes well are not the ones a general cruise seller is used to answering. Which ship carries few enough guests to land everyone at once? Is the Drake Passage worth crossing, or should you fly it? What does the contract say when pack ice closes a fjord? Can you make the Galápagos flight from the mainland on the day you arrive? Start by asking how many polar or Galápagos sailings the advisor has booked recently and which they have sailed themselves. Specific ships, seasons and cabin categories in the answer tell you more than any title on a business card.",
@@ -3529,7 +3571,7 @@ export const generatedAnswers = [
         "list": [
           "Antarctica: under IAATO guidelines, ships carrying more than 500 passengers do not land guests, and no more than 100 people may be ashore at one site at a time. A smaller ship means more time ashore, not just a quieter dining room.",
           "The Drake Passage: most voyages cross it by sea from Ushuaia, and some operators fly guests over it to King George Island instead. The flight saves days and seasickness, but it can itself be delayed by weather.",
-          "The Galápagos: the national park caps ships at 100 guests, assigns each ship its itinerary, and requires a certified naturalist for every group of up to 16 visitors. Foreign adults pay a park entrance fee of $200, usually on arrival in the islands.",
+          "The Galápagos: the national park caps ships at 100 guests, assigns each ship its itinerary, and requires a certified naturalist for every group of up to 16 visitors. Foreign adults pay a park entrance fee of US$200, in cash, on arrival in the islands.",
           "The Arctic: early-summer sea ice can stop a ship from circumnavigating Svalbard, so an advisor should tell you which weeks favour a full circuit and which favour ice and the wildlife that comes with it.",
           "Seasons inside seasons: the right month for penguin chicks, whale activity or Galápagos sea conditions differs from the right month for the lowest fare, and a specialist will tell you which you are trading away."
         ]
