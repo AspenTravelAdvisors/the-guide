@@ -18,7 +18,7 @@
  * twice at most; a draft that still fails is dropped and its topic marked
  * `failed`, so one bad topic never blocks the month.
  *
- * Cost: a handful of requests a month, each around a dollar.
+ * Cost: a handful of requests a month, each well under a dollar.
  */
 
 import fs from 'node:fs';
@@ -39,7 +39,7 @@ const opt = (name, fallback) => {
 };
 const COUNT = Math.max(1, Number(opt('count', 3)) || 3);
 const DRY_RUN = flag('dry-run');
-const MODEL = 'claude-fable-5-2';
+const MODEL = 'claude-opus-5-5';
 const MAX_ATTEMPTS = 3;
 
 const BACKLOG = path.join(repoRoot, 'data/answers/backlog.json');
