@@ -241,7 +241,7 @@
       "status": "scheduled",
       "question": "Is the Royal Scotsman worth it, and which route should you take?",
       "angle": "What the train is: Belmond, departing Edinburgh, a small number of guests, en-suite cabins, a spa car, an open observation deck, off-train visits to distilleries, castles and estates, stabled at night so you sleep still. Compare the journeys by length and where they go (Highlands, Western Scotland, the longer grand tours), the season (roughly April to October), what is included, dress, and who it suits against a self-drive Highlands trip with country-house hotels. A table of routes by nights and highlights, built only from itinerary titles you are sure of. Journey tokens: collection=train with vessel=Royal Scotsman. Evidence: country=United Kingdom hotels narrowed to Scotland if the vocabulary has a Scotland region. Link to best-luxury-train-journeys.",
-      "release": "2027-02",
+      "release": "2027-01",
       "slug": "royal-scotsman-worth-it-which-route"
     },
     {
@@ -268,7 +268,7 @@
       "status": "scheduled",
       "question": "Which Hawaiian island is best for a villa stay?",
       "angle": "Maui, the Big Island (Kohala Coast, Kona), Kauai and Oahu compared for a private-home stay: resort-community homes with club access vs. standalone houses, beaches and swimming conditions by season, driving distances, direct flights from the mainland, and who each island suits (families, golfers, hikers, first visits). Mention plainly that short-term rental rules differ by county and change, so the legal status of a home matters; no specifics on current ordinances. One comparison table with a column per island. No evidence block unless a Hawaii hotel query fits; flag anything about rental regulation in review_notes.",
-      "release": "2027-03",
+      "release": "2027-02",
       "slug": "hawaii-which-island-for-a-villa"
     },
     {
@@ -304,7 +304,7 @@
       "status": "scheduled",
       "question": "How do you get to Machu Picchu in luxury: Hiram Bingham, Andean Explorer, or neither?",
       "angle": "Untangle the two Belmond trains in Peru: the Hiram Bingham is a day train between the Cusco area and Aguas Calientes for Machu Picchu, the Andean Explorer is a sleeper across the altiplano between Cusco, Lake Titicaca and Arequipa and does not go to Machu Picchu. Cover the alternatives (Vistadome and other day services, the Inca Trail), altitude and why to start in the Sacred Valley, timed entry and circuits at the site in general terms, dry season (May to September) vs. wet, and a sensible order for a week. Table: the ways to reach Machu Picchu. Journey tokens: operator=Belmond Peruvian Trains. Evidence: country=Peru hotels. Flag station names and site-entry rules in review_notes.",
-      "release": "2027-02",
+      "release": "2027-01",
       "slug": "machu-picchu-luxury-train-hiram-bingham-andean-explorer"
     },
     {
@@ -313,7 +313,7 @@
       "status": "scheduled",
       "question": "Grand voyages: what are the 30 to 90 day alternatives to a full world cruise?",
       "angle": "For the traveler who wants a long voyage but not four months: grand voyages around one region (Africa, South America, the Pacific, Asia, the Mediterranean), back-to-back segments, and long repositioning sailings. How they differ from a world cruise segment (stand-alone itineraries with their own events and often their own perks), which lines run them, when they sail, how far ahead they sell, and who they suit. Table: voyage type, typical length, regions, lines. Journey tokens with collection=worldcruise and daysMin/daysMax bands (for example daysMin=30&daysMax=90) and per operator. No evidence block. Link to world-cruise-segments-explained and world-cruises-compared.",
-      "release": "2027-03",
+      "release": "2027-02",
       "slug": "grand-voyages-alternatives-to-a-world-cruise"
     },
     {
@@ -322,7 +322,7 @@
       "status": "scheduled",
       "question": "Where should you rent a villa in Italy: Tuscany, the Amalfi Coast, Puglia, Sicily or the lakes?",
       "angle": "Region by region: what the houses are like (Tuscan farmhouses, Amalfi cliffside villas with stairs, Puglian masserie and trulli, Sicilian estates, lakefront villas on Como), whether you need a car, pool season, heat in July and August, Saturday-to-Saturday rentals in high summer, and day trips. Who each suits: big families, couples, a first trip to Italy. One table by region. Link to the Amalfi towns and Italian lakes answers and to quietest-luxury-resorts-italy. No evidence block; villas are not in the hotel query engine.",
-      "release": "2027-01",
+      "release": "2026-12",
       "slug": "where-to-rent-a-villa-in-italy"
     },
     {
@@ -331,7 +331,7 @@
       "status": "scheduled",
       "question": "Eastern & Oriental Express: what is it like, and which route?",
       "angle": "Belmond's sleeper in Southeast Asia, now running round trips from Singapore through Malaysia. Cover the routes on sale and what each sees (jungle and national park stops on one, the west coast and islands on the other), cabin categories, the open-air observation car, dining, heat and humidity by season, dress, and how it compares in feel with the Venice Simplon-Orient-Express. Who it suits, and pairing it with Singapore, Langkawi or Penang hotels. Use only route names you are sure of and flag them in review_notes. Journey tokens: vessel=Eastern & Oriental Express. Evidence: country=Singapore hotels (or Malaysia if in the vocabulary). Link to best-luxury-train-journeys.",
-      "release": "2027-03",
+      "release": "2027-02",
       "slug": "eastern-and-oriental-express-what-to-expect"
     },
     {
@@ -358,7 +358,7 @@
       "status": "scheduled",
       "question": "Greek islands: yacht cruise, or ferries and hotels?",
       "angle": "Two ways to do the same islands. Yacht cruise: unpack once, reach small islands and anchorages, no ferry timetable, but short hours ashore and a fixed route. Ferries and hotels: longer on each island, evenings ashore, your own pace, but transfers, luggage and the meltemi wind disrupting crossings in July and August. Cover Cyclades vs. Dodecanese vs. Ionian, how many islands is sensible in a week, the season (May to October, best in June and September), and combining a few hotel nights in Athens, Santorini or Mykonos with a sailing. Table: cruise vs. island-hopping. Journey tokens: collection=yacht with the Aegean region value. Evidence: country=Greece hotels. Link to the small-ship Mediterranean answer if it exists.",
-      "release": "2027-02",
+      "release": "2027-01",
       "slug": "greek-islands-yacht-cruise-or-ferries-and-hotels"
     },
     {
@@ -385,7 +385,7 @@
       "status": "scheduled",
       "question": "Glacier Express or Bernina Express: which Swiss scenic train, and which class?",
       "angle": "Glacier Express (Zermatt to St. Moritz, a full day, Excellence Class with guaranteed window seats and a served menu) against the Bernina Express (Chur or St. Moritz to Tirano over the Bernina Pass, shorter, a UNESCO-listed line). Also mention the GoldenPass Express and Gotthard Panorama Express briefly. Seat reservations on top of a rail pass, which side to sit on, winter vs. summer, whether to do the whole route or a section, and how to string them into a week with Zermatt, St. Moritz and Lake Como or Lucerne. Table: train, route, duration, best class. No fares. Journey tokens: collection=train with country=Switzerland. Evidence: country=Switzerland hotels. Link to best-luxury-train-journeys.",
-      "release": "2027-03",
+      "release": "2027-02",
       "slug": "glacier-express-vs-bernina-express"
     },
     {
@@ -403,7 +403,7 @@
       "status": "scheduled",
       "question": "Is a Ritz-Carlton yacht cruise worth it, and should you choose Evrima, Ilma or Luminara?",
       "angle": "An honest verdict on the Ritz-Carlton Yacht Collection: who it suits and who would be happier on a classic luxury cruise line or a private charter. Compare the three yachts (Evrima, Ilma, Luminara) by size and guest count in general terms, suites and terraces, dining, the marina platform, and where each sails by season (Mediterranean and Northern Europe in summer, Caribbean and Central America in winter). Cover what is included and what costs extra in general terms, the Marriott Bonvoy connection, and how it differs from Four Seasons Yachts and Aman at Sea without repeating the four-brand comparison. One table, a column per yacht. Do not state suite counts, tonnage, launch dates or fares unless certain, and flag each ship detail in review_notes because the newer yachts are recent. Journey and departure tokens: operator=Ritz-Carlton Yacht Collection, and vessel per yacht where the vocabulary lists it. Evidence: brand=Ritz-Carlton hotels for nights before or after. Link to the hotel-brand yachts comparison, yacht-charter-vs-luxury-yacht-cruise and ritz-carlton-vs-four-seasons-vs-rosewood.",
-      "release": "2027-03",
+      "release": "2027-02",
       "slug": "ritz-carlton-yacht-cruise-worth-it"
     },
     {
@@ -412,7 +412,7 @@
       "status": "scheduled",
       "question": "Croatia and the Adriatic by yacht: what do you see that big ships miss?",
       "angle": "The Dalmatian coast suits small ships: Hvar, Korčula, Vis, Šibenik, Rovinj and Kotor in Montenegro, against the large-ship standards of Dubrovnik and Split. Explain docking in town vs. tendering, cruise-ship limits in Dubrovnik and Venice in general terms, typical routes (Venice or Athens to Dubrovnik, round trips along the coast), the season (May to October, crowds and heat in July and August), and pairing with hotel nights in Dubrovnik, Venice or on Hvar. Table: port, what it is, big ship or small only. Journey tokens: collection=yacht with the Adriatic region value, per operator. Evidence: country=Croatia hotels. Flag port restrictions in review_notes.",
-      "release": "2027-02",
+      "release": "2027-01",
       "slug": "croatia-adriatic-by-yacht"
     },
     {
@@ -421,7 +421,7 @@
       "status": "scheduled",
       "question": "How far ahead do you need to book a villa for Christmas, New Year and peak summer?",
       "angle": "A booking calendar by season and region: festive weeks in the Caribbean (St. Barts, Turks and Caicos, Barbados, Anguilla), February and March school breaks, ski weeks, and July and August in Italy, France, Greece and Spain. Minimum-night rules over the holidays, why the best large homes go to repeat guests first, what is still realistic late, and shoulder weeks that give the same house for less. A table: period, region, how far ahead, typical minimum stay. Keep lead times as honest ranges and flag every one in review_notes; no prices. No evidence block. Link to the Caribbean villa answers and the hurricane-season answer.",
-      "release": "2027-01",
+      "release": "2026-12",
       "slug": "how-far-ahead-to-book-a-villa-peak-weeks"
     },
     {
@@ -430,7 +430,7 @@
       "status": "scheduled",
       "question": "French Polynesia: Bora Bora resort, a Tahiti cruise, or both?",
       "angle": "Resort stay vs. small-ship cruise through the Society Islands, and the case for combining them. Islands compared (Bora Bora, Moorea, Taha'a, Rangiroa and the Tuamotus, the Marquesas for longer voyages), what a ship reaches that a resort stay does not, overwater bungalow reality, inter-island flights, the dry season (May to October) vs. the wet, and flight routing through Papeete. Paul Gauguin as the ship built for these lagoons, with the other operators that sail here. Table: resort, cruise, both. Journey tokens: operator=Paul Gauguin Cruises. Evidence: country=French Polynesia hotels. Link to the Maldives first-visit answer and the honeymoon answer if it exists.",
-      "release": "2027-03",
+      "release": "2027-02",
       "slug": "french-polynesia-bora-bora-resort-or-tahiti-cruise"
     },
     {
