@@ -2391,7 +2391,7 @@ export const generatedAnswers = [
               "An unplugged Caribbean week with no televisions and no fuss"
             ],
             [
-              "COMO Laucala Island",
+              "Laucala Island",
               "Laucala, Fiji",
               "The resort's own aircraft from Nadi",
               "Active travellers: golf, diving, riding and sailing on one island"
@@ -3085,7 +3085,7 @@ export const generatedAnswers = [
     ],
     "evidence": {
       "h2": "Patagonia properties in the atlas, smallest first",
-      "note": "Every property the supplier files under Patagonia, from the Chilean Lake District to Tierra del Fuego, with the smallest lodges first, since a few dozen rooms and a few hundred are different trips. Tierra Patagonia is in the atlas too, filed under its lake, not the region, so it is missing from this table. Each links to its own page, where the benefits currently on file for it are listed in full.",
+      "note": "Every property the supplier files under Patagonia, from the Chilean Lake District to Tierra del Fuego, with the smallest lodges first, since a few dozen rooms and a few hundred are different trips. Each links to its own page, where the benefits currently on file for it are listed in full.",
       "query": "region=patagonia",
       "sort": "smallest",
       "limit": 15
