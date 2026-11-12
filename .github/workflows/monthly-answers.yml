@@ -9,6 +9,11 @@
 #
 # Cost is a few API requests a month, well under $5.
 #
+# Pages written ahead of time wait in next-concierge/data/answers/scheduled.json.
+# While any are held, the job releases the ones due this month with
+# scripts/release-answers.mjs (no API calls) and drafts nothing new. Once the
+# pen is empty it goes back to drafting from the backlog.
+#
 # Requires:
 #   - repository secret ANTHROPIC_API_KEY
 #   - Settings -> Actions -> General -> "Allow GitHub Actions to create and
@@ -21,8 +26,8 @@ on:
   workflow_dispatch:
     inputs:
       count:
-        description: 'How many pages to draft'
-        default: '5'
+        description: 'How many pages to release or draft (blank: the pages due this month, or 5 new drafts)'
+        default: ''
 
 concurrency:
   group: monthly-answers
@@ -53,8 +58,15 @@ jobs:
         working-directory: next-concierge
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          COUNT: ${{ github.event.inputs.count || '5' }}
-        run: node scripts/draft-answers.mjs --count "$COUNT"
+          COUNT: ${{ github.event.inputs.count }}
+        run: |
+          HELD=$(node -p "require('./data/answers/scheduled.json').drafts.length")
+          if [ "$HELD" -gt 0 ]; then
+            # Written ahead and waiting: release the ones due, draft nothing.
+            node scripts/release-answers.mjs ${COUNT:+--count "$COUNT"}
+          else
+            node scripts/draft-answers.mjs --count "${COUNT:-5}"
+          fi
 
       - name: Open the pull request
         env:
@@ -64,7 +76,7 @@ jobs:
           # still changes backlog.json, but a PR with nothing to read is noise;
           # the failures are in this job's log.
           if git diff --quiet -- next-concierge/data/answers/generated.js; then
-            echo "Nothing drafted this month."
+            echo "Nothing to publish this month."
             exit 0
           fi
           BRANCH="answers/$(date -u +%Y-%m)-${{ github.run_number }}"
@@ -72,7 +84,7 @@ jobs:
           git config user.email "answer-drafts@users.noreply.github.com"
           git switch -c "$BRANCH"
           git add next-concierge/data/answers
-          git commit -m "Draft this month's answer pages" -m "Drafted by scripts/draft-answers.mjs; see the PR for the claims to check."
+          git commit -m "This month's answer pages" -m "From scripts/release-answers.mjs or scripts/draft-answers.mjs; see the PR for the claims to check."
           git push -u origin "$BRANCH"
           gh pr create \
             --base main \

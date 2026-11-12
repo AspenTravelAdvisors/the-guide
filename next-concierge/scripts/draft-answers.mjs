@@ -59,6 +59,12 @@ for (const rel of modulePaths) {
   existing.push(...(Object.values(mod).find(Array.isArray) || []));
 }
 const { generatedAnswers } = await import(pathToFileURL(GENERATED).href);
+// Pages written ahead and held in scheduled.json (see release-answers.mjs) are
+// not on the site yet, but a new draft must not repeat them or take their slug.
+const SCHEDULED = path.join(repoRoot, 'data/answers/scheduled.json');
+const heldAnswers = fs.existsSync(SCHEDULED)
+  ? JSON.parse(fs.readFileSync(SCHEDULED, 'utf8')).drafts.map(d => d.page)
+  : [];
 
 // The links a draft may use. A made-up href is a 404 on a page built to be
 // cited, so anything outside this set is dropped and flagged for review.
@@ -168,6 +174,9 @@ function contextBlock() {
     'EXISTING ANSWERS (do not duplicate them; link to them where relevant):',
     [...existing, ...generatedAnswers].map(a => `- ${a.slug}: ${a.question}`).join('\n'),
     '',
+    'WRITTEN AND AWAITING RELEASE (do not duplicate them, and do not link to them yet):',
+    heldAnswers.map(a => `- ${a.slug}: ${a.question}`).join('\n') || '(none)',
+    '',
     'TWO PUBLISHED ANSWERS, as the standard to match (their review_notes field is absent because it is never published):',
     JSON.stringify(EXAMPLES, null, 1),
   ].join('\n');
@@ -238,7 +247,7 @@ function tidy(raw, topic, notes) {
     notes.push(`Dropped a related link to ${r.href}, which is not a page on the site.`);
     return false;
   });
-  const taken = new Set([...existing, ...generatedAnswers].map(x => x.slug));
+  const taken = new Set([...existing, ...generatedAnswers, ...heldAnswers].map(x => x.slug));
   if (taken.has(a.slug)) a.slug = `${a.slug}-${today.slice(0, 7)}`;
   return a;
 }

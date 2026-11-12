@@ -3094,3 +3094,23 @@ An (the maritime Silk Road). The stop and its coordinates are correct.
   yacht pages; Belmond is `train/Belmond Trains` on rail pages.
 - Long name lists link in the table, not the lead (world-cruises-compared
   links the tier table's "Lines" column and leaves the 12-line sentence plain).
+
+## Answer pages written ahead: the holding pen (2026-11-12)
+
+The 24 topics queued in `data/answers/backlog.json` were drafted in one sitting
+and are held in `data/answers/scheduled.json`, six a month for December 2026 to
+March 2027. Nothing in that file is on the site: `lib/answers.js` does not
+import it, so it reaches no page, sitemap or `llms.txt`.
+
+- `scripts/release-answers.mjs` moves the drafts whose `release` month has come
+  into `generated.js`, one at a time through `verify:seo`, stamps `updated`,
+  and writes the PR body with each draft's `review_notes`. `--check` verifies
+  the whole pen without releasing; `--count N` releases the next N regardless
+  of month.
+- `.github/workflows/monthly-answers.yml` releases from the pen while it holds
+  anything and makes no API call; it goes back to `draft-answers.mjs` when the
+  pen is empty. Add new `queued` topics to the backlog before April 2027.
+- The review gate is unchanged: a release is a pull request, and the notes ask
+  for a second look at anything that may have moved since the draft date.
+- To change the cadence, edit the `release` months. A draft may link only to
+  answers released before it, so keep cross-linked drafts in order.
