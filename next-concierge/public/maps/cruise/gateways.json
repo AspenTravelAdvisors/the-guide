@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4431,
-  "journeysWithStays": 3721,
+  "journeysTotal": 4425,
+  "journeysWithStays": 3715,
   "journeysWithHouse": 0,
   "gateways": 106,
   "hotels": 281,
@@ -15,82 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00055": {
-   "n": "Alvear Palace Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5876,
-    -58.3889
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
-   "rooms": 207,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01455": {
-   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5883,
-    -58.3862
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v16828211": {
-   "n": "Sofitel Buenos Aires Recoleta",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5896,
-    -58.3841
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0.webp",
-   "rooms": 175,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00641": {
-   "n": "Four Seasons Hotel Buenos Aires",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5899,
-    -58.3824
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_00141": {
    "n": "Arakur Ushuaia Resort & Spa",
    "house": null,
@@ -299,6 +223,82 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00055": {
+   "n": "Alvear Palace Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5876,
+    -58.3889
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
+   "rooms": 207,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01455": {
+   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5883,
+    -58.3862
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v16828211": {
+   "n": "Sofitel Buenos Aires Recoleta",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5896,
+    -58.3841
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0.webp",
+   "rooms": 175,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00641": {
+   "n": "Four Seasons Hotel Buenos Aires",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5899,
+    -58.3824
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_01284": {
    "n": "Mango House Seychelles, LXR Hotels & Resorts",
@@ -716,7 +716,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01866": {
    "n": "Sunset Tower Hotel",
@@ -792,7 +792,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01901": {
    "n": "The Apurva Kempinski Bali",
@@ -1020,7 +1020,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v16336357": {
    "n": "Sofitel Fiji Resort & Spa",
@@ -1058,7 +1058,7 @@
     "Room upgrade",
     "Spa treatment"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00360": {
    "n": "Castaway Island, Fiji",
@@ -1151,7 +1151,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00550": {
    "n": "Esperanza, Auberge Collection",
@@ -2120,7 +2120,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01280": {
    "n": "Mandarin Oriental, Singapore",
@@ -2310,7 +2310,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01728": {
    "n": "Serras Barcelona",
@@ -2329,7 +2329,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00727": {
    "n": "Grand Hotel Central",
@@ -2633,7 +2633,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01159": {
    "n": "Le Negresco",
@@ -2690,7 +2690,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00951": {
    "n": "Hôtel du Couvent, Luxury Collection Hotel",
@@ -3184,7 +3184,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01800": {
    "n": "Six Senses Rome",
@@ -3526,7 +3526,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01477": {
    "n": "Palazzo Venart Luxury Hotel",
@@ -4399,7 +4399,7 @@
     "$100 credit",
     "Early check-in"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01334": {
    "n": "Monte-Carlo Beach",
@@ -4589,7 +4589,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v18565178": {
    "n": "Dinso Resort & Villas Phuket, Vignette Collection by IHG",
@@ -4646,7 +4646,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02021": {
    "n": "Mandarin Oriental The Landmark, Hong Kong",
@@ -5353,31 +5353,6 @@
   }
  },
  "GATES": {
-  "Buenos Aires, Argentina": {
-   "n": "Buenos Aires, Argentina",
-   "ll": [
-    -34.5875,
-    -58.6725
-   ],
-   "h": [
-    [
-     "h_00055",
-     26
-    ],
-    [
-     "h_01455",
-     26.2
-    ],
-    [
-     "h_v16828211",
-     26.4
-    ],
-    [
-     "h_00641",
-     26.6
-    ]
-   ]
-  },
   "Ushuaia, Argentina": {
    "n": "Ushuaia, Argentina",
    "ll": [
@@ -5473,6 +5448,31 @@
     [
      "h_v18535557",
      1.4
+    ]
+   ]
+  },
+  "Buenos Aires, Argentina": {
+   "n": "Buenos Aires, Argentina",
+   "ll": [
+    -34.5875,
+    -58.6725
+   ],
+   "h": [
+    [
+     "h_00055",
+     26
+    ],
+    [
+     "h_01455",
+     26.2
+    ],
+    [
+     "h_v16828211",
+     26.4
+    ],
+    [
+     "h_00641",
+     26.6
     ]
    ]
   },
@@ -8213,10 +8213,6 @@
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
   },
-  "16853402": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
-  },
   "16853403": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -8461,14 +8457,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
-  "16897988": {
-   "pre": null,
-   "post": "Buenos Aires, Argentina"
-  },
-  "16897989": {
-   "pre": null,
-   "post": "Buenos Aires, Argentina"
-  },
   "16898028": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -8603,10 +8591,6 @@
   },
   "16918977": {
    "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
-  "16918980": {
-   "pre": "Buenos Aires, Argentina",
    "post": "Ushuaia, Argentina"
   },
   "16918981": {
@@ -9201,10 +9185,6 @@
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
   },
-  "18053224": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
   "18053225": {
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
@@ -9267,10 +9247,6 @@
   },
   "18081400": {
    "pre": null,
-   "post": "Ushuaia, Argentina"
-  },
-  "18081401": {
-   "pre": "Buenos Aires, Argentina",
    "post": "Ushuaia, Argentina"
   },
   "18081402": {

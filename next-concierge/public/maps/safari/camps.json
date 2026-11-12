@@ -5,8 +5,8 @@
   "radiusKm": 25,
   "lodgesInCategory": 68,
   "lodgesInSafariCountries": 66,
-  "journeysWithCamps": 269,
-  "journeysTotal": 515,
+  "journeysWithCamps": 267,
+  "journeysTotal": 516,
   "campsMatched": 42
  },
  "radiusKm": 25,
@@ -1632,14 +1632,6 @@
     "km": 18.1
    }
   ],
-  "18105041": [
-   {
-    "id": "h_00971",
-    "stop": "Machu Picchu",
-    "day": 9,
-    "km": 16.2
-   }
-  ],
   "18105718": [
    {
     "id": "h_02374",
@@ -1750,20 +1742,6 @@
     "stop": "Masai Mara National Reserve",
     "day": 1,
     "km": 18.1
-   }
-  ],
-  "18113907": [
-   {
-    "id": "h_00532",
-    "stop": "San Jose",
-    "day": 1,
-    "km": 16
-   },
-   {
-    "id": "h_01374",
-    "stop": "Fortuna",
-    "day": 4,
-    "km": 4.9
    }
   ],
   "18114094": [

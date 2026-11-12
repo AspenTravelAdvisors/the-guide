@@ -5,11 +5,11 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 296,
-  "journeysWithStays": 292,
+  "journeysTotal": 327,
+  "journeysWithStays": 323,
   "journeysWithHouse": 0,
-  "gateways": 53,
-  "hotels": 176,
+  "gateways": 55,
+  "hotels": 181,
   "houses": []
  },
  "radiusKm": 40,
@@ -70,7 +70,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02408": {
    "n": "Villas of Distinction",
@@ -488,7 +488,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01824": {
    "n": "Sofitel Sydney Darling Harbour",
@@ -602,7 +602,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02136": {
    "n": "The Ritz-Carlton Bal Harbour, Miami",
@@ -813,6 +813,82 @@
    ],
    "promo": 1
   },
+  "h_00510": {
+   "n": "Downtown L.A. Proper",
+   "house": null,
+   "aff": null,
+   "city": "Los Angeles",
+   "country": "United States",
+   "ll": [
+    34.0393,
+    -118.259
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930098_2_0.webp",
+   "rooms": 147,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00439": {
+   "n": "Conrad Los Angeles",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Los Angeles",
+   "country": "United States",
+   "ll": [
+    34.0552,
+    -118.249
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16610092_2_0.webp",
+   "rooms": 305,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01688": {
+   "n": "SLS Beverly Hills",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Los Angeles",
+   "country": "United States",
+   "ll": [
+    34.0697,
+    -118.376
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4625_2_0.webp",
+   "rooms": 297,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01866": {
+   "n": "Sunset Tower Hotel",
+   "house": null,
+   "aff": null,
+   "city": "West Hollywood",
+   "country": "United States",
+   "ll": [
+    34.0951,
+    -118.372
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14577045_2_2.webp",
+   "rooms": 81,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_02045": {
    "n": "The Lodge at Torrey Pines",
    "house": null,
@@ -868,7 +944,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01605": {
    "n": "Rancho Valencia Resort & Spa",
@@ -958,82 +1034,6 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4291_2_0.webp",
    "rooms": 557,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00510": {
-   "n": "Downtown L.A. Proper",
-   "house": null,
-   "aff": null,
-   "city": "Los Angeles",
-   "country": "United States",
-   "ll": [
-    34.0393,
-    -118.259
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16930098_2_0.webp",
-   "rooms": 147,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00439": {
-   "n": "Conrad Los Angeles",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Los Angeles",
-   "country": "United States",
-   "ll": [
-    34.0552,
-    -118.249
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16610092_2_0.webp",
-   "rooms": 305,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01688": {
-   "n": "SLS Beverly Hills",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Los Angeles",
-   "country": "United States",
-   "ll": [
-    34.0697,
-    -118.376
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4625_2_0.webp",
-   "rooms": 297,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01866": {
-   "n": "Sunset Tower Hotel",
-   "house": null,
-   "aff": null,
-   "city": "West Hollywood",
-   "country": "United States",
-   "ll": [
-    34.0951,
-    -118.372
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14577045_2_2.webp",
-   "rooms": 81,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -1191,7 +1191,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01280": {
    "n": "Mandarin Oriental, Singapore",
@@ -1915,6 +1915,25 @@
    ],
    "promo": 1
   },
+  "h_02130": {
+   "n": "The Reykjavik EDITION",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Reykjavík",
+   "country": "Iceland",
+   "ll": [
+    64.15,
+    -21.9361
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235979_2_1.webp",
+   "rooms": 253,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
   "h_01690": {
    "n": "SO/ Auckland",
    "house": "Accor",
@@ -2066,25 +2085,6 @@
     "Airport transfer"
    ],
    "promo": 0
-  },
-  "h_02130": {
-   "n": "The Reykjavik EDITION",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Reykjavík",
-   "country": "Iceland",
-   "ll": [
-    64.15,
-    -21.9361
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16235979_2_1.webp",
-   "rooms": 253,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
   },
   "h_00141": {
    "n": "Arakur Ushuaia Resort & Spa",
@@ -2331,7 +2331,7 @@
     "Room upgrade",
     "Spa treatment"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00360": {
    "n": "Castaway Island, Fiji",
@@ -2462,7 +2462,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01901": {
    "n": "The Apurva Kempinski Bali",
@@ -2500,7 +2500,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00727": {
    "n": "Grand Hotel Central",
@@ -2614,7 +2614,7 @@
     "$100 credit",
     "Early check-in"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01334": {
    "n": "Monte-Carlo Beach",
@@ -2899,7 +2899,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00772": {
    "n": "Greywalls Hotel & Chez Roux",
@@ -3033,6 +3033,44 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_00877": {
+   "n": "Hotel Kamp",
+   "house": null,
+   "aff": null,
+   "city": "Helsinki",
+   "country": "Finland",
+   "ll": [
+    60.1679,
+    24.9472
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15422578_2_0.webp",
+   "rooms": 179,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v18535557": {
+   "n": "Waldorf Astoria Helsinki",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Helsinki",
+   "country": "Finland",
+   "ll": [
+    60.1738,
+    24.9567
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0.webp",
+   "rooms": 116,
+   "perks": [
+    "Daily breakfast",
+    "Property credit",
+    "Room upgrade"
+   ],
+   "promo": 1
   },
   "h_01576": {
    "n": "Pulitzer Amsterdam",
@@ -3356,6 +3394,63 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_v16341628": {
+   "n": "Sofitel Adelaide",
+   "house": null,
+   "aff": null,
+   "city": "Adelaide",
+   "country": "Australia",
+   "ll": [
+    -34.9242,
+    138.596
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16340288_2_0.webp",
+   "rooms": 251,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01341": {
+   "n": "Mount Lofty House Adults Retreat",
+   "house": "Accor",
+   "aff": null,
+   "city": "Crafers",
+   "country": "Australia",
+   "ll": [
+    -34.988,
+    138.709
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16122866_2_0.webp",
+   "rooms": 30,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01727": {
+   "n": "Sequoia Lodge",
+   "house": null,
+   "aff": null,
+   "city": "Crafers",
+   "country": "Australia",
+   "ll": [
+    -34.9881,
+    138.71
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16320119_2_0.webp",
+   "rooms": 14,
+   "perks": [
+    "Daily breakfast",
+    "$200 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   }
  },
  "GATES": {
@@ -3626,6 +3721,31 @@
     ]
    ]
   },
+  "Los Angeles, CA, United States": {
+   "n": "Los Angeles, CA, United States",
+   "ll": [
+    34.0396,
+    -118.266
+   ],
+   "h": [
+    [
+     "h_00510",
+     0.6
+    ],
+    [
+     "h_00439",
+     2.3
+    ],
+    [
+     "h_01688",
+     10.7
+    ],
+    [
+     "h_01866",
+     11.6
+    ]
+   ]
+  },
   "San Diego, CA, United States": {
    "n": "San Diego, CA, United States",
    "ll": [
@@ -3673,31 +3793,6 @@
     [
      "h_v6164110",
      3.9
-    ]
-   ]
-  },
-  "Los Angeles, CA, United States": {
-   "n": "Los Angeles, CA, United States",
-   "ll": [
-    34.0396,
-    -118.266
-   ],
-   "h": [
-    [
-     "h_00510",
-     0.6
-    ],
-    [
-     "h_00439",
-     2.3
-    ],
-    [
-     "h_01688",
-     10.7
-    ],
-    [
-     "h_01866",
-     11.6
     ]
    ]
   },
@@ -4045,6 +4140,19 @@
     ]
    ]
   },
+  "Reykjavík, Iceland": {
+   "n": "Reykjavík, Iceland",
+   "ll": [
+    64.15,
+    -21.95
+   ],
+   "h": [
+    [
+     "h_02130",
+     0.7
+    ]
+   ]
+  },
   "Auckland, New Zealand": {
    "n": "Auckland, New Zealand",
    "ll": [
@@ -4092,19 +4200,6 @@
     [
      "h_02007",
      1
-    ]
-   ]
-  },
-  "Reykjavík, Iceland": {
-   "n": "Reykjavík, Iceland",
-   "ll": [
-    64.15,
-    -21.95
-   ],
-   "h": [
-    [
-     "h_02130",
-     0.7
     ]
    ]
   },
@@ -4443,6 +4538,23 @@
     ]
    ]
   },
+  "Helsinki, Finland": {
+   "n": "Helsinki, Finland",
+   "ll": [
+    60.1712,
+    24.9326
+   ],
+   "h": [
+    [
+     "h_00877",
+     0.9
+    ],
+    [
+     "h_v18535557",
+     1.4
+    ]
+   ]
+  },
   "Ijmuiden, Netherlands": {
    "n": "Ijmuiden, Netherlands",
    "ll": [
@@ -4553,6 +4665,27 @@
     [
      "h_00474",
      32.2
+    ]
+   ]
+  },
+  "Outer Harbour, Australia, Australia": {
+   "n": "Outer Harbour, Australia, Australia",
+   "ll": [
+    -34.775,
+    138.475
+   ],
+   "h": [
+    [
+     "h_v16341628",
+     19.9
+    ],
+    [
+     "h_01341",
+     31.9
+    ],
+    [
+     "h_01727",
+     32
     ]
    ]
   }
@@ -4784,6 +4917,22 @@
   },
   "18091590": {
    "pre": "Singapore, Singapore",
+   "post": "Los Angeles, CA, United States"
+  },
+  "18091594": {
+   "pre": "Los Angeles, CA, United States",
+   "post": "Singapore, Singapore"
+  },
+  "18091598": {
+   "pre": "Fort Lauderdale, FL, United States",
+   "post": "Los Angeles, CA, United States"
+  },
+  "18091599": {
+   "pre": "Los Angeles, CA, United States",
+   "post": "Vancouver, BC, Canada"
+  },
+  "18091600": {
+   "pre": "Los Angeles, CA, United States",
    "post": "Los Angeles, CA, United States"
   },
   "18093657": {
@@ -5141,6 +5290,26 @@
   "18369343": {
    "pre": "Singapore, Singapore",
    "post": "Tokyo, Japan"
+  },
+  "18371311": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Southampton, United Kingdom"
+  },
+  "18371313": {
+   "pre": "Copenhagen, Denmark",
+   "post": "Copenhagen, Denmark"
+  },
+  "18371328": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Southampton, United Kingdom"
+  },
+  "18371329": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Southampton, United Kingdom"
+  },
+  "18371333": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Reykjavík, Iceland"
   },
   "18376376": {
    "pre": "Singapore, Singapore",
@@ -5522,6 +5691,26 @@
    "pre": "Southampton, United Kingdom",
    "post": "Buenos Aires, Argentina"
   },
+  "18536744": {
+   "pre": "Helsinki, Finland",
+   "post": "Helsinki, Finland"
+  },
+  "18536745": {
+   "pre": "Copenhagen, Denmark",
+   "post": "Copenhagen, Denmark"
+  },
+  "18536746": {
+   "pre": "Reykjavík, Iceland",
+   "post": "Reykjavík, Iceland"
+  },
+  "18536747": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Southampton, United Kingdom"
+  },
+  "18536748": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Southampton, United Kingdom"
+  },
   "18536749": {
    "pre": "Buenos Aires, Argentina",
    "post": "Southampton, United Kingdom"
@@ -5609,6 +5798,14 @@
   "18615873": {
    "pre": "Rio De Janeiro, Brazil",
    "post": null
+  },
+  "18619671": {
+   "pre": "Southampton, United Kingdom",
+   "post": "Southampton, United Kingdom"
+  },
+  "18619672": {
+   "pre": "Copenhagen, Denmark",
+   "post": "Copenhagen, Denmark"
   },
   "18621774": {
    "pre": "Sydney, Australia",
@@ -5725,6 +5922,66 @@
   "18653865": {
    "pre": "Fort Lauderdale, FL, United States",
    "post": "Fort Lauderdale, FL, United States"
+  },
+  "18654780": {
+   "pre": "Outer Harbour, Australia, Australia",
+   "post": "Sydney, Australia"
+  },
+  "18654781": {
+   "pre": "Fremantle, Australia",
+   "post": "Sydney, Australia"
+  },
+  "18654782": {
+   "pre": "Melbourne, Australia",
+   "post": "Sydney, Australia"
+  },
+  "18654783": {
+   "pre": "Brisbane, Australia",
+   "post": "Brisbane, Australia"
+  },
+  "18654784": {
+   "pre": "Sydney, Australia",
+   "post": "Sydney, Australia"
+  },
+  "18654785": {
+   "pre": "Sydney, Australia",
+   "post": "Auckland, New Zealand"
+  },
+  "18654786": {
+   "pre": "Brisbane, Australia",
+   "post": null
+  },
+  "18654787": {
+   "pre": null,
+   "post": "Auckland, New Zealand"
+  },
+  "18654788": {
+   "pre": null,
+   "post": "Brisbane, Australia"
+  },
+  "18654789": {
+   "pre": null,
+   "post": "Sydney, Australia"
+  },
+  "18654790": {
+   "pre": "Melbourne, Australia",
+   "post": null
+  },
+  "18654791": {
+   "pre": "Sydney, Australia",
+   "post": null
+  },
+  "18654792": {
+   "pre": "Brisbane, Australia",
+   "post": "Civitavecchia, Italy"
+  },
+  "18654796": {
+   "pre": "Sydney, Australia",
+   "post": "Civitavecchia, Italy"
+  },
+  "18654841": {
+   "pre": "Melbourne, Australia",
+   "post": "Melbourne, Australia"
   }
  }
 }

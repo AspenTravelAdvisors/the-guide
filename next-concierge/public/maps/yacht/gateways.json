@@ -5,9 +5,9 @@
   "atlas": "yacht",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 531,
-  "journeysWithStays": 530,
-  "journeysWithHouse": 530,
+  "journeysTotal": 530,
+  "journeysWithStays": 529,
+  "journeysWithHouse": 529,
   "gateways": 57,
   "hotels": 188,
   "houses": [
@@ -20,192 +20,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00428": {
-   "n": "Condado Vanderbilt Hotel",
-   "house": null,
-   "aff": null,
-   "city": "San Juan",
-   "country": "Puerto Rico",
-   "ll": [
-    18.4586,
-    -66.0761
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656083_2_0.webp",
-   "rooms": 317,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00852": {
-   "n": "Hotel El Convento",
-   "house": null,
-   "aff": null,
-   "city": "Old San Juan",
-   "country": "Puerto Rico",
-   "ll": [
-    18.4662,
-    -66.1183
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3806_2_0.webp",
-   "rooms": 81,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00583": {
-   "n": "Fairmont El San Juan Hotel",
-   "house": "Accor",
-   "aff": null,
-   "city": "Carolina",
-   "country": "Puerto Rico",
-   "ll": [
-    18.4435,
-    -66.0185
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16158609_2_0.webp",
-   "rooms": 388,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02199": {
-   "n": "The Ritz-Carlton, San Juan",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Carolina",
-   "country": "Puerto Rico",
-   "ll": [
-    18.443,
-    -66.0134
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4197_2_0.webp",
-   "rooms": 416,
-   "perks": [],
-   "promo": 0
-  },
-  "h_00509": {
-   "n": "Dorado Beach, a Ritz-Carlton Reserve",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Dorado",
-   "country": "Puerto Rico",
-   "ll": [
-    18.4775,
-    -66.2702
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11976827_2_17.webp",
-   "rooms": 96,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00695": {
-   "n": "Four Seasons Resort and Residences Puerto Rico",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Rio Grande",
-   "country": "Puerto Rico",
-   "ll": [
-    18.3861,
-    -65.8282
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4777245_2_0.webp",
-   "rooms": 139,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02459": {
-   "n": "Waldorf Astoria Panama",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    8.97686,
-    -79.5251
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14146773_2_0.webp",
-   "rooms": 135,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00246": {
-   "n": "Bristol Panama",
-   "house": null,
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    8.97972,
-    -79.5244
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0.webp",
-   "rooms": 127,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01812": {
-   "n": "Sofitel Legend Casco Viejo Panama",
-   "house": "Accor",
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    8.95147,
-    -79.53228
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16310992_2_0.webp",
-   "rooms": 159,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00878": {
-   "n": "Hotel La Compañia",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Panama City",
-   "country": "Panama",
-   "ll": [
-    9.07869,
-    -79.3919
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16896453_2_0.webp",
-   "rooms": 88,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
   "h_00024": {
    "n": "Acqualina Resort & Residences on the Beach",
    "house": null,
@@ -223,7 +37,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02136": {
    "n": "The Ritz-Carlton Bal Harbour, Miami",
@@ -716,6 +530,116 @@
    ],
    "promo": 1
   },
+  "h_00428": {
+   "n": "Condado Vanderbilt Hotel",
+   "house": null,
+   "aff": null,
+   "city": "San Juan",
+   "country": "Puerto Rico",
+   "ll": [
+    18.4586,
+    -66.0761
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14656083_2_0.webp",
+   "rooms": 317,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00852": {
+   "n": "Hotel El Convento",
+   "house": null,
+   "aff": null,
+   "city": "Old San Juan",
+   "country": "Puerto Rico",
+   "ll": [
+    18.4662,
+    -66.1183
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3806_2_0.webp",
+   "rooms": 81,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00583": {
+   "n": "Fairmont El San Juan Hotel",
+   "house": "Accor",
+   "aff": null,
+   "city": "Carolina",
+   "country": "Puerto Rico",
+   "ll": [
+    18.4435,
+    -66.0185
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16158609_2_0.webp",
+   "rooms": 388,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02199": {
+   "n": "The Ritz-Carlton, San Juan",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Carolina",
+   "country": "Puerto Rico",
+   "ll": [
+    18.443,
+    -66.0134
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4197_2_0.webp",
+   "rooms": 416,
+   "perks": [],
+   "promo": 0
+  },
+  "h_00509": {
+   "n": "Dorado Beach, a Ritz-Carlton Reserve",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Dorado",
+   "country": "Puerto Rico",
+   "ll": [
+    18.4775,
+    -66.2702
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11976827_2_17.webp",
+   "rooms": 96,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00695": {
+   "n": "Four Seasons Resort and Residences Puerto Rico",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Rio Grande",
+   "country": "Puerto Rico",
+   "ll": [
+    18.3861,
+    -65.8282
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4777245_2_0.webp",
+   "rooms": 139,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_01569": {
    "n": "Prince Waikiki",
    "house": null,
@@ -1067,7 +991,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00189": {
    "n": "Banyan Tree Krabi",
@@ -1086,7 +1010,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v18565178": {
    "n": "Dinso Resort & Villas Phuket, Vignette Collection by IHG",
@@ -1143,7 +1067,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00080": {
    "n": "Amanpuri",
@@ -1200,7 +1124,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01280": {
    "n": "Mandarin Oriental, Singapore",
@@ -1525,6 +1449,82 @@
    ],
    "promo": 0
   },
+  "h_02459": {
+   "n": "Waldorf Astoria Panama",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    8.97686,
+    -79.5251
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14146773_2_0.webp",
+   "rooms": 135,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00246": {
+   "n": "Bristol Panama",
+   "house": null,
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    8.97972,
+    -79.5244
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4275_2_0.webp",
+   "rooms": 127,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01812": {
+   "n": "Sofitel Legend Casco Viejo Panama",
+   "house": "Accor",
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    8.95147,
+    -79.53228
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16310992_2_0.webp",
+   "rooms": 159,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00878": {
+   "n": "Hotel La Compañia",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Panama City",
+   "country": "Panama",
+   "ll": [
+    9.07869,
+    -79.3919
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16896453_2_0.webp",
+   "rooms": 88,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
   "h_00724": {
    "n": "Gran Hotel Miramar",
    "house": null,
@@ -1694,7 +1694,7 @@
     "Room upgrade",
     "Spa treatment"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01832": {
    "n": "Son Bunyola Hotel & Villas",
@@ -1846,7 +1846,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00727": {
    "n": "Grand Hotel Central",
@@ -2150,7 +2150,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00951": {
    "n": "Hôtel du Couvent, Luxury Collection Hotel",
@@ -2245,7 +2245,7 @@
     "$100 credit",
     "Early check-in"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01334": {
    "n": "Monte-Carlo Beach",
@@ -2359,7 +2359,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01477": {
    "n": "Palazzo Venart Luxury Hotel",
@@ -3308,7 +3308,7 @@
     "$150 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01608": {
    "n": "Regent Porto Montenegro",
@@ -3578,64 +3578,6 @@
   }
  },
  "GATES": {
-  "San Juan, Puerto Rico": {
-   "n": "San Juan, Puerto Rico",
-   "ll": [
-    18.4504,
-    -66.0849
-   ],
-   "h": [
-    [
-     "h_00428",
-     1.3
-    ],
-    [
-     "h_00852",
-     3.9
-    ],
-    [
-     "h_00583",
-     7
-    ],
-    [
-     "h_02199",
-     7.6
-    ],
-    [
-     "h_00509",
-     19.8
-    ],
-    [
-     "h_00695",
-     28
-    ]
-   ]
-  },
-  "Panama City, Panama": {
-   "n": "Panama City, Panama",
-   "ll": [
-    8.9667,
-    -79.5333
-   ],
-   "h": [
-    [
-     "h_02459",
-     1.4
-    ],
-    [
-     "h_00246",
-     1.7
-    ],
-    [
-     "h_01812",
-     1.7
-    ],
-    [
-     "h_00878",
-     19.9
-    ]
-   ]
-  },
   "Miami, FL, United States": {
    "n": "Miami, FL, United States",
    "ll": [
@@ -3824,6 +3766,39 @@
     [
      "h_02181",
      2.6
+    ]
+   ]
+  },
+  "San Juan, Puerto Rico": {
+   "n": "San Juan, Puerto Rico",
+   "ll": [
+    18.4504,
+    -66.0849
+   ],
+   "h": [
+    [
+     "h_00428",
+     1.3
+    ],
+    [
+     "h_00852",
+     3.9
+    ],
+    [
+     "h_00583",
+     7
+    ],
+    [
+     "h_02199",
+     7.6
+    ],
+    [
+     "h_00509",
+     19.8
+    ],
+    [
+     "h_00695",
+     28
     ]
    ]
   },
@@ -4094,6 +4069,31 @@
     [
      "h_01674",
      3.3
+    ]
+   ]
+  },
+  "Panama City, Panama": {
+   "n": "Panama City, Panama",
+   "ll": [
+    8.9667,
+    -79.5333
+   ],
+   "h": [
+    [
+     "h_02459",
+     1.4
+    ],
+    [
+     "h_00246",
+     1.7
+    ],
+    [
+     "h_01812",
+     1.7
+    ],
+    [
+     "h_00878",
+     19.9
     ]
    ]
   },
@@ -5013,11 +5013,6 @@
   "18120964": {
    "pre": "Phuket, Thailand",
    "post": "Bali, Indonesia",
-   "house": "Ritz-Carlton"
-  },
-  "18120966": {
-   "pre": "San Juan, Puerto Rico",
-   "post": "Panama City, Panama",
    "house": "Ritz-Carlton"
   },
   "18120987": {
