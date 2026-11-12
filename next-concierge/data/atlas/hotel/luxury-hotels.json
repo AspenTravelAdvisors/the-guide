@@ -223068,7 +223068,7 @@
   "postalCode": null,
   "lat": -51.0311,
   "lng": -72.4898,
-  "region": null,
+  "region": "patagonia",
   "adminRegion": "Magallanes y de la Antartica Chilena",
   "countryCode": "CHL",
   "vipUpgrades": [
