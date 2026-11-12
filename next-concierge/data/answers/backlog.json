@@ -366,6 +366,13 @@
       "status": "queued",
       "question": "Which Paris palace hotel should you book?",
       "angle": "Explain the official Palace distinction (awarded by the French state above five stars) and compare the Paris hotels that hold it and their peers, by neighborhood (the Golden Triangle and Avenue Montaigne, Place Vendôme and the Tuileries, the Left Bank), character (grand and gilded vs. contemporary vs. residential), rooms and views, spas and pools, dining, and who each suits: first visit, families, shoppers, a quiet stay. One comparison table. Name a hotel as a Palace only if certain, and flag each in review_notes because the list changes. No rates. Mention advisor perks once. Evidence: Paris hotels (city=Paris with perks=true). Link to virtuoso-perks-vs-booking-direct and the brand comparison answer."
+    },
+    {
+      "id": "ritz-carlton-yacht-cruise-worth-it",
+      "category": "Yachts",
+      "status": "queued",
+      "question": "Is a Ritz-Carlton yacht cruise worth it, and should you choose Evrima, Ilma or Luminara?",
+      "angle": "An honest verdict on the Ritz-Carlton Yacht Collection: who it suits and who would be happier on a classic luxury cruise line or a private charter. Compare the three yachts (Evrima, Ilma, Luminara) by size and guest count in general terms, suites and terraces, dining, the marina platform, and where each sails by season (Mediterranean and Northern Europe in summer, Caribbean and Central America in winter). Cover what is included and what costs extra in general terms, the Marriott Bonvoy connection, and how it differs from Four Seasons Yachts and Aman at Sea without repeating the four-brand comparison. One table, a column per yacht. Do not state suite counts, tonnage, launch dates or fares unless certain, and flag each ship detail in review_notes because the newer yachts are recent. Journey and departure tokens: operator=Ritz-Carlton Yacht Collection, and vessel per yacht where the vocabulary lists it. Evidence: brand=Ritz-Carlton hotels for nights before or after. Link to the hotel-brand yachts comparison, yacht-charter-vs-luxury-yacht-cruise and ritz-carlton-vs-four-seasons-vs-rosewood."
     }
   ]
 }
