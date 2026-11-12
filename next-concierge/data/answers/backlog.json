@@ -144,6 +144,34 @@
       "angle": "Park and conservation fees, exclusive concessions, bush flights, low guest numbers, full board; where the money goes and where you can save (green season, fewer camps)."
     },
     {
+      "id": "st-barts-villa-or-hotel",
+      "category": "Villas",
+      "status": "queued",
+      "question": "St. Barts: villa or hotel?",
+      "angle": "St. Barts is a villa island first: explain why (small hotels, hillside homes, no large resorts), which areas suit which stay (Gustavia, St. Jean, Flamands, Pointe Milou, Gouverneur, Lorient), needing a car, beach access from a hillside villa vs. a beachfront hotel, daily housekeeping and concierge, and the festive-season minimum stays. A table comparing villa and hotel on space, service, beach, dining and who each suits. The villa atlas holds several hundred St. Barts homes; do not type a count. Evidence: country=Saint Barthélemy hotels. Link to the villa-vs-resort answer."
+    },
+    {
+      "id": "royal-scotsman-worth-it-which-route",
+      "category": "Rails",
+      "status": "queued",
+      "question": "Is the Royal Scotsman worth it, and which route should you take?",
+      "angle": "What the train is: Belmond, departing Edinburgh, a small number of guests, en-suite cabins, a spa car, an open observation deck, off-train visits to distilleries, castles and estates, stabled at night so you sleep still. Compare the journeys by length and where they go (Highlands, Western Scotland, the longer grand tours), the season (roughly April to October), what is included, dress, and who it suits against a self-drive Highlands trip with country-house hotels. A table of routes by nights and highlights, built only from itinerary titles you are sure of. Journey tokens: collection=train with vessel=Royal Scotsman. Evidence: country=United Kingdom hotels narrowed to Scotland if the vocabulary has a Scotland region. Link to best-luxury-train-journeys."
+    },
+    {
+      "id": "seabourn-vs-silversea-vs-regent-vs-crystal",
+      "category": "Voyages",
+      "status": "queued",
+      "question": "Seabourn, Silversea, Regent or Crystal: which ultra-luxury cruise line suits you?",
+      "angle": "The question travelers ask an AI most in this category. Compare on ship size and guest count, what is included (drinks, gratuities, shore excursions, flights and where they differ), suites and butlers, dining, atmosphere and dress, where each is strongest, and expedition ships where they have them. Honest about who each does not suit. One table, a column per line. Do not state fares or tonnage; flag every inclusion claim in review_notes because the lines change them. Journey tokens per operator (operator=Seabourn, Silversea, Regent Seven Seas, Crystal). No evidence block. Link to world-cruises-compared and luxury-vs-classic-expedition-cruising."
+    },
+    {
+      "id": "four-seasons-yachts-explained",
+      "category": "Yachts",
+      "status": "queued",
+      "question": "Four Seasons Yachts: what should you know before you book?",
+      "angle": "An explainer for the newest hotel-brand yacht: the ships (Four Seasons I, Four Seasons II), all-suite layout and how unusually large the suites are, the marina and pool, dining, the service model carried over from the hotels, where the yachts sail by season (Mediterranean in summer, Caribbean in winter), who it suits, and how booking works (what is and is not included, in general terms; no fares). Be honest that it is a new product with a short track record. Do not state suite counts, tonnage, launch dates or square footage unless certain, and flag each in review_notes. Journey and departure tokens: operator=Four Seasons Yachts, by region. Evidence: brand=Four Seasons hotels in a main embarkation country. Link to the hotel-brand yachts comparison, four-seasons-preferred-partner-benefits and yacht-charter-vs-luxury-yacht-cruise."
+    },
+    {
       "id": "private-island-resorts",
       "category": "Hotels",
       "status": "queued",
@@ -156,6 +184,27 @@
       "status": "queued",
       "question": "How should you plan a luxury honeymoon?",
       "angle": "Pairing a city with a beach or safari, timing and seasons, how honeymoon amenities really work, when to book. Link to relevant existing answers."
+    },
+    {
+      "id": "hawaii-which-island-for-a-villa",
+      "category": "Villas",
+      "status": "queued",
+      "question": "Which Hawaiian island is best for a villa stay?",
+      "angle": "Maui, the Big Island (Kohala Coast, Kona), Kauai and Oahu compared for a private-home stay: resort-community homes with club access vs. standalone houses, beaches and swimming conditions by season, driving distances, direct flights from the mainland, and who each island suits (families, golfers, hikers, first visits). Mention plainly that short-term rental rules differ by county and change, so the legal status of a home matters; no specifics on current ordinances. One comparison table with a column per island. No evidence block unless a Hawaii hotel query fits; flag anything about rental regulation in review_notes."
+    },
+    {
+      "id": "la-dolce-vita-orient-express-vs-venice-simplon",
+      "category": "Rails",
+      "status": "queued",
+      "question": "La Dolce Vita Orient Express or the Venice Simplon-Orient-Express?",
+      "angle": "Two different trains that share a name: Belmond's Venice Simplon-Orient-Express (restored 1920s carriages, classic Paris to Venice and longer routes, black tie) and the Italian La Dolce Vita Orient Express (new train, 1960s-inspired design, round trips within Italy from Rome). Explain plainly that they are run by different companies. Compare routes, cabins and suites, bathrooms, atmosphere, journey length, season and who each suits. One table, a column per train. Journey tokens: operator=La Dolce Vita Orient Express, and vessel=Venice Simplon-Orient-Express. Evidence: Rome or Venice hotels for the nights either side. Link to venice-simplon-orient-express-worth-it and best-luxury-train-journeys. Flag ownership and launch details in review_notes."
+    },
+    {
+      "id": "caribbean-by-luxury-yacht-which-islands-when",
+      "category": "Yachts",
+      "status": "queued",
+      "question": "Caribbean by luxury yacht: which islands, and when?",
+      "angle": "What a yacht-sized ship does in the Caribbean that a large ship cannot: small harbors and anchorages (Gustavia in St. Barts, Jost Van Dyke and Virgin Gorda in the BVI, Bequia and the Grenadines, Antigua's English Harbour), late evenings in port, swimming off the marina. Northern vs. southern itineraries, embarkation ports (San Juan, St. Maarten, Barbados, Fort Lauderdale), the season (December to April, why yachts leave for the Mediterranean in summer), and festive sailings. Table: route area, islands, who it suits. Journey tokens: collection=yacht with the Caribbean region value from the vocabulary, and per operator. Evidence: Caribbean hotels for nights before or after. Link to the hotel-brand yachts comparison and the hurricane-season answer."
     },
     {
       "id": "small-ship-mediterranean-yacht-cruise",
@@ -172,6 +221,27 @@
       "angle": "Chef, housekeeping, concierge, what costs extra (groceries, drinks, staff gratuity), how it differs by region. No evidence block; villas are not in the hotel query engine."
     },
     {
+      "id": "drake-passage-sail-or-fly-antarctica",
+      "category": "Expedition",
+      "status": "queued",
+      "question": "The Drake Passage: should you sail it or fly over it?",
+      "angle": "What the crossing is really like (about two days each way from Ushuaia, calm or rough and not predictable in advance), seasickness and what helps, stabilizers and ship size, and what you gain by sailing: seabirds, lectures, the sense of arrival. Fly-cruise from Punta Arenas to King George Island: time saved, weather delays to flights and what operators do about them, fewer ship choices, higher cost in general terms. Who should fly, who should sail, and the fly-one-way option. Table: sail both ways, fly both ways, fly one way. Journey tokens: collection=cruise with the Antarctica region value. No evidence block. Link to the Antarctica first-timer and best-month answers. Flag flight routing and delay policies in review_notes."
+    },
+    {
+      "id": "machu-picchu-luxury-train-hiram-bingham-andean-explorer",
+      "category": "Rails",
+      "status": "queued",
+      "question": "How do you get to Machu Picchu in luxury: Hiram Bingham, Andean Explorer, or neither?",
+      "angle": "Untangle the two Belmond trains in Peru: the Hiram Bingham is a day train between the Cusco area and Aguas Calientes for Machu Picchu, the Andean Explorer is a sleeper across the altiplano between Cusco, Lake Titicaca and Arequipa and does not go to Machu Picchu. Cover the alternatives (Vistadome and other day services, the Inca Trail), altitude and why to start in the Sacred Valley, timed entry and circuits at the site in general terms, dry season (May to September) vs. wet, and a sensible order for a week. Table: the ways to reach Machu Picchu. Journey tokens: operator=Belmond Peruvian Trains. Evidence: country=Peru hotels. Flag station names and site-entry rules in review_notes."
+    },
+    {
+      "id": "grand-voyages-alternatives-to-a-world-cruise",
+      "category": "Voyages",
+      "status": "queued",
+      "question": "Grand voyages: what are the 30 to 90 day alternatives to a full world cruise?",
+      "angle": "For the traveler who wants a long voyage but not four months: grand voyages around one region (Africa, South America, the Pacific, Asia, the Mediterranean), back-to-back segments, and long repositioning sailings. How they differ from a world cruise segment (stand-alone itineraries with their own events and often their own perks), which lines run them, when they sail, how far ahead they sell, and who they suit. Table: voyage type, typical length, regions, lines. Journey tokens with collection=worldcruise and daysMin/daysMax bands (for example daysMin=30&daysMax=90) and per operator. No evidence block. Link to world-cruise-segments-explained and world-cruises-compared."
+    },
+    {
       "id": "patagonia-luxury-lodges",
       "category": "Hotels",
       "status": "queued",
@@ -184,6 +254,27 @@
       "status": "queued",
       "question": "How do you prepare for a world cruise?",
       "angle": "Visas, medications, mail and banking at home, formal nights, laundry, staying connected; practical and calm."
+    },
+    {
+      "id": "where-to-rent-a-villa-in-italy",
+      "category": "Villas",
+      "status": "queued",
+      "question": "Where should you rent a villa in Italy: Tuscany, the Amalfi Coast, Puglia, Sicily or the lakes?",
+      "angle": "Region by region: what the houses are like (Tuscan farmhouses, Amalfi cliffside villas with stairs, Puglian masserie and trulli, Sicilian estates, lakefront villas on Como), whether you need a car, pool season, heat in July and August, Saturday-to-Saturday rentals in high summer, and day trips. Who each suits: big families, couples, a first trip to Italy. One table by region. Link to the Amalfi towns and Italian lakes answers and to quietest-luxury-resorts-italy. No evidence block; villas are not in the hotel query engine."
+    },
+    {
+      "id": "eastern-and-oriental-express-what-to-expect",
+      "category": "Rails",
+      "status": "queued",
+      "question": "Eastern & Oriental Express: what is it like, and which route?",
+      "angle": "Belmond's sleeper in Southeast Asia, now running round trips from Singapore through Malaysia. Cover the routes on sale and what each sees (jungle and national park stops on one, the west coast and islands on the other), cabin categories, the open-air observation car, dining, heat and humidity by season, dress, and how it compares in feel with the Venice Simplon-Orient-Express. Who it suits, and pairing it with Singapore, Langkawi or Penang hotels. Use only route names you are sure of and flag them in review_notes. Journey tokens: vessel=Eastern & Oriental Express. Evidence: country=Singapore hotels (or Malaysia if in the vocabulary). Link to best-luxury-train-journeys."
+    },
+    {
+      "id": "private-jet-journeys-tcs-vs-abercrombie-kent-vs-national-geographic",
+      "category": "Planning",
+      "status": "queued",
+      "question": "TCS World Travel, Abercrombie & Kent or National Geographic: which private jet journey?",
+      "angle": "The existing answer explains what a private jet journey is; this one compares who runs them. For each operator in the jet atlas (TCS World Travel, Abercrombie & Kent, National Geographic, Safrans du Monde, Remote Lands, Blue Parallel): the aircraft type and group size in general terms, style (hotel-led luxury, expert-led learning, regional deep dives), typical length and themes, hotels used, and who it suits. Note the Four Seasons Private Jet as a known alternative only if confident. One table, a column per operator. No fares, no seat counts unless certain; flag aircraft claims in review_notes. Journey tokens: collection=jet per operator. No evidence block. Link to private-jet-journeys-explained."
     },
     {
       "id": "japan-by-train-luxury",
@@ -200,11 +291,81 @@
       "angle": "Cancel For Any Reason vs. standard, medical evacuation for expeditions and safari, when to buy it. General guidance only; no specific insurer recommendations or prices."
     },
     {
+      "id": "villa-through-advisor-vs-airbnb-vrbo",
+      "category": "Villas",
+      "status": "queued",
+      "question": "Booking a villa through a travel advisor vs. Airbnb or Vrbo: what is actually different?",
+      "angle": "Honest comparison. What a vetted villa program adds: inspected homes, a local manager or concierge, pre-arrival provisioning, staff, a person to call when the air conditioning fails, help if the home becomes unavailable. What the platforms do better: sheer choice, lower price points, short stays, instant booking. Contracts, deposits, cancellation terms and damage waivers in general terms only. Say when a platform is the sensible choice. Table: advisor-booked villa vs. platform rental. Mention booking through an advisor once. Use {{collection:villa}} for the size of the villa atlas. No evidence block. Link to do-travel-advisors-cost-more and the staffed-villa answer if it exists."
+    },
+    {
+      "id": "greek-islands-yacht-cruise-or-ferries-and-hotels",
+      "category": "Yachts",
+      "status": "queued",
+      "question": "Greek islands: yacht cruise, or ferries and hotels?",
+      "angle": "Two ways to do the same islands. Yacht cruise: unpack once, reach small islands and anchorages, no ferry timetable, but short hours ashore and a fixed route. Ferries and hotels: longer on each island, evenings ashore, your own pace, but transfers, luggage and the meltemi wind disrupting crossings in July and August. Cover Cyclades vs. Dodecanese vs. Ionian, how many islands is sensible in a week, the season (May to October, best in June and September), and combining a few hotel nights in Athens, Santorini or Mykonos with a sailing. Table: cruise vs. island-hopping. Journey tokens: collection=yacht with the Aegean region value. Evidence: country=Greece hotels. Link to the small-ship Mediterranean answer if it exists."
+    },
+    {
+      "id": "best-time-for-safari-by-country",
+      "category": "Safari",
+      "status": "queued",
+      "question": "When is the best time to go on safari, country by country?",
+      "angle": "A month-by-month guide across Kenya, Tanzania, Botswana, South Africa, Zambia, Zimbabwe, Namibia, Rwanda and Uganda: dry season vs. green season, what each means for game viewing, rates and crowds, the Okavango flood (peaks mid-year, after the rains), malaria-free options in South Africa, and gorilla trekking seasons. Give the full table, months down the side and countries across, with a one-word verdict per cell. Then where to go if your dates are fixed (school holidays in July and August, Christmas, February). Journey tokens: collection=safari per country. Evidence: tag=safari hotels. Link to the Great Migration, first-safari, gorilla and Okavango answers rather than repeating them."
+    },
+    {
       "id": "how-to-choose-expedition-cruise-advisor",
       "category": "Expedition",
       "status": "queued",
       "question": "How do you choose an expedition cruise advisor?",
       "angle": "What to ask: how many polar or Galápagos sailings they have booked or sailed, which operators they hold preferred status with, whether they will compare ships across brands rather than sell one, and what happens when a voyage is cancelled or rerouted. Name no advisor but our own; link to the expedition answers."
+    },
+    {
+      "id": "aspen-private-home-or-hotel-ski-week",
+      "category": "Villas",
+      "status": "queued",
+      "question": "Private home or hotel for a ski week in Aspen?",
+      "angle": "We are Aspen-based: write it from local knowledge. Where the homes are (Red Mountain, West End, the core, Snowmass ski-in/ski-out, Starwood) and what each means for getting to the lifts across Aspen Mountain, Highlands, Buttermilk and Snowmass; what a hotel gives you that a house does not (ski valet, concierge, on-mountain location, restaurants) and the reverse (space, kitchen, privacy for a group); Christmas and Presidents week minimums; altitude and arrival through ASE. Briefly extend to Vail, Beaver Creek and Telluride. Table: home vs. hotel by group size and trip type. Evidence: Colorado ski hotels (experience=Ski with the Colorado region value from the vocabulary). Link to the Aspen/Vail/Telluride and ski-in/ski-out answers."
+    },
+    {
+      "id": "glacier-express-vs-bernina-express",
+      "category": "Rails",
+      "status": "queued",
+      "question": "Glacier Express or Bernina Express: which Swiss scenic train, and which class?",
+      "angle": "Glacier Express (Zermatt to St. Moritz, a full day, Excellence Class with guaranteed window seats and a served menu) against the Bernina Express (Chur or St. Moritz to Tirano over the Bernina Pass, shorter, a UNESCO-listed line). Also mention the GoldenPass Express and Gotthard Panorama Express briefly. Seat reservations on top of a rail pass, which side to sit on, winter vs. summer, whether to do the whole route or a section, and how to string them into a week with Zermatt, St. Moritz and Lake Como or Lucerne. Table: train, route, duration, best class. No fares. Journey tokens: collection=train with country=Switzerland. Evidence: country=Switzerland hotels. Link to best-luxury-train-journeys."
+    },
+    {
+      "id": "world-cruise-daily-life-who-enjoys-it",
+      "category": "Voyages",
+      "status": "queued",
+      "question": "What is daily life like on a world cruise, and who actually enjoys one?",
+      "angle": "An honest picture: the rhythm of sea days and port days, enrichment lectures and classes, the community that forms among full-voyage guests, solo travelers, medical care on board and its limits, internet, fitness, dining fatigue and how the lines counter it, overland excursions that leave the ship for days, and coming home afterwards. Who thrives and who is restless by week six. Distinct from the preparation page: this is whether to go, not what to pack. Table: who it suits and who it does not. Journey tokens: {{collection:worldcruise}} and world=true. No evidence block. Link to world-cruises-compared, world-cruise-segments-explained and the preparation answer if it exists."
+    },
+    {
+      "id": "croatia-adriatic-by-yacht",
+      "category": "Yachts",
+      "status": "queued",
+      "question": "Croatia and the Adriatic by yacht: what do you see that big ships miss?",
+      "angle": "The Dalmatian coast suits small ships: Hvar, Korčula, Vis, Šibenik, Rovinj and Kotor in Montenegro, against the large-ship standards of Dubrovnik and Split. Explain docking in town vs. tendering, cruise-ship limits in Dubrovnik and Venice in general terms, typical routes (Venice or Athens to Dubrovnik, round trips along the coast), the season (May to October, crowds and heat in July and August), and pairing with hotel nights in Dubrovnik, Venice or on Hvar. Table: port, what it is, big ship or small only. Journey tokens: collection=yacht with the Adriatic region value, per operator. Evidence: country=Croatia hotels. Flag port restrictions in review_notes."
+    },
+    {
+      "id": "how-far-ahead-to-book-a-villa-peak-weeks",
+      "category": "Villas",
+      "status": "queued",
+      "question": "How far ahead do you need to book a villa for Christmas, New Year and peak summer?",
+      "angle": "A booking calendar by season and region: festive weeks in the Caribbean (St. Barts, Turks and Caicos, Barbados, Anguilla), February and March school breaks, ski weeks, and July and August in Italy, France, Greece and Spain. Minimum-night rules over the holidays, why the best large homes go to repeat guests first, what is still realistic late, and shoulder weeks that give the same house for less. A table: period, region, how far ahead, typical minimum stay. Keep lead times as honest ranges and flag every one in review_notes; no prices. No evidence block. Link to the Caribbean villa answers and the hurricane-season answer."
+    },
+    {
+      "id": "french-polynesia-bora-bora-resort-or-tahiti-cruise",
+      "category": "Voyages",
+      "status": "queued",
+      "question": "French Polynesia: Bora Bora resort, a Tahiti cruise, or both?",
+      "angle": "Resort stay vs. small-ship cruise through the Society Islands, and the case for combining them. Islands compared (Bora Bora, Moorea, Taha'a, Rangiroa and the Tuamotus, the Marquesas for longer voyages), what a ship reaches that a resort stay does not, overwater bungalow reality, inter-island flights, the dry season (May to October) vs. the wet, and flight routing through Papeete. Paul Gauguin as the ship built for these lagoons, with the other operators that sail here. Table: resort, cruise, both. Journey tokens: operator=Paul Gauguin Cruises. Evidence: country=French Polynesia hotels. Link to the Maldives first-visit answer and the honeymoon answer if it exists."
+    },
+    {
+      "id": "which-paris-palace-hotel",
+      "category": "Hotels",
+      "status": "queued",
+      "question": "Which Paris palace hotel should you book?",
+      "angle": "Explain the official Palace distinction (awarded by the French state above five stars) and compare the Paris hotels that hold it and their peers, by neighborhood (the Golden Triangle and Avenue Montaigne, Place Vendôme and the Tuileries, the Left Bank), character (grand and gilded vs. contemporary vs. residential), rooms and views, spas and pools, dining, and who each suits: first visit, families, shoppers, a quiet stay. One comparison table. Name a hotel as a Palace only if certain, and flag each in review_notes because the list changes. No rates. Mention advisor perks once. Evidence: Paris hotels (city=Paris with perks=true). Link to virtuoso-perks-vs-booking-direct and the brand comparison answer."
     }
   ]
 }
