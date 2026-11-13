@@ -5,8 +5,8 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 327,
-  "journeysWithStays": 323,
+  "journeysTotal": 333,
+  "journeysWithStays": 329,
   "journeysWithHouse": 0,
   "gateways": 55,
   "hotels": 181,
@@ -737,6 +737,25 @@
    ],
    "promo": 0
   },
+  "h_00404": {
+   "n": "Chewton Glen",
+   "house": null,
+   "aff": null,
+   "city": "New Milton",
+   "country": "United Kingdom",
+   "ll": [
+    50.7456,
+    -1.68058
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3958_2_0.webp",
+   "rooms": 72,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_01500": {
    "n": "Park Hyatt Doha",
    "house": "Hyatt Hotels Corporation",
@@ -806,6 +825,82 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16114500_2_2.webp",
    "rooms": 442,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00704": {
+   "n": "Gansevoort Meatpacking",
+   "house": null,
+   "aff": null,
+   "city": "New York City",
+   "country": "United States",
+   "ll": [
+    40.7128,
+    -74.006
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4196_2_0.webp",
+   "rooms": 187,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01825": {
+   "n": "Soho Grand Hotel",
+   "house": null,
+   "aff": null,
+   "city": "New York City",
+   "country": "United States",
+   "ll": [
+    40.7221,
+    -74.0046
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16921306_2_0.webp",
+   "rooms": 347,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v18459650": {
+   "n": "Nine Orchard",
+   "house": null,
+   "aff": null,
+   "city": "New York",
+   "country": "United States",
+   "ll": [
+    40.7148,
+    -73.9921
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18405612_2_3.webp",
+   "rooms": 113,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01908": {
+   "n": "The Beekman, A Thompson Hotel",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "New York City",
+   "country": "United States",
+   "ll": [
+    40.7112,
+    -74.0069
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15563970_2_38.webp",
+   "rooms": 287,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -1041,25 +1136,6 @@
    ],
    "promo": 0
   },
-  "h_00404": {
-   "n": "Chewton Glen",
-   "house": null,
-   "aff": null,
-   "city": "New Milton",
-   "country": "United Kingdom",
-   "ll": [
-    50.7456,
-    -1.68058
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3958_2_0.webp",
-   "rooms": 72,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_01106": {
    "n": "La Posta Vecchia Hotel",
    "house": null,
@@ -1078,82 +1154,6 @@
     "Room upgrade"
    ],
    "promo": 0
-  },
-  "h_00704": {
-   "n": "Gansevoort Meatpacking",
-   "house": null,
-   "aff": null,
-   "city": "New York City",
-   "country": "United States",
-   "ll": [
-    40.7128,
-    -74.006
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4196_2_0.webp",
-   "rooms": 187,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01825": {
-   "n": "Soho Grand Hotel",
-   "house": null,
-   "aff": null,
-   "city": "New York City",
-   "country": "United States",
-   "ll": [
-    40.7221,
-    -74.0046
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16921306_2_0.webp",
-   "rooms": 347,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v18459650": {
-   "n": "Nine Orchard",
-   "house": null,
-   "aff": null,
-   "city": "New York",
-   "country": "United States",
-   "ll": [
-    40.7148,
-    -73.9921
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18405612_2_3.webp",
-   "rooms": 113,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01908": {
-   "n": "The Beekman, A Thompson Hotel",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "New York City",
-   "country": "United States",
-   "ll": [
-    40.7112,
-    -74.0069
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15563970_2_38.webp",
-   "rooms": 287,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
   },
   "h_01598": {
    "n": "Raffles Singapore",
@@ -3696,6 +3696,19 @@
     ]
    ]
   },
+  "Southampton, United Kingdom": {
+   "n": "Southampton, United Kingdom",
+   "ll": [
+    50.9,
+    -1.4
+   ],
+   "h": [
+    [
+     "h_00404",
+     26.1
+    ]
+   ]
+  },
   "Doha, Qatar": {
    "n": "Doha, Qatar",
    "ll": [
@@ -3718,6 +3731,31 @@
     [
      "h_02427",
      8.3
+    ]
+   ]
+  },
+  "New York City, NY, United States": {
+   "n": "New York City, NY, United States",
+   "ll": [
+    40.7167,
+    -74
+   ],
+   "h": [
+    [
+     "h_00704",
+     0.7
+    ],
+    [
+     "h_01825",
+     0.7
+    ],
+    [
+     "h_v18459650",
+     0.7
+    ],
+    [
+     "h_01908",
+     0.8
     ]
    ]
   },
@@ -3796,19 +3834,6 @@
     ]
    ]
   },
-  "Southampton, United Kingdom": {
-   "n": "Southampton, United Kingdom",
-   "ll": [
-    50.9,
-    -1.4
-   ],
-   "h": [
-    [
-     "h_00404",
-     26.1
-    ]
-   ]
-  },
   "Civitavecchia, Italy": {
    "n": "Civitavecchia, Italy",
    "ll": [
@@ -3819,31 +3844,6 @@
     [
      "h_01106",
      31.1
-    ]
-   ]
-  },
-  "New York City, NY, United States": {
-   "n": "New York City, NY, United States",
-   "ll": [
-    40.7167,
-    -74
-   ],
-   "h": [
-    [
-     "h_00704",
-     0.7
-    ],
-    [
-     "h_01825",
-     0.7
-    ],
-    [
-     "h_v18459650",
-     0.7
-    ],
-    [
-     "h_01908",
-     0.8
     ]
    ]
   },
@@ -4791,9 +4791,17 @@
    "pre": null,
    "post": "Ushuaia, Argentina"
   },
+  "18058762": {
+   "pre": "Miami, FL, United States",
+   "post": "Southampton, United Kingdom"
+  },
   "18058763": {
    "pre": "Miami, FL, United States",
    "post": "Doha, Qatar"
+  },
+  "18058764": {
+   "pre": "Miami, FL, United States",
+   "post": "New York City, NY, United States"
   },
   "18069096": {
    "pre": "San Francisco, CA, United States",
@@ -4987,6 +4995,10 @@
    "pre": "Southampton, United Kingdom",
    "post": "Fort Lauderdale, FL, United States"
   },
+  "18115437": {
+   "pre": "Sydney, Australia",
+   "post": "Southampton, United Kingdom"
+  },
   "18144460": {
    "pre": null,
    "post": "Ushuaia, Argentina"
@@ -5142,6 +5154,10 @@
   "18300440": {
    "pre": null,
    "post": "Ushuaia, Argentina"
+  },
+  "18300512": {
+   "pre": "Miami, FL, United States",
+   "post": "Fort Lauderdale, FL, United States"
   },
   "18300570": {
    "pre": "Miami, FL, United States",
@@ -5635,6 +5651,10 @@
    "pre": "Tokyo, Japan",
    "post": "Hong Kong, China"
   },
+  "18507842": {
+   "pre": "San Diego, CA, United States",
+   "post": "Singapore, Singapore"
+  },
   "18513606": {
    "pre": "Fort Lauderdale, FL, United States",
    "post": "Greenwich, United Kingdom"
@@ -5982,6 +6002,10 @@
   "18654841": {
    "pre": "Melbourne, Australia",
    "post": "Melbourne, Australia"
+  },
+  "18655401": {
+   "pre": "Benoa (Bali), Indonesia",
+   "post": "Auckland, New Zealand"
   }
  }
 }

@@ -1,10 +1,10 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-11-08T15:55:19.992Z",
+  "generated": "2026-11-13T17:07:03.327Z",
   "feedSynced": null,
   "localCount": 2475,
-  "feedCount": 2092,
+  "feedCount": 2093,
   "matchedCount": 2328
  },
  "overrides": {
@@ -26415,6 +26415,12 @@
    "name": "Eagle Island Lodge, A Belmond Safari",
    "city": "Okavango Delta",
    "country": "Botswana"
+  },
+  {
+   "vid": "18649441",
+   "name": "Eleven Bahama House",
+   "city": "Harbour Island",
+   "country": "Bahamas"
   },
   {
    "vid": "18474677",

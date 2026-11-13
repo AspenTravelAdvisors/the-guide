@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4425,
-  "journeysWithStays": 3715,
+  "journeysTotal": 4419,
+  "journeysWithStays": 3707,
   "journeysWithHouse": 0,
   "gateways": 106,
   "hotels": 281,
@@ -15,62 +15,43 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00141": {
-   "n": "Arakur Ushuaia Resort & Spa",
+  "h_00877": {
+   "n": "Hotel Kamp",
    "house": null,
    "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
+   "city": "Helsinki",
+   "country": "Finland",
    "ll": [
-    -54.7864,
-    -68.2575
+    60.1679,
+    24.9472
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
-   "rooms": 129,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15422578_2_0.webp",
+   "rooms": 179,
    "perks": [
     "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
+    "$100 credit",
+    "Room upgrade"
    ],
    "promo": 0
   },
-  "h_01191": {
-   "n": "Los Cauquenes Resort + Spa + Experiences",
-   "house": null,
+  "h_v18535557": {
+   "n": "Waldorf Astoria Helsinki",
+   "house": "Hilton Luxury Brands",
    "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
+   "city": "Helsinki",
+   "country": "Finland",
    "ll": [
-    -54.8364,
-    -68.3502
+    60.1738,
+    24.9567
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
-   "rooms": 48,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0.webp",
+   "rooms": 116,
    "perks": [
     "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
+    "Property credit",
+    "Room upgrade"
    ],
-   "promo": 0
-  },
-  "h_01553": {
-   "n": "Pikaia Lodge",
-   "house": null,
-   "aff": null,
-   "city": "Galápagos",
-   "country": "Ecuador",
-   "ll": [
-    -0.639359,
-    -90.3372
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15221359_2_0.webp",
-   "rooms": 14,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
+   "promo": 1
   },
   "h_01293": {
    "n": "Mashpi Lodge",
@@ -109,120 +90,6 @@
     "Early check-in"
    ],
    "promo": 0
-  },
-  "h_00464": {
-   "n": "Country Club Lima Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Lima",
-   "country": "Peru",
-   "ll": [
-    -12.098,
-    -77.0488
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4662_2_8.webp",
-   "rooms": 83,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_v18394870": {
-   "n": "Hotel Real InterContinental Lima Miraflores",
-   "house": "IHG Hotels & Resorts",
-   "aff": null,
-   "city": "Lima",
-   "country": "Peru",
-   "ll": [
-    -12.1329,
-    -77.0293
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18385799_2_47.webp",
-   "rooms": 321,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01317": {
-   "n": "Miraflores Park, A Belmond Hotel, Lima",
-   "house": "Belmond",
-   "aff": "Belmond",
-   "city": "Lima",
-   "country": "Peru",
-   "ll": [
-    -12.1353,
-    -77.0273
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4636_2_0.webp",
-   "rooms": 89,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_00937": {
-   "n": "Hotel del Parque",
-   "house": null,
-   "aff": null,
-   "city": "Guayaquil",
-   "country": "Ecuador",
-   "ll": [
-    -2.14516,
-    -79.8701
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15802824_2_0.webp",
-   "rooms": 44,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_00877": {
-   "n": "Hotel Kamp",
-   "house": null,
-   "aff": null,
-   "city": "Helsinki",
-   "country": "Finland",
-   "ll": [
-    60.1679,
-    24.9472
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15422578_2_0.webp",
-   "rooms": 179,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v18535557": {
-   "n": "Waldorf Astoria Helsinki",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Helsinki",
-   "country": "Finland",
-   "ll": [
-    60.1738,
-    24.9567
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0.webp",
-   "rooms": 116,
-   "perks": [
-    "Daily breakfast",
-    "Property credit",
-    "Room upgrade"
-   ],
-   "promo": 1
   },
   "h_00055": {
    "n": "Alvear Palace Hotel",
@@ -471,6 +338,63 @@
    ],
    "promo": 0
   },
+  "h_00464": {
+   "n": "Country Club Lima Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.098,
+    -77.0488
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4662_2_8.webp",
+   "rooms": 83,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_v18394870": {
+   "n": "Hotel Real InterContinental Lima Miraflores",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.1329,
+    -77.0293
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18385799_2_47.webp",
+   "rooms": 321,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01317": {
+   "n": "Miraflores Park, A Belmond Hotel, Lima",
+   "house": "Belmond",
+   "aff": "Belmond",
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.1353,
+    -77.0273
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4636_2_0.webp",
+   "rooms": 89,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
   "h_00724": {
    "n": "Gran Hotel Miramar",
    "house": null,
@@ -585,6 +509,44 @@
    ],
    "promo": 0
   },
+  "h_00141": {
+   "n": "Arakur Ushuaia Resort & Spa",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.7864,
+    -68.2575
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
+   "rooms": 129,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 0
+  },
+  "h_01191": {
+   "n": "Los Cauquenes Resort + Spa + Experiences",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.8364,
+    -68.3502
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
+   "rooms": 48,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
   "h_01583": {
    "n": "REMOTA",
    "house": null,
@@ -658,6 +620,25 @@
     "Daily breakfast",
     "$100 credit",
     "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01553": {
+   "n": "Pikaia Lodge",
+   "house": null,
+   "aff": null,
+   "city": "Galápagos",
+   "country": "Ecuador",
+   "ll": [
+    -0.639359,
+    -90.3372
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15221359_2_0.webp",
+   "rooms": 14,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
    ],
    "promo": 0
   },
@@ -867,6 +848,25 @@
     "Daily breakfast",
     "$100 credit",
     "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00937": {
+   "n": "Hotel del Parque",
+   "house": null,
+   "aff": null,
+   "city": "Guayaquil",
+   "country": "Ecuador",
+   "ll": [
+    -2.14516,
+    -79.8701
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15802824_2_0.webp",
+   "rooms": 44,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
    ],
    "promo": 0
   },
@@ -5353,33 +5353,20 @@
   }
  },
  "GATES": {
-  "Ushuaia, Argentina": {
-   "n": "Ushuaia, Argentina",
+  "Helsinki, Finland": {
+   "n": "Helsinki, Finland",
    "ll": [
-    -54.8,
-    -68.3
+    60.1712,
+    24.9326
    ],
    "h": [
     [
-     "h_00141",
-     3.1
+     "h_00877",
+     0.9
     ],
     [
-     "h_01191",
-     5.2
-    ]
-   ]
-  },
-  "Baltra Island, Ecuador": {
-   "n": "Baltra Island, Ecuador",
-   "ll": [
-    -0.45,
-    -90.2667
-   ],
-   "h": [
-    [
-     "h_01553",
-     22.5
+     "h_v18535557",
+     1.4
     ]
    ]
   },
@@ -5397,57 +5384,6 @@
     [
      "h_00347",
      5.8
-    ]
-   ]
-  },
-  "Lima, Peru": {
-   "n": "Lima, Peru",
-   "ll": [
-    -12.05,
-    -77.05
-   ],
-   "h": [
-    [
-     "h_00464",
-     5.3
-    ],
-    [
-     "h_v18394870",
-     9.5
-    ],
-    [
-     "h_01317",
-     9.8
-    ]
-   ]
-  },
-  "Guayaquil, Ecuador": {
-   "n": "Guayaquil, Ecuador",
-   "ll": [
-    -2.1667,
-    -79.9
-   ],
-   "h": [
-    [
-     "h_00937",
-     4.1
-    ]
-   ]
-  },
-  "Helsinki, Finland": {
-   "n": "Helsinki, Finland",
-   "ll": [
-    60.1712,
-    24.9326
-   ],
-   "h": [
-    [
-     "h_00877",
-     0.9
-    ],
-    [
-     "h_v18535557",
-     1.4
     ]
    ]
   },
@@ -5539,6 +5475,27 @@
     ]
    ]
   },
+  "Lima, Peru": {
+   "n": "Lima, Peru",
+   "ll": [
+    -12.05,
+    -77.05
+   ],
+   "h": [
+    [
+     "h_00464",
+     5.3
+    ],
+    [
+     "h_v18394870",
+     9.5
+    ],
+    [
+     "h_01317",
+     9.8
+    ]
+   ]
+  },
   "Málaga, Spain": {
    "n": "Málaga, Spain",
    "ll": [
@@ -5581,6 +5538,23 @@
     ]
    ]
   },
+  "Ushuaia, Argentina": {
+   "n": "Ushuaia, Argentina",
+   "ll": [
+    -54.8,
+    -68.3
+   ],
+   "h": [
+    [
+     "h_00141",
+     3.1
+    ],
+    [
+     "h_01191",
+     5.2
+    ]
+   ]
+  },
   "Puerto Natales, Chile": {
    "n": "Puerto Natales, Chile",
    "ll": [
@@ -5612,6 +5586,19 @@
     [
      "h_02129",
      38.8
+    ]
+   ]
+  },
+  "Baltra Island, Ecuador": {
+   "n": "Baltra Island, Ecuador",
+   "ll": [
+    -0.45,
+    -90.2667
+   ],
+   "h": [
+    [
+     "h_01553",
+     22.5
     ]
    ]
   },
@@ -5683,6 +5670,19 @@
     [
      "h_01279",
      10.2
+    ]
+   ]
+  },
+  "Guayaquil, Ecuador": {
+   "n": "Guayaquil, Ecuador",
+   "ll": [
+    -2.1667,
+    -79.9
+   ],
+   "h": [
+    [
+     "h_00937",
+     4.1
     ]
    ]
   },
@@ -7521,10 +7521,6 @@
   }
  },
  "BYTRIP": {
-  "16817865": {
-   "pre": "Baltra Island, Ecuador",
-   "post": "Baltra Island, Ecuador"
-  },
   "16817866": {
    "pre": "Baltra Island, Ecuador",
    "post": "Baltra Island, Ecuador"
@@ -7534,10 +7530,6 @@
    "post": "Baltra Island, Ecuador"
   },
   "16817888": {
-   "pre": "Baltra Island, Ecuador",
-   "post": "Baltra Island, Ecuador"
-  },
-  "16817910": {
    "pre": "Baltra Island, Ecuador",
    "post": "Baltra Island, Ecuador"
   },
@@ -7817,10 +7809,6 @@
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
   },
-  "16845689": {
-   "pre": "Quito, Ecuador",
-   "post": "Quito, Ecuador"
-  },
   "16845705": {
    "pre": "Santiago, Chile",
    "post": "Buenos Aires, Argentina"
@@ -7912,10 +7900,6 @@
   "16845847": {
    "pre": "San Jose, Costa Rica",
    "post": "Panama City, Panama"
-  },
-  "16847823": {
-   "pre": "Quito, Ecuador",
-   "post": "Lima, Peru"
   },
   "16847825": {
    "pre": "Quito, Ecuador",
@@ -8493,10 +8477,6 @@
    "pre": "Ushuaia, Argentina",
    "post": null
   },
-  "16918134": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
   "16918135": {
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
@@ -8709,10 +8689,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Santiago, Chile"
   },
-  "18048907": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
   "18048976": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -8747,6 +8723,10 @@
   },
   "18049042": {
    "pre": "Ushuaia, Argentina",
+   "post": "Ushuaia, Argentina"
+  },
+  "18049054": {
+   "pre": null,
    "post": "Ushuaia, Argentina"
   },
   "18049076": {
@@ -12609,10 +12589,6 @@
    "pre": "Helsinki, Finland",
    "post": "Helsinki, Finland"
   },
-  "18273978": {
-   "pre": "Helsinki, Finland",
-   "post": "Helsinki, Finland"
-  },
   "18273979": {
    "pre": "Helsinki, Finland",
    "post": "Helsinki, Finland"
@@ -15692,10 +15668,6 @@
   "18492093": {
    "pre": null,
    "post": "Oslo, Norway"
-  },
-  "18492152": {
-   "pre": "Lima, Peru",
-   "post": "Guayaquil, Ecuador"
   },
   "18492153": {
    "pre": "Lima, Peru",
@@ -22352,10 +22324,6 @@
   "18652109": {
    "pre": "Civitavecchia, Italy",
    "post": "Lavrion, Greece"
-  },
-  "18652110": {
-   "pre": "Barcelona, Spain",
-   "post": "Lisbon, Portugal"
   },
   "18652111": {
    "pre": "Livorno, Italy",

@@ -5,9 +5,9 @@
   "atlas": "yacht",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 530,
-  "journeysWithStays": 529,
-  "journeysWithHouse": 529,
+  "journeysTotal": 528,
+  "journeysWithStays": 527,
+  "journeysWithHouse": 527,
   "gateways": 57,
   "hotels": 188,
   "houses": [
@@ -20,120 +20,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00024": {
-   "n": "Acqualina Resort & Residences on the Beach",
-   "house": null,
-   "aff": null,
-   "city": "Miami Beach",
-   "country": "United States",
-   "ll": [
-    25.9429,
-    -80.1234
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3886_2_4.webp",
-   "rooms": 98,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02136": {
-   "n": "The Ritz-Carlton Bal Harbour, Miami",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Bal Harbour",
-   "country": "United States",
-   "ll": [
-    25.8988,
-    -80.1233
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14388867_2_4.webp",
-   "rooms": 95,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02245": {
-   "n": "The St. Regis Bal Harbour Resort",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Bal Harbour",
-   "country": "United States",
-   "ll": [
-    25.8888,
-    -80.1225
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6655670_2_19.webp",
-   "rooms": 216,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00672": {
-   "n": "Four Seasons Hotel at The Surf Club",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Surfside",
-   "country": "United States",
-   "ll": [
-    25.8776,
-    -80.1216
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5.webp",
-   "rooms": 103,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02202": {
-   "n": "The Ritz-Carlton, South Beach",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Miami Beach",
-   "country": "United States",
-   "ll": [
-    25.7907,
-    -80.1281
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3973_2_0.webp",
-   "rooms": 375,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00657": {
-   "n": "Four Seasons Hotel Miami",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Miami",
-   "country": "United States",
-   "ll": [
-    25.7587,
-    -80.1914
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4278_2_0.webp",
-   "rooms": 221,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_01117": {
    "n": "La Samanna, A Belmond Hotel, St Martin",
    "house": "Belmond",
@@ -529,6 +415,120 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00024": {
+   "n": "Acqualina Resort & Residences on the Beach",
+   "house": null,
+   "aff": null,
+   "city": "Miami Beach",
+   "country": "United States",
+   "ll": [
+    25.9429,
+    -80.1234
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3886_2_4.webp",
+   "rooms": 98,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02136": {
+   "n": "The Ritz-Carlton Bal Harbour, Miami",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Bal Harbour",
+   "country": "United States",
+   "ll": [
+    25.8988,
+    -80.1233
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14388867_2_4.webp",
+   "rooms": 95,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02245": {
+   "n": "The St. Regis Bal Harbour Resort",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Bal Harbour",
+   "country": "United States",
+   "ll": [
+    25.8888,
+    -80.1225
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6655670_2_19.webp",
+   "rooms": 216,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00672": {
+   "n": "Four Seasons Hotel at The Surf Club",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Surfside",
+   "country": "United States",
+   "ll": [
+    25.8776,
+    -80.1216
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15745055_2_5.webp",
+   "rooms": 103,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02202": {
+   "n": "The Ritz-Carlton, South Beach",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Miami Beach",
+   "country": "United States",
+   "ll": [
+    25.7907,
+    -80.1281
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3973_2_0.webp",
+   "rooms": 375,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00657": {
+   "n": "Four Seasons Hotel Miami",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Miami",
+   "country": "United States",
+   "ll": [
+    25.7587,
+    -80.1914
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4278_2_0.webp",
+   "rooms": 221,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_00428": {
    "n": "Condado Vanderbilt Hotel",
@@ -3578,39 +3578,6 @@
   }
  },
  "GATES": {
-  "Miami, FL, United States": {
-   "n": "Miami, FL, United States",
-   "ll": [
-    25.9388,
-    -80.2144
-   ],
-   "h": [
-    [
-     "h_00024",
-     9.1
-    ],
-    [
-     "h_02136",
-     10.1
-    ],
-    [
-     "h_02245",
-     10.7
-    ],
-    [
-     "h_00672",
-     11.5
-    ],
-    [
-     "h_02202",
-     18.6
-    ],
-    [
-     "h_00657",
-     20.2
-    ]
-   ]
-  },
   "Marigot, Saint Martin": {
    "n": "Marigot, Saint Martin",
    "ll": [
@@ -3766,6 +3733,39 @@
     [
      "h_02181",
      2.6
+    ]
+   ]
+  },
+  "Miami, FL, United States": {
+   "n": "Miami, FL, United States",
+   "ll": [
+    25.9388,
+    -80.2144
+   ],
+   "h": [
+    [
+     "h_00024",
+     9.1
+    ],
+    [
+     "h_02136",
+     10.1
+    ],
+    [
+     "h_02245",
+     10.7
+    ],
+    [
+     "h_00672",
+     11.5
+    ],
+    [
+     "h_02202",
+     18.6
+    ],
+    [
+     "h_00657",
+     20.2
     ]
    ]
   },
@@ -5163,11 +5163,6 @@
   "18192133": {
    "pre": "Miami, FL, United States",
    "post": "Málaga, Spain",
-   "house": "Ritz-Carlton"
-  },
-  "18192160": {
-   "pre": "Miami, FL, United States",
-   "post": "Miami, FL, United States",
    "house": "Ritz-Carlton"
   },
   "18192161": {
@@ -7328,11 +7323,6 @@
   "18619007": {
    "pre": "Málaga, Spain",
    "post": "Lisbon, Portugal",
-   "house": "Orient Express"
-  },
-  "18619008": {
-   "pre": "London, United Kingdom",
-   "post": "London, United Kingdom",
    "house": "Orient Express"
   },
   "18633945": {

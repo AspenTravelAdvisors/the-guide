@@ -19302,6 +19302,164 @@
      47.5167
     ]
    }
+  ],
+  "18655479": [
+   {
+    "n": "Iquitos",
+    "r": null,
+    "ll": [
+     -3.7481,
+     -73.2472
+    ]
+   },
+   {
+    "n": "Ucayali River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Marañón River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Ucayali River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Marañón River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Nauta",
+    "r": null,
+    "ll": [
+     -4.5333,
+     -73.55
+    ]
+   },
+   {
+    "n": "Iquitos",
+    "r": null,
+    "ll": [
+     -3.7481,
+     -73.2472
+    ]
+   },
+   {
+    "n": "Marañón River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   }
+  ],
+  "18655480": [
+   {
+    "n": "Iquitos",
+    "r": null,
+    "ll": [
+     -3.7481,
+     -73.2472
+    ]
+   },
+   {
+    "n": "Nauta",
+    "r": null,
+    "ll": [
+     -4.5333,
+     -73.55
+    ]
+   },
+   {
+    "n": "Ucayali River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Marañón River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Nauta",
+    "r": null,
+    "ll": [
+     -4.5333,
+     -73.55
+    ]
+   },
+   {
+    "n": "Marañón River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   }
+  ],
+  "18656551": [
+   {
+    "n": "Quito",
+    "r": "GALAPAGOS",
+    "ll": [
+     -0.2167,
+     -78.5
+    ]
+   },
+   {
+    "n": "Otavalo",
+    "r": "GALAPAGOS",
+    "ll": [
+     0.2333,
+     -78.2667
+    ]
+   },
+   {
+    "n": "Galapagos Islands",
+    "r": "GALAPAGOS",
+    "ll": [
+     -0.357,
+     -90.4706
+    ]
+   },
+   {
+    "n": "Darwin",
+    "r": null,
+    "ll": [
+     -12.4667,
+     130.833
+    ]
+   },
+   {
+    "n": "Galapagos Islands",
+    "r": "GALAPAGOS",
+    "ll": [
+     -0.357,
+     -90.4706
+    ]
+   }
   ]
  },
  "TRIPS": [
@@ -30380,6 +30538,83 @@
     }
    ],
    "route": "12728472"
+  },
+  {
+   "id": "18656551",
+   "n": "Ecuador and the Galápagos for All Ages",
+   "b": "ak",
+   "g": [
+    "GALAPAGOS"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18656551/ecuadorandthegalpagosforallages",
+   "days": 14,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_3.webp",
+   "from": "Quito, Ecuador",
+   "to": "Galapagos Islands, Ecuador",
+   "country": "Australia",
+   "world": false,
+   "mks": [
+    "2026-11",
+    "2026-12",
+    "2027-01",
+    "2027-02",
+    "2027-03",
+    "2027-04",
+    "2027-05",
+    "2027-06",
+    "2027-07",
+    "2027-08",
+    "2027-09"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures Now Through: 01 Sep 2027",
+   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
+   "included": [
+    "Beneath Ecuador's peaks, volcanoes smolder on the horizon, cloud shadows drift across sweeping highland grasslands and market stalls burst with color beneath the spires of colonial churches. Beyond the mainland, the Galápagos Islands unfold in a world of black lava shores, turquoise bays and fearless wildlife, where sea lions doze on beaches and giant tortoises wander earth shaped by fire and time. This multigenerational journey can be tailored to every member of your family as you move through the many layers of Ecuador, from highland haciendas and Indigenous traditions to one of the planet's most extraordinary natural sanctuaries. Along the way, curated experiences invite adults and children alike to look beyond the landmarks, meeting local people, sharing in centuries-old customs and discovering the stories that bring this captivating country to life."
+   ],
+   "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
+     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
+     "endDate": "2027-03-31",
+     "exclusive": false,
+     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
+    },
+    {
+     "name": "Save up to 10% when you book and pay in full 9 months prior to departure",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "Save up to 10% when you book and pay in full nine months or more prior to departure. Terms & Conditions: Full payment due at time of booking and must be made nine months or more prior to departure. Save 10% on select Expedition Cruises and 5% on select Small Group Journeys, Small Jet Journeys, Ready-to-Book Private Journeys and Pre- and Post-Tour Extensions. A&K’s standard cancellation terms apply. Excludes internal and international air, extra services and insurance. Offer can be withdrawn at any time."
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Quito"
+    },
+    {
+     "d": 3,
+     "n": "Otavalo"
+    },
+    {
+     "d": 7,
+     "n": "Galapagos Islands"
+    },
+    {
+     "d": 8,
+     "n": "Darwin"
+    },
+    {
+     "d": 7,
+     "n": "Galapagos Islands"
+    }
+   ],
+   "route": "18656551"
   },
   {
    "id": "18368504",
@@ -49735,6 +49970,180 @@
     }
    ],
    "route": "18114125"
+  },
+  {
+   "id": "18655480",
+   "n": "Ultimate Peruvian Amazon Expedition: High Water Season",
+   "b": "andbeyond",
+   "g": [],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18655480/ultimateperuvianamazonexpeditionhighwaterseason",
+   "days": 8,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15444065_2_223.webp",
+   "from": "Nauta, Peru",
+   "to": "Marañón River, Peru",
+   "country": "Peru",
+   "world": false,
+   "mks": [
+    "2026-11",
+    "2026-12",
+    "2027-01",
+    "2027-02",
+    "2027-03",
+    "2027-04",
+    "2027-05",
+    "2027-06",
+    "2027-07",
+    "2027-08",
+    "2027-09",
+    "2027-10",
+    "2027-11",
+    "2027-12"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 13 Nov 2026 - 31 Dec 2027",
+   "description": "The journey at a glance. The journey begins with a warm reception in the lively city of Iquitos, where the vibrant spirit of the Amazon greets guests. The adventure continues with a scenic drive from Iquitos to Nauta, giving guests the opportunity to take in more of the landscape and local life of the Peruvian Amazon along the way. Here, the elegant &Beyond Amazon Explorer yacht awaits, ready to transport guests into a world of wonder. Over the next few days, guests can embark on thrilling excursions and captivating discoveries as they uncover the breathtaking beauty and untamed mysteries of the Peruvian Amazon. Guests set off on exciting skiff explorations, navigating lush waterways…",
+   "included": [
+    "Accommodation on the yacht",
+    "Three meals daily, soft drinks, house wines, local brand spirits and beers, and tea and coffee",
+    "Internet (via Starlink)",
+    "Limited laundry",
+    "Scheduled transfers between Iquitos Airport and Nauta",
+    "The exclusive use of two pairs of SWAROVSKI OPTIK binoculars per room to share, for the duration of your stay",
+    "Guides' Journal with regional information and wildlife illustrations",
+    "Area map with Star Birds checklist"
+   ],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding…"
+    },
+    {
+     "name": "Fly Me to Vira Vira",
+     "endDate": "2027-06-30",
+     "exclusive": false,
+     "description": "Choose how you wish to travel and save Enjoy exclusive discounts on your helicopter or private charter flight when staying at &Beyond Vira Vira. Explore the picturesque Araucanía region of Chile’s Lake District and save when you stay 4+ nights in a villa at &Beyond Vira Vira. Immersed on an expansive, forested estate with 822 m (2,696 ft) of river frontage and breathtaking views of the snow-capped Villarica Volcano, Vira Vira is themed in beauty. And now you can save when choosing how you wish to travel to this extraordinary retreat. What benefits can you expect from this offer?Savings…"
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Iquitos"
+    },
+    {
+     "d": 1,
+     "n": "Nauta"
+    },
+    {
+     "d": 2,
+     "n": "Ucayali River"
+    },
+    {
+     "d": 5,
+     "n": "Marañón River"
+    },
+    {
+     "d": 1,
+     "n": "Nauta"
+    },
+    {
+     "d": 5,
+     "n": "Marañón River"
+    }
+   ],
+   "route": "18655480"
+  },
+  {
+   "id": "18655479",
+   "n": "Ultimate Peruvian Amazon Expedition: Low Water Season",
+   "b": "andbeyond",
+   "g": [],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18655479/ultimateperuvianamazonexpeditionlowwaterseason",
+   "days": 8,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15444065_2_220.webp",
+   "from": "Iquitos, Peru",
+   "to": "Marañón River, Peru",
+   "country": "Peru",
+   "world": false,
+   "mks": [
+    "2026-11",
+    "2026-12",
+    "2027-01",
+    "2027-02",
+    "2027-03",
+    "2027-04",
+    "2027-05",
+    "2027-06",
+    "2027-07",
+    "2027-08",
+    "2027-09",
+    "2027-10",
+    "2027-11",
+    "2027-12"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 13 Nov 2026 - 31 Dec 2027",
+   "description": "The journey at a glance Guests can discover the Peruvian Amazon during the low water season on board the &Beyond Amazon Explorer. This itinerary can be tailored as a 7-night, 4-night or 3-night adventure. The journey begins with a warm reception in the vibrant city of Iquitos, where the spirit of the Amazon welcomes guests. From there, guests take a scenic transfer to Nauta, the gateway to the world’s most extraordinary rainforest, where their luxurious &Beyond Amazon Explorer yacht awaits. Over the next few days, guests embark on an array of thrilling excursions and captivating discoveries, unveiling the breathtaking beauty and untamed wonders of the Peruvian Amazon. Guests set off on…",
+   "included": [
+    "Accommodation on the yacht",
+    "Three meals daily, soft drinks, house wines, local brand spirits and beers, and tea and coffee",
+    "Internet (via Starlink)",
+    "Limited laundry",
+    "Scheduled transfers between Iquitos Airport and Nauta",
+    "The exclusive use of two pairs of SWAROVSKI OPTIK binoculars per room to share, for the duration of your stay",
+    "Guides' Journal with regional information and wildlife illustrations",
+    "Area map with Star Birds checklist"
+   ],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding…"
+    },
+    {
+     "name": "Fly Me to Vira Vira",
+     "endDate": "2027-06-30",
+     "exclusive": false,
+     "description": "Choose how you wish to travel and save Enjoy exclusive discounts on your helicopter or private charter flight when staying at &Beyond Vira Vira. Explore the picturesque Araucanía region of Chile’s Lake District and save when you stay 4+ nights in a villa at &Beyond Vira Vira. Immersed on an expansive, forested estate with 822 m (2,696 ft) of river frontage and breathtaking views of the snow-capped Villarica Volcano, Vira Vira is themed in beauty. And now you can save when choosing how you wish to travel to this extraordinary retreat. What benefits can you expect from this offer?Savings…"
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Iquitos"
+    },
+    {
+     "d": 2,
+     "n": "Ucayali River"
+    },
+    {
+     "d": 4,
+     "n": "Marañón River"
+    },
+    {
+     "d": 2,
+     "n": "Ucayali River"
+    },
+    {
+     "d": 4,
+     "n": "Marañón River"
+    },
+    {
+     "d": 5,
+     "n": "Nauta"
+    },
+    {
+     "d": 1,
+     "n": "Iquitos"
+    },
+    {
+     "d": 4,
+     "n": "Marañón River"
+    }
+   ],
+   "route": "18655479"
   },
   {
    "id": "18587818",
