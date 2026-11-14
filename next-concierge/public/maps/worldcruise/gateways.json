@@ -5,8 +5,8 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 333,
-  "journeysWithStays": 329,
+  "journeysTotal": 331,
+  "journeysWithStays": 327,
   "journeysWithHouse": 0,
   "gateways": 55,
   "hotels": 181,
@@ -1839,82 +1839,6 @@
    ],
    "promo": 0
   },
-  "h_02108": {
-   "n": "The Peninsula Istanbul",
-   "house": "The Peninsula",
-   "aff": null,
-   "city": "Istanbul",
-   "country": "Türkiye",
-   "ll": [
-    41.023,
-    28.9779
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16403612_2_0.webp",
-   "rooms": 177,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02182": {
-   "n": "The Ritz-Carlton, Istanbul",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Istanbul",
-   "country": "Türkiye",
-   "ll": [
-    41.0402,
-    28.9926
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3823_2_0.webp",
-   "rooms": 239,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02259": {
-   "n": "The St. Regis Istanbul",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Istanbul",
-   "country": "Türkiye",
-   "ll": [
-    41.0478,
-    28.9928
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15871840_2_14.webp",
-   "rooms": 118,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01502": {
-   "n": "Park Hyatt Istanbul - Macka Palas",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Istanbul",
-   "country": "Türkiye",
-   "ll": [
-    41.0551,
-    28.9829
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5300660_2_0.webp",
-   "rooms": 90,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
   "h_02130": {
    "n": "The Reykjavik EDITION",
    "house": "Luxury Group at Marriott International",
@@ -3262,6 +3186,82 @@
    ],
    "promo": 0
   },
+  "h_02108": {
+   "n": "The Peninsula Istanbul",
+   "house": "The Peninsula",
+   "aff": null,
+   "city": "Istanbul",
+   "country": "Türkiye",
+   "ll": [
+    41.023,
+    28.9779
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16403612_2_0.webp",
+   "rooms": 177,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02182": {
+   "n": "The Ritz-Carlton, Istanbul",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Istanbul",
+   "country": "Türkiye",
+   "ll": [
+    41.0402,
+    28.9926
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3823_2_0.webp",
+   "rooms": 239,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02259": {
+   "n": "The St. Regis Istanbul",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Istanbul",
+   "country": "Türkiye",
+   "ll": [
+    41.0478,
+    28.9928
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15871840_2_14.webp",
+   "rooms": 118,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01502": {
+   "n": "Park Hyatt Istanbul - Macka Palas",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Istanbul",
+   "country": "Türkiye",
+   "ll": [
+    41.0551,
+    28.9829
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/5300660_2_0.webp",
+   "rooms": 90,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
   "h_02077": {
    "n": "The Oberoi Beach Resort, Mauritius",
    "house": "The Oberoi Group",
@@ -4115,31 +4115,6 @@
     ]
    ]
   },
-  "Istanbul, Türkiye": {
-   "n": "Istanbul, Türkiye",
-   "ll": [
-    41.0138,
-    28.9497
-   ],
-   "h": [
-    [
-     "h_02108",
-     2.6
-    ],
-    [
-     "h_02182",
-     4.6
-    ],
-    [
-     "h_02259",
-     5.2
-    ],
-    [
-     "h_01502",
-     5.4
-    ]
-   ]
-  },
   "Reykjavík, Iceland": {
    "n": "Reykjavík, Iceland",
    "ll": [
@@ -4622,6 +4597,31 @@
     ]
    ]
   },
+  "Istanbul, Türkiye": {
+   "n": "Istanbul, Türkiye",
+   "ll": [
+    41.0138,
+    28.9497
+   ],
+   "h": [
+    [
+     "h_02108",
+     2.6
+    ],
+    [
+     "h_02182",
+     4.6
+    ],
+    [
+     "h_02259",
+     5.2
+    ],
+    [
+     "h_01502",
+     5.4
+    ]
+   ]
+  },
   "Port Louis, Mauritius": {
    "n": "Port Louis, Mauritius",
    "ll": [
@@ -4822,10 +4822,6 @@
   "18081295": {
    "pre": "Sydney, Australia",
    "post": "Singapore, Singapore"
-  },
-  "18081321": {
-   "pre": "Hong Kong, China",
-   "post": "Istanbul, Türkiye"
   },
   "18081325": {
    "pre": null,
@@ -5154,10 +5150,6 @@
   "18300440": {
    "pre": null,
    "post": "Ushuaia, Argentina"
-  },
-  "18300512": {
-   "pre": "Miami, FL, United States",
-   "post": "Fort Lauderdale, FL, United States"
   },
   "18300570": {
    "pre": "Miami, FL, United States",

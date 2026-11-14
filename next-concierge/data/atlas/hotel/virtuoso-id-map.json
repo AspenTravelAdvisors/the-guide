@@ -1,10 +1,10 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-11-13T17:07:03.327Z",
+  "generated": "2026-11-14T15:43:16.808Z",
   "feedSynced": null,
   "localCount": 2475,
-  "feedCount": 2093,
+  "feedCount": 2097,
   "matchedCount": 2328
  },
  "overrides": {
@@ -26447,6 +26447,12 @@
    "country": "Canada"
   },
   {
+   "vid": "18657946",
+   "name": "Fairmont La Hacienda Costa Del Sol",
+   "city": "San Roque",
+   "country": "Spain"
+  },
+  {
    "vid": "16675647",
    "name": "Fairmont Singapore South Tower",
    "city": "Singapore",
@@ -26825,6 +26831,12 @@
    "country": "Italy"
   },
   {
+   "vid": "18648315",
+   "name": "Petunia Ibiza, a Beaumier Hotel",
+   "city": "San José",
+   "country": "Spain"
+  },
+  {
    "vid": "18516130",
    "name": "Pillows Grand Boutique Hotel Maurits at the Park",
    "city": "Amsterdam",
@@ -26931,6 +26943,12 @@
    "name": "Shangri-La The Marina Cairns",
    "city": "Cairns",
    "country": "Australia"
+  },
+  {
+   "vid": "18657949",
+   "name": "Shebara - A Virtuoso Preview Property",
+   "city": "Hanak",
+   "country": "Saudi Arabia"
   },
   {
    "vid": "17905493",
@@ -27128,6 +27146,12 @@
    "vid": "18376874",
    "name": "The Tides Inn",
    "city": "Irvington",
+   "country": "United States"
+  },
+  {
+   "vid": "18657921",
+   "name": "The Vineta",
+   "city": "Palm Beach",
    "country": "United States"
   },
   {

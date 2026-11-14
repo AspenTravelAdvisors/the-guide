@@ -5,8 +5,8 @@
   "radiusKm": 25,
   "lodgesInCategory": 68,
   "lodgesInSafariCountries": 66,
-  "journeysWithCamps": 267,
-  "journeysTotal": 519,
+  "journeysWithCamps": 266,
+  "journeysTotal": 516,
   "campsMatched": 42
  },
  "radiusKm": 25,
@@ -2764,26 +2764,6 @@
     "stop": "Maasai Mara National Reserve",
     "day": 5,
     "km": 23.2
-   }
-  ],
-  "18488737": [
-   {
-    "id": "h_02374",
-    "stop": "Livingstone",
-    "day": 2,
-    "km": 10.1
-   },
-   {
-    "id": "h_01349",
-    "stop": "Livingstone",
-    "day": 2,
-    "km": 19.8
-   },
-   {
-    "id": "h_02484",
-    "stop": "Okavango Delta",
-    "day": 4,
-    "km": 19.9
    }
   ],
   "18505877": [

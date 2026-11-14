@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4419,
-  "journeysWithStays": 3707,
+  "journeysTotal": 4414,
+  "journeysWithStays": 3703,
   "journeysWithHouse": 0,
   "gateways": 106,
   "hotels": 281,
@@ -15,18 +15,18 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00877": {
-   "n": "Hotel Kamp",
+  "h_00724": {
+   "n": "Gran Hotel Miramar",
    "house": null,
    "aff": null,
-   "city": "Helsinki",
-   "country": "Finland",
+   "city": "Málaga",
+   "country": "Spain",
    "ll": [
-    60.1679,
-    24.9472
+    36.7207,
+    -4.40818
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15422578_2_0.webp",
-   "rooms": 179,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0.webp",
+   "rooms": 200,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -34,62 +34,24 @@
    ],
    "promo": 0
   },
-  "h_v18535557": {
-   "n": "Waldorf Astoria Helsinki",
-   "house": "Hilton Luxury Brands",
+  "h_01124": {
+   "n": "La Zambra Resort",
+   "house": "Hyatt Hotels Corporation",
    "aff": null,
-   "city": "Helsinki",
-   "country": "Finland",
+   "city": "Málaga",
+   "country": "Spain",
    "ll": [
-    60.1738,
-    24.9567
+    36.553,
+    -4.66678
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0.webp",
-   "rooms": 116,
-   "perks": [
-    "Daily breakfast",
-    "Property credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01293": {
-   "n": "Mashpi Lodge",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.223252,
-    -78.5141
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0.webp",
-   "rooms": 24,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00347": {
-   "n": "Casa Gangotena",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.194181,
-    -78.4532
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
-   "rooms": 30,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
+   "rooms": 196,
    "perks": [
     "Daily breakfast",
     "Room upgrade",
     "Early check-in"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00055": {
    "n": "Alvear Palace Hotel",
@@ -167,139 +129,6 @@
    ],
    "promo": 0
   },
-  "h_01284": {
-   "n": "Mango House Seychelles, LXR Hotels & Resorts",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Victoria",
-   "country": "Seychelles",
-   "ll": [
-    -4.7402,
-    55.4686
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16201061_2_8.webp",
-   "rooms": 41,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00400": {
-   "n": "Cheval Blanc Seychelles",
-   "house": "Cheval Blanc by LVMH Hotel Management",
-   "aff": null,
-   "city": "Takamaka",
-   "country": "Seychelles",
-   "ll": [
-    -4.784,
-    55.4993
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18103339_2_0.webp",
-   "rooms": 52,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01398": {
-   "n": "North Island",
-   "house": null,
-   "aff": null,
-   "city": "North Island ",
-   "country": "Seychelles",
-   "ll": [
-    -4.39496,
-    55.2453
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3747_2_27.webp",
-   "rooms": 11,
-   "perks": [
-    "Daily breakfast",
-    "$200 credit",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00597": {
-   "n": "Fairmont Nile City, Cairo",
-   "house": "Accor",
-   "aff": null,
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.0417,
-    31.2314
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18101431_2_0.webp",
-   "rooms": 563,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00643": {
-   "n": "Four Seasons Hotel Cairo at Nile Plaza",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.0361,
-    31.2284
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4242_2_0.webp",
-   "rooms": 371,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_00644": {
-   "n": "Four Seasons Hotel Cairo, at The First Residence",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Cairo",
-   "country": "Egypt",
-   "ll": [
-    30.09,
-    31.2072
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4198_2_0.webp",
-   "rooms": 262,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_00709": {
-   "n": "Giza Palace",
-   "house": null,
-   "aff": null,
-   "city": "Giza",
-   "country": "Egypt",
-   "ll": [
-    30.0253,
-    31.0171
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16699191_2_0.webp",
-   "rooms": 560,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_01912": {
    "n": "The Brando",
    "house": null,
@@ -337,101 +166,6 @@
     "Room upgrade"
    ],
    "promo": 0
-  },
-  "h_00464": {
-   "n": "Country Club Lima Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Lima",
-   "country": "Peru",
-   "ll": [
-    -12.098,
-    -77.0488
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4662_2_8.webp",
-   "rooms": 83,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_v18394870": {
-   "n": "Hotel Real InterContinental Lima Miraflores",
-   "house": "IHG Hotels & Resorts",
-   "aff": null,
-   "city": "Lima",
-   "country": "Peru",
-   "ll": [
-    -12.1329,
-    -77.0293
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18385799_2_47.webp",
-   "rooms": 321,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01317": {
-   "n": "Miraflores Park, A Belmond Hotel, Lima",
-   "house": "Belmond",
-   "aff": "Belmond",
-   "city": "Lima",
-   "country": "Peru",
-   "ll": [
-    -12.1353,
-    -77.0273
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4636_2_0.webp",
-   "rooms": 89,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 0
-  },
-  "h_00724": {
-   "n": "Gran Hotel Miramar",
-   "house": null,
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.7207,
-    -4.40818
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0.webp",
-   "rooms": 200,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01124": {
-   "n": "La Zambra Resort",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.553,
-    -4.66678
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
-   "rooms": 196,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 1
   },
   "h_01667": {
    "n": "Rosselli AX Privilege",
@@ -623,6 +357,101 @@
    ],
    "promo": 0
   },
+  "h_01293": {
+   "n": "Mashpi Lodge",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.223252,
+    -78.5141
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0.webp",
+   "rooms": 24,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00347": {
+   "n": "Casa Gangotena",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.194181,
+    -78.4532
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
+   "rooms": 30,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00464": {
+   "n": "Country Club Lima Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.098,
+    -77.0488
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4662_2_8.webp",
+   "rooms": 83,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_v18394870": {
+   "n": "Hotel Real InterContinental Lima Miraflores",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.1329,
+    -77.0293
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18385799_2_47.webp",
+   "rooms": 321,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01317": {
+   "n": "Miraflores Park, A Belmond Hotel, Lima",
+   "house": "Belmond",
+   "aff": "Belmond",
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.1353,
+    -77.0273
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4636_2_0.webp",
+   "rooms": 89,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
   "h_01553": {
    "n": "Pikaia Lodge",
    "house": null,
@@ -717,6 +546,101 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_01284": {
+   "n": "Mango House Seychelles, LXR Hotels & Resorts",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Victoria",
+   "country": "Seychelles",
+   "ll": [
+    -4.7402,
+    55.4686
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16201061_2_8.webp",
+   "rooms": 41,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00400": {
+   "n": "Cheval Blanc Seychelles",
+   "house": "Cheval Blanc by LVMH Hotel Management",
+   "aff": null,
+   "city": "Takamaka",
+   "country": "Seychelles",
+   "ll": [
+    -4.784,
+    55.4993
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18103339_2_0.webp",
+   "rooms": 52,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01398": {
+   "n": "North Island",
+   "house": null,
+   "aff": null,
+   "city": "North Island ",
+   "country": "Seychelles",
+   "ll": [
+    -4.39496,
+    55.2453
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3747_2_27.webp",
+   "rooms": 11,
+   "perks": [
+    "Daily breakfast",
+    "$200 credit",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00877": {
+   "n": "Hotel Kamp",
+   "house": null,
+   "aff": null,
+   "city": "Helsinki",
+   "country": "Finland",
+   "ll": [
+    60.1679,
+    24.9472
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15422578_2_0.webp",
+   "rooms": 179,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v18535557": {
+   "n": "Waldorf Astoria Helsinki",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Helsinki",
+   "country": "Finland",
+   "ll": [
+    60.1738,
+    24.9567
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0.webp",
+   "rooms": 116,
+   "perks": [
+    "Daily breakfast",
+    "Property credit",
+    "Room upgrade"
+   ],
+   "promo": 1
   },
   "h_02170": {
    "n": "The Ritz-Carlton, Bali",
@@ -888,6 +812,82 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00597": {
+   "n": "Fairmont Nile City, Cairo",
+   "house": "Accor",
+   "aff": null,
+   "city": "Cairo",
+   "country": "Egypt",
+   "ll": [
+    30.0417,
+    31.2314
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18101431_2_0.webp",
+   "rooms": 563,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00643": {
+   "n": "Four Seasons Hotel Cairo at Nile Plaza",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Cairo",
+   "country": "Egypt",
+   "ll": [
+    30.0361,
+    31.2284
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4242_2_0.webp",
+   "rooms": 371,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00644": {
+   "n": "Four Seasons Hotel Cairo, at The First Residence",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Cairo",
+   "country": "Egypt",
+   "ll": [
+    30.09,
+    31.2072
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4198_2_0.webp",
+   "rooms": 262,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00709": {
+   "n": "Giza Palace",
+   "house": null,
+   "aff": null,
+   "city": "Giza",
+   "country": "Egypt",
+   "ll": [
+    30.0253,
+    31.0171
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16699191_2_0.webp",
+   "rooms": 560,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_02459": {
    "n": "Waldorf Astoria Panama",
@@ -1430,7 +1430,7 @@
     -61.060496
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11223735_2_0.webp",
-   "rooms": 130,
+   "rooms": 131,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -5353,37 +5353,20 @@
   }
  },
  "GATES": {
-  "Helsinki, Finland": {
-   "n": "Helsinki, Finland",
+  "Málaga, Spain": {
+   "n": "Málaga, Spain",
    "ll": [
-    60.1712,
-    24.9326
+    36.7167,
+    -4.4167
    ],
    "h": [
     [
-     "h_00877",
+     "h_00724",
      0.9
     ],
     [
-     "h_v18535557",
-     1.4
-    ]
-   ]
-  },
-  "Quito, Ecuador": {
-   "n": "Quito, Ecuador",
-   "ll": [
-    -0.2167,
-    -78.5
-   ],
-   "h": [
-    [
-     "h_01293",
-     1.7
-    ],
-    [
-     "h_00347",
-     5.8
+     "h_01124",
+     28.8
     ]
    ]
   },
@@ -5412,52 +5395,6 @@
     ]
    ]
   },
-  "L'Escale Marina, Mahé, Seychelles, Seychelles": {
-   "n": "L'Escale Marina, Mahé, Seychelles, Seychelles",
-   "ll": [
-    -4.65,
-    55.475
-   ],
-   "h": [
-    [
-     "h_01284",
-     10.1
-    ],
-    [
-     "h_00400",
-     15.1
-    ],
-    [
-     "h_01398",
-     38.1
-    ]
-   ]
-  },
-  "Cairo, Egypt": {
-   "n": "Cairo, Egypt",
-   "ll": [
-    30.05,
-    31.25
-   ],
-   "h": [
-    [
-     "h_00597",
-     2
-    ],
-    [
-     "h_00643",
-     2.6
-    ],
-    [
-     "h_00644",
-     6.1
-    ],
-    [
-     "h_00709",
-     22.6
-    ]
-   ]
-  },
   "Papeete, French Polynesia": {
    "n": "Papeete, French Polynesia",
    "ll": [
@@ -5472,44 +5409,6 @@
     [
      "h_01811",
      25.1
-    ]
-   ]
-  },
-  "Lima, Peru": {
-   "n": "Lima, Peru",
-   "ll": [
-    -12.05,
-    -77.05
-   ],
-   "h": [
-    [
-     "h_00464",
-     5.3
-    ],
-    [
-     "h_v18394870",
-     9.5
-    ],
-    [
-     "h_01317",
-     9.8
-    ]
-   ]
-  },
-  "Málaga, Spain": {
-   "n": "Málaga, Spain",
-   "ll": [
-    36.7167,
-    -4.4167
-   ],
-   "h": [
-    [
-     "h_00724",
-     0.9
-    ],
-    [
-     "h_01124",
-     28.8
     ]
    ]
   },
@@ -5589,6 +5488,44 @@
     ]
    ]
   },
+  "Quito, Ecuador": {
+   "n": "Quito, Ecuador",
+   "ll": [
+    -0.2167,
+    -78.5
+   ],
+   "h": [
+    [
+     "h_01293",
+     1.7
+    ],
+    [
+     "h_00347",
+     5.8
+    ]
+   ]
+  },
+  "Lima, Peru": {
+   "n": "Lima, Peru",
+   "ll": [
+    -12.05,
+    -77.05
+   ],
+   "h": [
+    [
+     "h_00464",
+     5.3
+    ],
+    [
+     "h_v18394870",
+     9.5
+    ],
+    [
+     "h_01317",
+     9.8
+    ]
+   ]
+  },
   "Baltra Island, Ecuador": {
    "n": "Baltra Island, Ecuador",
    "ll": [
@@ -5624,6 +5561,44 @@
     [
      "h_01866",
      11.6
+    ]
+   ]
+  },
+  "L'Escale Marina, Mahé, Seychelles, Seychelles": {
+   "n": "L'Escale Marina, Mahé, Seychelles, Seychelles",
+   "ll": [
+    -4.65,
+    55.475
+   ],
+   "h": [
+    [
+     "h_01284",
+     10.1
+    ],
+    [
+     "h_00400",
+     15.1
+    ],
+    [
+     "h_01398",
+     38.1
+    ]
+   ]
+  },
+  "Helsinki, Finland": {
+   "n": "Helsinki, Finland",
+   "ll": [
+    60.1712,
+    24.9326
+   ],
+   "h": [
+    [
+     "h_00877",
+     0.9
+    ],
+    [
+     "h_v18535557",
+     1.4
     ]
    ]
   },
@@ -5696,6 +5671,31 @@
     [
      "h_01525",
      2.1
+    ]
+   ]
+  },
+  "Cairo, Egypt": {
+   "n": "Cairo, Egypt",
+   "ll": [
+    30.05,
+    31.25
+   ],
+   "h": [
+    [
+     "h_00597",
+     2
+    ],
+    [
+     "h_00643",
+     2.6
+    ],
+    [
+     "h_00644",
+     6.1
+    ],
+    [
+     "h_00709",
+     22.6
     ]
    ]
   },
@@ -7853,10 +7853,6 @@
    "pre": "San Jose, Costa Rica",
    "post": "San Jose, Costa Rica"
   },
-  "16845794": {
-   "pre": "Cairo, Egypt",
-   "post": "Cairo, Egypt"
-  },
   "16845803": {
    "pre": "Panama City, Panama",
    "post": "Panama City, Panama"
@@ -8157,10 +8153,6 @@
    "pre": "Puerto Natales, Chile",
    "post": "Puerto Natales, Chile"
   },
-  "16852226": {
-   "pre": "Quito, Ecuador",
-   "post": "Quito, Ecuador"
-  },
   "16852227": {
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
@@ -8304,10 +8296,6 @@
   "16855280": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
-  },
-  "16857870": {
-   "pre": "Lima, Peru",
-   "post": "Lima, Peru"
   },
   "16857871": {
    "pre": "Lima, Peru",
@@ -8637,10 +8625,6 @@
    "pre": "Helsinki, Finland",
    "post": "Helsinki, Finland"
   },
-  "18047382": {
-   "pre": null,
-   "post": "Helsinki, Finland"
-  },
   "18047383": {
    "pre": "Montreal, QC, Canada",
    "post": null
@@ -8689,6 +8673,10 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Santiago, Chile"
   },
+  "18048907": {
+   "pre": "Ushuaia, Argentina",
+   "post": "Ushuaia, Argentina"
+  },
   "18048976": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -8723,10 +8711,6 @@
   },
   "18049042": {
    "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
-  "18049054": {
-   "pre": null,
    "post": "Ushuaia, Argentina"
   },
   "18049076": {
@@ -14017,10 +14001,6 @@
    "pre": null,
    "post": "Glasgow, United Kingdom"
   },
-  "18392754": {
-   "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
-   "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
-  },
   "18392755": {
    "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
    "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
@@ -14054,10 +14034,6 @@
    "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
   },
   "18392764": {
-   "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
-   "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
-  },
-  "18392767": {
    "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
    "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
   },
@@ -15437,10 +15413,6 @@
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
   },
-  "18486280": {
-   "pre": "Papeete, French Polynesia",
-   "post": "Papeete, French Polynesia"
-  },
   "18486281": {
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
@@ -15934,10 +15906,6 @@
    "post": "Buenos Aires, Argentina"
   },
   "18492303": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
-  },
-  "18492307": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
@@ -22272,6 +22240,22 @@
   "18649024": {
    "pre": "Buenos Aires, Argentina",
    "post": "Rio De Janeiro, Brazil"
+  },
+  "18649273": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
+  "18649275": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
+  "18649276": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
+  },
+  "18649278": {
+   "pre": "San Jose, Costa Rica",
+   "post": "San Jose, Costa Rica"
   },
   "18649280": {
    "pre": null,
