@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4414,
-  "journeysWithStays": 3703,
+  "journeysTotal": 4413,
+  "journeysWithStays": 3702,
   "journeysWithHouse": 0,
   "gateways": 106,
   "hotels": 281,
@@ -122,44 +122,6 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94.webp",
    "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01912": {
-   "n": "The Brando",
-   "house": null,
-   "aff": null,
-   "city": "Arue",
-   "country": "French Polynesia",
-   "ll": [
-    -17.5332,
-    -149.512
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14408912_2_43.webp",
-   "rooms": 36,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
-  "h_01811": {
-   "n": "Sofitel Kia Ora Moorea Beach Resort",
-   "house": "Accor",
-   "aff": null,
-   "city": "Moorea",
-   "country": "French Polynesia",
-   "ll": [
-    -17.4831,
-    -149.798
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395455_2_0.webp",
-   "rooms": 113,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -468,6 +430,44 @@
     "Daily breakfast",
     "Room upgrade",
     "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_01912": {
+   "n": "The Brando",
+   "house": null,
+   "aff": null,
+   "city": "Arue",
+   "country": "French Polynesia",
+   "ll": [
+    -17.5332,
+    -149.512
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14408912_2_43.webp",
+   "rooms": 36,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Early check-in"
+   ],
+   "promo": 1
+  },
+  "h_01811": {
+   "n": "Sofitel Kia Ora Moorea Beach Resort",
+   "house": "Accor",
+   "aff": null,
+   "city": "Moorea",
+   "country": "French Polynesia",
+   "ll": [
+    -17.4831,
+    -149.798
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395455_2_0.webp",
+   "rooms": 113,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
    ],
    "promo": 0
   },
@@ -5395,23 +5395,6 @@
     ]
    ]
   },
-  "Papeete, French Polynesia": {
-   "n": "Papeete, French Polynesia",
-   "ll": [
-    -17.5333,
-    -149.567
-   ],
-   "h": [
-    [
-     "h_01912",
-     5.8
-    ],
-    [
-     "h_01811",
-     25.1
-    ]
-   ]
-  },
   "Valletta, Malta": {
    "n": "Valletta, Malta",
    "ll": [
@@ -5536,6 +5519,23 @@
     [
      "h_01553",
      22.5
+    ]
+   ]
+  },
+  "Papeete, French Polynesia": {
+   "n": "Papeete, French Polynesia",
+   "ll": [
+    -17.5333,
+    -149.567
+   ],
+   "h": [
+    [
+     "h_01912",
+     5.8
+    ],
+    [
+     "h_01811",
+     25.1
     ]
    ]
   },
@@ -9400,10 +9400,6 @@
   "18092151": {
    "pre": "Lautoka, Fiji",
    "post": null
-  },
-  "18093637": {
-   "pre": "Papeete, French Polynesia",
-   "post": "Papeete, French Polynesia"
   },
   "18104319": {
    "pre": "Cabo San Lucas, Mexico",

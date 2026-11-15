@@ -6957,80 +6957,6 @@
     ]
    }
   ],
-  "18295643": [
-   {
-    "n": "Arusha",
-    "r": "EASTAFRICA",
-    "ll": [
-     -3.3678,
-     36.6333
-    ]
-   },
-   {
-    "n": "Ngorongoro",
-    "r": "EASTAFRICA",
-    "ll": [
-     -3.15,
-     35.475
-    ]
-   },
-   {
-    "n": "Serengeti",
-    "r": "EASTAFRICA",
-    "ll": [
-     -2.3308,
-     34.8333
-    ]
-   },
-   {
-    "n": "Samburu National Reserve",
-    "r": "EASTAFRICA",
-    "ll": [
-     0.6181,
-     37.53
-    ]
-   },
-   {
-    "n": "Amboseli National Park",
-    "r": "EASTAFRICA",
-    "ll": [
-     -2.6414,
-     37.2481
-    ]
-   },
-   {
-    "n": "Nanyuki",
-    "r": "EASTAFRICA",
-    "ll": [
-     0.0167,
-     37.0667
-    ]
-   },
-   {
-    "n": "Masai Mara National Reserve",
-    "r": "EASTAFRICA",
-    "ll": [
-     -1.4999,
-     35.1527
-    ]
-   },
-   {
-    "n": "Kigali",
-    "r": "GREATAPES",
-    "ll": [
-     -1.9536,
-     30.0606
-    ]
-   },
-   {
-    "n": "Volcanoes National Park",
-    "r": "GREATAPES",
-    "ll": [
-     -1.5196,
-     29.4497
-    ]
-   }
-  ],
   "18301680": [
    {
     "n": "Ninh Thuân",
@@ -9341,6 +9267,40 @@
     ]
    }
   ],
+  "18361539": [
+   {
+    "n": "Beijing",
+    "r": null,
+    "ll": [
+     39.9289,
+     116.388
+    ]
+   },
+   {
+    "n": "Xian",
+    "r": null,
+    "ll": [
+     40.2933,
+     117.645
+    ]
+   },
+   {
+    "n": "Chengdu",
+    "r": null,
+    "ll": [
+     30.6667,
+     104.067
+    ]
+   },
+   {
+    "n": "Shanghai",
+    "r": null,
+    "ll": [
+     31.2222,
+     121.458
+    ]
+   }
+  ],
   "18362041": [
    {
     "n": "Johannesburg",
@@ -9380,56 +9340,6 @@
     "ll": [
      -26.2,
      28.0833
-    ]
-   }
-  ],
-  "18363151": [
-   {
-    "n": "Guayaquil",
-    "r": "GALAPAGOS",
-    "ll": [
-     -2.1667,
-     -79.9
-    ]
-   },
-   {
-    "n": "Lima",
-    "r": null,
-    "ll": [
-     -12.05,
-     -77.05
-    ]
-   },
-   {
-    "n": "Sacred Valley",
-    "r": "AMAZONIA",
-    "ll": [
-     -13.3333,
-     -72.0833
-    ]
-   },
-   {
-    "n": "Machu Picchu",
-    "r": "AMAZONIA",
-    "ll": [
-     -13.0132,
-     -72.5486
-    ]
-   },
-   {
-    "n": "Cusco",
-    "r": "AMAZONIA",
-    "ll": [
-     -13.5183,
-     -71.9781
-    ]
-   },
-   {
-    "n": "Lima",
-    "r": null,
-    "ll": [
-     -12.05,
-     -77.05
     ]
    }
   ],
@@ -9596,6 +9506,16 @@
    }
   ],
   "18363931": [
+   {
+    "n": "Lima",
+    "r": null,
+    "ll": [
+     -12.05,
+     -77.05
+    ]
+   }
+  ],
+  "18363952": [
    {
     "n": "Lima",
     "r": null,
@@ -12014,64 +11934,6 @@
     "ll": [
      -26.2,
      28.0833
-    ]
-   }
-  ],
-  "18514207": [
-   {
-    "n": "Quito",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.2167,
-     -78.5
-    ]
-   },
-   {
-    "n": "Espanola Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -1.3666,
-     -89.6833
-    ]
-   },
-   {
-    "n": "Floreana Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -1.2975,
-     -90.4342
-    ]
-   },
-   {
-    "n": "Santa Cruz Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.622,
-     -90.3551
-    ]
-   },
-   {
-    "n": "Bartolome Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.284,
-     -90.548
-    ]
-   },
-   {
-    "n": "South Plaza Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.5843,
-     -90.1636
-    ]
-   },
-   {
-    "n": "Quito",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.2167,
-     -78.5
     ]
    }
   ],
@@ -22139,6 +22001,41 @@
    "route": "18363931"
   },
   {
+   "id": "18363952",
+   "n": "A&K Sanctuary Peruvian Amazon Cruise (6 Days)",
+   "b": "ak",
+   "g": [],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18363952/aksanctuaryperuvianamazoncruise6days",
+   "days": 6,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15690947_2_0.webp",
+   "from": "Lima, Peru",
+   "to": "Lima, Peru",
+   "country": "Peru",
+   "world": false,
+   "mks": [
+    "2026-11",
+    "2026-12"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures Now Through: 23 Dec 2026",
+   "description": "Covering 60 percent of the country, Peru’s Amazonian region is a magnet for wildlife lovers. Sleepy backwaters, lush islands and deep jungle make up the Pacaya-Samiria National Reserve, a place of exceptional beauty and biodiversity and Peru’s largest protected area at 8,000 square miles. From June to November is low-water season. Birders and wildlife enthusiasts will leap at the chance to venture into the habitat of some of the rarest and most iconic species on Earth, while visits to local communities of ribereños, or river people, provide insight into local culture and village life. In high-water season, from December to May, the Amazon River and its tributaries (the Marañón and Ucayali)…",
+   "included": [
+    "English-Speaking Local Guides",
+    "Airport Meet and Greet",
+    "Entrance Fees and Taxes",
+    "24/7 A&K On-Call Support",
+    "Internal Air Included (Economy Class, AU$610 value) Lima/Iquitos/Lima"
+   ],
+   "promotions": [],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Lima"
+    }
+   ],
+   "route": "18363952"
+  },
+  {
    "id": "18338097",
    "n": "A&K Sanctuary Safari in Kenya",
    "b": "ak",
@@ -28473,80 +28370,6 @@
    "route": "18645736"
   },
   {
-   "id": "18514207",
-   "n": "Coastal Landscapes on a Galápagos Cruise: A Private Journey",
-   "b": "ak",
-   "g": [
-    "GALAPAGOS"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18514207/coastallandscapesonagalpagoscruiseaprivatejourney",
-   "days": 9,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_155.webp",
-   "from": "Quito, Ecuador",
-   "to": "Quito, Ecuador",
-   "country": "Ecuador",
-   "world": false,
-   "mks": [
-    "2026-11",
-    "2026-12"
-   ],
-   "onDemand": true,
-   "win": "Valid for Departures: 14 Nov 2026 - 06 Dec 2026",
-   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
-   "included": [],
-   "promotions": [
-    {
-     "name": "Air Credit Offer - TBD",
-     "endDate": "2027-01-31",
-     "exclusive": false,
-     "description": "Offer coming soon on November 12"
-    },
-    {
-     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
-     "endDate": "2027-03-31",
-     "exclusive": false,
-     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
-    },
-    {
-     "name": "Virtuoso Exclusive Benefit",
-     "endDate": "2027-12-31",
-     "exclusive": false,
-     "description": "$200 USD Shipboard Credit Per Stateroom Virtuoso Guests will enjoy $200 USD shipboard credit per stateroom on all voyages. Onboard credit will be applied to your shipboard account. Offer only applies to all A&K x Crystal Cruises. Offer is per stateroom, valid on new reservations and has no cash value. Must mention code VRTLEC at time of booking. Restrictions may apply; advisors, please see Booking Instructions and Supplier Terms & Conditions under the Advisor Info tab for more details."
-    }
-   ],
-   "itin": [
-    {
-     "d": 1,
-     "n": "Quito"
-    },
-    {
-     "d": 4,
-     "n": "Espanola Island"
-    },
-    {
-     "d": 5,
-     "n": "Floreana Island"
-    },
-    {
-     "d": 6,
-     "n": "Santa Cruz Island"
-    },
-    {
-     "d": 7,
-     "n": "Bartolome Island"
-    },
-    {
-     "d": 8,
-     "n": "South Plaza Island"
-    },
-    {
-     "d": 1,
-     "n": "Quito"
-    }
-   ],
-   "route": "18514207"
-  },
-  {
    "id": "18654711",
    "n": "Coastlines & Culture I Four Seasons Private Jet Experience",
    "b": "tcs",
@@ -33616,6 +33439,63 @@
     }
    ],
    "route": "15707180"
+  },
+  {
+   "id": "18361539",
+   "n": "Iconic China and a Yangtze Cruise",
+   "b": "ak",
+   "g": [],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18361539/iconicchinaandayangtzecruise",
+   "days": 13,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15690947_2_0.webp",
+   "from": "Beijing, China",
+   "to": "Shanghai, China",
+   "country": "China",
+   "world": false,
+   "mks": [
+    "2027-03",
+    "2027-04",
+    "2027-05",
+    "2027-06",
+    "2027-07",
+    "2027-08",
+    "2027-09",
+    "2027-10",
+    "2027-11"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures Now Through: 10 Nov 2027",
+   "description": "China’s more than 5,000 years of history both inform and contrast with its modern incarnation as one of the most rapidly evolving nations on earth. On this far-reaching journey that melds China’s past and present, discover historic Beijing as well as the bustling metropolis of Shanghai. Behold the iconic Terracotta Warriors, go up close to giant pandas and explore the storied Yangtze River in comfort aboard an all-balcony river cruiser.",
+   "included": [
+    "Travelling Bell Boy® Luggage Handling",
+    "English-Speaking Resident Tour Director® and Local Guides",
+    "Airport Meet and Greet with Private Transfers",
+    "Traveller’s Valet® Laundry Service",
+    "Internet Access",
+    "Entrance Fees, Taxes and All Gratuities Except Resident Tour Director",
+    "24/7 A&K On-Call Support",
+    "Internal Air Included (Economy Class, AU$1,990 value)Beijing/Xian; Yichang/Shanghai"
+   ],
+   "promotions": [],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Beijing"
+    },
+    {
+     "d": 4,
+     "n": "Xian"
+    },
+    {
+     "d": 6,
+     "n": "Chengdu"
+    },
+    {
+     "d": 10,
+     "n": "Shanghai"
+    }
+   ],
+   "route": "18361539"
   },
   {
    "id": "18614484",
@@ -39132,80 +39012,6 @@
     }
    ],
    "route": "16628900"
-  },
-  {
-   "id": "18295643",
-   "n": "Mountain Gorilla Safari: Kenya, Tanzania & Rwanda",
-   "b": "tauck",
-   "g": [
-    "EASTAFRICA",
-    "GREATAPES"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18295643/mountaingorillasafarikenyatanzaniarwanda",
-   "days": 16,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_104.webp",
-   "from": "Arusha, Tanzania",
-   "to": "-",
-   "country": "Kenya",
-   "world": false,
-   "d": "7/21/2027",
-   "r": "8/5/2027",
-   "mks": [
-    "2027-07",
-    "2027-08"
-   ],
-   "win": "Dates: 21 Jul 2027 - 05 Aug 2027",
-   "description": "From the Big Five to silverbacked Mountain Gorillas, wildlife is the draw on this 16-day safari through Kenya, Tanzania and Rwanda where game drives and mountain treks reward you with once-in-a-lifetime encounters with animals, both endemic and endangered. All departures are small groups, limited to 24 guests.",
-   "included": [
-    "From the Big Five to silverback Mountain Gorillas, wildlife is the draw on this 16-day safari in Kenya, Tanzania and Rwanda, where game drives and a special mountain trek reward with once-in-a-lifetime encounters with animals, both endemic and endangered... highlighted by an opportunity to \"meet\" a gorilla family living in the wilds of Rwanda and a visit to the Dian Fossey Gorilla Fund Museum, dedicated to saving the endangered mountain gorilla. Gorillas in your midst... Spend the last three nights of your 16-day African safari to Kenya and Tanzania in Rwanda, home to some of the last remaining mountain gorillas on Earth. Learn insights and observations about gorilla behavior at private lectures and during a visit to the Dian Fossey Gorilla Fund Museum before your once-in-a-lifetime gorilla trek begins. A private porter will carry your provisions as an expert guide leads you into the wilderness for your gorilla encounter. Once the gorillas are located, you will have the rare opportunity to watch them interact with each other - and you if they choose! Your adventure includes talks by conservationists working to save these endangered gorillas from extinction. All departures are small groups, limited to 24 guests. In Tanzania, you can find a birdwatcher's paradise in Lake Manyara and Africa's \"Garden of Eden\" in Ngorongoro Crater. The circle of life continues in the savannas of Kenya, where indescribable vignettes play out before your eyes in Maasai Mara National Reserve and Samburu National Reserve... Return to a time when the Great Rift Valley held the secrets of the origins of mankind... Observe huge herds roaming the Serengeti, the \"lost world\" of Ngorongoro Crater soar in a hot air balloon over the Maasai Mara at dawn - capped by a champagne breakfast in the bush... view rescued chimpanzees and protected black rhinos at Ol Pejeta Conservancy... attend a special barbecue dinner accompanied by Maasai cultural performance in the Serengeti... enjoy a two-night stay at fabled Fairmont Mount Kenya Safari Club... meet the weavers of a local village... travel in exclusive open-top safari vehicles, and stay in luxurious tented camps and safari lodges... Special experiences include; game drives in the national parks of Tanzania and Kenya and a guided gorilla trek in Volcanoes National Park for a one-hour gorilla family visit and a private lecture on conservation programs underway in Rwanda."
-   ],
-   "promotions": [
-    {
-     "name": "Tauck Bridges: Save When You Travel As A Group",
-     "endDate": "2027-12-31",
-     "exclusive": false,
-     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
-    }
-   ],
-   "itin": [
-    {
-     "d": 1,
-     "n": "Arusha"
-    },
-    {
-     "d": 2,
-     "n": "Ngorongoro"
-    },
-    {
-     "d": 4,
-     "n": "Serengeti"
-    },
-    {
-     "d": 7,
-     "n": "Samburu National Reserve"
-    },
-    {
-     "d": 8,
-     "n": "Amboseli National Park"
-    },
-    {
-     "d": 9,
-     "n": "Nanyuki"
-    },
-    {
-     "d": 11,
-     "n": "Masai Mara National Reserve"
-    },
-    {
-     "d": 13,
-     "n": "Kigali"
-    },
-    {
-     "d": 14,
-     "n": "Volcanoes National Park"
-    }
-   ],
-   "route": "18295643"
   },
   {
    "id": "18651071",
@@ -52241,66 +52047,6 @@
     }
    ],
    "route": "18383999"
-  },
-  {
-   "id": "18363151",
-   "n": "Wonders of the Galápagos and Machu Picchu",
-   "b": "ak",
-   "g": [
-    "GALAPAGOS",
-    "AMAZONIA"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18363151/wondersofthegalpagosandmachupicchu",
-   "days": 12,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15690947_2_0.webp",
-   "from": "Guayaquil, Ecuador",
-   "to": "Lima, Peru",
-   "country": "Ecuador",
-   "world": false,
-   "mks": [
-    "2026-11"
-   ],
-   "onDemand": true,
-   "win": "Valid for Departures Now Through: 26 Nov 2026",
-   "description": "This exciting South American adventure combines two bucket-list destinations in one incredible journey. Begin with a cruise of the Galápagos’ Northern Islands, our guides revealing giant tortoises, marine iguanas, blue-footed boobies and more with a host of exciting snorkeling, kayaking and shore excursions. Then, explore the enduring heritage of the Sacred Valley and join a site expert to discover the wonders of Machu Picchu.",
-   "included": [
-    "Travelling Bell Boy® Luggage Handling",
-    "English-Speaking Resident Tour Director® and Local Guides",
-    "Airport Meet and Greet with Private Transfers",
-    "Traveller’s Valet® Laundry Service",
-    "Internet Access",
-    "Entrance Fees, Taxes and All Gratuities Except Resident Tour Director",
-    "24/7 A&K On-Call Support",
-    "Internal Air Included (Economy Class, AU$3,060 value) Guayaquil/Baltra/Guayaquil/Lima; Lima/Cusco/Lima"
-   ],
-   "promotions": [],
-   "itin": [
-    {
-     "d": 1,
-     "n": "Guayaquil"
-    },
-    {
-     "d": 6,
-     "n": "Lima"
-    },
-    {
-     "d": 7,
-     "n": "Sacred Valley"
-    },
-    {
-     "d": 9,
-     "n": "Machu Picchu"
-    },
-    {
-     "d": 10,
-     "n": "Cusco"
-    },
-    {
-     "d": 6,
-     "n": "Lima"
-    }
-   ],
-   "route": "18363151"
   },
   {
    "id": "18487634",
