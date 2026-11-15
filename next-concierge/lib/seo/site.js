@@ -46,10 +46,18 @@ export function organizationJsonLd() {
     "@type": "TravelAgency",
     "@id": ORG_ID,
     name: AGENCY_NAME,
-    url: SITE_URL,
+    // The agency's own home, not this site. The @id stays on this domain (it
+    // names the node, not a page), but `url` is where the agency lives: an
+    // engine reconciling "Aspen Travel Advisors" across the web should land on
+    // aspentraveladvisors.com and find The Guide is something it publishes —
+    // not conclude the agency's homepage is a subdomain of its own brand. The
+    // WebSite node below carries this site's URL and points back by
+    // `publisher`.
+    url: AGENCY_URL,
     // The signals that let an answer engine reconcile "Aspen Travel Advisors"
-    // across the open web with the entity publishing this page.
-    sameAs: [AGENCY_URL, BRAND_URL, VIRTUOSO_ADVISOR_URL, FACEBOOK_URL],
+    // across the open web with the entity publishing this page. AGENCY_URL is
+    // `url` above, so it is not repeated here.
+    sameAs: [VIRTUOSO_ADVISOR_URL, FACEBOOK_URL],
     // The agency is one advisor's practice, and the profiles that carry its
     // name most often — LinkedIn, Virtuoso — are his. Naming him lets an
     // engine join "Brian Harris, Aspen Travel Advisors" on those pages back to
