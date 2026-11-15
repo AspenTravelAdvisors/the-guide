@@ -141,6 +141,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   width={40}
                   height={40}
                 />
+                {/* The light theme's mark: the same artwork with the black
+                    disc made clear and the white rings and lettering set in
+                    the wordmark's ink, so it sits on the ivory header the way
+                    the dark one sits on the black. The plane is untouched.
+                    CSS shows exactly one of the two. */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  className="brand-logo brand-logo--light"
+                  src="/aspen-advisors-mark-light.png"
+                  srcSet="/aspen-advisors-mark-light.png 1x, /aspen-advisors-mark-light@2x.png 2x"
+                  alt="Aspen Travel Advisors"
+                  width={40}
+                  height={40}
+                />
                 <span className="mark">
                   Expedition <b>Bucket List</b>
                 </span>
