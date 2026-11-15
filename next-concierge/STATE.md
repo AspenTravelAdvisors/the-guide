@@ -3114,3 +3114,32 @@ import it, so it reaches no page, sitemap or `llms.txt`.
   for a second look at anything that may have moved since the draft date.
 - To change the cadence, edit the `release` months. A draft may link only to
   answers released before it, so keep cross-linked drafts in order.
+
+## The answers editor: /admin/answers (2026-11-15)
+
+A signed-in page for auditing and editing answer pages in place, built for the
+held drafts and every page drafted after them.
+
+- **What it edits:** the held drafts in `data/answers/scheduled.json` and the
+  pages in `data/answers/generated.js`, on `main` or on an open `answers/*`
+  release PR branch (picked at the top). The hand-written answer modules
+  (`expedition.js`, `hotels.js` and the rest) are source code and stay out of it.
+- **Saving:** each save is one commit through the GitHub contents API
+  (`lib/answers-editor/store.js`). Conflicts are checked per article: two
+  people editing different articles never collide, and a stale edit to the same
+  one is refused rather than overwriting. In development with no token it
+  writes the local files.
+- **Checks:** the preview runs the draft through the same fact engine as the
+  live page (`bodyOf` in `lib/seo/answer-facts.js`), and
+  `lib/answers-editor/check.js` applies verify:seo's per-answer checks plus the
+  drafting brief's style rules. Errors block a save; warnings do not. Full
+  verify:seo still runs in CI.
+- **Review state:** ticked claims (`checked_notes`) and `approved` are stored on
+  the held draft and printed in the release PR by `release-answers.mjs`. Merging
+  that PR is still the only way a draft goes live.
+- **Deploys:** a commit that changes only `scheduled.json` skips the Vercel build
+  (`ignoreCommand` in vercel.json) and CI (`paths-ignore`), since no page reads
+  it. Saving a live page builds and deploys as usual.
+- **Access:** `ANSWERS_EDITOR_PASSWORD` (shared, five sign-in attempts per 15
+  minutes per address, 7-day httpOnly SameSite=Strict cookie, writes also need
+  the `x-answers-editor` header) and `ANSWERS_EDITOR_GITHUB_TOKEN`. See README.

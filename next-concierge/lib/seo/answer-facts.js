@@ -118,7 +118,15 @@ export async function answerBody(slug) {
   const raw = getAnswer(slug);
   if (!raw) return null;
   supplierHref ??= (await import("@/lib/seo/suppliers")).supplierHref;
+  return bodyOf(raw);
+}
 
+/**
+ * The same, for a record that is not in the registry: the answers editor's
+ * live preview of a draft. Supplier tokens render as their words unless the
+ * supplier lookup is already loaded; that is the only difference from the page.
+ */
+export function bodyOf(raw) {
   const linked = (node) => facts.resolveDeep(node, { linked: true });
   const seen = new Set();
   const once = (text) =>

@@ -8,7 +8,10 @@
  *
  * data/answers/scheduled.json is a holding pen: finished drafts, each with the
  * month it is meant to go out (`release`, YYYY-MM) and the claims a reviewer
- * should check (`review_notes`, never published). Nothing in the pen is on the
+ * should check (`review_notes`, never published). The answers editor
+ * (/admin/answers) edits drafts in place and records which claims were ticked
+ * (`checked_notes`) and whether a draft is `approved`; both appear in the PR.
+ * Nothing in the pen is on the
  * site. This script moves the due drafts into data/answers/generated.js, where
  * the monthly workflow opens them as a pull request exactly as it does for
  * pages drafted on the day, so the same rule holds: nothing publishes until a
@@ -151,14 +154,17 @@ const body = [
   '',
   '**Nothing publishes until this PR is merged.** These were written ahead of time, so read each page for anything that has changed since its draft date (ships entering service, routes, programme rules) as well as the notes below. Edit `next-concierge/data/answers/generated.js` directly on this branch if anything needs changing.',
   '',
-  ...released.flatMap(({ page, drafted, review_notes: notes = [] }) => [
+  ...released.flatMap(({ page, drafted, approved, review_notes: notes = [], checked_notes: checked = [] }) => [
     `### ${page.question}`,
     `\`/answers/${page.slug}\` · ${page.category} · drafted ${drafted}`,
+    approved ? '**Approved in the answers editor.**' : '_Not yet approved in the answers editor._',
     '',
     `> ${page.capsule}`,
     '',
-    notes.length ? 'Check before merging:' : 'No specific claims flagged.',
-    ...notes.map(n => `- [ ] ${n}`),
+    notes.length
+      ? `Claims to check (${notes.filter(n => checked.includes(n)).length} of ${notes.length} ticked in the editor):`
+      : 'No specific claims flagged.',
+    ...notes.map(n => `- [${checked.includes(n) ? 'x' : ' '}] ${n}`),
     '',
   ]),
   ...(held.length

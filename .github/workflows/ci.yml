@@ -16,6 +16,10 @@ name: CI
 on:
   push:
     branches: [main]
+    # Saving a held draft in the answers editor commits only this file, which
+    # no page reads; the editor runs the same answer checks before it saves.
+    paths-ignore:
+      - next-concierge/data/answers/scheduled.json
   pull_request:
   workflow_dispatch:
 
