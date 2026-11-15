@@ -209,6 +209,18 @@ header.site .brand-logo {
      sit on rather than dissolve into the gradient. */
   box-shadow: 0 0 0 1px var(--line);
 }
+/* One mark per theme. The light one has a clear ground and its own dark outer
+   ring, so it needs no hairline edge. */
+header.site .brand-logo--light {
+  display: none;
+  box-shadow: none;
+}
+:root[data-theme="light"] header.site .brand-logo:not(.brand-logo--light) {
+  display: none;
+}
+:root[data-theme="light"] header.site .brand-logo--light {
+  display: block;
+}
 header.site .mark {
   font-family: var(--serif);
   font-size: 23px;

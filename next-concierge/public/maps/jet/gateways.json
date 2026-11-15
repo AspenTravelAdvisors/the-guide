@@ -5,11 +5,11 @@
   "atlas": "jet",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 124,
-  "journeysWithStays": 121,
-  "journeysWithHouse": 21,
-  "gateways": 84,
-  "hotels": 287,
+  "journeysTotal": 125,
+  "journeysWithStays": 122,
+  "journeysWithHouse": 22,
+  "gateways": 86,
+  "hotels": 296,
   "houses": [
    "Aman",
    "Four Seasons"
@@ -54,7 +54,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02012": {
    "n": "The Jefferson, Washington, DC",
@@ -635,7 +635,7 @@
     "Room upgrade",
     "Early check-in"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00397": {
    "n": "Cheval Blanc Paris",
@@ -654,7 +654,7 @@
     "Room upgrade",
     "Airport transfer"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00647": {
    "n": "Four Seasons Hotel George V",
@@ -692,7 +692,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00319": {
    "n": "Capella Kyoto",
@@ -2060,7 +2060,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01866": {
    "n": "Sunset Tower Hotel",
@@ -2193,7 +2193,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02136": {
    "n": "The Ritz-Carlton Bal Harbour, Miami",
@@ -2364,7 +2364,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v6163952": {
    "n": "The Potomac Hotel, Autograph Collection",
@@ -2611,7 +2611,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02234": {
    "n": "The Siam",
@@ -2744,7 +2744,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01824": {
    "n": "Sofitel Sydney Darling Harbour",
@@ -2839,7 +2839,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00046": {
    "n": "Alila Shanghai",
@@ -2915,7 +2915,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00086": {
    "n": "Amanyangyun",
@@ -2991,7 +2991,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02442": {
    "n": "Waldorf Astoria Bangkok",
@@ -3030,6 +3030,177 @@
     "Room upgrade"
    ],
    "promo": 1
+  },
+  "h_00669": {
+   "n": "Four Seasons Hotel San Francisco",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "San Francisco",
+   "country": "United States",
+   "ll": [
+    37.7865,
+    -122.405
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4159_2_0.webp",
+   "rooms": 277,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01883": {
+   "n": "Taj Campton Place",
+   "house": "Taj",
+   "aff": null,
+   "city": "San Francisco",
+   "country": "United States",
+   "ll": [
+    37.7892,
+    -122.407
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4040_2_0.webp",
+   "rooms": 110,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01999": {
+   "n": "The Huntington Hotel - A Virtuoso Preview Property",
+   "house": null,
+   "aff": null,
+   "city": "San Francisco",
+   "country": "United States",
+   "ll": [
+    37.7914,
+    -122.412
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18222634_2_0.webp",
+   "rooms": 143,
+   "perks": [
+    "Daily breakfast",
+    "$150 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02276": {
+   "n": "The St. Regis San Francisco",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "San Francisco",
+   "country": "United States",
+   "ll": [
+    37.7863,
+    -122.401
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4099_2_19.webp",
+   "rooms": 260,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00670": {
+   "n": "Four Seasons Hotel San Francisco at Embarcadero",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "San Francisco",
+   "country": "United States",
+   "ll": [
+    37.7927,
+    -122.401
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3884_2_0.webp",
+   "rooms": 155,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00794": {
+   "n": "Heckfield Place",
+   "house": null,
+   "aff": null,
+   "city": "Hook",
+   "country": "United Kingdom",
+   "ll": [
+    51.3407,
+    -0.962463
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15775959_2_0.webp",
+   "rooms": 46,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00617": {
+   "n": "Fairmont Windsor Park",
+   "house": "Accor",
+   "aff": null,
+   "city": "Windsor",
+   "country": "United Kingdom",
+   "ll": [
+    51.4394,
+    -0.584823
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18053493_2_0.webp",
+   "rooms": 255,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00771": {
+   "n": "Great Fosters",
+   "house": null,
+   "aff": null,
+   "city": "Egham",
+   "country": "United Kingdom",
+   "ll": [
+    51.4151,
+    -0.547087
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16625137_2_0.webp",
+   "rooms": 49,
+   "perks": [
+    "Daily breakfast",
+    "$200 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00419": {
+   "n": "Cliveden House Hotel",
+   "house": null,
+   "aff": null,
+   "city": "West Berkshire",
+   "country": "United Kingdom",
+   "ll": [
+    51.5581,
+    -0.688283
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15225781_2_0.webp",
+   "rooms": 48,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_01063": {
    "n": "Kimpton Charlotte Square Hotel",
@@ -3105,7 +3276,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00869": {
    "n": "Hotel Hermitage Monte-Carlo",
@@ -3162,7 +3333,7 @@
     "$100 credit",
     "Early check-in"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01334": {
    "n": "Monte-Carlo Beach",
@@ -3390,7 +3561,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v18575535": {
    "n": "Hotel Charleston Santa Teresa",
@@ -3485,7 +3656,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00727": {
    "n": "Grand Hotel Central",
@@ -3770,7 +3941,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01192": {
    "n": "Lotte Hotel Seattle",
@@ -4568,7 +4739,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00550": {
    "n": "Esperanza, Auberge Collection",
@@ -4621,7 +4792,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01080": {
    "n": "Kona Village, A Rosewood Resort",
@@ -4697,7 +4868,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02214": {
    "n": "The Roosevelt New Orleans, A Waldorf Astoria Hotel",
@@ -4868,7 +5039,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v18565178": {
    "n": "Dinso Resort & Villas Phuket, Vignette Collection by IHG",
@@ -4925,7 +5096,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00080": {
    "n": "Amanpuri",
@@ -5191,7 +5362,7 @@
     "Room upgrade",
     "Spa treatment"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00360": {
    "n": "Castaway Island, Fiji",
@@ -5284,7 +5455,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02408": {
    "n": "Villas of Distinction",
@@ -6537,6 +6708,60 @@
     ]
    ]
   },
+  "San Francisco": {
+   "n": "San Francisco",
+   "ll": [
+    37.7749,
+    -122.419
+   ],
+   "h": [
+    [
+     "h_00669",
+     1.8
+    ],
+    [
+     "h_01883",
+     1.9
+    ],
+    [
+     "h_01999",
+     1.9
+    ],
+    [
+     "h_02276",
+     2
+    ],
+    [
+     "h_00670",
+     2.5
+    ]
+   ]
+  },
+  "Hook": {
+   "n": "Hook",
+   "ll": [
+    51.2577,
+    -0.8904
+   ],
+   "h": [
+    [
+     "h_00794",
+     10.5
+    ],
+    [
+     "h_00617",
+     29.3
+    ],
+    [
+     "h_00771",
+     29.6
+    ],
+    [
+     "h_00419",
+     36.2
+    ]
+   ]
+  },
   "Edinburgh, Scotland": {
    "n": "Edinburgh, Scotland",
    "ll": [
@@ -7658,7 +7883,7 @@
    "pre": "Miami",
    "post": "Miami"
   },
-  "18107034": {
+  "18114464": {
    "pre": "Mumbai",
    "post": "Delhi"
   },
@@ -7969,6 +8194,11 @@
   "18633802": {
    "pre": "Washington",
    "post": "Washington"
+  },
+  "18654711": {
+   "pre": "San Francisco",
+   "post": "Hook",
+   "house": "Four Seasons"
   }
  }
 }

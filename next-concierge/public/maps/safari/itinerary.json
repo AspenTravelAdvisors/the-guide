@@ -5307,80 +5307,6 @@
     ]
    }
   ],
-  "18105041": [
-   {
-    "n": "Guayaquil",
-    "r": "GALAPAGOS",
-    "ll": [
-     -2.1667,
-     -79.9
-    ]
-   },
-   {
-    "n": "Santiago Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.25,
-     -90.7
-    ]
-   },
-   {
-    "n": "Genovesa Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     0.3167,
-     -89.95
-    ]
-   },
-   {
-    "n": "Lima",
-    "r": null,
-    "ll": [
-     -12.05,
-     -77.05
-    ]
-   },
-   {
-    "n": "Cuzco",
-    "r": null,
-    "ll": [
-     -6.9833,
-     -76.4667
-    ]
-   },
-   {
-    "n": "Sacred Valley",
-    "r": "AMAZONIA",
-    "ll": [
-     -13.3333,
-     -72.0833
-    ]
-   },
-   {
-    "n": "Machu Picchu",
-    "r": "AMAZONIA",
-    "ll": [
-     -13.0132,
-     -72.5486
-    ]
-   },
-   {
-    "n": "Cuzco",
-    "r": null,
-    "ll": [
-     -6.9833,
-     -76.4667
-    ]
-   },
-   {
-    "n": "Lima",
-    "r": null,
-    "ll": [
-     -12.05,
-     -77.05
-    ]
-   }
-  ],
   "18105718": [
    {
     "n": "Cape Town",
@@ -5783,40 +5709,6 @@
     ]
    }
   ],
-  "18113907": [
-   {
-    "n": "San Jose",
-    "r": "GALAPAGOS",
-    "ll": [
-     9.9253,
-     -84.0787
-    ]
-   },
-   {
-    "n": "Tortuguero",
-    "r": null,
-    "ll": [
-     10.5833,
-     -83.5167
-    ]
-   },
-   {
-    "n": "Fortuna",
-    "r": "GALAPAGOS",
-    "ll": [
-     10.4833,
-     -84.65
-    ]
-   },
-   {
-    "n": "Golfito",
-    "r": "GALAPAGOS",
-    "ll": [
-     8.6505,
-     -83.178
-    ]
-   }
-  ],
   "18114094": [
    {
     "n": "Nairobi",
@@ -5982,6 +5874,56 @@
     "ll": [
      -1.2833,
      36.8167
+    ]
+   }
+  ],
+  "18114464": [
+   {
+    "n": "Mumbai",
+    "r": "SUBCONTINENT",
+    "ll": [
+     18.975,
+     72.8258
+    ]
+   },
+   {
+    "n": "Ranthambore",
+    "r": "SUBCONTINENT",
+    "ll": [
+     26.0372,
+     76.4806
+    ]
+   },
+   {
+    "n": "Jaipur",
+    "r": "SUBCONTINENT",
+    "ll": [
+     26.9167,
+     75.8167
+    ]
+   },
+   {
+    "n": "Agra",
+    "r": "SUBCONTINENT",
+    "ll": [
+     27.1833,
+     78.0167
+    ]
+   },
+   {
+    "n": "Varanasi",
+    "r": "SUBCONTINENT",
+    "ll": [
+     25.3333,
+     83
+    ]
+   },
+   {
+    "n": "Delhi",
+    "r": "SUBCONTINENT",
+    "ll": [
+     28.6667,
+     77.2167
     ]
    }
   ],
@@ -7012,80 +6954,6 @@
     "ll": [
      44.5678,
      -110.441
-    ]
-   }
-  ],
-  "18295643": [
-   {
-    "n": "Arusha",
-    "r": "EASTAFRICA",
-    "ll": [
-     -3.3678,
-     36.6333
-    ]
-   },
-   {
-    "n": "Ngorongoro",
-    "r": "EASTAFRICA",
-    "ll": [
-     -3.15,
-     35.475
-    ]
-   },
-   {
-    "n": "Serengeti",
-    "r": "EASTAFRICA",
-    "ll": [
-     -2.3308,
-     34.8333
-    ]
-   },
-   {
-    "n": "Samburu National Reserve",
-    "r": "EASTAFRICA",
-    "ll": [
-     0.6181,
-     37.53
-    ]
-   },
-   {
-    "n": "Amboseli National Park",
-    "r": "EASTAFRICA",
-    "ll": [
-     -2.6414,
-     37.2481
-    ]
-   },
-   {
-    "n": "Nanyuki",
-    "r": "EASTAFRICA",
-    "ll": [
-     0.0167,
-     37.0667
-    ]
-   },
-   {
-    "n": "Masai Mara National Reserve",
-    "r": "EASTAFRICA",
-    "ll": [
-     -1.4999,
-     35.1527
-    ]
-   },
-   {
-    "n": "Kigali",
-    "r": "GREATAPES",
-    "ll": [
-     -1.9536,
-     30.0606
-    ]
-   },
-   {
-    "n": "Volcanoes National Park",
-    "r": "GREATAPES",
-    "ll": [
-     -1.5196,
-     29.4497
     ]
    }
   ],
@@ -9472,56 +9340,6 @@
     "ll": [
      -26.2,
      28.0833
-    ]
-   }
-  ],
-  "18363151": [
-   {
-    "n": "Guayaquil",
-    "r": "GALAPAGOS",
-    "ll": [
-     -2.1667,
-     -79.9
-    ]
-   },
-   {
-    "n": "Lima",
-    "r": null,
-    "ll": [
-     -12.05,
-     -77.05
-    ]
-   },
-   {
-    "n": "Sacred Valley",
-    "r": "AMAZONIA",
-    "ll": [
-     -13.3333,
-     -72.0833
-    ]
-   },
-   {
-    "n": "Machu Picchu",
-    "r": "AMAZONIA",
-    "ll": [
-     -13.0132,
-     -72.5486
-    ]
-   },
-   {
-    "n": "Cusco",
-    "r": "AMAZONIA",
-    "ll": [
-     -13.5183,
-     -71.9781
-    ]
-   },
-   {
-    "n": "Lima",
-    "r": null,
-    "ll": [
-     -12.05,
-     -77.05
     ]
    }
   ],
@@ -11993,40 +11811,6 @@
     ]
    }
   ],
-  "18488737": [
-   {
-    "n": "Johannesburg",
-    "r": "SOUTHERN",
-    "ll": [
-     -26.2,
-     28.0833
-    ]
-   },
-   {
-    "n": "Livingstone",
-    "r": "ZAMBEZI",
-    "ll": [
-     -17.85,
-     25.8667
-    ]
-   },
-   {
-    "n": "Okavango Delta",
-    "r": "OKAVANGO",
-    "ll": [
-     -19.25,
-     22.75
-    ]
-   },
-   {
-    "n": "Johannesburg",
-    "r": "SOUTHERN",
-    "ll": [
-     -26.2,
-     28.0833
-    ]
-   }
-  ],
   "18505877": [
    {
     "n": "Cape Town",
@@ -12150,64 +11934,6 @@
     "ll": [
      -26.2,
      28.0833
-    ]
-   }
-  ],
-  "18514207": [
-   {
-    "n": "Quito",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.2167,
-     -78.5
-    ]
-   },
-   {
-    "n": "Espanola Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -1.3666,
-     -89.6833
-    ]
-   },
-   {
-    "n": "Floreana Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -1.2975,
-     -90.4342
-    ]
-   },
-   {
-    "n": "Santa Cruz Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.622,
-     -90.3551
-    ]
-   },
-   {
-    "n": "Bartolome Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.284,
-     -90.548
-    ]
-   },
-   {
-    "n": "South Plaza Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.5843,
-     -90.1636
-    ]
-   },
-   {
-    "n": "Quito",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.2167,
-     -78.5
     ]
    }
   ],
@@ -19236,6 +18962,288 @@
      -110.706
     ]
    }
+  ],
+  "18654711": [
+   {
+    "n": "San Francisco",
+    "r": null,
+    "ll": [
+     37.7749,
+     -122.419
+    ]
+   },
+   {
+    "n": "Seoul",
+    "r": null,
+    "ll": [
+     37.5664,
+     127
+    ]
+   },
+   {
+    "n": "Hangzhou",
+    "r": null,
+    "ll": [
+     30.2553,
+     120.169
+    ]
+   },
+   {
+    "n": "Weligama",
+    "r": null,
+    "ll": [
+     5.9667,
+     80.4167
+    ]
+   },
+   {
+    "n": "Zanzibar",
+    "r": "EASTAFRICA",
+    "ll": [
+     -6.1667,
+     39.1833
+    ]
+   },
+   {
+    "n": "Sharm El Sheikh",
+    "r": null,
+    "ll": [
+     27.8636,
+     34.2881
+    ]
+   },
+   {
+    "n": "Saint-Jean-Cap-Ferrat",
+    "r": null,
+    "ll": [
+     43.6895,
+     7.333
+    ]
+   },
+   {
+    "n": "Hook",
+    "r": null,
+    "ll": [
+     51.2577,
+     -0.8904
+    ]
+   }
+  ],
+  "18654740": [
+   {
+    "n": "Antananarivo",
+    "r": "INDIANOCEAN",
+    "ll": [
+     -18.9167,
+     47.5167
+    ]
+   },
+   {
+    "n": "Maroantsetra",
+    "r": "INDIANOCEAN",
+    "ll": [
+     -15.45,
+     49.75
+    ]
+   },
+   {
+    "n": "Masoala National Park",
+    "r": "INDIANOCEAN",
+    "ll": [
+     -15.725,
+     49.95
+    ]
+   },
+   {
+    "n": "Tampolo",
+    "r": "INDIANOCEAN",
+    "ll": [
+     -15.725,
+     49.95
+    ]
+   },
+   {
+    "n": "Masoala National Park",
+    "r": "INDIANOCEAN",
+    "ll": [
+     -15.725,
+     49.95
+    ]
+   },
+   {
+    "n": "Morondava",
+    "r": "INDIANOCEAN",
+    "ll": [
+     -20.2833,
+     44.2833
+    ]
+   },
+   {
+    "n": "Antananarivo",
+    "r": "INDIANOCEAN",
+    "ll": [
+     -18.9167,
+     47.5167
+    ]
+   }
+  ],
+  "18655479": [
+   {
+    "n": "Iquitos",
+    "r": null,
+    "ll": [
+     -3.7481,
+     -73.2472
+    ]
+   },
+   {
+    "n": "Ucayali River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Marañón River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Ucayali River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Marañón River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Nauta",
+    "r": null,
+    "ll": [
+     -4.5333,
+     -73.55
+    ]
+   },
+   {
+    "n": "Iquitos",
+    "r": null,
+    "ll": [
+     -3.7481,
+     -73.2472
+    ]
+   },
+   {
+    "n": "Marañón River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   }
+  ],
+  "18655480": [
+   {
+    "n": "Iquitos",
+    "r": null,
+    "ll": [
+     -3.7481,
+     -73.2472
+    ]
+   },
+   {
+    "n": "Nauta",
+    "r": null,
+    "ll": [
+     -4.5333,
+     -73.55
+    ]
+   },
+   {
+    "n": "Ucayali River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Marañón River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   },
+   {
+    "n": "Nauta",
+    "r": null,
+    "ll": [
+     -4.5333,
+     -73.55
+    ]
+   },
+   {
+    "n": "Marañón River",
+    "r": null,
+    "ll": [
+     -4.5,
+     -73.45
+    ]
+   }
+  ],
+  "18656551": [
+   {
+    "n": "Quito",
+    "r": "GALAPAGOS",
+    "ll": [
+     -0.2167,
+     -78.5
+    ]
+   },
+   {
+    "n": "Otavalo",
+    "r": "GALAPAGOS",
+    "ll": [
+     0.2333,
+     -78.2667
+    ]
+   },
+   {
+    "n": "Galapagos Islands",
+    "r": "GALAPAGOS",
+    "ll": [
+     -0.357,
+     -90.4706
+    ]
+   },
+   {
+    "n": "Darwin",
+    "r": null,
+    "ll": [
+     -12.4667,
+     130.833
+    ]
+   },
+   {
+    "n": "Galapagos Islands",
+    "r": "GALAPAGOS",
+    "ll": [
+     -0.357,
+     -90.4706
+    ]
+   }
   ]
  },
  "TRIPS": [
@@ -19435,6 +19443,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -19495,6 +19509,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -19646,6 +19666,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -19708,6 +19734,12 @@
     "There is nowhere quite like the Galápagos, drenched in history amid swirling Pacific seas. It was here the mysteries of evolution began to crystallise for a young Charles Darwin and still now, the islands’ peculiar, spectacular wildlife has the power to awe. One of the world’s most iconic wildlife destinations, the Galápagos Islands are an unforgettable experience. Sailing with Ecoventura, A&K’s trusted partners and a highly experienced, family-run operator since 1989, you will see the greatest of the islands’ natural wonders on this tailormade journey of discovery. There is no finer way to see the Galápagos than on board one of three boutique vessels, which are among the most comfortable and well-appointed ships to tour these isles. Guests can benefit from the knowledge of onboard naturalists and enjoy all the amenities of a luxury hotel, including nightly a la carte dinners, spacious Jacuzzi deck and a cozy library."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -19851,6 +19883,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -19906,7 +19944,14 @@
     "Three meals daily, soft drinks, alcoholic beverages (excluding champagne, cognac, and fine wines), tea and coffee.",
     "All private road transfers - Jomo Kenyatta International Airport to Wilson Airport - Wilson Airport to Jomo Kenyatta International Airport - Abeid Amani Karume (ZNZ) International Airport to Stonetown"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -20041,6 +20086,12 @@
     "Step out from under canvas into a world of unparalleled wildlife encounters. Building on over 60 years’ experience crafting innovative luxury safaris, A&K whisks travellers to the heart of Tanzania's most iconic ecosystems, with tented camps redolent of earlier eras of exploration. In Tarangire National Park, a fantastical wilderness that less-seasoned travellers often overlook, witness vast herds of elephants moving gracefully through plains punctuated by baobab trees. Explore the world’s largest inactive volcanic caldera, Ngorongoro Crater – a thriving habitat where the Big Five roam freely. At the heart of the Serengeti, be captivated by the Great Migration as millions of wildebeest, zebra and gazelle traverse the endless savannas, pursued by ever-watchful predators."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -20271,6 +20322,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -20378,6 +20435,12 @@
     "Few countries captivate quite like South Africa, where world-class wine regions, cultured cities and abundant wildlife-spotting opportunities all exist within easy reach. From the dynamic multiculturalism of Cape Town’s buzziest neighborhoods to the dramatic landscapes of Table Mountain, the Cape Whale Coast and Sabi Sands Game Reserve, discover the country at its most evocative on a thrilling exploration of city, country and coast. Featuring unique experiences and stays in exclusive-use private villas, this is a journey tailored for a memorable group trip or multigenerational family escape."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -20549,6 +20612,12 @@
     "With its sweeping desert, stark white salt pans, vast canyons and petrified forests, few countries deliver natural beauty quite like Namibia. One of the world’s most sparsely populated countries, with spectacular night skies and abundant biodiversity ranging fromtheBig Five to endemic desert species, it offers endless opportunities for intrepidtravellers. Take a self-drive journey through its most striking landscapes, pausing towitnessancient wonders,acharismatic coastaltownand soaring salt dunes on an unforgettable African adventure."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -20759,6 +20828,12 @@
     "Its lofty location on a plateau often dubbed the \"roof of the world\" makes Tibet one of the world’s most captivating settings. Among its soaring mountains and plunging valleys, its history and culture have been shaped by the Buddhist communities who call this rugged region home, adding charismatic layers to its high-altitude towns and villages. Discover Tibet’s enduring appeal on an awe-inspiring trip to the region’s remote corners, witnessing its dramatic natural wonders as well as tapping into its spiritual side, which plays out across sacred settlements, temples and places of pilgrimage, all of which provides a compelling contrast to the electric energy of Beijing."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -21237,6 +21312,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -21294,6 +21375,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -21366,6 +21453,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -21482,6 +21575,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -21535,6 +21634,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -21631,6 +21736,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -21690,6 +21801,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -21760,6 +21877,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -21947,6 +22070,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -22025,6 +22154,12 @@
     "The Serengeti is where the annual Great Migration of a million or more herd animals begins, and you will spend three nights in the thick of it at Kichakani Camp, an A&K Sanctuary. Combine this life-affirming experience with sublime stays at Swala Camp, an A&K Sanctuary in Tarangire National Park, and Ngorongoro Crater Camp, an A&K Sanctuary where iconic species wander against the emerald-green backdrop of a volcanic caldera."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -22113,6 +22248,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -22184,6 +22325,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -22203,64 +22350,6 @@
     }
    ],
    "route": "18338887"
-  },
-  {
-   "id": "18488737",
-   "n": "A&K Sanctuary Southern Africa Safari and Victoria Falls",
-   "b": "ak",
-   "g": [
-    "OKAVANGO",
-    "SOUTHERN",
-    "ZAMBEZI"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18488737/aksanctuarysouthernafricasafariandvictoriafalls",
-   "days": 9,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
-   "from": "Johannesburg, South Africa",
-   "to": "Johannesburg, South Africa",
-   "country": "Botswana",
-   "world": false,
-   "mks": [
-    "2026-11",
-    "2026-12"
-   ],
-   "onDemand": true,
-   "win": "Valid for Departures: 05 Sep 2026 - 25 Dec 2026",
-   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
-   "included": [],
-   "promotions": [
-    {
-     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
-     "endDate": "2027-03-31",
-     "exclusive": false,
-     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
-    },
-    {
-     "name": "Virtuoso Exclusive Benefit",
-     "endDate": "2027-12-31",
-     "exclusive": false,
-     "description": "$200 USD Shipboard Credit Per Stateroom Virtuoso Guests will enjoy $200 USD shipboard credit per stateroom on all voyages. Onboard credit will be applied to your shipboard account. Offer only applies to all A&K x Crystal Cruises. Offer is per stateroom, valid on new reservations and has no cash value. Must mention code VRTLEC at time of booking. Restrictions may apply; advisors, please see Booking Instructions and Supplier Terms & Conditions under the Advisor Info tab for more details."
-    }
-   ],
-   "itin": [
-    {
-     "d": 1,
-     "n": "Johannesburg"
-    },
-    {
-     "d": 2,
-     "n": "Livingstone"
-    },
-    {
-     "d": 4,
-     "n": "Okavango Delta"
-    },
-    {
-     "d": 1,
-     "n": "Johannesburg"
-    }
-   ],
-   "route": "18488737"
   },
   {
    "id": "18360200",
@@ -22284,6 +22373,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -22407,6 +22502,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -22466,6 +22567,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -22536,6 +22643,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -22649,6 +22762,12 @@
     "A&K’s Expedition Team reveals the magic of autumn in New York and the wild coastal beauty of Canada — all in one incredible voyage. Begin with a look at a secret side of New York unknown to even the locals. Then, board Crystal Serenity and shift gears to connect with nature in the Canadian provinces of New Brunswick, Nova Scotia and Québec."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -23345,6 +23464,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -23423,6 +23548,12 @@
     "The American wilderness is like no other, its scenes of mountains, deserts, forests and lakes are seared into the imagination: a grand collage of awe-inspiring landscapes bent and buckled by nature’s generous hands. On this tailormade adventure across the American West, A&K’s experts will fly you to the heart of the wilderness, combining the parks’ highlights with trips to more secluded sights, led by private, knowledgeable guides who know how to beat the crowds. Air travel allows you to move seamlessly between the country’s most iconic national parks, and accommodation is in exquisite, hand-picked accommodation deep in the wilderness, allowing you to drift off to the gentle rhythms of nature."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -23509,6 +23640,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -23563,6 +23700,12 @@
     "Picture the quintessential African safari and the mind invariably conjures scenes of Kenya: golden savannahs studded with acacias; elephants descending on watering holes; cheetahs and leopards hunting; the guttural roar of lions at dawn and dusk. Kenya is where our story began. In the 1960s, Nairobi resident and Abercrombie & Kent founder Geoffrey Kent pioneered the world’s first modern luxury safari. Six decades on, Abercrombie & Kent continues to set the gold standard for safaris here. This highly personalized journey takes you to the home of the safari and combines two of Kenya’s most celebrated game-viewing spots with another in the south considered a hidden gem."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -24187,6 +24330,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -24318,6 +24467,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -25174,6 +25329,18 @@
    ],
    "promotions": [
     {
+     "name": "Stay 3, SDF Free at Punakha",
+     "endDate": "2026-12-22",
+     "exclusive": false,
+     "description": "Experience the serene beauty of Bhutan with an exclusive stay at &Beyond Punakha River Lodge Stay for three nights or more at &Beyond Punakha River Lodge, and we’ll cover your Sustainable Development Fee (SDF), allowing you to immerse yourself in the wonders of this Himalayan kingdom without the added cost. Validity dates: 03 Jan – 28 Feb 2026 01 Jun – 31 Aug 2026 01 – 22 Dec 2026 Book your journey today and discover the magic of Bhutan—stress-free!"
+    },
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding…"
+    },
+    {
      "name": "Punakha Honeymoon",
      "endDate": "2026-12-31",
      "exclusive": false,
@@ -25224,7 +25391,14 @@
    "included": [
     "Please contact us for includes and excludes on this activity"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Milestone Celebrations Offer Valid for Travel Now Through 31 Dec 2026 There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -25371,7 +25545,14 @@
    "included": [
     "Please contact us for includes and excludes on this experience"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -25461,7 +25642,14 @@
    "included": [
     "Please contact us for includes and excludes on this experience"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -25974,6 +26162,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -26320,6 +26514,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -26620,7 +26820,14 @@
    "included": [
     "Please contact us for includes and excludes on this experience"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -26661,6 +26868,12 @@
     "From world-class surf breaks and towering sequoias to Oscar-winning film studios and retro amusement parks, the Golden State is awash with wonders both natural and man-made, ready to be discovered. Create cherished memories on a family road trip from San Francisco to San Diego, bookended by a guided bike ride across Golden Gate Bridge and a behind-the-scenes tour of the world-famous San Diego Zoo. En route, take time to hike off the beaten track in Yosemite National Park, meet conservationists at the marine wonderland of Monterey Bay Aquarium and kayak in the wildlife-rich Channel Islands National Park. Pair these outdoor pursuits with all the urban-cool California has to offer, with cultural city tours, mouth-watering American cuisine and a VIP tour of Universal Studios, the beating heart of Tinsel Town."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -26807,7 +27020,14 @@
    "included": [
     "Contact us for includes and excludes on this tour"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -27254,7 +27474,14 @@
    "included": [
     "Please contact us for includes and excludes on this experience"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -27370,7 +27597,14 @@
     "Seat on charter flights as per the specific itinerary above",
     "National Parks entrance fees"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -27624,6 +27858,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -27689,6 +27929,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -27858,6 +28104,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -27998,6 +28250,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -28069,6 +28327,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -28106,72 +28370,84 @@
    "route": "18645736"
   },
   {
-   "id": "18514207",
-   "n": "Coastal Landscapes on a Galápagos Cruise: A Private Journey",
-   "b": "ak",
+   "id": "18654711",
+   "n": "Coastlines & Culture I Four Seasons Private Jet Experience",
+   "b": "tcs",
    "g": [
-    "GALAPAGOS"
+    "EASTAFRICA"
    ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18514207/coastallandscapesonagalpagoscruiseaprivatejourney",
-   "days": 9,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_155.webp",
-   "from": "Quito, Ecuador",
-   "to": "Quito, Ecuador",
-   "country": "Ecuador",
-   "world": false,
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18654711/coastlinescultureifourseasonsprivatejetexperience",
+   "days": 23,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/16810276_2_112.webp",
+   "from": "San Francisco, CA, United States",
+   "to": "Hook, United Kingdom",
+   "country": "China",
+   "world": true,
+   "d": "5/4/2027",
+   "r": "5/26/2027",
    "mks": [
-    "2026-11",
-    "2026-12"
+    "2027-05"
    ],
-   "onDemand": true,
-   "win": "Valid for Departures: 14 Nov 2026 - 06 Dec 2026",
-   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
-   "included": [],
+   "win": "Dates: 04 May 2027 - 26 May 2027",
+   "description": "Trace the world’s great coastlines on a global journey of rare exploration shaped by cultural exchange, ancient traditions and natural wonder, connecting the Pacific, Indian Ocean, Red Sea and Mediterranean.",
+   "included": [
+    "Travel by private jet",
+    "All Accommodations",
+    "All meals and beverages (including select beer, wine and spirits aboard the jet and at group lunches and dinners)",
+    "Ground transportation",
+    "All daily activities",
+    "Top-of-the-line guides",
+    "All Gratuities & Tips"
+   ],
    "promotions": [
     {
-     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
-     "endDate": "2027-03-31",
+     "name": "Half Off Solo Supplement",
+     "endDate": "2027-06-30",
      "exclusive": false,
-     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
+     "description": "SPECIAL OFFER FOR SOLO TRAVELERS Book a solo seat on the following trips and pay only a 5% Solo Supplement (normally 10% of the published price). Japan's Hidden Gems by Private Jet | June 2026 Ocean to Outback: Exploring New Zealand and Australia by Private Jet | November 2026 Tibet & South Asia: A 15-day Expedition by Private Air | October 2026 Two departures of our flagship journey: Around the World by Luxury Private Jet November 2 – 25, 2026 | 24 Days October 28 – November 21, 2026 | 25 Days Any applied discounts are at the sole discretion of TCS and may only be valid for select offers or…"
     },
     {
-     "name": "Virtuoso Exclusive Benefit",
-     "endDate": "2027-12-31",
+     "name": "$5,000 Credit Per Person",
+     "endDate": "2027-07-31",
      "exclusive": false,
-     "description": "$200 USD Shipboard Credit Per Stateroom Virtuoso Guests will enjoy $200 USD shipboard credit per stateroom on all voyages. Onboard credit will be applied to your shipboard account. Offer only applies to all A&K x Crystal Cruises. Offer is per stateroom, valid on new reservations and has no cash value. Must mention code VRTLEC at time of booking. Restrictions may apply; advisors, please see Booking Instructions and Supplier Terms & Conditions under the Advisor Info tab for more details."
+     "description": "For a limited time, receive a $5,000 per person credit on eligible departures. Offer valid on new bookings made by November 30."
     }
    ],
    "itin": [
     {
      "d": 1,
-     "n": "Quito"
+     "n": "San Francisco"
     },
     {
-     "d": 4,
-     "n": "Espanola Island"
-    },
-    {
-     "d": 5,
-     "n": "Floreana Island"
+     "d": 3,
+     "n": "Seoul"
     },
     {
      "d": 6,
-     "n": "Santa Cruz Island"
+     "n": "Hangzhou"
     },
     {
-     "d": 7,
-     "n": "Bartolome Island"
+     "d": 9,
+     "n": "Weligama"
     },
     {
-     "d": 8,
-     "n": "South Plaza Island"
+     "d": 12,
+     "n": "Zanzibar"
     },
     {
-     "d": 1,
-     "n": "Quito"
+     "d": 15,
+     "n": "Sharm El Sheikh"
+    },
+    {
+     "d": 18,
+     "n": "Saint-Jean-Cap-Ferrat"
+    },
+    {
+     "d": 21,
+     "n": "Hook"
     }
    ],
-   "route": "18514207"
+   "route": "18654711"
   },
   {
    "id": "18241089",
@@ -28329,6 +28605,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -28396,6 +28678,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -28427,64 +28715,6 @@
     }
    ],
    "route": "18338374"
-  },
-  {
-   "id": "18113907",
-   "n": "Cruising and Wildlife in Costa Rica",
-   "b": "ak",
-   "g": [
-    "GALAPAGOS"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18113907/cruisingandwildlifeincostarica",
-   "days": 9,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_17.webp",
-   "from": "San Jose, Costa Rica",
-   "to": "Golfito, Costa Rica",
-   "country": "Costa Rica",
-   "world": false,
-   "d": "11/15/2026",
-   "r": "11/23/2026",
-   "mks": [
-    "2026-11"
-   ],
-   "win": "Dates: 15 Nov 2026 - 23 Nov 2026",
-   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
-   "included": [
-    "A mix of rainforests, beaches and out-of-the-ordinary wildlife both on land and in the water, Costa Rica is an adventure destination for every explorer. Explore for three nights by boutique yacht, glide along winding canals in search of exotic animals and zipline through a rainforest canopy with breathtaking views of Arenal Volcano. With the perfect balance of adventure and relaxation, this journey lets you embrace pura vida in style."
-   ],
-   "promotions": [
-    {
-     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
-     "endDate": "2027-03-31",
-     "exclusive": false,
-     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
-    },
-    {
-     "name": "Virtuoso Exclusive Benefit",
-     "endDate": "2027-12-31",
-     "exclusive": false,
-     "description": "$200 USD Shipboard Credit Per Stateroom Virtuoso Guests will enjoy $200 USD shipboard credit per stateroom on all voyages. Onboard credit will be applied to your shipboard account. Offer only applies to all A&K x Crystal Cruises. Offer is per stateroom, valid on new reservations and has no cash value. Must mention code VRTLEC at time of booking. Restrictions may apply; advisors, please see Booking Instructions and Supplier Terms & Conditions under the Advisor Info tab for more details."
-    }
-   ],
-   "itin": [
-    {
-     "d": 1,
-     "n": "San Jose"
-    },
-    {
-     "d": 2,
-     "n": "Tortuguero"
-    },
-    {
-     "d": 4,
-     "n": "Fortuna"
-    },
-    {
-     "d": 8,
-     "n": "Golfito"
-    }
-   ],
-   "route": "18113907"
   },
   {
    "id": "18473622",
@@ -28519,6 +28749,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -29277,6 +29513,18 @@
    ],
    "promotions": [
     {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding certificate as proof. What's includedStandard &Beyond lodge, camp or yacht…"
+    },
+    {
+     "name": "Honeymoon offer",
+     "endDate": "2027-12-20",
+     "exclusive": false,
+     "description": "Save 50% on one partner's accommodation Embrace wild romance with an African Safari Honeymoon One of the best honeymoon destinations in the world. We’re often asked, which is the best country to visit for a honeymoon. We can say, without a doubt, that a honeymoon safari in East, Southern or South Africa should be high up on any newlywed couple’s list of honeymoon ideas. Africa is home to a plethora of romantic adventures and awe-inspiring landscapes such as the Masai Mara, Serengeti and the world-famous Kruger National Park. Whether it be a safari or bush and beach combination honeymoon, the…"
+    },
+    {
      "name": "Fly Me to Phinda",
      "endDate": "2028-01-10",
      "exclusive": false,
@@ -29511,6 +29759,12 @@
     "From Tanzania to Kenya, the Great Migration unfolds: an awe-inspiring spectacle in which millions of animals cross the border in search of nutritious grass and water, providing travellers with some of the greatest, most dramatic scenes in the natural world. Immerse yourself in the landscapes of East Africa as you follow the Great Migration through northern Tanzania and southern Kenya. A must for wildlife lovers, this unforgettable journey is tailored to your tastes by A&K’s experienced safari experts and promises encounters with charismatic fauna – including the Big Five – every step of the way. You will stay in luxurious lodges, selected for their seclusion and for being in the best positions to follow the migration as it sweeps across the continent."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -29930,6 +30184,83 @@
     }
    ],
    "route": "12728472"
+  },
+  {
+   "id": "18656551",
+   "n": "Ecuador and the Galápagos for All Ages",
+   "b": "ak",
+   "g": [
+    "GALAPAGOS"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18656551/ecuadorandthegalpagosforallages",
+   "days": 14,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_3.webp",
+   "from": "Quito, Ecuador",
+   "to": "Galapagos Islands, Ecuador",
+   "country": "Australia",
+   "world": false,
+   "mks": [
+    "2026-11",
+    "2026-12",
+    "2027-01",
+    "2027-02",
+    "2027-03",
+    "2027-04",
+    "2027-05",
+    "2027-06",
+    "2027-07",
+    "2027-08",
+    "2027-09"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures Now Through: 01 Sep 2027",
+   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
+   "included": [
+    "Beneath Ecuador's peaks, volcanoes smolder on the horizon, cloud shadows drift across sweeping highland grasslands and market stalls burst with color beneath the spires of colonial churches. Beyond the mainland, the Galápagos Islands unfold in a world of black lava shores, turquoise bays and fearless wildlife, where sea lions doze on beaches and giant tortoises wander earth shaped by fire and time. This multigenerational journey can be tailored to every member of your family as you move through the many layers of Ecuador, from highland haciendas and Indigenous traditions to one of the planet's most extraordinary natural sanctuaries. Along the way, curated experiences invite adults and children alike to look beyond the landmarks, meeting local people, sharing in centuries-old customs and discovering the stories that bring this captivating country to life."
+   ],
+   "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
+     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
+     "endDate": "2027-03-31",
+     "exclusive": false,
+     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
+    },
+    {
+     "name": "Virtuoso Exclusive Benefit",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "$200 USD Shipboard Credit Per Stateroom Virtuoso Guests will enjoy $200 USD shipboard credit per stateroom on all voyages. Onboard credit will be applied to your shipboard account. Offer only applies to all A&K x Crystal Cruises. Offer is per stateroom, valid on new reservations and has no cash value. Must mention code VRTLEC at time of booking. Restrictions may apply; advisors, please see Booking Instructions and Supplier Terms & Conditions under the Advisor Info tab for more details."
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Quito"
+    },
+    {
+     "d": 3,
+     "n": "Otavalo"
+    },
+    {
+     "d": 7,
+     "n": "Galapagos Islands"
+    },
+    {
+     "d": 8,
+     "n": "Darwin"
+    },
+    {
+     "d": 7,
+     "n": "Galapagos Islands"
+    }
+   ],
+   "route": "18656551"
   },
   {
    "id": "18368504",
@@ -30638,6 +30969,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -30708,6 +31045,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -30777,6 +31120,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -31069,7 +31418,14 @@
    "included": [
     "Please contact us for includes and excludes on this experience"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -31156,6 +31512,18 @@
     "Entrance fees to Table Mountain"
    ],
    "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding certificate as proof. What's includedStandard &Beyond lodge, camp or yacht…"
+    },
+    {
+     "name": "Honeymoon offer",
+     "endDate": "2027-12-20",
+     "exclusive": false,
+     "description": "Save 50% on one partner's accommodation Embrace wild romance with an African Safari Honeymoon One of the best honeymoon destinations in the world. We’re often asked, which is the best country to visit for a honeymoon. We can say, without a doubt, that a honeymoon safari in East, Southern or South Africa should be high up on any newlywed couple’s list of honeymoon ideas. Africa is home to a plethora of romantic adventures and awe-inspiring landscapes such as the Masai Mara, Serengeti and the world-famous Kruger National Park. Whether it be a safari or bush and beach combination honeymoon, the…"
+    },
     {
      "name": "Fly Me to Phinda",
      "endDate": "2028-01-10",
@@ -31591,6 +31959,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -31653,6 +32027,12 @@
     "Rwanda gleams like a green jewel in the heart of Africa; experience the very best of it, from trekking chimpanzees and mountain gorillas in lush, volcanic forests to exploring tranquil waterways by kayak and touring coffee plantations, with a journey crafted by experienced Africa specialists. A&K’s team will take care of every stage of this multi-leg journey, whisking you from city to the deepest, densest jungle; including arranging dedicated local guides, stays in elegant wilderness lodges and gorilla-trekking permits, which are a requirement for spending a life-changing hour with the apes in Volcanoes National Park. It only takes a few hours to drive the winding road into Volcanoes National Park or Nyungwe Forest National Park from the capital Kigali, but this tiny nation’s journey to becoming a conservation powerhouse has been years in the making."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -31747,6 +32127,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -31801,6 +32187,12 @@
     "In 1908, Winston Churchill gave Uganda its “the pearl of Africa” epithet, a title that remains apt today: Uganda’s misty forests and pristine national parks echo with the call of 20 species of primate, including more than half of the world’s remaining mountain gorillas. Nurtured by a tropical climate, Uganda’s national parks are low on crowds and big on drama. In Murchison Falls, the full force of the Nile plunges through a narrow ravine while at Queen Elizabeth hundreds-strong herds of elephant thunder through a key migration corridor. To the south-west, tracking mountain gorillas through the fern-filled forests of Bwindi Impenetrable National Park redefines what it means to be on safari. Raw and refreshingly unpolished, Uganda is authentic Africa to the core."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -32028,6 +32420,18 @@
     "Domestic/international departure tax, fuel and safety levies from airports and airstrips unless otherwise stipulated"
    ],
    "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding certificate as proof. What's includedStandard &Beyond lodge, camp or yacht…"
+    },
+    {
+     "name": "Honeymoon offer",
+     "endDate": "2027-12-20",
+     "exclusive": false,
+     "description": "Save 50% on one partner's accommodation Embrace wild romance with an African Safari Honeymoon One of the best honeymoon destinations in the world. We’re often asked, which is the best country to visit for a honeymoon. We can say, without a doubt, that a honeymoon safari in East, Southern or South Africa should be high up on any newlywed couple’s list of honeymoon ideas. Africa is home to a plethora of romantic adventures and awe-inspiring landscapes such as the Masai Mara, Serengeti and the world-famous Kruger National Park. Whether it be a safari or bush and beach combination honeymoon, the…"
+    },
     {
      "name": "Fly Me to Phinda",
      "endDate": "2028-01-10",
@@ -32336,6 +32740,18 @@
     "Please contact us for includes and excludes on this experience"
    ],
    "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding certificate as proof. What's includedStandard &Beyond lodge, camp or yacht…"
+    },
+    {
+     "name": "Honeymoon offer",
+     "endDate": "2027-12-20",
+     "exclusive": false,
+     "description": "Save 50% on one partner's accommodation Embrace wild romance with an African Safari Honeymoon One of the best honeymoon destinations in the world. We’re often asked, which is the best country to visit for a honeymoon. We can say, without a doubt, that a honeymoon safari in East, Southern or South Africa should be high up on any newlywed couple’s list of honeymoon ideas. Africa is home to a plethora of romantic adventures and awe-inspiring landscapes such as the Masai Mara, Serengeti and the world-famous Kruger National Park. Whether it be a safari or bush and beach combination honeymoon, the…"
+    },
     {
      "name": "Fly Me to Phinda",
      "endDate": "2028-01-10",
@@ -32817,6 +33233,12 @@
    ],
    "promotions": [
     {
+     "name": "Himalayan healing",
+     "endDate": "2026-12-15",
+     "exclusive": false,
+     "description": "Embark on a transformative journey through Nepal, where ancient traditions meet breathtaking landscapes. From the spiritual heart of Kathmandu Valley to the serene beauty of Pokhara and the rugged terrain of Mustang, this itinerary offers a deep dive into Nepal's rich culture, history, and natural wonders. Experience sacred rituals, private spiritual guidance, and immersive trekking adventures, all while staying in luxury accommodations that reflect the soul of the region. Each moment is designed to restore, rejuvenate, and inspire, leaving you with unforgettable memories of Nepal's timeless…"
+    },
+    {
      "name": "Timeless Tibet",
      "endDate": "2027-02-20",
      "exclusive": false,
@@ -32954,7 +33376,14 @@
    "included": [
     "Please contact us for includes and excludes on this experience"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -32995,7 +33424,14 @@
    "included": [
     "Please contact us for includes and excludes on this activity"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Milestone Celebrations Offer Valid for Travel Now Through 31 Dec 2026 There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -33017,10 +33453,6 @@
    "country": "China",
    "world": false,
    "mks": [
-    "2026-11",
-    "2026-12",
-    "2027-01",
-    "2027-02",
     "2027-03",
     "2027-04",
     "2027-05",
@@ -33100,6 +33532,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -33164,7 +33602,14 @@
     "All scheduled flights: - Wilson Airport to Kichwa Tembo Airstrip - Kichwa Tembo Airstrip to Loisaba Airstrip - Loisaba Airstrip to Wilson Airport",
     "Concession and Park Fees"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -33483,6 +33928,78 @@
     }
    ],
    "route": "18505877"
+  },
+  {
+   "id": "18114464",
+   "n": "India by Private Jet",
+   "b": "ak",
+   "g": [
+    "SUBCONTINENT"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18114464/indiabyprivatejet",
+   "days": 12,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_24.webp",
+   "from": "Mumbai, India",
+   "to": "Delhi, India",
+   "country": "India",
+   "world": false,
+   "d": "12/2/2026",
+   "r": "12/13/2026",
+   "mks": [
+    "2026-12"
+   ],
+   "win": "Dates: 02 Dec 2026 - 13 Dec 2026",
+   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
+   "included": [
+    "From the grandeur of its maharajas to untamed jungle wilderness and a spiritual heart within bustling cities, India is a land steeped in tradition and wonder. Travelling by private jet, this elevated adventure combines visits to architectural marvels, authentic cuisine, exclusive moments and stays in some of the country’s most exceptional hotels."
+   ],
+   "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
+     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
+     "endDate": "2027-03-31",
+     "exclusive": false,
+     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
+    },
+    {
+     "name": "Virtuoso Exclusive Benefit",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "$200 USD Shipboard Credit Per Stateroom Virtuoso Guests will enjoy $200 USD shipboard credit per stateroom on all voyages. Onboard credit will be applied to your shipboard account. Offer only applies to all A&K x Crystal Cruises. Offer is per stateroom, valid on new reservations and has no cash value. Must mention code VRTLEC at time of booking. Restrictions may apply; advisors, please see Booking Instructions and Supplier Terms & Conditions under the Advisor Info tab for more details."
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Mumbai"
+    },
+    {
+     "d": 3,
+     "n": "Ranthambore"
+    },
+    {
+     "d": 5,
+     "n": "Jaipur"
+    },
+    {
+     "d": 8,
+     "n": "Agra"
+    },
+    {
+     "d": 9,
+     "n": "Varanasi"
+    },
+    {
+     "d": 11,
+     "n": "Delhi"
+    }
+   ],
+   "route": "18114464"
   },
   {
    "id": "12876214",
@@ -34117,6 +34634,12 @@
    ],
    "promotions": [
     {
+     "name": "Himalayan healing",
+     "endDate": "2026-12-15",
+     "exclusive": false,
+     "description": "Embark on a transformative journey through Nepal, where ancient traditions meet breathtaking landscapes. From the spiritual heart of Kathmandu Valley to the serene beauty of Pokhara and the rugged terrain of Mustang, this itinerary offers a deep dive into Nepal's rich culture, history, and natural wonders. Experience sacred rituals, private spiritual guidance, and immersive trekking adventures, all while staying in luxury accommodations that reflect the soul of the region. Each moment is designed to restore, rejuvenate, and inspire, leaving you with unforgettable memories of Nepal's timeless…"
+    },
+    {
      "name": "Timeless Tibet",
      "endDate": "2027-02-20",
      "exclusive": false,
@@ -34321,7 +34844,14 @@
     "Sanctuary Olonana - all meals, game drives, nature walk, Maasai village visit, bush meals, laundry services, all beverages (alcoholic or non-alcoholic with the exception of champagne & premium brands)",
     "Airstrip transfers from Kichwa Tembo Airstrip. Jomo Kenyatta International Airport/Nairobi/Wilson Airport/Jomo Kenyatta International Airport Wilson Airport/Lewa Downs/Masai Mara/Wilson Airport"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -34575,6 +35105,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -34658,6 +35194,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -34732,6 +35274,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -34872,6 +35420,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -34941,6 +35495,12 @@
     "Every year, East Africa’s sun-soaked plains bear witness to the Great Migration, one of the world’s greatest natural spectacles. Witness its majesty firsthand on this extraordinary journey, setting out on thrilling game drives among the legendary Big Five and herds of other fascinating animals by day and camping in refined comfort each night beneath sparkling African skies."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -35012,6 +35572,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -35082,6 +35648,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -35146,6 +35718,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -35202,6 +35780,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -35330,6 +35914,12 @@
     "Kenya promises an immersive introduction into the great East African wilderness, where endless landscapes buttress burning sunsets and life-affirming encounters with some of the planet’s most majestic fauna await. Head out on thrilling game drives, and bed down beneath twinkling night skies on this unforgettable journey into the heart of Kenya’s wildest corners, tailored to your tastes. A&K’s safari experts have hand-picked the best family-friendly reserves and luxury camps to offer you and your children a more intimate, exclusive experience in the African bush, where the beautiful scenery and exceptional, conservation-minded safari trips – both in-vehicle and on foot – take center stage."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -35574,6 +36164,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -35755,6 +36351,12 @@
     "A&K was born in Kenya, and the safari is in our DNA. Capturing the quintessential African wildlife experience, this 11-day adventure immerses you in an unspoiled world of iconic fauna and flora on land and in the ocean. The safari locations in Kenya’s lesser-known national parks and conservancies are chosen for the variety of their habitats, teeming with life. Fall asleep to the sounds of the African night and awaken to spectacular sunrises before setting out on daily game drives. Our passionate, experienced guides take you closer to the natural wonders of Africa, from the jaw-dropping Big Five to great herds of elephants, a wealth of top predators and a staggering array of birds. Venture from the savannah to the coast and encounter breathtaking marine life, too. Explore the Indian Ocean off Kenya, snorkeling on vibrant coral reefs and spotting pods of dolphins in crystal-clear waters."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -35956,6 +36558,12 @@
     "The Maasai Mara is Kenya at its wildest: life-affirming, heart-racing encounters with endangered species and incredible wildlife, spellbinding sunsets and landscapes you’ll never forget. Starting in vibrant Nairobi, the only city in the world where you can safari to a backdrop of skyscrapers, this tailor-made trip prioritizes the best that Kenya has to offer with time in the Loisaba Conservancy, whose lofty contours provide a privileged vantage point over Kenya and its wildlife, and the Maasai Mara. Here, expert guides will take you on exhilarating game drives, and A&K’s seasoned safari team has hand-picked the best reserves and most comfortable camps to ensure your time in Kenya is nothing short of a dream."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -36784,6 +37392,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -37081,6 +37695,12 @@
     "Spanning sinuous river deltas, vast swathes of savannah and thundering waterfalls, this awe-inspiring journey through Africa’s southern nations serves up the very best the continent has to offer. Along the way, experience life-affirming wildlife encounters encompassing the Big Five and abundant bird life, check into a refined roster of remote retreats while also gaining a first-hand appreciation for the conservation efforts that are helping preserve the region’s most pristine environments."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -37471,6 +38091,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -37548,6 +38174,76 @@
     }
    ],
    "route": "18597862"
+  },
+  {
+   "id": "18654740",
+   "n": "Madagascar Explorer",
+   "b": "nathab",
+   "g": [
+    "INDIANOCEAN"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18654740/madagascarexplorer",
+   "days": 8,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2565_2_352.webp",
+   "from": "Antananarivo, Madagascar",
+   "to": "Antananarivo, Madagascar",
+   "country": "Madagascar",
+   "world": false,
+   "mks": [
+    "2026-11",
+    "2026-12",
+    "2027-01",
+    "2027-02",
+    "2027-03",
+    "2027-04",
+    "2027-05",
+    "2027-06",
+    "2027-07",
+    "2027-08",
+    "2027-09",
+    "2027-10"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures Now Through: 31 Oct 2027",
+   "description": "Among giant tree ferns and bromeliads, a flash of orange darts through the green shadows. Hoots and shrieks echo through the canopy. Intrigued, you look up and spy a red-ruffed lemur. Deep within the primeval rainforests of Madagascar, an astounding menagerie of unique animals thrives, from these ancient primates that hop upright to foot-long panther chameleons that change color to match their surroundings. These creatures live among a multitude of unusual flora found nowhere else on Earth, products of biological isolation over eons. Alone in the Indian Ocean, the island of Madagascar is sometimes called the planet’s eighth continent—more than 90% of its species, many of which are rare and…",
+   "included": [
+    "Accommodations, all meals from dinner on Day 1 through lunch on final day, some gratuities",
+    "Services of Nat Hab's professional Expedition Leader(s), local guides and camp staff",
+    "All activities and entrance fees, all taxes, permits and service fees",
+    "Airport transfers on Day 1 and final day"
+   ],
+   "promotions": [],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Antananarivo"
+    },
+    {
+     "d": 2,
+     "n": "Maroantsetra"
+    },
+    {
+     "d": 3,
+     "n": "Masoala National Park"
+    },
+    {
+     "d": 3,
+     "n": "Tampolo"
+    },
+    {
+     "d": 3,
+     "n": "Masoala National Park"
+    },
+    {
+     "d": 6,
+     "n": "Morondava"
+    },
+    {
+     "d": 1,
+     "n": "Antananarivo"
+    }
+   ],
+   "route": "18654740"
   },
   {
    "id": "18220178",
@@ -37664,6 +38360,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -37718,6 +38420,12 @@
     "Ideal for first-time visitors to Madagascar, this journey by air through the south of the island spotlights its spectacular topography, from surreal rock formations and ancient canyons to rainforests rich in rare wildlife, as well as its fascinating indigenous culture. An itinerary that can be tailored to suit you, led by expert local guides, this island adventure includes waterfall hikes, the chance to get up-close to endemic plants and reptiles, see more than 80 species of bird, and visit local markets -- all while staying in upscale lodgings with an unbeatable sense of place."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -38018,7 +38726,14 @@
    "included": [
     "This is just a test"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -38056,7 +38771,14 @@
    "included": [
     "Please contact us for includes and excludes on this experience"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -38165,7 +38887,14 @@
     "All scheduled flights o Kilimanjaro Airport / Manyara Airstrip o Manyara Airstrip / Grumeti Airstrip o Grumeti Airstrip / Kilimanjaro Airport o Kilimanjaro Airport / Wilson Airport",
     "Tanzania National park fees Kenya National Park Fees Emergency medical evacuation insurance Administration fee"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -38223,7 +38952,14 @@
    "included": [
     "Please contact us for includes and excludes on this experience"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -38261,7 +38997,14 @@
    "included": [
     "Please contact us for includes and excludes on this experience"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -38269,80 +39012,6 @@
     }
    ],
    "route": "16628900"
-  },
-  {
-   "id": "18295643",
-   "n": "Mountain Gorilla Safari: Kenya, Tanzania & Rwanda",
-   "b": "tauck",
-   "g": [
-    "EASTAFRICA",
-    "GREATAPES"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18295643/mountaingorillasafarikenyatanzaniarwanda",
-   "days": 16,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_104.webp",
-   "from": "Arusha, Tanzania",
-   "to": "-",
-   "country": "Kenya",
-   "world": false,
-   "d": "7/21/2027",
-   "r": "8/5/2027",
-   "mks": [
-    "2027-07",
-    "2027-08"
-   ],
-   "win": "Dates: 21 Jul 2027 - 05 Aug 2027",
-   "description": "From the Big Five to silverbacked Mountain Gorillas, wildlife is the draw on this 16-day safari through Kenya, Tanzania and Rwanda where game drives and mountain treks reward you with once-in-a-lifetime encounters with animals, both endemic and endangered. All departures are small groups, limited to 24 guests.",
-   "included": [
-    "From the Big Five to silverback Mountain Gorillas, wildlife is the draw on this 16-day safari in Kenya, Tanzania and Rwanda, where game drives and a special mountain trek reward with once-in-a-lifetime encounters with animals, both endemic and endangered... highlighted by an opportunity to \"meet\" a gorilla family living in the wilds of Rwanda and a visit to the Dian Fossey Gorilla Fund Museum, dedicated to saving the endangered mountain gorilla. Gorillas in your midst... Spend the last three nights of your 16-day African safari to Kenya and Tanzania in Rwanda, home to some of the last remaining mountain gorillas on Earth. Learn insights and observations about gorilla behavior at private lectures and during a visit to the Dian Fossey Gorilla Fund Museum before your once-in-a-lifetime gorilla trek begins. A private porter will carry your provisions as an expert guide leads you into the wilderness for your gorilla encounter. Once the gorillas are located, you will have the rare opportunity to watch them interact with each other - and you if they choose! Your adventure includes talks by conservationists working to save these endangered gorillas from extinction. All departures are small groups, limited to 24 guests. In Tanzania, you can find a birdwatcher's paradise in Lake Manyara and Africa's \"Garden of Eden\" in Ngorongoro Crater. The circle of life continues in the savannas of Kenya, where indescribable vignettes play out before your eyes in Maasai Mara National Reserve and Samburu National Reserve... Return to a time when the Great Rift Valley held the secrets of the origins of mankind... Observe huge herds roaming the Serengeti, the \"lost world\" of Ngorongoro Crater soar in a hot air balloon over the Maasai Mara at dawn - capped by a champagne breakfast in the bush... view rescued chimpanzees and protected black rhinos at Ol Pejeta Conservancy... attend a special barbecue dinner accompanied by Maasai cultural performance in the Serengeti... enjoy a two-night stay at fabled Fairmont Mount Kenya Safari Club... meet the weavers of a local village... travel in exclusive open-top safari vehicles, and stay in luxurious tented camps and safari lodges... Special experiences include; game drives in the national parks of Tanzania and Kenya and a guided gorilla trek in Volcanoes National Park for a one-hour gorilla family visit and a private lecture on conservation programs underway in Rwanda."
-   ],
-   "promotions": [
-    {
-     "name": "Tauck Bridges: Save When You Travel As A Group",
-     "endDate": "2027-12-31",
-     "exclusive": false,
-     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
-    }
-   ],
-   "itin": [
-    {
-     "d": 1,
-     "n": "Arusha"
-    },
-    {
-     "d": 2,
-     "n": "Ngorongoro"
-    },
-    {
-     "d": 4,
-     "n": "Serengeti"
-    },
-    {
-     "d": 7,
-     "n": "Samburu National Reserve"
-    },
-    {
-     "d": 8,
-     "n": "Amboseli National Park"
-    },
-    {
-     "d": 9,
-     "n": "Nanyuki"
-    },
-    {
-     "d": 11,
-     "n": "Masai Mara National Reserve"
-    },
-    {
-     "d": 13,
-     "n": "Kigali"
-    },
-    {
-     "d": 14,
-     "n": "Volcanoes National Park"
-    }
-   ],
-   "route": "18295643"
   },
   {
    "id": "18651071",
@@ -38687,6 +39356,18 @@
    ],
    "promotions": [
     {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding certificate as proof. What's includedStandard &Beyond lodge, camp or yacht…"
+    },
+    {
+     "name": "Honeymoon offer",
+     "endDate": "2027-12-20",
+     "exclusive": false,
+     "description": "Save 50% on one partner's accommodation Embrace wild romance with an African Safari Honeymoon One of the best honeymoon destinations in the world. We’re often asked, which is the best country to visit for a honeymoon. We can say, without a doubt, that a honeymoon safari in East, Southern or South Africa should be high up on any newlywed couple’s list of honeymoon ideas. Africa is home to a plethora of romantic adventures and awe-inspiring landscapes such as the Masai Mara, Serengeti and the world-famous Kruger National Park. Whether it be a safari or bush and beach combination honeymoon, the…"
+    },
+    {
      "name": "Fly Me to Phinda",
      "endDate": "2028-01-10",
      "exclusive": false,
@@ -38855,6 +39536,12 @@
     "Namibia is nature’s great experiment, a place of drama and beauty that feels like a glorious work in progress: where desiccated salt pans flood with the rains, attracting vast flocks of flamingos, and mammoth desert dunes shift with the wind before your eyes. Immerse yourself in the diverse beauty of Namibia’s fire-toned sands and shimmering plains on this thrilling journey across the country. Tailored to your interests by A&K’s experts, this is a once-in-a-lifetime adventure through one of Africa’s most captivating nations. Expect ancient, lunar scenery, expert-led walks to discover dazzling desert flora and overnight stays in the heart of the action, where luxurious tented suites come as standard and breathtaking encounters with wildlife happen right on your doorstep."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -39203,6 +39890,12 @@
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding…"
+    },
+    {
+     "name": "Fly Me to Vira Vira",
+     "endDate": "2027-06-30",
+     "exclusive": false,
+     "description": "Choose how you wish to travel and save Enjoy exclusive discounts on your helicopter or private charter flight when staying at &Beyond Vira Vira. Explore the picturesque Araucanía region of Chile’s Lake District and save when you stay 4+ nights in a villa at &Beyond Vira Vira. Immersed on an expansive, forested estate with 822 m (2,696 ft) of river frontage and breathtaking views of the snow-capped Villarica Volcano, Vira Vira is themed in beauty. And now you can save when choosing how you wish to travel to this extraordinary retreat. What benefits can you expect from this offer?Savings…"
     }
    ],
    "itin": [
@@ -39329,6 +40022,12 @@
    ],
    "promotions": [
     {
+     "name": "Himalayan healing",
+     "endDate": "2026-12-15",
+     "exclusive": false,
+     "description": "Embark on a transformative journey through Nepal, where ancient traditions meet breathtaking landscapes. From the spiritual heart of Kathmandu Valley to the serene beauty of Pokhara and the rugged terrain of Mustang, this itinerary offers a deep dive into Nepal's rich culture, history, and natural wonders. Experience sacred rituals, private spiritual guidance, and immersive trekking adventures, all while staying in luxury accommodations that reflect the soul of the region. Each moment is designed to restore, rejuvenate, and inspire, leaving you with unforgettable memories of Nepal's timeless…"
+    },
+    {
      "name": "Timeless Tibet",
      "endDate": "2027-02-20",
      "exclusive": false,
@@ -39379,6 +40078,12 @@
     "New England is ablaze with color in autumn, making it the ideal time to visit this beautiful, bountiful and culturally rich region of six states where the American nation was born. Quaint coastal towns with imposing colonial buildings and a far-reaching heritage are waiting to greet you, while inland the celebrated region of “the Berkshires” is a haven for culture lovers, its low-lying rural hills peppered with historic B&Bs, art galleries and antique shops. Encompassing the states of Maine, Connecticut, Massachusetts, New Hampshire, Rhode Island and Vermont, New England has much to explore. A bespoke journey crafted by A&K experts will ensure you see all the highlights."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -39956,6 +40661,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -40447,6 +41158,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -40773,6 +41490,12 @@
    ],
    "promotions": [
     {
+     "name": "Himalayan healing",
+     "endDate": "2026-12-15",
+     "exclusive": false,
+     "description": "Embark on a transformative journey through Nepal, where ancient traditions meet breathtaking landscapes. From the spiritual heart of Kathmandu Valley to the serene beauty of Pokhara and the rugged terrain of Mustang, this itinerary offers a deep dive into Nepal's rich culture, history, and natural wonders. Experience sacred rituals, private spiritual guidance, and immersive trekking adventures, all while staying in luxury accommodations that reflect the soul of the region. Each moment is designed to restore, rejuvenate, and inspire, leaving you with unforgettable memories of Nepal's timeless…"
+    },
+    {
      "name": "Timeless Tibet",
      "endDate": "2027-02-20",
      "exclusive": false,
@@ -40858,6 +41581,18 @@
     "Rhino notching and de-horning"
    ],
    "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding certificate as proof. What's includedStandard &Beyond lodge, camp or yacht…"
+    },
+    {
+     "name": "Honeymoon offer",
+     "endDate": "2027-12-20",
+     "exclusive": false,
+     "description": "Save 50% on one partner's accommodation Embrace wild romance with an African Safari Honeymoon One of the best honeymoon destinations in the world. We’re often asked, which is the best country to visit for a honeymoon. We can say, without a doubt, that a honeymoon safari in East, Southern or South Africa should be high up on any newlywed couple’s list of honeymoon ideas. Africa is home to a plethora of romantic adventures and awe-inspiring landscapes such as the Masai Mara, Serengeti and the world-famous Kruger National Park. Whether it be a safari or bush and beach combination honeymoon, the…"
+    },
     {
      "name": "Fly Me to Phinda",
      "endDate": "2028-01-10",
@@ -41193,6 +41928,18 @@
    ],
    "promotions": [
     {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding certificate as proof. What's includedStandard &Beyond lodge, camp or yacht…"
+    },
+    {
+     "name": "Honeymoon offer",
+     "endDate": "2027-12-20",
+     "exclusive": false,
+     "description": "Save 50% on one partner's accommodation Embrace wild romance with an African Safari Honeymoon One of the best honeymoon destinations in the world. We’re often asked, which is the best country to visit for a honeymoon. We can say, without a doubt, that a honeymoon safari in East, Southern or South Africa should be high up on any newlywed couple’s list of honeymoon ideas. Africa is home to a plethora of romantic adventures and awe-inspiring landscapes such as the Masai Mara, Serengeti and the world-famous Kruger National Park. Whether it be a safari or bush and beach combination honeymoon, the…"
+    },
+    {
      "name": "Fly Me to Phinda",
      "endDate": "2028-01-10",
      "exclusive": false,
@@ -41323,6 +42070,12 @@
     "An adventure through central Africa is as thrilling as any blockbuster, written in real time beneath immense skies: from the mysterious great apes hidden in the forests to tales of prey and predator played out on the Serengeti’s vast, baobab-dotted plains. See some of Africa’s most iconic species on this unforgettable journey through Rwanda and northern Tanzania, tailor-made for you by A&K’s experts. Join expert trackers in Volcanoes National Park to find endangered mountain gorillas and head out on four wheels through the Serengeti and Ngorongoro Crater as you immerse yourself in the breadth and beauty of the natural world. At the end of each day, return to your luxurious, lantern-lit camps in the heart of the wilderness, hand-picked by A&K for their stunning surroundings and excellent wildlife-watching opportunities."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -41876,6 +42629,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -42243,7 +43002,14 @@
    "included": [
     "Please contact us for includes and excludes on this experience"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -42544,6 +43310,18 @@
    ],
    "promotions": [
     {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding certificate as proof. What's includedStandard &Beyond lodge, camp or yacht…"
+    },
+    {
+     "name": "Honeymoon offer",
+     "endDate": "2027-12-20",
+     "exclusive": false,
+     "description": "Save 50% on one partner's accommodation Embrace wild romance with an African Safari Honeymoon One of the best honeymoon destinations in the world. We’re often asked, which is the best country to visit for a honeymoon. We can say, without a doubt, that a honeymoon safari in East, Southern or South Africa should be high up on any newlywed couple’s list of honeymoon ideas. Africa is home to a plethora of romantic adventures and awe-inspiring landscapes such as the Masai Mara, Serengeti and the world-famous Kruger National Park. Whether it be a safari or bush and beach combination honeymoon, the…"
+    },
+    {
      "name": "Fly Me to Phinda",
      "endDate": "2028-01-10",
      "exclusive": false,
@@ -42596,7 +43374,14 @@
     "Scheduled Flights: Wilson Airport/Masai Mara/Wilson Airport",
     "Emergency medical evacuation insurance Administration fee"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -42915,6 +43700,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -43047,6 +43838,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -43114,6 +43911,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -43176,6 +43979,12 @@
     "Whether heard in the rustle of the bushveld or seen in the steely, self-assured stare of a leopard, South Africa’s spirit is wild and free; a place of boundless skies and soul-stirring encounters with the world’s most epic fauna. Travel the breadth of South Africa on a journey filled with unforgettable wildlife encounters, tailored to your tastes by A&K. Our experts will curate the perfect iconic South African experience, taking the road less travelled but never compromising on comfort. Discover some of South Africa’s foremost safari destinations from a pair of luxurious, hand-picked camps, as well as in the beating heart of Cape Town and scenic wine country."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -43364,6 +44173,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -43479,6 +44294,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -43530,6 +44351,12 @@
     "Experience timeless elegance on a spectacular luxury adventure, travelling by glamorous Rovos Rail and safari-going in Chobe National Park and the lush Okavango Delta, following a wide-ranging itinerary that also features cosmopolitan Cape Town and magnificent Victoria Falls."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -43605,6 +44432,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -43678,6 +44511,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -43826,6 +44665,12 @@
     "South Africa and Botswana shimmer with the promise of adventure: be in the swirling, wildlife-rich waters of the Okavango or a glamorous train ride through the wild, golden desert landscapes. Dive into Cape Town’s cosmopolitan culture, watch for elephants in the Okavango Delta and enjoy a luxurious, 1920s-era romp through the golden age of rail travel on this unmissable adventure through southern Africa. Tailored to your interests by A&K’s experts, you will experience some of the greatest cultural and natural experiences South Africa and Botswana have to offer. Accommodation has been carefully selected to ensure the best chance to spot wildlife in the ever-shifting waters of the Okavango Delta, and you will spend three nights on board the elegant Rovos Rail – the last word in luxury African train travel."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -44013,6 +44858,18 @@
     "Please contact us for includes and excludes on this experience"
    ],
    "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding certificate as proof. What's includedStandard &Beyond lodge, camp or yacht…"
+    },
+    {
+     "name": "Honeymoon offer",
+     "endDate": "2027-12-20",
+     "exclusive": false,
+     "description": "Save 50% on one partner's accommodation Embrace wild romance with an African Safari Honeymoon One of the best honeymoon destinations in the world. We’re often asked, which is the best country to visit for a honeymoon. We can say, without a doubt, that a honeymoon safari in East, Southern or South Africa should be high up on any newlywed couple’s list of honeymoon ideas. Africa is home to a plethora of romantic adventures and awe-inspiring landscapes such as the Masai Mara, Serengeti and the world-famous Kruger National Park. Whether it be a safari or bush and beach combination honeymoon, the…"
+    },
     {
      "name": "Fly Me to Phinda",
      "endDate": "2028-01-10",
@@ -44297,6 +45154,18 @@
    ],
    "promotions": [
     {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding certificate as proof. What's includedStandard &Beyond lodge, camp or yacht…"
+    },
+    {
+     "name": "Honeymoon offer",
+     "endDate": "2027-12-20",
+     "exclusive": false,
+     "description": "Save 50% on one partner's accommodation Embrace wild romance with an African Safari Honeymoon One of the best honeymoon destinations in the world. We’re often asked, which is the best country to visit for a honeymoon. We can say, without a doubt, that a honeymoon safari in East, Southern or South Africa should be high up on any newlywed couple’s list of honeymoon ideas. Africa is home to a plethora of romantic adventures and awe-inspiring landscapes such as the Masai Mara, Serengeti and the world-famous Kruger National Park. Whether it be a safari or bush and beach combination honeymoon, the…"
+    },
+    {
      "name": "Fly Me to Phinda",
      "endDate": "2028-01-10",
      "exclusive": false,
@@ -44337,6 +45206,12 @@
     "Two days set aside to experience the colorful Pushkar Fair firsthand make this an Indian adventure like no other. Add the Taj Mahal at dawn, a Bengal tiger resting amid teak forest shadows, the sensory cavalcade of a Mumbai marketplace, time-honored rituals playing out along the Ganges — and you have India as only A&K can reveal it. Immerse yourself in the incomparable cities of Mumbai, Delhi and Varanasi, and stay in grand palaces once owned by royals."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -44965,6 +45840,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -45410,6 +46291,12 @@
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding…"
+    },
+    {
+     "name": "Fly Me to Vira Vira",
+     "endDate": "2027-06-30",
+     "exclusive": false,
+     "description": "Choose how you wish to travel and save Enjoy exclusive discounts on your helicopter or private charter flight when staying at &Beyond Vira Vira. Explore the picturesque Araucanía region of Chile’s Lake District and save when you stay 4+ nights in a villa at &Beyond Vira Vira. Immersed on an expansive, forested estate with 822 m (2,696 ft) of river frontage and breathtaking views of the snow-capped Villarica Volcano, Vira Vira is themed in beauty. And now you can save when choosing how you wish to travel to this extraordinary retreat. What benefits can you expect from this offer?Savings…"
     }
    ],
    "itin": [
@@ -45677,6 +46564,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -45738,6 +46631,12 @@
      "endDate": "2026-12-31",
      "exclusive": false,
      "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding…"
+    },
+    {
+     "name": "Fly Me to Vira Vira",
+     "endDate": "2027-06-30",
+     "exclusive": false,
+     "description": "Choose how you wish to travel and save Enjoy exclusive discounts on your helicopter or private charter flight when staying at &Beyond Vira Vira. Explore the picturesque Araucanía region of Chile’s Lake District and save when you stay 4+ nights in a villa at &Beyond Vira Vira. Immersed on an expansive, forested estate with 822 m (2,696 ft) of river frontage and breathtaking views of the snow-capped Villarica Volcano, Vira Vira is themed in beauty. And now you can save when choosing how you wish to travel to this extraordinary retreat. What benefits can you expect from this offer?Savings…"
     }
    ],
    "itin": [
@@ -46304,6 +47203,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -46753,6 +47658,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -46990,6 +47901,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -47042,7 +47959,14 @@
     "Every seat on the boat is fitted with a top-of-the-range camera, which is fixed to a customised mount, so guests needn’t bring their own equipment. Refreshments on game drives",
     "Laundry (excluding Chobe Under Canvas)"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -47190,7 +48114,14 @@
     " All scheduled air transfers: Arusha Airport / Manyara Airstrip Manyara Airstrip / Serengeti Airstrip Serengeti Airstrip / Kilimanjaro Airport",
     "Tanzania National park fees / Conservancy fees Crater fees for one visit to Ngorongoro Crater"
    ],
-   "promotions": [],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Milestone Celebrations Offer Valid for Travel Now Through 31 Dec 2026 There’s nothing we love more than sharing your special occasions with when staying with us in honour of your ‘milestone’ birthday or anniversary We believe every moment is worth celebrating, especially a momentous occasion such as your birthday or wedding anniversary. Which is why we’re delighted to share our Milestone Celebrations Offer with you. Stay at any one of our &Beyond lodges or camps and receive a 20% discount on your accommodation when observing either your Anniversary or Birthday OFFER: Save when commemorating…"
+    }
+   ],
    "itin": [
     {
      "d": 1,
@@ -47236,6 +48167,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -47294,6 +48231,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -47612,6 +48555,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -47688,6 +48637,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -47763,6 +48718,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -47975,6 +48936,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -48054,6 +49021,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -48132,6 +49105,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -48276,6 +49255,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -48354,6 +49339,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -48434,6 +49425,12 @@
    "included": [],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -48504,6 +49501,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -48535,6 +49538,180 @@
     }
    ],
    "route": "18114125"
+  },
+  {
+   "id": "18655480",
+   "n": "Ultimate Peruvian Amazon Expedition: High Water Season",
+   "b": "andbeyond",
+   "g": [],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18655480/ultimateperuvianamazonexpeditionhighwaterseason",
+   "days": 8,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15444065_2_223.webp",
+   "from": "Nauta, Peru",
+   "to": "Marañón River, Peru",
+   "country": "Peru",
+   "world": false,
+   "mks": [
+    "2026-11",
+    "2026-12",
+    "2027-01",
+    "2027-02",
+    "2027-03",
+    "2027-04",
+    "2027-05",
+    "2027-06",
+    "2027-07",
+    "2027-08",
+    "2027-09",
+    "2027-10",
+    "2027-11",
+    "2027-12"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 13 Nov 2026 - 31 Dec 2027",
+   "description": "The journey at a glance. The journey begins with a warm reception in the lively city of Iquitos, where the vibrant spirit of the Amazon greets guests. The adventure continues with a scenic drive from Iquitos to Nauta, giving guests the opportunity to take in more of the landscape and local life of the Peruvian Amazon along the way. Here, the elegant &Beyond Amazon Explorer yacht awaits, ready to transport guests into a world of wonder. Over the next few days, guests can embark on thrilling excursions and captivating discoveries as they uncover the breathtaking beauty and untamed mysteries of the Peruvian Amazon. Guests set off on exciting skiff explorations, navigating lush waterways…",
+   "included": [
+    "Accommodation on the yacht",
+    "Three meals daily, soft drinks, house wines, local brand spirits and beers, and tea and coffee",
+    "Internet (via Starlink)",
+    "Limited laundry",
+    "Scheduled transfers between Iquitos Airport and Nauta",
+    "The exclusive use of two pairs of SWAROVSKI OPTIK binoculars per room to share, for the duration of your stay",
+    "Guides' Journal with regional information and wildlife illustrations",
+    "Area map with Star Birds checklist"
+   ],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding…"
+    },
+    {
+     "name": "Fly Me to Vira Vira",
+     "endDate": "2027-06-30",
+     "exclusive": false,
+     "description": "Choose how you wish to travel and save Enjoy exclusive discounts on your helicopter or private charter flight when staying at &Beyond Vira Vira. Explore the picturesque Araucanía region of Chile’s Lake District and save when you stay 4+ nights in a villa at &Beyond Vira Vira. Immersed on an expansive, forested estate with 822 m (2,696 ft) of river frontage and breathtaking views of the snow-capped Villarica Volcano, Vira Vira is themed in beauty. And now you can save when choosing how you wish to travel to this extraordinary retreat. What benefits can you expect from this offer?Savings…"
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Iquitos"
+    },
+    {
+     "d": 1,
+     "n": "Nauta"
+    },
+    {
+     "d": 2,
+     "n": "Ucayali River"
+    },
+    {
+     "d": 5,
+     "n": "Marañón River"
+    },
+    {
+     "d": 1,
+     "n": "Nauta"
+    },
+    {
+     "d": 5,
+     "n": "Marañón River"
+    }
+   ],
+   "route": "18655480"
+  },
+  {
+   "id": "18655479",
+   "n": "Ultimate Peruvian Amazon Expedition: Low Water Season",
+   "b": "andbeyond",
+   "g": [],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18655479/ultimateperuvianamazonexpeditionlowwaterseason",
+   "days": 8,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15444065_2_220.webp",
+   "from": "Iquitos, Peru",
+   "to": "Marañón River, Peru",
+   "country": "Peru",
+   "world": false,
+   "mks": [
+    "2026-11",
+    "2026-12",
+    "2027-01",
+    "2027-02",
+    "2027-03",
+    "2027-04",
+    "2027-05",
+    "2027-06",
+    "2027-07",
+    "2027-08",
+    "2027-09",
+    "2027-10",
+    "2027-11",
+    "2027-12"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 13 Nov 2026 - 31 Dec 2027",
+   "description": "The journey at a glance Guests can discover the Peruvian Amazon during the low water season on board the &Beyond Amazon Explorer. This itinerary can be tailored as a 7-night, 4-night or 3-night adventure. The journey begins with a warm reception in the vibrant city of Iquitos, where the spirit of the Amazon welcomes guests. From there, guests take a scenic transfer to Nauta, the gateway to the world’s most extraordinary rainforest, where their luxurious &Beyond Amazon Explorer yacht awaits. Over the next few days, guests embark on an array of thrilling excursions and captivating discoveries, unveiling the breathtaking beauty and untamed wonders of the Peruvian Amazon. Guests set off on…",
+   "included": [
+    "Accommodation on the yacht",
+    "Three meals daily, soft drinks, house wines, local brand spirits and beers, and tea and coffee",
+    "Internet (via Starlink)",
+    "Limited laundry",
+    "Scheduled transfers between Iquitos Airport and Nauta",
+    "The exclusive use of two pairs of SWAROVSKI OPTIK binoculars per room to share, for the duration of your stay",
+    "Guides' Journal with regional information and wildlife illustrations",
+    "Area map with Star Birds checklist"
+   ],
+   "promotions": [
+    {
+     "name": "Milestone Celebrations Offer",
+     "endDate": "2026-12-31",
+     "exclusive": false,
+     "description": "Celebration offers Unscripted moments, carefully planned We’ve been planning special celebrations for our guests longer that we can remember. You can be sure we’ve thought about everything – so you have the luxury of not having to think about anything. OFFER: Save when commemorating your ‘milestone’ anniversary or birthday with us Celebrate your anniversary or birthday with us and receive a 20% discount on your &Beyond accommodation when staying at any one of our lodges, camps or yacht. This offer is valid for six (6) months before or after your event date – simply provide your wedding…"
+    },
+    {
+     "name": "Fly Me to Vira Vira",
+     "endDate": "2027-06-30",
+     "exclusive": false,
+     "description": "Choose how you wish to travel and save Enjoy exclusive discounts on your helicopter or private charter flight when staying at &Beyond Vira Vira. Explore the picturesque Araucanía region of Chile’s Lake District and save when you stay 4+ nights in a villa at &Beyond Vira Vira. Immersed on an expansive, forested estate with 822 m (2,696 ft) of river frontage and breathtaking views of the snow-capped Villarica Volcano, Vira Vira is themed in beauty. And now you can save when choosing how you wish to travel to this extraordinary retreat. What benefits can you expect from this offer?Savings…"
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Iquitos"
+    },
+    {
+     "d": 2,
+     "n": "Ucayali River"
+    },
+    {
+     "d": 4,
+     "n": "Marañón River"
+    },
+    {
+     "d": 2,
+     "n": "Ucayali River"
+    },
+    {
+     "d": 4,
+     "n": "Marañón River"
+    },
+    {
+     "d": 5,
+     "n": "Nauta"
+    },
+    {
+     "d": 1,
+     "n": "Iquitos"
+    },
+    {
+     "d": 4,
+     "n": "Marañón River"
+    }
+   ],
+   "route": "18655479"
   },
   {
    "id": "18587818",
@@ -48714,6 +49891,12 @@
     "The timeless sights and sounds of the Serengeti, incredible wildlife roaming Ngorongoro Crater and the enduring culture of the Maasai people are all part of what makes Tanzania one of the greatest East African safari destinations. Experience it in classic tented comfort on this spectacular adventure, exploring the country’s most game-rich parks on an itinerary designed for phenomenal wildlife viewing."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -49105,6 +50288,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -49222,6 +50411,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -49290,6 +50485,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -49365,6 +50566,12 @@
     "Private English-speaking guide"
    ],
    "promotions": [
+    {
+     "name": "Himalayan healing",
+     "endDate": "2026-12-15",
+     "exclusive": false,
+     "description": "Embark on a transformative journey through Nepal, where ancient traditions meet breathtaking landscapes. From the spiritual heart of Kathmandu Valley to the serene beauty of Pokhara and the rugged terrain of Mustang, this itinerary offers a deep dive into Nepal's rich culture, history, and natural wonders. Experience sacred rituals, private spiritual guidance, and immersive trekking adventures, all while staying in luxury accommodations that reflect the soul of the region. Each moment is designed to restore, rejuvenate, and inspire, leaving you with unforgettable memories of Nepal's timeless…"
+    },
     {
      "name": "Timeless Tibet",
      "endDate": "2027-02-20",
@@ -49503,6 +50710,12 @@
     "Answer the call of the wild on a 10-day journey deep into Canada’s remote and rugged north. Traverse Manitoba province, meeting ecological experts and conservatists in Winnipeg. Watch cities and towns fade from view as you fly over the winding coast of Hudson Bay, landing in the subarctic settlement of Churchill – the “Polar Bear Capital of the World”. Make your home in a rural lodge so immersed in nature that its staff monitor the area all night, ready to wake you up should the Northern Lights appear in the skies, or a polar bear pay a nocturnal visit to the grounds. Look out for the iconic bears, plus pods of beluga whales, on daily excursions through unspoiled terrain led by knowledgeable guides."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -50230,6 +51443,12 @@
    ],
    "promotions": [
     {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
      "exclusive": false,
@@ -50742,85 +51961,6 @@
    "route": "18361363"
   },
   {
-   "id": "18105041",
-   "n": "Wonders of the Galápagos and Machu Picchu",
-   "b": "ak",
-   "g": [
-    "GALAPAGOS",
-    "AMAZONIA"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18105041/wondersofthegalpagosandmachupicchu",
-   "days": 12,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_196.webp",
-   "from": "Guayaquil, Ecuador",
-   "to": "Lima, Peru",
-   "country": "Ecuador",
-   "world": false,
-   "d": "11/15/2026",
-   "r": "11/26/2026",
-   "mks": [
-    "2026-11"
-   ],
-   "win": "Dates: 15 Nov 2026 - 26 Nov 2026",
-   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
-   "included": [
-    "This exciting South American adventure combines two bucket-list destinations in one incredible journey. Begin with a cruise of the Galápagos’ Northern Islands, our guides revealing giant tortoises, marine iguanas, blue-footed boobies and more with a host of exciting snorkeling, kayaking and shore excursions. Then, explore the enduring heritage of the Sacred Valley and join a site expert to discover the wonders of Machu Picchu."
-   ],
-   "promotions": [
-    {
-     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
-     "endDate": "2027-03-31",
-     "exclusive": false,
-     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
-    },
-    {
-     "name": "Virtuoso Exclusive Benefit",
-     "endDate": "2027-12-31",
-     "exclusive": false,
-     "description": "$200 USD Shipboard Credit Per Stateroom Virtuoso Guests will enjoy $200 USD shipboard credit per stateroom on all voyages. Onboard credit will be applied to your shipboard account. Offer only applies to all A&K x Crystal Cruises. Offer is per stateroom, valid on new reservations and has no cash value. Must mention code VRTLEC at time of booking. Restrictions may apply; advisors, please see Booking Instructions and Supplier Terms & Conditions under the Advisor Info tab for more details."
-    }
-   ],
-   "itin": [
-    {
-     "d": 1,
-     "n": "Guayaquil"
-    },
-    {
-     "d": 4,
-     "n": "Santiago Island"
-    },
-    {
-     "d": 5,
-     "n": "Genovesa Island"
-    },
-    {
-     "d": 6,
-     "n": "Lima"
-    },
-    {
-     "d": 7,
-     "n": "Cuzco"
-    },
-    {
-     "d": 8,
-     "n": "Sacred Valley"
-    },
-    {
-     "d": 9,
-     "n": "Machu Picchu"
-    },
-    {
-     "d": 7,
-     "n": "Cuzco"
-    },
-    {
-     "d": 6,
-     "n": "Lima"
-    }
-   ],
-   "route": "18105041"
-  },
-  {
    "id": "18383999",
    "n": "Wonders of the Galápagos and Machu Picchu",
    "b": "ak",
@@ -50853,6 +51993,12 @@
    "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
    "included": [],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",
@@ -50901,66 +52047,6 @@
     }
    ],
    "route": "18383999"
-  },
-  {
-   "id": "18363151",
-   "n": "Wonders of the Galápagos and Machu Picchu",
-   "b": "ak",
-   "g": [
-    "GALAPAGOS",
-    "AMAZONIA"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18363151/wondersofthegalpagosandmachupicchu",
-   "days": 12,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15690947_2_0.webp",
-   "from": "Guayaquil, Ecuador",
-   "to": "Lima, Peru",
-   "country": "Ecuador",
-   "world": false,
-   "mks": [
-    "2026-11"
-   ],
-   "onDemand": true,
-   "win": "Valid for Departures Now Through: 26 Nov 2026",
-   "description": "This exciting South American adventure combines two bucket-list destinations in one incredible journey. Begin with a cruise of the Galápagos’ Northern Islands, our guides revealing giant tortoises, marine iguanas, blue-footed boobies and more with a host of exciting snorkeling, kayaking and shore excursions. Then, explore the enduring heritage of the Sacred Valley and join a site expert to discover the wonders of Machu Picchu.",
-   "included": [
-    "Travelling Bell Boy® Luggage Handling",
-    "English-Speaking Resident Tour Director® and Local Guides",
-    "Airport Meet and Greet with Private Transfers",
-    "Traveller’s Valet® Laundry Service",
-    "Internet Access",
-    "Entrance Fees, Taxes and All Gratuities Except Resident Tour Director",
-    "24/7 A&K On-Call Support",
-    "Internal Air Included (Economy Class, AU$3,060 value) Guayaquil/Baltra/Guayaquil/Lima; Lima/Cusco/Lima"
-   ],
-   "promotions": [],
-   "itin": [
-    {
-     "d": 1,
-     "n": "Guayaquil"
-    },
-    {
-     "d": 6,
-     "n": "Lima"
-    },
-    {
-     "d": 7,
-     "n": "Sacred Valley"
-    },
-    {
-     "d": 9,
-     "n": "Machu Picchu"
-    },
-    {
-     "d": 10,
-     "n": "Cusco"
-    },
-    {
-     "d": 6,
-     "n": "Lima"
-    }
-   ],
-   "route": "18363151"
   },
   {
    "id": "18487634",
@@ -51322,6 +52408,12 @@
     "At once unforgiving and utterly enchanting, the untamed landscapes of Wyoming and Montana are where old Western stories live among the pine trees and where bears roam beneath immense skies and jagged, silent peaks. As part of your tailored adventure, our experts will curate unforgettable experiences with locals who have a deep, lifelong connection to the land: naturalists, on hand to highlight the region’s rich flora and fauna, as well as ranchers and wranglers who make a living from this vast wilderness. Nights are spent in beautiful, hand-picked lodges, where the service and style are as memorable as the views."
    ],
    "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
     {
      "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
      "endDate": "2027-03-31",

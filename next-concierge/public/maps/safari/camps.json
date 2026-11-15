@@ -5,7 +5,7 @@
   "radiusKm": 25,
   "lodgesInCategory": 68,
   "lodgesInSafariCountries": 66,
-  "journeysWithCamps": 269,
+  "journeysWithCamps": 264,
   "journeysTotal": 515,
   "campsMatched": 42
  },
@@ -1632,14 +1632,6 @@
     "km": 18.1
    }
   ],
-  "18105041": [
-   {
-    "id": "h_00971",
-    "stop": "Machu Picchu",
-    "day": 9,
-    "km": 16.2
-   }
-  ],
   "18105718": [
    {
     "id": "h_02374",
@@ -1750,20 +1742,6 @@
     "stop": "Masai Mara National Reserve",
     "day": 1,
     "km": 18.1
-   }
-  ],
-  "18113907": [
-   {
-    "id": "h_00532",
-    "stop": "San Jose",
-    "day": 1,
-    "km": 16
-   },
-   {
-    "id": "h_01374",
-    "stop": "Fortuna",
-    "day": 4,
-    "km": 4.9
    }
   ],
   "18114094": [
@@ -1982,38 +1960,6 @@
     "stop": "Victoria Falls",
     "day": 1,
     "km": 22.4
-   }
-  ],
-  "18295643": [
-   {
-    "id": "h_00537",
-    "stop": "Ngorongoro",
-    "day": 2,
-    "km": 19.6
-   },
-   {
-    "id": "h_01409",
-    "stop": "Nanyuki",
-    "day": 9,
-    "km": 1
-   },
-   {
-    "id": "h_01207",
-    "stop": "Masai Mara National Reserve",
-    "day": 11,
-    "km": 18.1
-   },
-   {
-    "id": "h_01417",
-    "stop": "Volcanoes National Park",
-    "day": 14,
-    "km": 16.2
-   },
-   {
-    "id": "h_01782",
-    "stop": "Volcanoes National Park",
-    "day": 14,
-    "km": 16.2
    }
   ],
   "18301934": [
@@ -2288,14 +2234,6 @@
     "stop": "Okavango Delta",
     "day": 6,
     "km": 19.9
-   }
-  ],
-  "18363151": [
-   {
-    "id": "h_00971",
-    "stop": "Machu Picchu",
-    "day": 9,
-    "km": 16.2
    }
   ],
   "18363205": [
@@ -2786,26 +2724,6 @@
     "stop": "Maasai Mara National Reserve",
     "day": 5,
     "km": 23.2
-   }
-  ],
-  "18488737": [
-   {
-    "id": "h_02374",
-    "stop": "Livingstone",
-    "day": 2,
-    "km": 10.1
-   },
-   {
-    "id": "h_01349",
-    "stop": "Livingstone",
-    "day": 2,
-    "km": 19.8
-   },
-   {
-    "id": "h_02484",
-    "stop": "Okavango Delta",
-    "day": 4,
-    "km": 19.9
    }
   ],
   "18505877": [
