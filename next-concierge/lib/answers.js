@@ -6,7 +6,6 @@ import { hotelAnswers } from "@/data/answers/hotels";
 import { villaAnswers } from "@/data/answers/villas";
 import { journeyAnswers } from "@/data/answers/journeys";
 import { safariAnswers } from "@/data/answers/safari";
-import { easterIslandAnswers } from "@/data/answers/easter-island";
 import { generatedAnswers } from "@/data/answers/generated";
 
 // The app's own origin. Defined in lib/site-url.js, with the reasoning, and
@@ -19,7 +18,6 @@ export const ALL_ANSWERS = [
   ...villaAnswers,
   ...journeyAnswers,
   ...safariAnswers,
-  ...easterIslandAnswers,
   ...generatedAnswers,
 ];
 
@@ -46,7 +44,7 @@ export function answerParams() {
  * not in this array, so adding one is a build error rather than a silent
  * orphan.
  */
-export const CATEGORY_ORDER = ["Expedition", "Safari", "Hotels", "Villas", "Voyages", "Rails", "Yachts", "Planning"];
+export const CATEGORY_ORDER = ["Expedition", "Safari", "Hotels", "Villas", "Voyages", "Rails", "Yachts", "Private Jets", "Planning", "Popular Questions"];
 
 export function answersByCategory() {
   const groups = new Map();
