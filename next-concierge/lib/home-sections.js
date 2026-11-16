@@ -176,7 +176,6 @@ const SECTIONS = [
 ];
 
 const QUESTIONS = [
-  ["Easter Island", "wild-horse-nine-filming-locations-easter-island"],
   ["Jets", "private-jet-journeys-explained"],
   ["Hotels", "four-seasons-preferred-partner-benefits"],
   ["Expedition", "best-arctic-expedition-svalbard-greenland-northwest-passage"],

@@ -25,7 +25,6 @@ import { AGENCY_NAME } from "@/lib/seo/site";
 
 /** The answers most worth a first visitor's click. Missing slugs drop out. */
 const POPULAR = [
-  "wild-horse-nine-filming-locations-easter-island",
   "hotel-brand-advisor-programs-compared",
   "four-seasons-preferred-partner-benefits",
   "world-cruises-compared",
