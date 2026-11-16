@@ -5,8 +5,8 @@
   "radiusKm": 25,
   "lodgesInCategory": 68,
   "lodgesInSafariCountries": 66,
-  "journeysWithCamps": 264,
-  "journeysTotal": 515,
+  "journeysWithCamps": 265,
+  "journeysTotal": 517,
   "campsMatched": 42
  },
  "radiusKm": 25,
@@ -299,7 +299,7 @@
     "Room upgrade",
     "Spa treatment"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00567": {
    "n": "Explora Rapa Nui",
@@ -452,7 +452,7 @@
     "Property credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00212": {
    "n": "Belmond Safaris",
@@ -520,7 +520,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01643": {
    "n": "Rosewood Cape Kidnappers",
@@ -588,7 +588,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01021": {
    "n": "Jack's Camp",
@@ -673,7 +673,7 @@
     "$300 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01729": {
    "n": "Shamwari Private Game Reserve",
@@ -724,7 +724,7 @@
     "Room upgrade",
     "Early check-in"
    ],
-   "promo": 1
+   "promo": 0
   }
  },
  "BYTRIP": {
@@ -2724,6 +2724,26 @@
     "stop": "Maasai Mara National Reserve",
     "day": 5,
     "km": 23.2
+   }
+  ],
+  "18488737": [
+   {
+    "id": "h_02374",
+    "stop": "Livingstone",
+    "day": 2,
+    "km": 10.1
+   },
+   {
+    "id": "h_01349",
+    "stop": "Livingstone",
+    "day": 2,
+    "km": 19.8
+   },
+   {
+    "id": "h_02484",
+    "stop": "Okavango Delta",
+    "day": 4,
+    "km": 19.9
    }
   ],
   "18505877": [

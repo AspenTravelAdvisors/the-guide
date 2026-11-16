@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4413,
-  "journeysWithStays": 3702,
+  "journeysTotal": 4409,
+  "journeysWithStays": 3699,
   "journeysWithHouse": 0,
   "gateways": 106,
   "hotels": 281,
@@ -15,41 +15,79 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00724": {
-   "n": "Gran Hotel Miramar",
+  "h_00141": {
+   "n": "Arakur Ushuaia Resort & Spa",
    "house": null,
    "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
+   "city": "Ushuaia",
+   "country": "Argentina",
    "ll": [
-    36.7207,
-    -4.40818
+    -54.7864,
+    -68.2575
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0.webp",
-   "rooms": 200,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
+   "rooms": 129,
    "perks": [
     "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
+    "Room upgrade",
+    "Airport transfer"
    ],
    "promo": 0
   },
-  "h_01124": {
-   "n": "La Zambra Resort",
-   "house": "Hyatt Hotels Corporation",
+  "h_01191": {
+   "n": "Los Cauquenes Resort + Spa + Experiences",
+   "house": null,
    "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
+   "city": "Ushuaia",
+   "country": "Argentina",
    "ll": [
-    36.553,
-    -4.66678
+    -54.8364,
+    -68.3502
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
-   "rooms": 196,
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
+   "rooms": 48,
    "perks": [
     "Daily breakfast",
     "Room upgrade",
     "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_01583": {
+   "n": "REMOTA",
+   "house": null,
+   "aff": null,
+   "city": "Puerto Natales",
+   "country": "Chile",
+   "ll": [
+    -51.7088,
+    -72.5077
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4387_2_0.webp",
+   "rooms": 72,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_02239": {
+   "n": "The Singular Patagonia, Chile",
+   "house": null,
+   "aff": null,
+   "city": "Puerto Natales",
+   "country": "Chile",
+   "ll": [
+    -51.7003,
+    -72.5258
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13102422_2_7.webp",
+   "rooms": 57,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
    ],
    "promo": 1
   },
@@ -128,158 +166,6 @@
     "Room upgrade"
    ],
    "promo": 0
-  },
-  "h_01667": {
-   "n": "Rosselli AX Privilege",
-   "house": null,
-   "aff": null,
-   "city": "Valletta",
-   "country": "Malta",
-   "ll": [
-    35.8989,
-    14.5154
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18089362_2_0.webp",
-   "rooms": 25,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00969": {
-   "n": "Iniala Valletta",
-   "house": null,
-   "aff": null,
-   "city": "Valletta",
-   "country": "Malta",
-   "ll": [
-    35.8962,
-    14.5144
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16564575_2_0.webp",
-   "rooms": 33,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02109": {
-   "n": "The Phoenicia Malta",
-   "house": null,
-   "aff": null,
-   "city": "Floriana",
-   "country": "Malta",
-   "ll": [
-    35.8936,
-    14.5054
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16579930_2_0.webp",
-   "rooms": 132,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00992": {
-   "n": "InterContinental Malta",
-   "house": "IHG Hotels & Resorts",
-   "aff": null,
-   "city": "St. Julian's Bay",
-   "country": "Malta",
-   "ll": [
-    35.9258,
-    14.4878
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15431092_2_55.webp",
-   "rooms": 481,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00141": {
-   "n": "Arakur Ushuaia Resort & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.7864,
-    -68.2575
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
-   "rooms": 129,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 0
-  },
-  "h_01191": {
-   "n": "Los Cauquenes Resort + Spa + Experiences",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.8364,
-    -68.3502
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
-   "rooms": 48,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_01583": {
-   "n": "REMOTA",
-   "house": null,
-   "aff": null,
-   "city": "Puerto Natales",
-   "country": "Chile",
-   "ll": [
-    -51.7088,
-    -72.5077
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4387_2_0.webp",
-   "rooms": 72,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_02239": {
-   "n": "The Singular Patagonia, Chile",
-   "house": null,
-   "aff": null,
-   "city": "Puerto Natales",
-   "country": "Chile",
-   "ll": [
-    -51.7003,
-    -72.5258
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13102422_2_7.webp",
-   "rooms": 57,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
   },
   "h_00532": {
    "n": "El Silencio Lodge & Spa -  Relais & Chateaux",
@@ -507,7 +393,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01688": {
    "n": "SLS Beverly Hills",
@@ -715,6 +601,44 @@
     "Daily breakfast",
     "$100 credit",
     "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00724": {
+   "n": "Gran Hotel Miramar",
+   "house": null,
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.7207,
+    -4.40818
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0.webp",
+   "rooms": 200,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01124": {
+   "n": "La Zambra Resort",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.553,
+    -4.66678
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
+   "rooms": 196,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
    ],
    "promo": 1
   },
@@ -1455,7 +1379,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02035": {
    "n": "The Leela Palace New Delhi",
@@ -1835,7 +1759,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02458": {
    "n": "Waldorf Astoria Osaka",
@@ -1873,7 +1797,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v18602133": {
    "n": "InterContinental Osaka",
@@ -2139,7 +2063,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02189": {
    "n": "The Ritz-Carlton, Millenia Singapore",
@@ -2310,7 +2234,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01728": {
    "n": "Serras Barcelona",
@@ -2348,7 +2272,7 @@
     "$200 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01905": {
    "n": "The Barcelona EDITION",
@@ -2425,6 +2349,82 @@
     "Early check-in"
    ],
    "promo": 1
+  },
+  "h_01667": {
+   "n": "Rosselli AX Privilege",
+   "house": null,
+   "aff": null,
+   "city": "Valletta",
+   "country": "Malta",
+   "ll": [
+    35.8989,
+    14.5154
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18089362_2_0.webp",
+   "rooms": 25,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00969": {
+   "n": "Iniala Valletta",
+   "house": null,
+   "aff": null,
+   "city": "Valletta",
+   "country": "Malta",
+   "ll": [
+    35.8962,
+    14.5144
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16564575_2_0.webp",
+   "rooms": 33,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02109": {
+   "n": "The Phoenicia Malta",
+   "house": null,
+   "aff": null,
+   "city": "Floriana",
+   "country": "Malta",
+   "ll": [
+    35.8936,
+    14.5054
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16579930_2_0.webp",
+   "rooms": 132,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00992": {
+   "n": "InterContinental Malta",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "St. Julian's Bay",
+   "country": "Malta",
+   "ll": [
+    35.9258,
+    14.4878
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15431092_2_55.webp",
+   "rooms": 481,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
   },
   "h_00867": {
    "n": "Hotel Grande Bretagne, a Luxury Collection Hotel, Athens",
@@ -2880,7 +2880,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00806": {
    "n": "Hotel 1000",
@@ -3241,7 +3241,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02498": {
    "n": "the DOUGLAS, an Autograph Collection Hotel",
@@ -3602,7 +3602,7 @@
     "Room upgrade",
     "Spa treatment"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00793": {
    "n": "Hayfield Manor Hotel",
@@ -3716,7 +3716,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v18615276": {
    "n": "St. Clement London",
@@ -3925,7 +3925,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01405": {
    "n": "Octant Ponta Delgada",
@@ -4494,7 +4494,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02259": {
    "n": "The St. Regis Istanbul",
@@ -4817,7 +4817,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v16767614": {
    "n": "Torel Avantgarde",
@@ -4950,7 +4950,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v16589873": {
    "n": "The Prince Gallery Tokyo Kioicho, a Luxury Collection Hotel",
@@ -5045,7 +5045,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00738": {
    "n": "Grand Hotel Miramare",
@@ -5121,7 +5121,7 @@
     "Room upgrade",
     "Airport transfer"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00821": {
    "n": "Hotel Barriere Le Grand Hotel Dinard",
@@ -5273,7 +5273,7 @@
     "Property credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00703": {
    "n": "Galley Bay Resort & Spa, Antigua",
@@ -5353,73 +5353,6 @@
   }
  },
  "GATES": {
-  "Málaga, Spain": {
-   "n": "Málaga, Spain",
-   "ll": [
-    36.7167,
-    -4.4167
-   ],
-   "h": [
-    [
-     "h_00724",
-     0.9
-    ],
-    [
-     "h_01124",
-     28.8
-    ]
-   ]
-  },
-  "Buenos Aires, Argentina": {
-   "n": "Buenos Aires, Argentina",
-   "ll": [
-    -34.5875,
-    -58.6725
-   ],
-   "h": [
-    [
-     "h_00055",
-     26
-    ],
-    [
-     "h_01455",
-     26.2
-    ],
-    [
-     "h_v16828211",
-     26.4
-    ],
-    [
-     "h_00641",
-     26.6
-    ]
-   ]
-  },
-  "Valletta, Malta": {
-   "n": "Valletta, Malta",
-   "ll": [
-    35.8997,
-    14.5147
-   ],
-   "h": [
-    [
-     "h_01667",
-     0.1
-    ],
-    [
-     "h_00969",
-     0.4
-    ],
-    [
-     "h_02109",
-     1.1
-    ],
-    [
-     "h_00992",
-     3.8
-    ]
-   ]
-  },
   "Ushuaia, Argentina": {
    "n": "Ushuaia, Argentina",
    "ll": [
@@ -5451,6 +5384,31 @@
     [
      "h_02239",
      3.7
+    ]
+   ]
+  },
+  "Buenos Aires, Argentina": {
+   "n": "Buenos Aires, Argentina",
+   "ll": [
+    -34.5875,
+    -58.6725
+   ],
+   "h": [
+    [
+     "h_00055",
+     26
+    ],
+    [
+     "h_01455",
+     26.2
+    ],
+    [
+     "h_v16828211",
+     26.4
+    ],
+    [
+     "h_00641",
+     26.6
     ]
    ]
   },
@@ -5624,6 +5582,23 @@
     [
      "h_01901",
      6.6
+    ]
+   ]
+  },
+  "Málaga, Spain": {
+   "n": "Málaga, Spain",
+   "ll": [
+    36.7167,
+    -4.4167
+   ],
+   "h": [
+    [
+     "h_00724",
+     0.9
+    ],
+    [
+     "h_01124",
+     28.8
     ]
    ]
   },
@@ -6292,6 +6267,31 @@
     [
      "h_00291",
      23.2
+    ]
+   ]
+  },
+  "Valletta, Malta": {
+   "n": "Valletta, Malta",
+   "ll": [
+    35.8997,
+    14.5147
+   ],
+   "h": [
+    [
+     "h_01667",
+     0.1
+    ],
+    [
+     "h_00969",
+     0.4
+    ],
+    [
+     "h_02109",
+     1.1
+    ],
+    [
+     "h_00992",
+     3.8
     ]
    ]
   },
@@ -8685,10 +8685,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
-  "18049024": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
-  },
   "18049025": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -9292,10 +9288,6 @@
   "18091233": {
    "pre": null,
    "post": "Ushuaia, Argentina"
-  },
-  "18091608": {
-   "pre": "Valletta, Malta",
-   "post": "Málaga, Spain"
   },
   "18091610": {
    "pre": null,
@@ -14508,10 +14500,6 @@
   "18474190": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
-  },
-  "18475007": {
-   "pre": "Málaga, Spain",
-   "post": "Málaga, Spain"
   },
   "18479821": {
    "pre": "Buenos Aires, Argentina",

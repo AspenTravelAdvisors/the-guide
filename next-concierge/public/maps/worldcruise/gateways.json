@@ -70,7 +70,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02408": {
    "n": "Villas of Distinction",
@@ -146,7 +146,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v18615276": {
    "n": "St. Clement London",
@@ -906,7 +906,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00510": {
    "n": "Downtown L.A. Proper",
@@ -944,7 +944,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01688": {
    "n": "SLS Beverly Hills",
@@ -1210,7 +1210,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02189": {
    "n": "The Ritz-Carlton, Millenia Singapore",
@@ -1286,7 +1286,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v16589873": {
    "n": "The Prince Gallery Tokyo Kioicho, a Luxury Collection Hotel",
@@ -2291,7 +2291,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00806": {
    "n": "Hotel 1000",
@@ -2443,7 +2443,7 @@
     "$200 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01905": {
    "n": "The Barcelona EDITION",
@@ -2633,7 +2633,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00473": {
    "n": "Crown Towers Melbourne",
@@ -2899,7 +2899,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00738": {
    "n": "Grand Hotel Miramare",
@@ -3222,7 +3222,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02259": {
    "n": "The St. Regis Istanbul",

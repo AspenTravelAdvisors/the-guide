@@ -293,7 +293,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00348": {
    "n": "Casa Monti",
@@ -369,7 +369,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01735": {
    "n": "Shangri-La Bosphorus, Istanbul",
@@ -635,7 +635,7 @@
     "Room upgrade",
     "Early check-in"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00397": {
    "n": "Cheval Blanc Paris",
@@ -673,7 +673,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02184": {
    "n": "The Ritz-Carlton, Kyoto",
@@ -692,7 +692,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00319": {
    "n": "Capella Kyoto",
@@ -939,7 +939,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01025": {
    "n": "Janu Tokyo",
@@ -1585,7 +1585,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00653": {
    "n": "Four Seasons Hotel London at Park Lane",
@@ -1642,7 +1642,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01755": {
    "n": "Shangri-La The Shard, London",
@@ -2041,7 +2041,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01688": {
    "n": "SLS Beverly Hills",
@@ -2383,7 +2383,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02465": {
    "n": "Waldorf Astoria Washington DC",
@@ -2611,7 +2611,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02234": {
    "n": "The Siam",
@@ -2991,7 +2991,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02442": {
    "n": "Waldorf Astoria Bangkok",
@@ -3675,7 +3675,7 @@
     "$200 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01905": {
    "n": "The Barcelona EDITION",
@@ -3960,7 +3960,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00806": {
    "n": "Hotel 1000",
@@ -4530,7 +4530,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_v18384152": {
    "n": "Rusty Parrot Lodge and Spa",
@@ -4606,7 +4606,7 @@
     "$100 credit",
     "Early check-in"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02021": {
    "n": "Mandarin Oriental The Landmark, Hong Kong",
@@ -4792,7 +4792,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01080": {
    "n": "Kona Village, A Rosewood Resort",
@@ -5153,7 +5153,7 @@
     "$200 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00708": {
    "n": "Gili Lankanfushi, Maldives",
@@ -5455,7 +5455,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02408": {
    "n": "Villas of Distinction",
@@ -5550,7 +5550,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01372": {
    "n": "Nayara Gardens",
@@ -5569,7 +5569,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_01374": {
    "n": "Nayara Tented Camp",
@@ -5588,7 +5588,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_02500": {
    "n": "the Nines, a Luxury Collection Hotel, Portland",

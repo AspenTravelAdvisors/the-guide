@@ -4,24 +4,24 @@
  },
  "feeds": {
   "cruises": {
-   "lastChecked": "2026-11-15T16:13:30.064Z",
-   "lastChanged": "2026-11-15T16:13:30.064Z",
-   "count": 5209
+   "lastChecked": "2026-11-16T19:28:41.950Z",
+   "lastChanged": "2026-11-16T19:28:41.950Z",
+   "count": 5204
   },
   "tours": {
-   "lastChecked": "2026-11-15T16:14:47.312Z",
-   "lastChanged": "2026-11-15T16:14:47.312Z",
-   "count": 711
+   "lastChecked": "2026-11-16T19:29:45.705Z",
+   "lastChanged": "2026-11-16T19:29:45.705Z",
+   "count": 712
   },
   "hotels": {
-   "lastChecked": "2026-11-15T16:13:08.072Z",
-   "lastChanged": "2026-11-15T16:13:08.072Z",
+   "lastChecked": "2026-11-16T19:28:21.820Z",
+   "lastChanged": "2026-11-16T19:28:21.820Z",
    "count": 2097
   },
   "promotions": {
-   "lastChecked": "2026-11-15T16:13:12.553Z",
-   "lastChanged": "2026-11-15T16:13:12.553Z",
-   "count": 1902
+   "lastChecked": "2026-11-16T19:28:26.042Z",
+   "lastChanged": "2026-11-16T19:28:26.042Z",
+   "count": 1468
   }
  }
 }
