@@ -6,6 +6,7 @@ import { hotelAnswers } from "@/data/answers/hotels";
 import { villaAnswers } from "@/data/answers/villas";
 import { journeyAnswers } from "@/data/answers/journeys";
 import { safariAnswers } from "@/data/answers/safari";
+import { easterIslandAnswers } from "@/data/answers/easter-island";
 import { generatedAnswers } from "@/data/answers/generated";
 
 // The app's own origin. Defined in lib/site-url.js, with the reasoning, and
@@ -18,6 +19,7 @@ export const ALL_ANSWERS = [
   ...villaAnswers,
   ...journeyAnswers,
   ...safariAnswers,
+  ...easterIslandAnswers,
   ...generatedAnswers,
 ];
 

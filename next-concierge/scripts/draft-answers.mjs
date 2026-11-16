@@ -52,7 +52,7 @@ const registrySrc = fs.readFileSync(path.join(repoRoot, 'lib/answers.js'), 'utf8
 const CATEGORY_ORDER = JSON.parse(
   registrySrc.match(/CATEGORY_ORDER = (\[[^\]]*\])/)[1],
 );
-const modulePaths = [...registrySrc.matchAll(/from "@\/(data\/answers\/[a-z]+)"/g)].map(m => m[1]);
+const modulePaths = [...registrySrc.matchAll(/from "@\/(data\/answers\/[a-z-]+)"/g)].map(m => m[1]);
 const existing = [];
 for (const rel of modulePaths) {
   const mod = await import(pathToFileURL(path.join(repoRoot, `${rel}.js`)).href);

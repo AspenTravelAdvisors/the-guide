@@ -88,7 +88,7 @@ const facts = makeFacts(hotels, collections, journeyFacts.rows, loadVillas().vil
 
 // ── the answers, via the module list lib/answers.js actually imports ────────
 const registrySrc = fs.readFileSync(path.join(repoRoot, 'lib/answers.js'), 'utf8');
-const modulePaths = [...registrySrc.matchAll(/from "@\/(data\/answers\/[a-z]+)"/g)].map(m => m[1]);
+const modulePaths = [...registrySrc.matchAll(/from "@\/(data\/answers\/[a-z-]+)"/g)].map(m => m[1]);
 if (!modulePaths.length) fail('registry', 'lib/answers.js imports no answer modules — the parse is wrong');
 
 const answers = [];
