@@ -442,7 +442,7 @@ export const journeyAnswers = [
 
   {
     slug: "private-jet-journeys-explained",
-    category: "Planning",
+    category: "Private Jets",
     question: "What is a private jet journey, and is it worth it?",
     title: "Private Jet Journeys Explained: Who Runs Them and Who They Suit",
     description:
