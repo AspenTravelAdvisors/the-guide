@@ -78,7 +78,7 @@ const SECTIONS = [
     body: "You unpack once. The jet waits on the apron while you are at Petra or on Easter Island, and the next continent is a long lunch away.",
     operator: "National Geographic",
     window: [1, 24],
-    answers: ["private-jet-journeys-explained"],
+    answers: ["private-jet-journeys-explained", "easter-island-by-private-jet"],
   },
   {
     // Ritz-Carlton, not Orient Express: the largest hotel-yacht programme on
@@ -159,7 +159,7 @@ const SECTIONS = [
     window: [2, 20],
     pins: [/pole to pole/i, /^across three continents/i, /^cape to cape world cruise – miami to southampton/i, /^in-depth japan exploration/i],
     prefer: /pole|three continents|world cruise|japan/i,
-    answers: ["world-cruise-segments-explained", "world-cruises-compared"],
+    answers: ["world-cruise-segments-explained", "world-cruises-compared", "world-cruises-that-stop-at-easter-island"],
   },
   {
     id: "rail",
