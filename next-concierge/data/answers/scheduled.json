@@ -485,7 +485,7 @@
         "capsule": "Sail the Drake Passage if you have the time and can tolerate the chance of two rough days each way: you get more ship choice, lower cost and the sense of arriving. Fly over it if you are short of time or badly prone to seasickness, accepting higher cost, fewer ships and the chance of a weather delay. Flying one way is a good compromise.",
         "answer": [
           "The Drake Passage is the roughly 600 miles of open ocean between the tip of South America and the Antarctic Peninsula. Ships leaving Ushuaia take about two days to cross it in each direction. Nobody can tell you in advance what you will get. Some crossings are flat calm, which crews call the Drake Lake, and some bring heavy swell for a day or more. Most are somewhere in between: a noticeable roll, a quiet dining room on the first evening, and people finding their feet by the second day. Modern expedition ships have stabilizers and captains time the crossing around the weather, which helps a great deal but does not remove the motion.",
-          "The alternative is to fly. A fly-cruise takes a charter flight of about two hours from Punta Arenas in Chile to an airstrip on King George Island in the South Shetlands, where the ship is waiting. You are in Antarctica the same day and you skip four days at sea. The cost is real, though: the fare is higher, far fewer ships offer it, and the flight needs clear weather at a gravel runway with no instrument landing, so delays of a day or more happen. Of the {{journeys:collection=cruise&region=Antarctica}} {{page:/journeys/cruise|Antarctic voyages}} in our atlas, most sail both ways."
+          "The alternative is to fly. A fly-cruise takes a charter flight of about two hours from Punta Arenas or Puerto Williams in Chile to an airstrip on King George Island in the South Shetlands, where the ship is waiting. You are in Antarctica the same day and you skip four days at sea. The cost is real, though: the fare is higher, far fewer ships offer it, and the flight needs clear weather at a gravel runway with no instrument landing, so delays of a day or more happen. Of the {{journeys:collection=cruise&region=Antarctica}} {{page:/journeys/cruise|Antarctic voyages}} in our atlas, most sail both ways."
         ],
         "sections": [
           {
@@ -593,7 +593,16 @@
             "label": "Expedition and small-ship cruises in the atlas"
           }
         ]
-      }
+      },
+      "approved": true,
+      "checked_notes": [
+        "Flight routing: fly-cruises are described as flying from Punta Arenas to King George Island in about two hours. Some operators now use Puerto Williams; confirm and add if we sell those.",
+        "Operators named as offering fly options: Antarctica21, Quark Expeditions, Aurora Expeditions, Silversea and Lindblad. Confirm each still does for the coming season.",
+        "Delay policies are described only in general terms (a contingency plan, and a refund or partial refund if the flight cannot operate within a set window). Check the wording against real operator terms.",
+        "Luggage limits on the charter flight are described as stricter than on a ship without a figure. Add the figure if we want one.",
+        "Trip lengths: about ten to twelve days sailing both ways, six to eight days flying both ways. Crossing time: about two days each way, roughly 600 miles.",
+        "Seasickness advice is general (prescription patches, tablets, cabin position). It tells readers to speak to their doctor; keep that."
+      ]
     },
     {
       "release": "2026-12",
