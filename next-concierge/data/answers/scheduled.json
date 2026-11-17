@@ -419,7 +419,7 @@
           "h2": "Puerto Rico hotels, for the night before a San Juan embarkation",
           "note": "Puerto Rico properties with advisor benefits on file, the most benefits first. San Juan is one of several embarkation ports, so check where your itinerary starts; this table shows Puerto Rico only, and some of these resorts are an hour or more from the cruise pier.",
           "query": "country=Puerto Rico&perks=true",
-          "sort": "perks",
+          "sort": "name",
           "limit": 8
         },
         "faqs": [
@@ -454,7 +454,9 @@
             "label": "Every yacht itinerary in the atlas"
           }
         ]
-      }
+      },
+      "approved": false,
+      "checked_notes": []
     },
     {
       "release": "2026-12",
