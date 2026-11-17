@@ -455,8 +455,14 @@
           }
         ]
       },
-      "approved": false,
-      "checked_notes": []
+      "approved": true,
+      "checked_notes": [
+        "Aman at Sea's Amangati is described as not entering service until 2027, so its Caribbean itineraries are ones to book ahead. Confirm the current first-sailing date.",
+        "Embarkation ports are given in general terms (San Juan, St. Maarten, Bridgetown, Fort Lauderdale and Miami, sometimes Antigua or St. Lucia). Check against the yacht lines' current Caribbean programs.",
+        "Every ship is said to anchor and tender at Gustavia, Jost Van Dyke, Bequia and the Tobago Cays. Confirm for Gustavia in particular.",
+        "Season claims: yacht season mid-December to April, Atlantic hurricane season 1 June to 30 November, stronger trade winds in December and January.",
+        "The evidence table shows Puerto Rico hotels only, for a San Juan embarkation. Change the query if another port is more useful."
+      ]
     },
     {
       "release": "2026-12",
