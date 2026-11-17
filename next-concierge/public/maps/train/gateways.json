@@ -187,7 +187,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v16589873": {
    "n": "The Prince Gallery Tokyo Kioicho, a Luxury Collection Hotel",
@@ -662,7 +662,7 @@
     "$200 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01905": {
    "n": "The Barcelona EDITION",
@@ -928,7 +928,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02451": {
    "n": "Waldorf Astoria London – Admiralty Arch- A Virtuoso Preview Property",
@@ -1004,7 +1004,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01920": {
    "n": "The Cadogan, A Belmond Hotel, London",
@@ -1099,7 +1099,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02189": {
    "n": "The Ritz-Carlton, Millenia Singapore",
@@ -1213,7 +1213,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01725": {
    "n": "Sensei Lana'i, A Four Seasons Resort",
@@ -1422,7 +1422,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02259": {
    "n": "The St. Regis Istanbul",
@@ -1764,7 +1764,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01579": {
    "n": "Párisi Udvar Hotel Budapest, in The Unbound Collection by Hyatt",
@@ -1821,7 +1821,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02256": {
    "n": "The St. Regis Florence",
@@ -1840,7 +1840,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00737": {
    "n": "Grand Hotel Minerva",
@@ -2562,7 +2562,7 @@
     "Room upgrade",
     "Early check-in"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02374": {
    "n": "Victoria Falls River Lodge",

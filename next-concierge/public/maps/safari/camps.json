@@ -299,7 +299,7 @@
     "Room upgrade",
     "Spa treatment"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00567": {
    "n": "Explora Rapa Nui",
@@ -452,7 +452,7 @@
     "Property credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00212": {
    "n": "Belmond Safaris",
@@ -588,7 +588,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01021": {
    "n": "Jack's Camp",
@@ -673,7 +673,7 @@
     "$300 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01729": {
    "n": "Shamwari Private Game Reserve",
@@ -724,7 +724,7 @@
     "Room upgrade",
     "Early check-in"
    ],
-   "promo": 0
+   "promo": 1
   }
  },
  "BYTRIP": {
@@ -4066,20 +4066,6 @@
     "km": 23.9
    }
   ],
-  "18637429": [
-   {
-    "id": "h_01207",
-    "stop": "Masai Mara National Reserve",
-    "day": 8,
-    "km": 18.1
-   },
-   {
-    "id": "h_00537",
-    "stop": "Ngorongoro",
-    "day": 12,
-    "km": 19.6
-   }
-  ],
   "18645735": [
    {
     "id": "h_01207",
@@ -4352,6 +4338,20 @@
     "stop": "Victoria Falls",
     "day": 1,
     "km": 22.4
+   }
+  ],
+  "18658830": [
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 8,
+    "km": 18.1
+   },
+   {
+    "id": "h_00537",
+    "stop": "Ngorongoro",
+    "day": 12,
+    "km": 19.6
    }
   ]
  }

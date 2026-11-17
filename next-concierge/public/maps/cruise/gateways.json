@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4409,
-  "journeysWithStays": 3699,
+  "journeysTotal": 4407,
+  "journeysWithStays": 3697,
   "journeysWithHouse": 0,
   "gateways": 106,
   "hotels": 281,
@@ -393,7 +393,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01688": {
    "n": "SLS Beverly Hills",
@@ -1379,7 +1379,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02035": {
    "n": "The Leela Palace New Delhi",
@@ -1759,7 +1759,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02458": {
    "n": "Waldorf Astoria Osaka",
@@ -1797,7 +1797,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v18602133": {
    "n": "InterContinental Osaka",
@@ -2063,7 +2063,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02189": {
    "n": "The Ritz-Carlton, Millenia Singapore",
@@ -2234,7 +2234,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01728": {
    "n": "Serras Barcelona",
@@ -2272,7 +2272,7 @@
     "$200 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01905": {
    "n": "The Barcelona EDITION",
@@ -2880,7 +2880,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00806": {
    "n": "Hotel 1000",
@@ -3241,7 +3241,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02498": {
    "n": "the DOUGLAS, an Autograph Collection Hotel",
@@ -3469,7 +3469,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02063": {
    "n": "The Merrion Hotel",
@@ -3602,7 +3602,7 @@
     "Room upgrade",
     "Spa treatment"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00793": {
    "n": "Hayfield Manor Hotel",
@@ -3716,7 +3716,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v18615276": {
    "n": "St. Clement London",
@@ -3925,7 +3925,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01405": {
    "n": "Octant Ponta Delgada",
@@ -4494,7 +4494,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02259": {
    "n": "The St. Regis Istanbul",
@@ -4817,7 +4817,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v16767614": {
    "n": "Torel Avantgarde",
@@ -4950,7 +4950,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v16589873": {
    "n": "The Prince Gallery Tokyo Kioicho, a Luxury Collection Hotel",
@@ -5121,7 +5121,7 @@
     "Room upgrade",
     "Airport transfer"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00821": {
    "n": "Hotel Barriere Le Grand Hotel Dinard",
@@ -5273,7 +5273,7 @@
     "Property credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00703": {
    "n": "Galley Bay Resort & Spa, Antigua",
@@ -8577,10 +8577,6 @@
    "pre": "Cairns, Australia",
    "post": null
   },
-  "16918986": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
   "16918988": {
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
@@ -9268,10 +9264,6 @@
   "18081420": {
    "pre": "Ushuaia, Argentina",
    "post": null
-  },
-  "18081422": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
   },
   "18081423": {
    "pre": "Ushuaia, Argentina",
