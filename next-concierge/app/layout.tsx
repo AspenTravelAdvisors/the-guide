@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import AdvisorRequest from "@/components/AdvisorRequest";
 import ArrivalCapture from "@/components/ArrivalCapture";
 import PartnerRibbon from "@/components/PartnerRibbon";
@@ -13,6 +14,7 @@ import { jsonLd } from "@/lib/seo/json-ld";
 import ScrollMemory from "@/components/ScrollMemory";
 import { ThemeWatcher } from "@/components/ThemeSwitch";
 import { THEME_SCRIPT } from "@/lib/theme";
+import { GA_MEASUREMENT_ID, gaBootstrapSource } from "@/lib/ga";
 import "./globals.css";
 
 const serif = Cormorant_Garamond({
@@ -85,6 +87,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Light or dark, decided before the first paint so neither theme
             flashes the other while the app loads. */}
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+        {/* GA4 queue + linker. Must run during HTML parse, before the route
+            tracker sends page_view. gtag.js is loaded from <GoogleAnalytics />. */}
+        {GA_MEASUREMENT_ID ? (
+          <script id="ga4-bootstrap" dangerouslySetInnerHTML={{ __html: gaBootstrapSource() }} />
+        ) : null}
       </head>
       <body>
         {/* Mapbox boots from a client component, so without hints the browser
@@ -195,6 +202,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </div>
         <ThemeWatcher />
         <Analytics />
+        <GoogleAnalytics />
         <ArrivalCapture />
       </body>
     </html>
