@@ -246,6 +246,9 @@
           },
           {
             "h2": "Which part of the island",
+            "paras": [
+              "You need a car almost wherever you stay. The roads are narrow, steep and short, nothing is more than twenty minutes away, and taxis are few. Small cars and open-top runabouts are the island norm, and your villa manager or hotel will have one waiting at the airport."
+            ],
             "list": [
               "Gustavia: the harbor town, with the shops and many of the restaurants. Villas here and on the hill above trade a beach for walking to dinner. Shell Beach is on foot.",
               "St. Jean: the most convenient base. A long swimming beach, beach clubs, shops and the airport all close together. Busy by island standards.",
@@ -255,9 +258,6 @@
               "Gouverneur and Lurin: hillside estates above one of the island's most beautiful undeveloped beaches. Private and quiet, with a steep road.",
               "Grand Cul de Sac: a shallow, calm lagoon suited to children, paddleboards and kites, with several of the hotels.",
               "Toiny and Grand Fond: the wild, windward coast. Dramatic and peaceful, but the sea here is not for casual swimming."
-            ],
-            "paras": [
-              "You need a car almost wherever you stay. The roads are narrow, steep and short, nothing is more than twenty minutes away, and taxis are few. Small cars and open-top runabouts are the island norm, and your villa manager or hotel will have one waiting at the airport."
             ]
           },
           {
@@ -307,7 +307,16 @@
             "label": "St. Barts hotels in the atlas"
           }
         ]
-      }
+      },
+      "approved": true,
+      "checked_notes": [
+        "Arrival: the page says most guests connect through St. Maarten by a short flight or a ferry of under an hour, with some flights from San Juan. Confirm current routes.",
+        "Daily housekeeping is described as standard in St. Barts villas, usually excluding Sundays and public holidays. Confirm against our villa partners' terms.",
+        "Festive minimum stays are given as commonly 10 to 14 nights for villas. Check against this season's terms.",
+        "Many hotels are said to close from late August into October. Confirm.",
+        "Area notes worth a local eye: Toiny and Grand Fond as the wild coast with no easy swimming; Grand Cul de Sac as a shallow, calm lagoon; Pointe Milou as sunset views with no beach.",
+        "Hotel descriptions: Eden Rock on St. Jean, Cheval Blanc on Flamands, Le Sereno and Le Barthélemy on Grand Cul de Sac, Hotel Christopher at Pointe Milou, Le Toiny on the wild coast."
+      ]
     },
     {
       "release": "2026-12",
