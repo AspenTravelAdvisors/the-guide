@@ -13,11 +13,17 @@
 // Vercel Analytics only records custom events in production with the
 // <Analytics /> component mounted (see app/layout.tsx). In dev, `track` is a
 // no-op, so calling these is always safe.
+//
+// The conversion moments — advisor click, advisor request, bucket-list watch,
+// and the self-serve booking click — are also sent to GA4 (lib/ga.ts). Vercel
+// stays the funnel of record for everything else. GA receives categories and
+// counts, never a name, email, phone, or message.
 
 import { track } from "@vercel/analytics";
 import { arrivalSource } from "./arrival";
 import { referralCode } from "./referral";
 import { campaignName } from "./campaign";
+import { gaEvent } from "./ga";
 
 type Props = Record<string, string | number | boolean | null>;
 
@@ -84,6 +90,9 @@ export function askFailed(reason: string) {
 
 export function advisorCtaClicked(category: string, source: AdvisorSource) {
   emit("advisor_cta_clicked", { category, source });
+  // The click that opens the contact dialog. Not a lead yet — that is
+  // generate_lead, fired from advisorRequestSent once the request is accepted.
+  gaEvent("advisor_cta_clicked", { category, cta_source: source });
 }
 
 /**
@@ -108,23 +117,46 @@ const partner = () => referralCode() ?? "none";
 const campaign = () => campaignName() ?? "none";
 
 export function advisorRequestSent(category: string, shortlist: number) {
+  const ai = aiSource();
+  const partnerCode = partner();
+  const campaignId = campaign();
   emit("advisor_request_sent", {
     category,
     shortlist,
-    ai: aiSource(),
-    partner: partner(),
-    campaign: campaign(),
+    ai,
+    partner: partnerCode,
+    campaign: campaignId,
+  });
+  // The concierge inquiry / contact form. GA4's recommended lead event.
+  // `partner` is a referral code, `campaign_name` a utm slug — not a person.
+  gaEvent("generate_lead", {
+    lead_source: "advisor_request",
+    category,
+    shortlist_count: shortlist,
+    ai_source: ai,
+    partner: partnerCode,
+    campaign_name: campaignId,
   });
 }
 
 /** The self-serve path. `hasDates` separates real intent from a default stay. */
 export function bookingClicked(type: string, hasDates: boolean) {
+  const ai = aiSource();
+  const partnerCode = partner();
+  const campaignId = campaign();
   emit("booking_clicked", {
     type,
     hasDates,
-    ai: aiSource(),
-    partner: partner(),
-    campaign: campaign(),
+    ai,
+    partner: partnerCode,
+    campaign: campaignId,
+  });
+  gaEvent("booking_clicked", {
+    booking_type: type || "none",
+    has_dates: hasDates,
+    ai_source: ai,
+    partner: partnerCode,
+    campaign_name: campaignId,
   });
 }
 
@@ -270,7 +302,18 @@ export function bucketListOpened(size: number) {
  * the same `ai` / `partner` split as the hand-off.
  */
 export function bucketWatchSet(size: number) {
-  emit("bucket_watch_set", { size, ai: aiSource(), partner: partner() });
+  const ai = aiSource();
+  const partnerCode = partner();
+  emit("bucket_watch_set", { size, ai, partner: partnerCode });
+  // The other contact form: an email left so an advisor writes when a saved
+  // trip changes. The address itself stays in /api/watch; GA only hears that
+  // a watch was set, and how long the list was.
+  gaEvent("generate_lead", {
+    lead_source: "bucket_watch",
+    shortlist_count: size,
+    ai_source: ai,
+    partner: partnerCode,
+  });
 }
 
 /* ── Things to do ───────────────────────────────────────────────────────────
