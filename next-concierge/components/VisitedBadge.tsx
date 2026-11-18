@@ -8,6 +8,33 @@ import type { VisitedProperty } from "@/lib/visited";
  * room to show. Uncertain entries never reach this component: the lookup
  * drops them.
  */
+/** The Aspen Travel Advisors seal, one image per theme (CSS shows one). */
+function Seal() {
+  return (
+    <>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        className="visited-seal"
+        src="/aspen-advisors-mark.png"
+        srcSet="/aspen-advisors-mark.png 1x, /aspen-advisors-mark@2x.png 2x"
+        alt="Aspen Travel Advisors"
+        width={18}
+        height={18}
+      />
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        className="visited-seal visited-seal--light"
+        src="/aspen-advisors-mark-light.png"
+        srcSet="/aspen-advisors-mark-light.png 1x, /aspen-advisors-mark-light@2x.png 2x"
+        alt=""
+        aria-hidden="true"
+        width={18}
+        height={18}
+      />
+    </>
+  );
+}
+
 export default function VisitedBadge({
   visits,
   variant = "card",
@@ -24,6 +51,7 @@ export default function VisitedBadge({
   if (variant === "mini") {
     return (
       <span className="visited-badge visited-badge--mini" title="Aspen Travel Advisors has been here">
+        <Seal />
         Been here
       </span>
     );
@@ -31,8 +59,9 @@ export default function VisitedBadge({
 
   return (
     <div className={variant === "detail" ? "visited-detail" : "visited-inline"}>
-      <p className="visited-badge">
-        <span className="visited-badge-kicker">Aspen Travel Advisors</span> has been here
+      <p className="visited-badge" title="Aspen Travel Advisors has been here">
+        <Seal />
+        <span className="visited-badge-text">Been here</span>
       </p>
       {variant === "detail" && (when.length > 0 || notes.length > 0) && (
         <p className="visited-note">
