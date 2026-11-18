@@ -5,11 +5,11 @@
   "atlas": "train",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 106,
-  "journeysWithStays": 102,
-  "journeysWithHouse": 45,
-  "gateways": 44,
-  "hotels": 154,
+  "journeysTotal": 105,
+  "journeysWithStays": 101,
+  "journeysWithHouse": 44,
+  "gateways": 43,
+  "hotels": 150,
   "houses": [
    "Belmond",
    "Orient Express"
@@ -2849,82 +2849,6 @@
    ],
    "promo": 0
   },
-  "h_00374": {
-   "n": "Castiglion del Bosco, A Rosewood Hotel",
-   "house": "Rosewood",
-   "aff": null,
-   "city": "Montalcino",
-   "country": "Italy",
-   "ll": [
-    43.0845,
-    11.4222
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3873_2_1.webp",
-   "rooms": 53,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00371": {
-   "n": "Castello di Velona Resort, Thermal SPA & Winery",
-   "house": null,
-   "aff": null,
-   "city": "Montalcino",
-   "country": "Italy",
-   "ll": [
-    42.9828,
-    11.5365
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15422637_2_0.webp",
-   "rooms": 45,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00366": {
-   "n": "Castello Banfi - Il Borgo",
-   "house": null,
-   "aff": null,
-   "city": "Montalcino",
-   "country": "Italy",
-   "ll": [
-    42.9796,
-    11.3977
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/1690751_2_2.webp",
-   "rooms": 14,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00372": {
-   "n": "Castello di Vicarello",
-   "house": null,
-   "aff": null,
-   "city": "Cinigiano",
-   "country": "Italy",
-   "ll": [
-    42.9068,
-    11.3224
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16728288_2_0.webp",
-   "rooms": 11,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_01954": {
    "n": "The Datai Langkawi",
    "house": null,
@@ -3940,31 +3864,6 @@
     ]
    ]
   },
-  "Montalcino": {
-   "n": "Montalcino",
-   "ll": [
-    43.05,
-    11.4833
-   ],
-   "h": [
-    [
-     "h_00374",
-     6.3
-    ],
-    [
-     "h_00371",
-     8.6
-    ],
-    [
-     "h_00366",
-     10.5
-    ],
-    [
-     "h_00372",
-     20.6
-    ]
-   ]
-  },
   "Langkawi": {
    "n": "Langkawi",
    "ll": [
@@ -4055,11 +3954,6 @@
   "16921421": {
    "pre": "Rome",
    "post": "Rome",
-   "house": "Orient Express"
-  },
-  "16921534": {
-   "pre": "Montalcino",
-   "post": "Montalcino",
    "house": "Orient Express"
   },
   "17903466": {

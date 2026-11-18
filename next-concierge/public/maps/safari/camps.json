@@ -6,7 +6,7 @@
   "lodgesInCategory": 68,
   "lodgesInSafariCountries": 66,
   "journeysWithCamps": 265,
-  "journeysTotal": 517,
+  "journeysTotal": 518,
   "campsMatched": 42
  },
  "radiusKm": 25,
@@ -316,7 +316,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_00077": {
    "n": "Amankora",

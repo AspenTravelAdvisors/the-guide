@@ -2383,7 +2383,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_02465": {
    "n": "Waldorf Astoria Washington DC",
@@ -4112,7 +4112,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01968": {
    "n": "The Estate Yountville",
@@ -4758,7 +4758,7 @@
     "$150 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01443": {
    "n": "Outrigger Kona Resort & Spa",

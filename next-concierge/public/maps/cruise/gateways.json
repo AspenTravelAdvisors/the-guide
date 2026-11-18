@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4407,
-  "journeysWithStays": 3697,
+  "journeysTotal": 4404,
+  "journeysWithStays": 3694,
   "journeysWithHouse": 0,
   "gateways": 106,
   "hotels": 281,
@@ -15,44 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00141": {
-   "n": "Arakur Ushuaia Resort & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.7864,
-    -68.2575
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
-   "rooms": 129,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 0
-  },
-  "h_01191": {
-   "n": "Los Cauquenes Resort + Spa + Experiences",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.8364,
-    -68.3502
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
-   "rooms": 48,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
   "h_01583": {
    "n": "REMOTA",
    "house": null,
@@ -90,82 +52,6 @@
     "Room upgrade"
    ],
    "promo": 1
-  },
-  "h_00055": {
-   "n": "Alvear Palace Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5876,
-    -58.3889
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
-   "rooms": 207,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01455": {
-   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5883,
-    -58.3862
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v16828211": {
-   "n": "Sofitel Buenos Aires Recoleta",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5896,
-    -58.3841
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0.webp",
-   "rooms": 175,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00641": {
-   "n": "Four Seasons Hotel Buenos Aires",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5899,
-    -58.3824
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
   },
   "h_00532": {
    "n": "El Silencio Lodge & Spa -  Relais & Chateaux",
@@ -243,6 +129,82 @@
    ],
    "promo": 0
   },
+  "h_00055": {
+   "n": "Alvear Palace Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5876,
+    -58.3889
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
+   "rooms": 207,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01455": {
+   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5883,
+    -58.3862
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v16828211": {
+   "n": "Sofitel Buenos Aires Recoleta",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5896,
+    -58.3841
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0.webp",
+   "rooms": 175,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00641": {
+   "n": "Four Seasons Hotel Buenos Aires",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5899,
+    -58.3824
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_00464": {
    "n": "Country Club Lima Hotel",
    "house": null,
@@ -316,6 +278,44 @@
     "Daily breakfast",
     "Room upgrade",
     "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00141": {
+   "n": "Arakur Ushuaia Resort & Spa",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.7864,
+    -68.2575
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
+   "rooms": 129,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 0
+  },
+  "h_01191": {
+   "n": "Los Cauquenes Resort + Spa + Experiences",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.8364,
+    -68.3502
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
+   "rooms": 48,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
    ],
    "promo": 0
   },
@@ -1094,7 +1094,7 @@
     "$150 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01622": {
    "n": "Ritz-Carlton Montreal",
@@ -5353,23 +5353,6 @@
   }
  },
  "GATES": {
-  "Ushuaia, Argentina": {
-   "n": "Ushuaia, Argentina",
-   "ll": [
-    -54.8,
-    -68.3
-   ],
-   "h": [
-    [
-     "h_00141",
-     3.1
-    ],
-    [
-     "h_01191",
-     5.2
-    ]
-   ]
-  },
   "Puerto Natales, Chile": {
    "n": "Puerto Natales, Chile",
    "ll": [
@@ -5384,31 +5367,6 @@
     [
      "h_02239",
      3.7
-    ]
-   ]
-  },
-  "Buenos Aires, Argentina": {
-   "n": "Buenos Aires, Argentina",
-   "ll": [
-    -34.5875,
-    -58.6725
-   ],
-   "h": [
-    [
-     "h_00055",
-     26
-    ],
-    [
-     "h_01455",
-     26.2
-    ],
-    [
-     "h_v16828211",
-     26.4
-    ],
-    [
-     "h_00641",
-     26.6
     ]
    ]
   },
@@ -5446,6 +5404,31 @@
     ]
    ]
   },
+  "Buenos Aires, Argentina": {
+   "n": "Buenos Aires, Argentina",
+   "ll": [
+    -34.5875,
+    -58.6725
+   ],
+   "h": [
+    [
+     "h_00055",
+     26
+    ],
+    [
+     "h_01455",
+     26.2
+    ],
+    [
+     "h_v16828211",
+     26.4
+    ],
+    [
+     "h_00641",
+     26.6
+    ]
+   ]
+  },
   "Lima, Peru": {
    "n": "Lima, Peru",
    "ll": [
@@ -5477,6 +5460,23 @@
     [
      "h_01553",
      22.5
+    ]
+   ]
+  },
+  "Ushuaia, Argentina": {
+   "n": "Ushuaia, Argentina",
+   "ll": [
+    -54.8,
+    -68.3
+   ],
+   "h": [
+    [
+     "h_00141",
+     3.1
+    ],
+    [
+     "h_01191",
+     5.2
     ]
    ]
   },
@@ -7777,10 +7777,6 @@
    "pre": "Panama City, Panama",
    "post": "San Jose, Costa Rica"
   },
-  "16845578": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Puerto Natales, Chile"
-  },
   "16845582": {
    "pre": "Ushuaia, Argentina",
    "post": "Puerto Natales, Chile"
@@ -8397,10 +8393,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
   },
-  "16895790": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
-  },
   "16895810": {
    "pre": "Buenos Aires, Argentina",
    "post": "Buenos Aires, Argentina"
@@ -8578,10 +8570,6 @@
    "post": null
   },
   "16918988": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
-  "16921077": {
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
   },
