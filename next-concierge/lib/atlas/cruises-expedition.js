@@ -194,6 +194,10 @@ const cruises = (() => {
       name,
       operator: row[idx.operator] || null,
       brand: row[idx.operator] || null,
+      // The atlas cards already show the ship. The Guide's copy of the same
+      // sailing did not, so a visit to one hull (and not the whole line)
+      // could not be told apart from the sailing next to it.
+      ship: row[idx.ship] || null,
       regionLabel,
       region: marqueeFor(regionName, name),
       country: null,

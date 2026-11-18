@@ -20,6 +20,8 @@ import {
 } from "@/lib/seo/journeys";
 import { SITE_URL } from "@/lib/answers";
 import { journeySnippet, sharedHeads } from "@/lib/seo/snippets";
+import VisitedBadge from "@/components/VisitedBadge";
+import { visitsForRecord } from "@/lib/visited";
 
 // Once per build: which subtitle-less names several itineraries share, across
 // every collection (Seabourn files one route as a cruise and its longer version
@@ -137,6 +139,14 @@ export default async function JourneyPage({ params }) {
       </nav>
 
       <h1>{j.title}</h1>
+      <VisitedBadge
+        visits={visitsForRecord({
+          collection: j.collection === "cruise" ? "cruise" : j.collection,
+          operator: j.operator,
+          vessels: j.vessels,
+        })}
+        variant="detail"
+      />
       <p className="answers-updated">
         {operatorPath ? <Link href={operatorPath}>{j.operator}</Link> : j.operator}
         {[j.vessels.join(", "), j.days ? `${j.days} days` : null]

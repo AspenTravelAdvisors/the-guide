@@ -32,6 +32,8 @@ import { SITE_OG_IMAGE } from "@/lib/seo/site";
 import SiteFooter from "@/components/SiteFooter";
 import GuideTake from "@/components/GuideTake";
 import { brandPathFor } from "@/lib/seo/suppliers";
+import VisitedBadge from "@/components/VisitedBadge";
+import { hotelVisits } from "@/lib/visited";
 
 /*
  * Static, not ISR. See "The ISR writes were paying for nothing" in STATE.md.
@@ -163,6 +165,7 @@ export default async function HotelPage({ params }) {
       </nav>
 
       <h1>{h.name}</h1>
+      <VisitedBadge visits={hotelVisits(h.id)} variant="detail" />
       <p className="answers-updated">
         {where}
         {h.program ? ` · ${h.program}` : ""}

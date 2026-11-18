@@ -3996,6 +3996,71 @@ button.card-book {
   border-color: var(--gold-dim-2);
   color: var(--gold-pale);
 }
+/* "Aspen Travel Advisors has been here." A pill, not a sticker over the
+   photograph: the offer badge already owns that corner, and a serif line
+   under the name reads as a mark rather than a promotion. */
+.visited-inline {
+  margin: 6px 0 0;
+}
+.visited-detail {
+  margin: 10px 0 14px;
+}
+.visited-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  max-width: 100%;
+  margin: 0;
+  padding: 5px 10px 6px;
+  border: 1px solid var(--gold-dim);
+  border-radius: 10px;
+  background: rgba(var(--gold-rgb), 0.12);
+  color: var(--gold-pale);
+  font-family: var(--serif);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.visited-badge-kicker {
+  font-family: var(--sans);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-soft);
+}
+.visited-badge--mini {
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 8px;
+  padding: 1px 7px 2px;
+  border-radius: 999px;
+  font-size: 12px;
+  vertical-align: 1px;
+}
+.visited-note {
+  margin: 6px 0 0;
+  max-width: 62ch;
+  color: var(--sub);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.visited-photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+.visited-photos img {
+  width: 96px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 6px;
+}
 /* The result-side group: count · "first 120" · Sort · Share · Reset. One
    auto-margin on the group, rather than one on each item — the old
    `margin-left: auto` on .atlas-count meant everything after it had to fit in

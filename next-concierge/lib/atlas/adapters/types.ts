@@ -126,6 +126,11 @@ export interface AtlasOffering {
   thumb?: string | null;
   /** A live supplier offer is attached to this record. */
   hasPromotion?: boolean;
+  /**
+   * Aspen Travel Advisors has personally stayed or sailed here.
+   * Stamped at browse time from data/visited-properties.json. Absent means no.
+   */
+  advisorVisited?: boolean;
 
   /**
    * Which key to look up in `brandMarks` for this offering's logo, when it is

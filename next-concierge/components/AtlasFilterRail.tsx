@@ -353,7 +353,7 @@ export default function AtlasFilterRail({
   const anyActive = (s: AtlasFilterState) =>
     s.brands.size || s.vessels.size || s.months.size || s.ids.size ||
     s.regions.size || s.excludedRegions.size || s.stop || s.terms.length || s.world ||
-    s.minDays != null || s.maxDays != null ||
+    s.minDays != null || s.maxDays != null || s.visitedOnly ||
     Object.values(s.facets || {}).some((v) => v.size);
 
   const set = (patch: Partial<AtlasFilterState>) => setState({ ...shown, ...patch });
@@ -790,6 +790,20 @@ export default function AtlasFilterRail({
           title="Show only properties with a live Virtuoso offer"
         >
           ✦ Special offers
+        </button>
+      )}
+      {/* Same kind of toggle as Special offers: one question, one button.
+          Hidden on a collection where nobody has been, so rail and train do
+          not grow a control that can only empty the list. */}
+      {offerings.some((o) => o.advisorVisited) && (
+        <button
+          type="button"
+          className={shown.visitedOnly ? "atlas-promo on" : "atlas-promo"}
+          aria-pressed={shown.visitedOnly ? "true" : "false"}
+          onClick={() => set({ visitedOnly: !shown.visitedOnly })}
+          title="Show only places Aspen Travel Advisors has personally visited"
+        >
+          ✦ Been here
         </button>
       )}
     </>

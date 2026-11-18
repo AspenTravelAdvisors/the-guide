@@ -38,6 +38,11 @@ export interface AtlasFilterState {
   /** Show only records carrying a live supplier offer (`promo=1`). */
   promoOnly?: boolean;
   /**
+   * Show only places Aspen Travel Advisors has personally visited (`visited=1`).
+   * Undefined means the filter is off, so existing links are unchanged.
+   */
+  visitedOnly?: boolean;
+  /**
    * Trip length in days, inclusive bounds — `minDays=` / `maxDays=`.
    *
    * Either end may stand alone: "at least a fortnight" is a bound with no
@@ -156,6 +161,10 @@ export function matchesExceptRegion(
   }
 
   if (d.supportsPromotionFilter && state.promoOnly && !o.hasPromotion) return false;
+
+  // Same shape as the offer toggle: absent means "not filtering", so the
+  // adapter parity harness, which never sets this, is unaffected.
+  if (state.visitedOnly && !o.advisorVisited) return false;
 
   if (d.supportsVesselFilter && state.vessels.size) {
     if (!o.vessel || !state.vessels.has(o.vessel)) return false;

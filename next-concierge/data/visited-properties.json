@@ -1,0 +1,1152 @@
+{
+  "_readme": "Hand-edited list of properties and experiences Aspen Travel Advisors has personally visited. One object per place. Add new visits at the bottom. Required: name. Optional: place, kind (hotel, ship, cruise-line, lodge, island), source (the original note, typos and all), aliases, listings (links into the guide), visited (a date or month, such as 2026-03), notes (an insider tip, shown on the property page), photos (image URLs), confidence (certain, likely, or uncertain; omit for certain), reviewNote (why a name is only likely or still uncertain). Leave listings off when the place is not in the guide; The Guide still mentions it. To show the badge, set listings. A hotel: {\"collection\":\"hotel\",\"id\":\"h_02038\"} where the id is the hotel= value on an atlas URL. A ship: {\"collection\":\"cruise\",\"vessel\":\"MS Roald Amundsen\"}. A whole line: {\"collection\":\"cruise\",\"operator\":\"Silversea\"}. confidence \"uncertain\" stays in this file and is not shown to travelers. How to add an entry is in next-concierge/README.md, section \"Properties the advisors have visited\".",
+  "properties": [
+    {
+      "name": "Eden Roc Cap Cana",
+      "place": "Cap Cana, Dominican Republic",
+      "kind": "hotel",
+      "source": "Eden roc cap Cana",
+      "listings": [{ "collection": "hotel", "id": "h_00524" }]
+    },
+    {
+      "name": "Tortuga Bay",
+      "place": "Punta Cana, Dominican Republic",
+      "kind": "hotel",
+      "source": "Tortuga bay",
+      "aliases": ["Tortuga Bay Puntacana"],
+      "listings": [{ "collection": "hotel", "id": "h_02331" }]
+    },
+    {
+      "name": "The St. Regis Cap Cana Resort",
+      "place": "Cap Cana, Dominican Republic",
+      "kind": "hotel",
+      "source": "St regis cap Cana",
+      "listings": [{ "collection": "hotel", "id": "h_02251" }]
+    },
+    {
+      "name": "Silversea",
+      "kind": "cruise-line",
+      "source": "Silversea; SilverSea Cruises",
+      "aliases": ["Silversea Cruises", "SilverSea"],
+      "listings": [
+        { "collection": "cruise", "operator": "Silversea" },
+        { "collection": "worldcruise", "operator": "Silversea" }
+      ]
+    },
+    {
+      "name": "MS Santa Cruz II",
+      "place": "HX Expeditions",
+      "kind": "ship",
+      "source": "HX expeditions Santa Cruz",
+      "aliases": ["Santa Cruz II", "HX Santa Cruz"],
+      "listings": [{ "collection": "cruise", "vessel": "MS Santa Cruz II" }]
+    },
+    {
+      "name": "MS Roald Amundsen",
+      "place": "HX Expeditions",
+      "kind": "ship",
+      "source": "roald Amundsen",
+      "aliases": ["Roald Amundsen"],
+      "listings": [{ "collection": "cruise", "vessel": "MS Roald Amundsen" }]
+    },
+    {
+      "name": "MS Spitsbergen",
+      "place": "HX Expeditions",
+      "kind": "ship",
+      "source": "spitsbergen",
+      "aliases": ["Spitsbergen"],
+      "listings": [{ "collection": "cruise", "vessel": "MS Spitsbergen" }]
+    },
+    {
+      "name": "Ilma",
+      "place": "Ritz-Carlton Yacht Collection",
+      "kind": "yacht",
+      "source": "Ritz Carlton yacht ilma",
+      "aliases": ["Ritz-Carlton Yacht Ilma"],
+      "listings": [{ "collection": "yacht", "vessel": "Ilma" }]
+    },
+    {
+      "name": "Hotel Ai Reali",
+      "place": "Venice, Italy",
+      "kind": "hotel",
+      "source": "Hotel ai reali"
+    },
+    {
+      "name": "Four Seasons Resort Marrakech",
+      "place": "Marrakech, Morocco",
+      "kind": "hotel",
+      "source": "Four seasons Marrakech"
+    },
+    {
+      "name": "Excelsior Hotel Gallia",
+      "place": "Milan, Italy",
+      "kind": "hotel",
+      "source": "Excelsior hotel Gallia",
+      "listings": [{ "collection": "hotel", "id": "h_00561" }]
+    },
+    {
+      "name": "Villa Crespi",
+      "place": "Lake Orta, Italy",
+      "kind": "hotel",
+      "source": "Villa crespi"
+    },
+    {
+      "name": "Torre di Civita",
+      "place": "Italy",
+      "kind": "hotel",
+      "source": "Torre di civita",
+      "confidence": "uncertain",
+      "reviewNote": "No published hotel by this name turned up. It may be Sextantio Le Grotte della Civita in Matera, or a private tower. Left unmatched and not shown to travelers."
+    },
+    {
+      "name": "Grand Hotel et de Milan",
+      "place": "Milan, Italy",
+      "kind": "hotel",
+      "source": "Grand hotel et de Milan"
+    },
+    {
+      "name": "Relais Le Cattedrali",
+      "place": "Italy",
+      "kind": "hotel",
+      "source": "Relais Le cattedrali",
+      "confidence": "uncertain",
+      "reviewNote": "Could not confirm which property this is. Not shown to travelers until it is named."
+    },
+    {
+      "name": "JW Marriott Venice Resort & Spa",
+      "place": "Venice, Italy",
+      "kind": "hotel",
+      "source": "JW Venice",
+      "aliases": ["JW Venice", "JW Marriott Venice"]
+    },
+    {
+      "name": "Waldorf Astoria Park City",
+      "place": "Park City, Utah",
+      "kind": "hotel",
+      "source": "Waldorf Astoria park city",
+      "listings": [{ "collection": "hotel", "id": "h_02460" }]
+    },
+    {
+      "name": "Raffles Doha",
+      "place": "Doha, Qatar",
+      "kind": "hotel",
+      "source": "Raffles Doha",
+      "listings": [{ "collection": "hotel", "id": "h_01586" }]
+    },
+    {
+      "name": "Raffles Bali",
+      "place": "Bali, Indonesia",
+      "kind": "hotel",
+      "source": "Raffles Bali",
+      "listings": [{ "collection": "hotel", "id": "h_01584" }]
+    },
+    {
+      "name": "Tierra Patagonia",
+      "place": "Torres del Paine, Chile",
+      "kind": "hotel",
+      "source": "Tierra Patagonia",
+      "listings": [{ "collection": "hotel", "id": "h_02324" }]
+    },
+    {
+      "name": "NOI Indigo Patagonia",
+      "place": "Puerto Natales, Chile",
+      "kind": "hotel",
+      "source": "Noi Indigo Patagonia",
+      "aliases": ["Noi Indigo Patagonia"]
+    },
+    {
+      "name": "The Singular Santiago",
+      "place": "Santiago, Chile",
+      "kind": "hotel",
+      "source": "Singular Santiago"
+    },
+    {
+      "name": "The Singular Patagonia",
+      "place": "Puerto Natales, Chile",
+      "kind": "hotel",
+      "source": "Singular Patagonia",
+      "listings": [{ "collection": "hotel", "id": "h_02239" }]
+    },
+    {
+      "name": "Nayara Hangaroa",
+      "place": "Easter Island, Chile",
+      "kind": "hotel",
+      "source": "Nayara Hangaroa"
+    },
+    {
+      "name": "Explora Rapa Nui",
+      "place": "Easter Island, Chile",
+      "kind": "hotel",
+      "source": "Explora Rapa Nui",
+      "listings": [{ "collection": "hotel", "id": "h_00567" }]
+    },
+    {
+      "name": "Malibu Beach Inn",
+      "place": "Malibu, California",
+      "kind": "hotel",
+      "source": "Malibu Beach Inn",
+      "listings": [{ "collection": "hotel", "id": "h_01213" }]
+    },
+    {
+      "name": "Peter Island Resort",
+      "place": "Peter Island, British Virgin Islands",
+      "kind": "island",
+      "source": "Peter Island",
+      "aliases": ["Peter Island"]
+    },
+    {
+      "name": "Umana Bali",
+      "place": "Bali, Indonesia",
+      "kind": "hotel",
+      "source": "umana Bali",
+      "aliases": ["Umana Bali, LXR"]
+    },
+    {
+      "name": "Conrad Bali",
+      "place": "Bali, Indonesia",
+      "kind": "hotel",
+      "source": "Conrad Bali"
+    },
+    {
+      "name": "COMO Parrot Cay",
+      "place": "Parrot Cay, Turks and Caicos",
+      "kind": "hotel",
+      "source": "Como parrot key",
+      "aliases": ["Parrot Cay", "Parrot Key"],
+      "listings": [{ "collection": "hotel", "id": "h_00274" }]
+    },
+    {
+      "name": "W South Beach",
+      "place": "Miami Beach, Florida",
+      "kind": "hotel",
+      "source": "W Southbeach",
+      "listings": [{ "collection": "hotel", "id": "h_02435" }]
+    },
+    {
+      "name": "Kimpton Hotel Palomar",
+      "kind": "hotel",
+      "source": "Kempton, Hotel Palomar",
+      "aliases": ["Kimpton Palomar", "Kempton Hotel Palomar"],
+      "confidence": "uncertain",
+      "reviewNote": "Kimpton (written Kempton) Hotel Palomar. Several Palomar hotels existed (Los Angeles, San Diego, Chicago, Philadelphia, Washington). The note gives no city, and none of them are in the guide. Not shown until the city is confirmed."
+    },
+    {
+      "name": "Kokomo Private Island",
+      "place": "Fiji",
+      "kind": "island",
+      "source": "Kokomo, Private Island",
+      "listings": [{ "collection": "hotel", "id": "h_01078" }]
+    },
+    {
+      "name": "Namale Resort",
+      "place": "Savusavu, Fiji",
+      "kind": "hotel",
+      "source": "namale Resort",
+      "aliases": ["Namale"]
+    },
+    {
+      "name": "Royal Davui Island Resort",
+      "place": "Fiji",
+      "kind": "island",
+      "source": "Royal Davui",
+      "listings": [{ "collection": "hotel", "id": "h_01671" }]
+    },
+    {
+      "name": "Nukutepipi",
+      "place": "Tuamotu, French Polynesia",
+      "kind": "island",
+      "source": "Nukutepipi"
+    },
+    {
+      "name": "Motu Nao Nao",
+      "place": "French Polynesia",
+      "kind": "island",
+      "source": "Motu nao nao",
+      "listings": [{ "collection": "hotel", "id": "h_01339" }]
+    },
+    {
+      "name": "The Little Nell",
+      "place": "Aspen, Colorado",
+      "kind": "hotel",
+      "source": "The little nell",
+      "aliases": ["Little Nell"],
+      "listings": [{ "collection": "hotel", "id": "h_02038" }]
+    },
+    {
+      "name": "Four Seasons Resort Mauritius at Anahita",
+      "place": "Mauritius",
+      "kind": "hotel",
+      "source": "Four season Mauritius",
+      "aliases": ["Four Seasons Mauritius"]
+    },
+    {
+      "name": "Four Seasons Hotel The Westcliff",
+      "place": "Johannesburg, South Africa",
+      "kind": "hotel",
+      "source": "FOUR SEASONS Johannesburg",
+      "aliases": ["Four Seasons Johannesburg", "The Westcliff"],
+      "confidence": "likely",
+      "reviewNote": "Johannesburg's Four Seasons is The Westcliff. The guide does not list it (Saxon and Fairlawns are the Johannesburg hotels on file). Named as The Westcliff, not badged."
+    },
+    {
+      "name": "Kisawa Sanctuary",
+      "place": "Benguerra Island, Mozambique",
+      "kind": "hotel",
+      "source": "Kisawa sanctuary",
+      "listings": [{ "collection": "hotel", "id": "h_01075" }]
+    },
+    {
+      "name": "Soneva Jani",
+      "place": "Maldives",
+      "kind": "hotel",
+      "source": "Soneva Jani",
+      "listings": [{ "collection": "hotel", "id": "h_01834" }]
+    },
+    {
+      "name": "Kasbah Tamadot",
+      "place": "Atlas Mountains, Morocco",
+      "kind": "hotel",
+      "source": "Kasbah tamadot",
+      "listings": [{ "collection": "hotel", "id": "h_01044" }]
+    },
+    {
+      "name": "La Sultana Marrakech",
+      "place": "Marrakech, Morocco",
+      "kind": "hotel",
+      "source": "La sultana",
+      "aliases": ["La Sultana"],
+      "confidence": "likely",
+      "reviewNote": "La Sultana has a Marrakech hotel and a smaller one in Oualidia. The note sits with Kasbah Tamadot, so this is Marrakech. Oualidia was not badged.",
+      "listings": [{ "collection": "hotel", "id": "h_01118" }]
+    },
+    {
+      "name": "Four Seasons Hotel des Bergues",
+      "place": "Geneva, Switzerland",
+      "kind": "hotel",
+      "source": "FOUR SEASONS Geneva",
+      "aliases": ["Four Seasons Geneva", "Hotel des Bergues"],
+      "confidence": "likely",
+      "reviewNote": "Geneva's Four Seasons is Hotel des Bergues. It is not in the guide, so the visit is named and not badged."
+    },
+    {
+      "name": "Vermejo",
+      "place": "New Mexico, United States",
+      "kind": "hotel",
+      "source": "Vermejo",
+      "aliases": ["Vermejo, A Ted Turner Reserve"],
+      "listings": [{ "collection": "hotel", "id": "h_02365" }]
+    },
+    {
+      "name": "Hilton Hotel Tahiti",
+      "place": "Tahiti, French Polynesia",
+      "kind": "hotel",
+      "source": "Hilton Tahiti"
+    },
+    {
+      "name": "Phulay Bay, a Ritz-Carlton Reserve",
+      "place": "Krabi, Thailand",
+      "kind": "hotel",
+      "source": "Phulay Bay Ritz Reserve",
+      "listings": [{ "collection": "hotel", "id": "h_01551" }]
+    },
+    {
+      "name": "Rayavadee",
+      "place": "Krabi, Thailand",
+      "kind": "hotel",
+      "source": "Rayavadee"
+    },
+    {
+      "name": "Trisara",
+      "place": "Phuket, Thailand",
+      "kind": "hotel",
+      "source": "Trisara",
+      "listings": [{ "collection": "hotel", "id": "h_02336" }]
+    },
+    {
+      "name": "The Slate",
+      "place": "Phuket, Thailand",
+      "kind": "hotel",
+      "source": "The Slate Phuket",
+      "aliases": ["The Slate Phuket"]
+    },
+    {
+      "name": "Rosewood Phuket",
+      "place": "Phuket, Thailand",
+      "kind": "hotel",
+      "source": "Rosewood Phuket",
+      "listings": [{ "collection": "hotel", "id": "h_01658" }]
+    },
+    {
+      "name": "Amanpuri",
+      "place": "Phuket, Thailand",
+      "kind": "hotel",
+      "source": "amanPuri",
+      "listings": [{ "collection": "hotel", "id": "h_00080" }]
+    },
+    {
+      "name": "COMO Point Yamu",
+      "place": "Phuket, Thailand",
+      "kind": "hotel",
+      "source": "Como point Yamu",
+      "aliases": ["Point Yamu"]
+    },
+    {
+      "name": "Four Seasons Hotel Seattle",
+      "place": "Seattle, Washington",
+      "kind": "hotel",
+      "source": "FOUR SEASONS Seattle"
+    },
+    {
+      "name": "Pearl Beach Resort Tikehau",
+      "place": "Tikehau, French Polynesia",
+      "kind": "hotel",
+      "source": "The Tikehau pearl resorts",
+      "aliases": ["Tikehau Pearl", "The Tikehau Pearl Beach Resort"],
+      "confidence": "likely",
+      "reviewNote": "Read as the Pearl Beach Resort on Tikehau (Relais & Châteaux). Not in the guide."
+    },
+    {
+      "name": "InterContinental Tahiti Resort & Spa",
+      "place": "Tahiti, French Polynesia",
+      "kind": "hotel",
+      "source": "Intercontinental Tahiti",
+      "aliases": ["InterContinental Tahiti"]
+    },
+    {
+      "name": "AVRP",
+      "kind": "unknown",
+      "source": "AVRP",
+      "confidence": "uncertain",
+      "reviewNote": "No property, ship, or club could be tied to AVRP. Not shown to travelers."
+    },
+    {
+      "name": "North Island",
+      "place": "Seychelles",
+      "kind": "island",
+      "source": "North Island",
+      "listings": [{ "collection": "hotel", "id": "h_01398" }]
+    },
+    {
+      "name": "Waldorf Astoria Maldives Ithaafushi",
+      "place": "Maldives",
+      "kind": "hotel",
+      "source": "WALDORF Astoria, Maldives",
+      "listings": [{ "collection": "hotel", "id": "h_02453" }]
+    },
+    {
+      "name": "Conrad Maldives Rangali Island",
+      "place": "Maldives",
+      "kind": "hotel",
+      "source": "conrad Maldives",
+      "listings": [{ "collection": "hotel", "id": "h_00440" }]
+    },
+    {
+      "name": "Velaa Private Island",
+      "place": "Maldives",
+      "kind": "island",
+      "source": "Velaa Maldives",
+      "listings": [{ "collection": "hotel", "id": "h_02361" }]
+    },
+    {
+      "name": "Gili Lankanfushi",
+      "place": "Maldives",
+      "kind": "hotel",
+      "source": "Gilly, Lankanfushi Maldives",
+      "aliases": ["Gili Lankanfushi", "Gilly Lankanfushi"],
+      "listings": [{ "collection": "hotel", "id": "h_00708" }]
+    },
+    {
+      "name": "The Brando",
+      "place": "Tetiaroa, French Polynesia",
+      "kind": "island",
+      "source": "The Brando",
+      "listings": [{ "collection": "hotel", "id": "h_01912" }]
+    },
+    {
+      "name": "Four Seasons Resort Bora Bora",
+      "place": "Bora Bora, French Polynesia",
+      "kind": "hotel",
+      "source": "FOUR SEASONS Bora Bora",
+      "listings": [{ "collection": "hotel", "id": "h_00676" }]
+    },
+    {
+      "name": "The St. Regis Washington, D.C.",
+      "place": "Washington, D.C.",
+      "kind": "hotel",
+      "source": "The St Regis Washington",
+      "listings": [{ "collection": "hotel", "id": "h_02281" }]
+    },
+    {
+      "name": "Le Taha'a",
+      "place": "Taha'a, French Polynesia",
+      "kind": "hotel",
+      "source": "Le Taha'a",
+      "listings": [{ "collection": "hotel", "id": "h_01164" }]
+    },
+    {
+      "name": "The Ritz-Carlton, Marina del Rey",
+      "place": "Marina del Rey, California",
+      "kind": "hotel",
+      "source": "Ritz-Carlton Marina del Rey"
+    },
+    {
+      "name": "Vomo Island Resort",
+      "place": "Fiji",
+      "kind": "island",
+      "source": "VOMO Island",
+      "listings": [{ "collection": "hotel", "id": "h_02421" }]
+    },
+    {
+      "name": "SLS Beverly Hills",
+      "place": "Los Angeles, California",
+      "kind": "hotel",
+      "source": "SLS Beverly Hills",
+      "listings": [{ "collection": "hotel", "id": "h_01688" }]
+    },
+    {
+      "name": "W Aspen",
+      "place": "Aspen, Colorado",
+      "kind": "hotel",
+      "source": "W Aspen",
+      "listings": [{ "collection": "hotel", "id": "h_02423" }]
+    },
+    {
+      "name": "Otahuna Lodge",
+      "place": "Christchurch, New Zealand",
+      "kind": "lodge",
+      "source": "Otahuna Lodge",
+      "listings": [{ "collection": "hotel", "id": "h_01437" }]
+    },
+    {
+      "name": "Faena Miami Beach",
+      "place": "Miami Beach, Florida",
+      "kind": "hotel",
+      "source": "Faena  Miami Beach",
+      "listings": [{ "collection": "hotel", "id": "h_00573" }]
+    },
+    {
+      "name": "Huka Lodge",
+      "place": "Taupo, New Zealand",
+      "kind": "lodge",
+      "source": "Huka lodge",
+      "listings": [{ "collection": "hotel", "id": "h_00941" }]
+    },
+    {
+      "name": "Minaret Station Alpine Lodge",
+      "place": "Wanaka, New Zealand",
+      "kind": "lodge",
+      "source": "Minaret station",
+      "listings": [{ "collection": "hotel", "id": "h_01315" }]
+    },
+    {
+      "name": "The Lindis",
+      "place": "Ahuriri Valley, New Zealand",
+      "kind": "lodge",
+      "source": "The Lindis"
+    },
+    {
+      "name": "Rosewood Matakauri",
+      "place": "Queenstown, New Zealand",
+      "kind": "hotel",
+      "source": "Ros Wood Mata Kari",
+      "aliases": ["Rosewood Matakauri", "Matakauri"],
+      "listings": [{ "collection": "hotel", "id": "h_01654" }]
+    },
+    {
+      "name": "Eichardt's Private Hotel",
+      "place": "Queenstown, New Zealand",
+      "kind": "hotel",
+      "source": "Eichardt's Private Hotel",
+      "listings": [{ "collection": "hotel", "id": "h_00529" }]
+    },
+    {
+      "name": "Blanket Bay",
+      "place": "Glenorchy, New Zealand",
+      "kind": "lodge",
+      "source": "Blanket Bay",
+      "listings": [{ "collection": "hotel", "id": "h_00226" }]
+    },
+    {
+      "name": "The Silo Hotel",
+      "place": "Cape Town, South Africa",
+      "kind": "hotel",
+      "source": "The silo hotel",
+      "listings": [{ "collection": "hotel", "id": "h_02236" }]
+    },
+    {
+      "name": "Royal Malewane",
+      "place": "Greater Kruger, South Africa",
+      "kind": "lodge",
+      "source": "Royal Malewane",
+      "listings": [{ "collection": "hotel", "id": "h_01673" }]
+    },
+    {
+      "name": "Mount Nelson Hotel",
+      "place": "Cape Town, South Africa",
+      "kind": "hotel",
+      "source": "Mount Nelson",
+      "aliases": ["Mount Nelson, A Belmond Hotel"],
+      "listings": [{ "collection": "hotel", "id": "h_01343" }]
+    },
+    {
+      "name": "Grootbos",
+      "place": "Gansbaai, South Africa",
+      "kind": "lodge",
+      "source": "Grootbos",
+      "aliases": ["Grootbos Private Nature Reserve"]
+    },
+    {
+      "name": "One&Only Cape Town",
+      "place": "Cape Town, South Africa",
+      "kind": "hotel",
+      "source": "One and only Cape Town",
+      "listings": [{ "collection": "hotel", "id": "h_01415" }]
+    },
+    {
+      "name": "Singita Sweni",
+      "place": "Kruger National Park, South Africa",
+      "kind": "lodge",
+      "source": "Singita Sweni",
+      "confidence": "likely",
+      "reviewNote": "Sweni is a Singita camp in Kruger. The guide files Singita Kruger National Park as one property, not the camp, so the badge sits on that listing.",
+      "listings": [{ "collection": "hotel", "id": "h_01779" }]
+    },
+    {
+      "name": "Singita Castleton",
+      "place": "Sabi Sand, South Africa",
+      "kind": "lodge",
+      "source": "Singita Castleton",
+      "confidence": "likely",
+      "reviewNote": "Castleton is a Singita Sabi Sand camp. The guide files the reserve as one property, Singita Sabi Sand.",
+      "listings": [{ "collection": "hotel", "id": "h_01781" }]
+    },
+    {
+      "name": "Singita Boulders Lodge",
+      "place": "Sabi Sand, South Africa",
+      "kind": "lodge",
+      "source": "Singita Boulders",
+      "confidence": "likely",
+      "reviewNote": "Boulders Lodge is a Singita Sabi Sand camp. Badged on the guide's Singita Sabi Sand property.",
+      "listings": [{ "collection": "hotel", "id": "h_01781" }]
+    },
+    {
+      "name": "Singita Ebony Lodge",
+      "place": "Sabi Sand, South Africa",
+      "kind": "lodge",
+      "source": "Singita Ebony",
+      "confidence": "likely",
+      "reviewNote": "Ebony Lodge is a Singita Sabi Sand camp. Badged on the guide's Singita Sabi Sand property.",
+      "listings": [{ "collection": "hotel", "id": "h_01781" }]
+    },
+    {
+      "name": "Kimpton Seafire Resort + Spa",
+      "place": "Grand Cayman",
+      "kind": "hotel",
+      "source": "Kenton Seafire",
+      "aliases": ["Kimpton Seafire", "Seafire"],
+      "listings": [{ "collection": "hotel", "id": "h_01066" }]
+    },
+    {
+      "name": "The Roxy Hotel",
+      "place": "New York, New York",
+      "kind": "hotel",
+      "source": "The Roxy New York",
+      "aliases": ["Roxy Hotel Tribeca"],
+      "confidence": "likely",
+      "reviewNote": "Read as The Roxy Hotel in Tribeca (the former Tribeca Grand). Not in the guide."
+    },
+    {
+      "name": "Le Barthélemy Hotel & Spa",
+      "place": "St. Barth",
+      "kind": "hotel",
+      "source": "The Barthelemy",
+      "aliases": ["Le Barthelemy", "The Barthelemy"],
+      "listings": [{ "collection": "hotel", "id": "h_01143" }]
+    },
+    {
+      "name": "Le Sereno",
+      "place": "St. Barth",
+      "kind": "hotel",
+      "source": "Le Sereno",
+      "listings": [{ "collection": "hotel", "id": "h_01162" }]
+    },
+    {
+      "name": "Cotton House",
+      "place": "Mustique, St. Vincent and the Grenadines",
+      "kind": "hotel",
+      "source": "Cotton house",
+      "confidence": "likely",
+      "reviewNote": "Read as Cotton House, Mustique, from its place between Le Sereno (St. Barth) and the Grenada resorts. Not in the guide. There is also a Cotton House hotel in Barcelona, which this sequence does not suggest."
+    },
+    {
+      "name": "Silversands Grand Anse",
+      "place": "Grenada",
+      "kind": "hotel",
+      "source": "Silver sands Grenada",
+      "aliases": ["Silversands", "Silver Sands Grenada"],
+      "confidence": "likely",
+      "reviewNote": "Silversands in Grenada is two guide listings: Grand Anse (badged) and Silversands Beach House (h_01771, not badged). The note does not say which.",
+      "listings": [{ "collection": "hotel", "id": "h_01773" }]
+    },
+    {
+      "name": "Spice Island Beach Resort",
+      "place": "Grenada",
+      "kind": "hotel",
+      "source": "Spice Island Beach resort",
+      "listings": [{ "collection": "hotel", "id": "h_01843" }]
+    },
+    {
+      "name": "BodyHoliday",
+      "place": "St. Lucia",
+      "kind": "hotel",
+      "source": "Body holiday St. Lucia",
+      "aliases": ["BodyHoliday St. Lucia"],
+      "listings": [{ "collection": "hotel", "id": "h_00227" }]
+    },
+    {
+      "name": "Four Seasons Resort and Residences Anguilla",
+      "place": "Anguilla",
+      "kind": "hotel",
+      "source": "FOUR SEASONS Anguilla",
+      "listings": [{ "collection": "hotel", "id": "h_00692" }]
+    },
+    {
+      "name": "Dorado Beach, a Ritz-Carlton Reserve",
+      "place": "Dorado, Puerto Rico",
+      "kind": "hotel",
+      "source": "Dorado Beach Ritz-Carlton",
+      "listings": [{ "collection": "hotel", "id": "h_00509" }]
+    },
+    {
+      "name": "Waldorf Astoria Monarch Beach",
+      "place": "Dana Point, California",
+      "kind": "hotel",
+      "source": "WALDORF Astoria Monarch Beach",
+      "listings": [{ "collection": "hotel", "id": "h_02454" }]
+    },
+    {
+      "name": "The Ritz-Carlton, Grand Cayman",
+      "place": "Grand Cayman",
+      "kind": "hotel",
+      "source": "Ritz-Carlton grand camyan",
+      "aliases": ["Ritz-Carlton Grand Cayman"],
+      "listings": [{ "collection": "hotel", "id": "h_02178" }]
+    },
+    {
+      "name": "COMO Uma Canggu",
+      "place": "Canggu, Bali",
+      "kind": "hotel",
+      "source": "Como Uma Chango",
+      "aliases": ["COMO Uma Canggu", "Uma Canggu"]
+    },
+    {
+      "name": "Soori Bali",
+      "place": "Bali, Indonesia",
+      "kind": "hotel",
+      "source": "Soori Bali",
+      "listings": [{ "collection": "hotel", "id": "h_01841" }]
+    },
+    {
+      "name": "COMO Shambhala Estate",
+      "place": "Bali, Indonesia",
+      "kind": "hotel",
+      "source": "Como Shambhala estate; Como Shambhala",
+      "aliases": ["COMO Shambhala"],
+      "listings": [{ "collection": "hotel", "id": "h_00275" }]
+    },
+    {
+      "name": "Capella Ubud",
+      "place": "Ubud, Bali",
+      "kind": "hotel",
+      "source": "Capella Ubud",
+      "listings": [{ "collection": "hotel", "id": "h_00327" }]
+    },
+    {
+      "name": "Four Seasons Resort Bali at Jimbaran Bay",
+      "place": "Jimbaran, Bali",
+      "kind": "hotel",
+      "source": "FOUR SEASONS Jimbaran bay",
+      "listings": [{ "collection": "hotel", "id": "h_00674" }]
+    },
+    {
+      "name": "The Oberoi, Bali",
+      "place": "Bali, Indonesia",
+      "kind": "hotel",
+      "source": "Oberoi Bali",
+      "listings": [{ "collection": "hotel", "id": "h_02076" }]
+    },
+    {
+      "name": "The Legian Seminyak",
+      "place": "Seminyak, Bali",
+      "kind": "hotel",
+      "source": "Legian Bali",
+      "aliases": ["The Legian Bali"],
+      "listings": [{ "collection": "hotel", "id": "h_02037" }]
+    },
+    {
+      "name": "Viceroy Bali",
+      "place": "Bali, Indonesia",
+      "kind": "hotel",
+      "source": "Viceroy Bali"
+    },
+    {
+      "name": "Revivo Wellness Resort",
+      "place": "Seminyak, Bali",
+      "kind": "hotel",
+      "source": "Revivo wellness Resort",
+      "aliases": ["Revivo Bali"],
+      "confidence": "likely",
+      "reviewNote": "Read as Revivo Wellness Resort in Seminyak. Not in the guide."
+    },
+    {
+      "name": "The St. Regis Bali Resort",
+      "place": "Bali, Indonesia",
+      "kind": "hotel",
+      "source": "Saint Regis Bali",
+      "listings": [{ "collection": "hotel", "id": "h_02246" }]
+    },
+    {
+      "name": "Bvlgari Resort Bali",
+      "place": "Bali, Indonesia",
+      "kind": "hotel",
+      "source": "Bulgaria Bali",
+      "aliases": ["Bulgari Bali", "Bulgari Resort Bali"],
+      "listings": [{ "collection": "hotel", "id": "h_00265" }]
+    },
+    {
+      "name": "The Edge",
+      "place": "Uluwatu, Bali",
+      "kind": "hotel",
+      "source": "The edge",
+      "confidence": "uncertain",
+      "reviewNote": "Sits in a Bali run, between Bvlgari and Alila Villas Uluwatu, so it may be The Edge Bali, a villa estate in Uluwatu. The name alone is too common to claim. Not shown."
+    },
+    {
+      "name": "180 Day Club",
+      "kind": "unknown",
+      "source": "180 day club",
+      "confidence": "uncertain",
+      "reviewNote": "No hotel by this name. It falls between Bali properties and may be a club rather than a stay. Not shown."
+    },
+    {
+      "name": "Alila Villas Uluwatu",
+      "place": "Uluwatu, Bali",
+      "kind": "hotel",
+      "source": "Alila Villas Uluwatu",
+      "listings": [{ "collection": "hotel", "id": "h_00048" }]
+    },
+    {
+      "name": "Aquila",
+      "kind": "unknown",
+      "source": "Aquila",
+      "confidence": "uncertain",
+      "reviewNote": "Written between Alila Villas Uluwatu and \"Alla Ubud\". May be a broken \"Alila\", or Aquila Private Game Reserve in South Africa. Not matched and not shown."
+    },
+    {
+      "name": "Alila Ubud",
+      "place": "Ubud, Bali",
+      "kind": "hotel",
+      "source": "Alla Ubud",
+      "aliases": ["Alla Ubud", "Alila Ubud"],
+      "confidence": "likely",
+      "reviewNote": "\"Alla Ubud\" read as Alila Ubud. The guide lists Alila Villas Uluwatu and no Alila Ubud, so this visit is named and not badged."
+    },
+    {
+      "name": "Mandapa, a Ritz-Carlton Reserve",
+      "place": "Ubud, Bali",
+      "kind": "hotel",
+      "source": "Manda Ritz-Carlton",
+      "aliases": ["Mandapa"],
+      "listings": [{ "collection": "hotel", "id": "h_01219" }]
+    },
+    {
+      "name": "Four Seasons Resort Bali at Sayan",
+      "place": "Ubud, Bali",
+      "kind": "hotel",
+      "source": "FOUR SEASONS sayan",
+      "listings": [{ "collection": "hotel", "id": "h_00675" }]
+    },
+    {
+      "name": "Amandari",
+      "place": "Ubud, Bali",
+      "kind": "hotel",
+      "source": "Amandari",
+      "listings": [{ "collection": "hotel", "id": "h_00066" }]
+    },
+    {
+      "name": "W Bali - Seminyak",
+      "place": "Seminyak, Bali",
+      "kind": "hotel",
+      "source": "W Bali",
+      "listings": [{ "collection": "hotel", "id": "h_02425" }]
+    },
+    {
+      "name": "Nihi Sumba",
+      "place": "Sumba, Indonesia",
+      "kind": "hotel",
+      "source": "Nihi sumba",
+      "listings": [{ "collection": "hotel", "id": "h_01380" }]
+    },
+    {
+      "name": "Alila Seminyak",
+      "place": "Seminyak, Bali",
+      "kind": "hotel",
+      "source": "Allah Semak",
+      "aliases": ["Alila Seminyak"],
+      "confidence": "likely",
+      "reviewNote": "\"Allah Semak\" read as Alila Seminyak, from the Bali sequence. Not in the guide (the only Bali Alila on file is Uluwatu)."
+    },
+    {
+      "name": "The Phoenician",
+      "place": "Scottsdale, Arizona",
+      "kind": "hotel",
+      "source": "The Phoenician",
+      "listings": [{ "collection": "hotel", "id": "h_02111" }]
+    },
+    {
+      "name": "The Dolder Grand",
+      "place": "Zurich, Switzerland",
+      "kind": "hotel",
+      "source": "The Dolder grand",
+      "listings": [{ "collection": "hotel", "id": "h_01957" }]
+    },
+    {
+      "name": "The Alpina Gstaad",
+      "place": "Gstaad, Switzerland",
+      "kind": "hotel",
+      "source": "ALPINA Gaustad",
+      "aliases": ["Alpina Gstaad"],
+      "listings": [{ "collection": "hotel", "id": "h_01898" }]
+    },
+    {
+      "name": "Mont Cervin Palace",
+      "place": "Zermatt, Switzerland",
+      "kind": "hotel",
+      "source": "Mont cervin Palace",
+      "listings": [{ "collection": "hotel", "id": "h_01325" }]
+    },
+    {
+      "name": "Badrutt's Palace Hotel",
+      "place": "St. Moritz, Switzerland",
+      "kind": "hotel",
+      "source": "Butroots palace",
+      "aliases": ["Badrutt's Palace"],
+      "listings": [{ "collection": "hotel", "id": "h_00177" }]
+    },
+    {
+      "name": "Clinique La Prairie",
+      "place": "Montreux, Switzerland",
+      "kind": "hotel",
+      "source": "Clinic La Prairie",
+      "listings": [{ "collection": "hotel", "id": "h_00418" }]
+    },
+    {
+      "name": "The Lodge, Verbier",
+      "place": "Verbier, Switzerland",
+      "kind": "lodge",
+      "source": "VIRGIN LIMITED EDITION, the Lodge",
+      "aliases": ["Virgin Limited Edition The Lodge", "The Lodge Verbier"],
+      "confidence": "likely",
+      "reviewNote": "Virgin Limited Edition's The Lodge is the Verbier chalet. The guide lists it as The Lodge, Verbier. Ulusaba and Necker, the line's other houses, were not named and were not badged.",
+      "listings": [{ "collection": "hotel", "id": "h_02047" }]
+    },
+    {
+      "name": "Il Sereno",
+      "place": "Lake Como, Italy",
+      "kind": "hotel",
+      "source": "il Sereno",
+      "listings": [{ "collection": "hotel", "id": "h_00965" }]
+    },
+    {
+      "name": "Villa d'Este",
+      "place": "Lake Como, Italy",
+      "kind": "hotel",
+      "source": "Villa d'este",
+      "listings": [{ "collection": "hotel", "id": "h_02406" }]
+    },
+    {
+      "name": "Widder Hotel",
+      "place": "Zurich, Switzerland",
+      "kind": "hotel",
+      "source": "Widder hotel",
+      "listings": [{ "collection": "hotel", "id": "h_02474" }]
+    },
+    {
+      "name": "Grace Bay Club",
+      "place": "Providenciales, Turks and Caicos",
+      "kind": "hotel",
+      "source": "Grace Bay club",
+      "listings": [{ "collection": "hotel", "id": "h_00720" }]
+    },
+    {
+      "name": "Terranea Resort",
+      "place": "Rancho Palos Verdes, California",
+      "kind": "hotel",
+      "source": "Terranea",
+      "listings": [{ "collection": "hotel", "id": "h_01896" }]
+    },
+    {
+      "name": "Studio City",
+      "place": "Macau",
+      "kind": "hotel",
+      "source": "Studio City Macau",
+      "aliases": ["Studio City Macau"]
+    },
+    {
+      "name": "The Art Hotel Denver",
+      "place": "Denver, Colorado",
+      "kind": "hotel",
+      "source": "The art Hotel Denver",
+      "confidence": "likely",
+      "reviewNote": "Taken as The Art Hotel, Denver. The guide's Denver hotels are The Ritz-Carlton and Limelight, so this was not badged onto either."
+    },
+    {
+      "name": "Four Seasons Hotel San Francisco at Embarcadero",
+      "place": "San Francisco, California",
+      "kind": "hotel",
+      "source": "FOUR SEASONS San Francisco Embarcadero",
+      "listings": [{ "collection": "hotel", "id": "h_00670" }]
+    },
+    {
+      "name": "The Ritz-Carlton, Macau",
+      "place": "Macau",
+      "kind": "hotel",
+      "source": "Ritz-Carlton Macau"
+    },
+    {
+      "name": "Waldorf Astoria Beverly Hills",
+      "place": "Beverly Hills, California",
+      "kind": "hotel",
+      "source": "WALDORF, Astoria Beverly Hills",
+      "listings": [{ "collection": "hotel", "id": "h_02444" }]
+    },
+    {
+      "name": "The Beverly Hills Hotel",
+      "place": "Beverly Hills, California",
+      "kind": "hotel",
+      "source": "Beverly Hills Hotel"
+    },
+    {
+      "name": "Sabi Sabi",
+      "place": "Sabi Sand, South Africa",
+      "kind": "lodge",
+      "source": "Sabi Sabi",
+      "reviewNote": "Sabi Sabi Private Game Reserve, not the neighboring Singita, Londolozi, or Ulusaba lodges that the guide does list in Sabi Sand. None of those were badged for this note."
+    },
+    {
+      "name": "Hilton Seychelles",
+      "place": "Seychelles",
+      "kind": "hotel",
+      "source": "Hilton Seychelles",
+      "confidence": "uncertain",
+      "reviewNote": "Hilton has more than one Seychelles hotel (Northolme on Mahé, Labriz on Silhouette). The note does not say which. Not shown."
+    },
+    {
+      "name": "Anantara Maia Seychelles Villas",
+      "place": "Mahé, Seychelles",
+      "kind": "hotel",
+      "source": "Anantara Maya Seychelles",
+      "aliases": ["Anantara Maia", "Anantara Maya Seychelles"]
+    },
+    {
+      "name": "The St. Regis Aspen Resort",
+      "place": "Aspen, Colorado",
+      "kind": "hotel",
+      "source": "Saint Regis Aspen",
+      "listings": [{ "collection": "hotel", "id": "h_02242" }]
+    },
+    {
+      "name": "Four Seasons Resort Vail",
+      "place": "Vail, Colorado",
+      "kind": "hotel",
+      "source": "FOUR SEASONS Vail",
+      "listings": [{ "collection": "hotel", "id": "h_00691" }]
+    },
+    {
+      "name": "The Arrabelle at Vail Square",
+      "place": "Vail, Colorado",
+      "kind": "hotel",
+      "source": "Arabella Vail",
+      "aliases": ["Arabella Vail", "Arrabelle"],
+      "confidence": "likely",
+      "reviewNote": "\"Arabella Vail\" read as The Arrabelle at Vail Square, a RockResort. Badged on that listing.",
+      "listings": [{ "collection": "hotel", "id": "h_01629" }]
+    },
+    {
+      "name": "The Sebastian - Vail",
+      "place": "Vail, Colorado",
+      "kind": "hotel",
+      "source": "Sebastian Vale",
+      "aliases": ["The Sebastian Vail"],
+      "listings": [{ "collection": "hotel", "id": "h_02228" }]
+    },
+    {
+      "name": "The Ritz-Carlton, Bachelor Gulch",
+      "place": "Beaver Creek, Colorado",
+      "kind": "hotel",
+      "source": "Ritz-Carlton Vale",
+      "aliases": ["Ritz-Carlton Vail"],
+      "confidence": "likely",
+      "reviewNote": "There is no Ritz-Carlton in the town of Vail. The Vail Valley Ritz-Carlton is Bachelor Gulch at Beaver Creek, and that is the listing badged.",
+      "listings": [{ "collection": "hotel", "id": "h_02169" }]
+    },
+    {
+      "name": "The Lodge at Vail",
+      "place": "Vail, Colorado",
+      "kind": "hotel",
+      "source": "Lodge at Vail"
+    },
+    {
+      "name": "Le Méridien New York, Central Park",
+      "place": "New York, New York",
+      "kind": "hotel",
+      "source": "The Meridian Central Park",
+      "aliases": ["Le Meridien Central Park", "The Meridian"],
+      "confidence": "likely",
+      "reviewNote": "\"Meridian\" read as Le Méridien, not The Ritz-Carlton New York, Central Park, which is a different hotel and was not badged."
+    },
+    {
+      "name": "Four Seasons Resort Nevis",
+      "place": "Nevis",
+      "kind": "hotel",
+      "source": "FOUR SEASONS Nevis",
+      "listings": [{ "collection": "hotel", "id": "h_02501" }]
+    },
+    {
+      "name": "Jumby Bay Island",
+      "place": "Antigua",
+      "kind": "island",
+      "source": "Jumby Bay",
+      "listings": [{ "collection": "hotel", "id": "h_01030" }]
+    },
+    {
+      "name": "La Samanna",
+      "place": "St. Martin",
+      "kind": "hotel",
+      "source": "La samanna",
+      "listings": [{ "collection": "hotel", "id": "h_01117" }]
+    },
+    {
+      "name": "Four Seasons Resort Lanai",
+      "place": "Lanai, Hawaii",
+      "kind": "hotel",
+      "source": "FOUR SEASONS Lanaii",
+      "aliases": ["Four Seasons Lanai"],
+      "listings": [{ "collection": "hotel", "id": "h_00679" }]
+    },
+    {
+      "name": "Moana Surfrider",
+      "place": "Waikiki, Honolulu",
+      "kind": "hotel",
+      "source": "Moana surf rider",
+      "aliases": ["Moana Surfrider, A Westin Resort"]
+    },
+    {
+      "name": "Four Seasons Resort Oahu at Ko Olina",
+      "place": "Ko Olina, Oahu",
+      "kind": "hotel",
+      "source": "FOUR SEASONS Ko Olina",
+      "listings": [{ "collection": "hotel", "id": "h_00682" }]
+    }
+  ]
+}

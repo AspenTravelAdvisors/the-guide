@@ -10,6 +10,8 @@ import { bookingLink } from "@/lib/atlas/booking.js";
 import { getTrip, onTrip } from "@/lib/trip-state";
 import { atlasOpened, bookingClicked } from "@/lib/analytics";
 import BucketListButton from "./BucketListButton";
+import VisitedBadge from "./VisitedBadge";
+import { visitsForRecord } from "@/lib/visited";
 
 // The shared trip drives the hotel booking CTAs: bookingLink prices the
 // captured dates and party (tomorrow-night default), and hotel atlas links
@@ -198,6 +200,7 @@ function Card({
     <>
       <span className="kicker">{String(kicker)}</span>
       <span className="name">{result.name || "Untitled"}</span>
+      <VisitedBadge visits={visitsForRecord(result)} />
       {where && <span className="where">{where}</span>}
       {/* Was "Open in Atlas →", which sat one line above a group CTA reading
           "Open in the Atlas →". Two near-identical labels, different scopes. */}

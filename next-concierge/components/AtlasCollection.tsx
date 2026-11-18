@@ -27,6 +27,8 @@ import { useRouter, useSearchParams } from "next/navigation";
 import type { OfferingType } from "@/lib/types";
 import type { AtlasFilterDescriptor, AtlasOffering } from "@/lib/atlas/adapters/types";
 import { matchesOffering, type AtlasFilterState } from "@/lib/atlas/adapters/filter";
+import { stampAdvisorVisited, visitsForRecord } from "@/lib/visited";
+import VisitedBadge from "./VisitedBadge";
 import { parseDeepLink, toSearchParams, type ParseContext } from "@/lib/atlas/adapters/params";
 import { whenLabelFor, sortOfferings, SORT_MODES, type SortMode } from "@/lib/atlas/dates";
 import AtlasFilterRail, { type AtlasQuery } from "./AtlasFilterRail";
@@ -506,7 +508,7 @@ export default function AtlasCollection({
     load()
       .then((r) => {
         if (cancelled) return;
-        setOfferings(r.offerings);
+        setOfferings(r.offerings.map(stampAdvisorVisited));
         setCtx(r.ctx);
         setRegionLabels(r.regionLabels);
         setRouteFor({ fn: r.routeFor });
@@ -1533,6 +1535,9 @@ export default function AtlasCollection({
                 {!markOverMedia && brandMarkFor(o)}
                 <div className="ac-headtext">
                   <h3>{o.title}</h3>
+                  {o.advisorVisited && (
+                    <VisitedBadge visits={visitsForRecord(o)} />
+                  )}
                   {/* Date line, mirroring the original's three non-hotel cases:
                       a real range (plus a departures count when the product runs
                       many dates), an on-demand window, or nothing scheduled. */}

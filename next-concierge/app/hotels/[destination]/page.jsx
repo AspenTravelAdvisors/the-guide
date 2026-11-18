@@ -11,6 +11,8 @@ import { SITE_URL } from "@/lib/answers";
 import { orgRef } from "@/lib/seo/site";
 import { jsonLd } from "@/lib/seo/json-ld";
 import SiteFooter from "@/components/SiteFooter";
+import VisitedBadge from "@/components/VisitedBadge";
+import { hotelVisits } from "@/lib/visited";
 
 export const dynamicParams = false;
 
@@ -124,6 +126,7 @@ export default async function DestinationPage({ params }) {
               .map((h) => (
                 <li key={h.id}>
                   <Link href={h.path}>{h.name}</Link>
+                  <VisitedBadge visits={hotelVisits(h.id)} variant="mini" />
                   <span className="answers-desc">
                     {[
                       h.category,

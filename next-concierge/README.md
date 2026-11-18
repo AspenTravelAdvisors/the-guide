@@ -126,3 +126,51 @@ merge:virtuoso-journeys       →  the six journey atlases
   outputs are current with respect to them.
 - `prebuild` re-runs the merges on every deploy, so date-sensitive content
   (expired offers, departed sailings) is always filtered as of the build.
+
+## Properties the advisors have visited
+
+`data/visited-properties.json` is the list of hotels, lodges, islands, and ships Aspen Travel Advisors has personally been to. It is the only copy. The badge on a listing, the "Been here" filter on the atlas, and the note The Guide adds when it talks about a place all read this file.
+
+One object per place. New visits go at the bottom. A name is enough for The Guide to mention the place, including places that are not in the atlas. The badge appears only when `listings` points at a guide record.
+
+Add a hotel that is already in the guide:
+
+```json
+{
+  "name": "Amangiri",
+  "place": "Canyon Point, Utah",
+  "kind": "hotel",
+  "visited": "2026-03",
+  "notes": "The mesa-view suite is the one to ask about.",
+  "photos": [],
+  "listings": [{ "collection": "hotel", "id": "h_00073" }]
+}
+```
+
+The hotel id is the `hotel=` value on its atlas URL, for example `https://guide.expeditionbucketlist.com/atlas/hotel?hotel=h_00073`. `visited` is a date or a month. `notes` is an insider tip, shown on the property page and given to The Guide. `photos` is a list of image URLs. Leave any of those off until you have them.
+
+Add a place the guide does not list. Omit `listings`. The Guide can still say the advisors have been there, and it will not pretend the place is in the atlas.
+
+```json
+{
+  "name": "Four Seasons Resort Marrakech",
+  "place": "Marrakech, Morocco",
+  "kind": "hotel"
+}
+```
+
+Add a ship, or a whole cruise line:
+
+```json
+{ "name": "MS Roald Amundsen", "kind": "ship", "listings": [{ "collection": "cruise", "vessel": "MS Roald Amundsen" }] }
+```
+
+```json
+{ "name": "Silversea", "kind": "cruise-line", "listings": [{ "collection": "cruise", "operator": "Silversea" }, { "collection": "worldcruise", "operator": "Silversea" }] }
+```
+
+`aliases` holds other spellings. `source` can keep the original note, typos included.
+
+If a name is a guess, set `"confidence": "likely"` and add a `reviewNote` saying why. If you cannot tell what the note refers to, set `"confidence": "uncertain"` and a `reviewNote`. Uncertain entries stay in the file and are not shown to travelers, and The Guide is told not to claim them.
+
+Commit the file. That is the whole update: there is no admin screen for this list. `npm run verify:visited` checks that every hotel id, ship, and cruise line in `listings` still exists.

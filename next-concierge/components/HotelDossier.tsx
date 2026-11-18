@@ -33,6 +33,8 @@ import { buildAdvisorContext } from "@/lib/handoff";
 import { peekTurns } from "@/lib/conversation-store";
 import BucketListButton from "./BucketListButton";
 import VipBooking from "./VipBooking";
+import VisitedBadge from "./VisitedBadge";
+import { hotelVisits } from "@/lib/visited";
 
 /** The subset of a hotel record this panel renders. */
 interface HotelRecord {
@@ -207,6 +209,7 @@ export default function HotelDossier({
         <div className="hd-head">
           {record?.category && <p className="hd-cat">{record.category}</p>}
           <h2>{name}</h2>
+          <VisitedBadge visits={hotelVisits(id)} variant="detail" />
           {where && <p className="hd-where">{where}</p>}
           <FlyoverRow id={id} />
         </div>

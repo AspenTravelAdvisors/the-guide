@@ -23,6 +23,8 @@ import { experiencesAsked, journeyOpened } from "@/lib/analytics";
 import { openAdvisor, ADVISOR_SLA } from "./AdvisorRequest";
 import { buildAdvisorContext } from "@/lib/handoff";
 import { peekTurns } from "@/lib/conversation-store";
+import VisitedBadge from "./VisitedBadge";
+import { visitsForRecord } from "@/lib/visited";
 
 /** What every collection can supply, whatever its own feed calls things. */
 export interface JourneyRecord {
@@ -163,6 +165,15 @@ export default function JourneyDossier({
       <div className="jd-head">
         <div>
           <h2>{record.title}</h2>
+          <VisitedBadge
+            visits={visitsForRecord({
+              collection: category === "expedition" ? "cruise" : category,
+              vessel: record.ship,
+              ship: record.ship,
+              operator: record.operator,
+            })}
+            variant="detail"
+          />
           {meta && <p className="jd-meta">{meta}</p>}
           {where && <p className="jd-where">{where}</p>}
           {record.dates && <p className="jd-dates">{record.dates}</p>}
@@ -237,6 +248,10 @@ export default function JourneyDossier({
                     )}
                     <span className="jd-camp-text">
                       <span className="jd-camp-name">{c.name}</span>
+                      <VisitedBadge
+                        visits={visitsForRecord({ id: c.id, collection: "hotel" })}
+                        variant="mini"
+                      />
                       <span className="jd-camp-meta">
                         {[
                           c.house,

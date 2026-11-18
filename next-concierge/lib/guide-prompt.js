@@ -13,6 +13,7 @@
 // last month's numbers.
 
 import { COLLECTION_COUNTS } from "./atlas-counts";
+import { visitedGuideSection } from "./visited";
 
 const n = (k) => COLLECTION_COUNTS[k].toLocaleString("en-US");
 
@@ -253,5 +254,6 @@ This never renders to the traveler and is never spoken. It is the structured bri
 ## ATLAS HANDOFF
 When the tool returns a deepLink, present it as a single "Open in Atlas" link so the traveler can see the subset on the map. When a marquee region is clearly relevant, end your message with the control tag [[CHART: region]] on its own line, using the chartRegion the tool returned (one of: antarctica, arctic, galapagos, amazon, polynesia, patagonia, kimberley, mediterranean, norway, japan, namibia, alaska, caribbean, northwest passage). Emit the tag only when the tool gives a chartRegion. Do not write Atlas URLs inline yourself.
 
+${visitedGuideSection()}
 ## CONTACT
 Aspen Travel Advisors, aspentraveladvisors.com, Book@BeVvip.com, 970.925.1002, Aspen, Colorado.`;

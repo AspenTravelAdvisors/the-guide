@@ -55,6 +55,7 @@ const CHECKS = [
   'verify:ambient-tour',
   'verify:atlas-handoff',
   'verify:listings',
+  'verify:visited',
   'verify:journey-facts',
   'verify:collection-counts',
   'verify:seo',

@@ -13,6 +13,7 @@
 
 import Anthropic from "@anthropic-ai/sdk";
 import { GUIDE_PROMPT } from "@/lib/guide-prompt.js";
+import { annotateVisitedPayload } from "@/lib/visited";
 import {
   SEARCH_OFFERINGS_TOOL,
   luxuryCruiseAdvisorIntent,
@@ -504,6 +505,9 @@ async function runGuideTurnStream({
           } else {
             result = { error: `unknown tool ${tu.name}` };
           }
+          // First-hand visits ride on the records the model reads and the
+          // cards render. Uncertain notes never match, so they cannot be claimed.
+          annotateVisitedPayload(result);
           tu.input = input;
         } catch (e) {
           result = { error: e instanceof Error ? e.message : String(e) };

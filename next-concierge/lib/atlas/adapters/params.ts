@@ -268,6 +268,8 @@ export function parseDeepLink(
   const promoRaw = (params.get("promo") ?? "").trim().toLowerCase();
   const promoOnly = d.supportsPromotionFilter === true
     && (promoRaw === "1" || promoRaw === "true" || promoRaw === "yes");
+  const visitedRaw = (params.get("visited") ?? "").trim().toLowerCase();
+  const visitedOnly = visitedRaw === "1" || visitedRaw === "true" || visitedRaw === "yes";
 
   // brand falls back to operator (and vice versa for cruise, whose Share button
   // emits operator=). Each entry is resolved fuzzily and unknown values drop.
@@ -356,6 +358,7 @@ export function parseDeepLink(
       ),
       rawQuery: params.get("q") || undefined,
       promoOnly,
+      visitedOnly: visitedOnly || undefined,
       // world is both a filter and a view intent: it narrows the results AND
       // is what the old worldBtn toggled.
       world: /^(1|true|yes|y)$/i.test(String(params.get("world") ?? "").trim()) || undefined,
@@ -448,6 +451,7 @@ export function toSearchParams(
     if (state.maxDays != null) p.set("maxDays", String(state.maxDays));
   }
   if (d.supportsPromotionFilter && state.promoOnly) p.set("promo", "1");
+  if (state.visitedOnly) p.set("visited", "1");
   if (rawQuery?.q) p.set("q", rawQuery.q);
   // Same asymmetry on the way out: a country facet already wrote this key.
   if (rawQuery?.country && !d.facets?.some((f) => f.param === "country")) {
