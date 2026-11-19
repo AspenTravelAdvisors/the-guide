@@ -61571,6 +61571,67 @@
    "aaa": "AAA Four/Five Diamond Hotels 2026 PDFs"
   }
  },
+ "h_00494": {
+  "bestFit": "Celebration / milestone",
+  "intentTags": [
+   "Celebration / milestone"
+  ],
+  "serviceStyle": "Program-backed luxury",
+  "confidence": "High",
+  "overallFitScore": 73.9,
+  "matchScores": {
+   "honeymoon": 70.6,
+   "family": 81.9,
+   "celebration": 72.4,
+   "business": 80.6,
+   "active": 81.2,
+   "uhnw": 69.7,
+   "simpleVip": 80.6
+  },
+  "criteriaScores": {
+   "guestIntent": 4,
+   "serviceStyleFit": 3.3,
+   "locationQuality": 4.39,
+   "roomSuiteReality": 3.92,
+   "valueWithinLuxury": 4.5,
+   "partnerStrength": 3.8,
+   "foodAndBeverage": 3.18,
+   "wellnessRecovery": 3.54,
+   "privacyExclusivity": 3.16,
+   "sceneFit": 3.85,
+   "familyMultigen": 3.46,
+   "accessibilityEase": 4.2,
+   "seasonalityRiskFit": 4.15,
+   "operationalReliability": 3.25,
+   "designSenseOfPlace": 3.86,
+   "destinationSpecificFit": 4.32,
+   "guestPersonalityFit": 3.65,
+   "budgetPsychologyFit": 3.75
+  },
+  "evaluationNotes": "location:beach/views/golf; room/suite:villa/villas/terrace/plunge/view; F&B:breakfast; wellness:wellness/spa/massage; privacy:private/villa/villas; family:pool/beach/villa; sense-of-place:local/immersion/design; Virtuoso:broad preferred benefits: breakfast, credit, upgrade when available",
+  "criteriaFound": "location:beach/views/golf; room/suite:villa/villas/terrace/plunge/view; F&B:breakfast; wellness:wellness/spa/massage; privacy:private/villa/villas; family:pool/beach/villa; sense-of-place:local/immersion/design; Virtuoso:broad preferred benefits: breakfast, credit, upgrade when available",
+  "sourceFlags": "CSV partner benefits; Virtuoso description text; web-calibrated program criteria",
+  "nearbyRank": 1,
+  "nearbyHotelCount": 3,
+  "description": "Desaru Coast: a private-key proposition in Johor; salt-air afternoons, a room that remembers the view, and wellness that feels earned. Luxury's practical machinery handles the practicalities discreetly.",
+  "searchKeywords": [
+   "Desaru Coast Johor",
+   "Desaru Coast luxury hotel",
+   "best luxury hotels in Johor",
+   "Johor 5 star hotel",
+   "Johor luxury hotel"
+  ],
+  "forbesRating": null,
+  "forbesRatingYear": 2026,
+  "aaaDiamondRating": null,
+  "aaaDiamondYear": 2026,
+  "aaaFirstDiamondYear": null,
+  "ratingBadges": [],
+  "ratingsSource": {
+   "forbes": "Forbes Travel Guide 2026 Star Award Winners page; row payload unavailable in local source extraction",
+   "aaa": "AAA Four/Five Diamond Hotels 2026 PDFs"
+  }
+ },
  "h_01269": {
   "bestFit": "Celebration / milestone",
   "intentTags": [

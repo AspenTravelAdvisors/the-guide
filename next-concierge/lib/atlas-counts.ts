@@ -11,14 +11,14 @@
 // read lower by however many have passed. `npm run build:collection-counts --
 // --report` prints today's gap.
 //
-// 12,163 records across 8 collections.
+// 12,159 records across 8 collections.
 export const COLLECTION_COUNTS = {
-  hotel: 2166,
+  hotel: 2167,
   villa: 3988,
-  cruise: 4404,
+  cruise: 4389,
   worldcruise: 331,
-  safari: 518,
+  safari: 521,
   train: 105,
-  yacht: 526,
+  yacht: 533,
   jet: 125,
 } as const;

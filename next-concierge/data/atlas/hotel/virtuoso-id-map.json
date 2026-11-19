@@ -1,11 +1,11 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-11-14T15:43:16.808Z",
+  "generated": "2026-11-19T18:09:10.695Z",
   "feedSynced": null,
   "localCount": 2475,
-  "feedCount": 2097,
-  "matchedCount": 2328
+  "feedCount": 2098,
+  "matchedCount": 2329
  },
  "overrides": {
   "h_00408": "6176935",
@@ -13285,6 +13285,12 @@
    "localName": "Deos Mykonos - A Virtuoso Preview Property",
    "virtuosoName": "Myconian Deos - The Set"
   },
+  "h_00494": {
+   "vid": "16129917",
+   "how": "stub-of:16129917",
+   "localName": "Desaru Coast",
+   "virtuosoName": "Mandarin Oriental, Desaru Coast"
+  },
   "h_00506": {
    "vid": "16318863",
    "how": "ledger-of:h_00507",
@@ -25368,13 +25374,6 @@
    "name": "Delamar West Hartford",
    "city": "West Hartford",
    "country": "United States",
-   "program": "Virtuoso"
-  },
-  {
-   "id": "h_00494",
-   "name": "Desaru Coast",
-   "city": "Johor",
-   "country": "Malaysia",
    "program": "Virtuoso"
   },
   {

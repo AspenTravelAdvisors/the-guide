@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4404,
-  "journeysWithStays": 3694,
+  "journeysTotal": 4389,
+  "journeysWithStays": 3683,
   "journeysWithHouse": 0,
   "gateways": 106,
   "hotels": 281,
@@ -15,82 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_01583": {
-   "n": "REMOTA",
-   "house": null,
-   "aff": null,
-   "city": "Puerto Natales",
-   "country": "Chile",
-   "ll": [
-    -51.7088,
-    -72.5077
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4387_2_0.webp",
-   "rooms": 72,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_02239": {
-   "n": "The Singular Patagonia, Chile",
-   "house": null,
-   "aff": null,
-   "city": "Puerto Natales",
-   "country": "Chile",
-   "ll": [
-    -51.7003,
-    -72.5258
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13102422_2_7.webp",
-   "rooms": 57,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00532": {
-   "n": "El Silencio Lodge & Spa -  Relais & Chateaux",
-   "house": null,
-   "aff": null,
-   "city": "Alajuela",
-   "country": "Costa Rica",
-   "ll": [
-    9.99827,
-    -84.2041
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6160093_2_0.webp",
-   "rooms": 24,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02129": {
-   "n": "The Retreat Costa Rica, Wellness Resort & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Alajuela",
-   "country": "Costa Rica",
-   "ll": [
-    9.97005,
-    -84.4304
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16625139_2_0.webp",
-   "rooms": 25,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
   "h_01293": {
    "n": "Mashpi Lodge",
    "house": null,
@@ -126,82 +50,6 @@
     "Daily breakfast",
     "Room upgrade",
     "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00055": {
-   "n": "Alvear Palace Hotel",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5876,
-    -58.3889
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
-   "rooms": 207,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01455": {
-   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5883,
-    -58.3862
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v16828211": {
-   "n": "Sofitel Buenos Aires Recoleta",
-   "house": null,
-   "aff": null,
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5896,
-    -58.3841
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0.webp",
-   "rooms": 175,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00641": {
-   "n": "Four Seasons Hotel Buenos Aires",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Buenos Aires",
-   "country": "Argentina",
-   "ll": [
-    -34.5899,
-    -58.3824
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94.webp",
-   "rooms": 165,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
    ],
    "promo": 0
   },
@@ -316,6 +164,82 @@
     "Daily breakfast",
     "Room upgrade",
     "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00055": {
+   "n": "Alvear Palace Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5876,
+    -58.3889
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4327_2_0.webp",
+   "rooms": 207,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01455": {
+   "n": "Palacio Duhau - Park Hyatt Buenos Aires",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5883,
+    -58.3862
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4119_2_0.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v16828211": {
+   "n": "Sofitel Buenos Aires Recoleta",
+   "house": null,
+   "aff": null,
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5896,
+    -58.3841
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16817821_2_0.webp",
+   "rooms": 175,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00641": {
+   "n": "Four Seasons Hotel Buenos Aires",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Buenos Aires",
+   "country": "Argentina",
+   "ll": [
+    -34.5899,
+    -58.3824
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4588_2_94.webp",
+   "rooms": 165,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
    ],
    "promo": 0
   },
@@ -528,6 +452,44 @@
    ],
    "promo": 1
   },
+  "h_00532": {
+   "n": "El Silencio Lodge & Spa -  Relais & Chateaux",
+   "house": null,
+   "aff": null,
+   "city": "Alajuela",
+   "country": "Costa Rica",
+   "ll": [
+    9.99827,
+    -84.2041
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6160093_2_0.webp",
+   "rooms": 24,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02129": {
+   "n": "The Retreat Costa Rica, Wellness Resort & Spa",
+   "house": null,
+   "aff": null,
+   "city": "Alajuela",
+   "country": "Costa Rica",
+   "ll": [
+    9.97005,
+    -84.4304
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16625139_2_0.webp",
+   "rooms": 25,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_02170": {
    "n": "The Ritz-Carlton, Bali",
    "house": "Luxury Group at Marriott International",
@@ -597,6 +559,44 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18117848_2_0.webp",
    "rooms": 465,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01583": {
+   "n": "REMOTA",
+   "house": null,
+   "aff": null,
+   "city": "Puerto Natales",
+   "country": "Chile",
+   "ll": [
+    -51.7088,
+    -72.5077
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4387_2_0.webp",
+   "rooms": 72,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_02239": {
+   "n": "The Singular Patagonia, Chile",
+   "house": null,
+   "aff": null,
+   "city": "Puerto Natales",
+   "country": "Chile",
+   "ll": [
+    -51.7003,
+    -72.5258
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13102422_2_7.webp",
+   "rooms": 57,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -1999,7 +1999,7 @@
     35.1613,
     129.166
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16149145_2_4.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16149145_2_27.webp",
    "rooms": 260,
    "perks": [
     "Daily breakfast",
@@ -5353,40 +5353,6 @@
   }
  },
  "GATES": {
-  "Puerto Natales, Chile": {
-   "n": "Puerto Natales, Chile",
-   "ll": [
-    -51.7333,
-    -72.5167
-   ],
-   "h": [
-    [
-     "h_01583",
-     2.8
-    ],
-    [
-     "h_02239",
-     3.7
-    ]
-   ]
-  },
-  "San Jose, Costa Rica": {
-   "n": "San Jose, Costa Rica",
-   "ll": [
-    9.9253,
-    -84.0787
-   ],
-   "h": [
-    [
-     "h_00532",
-     16
-    ],
-    [
-     "h_02129",
-     38.8
-    ]
-   ]
-  },
   "Quito, Ecuador": {
    "n": "Quito, Ecuador",
    "ll": [
@@ -5401,31 +5367,6 @@
     [
      "h_00347",
      5.8
-    ]
-   ]
-  },
-  "Buenos Aires, Argentina": {
-   "n": "Buenos Aires, Argentina",
-   "ll": [
-    -34.5875,
-    -58.6725
-   ],
-   "h": [
-    [
-     "h_00055",
-     26
-    ],
-    [
-     "h_01455",
-     26.2
-    ],
-    [
-     "h_v16828211",
-     26.4
-    ],
-    [
-     "h_00641",
-     26.6
     ]
    ]
   },
@@ -5477,6 +5418,31 @@
     [
      "h_01191",
      5.2
+    ]
+   ]
+  },
+  "Buenos Aires, Argentina": {
+   "n": "Buenos Aires, Argentina",
+   "ll": [
+    -34.5875,
+    -58.6725
+   ],
+   "h": [
+    [
+     "h_00055",
+     26
+    ],
+    [
+     "h_01455",
+     26.2
+    ],
+    [
+     "h_v16828211",
+     26.4
+    ],
+    [
+     "h_00641",
+     26.6
     ]
    ]
   },
@@ -5560,6 +5526,23 @@
     ]
    ]
   },
+  "San Jose, Costa Rica": {
+   "n": "San Jose, Costa Rica",
+   "ll": [
+    9.9253,
+    -84.0787
+   ],
+   "h": [
+    [
+     "h_00532",
+     16
+    ],
+    [
+     "h_02129",
+     38.8
+    ]
+   ]
+  },
   "Benoa (Bali), Indonesia": {
    "n": "Benoa (Bali), Indonesia",
    "ll": [
@@ -5582,6 +5565,23 @@
     [
      "h_01901",
      6.6
+    ]
+   ]
+  },
+  "Puerto Natales, Chile": {
+   "n": "Puerto Natales, Chile",
+   "ll": [
+    -51.7333,
+    -72.5167
+   ],
+   "h": [
+    [
+     "h_01583",
+     2.8
+    ],
+    [
+     "h_02239",
+     3.7
     ]
    ]
   },
@@ -7841,10 +7841,6 @@
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
   },
-  "16845761": {
-   "pre": "San Jose, Costa Rica",
-   "post": "San Jose, Costa Rica"
-  },
   "16845762": {
    "pre": "San Jose, Costa Rica",
    "post": "San Jose, Costa Rica"
@@ -8105,10 +8101,6 @@
    "pre": "Quito, Ecuador",
    "post": "Lima, Peru"
   },
-  "16852179": {
-   "pre": "Puerto Natales, Chile",
-   "post": "Puerto Natales, Chile"
-  },
   "16852190": {
    "pre": "Puerto Natales, Chile",
    "post": "Puerto Natales, Chile"
@@ -8148,10 +8140,6 @@
   "16852211": {
    "pre": "Puerto Natales, Chile",
    "post": "Puerto Natales, Chile"
-  },
-  "16852227": {
-   "pre": "Quito, Ecuador",
-   "post": "Quito, Ecuador"
   },
   "16852228": {
    "pre": "Quito, Ecuador",
@@ -8305,10 +8293,6 @@
    "pre": "Lima, Peru",
    "post": "Lima, Peru"
   },
-  "16857889": {
-   "pre": "Lima, Peru",
-   "post": "Quito, Ecuador"
-  },
   "16857890": {
    "pre": "Lima, Peru",
    "post": "Quito, Ecuador"
@@ -8354,10 +8338,6 @@
    "post": "Santiago, Chile"
   },
   "16876400": {
-   "pre": "San Jose, Costa Rica",
-   "post": "Panama City, Panama"
-  },
-  "16876401": {
    "pre": "San Jose, Costa Rica",
    "post": "Panama City, Panama"
   },
@@ -11801,6 +11781,10 @@
    "pre": "Piraeus, Greece",
    "post": "Naples, Italy"
   },
+  "18170983": {
+   "pre": "Nice, France",
+   "post": "Barcelona, Spain"
+  },
   "18170984": {
    "pre": "Naples, Italy",
    "post": "Piraeus, Greece"
@@ -12257,6 +12241,10 @@
    "pre": null,
    "post": "Reykjavík, Iceland"
   },
+  "18239683": {
+   "pre": "Reykjavík, Iceland",
+   "post": null
+  },
   "18239684": {
    "pre": "Reykjavík, Iceland",
    "post": null
@@ -12388,10 +12376,6 @@
   "18268531": {
    "pre": "Lisbon, Portugal",
    "post": null
-  },
-  "18268532": {
-   "pre": "Barcelona, Spain",
-   "post": "Ponta Delgada, Portugal"
   },
   "18268533": {
    "pre": "Reykjavík, Iceland",
@@ -13165,10 +13149,6 @@
    "pre": "Baltra Island, Ecuador",
    "post": "Baltra Island, Ecuador"
   },
-  "18352308": {
-   "pre": "Baltra Island, Ecuador",
-   "post": "Baltra Island, Ecuador"
-  },
   "18352311": {
    "pre": "Baltra Island, Ecuador",
    "post": "Baltra Island, Ecuador"
@@ -13584,18 +13564,6 @@
   "18359088": {
    "pre": "Reykjavík, Iceland",
    "post": null
-  },
-  "18361658": {
-   "pre": "Zadar, Croatia",
-   "post": "Athens, Greece"
-  },
-  "18361659": {
-   "pre": "Athens, Greece",
-   "post": "Barcelona, Spain"
-  },
-  "18361660": {
-   "pre": "Barcelona, Spain",
-   "post": "Athens, Greece"
   },
   "18361661": {
    "pre": "Osaka, Japan",
@@ -15253,10 +15221,6 @@
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
   },
-  "18486232": {
-   "pre": "Papeete, French Polynesia",
-   "post": "Papeete, French Polynesia"
-  },
   "18486233": {
    "pre": "Papeete, French Polynesia",
    "post": "Papeete, French Polynesia"
@@ -15748,10 +15712,6 @@
   "18492270": {
    "pre": "New York City, NY, United States",
    "post": null
-  },
-  "18492273": {
-   "pre": "Buenos Aires, Argentina",
-   "post": "Buenos Aires, Argentina"
   },
   "18492274": {
    "pre": "Buenos Aires, Argentina",
@@ -20181,10 +20141,6 @@
    "pre": "Quito, Ecuador",
    "post": "Lima, Peru"
   },
-  "18614241": {
-   "pre": "Stockholm, Sweden",
-   "post": "Copenhagen, Denmark"
-  },
   "18614259": {
    "pre": "Oslo, Norway",
    "post": "Reykjavík, Iceland"
@@ -22205,22 +22161,6 @@
    "pre": "Buenos Aires, Argentina",
    "post": "Rio De Janeiro, Brazil"
   },
-  "18649273": {
-   "pre": "San Jose, Costa Rica",
-   "post": "San Jose, Costa Rica"
-  },
-  "18649275": {
-   "pre": "San Jose, Costa Rica",
-   "post": "San Jose, Costa Rica"
-  },
-  "18649276": {
-   "pre": "San Jose, Costa Rica",
-   "post": "San Jose, Costa Rica"
-  },
-  "18649278": {
-   "pre": "San Jose, Costa Rica",
-   "post": "San Jose, Costa Rica"
-  },
   "18649280": {
    "pre": null,
    "post": "Seattle, WA, United States"
@@ -22296,6 +22236,22 @@
   "18652900": {
    "pre": "Málaga, Spain",
    "post": "Valletta, Malta"
+  },
+  "18660641": {
+   "pre": "Zadar, Croatia",
+   "post": "Athens, Greece"
+  },
+  "18660642": {
+   "pre": "Athens, Greece",
+   "post": "Barcelona, Spain"
+  },
+  "18660643": {
+   "pre": "Barcelona, Spain",
+   "post": "Athens, Greece"
+  },
+  "18661453": {
+   "pre": "Ushuaia, Argentina",
+   "post": "Ushuaia, Argentina"
   }
  }
 }

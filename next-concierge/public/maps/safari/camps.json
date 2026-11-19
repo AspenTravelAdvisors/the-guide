@@ -5,8 +5,8 @@
   "radiusKm": 25,
   "lodgesInCategory": 68,
   "lodgesInSafariCountries": 66,
-  "journeysWithCamps": 265,
-  "journeysTotal": 518,
+  "journeysWithCamps": 268,
+  "journeysTotal": 521,
   "campsMatched": 42
  },
  "radiusKm": 25,
@@ -1960,6 +1960,38 @@
     "stop": "Victoria Falls",
     "day": 1,
     "km": 22.4
+   }
+  ],
+  "18295643": [
+   {
+    "id": "h_00537",
+    "stop": "Ngorongoro",
+    "day": 2,
+    "km": 19.6
+   },
+   {
+    "id": "h_01409",
+    "stop": "Nanyuki",
+    "day": 9,
+    "km": 1
+   },
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 11,
+    "km": 18.1
+   },
+   {
+    "id": "h_01417",
+    "stop": "Volcanoes National Park",
+    "day": 14,
+    "km": 16.2
+   },
+   {
+    "id": "h_01782",
+    "stop": "Volcanoes National Park",
+    "day": 14,
+    "km": 16.2
    }
   ],
   "18301934": [
@@ -4352,6 +4384,28 @@
     "stop": "Ngorongoro",
     "day": 12,
     "km": 19.6
+   }
+  ],
+  "18661600": [
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 6,
+    "km": 18.1
+   }
+  ],
+  "18661601": [
+   {
+    "id": "h_02484",
+    "stop": "Okavango Delta",
+    "day": 6,
+    "km": 19.9
+   },
+   {
+    "id": "h_00212",
+    "stop": "Maun",
+    "day": 9,
+    "km": 1.1
    }
   ]
  }
