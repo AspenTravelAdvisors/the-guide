@@ -6,7 +6,7 @@
   "lodgesInCategory": 68,
   "lodgesInSafariCountries": 66,
   "journeysWithCamps": 268,
-  "journeysTotal": 521,
+  "journeysTotal": 524,
   "campsMatched": 42
  },
  "radiusKm": 25,
@@ -1962,38 +1962,6 @@
     "km": 22.4
    }
   ],
-  "18295643": [
-   {
-    "id": "h_00537",
-    "stop": "Ngorongoro",
-    "day": 2,
-    "km": 19.6
-   },
-   {
-    "id": "h_01409",
-    "stop": "Nanyuki",
-    "day": 9,
-    "km": 1
-   },
-   {
-    "id": "h_01207",
-    "stop": "Masai Mara National Reserve",
-    "day": 11,
-    "km": 18.1
-   },
-   {
-    "id": "h_01417",
-    "stop": "Volcanoes National Park",
-    "day": 14,
-    "km": 16.2
-   },
-   {
-    "id": "h_01782",
-    "stop": "Volcanoes National Park",
-    "day": 14,
-    "km": 16.2
-   }
-  ],
   "18301934": [
    {
     "id": "h_00077",
@@ -2954,14 +2922,6 @@
     "stop": "Victoria Falls",
     "day": 10,
     "km": 22.4
-   }
-  ],
-  "18562114": [
-   {
-    "id": "h_01207",
-    "stop": "Masai Mara National Reserve",
-    "day": 5,
-    "km": 18.1
    }
   ],
   "18565358": [
@@ -4406,6 +4366,22 @@
     "stop": "Maun",
     "day": 9,
     "km": 1.1
+   }
+  ],
+  "18662211": [
+   {
+    "id": "h_01207",
+    "stop": "Masai Mara National Reserve",
+    "day": 5,
+    "km": 18.1
+   }
+  ],
+  "18662215": [
+   {
+    "id": "h_00327",
+    "stop": "Bali",
+    "day": 10,
+    "km": 13
    }
   ]
  }

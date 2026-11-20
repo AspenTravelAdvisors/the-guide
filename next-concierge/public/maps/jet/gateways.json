@@ -5,11 +5,11 @@
   "atlas": "jet",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 125,
-  "journeysWithStays": 122,
+  "journeysTotal": 131,
+  "journeysWithStays": 128,
   "journeysWithHouse": 22,
-  "gateways": 86,
-  "hotels": 296,
+  "gateways": 89,
+  "hotels": 304,
   "houses": [
    "Aman",
    "Four Seasons"
@@ -844,7 +844,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00110": {
    "n": "Anantara Palais Hansen Vienna Hotel",
@@ -2819,6 +2819,82 @@
     "Daily breakfast",
     "Room upgrade",
     "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_01715": {
+   "n": "Santa Teresa Hotel RJ - MGallery",
+   "house": "Accor",
+   "aff": null,
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9454,
+    -43.242
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11062664_2_0.webp",
+   "rooms": 43,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00455": {
+   "n": "Copacabana Palace, A Belmond Hotel, Rio de Janeiro",
+   "house": "Belmond",
+   "aff": "Belmond",
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9675,
+    -43.1784
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3824_2_1.webp",
+   "rooms": 220,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00541": {
+   "n": "Emiliano Rio",
+   "house": null,
+   "aff": null,
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9822,
+    -43.1902
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15495388_2_0.webp",
+   "rooms": 90,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_00856": {
+   "n": "Hotel Fairmont Rio de Janeiro Copacabana",
+   "house": "Accor",
+   "aff": null,
+   "city": "Rio De Janeiro",
+   "country": "Brazil",
+   "ll": [
+    -22.9861,
+    -43.1894
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16395453_2_0.webp",
+   "rooms": 375,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
    ],
    "promo": 0
   },
@@ -4832,6 +4908,82 @@
    ],
    "promo": 1
   },
+  "h_00464": {
+   "n": "Country Club Lima Hotel",
+   "house": null,
+   "aff": null,
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.098,
+    -77.0488
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4662_2_8.webp",
+   "rooms": 83,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_v18394870": {
+   "n": "Hotel Real InterContinental Lima Miraflores",
+   "house": "IHG Hotels & Resorts",
+   "aff": null,
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.1329,
+    -77.0293
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18385799_2_47.webp",
+   "rooms": 321,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01317": {
+   "n": "Miraflores Park, A Belmond Hotel, Lima",
+   "house": "Belmond",
+   "aff": "Belmond",
+   "city": "Lima",
+   "country": "Peru",
+   "ll": [
+    -12.1353,
+    -77.0273
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4636_2_0.webp",
+   "rooms": 89,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00569": {
+   "n": "Explora Uyuni",
+   "house": "Explora",
+   "aff": null,
+   "city": "Uyuni",
+   "country": "Bolivia",
+   "ll": [
+    -20.4604,
+    -66.8261
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16641084_2_25.webp",
+   "rooms": 4,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
   "h_02085": {
    "n": "The Oberoi Zahra, Luxury Nile Cruise",
    "house": "The Oberoi Group",
@@ -6616,6 +6768,31 @@
     ]
    ]
   },
+  "Rio De Janeiro": {
+   "n": "Rio De Janeiro",
+   "ll": [
+    -22.8833,
+    -43.2
+   ],
+   "h": [
+    [
+     "h_01715",
+     8.1
+    ],
+    [
+     "h_00455",
+     9.6
+    ],
+    [
+     "h_00541",
+     11
+    ],
+    [
+     "h_00856",
+     11.5
+    ]
+   ]
+  },
   "Placencia": {
    "n": "Placencia",
    "ll": [
@@ -7365,6 +7542,40 @@
     ]
    ]
   },
+  "Lima": {
+   "n": "Lima",
+   "ll": [
+    -12.05,
+    -77.05
+   ],
+   "h": [
+    [
+     "h_00464",
+     5.3
+    ],
+    [
+     "h_v18394870",
+     9.5
+    ],
+    [
+     "h_01317",
+     9.8
+    ]
+   ]
+  },
+  "Uyuni": {
+   "n": "Uyuni",
+   "ll": [
+    -20.45,
+    -66.8167
+   ],
+   "h": [
+    [
+     "h_00569",
+     1.5
+    ]
+   ]
+  },
   "Nile": {
    "n": "Nile",
    "ll": [
@@ -8076,29 +8287,9 @@
    "post": "Los Angeles",
    "house": "Four Seasons"
   },
-  "18562113": {
-   "pre": "Mumbai",
-   "post": "Delhi"
-  },
-  "18562114": {
-   "pre": "Nairobi",
-   "post": null
-  },
-  "18562116": {
-   "pre": "Johannesburg",
-   "post": "Cape Town"
-  },
   "18567402": {
    "pre": "City Of London",
    "post": "Boston"
-  },
-  "18567703": {
-   "pre": "Melbourne",
-   "post": "Sydney"
-  },
-  "18574390": {
-   "pre": "Athens",
-   "post": "Istanbul"
   },
   "18574997": {
    "pre": "Tokyo",
@@ -8122,14 +8313,6 @@
    "pre": "Miami",
    "post": "Madrid"
   },
-  "18585021": {
-   "pre": "Beijing",
-   "post": "Shanghai"
-  },
-  "18585071": {
-   "pre": "Granada",
-   "post": "Seville"
-  },
   "18589279": {
    "pre": "Athens",
    "post": "Johannesburg",
@@ -8143,10 +8326,6 @@
   "18591456": {
    "pre": "Boston",
    "post": "Boston"
-  },
-  "18591735": {
-   "pre": "Rome",
-   "post": null
   },
   "18591830": {
    "pre": "Beijing",
@@ -8171,14 +8350,6 @@
    "pre": "Portland",
    "post": "Boston"
   },
-  "18603827": {
-   "pre": "Buenos Aires @-34.59,-58.67",
-   "post": "Sao Paulo"
-  },
-  "18603830": {
-   "pre": "Vancouver",
-   "post": null
-  },
   "18630979": {
    "pre": "Edinburgh, Scotland",
    "post": "Monte-Carlo"
@@ -8199,6 +8370,70 @@
    "pre": "San Francisco",
    "post": "Hook",
    "house": "Four Seasons"
+  },
+  "18662202": {
+   "pre": "Buenos Aires @-34.59,-58.67",
+   "post": "Sao Paulo"
+  },
+  "18662203": {
+   "pre": "Melbourne",
+   "post": "Sydney"
+  },
+  "18662205": {
+   "pre": "Sao Paulo",
+   "post": "Rio De Janeiro"
+  },
+  "18662206": {
+   "pre": "Beijing",
+   "post": "Shanghai"
+  },
+  "18662207": {
+   "pre": "Athens",
+   "post": "Istanbul"
+  },
+  "18662208": {
+   "pre": "Athens",
+   "post": "Cairo"
+  },
+  "18662209": {
+   "pre": "Mumbai",
+   "post": "Delhi"
+  },
+  "18662210": {
+   "pre": "Rome",
+   "post": null
+  },
+  "18662211": {
+   "pre": "Nairobi",
+   "post": null
+  },
+  "18662212": {
+   "pre": "Mexico City",
+   "post": "Merida"
+  },
+  "18662213": {
+   "pre": "Lima",
+   "post": "Uyuni"
+  },
+  "18662214": {
+   "pre": null,
+   "post": "Sao Paulo"
+  },
+  "18662215": {
+   "pre": "Singapore",
+   "post": "Bali"
+  },
+  "18662216": {
+   "pre": "Johannesburg",
+   "post": "Cape Town"
+  },
+  "18662217": {
+   "pre": "Granada",
+   "post": "Seville"
+  },
+  "18662219": {
+   "pre": "Vancouver",
+   "post": null
   }
  }
 }

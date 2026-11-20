@@ -5,8 +5,8 @@
   "atlas": "train",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 105,
-  "journeysWithStays": 101,
+  "journeysTotal": 103,
+  "journeysWithStays": 99,
   "journeysWithHouse": 44,
   "gateways": 43,
   "hotels": 150,
@@ -2201,7 +2201,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00050": {
    "n": "Almanac Palais Vienna",
@@ -4070,10 +4070,6 @@
    "pre": "Singapore",
    "post": "Singapore"
   },
-  "18353329": {
-   "pre": null,
-   "post": "Denver"
-  },
   "18357357": {
    "pre": null,
    "post": "Denver"
@@ -4081,10 +4077,6 @@
   "18357359": {
    "pre": "Denver",
    "post": null
-  },
-  "18358381": {
-   "pre": "Denver",
-   "post": "Denver"
   },
   "18358388": {
    "pre": "Las Vegas",
