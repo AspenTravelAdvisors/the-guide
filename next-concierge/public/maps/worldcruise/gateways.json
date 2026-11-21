@@ -5,8 +5,8 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 331,
-  "journeysWithStays": 327,
+  "journeysTotal": 332,
+  "journeysWithStays": 328,
   "journeysWithHouse": 0,
   "gateways": 55,
   "hotels": 181,
@@ -615,7 +615,7 @@
     -80.1233
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14388867_2_4.webp",
-   "rooms": 95,
+   "rooms": 113,
    "perks": [
     "Daily breakfast",
     "$100 credit",
@@ -4767,6 +4767,10 @@
    "pre": "Sydney, Australia",
    "post": "Tokyo, Japan"
   },
+  "16923907": {
+   "pre": "Miami, FL, United States",
+   "post": "Miami, FL, United States"
+  },
   "17900072": {
    "pre": "Fort Lauderdale, FL, United States",
    "post": "Greenwich, United Kingdom"
@@ -5647,6 +5651,10 @@
    "pre": "Tokyo, Japan",
    "post": "Hong Kong, China"
   },
+  "18507842": {
+   "pre": "San Diego, CA, United States",
+   "post": "Singapore, Singapore"
+  },
   "18513606": {
    "pre": "Fort Lauderdale, FL, United States",
    "post": "Greenwich, United Kingdom"
@@ -5726,10 +5734,6 @@
   "18536749": {
    "pre": "Buenos Aires, Argentina",
    "post": "Southampton, United Kingdom"
-  },
-  "18548660": {
-   "pre": "Barcelona, Spain",
-   "post": "Los Angeles, CA, United States"
   },
   "18575163": {
    "pre": "Istanbul, Türkiye",

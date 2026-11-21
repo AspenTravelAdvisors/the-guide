@@ -196,7 +196,7 @@
    {
     "id": "18608254",
     "name": "More Credit, More Paradise, On us",
-    "endDate": "2027-09-30",
+    "endDate": "2027-06-30",
     "exclusive": false,
     "description": "- Standard Rooms Receive $350 in Resort Credit, per stay and 3-night minimum, in addition to your standard hotel credit $100 per stay - Suites Receive $250 Resort Credit per day 2-night minimum stay, addition to your standard hotel credit $100 per stay"
    }
@@ -23177,8 +23177,16 @@
    "Safe",
    "Sitting Area"
   ],
-  "promotions": [],
-  "hasPromotion": false,
+  "promotions": [
+   {
+    "id": "18662309",
+    "name": "Your Escape. Your Season. Exceptional Savings.",
+    "endDate": "2027-10-31",
+    "exclusive": false,
+    "description": "We are pleased to launch a Your Escape. Your Season. Exceptional Savings - Save up to 55% off Flexible Rates at BodyHoliday Saint Lucia for stays from November 2026 to October 2027. Promotional Offer Travel Window: November 27th, 2026, until October 31st, 2027 Travel Window and Discount Offer: November 1st to March 31st – 30% April 1st to April 30th & September 1st to 30th – 45% May 1st to June 30th & October 1st to 31st – 50% July 1st to August 31st – 55% Booking Window: Monday 23rd November – Sunday 6th December, 2026 Applicable Room Categories: All Minimum Length of Stay: 3 nights Promo…"
+   }
+  ],
+  "hasPromotion": true,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15268564_2_0.webp",
@@ -47855,8 +47863,8 @@
   "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
-  "description": "Virtuoso and your Travel Advisor curate the best travel experiences from around the world. We picked this exclusive experience just for you.",
-  "inTheKnow": "Contact your Virtuoso Travel Advisor for insider knowledge to help enhance your experience.",
+  "description": "Overlooking an estuary and set within roughly 250 acres of shaded parkland dotted with beehives and orchards, this eclectically furnished property is the perfect spot for embracing the art of Breton living. Its 47 rooms are spread across several restored buildings: a 19th-century château, a small manor house, a converted orangery opening onto a swimming pool, and former stables now known as “Le Club.” Much of the property, including decor and dining options, takes inspiration from a travel theme; there’s even an old sailing ship on-site that has been restored into a memorable suite.",
+  "inTheKnow": "Based in the estate’s former stables, the six-treatment-room spa pays feminist tribute to Macha, the Celtic goddess known for protecting horses, with equestrian decor and Celtic-inspired treatments.",
   "summary": "Welcome to Domaine de Locguénolé, part of the Beautiful Life Hotels group. Nestling in the heart of over twenty-five hectares of wooded parkland, with a breathtaking view over the Ria du Blavet (the inlet of the sea that runs alongside the property), Domaine de Locguénolé welcomes you to a unique setting conducive to calm and serenity. It comprises 4 unique buildings with a strong identity. An elegantAn emblematic site in Morbihan, between sea and forest, the Domaine embodies a Breton art of living where heritage, nature and hospitality meet. It is made up of 4 unique buildings with a strong identity: an elegant 19th century castlea 18th century Breton-style manor house, The Orangery…",
   "rooms": [
    {
@@ -144811,8 +144819,8 @@
   "perksYear": null,
   "perksStale": false,
   "hideAmenities": false,
-  "description": "Virtuoso and your Travel Advisor curate the best travel experiences from around the world. We picked this exclusive experience just for you.",
-  "inTheKnow": "Contact your Virtuoso Travel Advisor for insider knowledge to help enhance your experience.",
+  "description": "Occupying the upper floors of the Merdeka Maybank Tower, the second highest building in the world at 2,227 feet, Park Hyatt Kuala Lumpur fulfills the “tall order” set out by its location. 252 generously sized guestrooms, including 27 suites, make use of traditional Malaysian design elements like batik and songket while offering travelers the modern luxury and amenities that are core to the Park Hyatt brand. The 99th-floor spa offers private cocoons for unwinding amid the clouds, and dining options span Malaysian specialties to Champagne brunches.",
+  "inTheKnow": "Chocolate lovers and cocktail fiends can indulge at Cacao Mixology & Chocolate, said to be Kuala Lumpur’s highest bar, with inventive pairings, desserts, and chocolate-infused drinks.",
   "summary": "Unparalleled Luxury Amidst Kuala Lumpur City Skyline Set in the country’s most prominent historic site and occupying the top floors of Menara Merdeka Maybank, the tallest skyscraper in Asia Pacific, Park Hyatt Kuala Lumpur provides unrivalled views from the city’s highest point. Revel in a refined and distinctive experience inspired by Malaysia’s rich cultural heritage and the artful tapestry of Kuala Lumpur’s past and present, imbued with a sense of tranquility.",
   "rooms": [
    {
@@ -180390,11 +180398,11 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16393424_2_0.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16393424_2_0.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16393424_2_1.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16393424_2_4.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16393424_2_7.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16393424_2_11.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16393424_2_14.jpg"
   ],
-  "imageCount": 29,
+  "imageCount": 31,
   "propertyType": "Hotel or Resort",
   "numberOfRooms": 303,
   "nearestAirport": "Frankfurt International Airport (FRA)",
@@ -181094,7 +181102,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 56,
+   "total": 57,
    "recommendedPercent": 98
   },
   "tags": [
@@ -185486,7 +185494,7 @@
    "LEED Platinum"
   ],
   "reviews": {
-   "total": 7,
+   "total": 8,
    "recommendedPercent": 100
   },
   "tags": [
@@ -186232,8 +186240,8 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 37,
-   "recommendedPercent": 86
+   "total": 38,
+   "recommendedPercent": 87
   },
   "tags": [
    "city-life",
@@ -186696,11 +186704,11 @@
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16198075_2_1.webp",
   "images": [
-   "https://media.virtuoso.com/m/Images/Brochures/16198075_2_0.jpg",
    "https://media.virtuoso.com/m/Images/Brochures/16198075_2_1.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/16198075_2_2.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/16198075_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/16198075_2_5.jpg"
   ],
-  "imageCount": 64,
+  "imageCount": 35,
   "propertyType": "Hotel or Resort",
   "numberOfRooms": 251,
   "nearestAirport": "Tokyo Haneda International (HND)",
@@ -186833,7 +186841,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 14,
+   "total": 15,
    "recommendedPercent": 93
   },
   "tags": [
@@ -187646,7 +187654,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 71,
+   "total": 73,
    "recommendedPercent": 93
   },
   "tags": [
@@ -188487,8 +188495,8 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 39,
-   "recommendedPercent": 97
+   "total": 40,
+   "recommendedPercent": 98
   },
   "tags": [
    "city-life",
@@ -189740,8 +189748,8 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 9,
-   "recommendedPercent": 89
+   "total": 10,
+   "recommendedPercent": 80
   },
   "tags": [
    "city-life",
@@ -191617,7 +191625,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 4,
+   "total": 5,
    "recommendedPercent": 100
   },
   "tags": [
@@ -192702,7 +192710,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 77,
+   "total": 78,
    "recommendedPercent": 99
   },
   "tags": [
@@ -193660,7 +193668,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 19,
+   "total": 20,
    "recommendedPercent": 100
   },
   "tags": [
@@ -193787,7 +193795,7 @@
   "perksYear": null,
   "perksStale": false,
   "hideAmenities": false,
-  "description": "Virtuoso and your Travel Advisor curate the best travel experiences from around the world. We picked this exclusive experience just for you.",
+  "description": "THE HOTEL SEIRYU KYOTO KIYOMIZU is a luxury heritage hotel housed within a beautifully restored former school in Kyoto's historic Higashiyama district. With sweeping views of the iconic Yasaka Pagoda and unparalleled access to Kyoto's most celebrated temples, shrines and cultural treasures, the hotel offers an immersive gateway to the city's timeless beauty. Through curated cultural experiences, refined hospitality and a setting deeply rooted in Kyoto's heritage, guests are invited to connect with the spirit of the city in a meaningful and memorable way. A stay at The Hotel Seiryu is an invitation to discover Kyoto at its most authentic.",
   "inTheKnow": "Contact your Virtuoso Travel Advisor for insider knowledge to help enhance your experience.",
   "summary": "The Hotel Seiryu Kyoto Kiyomizu is a refined expression of Kyoto’s enduring spirit—housed within a beautifully restored former school just steps from World-heritage Kiyomizu-dera. Historical architecture is preserved with care and reimagined through design that bridges Kyoto’s past with the understated elegance of modern luxury. Designed for calm and comfort, our guest rooms average a spacious 50 square meters, offering a refined blend of contemporary elegance and Kyoto’s quiet charm. Each room invites you to unwind in a setting that reflects the city’s rich cultural aesthetic with understated sophistication. More than a stay, The Hotel Seiryu offers a deeper way to experience the…",
   "rooms": [
@@ -193838,8 +193846,12 @@
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18646155_2_0.webp",
-  "images": [],
-  "imageCount": 0,
+  "images": [
+   "https://media.virtuoso.com/m/Images/Brochures/18646155_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18646155_2_1.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/18646155_2_2.jpg"
+  ],
+  "imageCount": 35,
   "propertyType": "Hotel or Resort",
   "numberOfRooms": 48,
   "nearestAirport": "Itami (ITM)",
@@ -194337,13 +194349,15 @@
   "countryCode": "USA",
   "vipUpgrades": [
    "Upgrade on arrival, subject to availability",
-   "Daily Full breakfast for up to two guests per bedroom, served via in-room dining",
-   "$100 USD equivalent Resort or Hotel credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
-   "Early Check-In / Late Check-Out, subject to availability",
-   "Complimentary Wi-Fi"
+   "Daily Full breakfast for up to two guests per bedroom, served via in-room dining (already included in property rates)",
+   "$100 USD Resort or Hotel credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
+   "Bookings in our Luxury One bedroom Suite and higher categories will receive an additional $100 credit (for a total of $200 during stay)",
+   "Stays of 4+ nights will receive an additional $100 credit (for a total of $200 during stay or $300 for higher room categories)",
+   "Stays of 7+ nights will receive an additional $200 credit (for a total of $300 during stay or $400 for higher room categories)",
+   "Early Check-In / Late Check-Out, subject to availability"
   ],
-  "perksYear": 2024,
-  "perksStale": true,
+  "perksYear": 2027,
+  "perksStale": false,
   "hideAmenities": false,
   "description": "The Five Graces represents the five ways by which you experience the world (and this dazzling inn) – sight, sound, smell, touch, and taste. Every sense is pleased in the suites, richly adorned with handcrafted furnishings, tapestries, and mosaics and set around tranquil courtyards. Indulge in a gourmet breakfast, piñon fire, or Himalayan salt stone massage. Avail yourself of the services of the knowledgeable concierge, who can arrange a gourmet dinner at one of the city's finest restaurants.",
   "inTheKnow": "Don't miss dining at the Inn's restaurant, the Pink Adobe, a landmark dining destination and a local favorite.",
@@ -199960,7 +199974,7 @@
    "EarthCheck"
   ],
   "reviews": {
-   "total": 15,
+   "total": 16,
    "recommendedPercent": 100
   },
   "tags": [
@@ -202420,7 +202434,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 19,
+   "total": 20,
    "recommendedPercent": 95
   },
   "tags": [
@@ -202881,7 +202895,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 60,
+   "total": 61,
    "recommendedPercent": 100
   },
   "tags": [
@@ -204069,7 +204083,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 42,
+   "total": 44,
    "recommendedPercent": 93
   },
   "tags": [
@@ -206194,7 +206208,7 @@
   "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
-  "description": "Home to Philadelphia’s Victorian aristocracy during the 19th century, Rittenhouse Square attracts today’s gentry with its stately oaks, outdoor markets, and The Rittenhouse hotel. Fresh flowers and art books adorn the 118 spacious guest rooms and suites; families can enjoy one- or two-bedroom suites and indulge in kid-friendly amenities. The Spa & Club, with a saltwater pool, sauna, and fitness center, is always included. Guests can also enjoy signature services at the Hotel's distinct Dining establishments such as Brunch or Dinner at renowned restaurant Lacroix or Afternoon Tea at the Mary Cassatt Tea Room.",
+  "description": "Home to Philadelphia’s Victorian aristocracy during the 19th century, Rittenhouse Square attracts today’s gentry with its stately oaks, outdoor markets, and The Rittenhouse hotel. Fresh flowers and art books adorn the 118 spacious guest rooms and suites; families can enjoy one- or two-bedroom suites and indulge in kid-friendly amenities. The Spa & Club, with a saltwater pool, sauna, and fitness center, is always included. Guests can also enjoy signature services at the Hotel's distinct Dining establishments such as Brunch or Dinner at renowned restaurant Lacroix or signature cocktails at Bar210.",
   "inTheKnow": "The Rittenhouse gets a “paws up” from Fido, ranking as one of the city’s most pet-friendly hotels, offering customized food bowls and healthy treats.",
   "summary": "Located in Philadelphia, The Rittenhouse is a Forbes and Michelin One Key-rated Independent Collection® Hotels & Resorts property and a member of The Leading Hotels of the World. The historic property is a standout among luxury hotels in Philadelphia’s Center City, offering visitors a luxury experience with well-appointed rooms and suites, world-class service, and the most desirable location in the heart of Philadelphia’s beloved Rittenhouse Square Park. From fine dining culinary experiences and impeccably tailored events to a full-service spa and fitness club, our Rittenhouse Square luxury hotel offers personalized experiences and provides the perfect balance of sophistication and…",
   "rooms": [
@@ -206605,7 +206619,7 @@
   ],
   "imageCount": 38,
   "propertyType": "Hotel or Resort",
-  "numberOfRooms": 95,
+  "numberOfRooms": 113,
   "nearestAirport": "Miami International Airport (MIA)",
   "nearestAirportMiles": 16,
   "experiences": [
@@ -207215,8 +207229,8 @@
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15806895_2_15.webp",
   "images": [
    "https://media.virtuoso.com/m/Images/Brochures/15806895_2_15.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15806895_2_19.jpg",
-   "https://media.virtuoso.com/m/Images/Brochures/15806895_2_7.jpg"
+   "https://media.virtuoso.com/m/Images/Brochures/15806895_2_0.jpg",
+   "https://media.virtuoso.com/m/Images/Brochures/15806895_2_1.jpg"
   ],
   "imageCount": 36,
   "propertyType": "Hotel or Resort",
@@ -208504,7 +208518,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 32,
+   "total": 33,
    "recommendedPercent": 97
   },
   "tags": [
@@ -209006,7 +209020,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 40,
+   "total": 41,
    "recommendedPercent": 90
   },
   "tags": [
@@ -210955,7 +210969,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 23,
+   "total": 25,
    "recommendedPercent": 96
   },
   "tags": [
@@ -211714,7 +211728,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 28,
+   "total": 29,
    "recommendedPercent": 93
   },
   "tags": [
@@ -212089,8 +212103,8 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 10,
-   "recommendedPercent": 90
+   "total": 11,
+   "recommendedPercent": 91
   },
   "tags": [
    "city-life",
@@ -212444,7 +212458,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 5,
+   "total": 6,
    "recommendedPercent": 100
   },
   "tags": [
@@ -214723,7 +214737,7 @@
    "Upgrade on arrival, subject to availability",
    "Daily Full breakfast for up to two guests per bedroom, served in the restaurant",
    "$100 USD equivalent Resort or Hotel credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full))",
-   "Bookings in our Historic Ocean Suites, Mailani Ocean Suites, or Prestige Suites will also receive complimentary roundtrip private airport transfers AND an additional $100 Resort or Hotel credit (for a total of $200 during stay)",
+   "Bookings in our Historic Ocean Suites, Mailani Ocean Suites, or Prestige Suites will receive an additional $100 Resort or Hotel credit (for a total of $200 during stay)",
    "Early Check-In / Late Check-Out, subject to availability"
   ],
   "perksYear": 2026,
@@ -219408,11 +219422,11 @@
     "description": "Enjoy an additional $100 USD resort credit above the standard $100 USD resort credit offered Offer details: Includes breakfast for two guests daily at Chaya Restaurant Upgrade upon availability at check-in to the next room category $200 USD resort credit per stay This promotion is combinable with public offersMore Days More Memories - Up to 20% Off + Extra Daily $100 Resort Credit Offer Family Traditions - Children Dine Free, Guaranteed Upgrade and Late Check-out The Gift of Getaway - 25% Off for the Holiday Season Live Exquisite - 25% Off for 2027 Suite Indulgence - 25% Off + Additional $300…"
    },
    {
-    "id": "18645823",
-    "name": "The St. Regis Residence Experiece - Up to 25% off, Daily $500 Credit + More",
+    "id": "16578348",
+    "name": "More Days More Memories - Up to 30% off + Extra Daily Resort Credit",
     "endDate": "2027-12-17",
     "exclusive": false,
-    "description": "Exclusive for The Residences at The St. Regis Kanai Resort, Riviera Maya Stay 4 nights or more in a private Residence and enjoy up to 25% savings on retail rates, plus: Daily breakfast served in your private Residence One round-trip airport transfer per stay USD 500 daily resort credit Dedicated St. Regis Butler Service Private Mexican dinner in your Residence for up to 6 or 8 adults, based on the Residence reserved Daily coffee and tea service Kanai Mangrove Tour and Night Sky Observation Experience Private Sabrage Experience in your Residence Private Bloody Mary Experience in your Residence…"
+    "description": "Up to 20% off PLUS Extra Daily 100 USD Resort Credit - above the 200 USD resort credit per stay currently offered OFFER DETAILS: Includes breakfast for two guests daily at Chaya Restaurant Upgrade upon availability at check-in to the next room category $200 USD total resort credit per stay* Receive an additional 100 USD Resort Credit per night with a 3-night minimum stay* (extra hotel credit is above 200 USD resort credit per stay already offered - a 3-night stay will receive 500 USD total resort credit / a 4-night stay will receive 600 USD total resort credit) Early Check-In / Late…"
    }
   ],
   "hasPromotion": true,
@@ -236263,18 +236277,18 @@
   ],
   "promotions": [
    {
-    "id": "18342415",
-    "name": "Stay Longer on Us",
-    "endDate": "2026-12-31",
-    "exclusive": false,
-    "description": "Embark on a longer getaway and receive up to 15% savings on your room rate. Overlooking Edinburgh's iconic landmarks, including Edinburgh Castle, Calton Hill, and Arthur's Seat, W Edinburgh is ideally situated in the culture-rich St. James Quarter. The longer you stay, the more exciting the discount becomes for any stay of 3 nights or more at Edinburgh's newest luxury hotel, W Edinburgh. Stay 3 nights and save 10% on the room rate. Stay 4 nights and save 15% on the room rate. Discounts are automatically applied to the room rate upon searching dates and availability. The Virtuoso benefits at W…"
-   },
-   {
     "id": "18342414",
     "name": "Enjoy an extra $50 hotel credit when you book W Edinburgh",
     "endDate": "2026-12-31",
     "exclusive": false,
     "description": "Guests booking this offer will receive an extra $50.00 hotel credit per stay. Receive $150.00 in total hotel credit (per stay) when booking this special Virtuoso Offer available at W Edinburgh. Guests can use their hotel credit towards the following experiences throughout the hotel: AWAY Spa W Lounge SUSHISAMBA Edinburgh Joao's Place Room Service Valid for stays booked from 27 November 2025 until 31 December 2026 at W Edinburgh. $50.00 credit will be added to the $100.00 hotel credit already available to Virtuoso partners, totalling $150.00 hotel credit. Hotel credit is valid per room, per…"
+   },
+   {
+    "id": "18342415",
+    "name": "Stay Longer on Us",
+    "endDate": "2026-12-31",
+    "exclusive": false,
+    "description": "Embark on a longer getaway and receive up to 15% savings on your room rate. Overlooking Edinburgh's iconic landmarks, including Edinburgh Castle, Calton Hill, and Arthur's Seat, W Edinburgh is ideally situated in the culture-rich St. James Quarter. The longer you stay, the more exciting the discount becomes for any stay of 3 nights or more at Edinburgh's newest luxury hotel, W Edinburgh. Stay 3 nights and save 10% on the room rate. Stay 4 nights and save 15% on the room rate. Discounts are automatically applied to the room rate upon searching dates and availability. The Virtuoso benefits at W…"
    },
    {
     "id": "18344890",

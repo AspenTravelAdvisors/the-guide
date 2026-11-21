@@ -73,20 +73,6 @@
    "[{\"name\":\"15-30% Early Bird Bonus\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 19 Dec 2028\"},{\"name\":\"Solo Traveler Special\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Dec 2027\"},{\"name\":\"Groups Special\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Dec 2027\"}]"
   ],
   [
-   "16923887",
-   "Silversea",
-   "The Galápagos – Exploring The Outer Loop",
-   "2026-11-21",
-   7,
-   "South America",
-   "the-galapagos-exploring-the-outer-loop-10oct2026-17oct2026",
-   "",
-   "Silver Origin",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/15903670_2_0.webp",
-   "",
-   "[{\"name\":\"BLACK FRIDAY: SAVE UP TO 45%\",\"endDate\":\"2029-11-02\",\"exclusive\":false,\"description\":\"Black Friday savings of up to 45% await on more than 850 voyages worldwide. From the sun-drenched shores of the Mediterranean to the awe-inspiring landscapes of Antarctica, discover extraordinary journeys paired with Silversea's all-inclusive luxury. Reserve your suite with your Virtuoso travel advisor by December 7, 2026, and take advantage of reduced deposits starting from just 15%.\"}]"
-  ],
-  [
    "18118071",
    "National Geographic-Lindblad Expeditions",
    "Channel Islands National Park to Baja California",
@@ -1025,6 +1011,20 @@
    "[{\"name\":\"50% Reduced Deposit\",\"exclusive\":false,\"dates\":\"Valid for Travel  01 Oct 2026 - 31 Dec 2027\"},{\"name\":\"50% Reduced Deposit\",\"exclusive\":false,\"dates\":\"Valid for Travel  01 Oct 2026 - 31 Dec 2027\"},{\"name\":\"5% Savings on Groups of 8 or more\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 24 Aug 2029\"}]"
   ],
   [
+   "18049071",
+   "Quark Expeditions",
+   "Antarctic Express – Fly The Drake",
+   "2026-12-06",
+   7,
+   "Antarctica",
+   "antarctic-express-fly-the-drake-01dec2026-08dec2026",
+   "",
+   "World Voyager",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/13927600_2_0.webp",
+   "Day 1: Your adventure begins in Punta Arenas, Chile, the most populated city in southern Patagonia. If you arrive early, there are many museums, restaurants, and shops to keep you busy for days. By early afternoon, a Quark Expeditions representative will meet you at the official starting point hotel, where you'll enjoy a welcome dinner and be briefed about preparing for your embarkation day. Day 2: Your charter flight from Punta Arenas to Antarctica will enable you to cross the legendary Drake Passage in only two hours, while far below, the ship will approach King George Island for your arrival. Your first glimpse of dramatic Antarctic landscapes will be from a unique perspective, as your…",
+   "[]"
+  ],
+  [
    "16918142",
    "Aurora Expeditions",
    "Antarctica Active – All-Inclusive Activities",
@@ -1795,20 +1795,6 @@
    "[{\"name\":\"Save up to 30% + up to US$3,500 air credit per person* on select voyages\",\"exclusive\":false,\"dates\":\"Valid for Travel  24 Oct 2026 - 30 Sep 2027\"},{\"name\":\"Aurora Young Adventurers\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Jul 2028\"}]"
   ],
   [
-   "18049040",
-   "Quark Expeditions",
-   "Antarctic Explorer – Discovering The 7Th Continent",
-   "2026-12-18",
-   10,
-   "Antarctica",
-   "antarctic-explorer-discovering-the-7th-continent-12nov2026-22nov2026",
-   "",
-   "Ocean Explorer",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/13927600_2_36.webp",
-   "Day 1: You will begin your journey in Ushuaia, a small but bustling port town at the tip of South America. This Argentine town is an ideal gateway for you to explore the southern extent of Patagonia while preparing for your adventure ahead. Enjoy the mountains or sample handcrafted chocolate at a café in town. Day 2: Embarkation will occur in the late afternoon, after which your vessel will sail down the historic Beagle Channel, which transects the Tierra del Fuego archipelago in the extreme south of South America. Expect an air of anticipation as you depart—the next time you see land, you'll be on the world's most southern continent! Day 3: Your days at sea are filled with presentations…",
-   "[]"
-  ],
-  [
    "18049025",
    "Quark Expeditions",
    "Antarctic Explorer – Discovering The 7Th Continent",
@@ -1820,6 +1806,20 @@
    "World Voyager",
    "https://media.virtuoso.com/m/Images/Brochures/h400/13927600_2_0.webp",
    "Day 1: Upon arriving in this splendid city, known for its architecture and rich European heritage, you will independently transfer to your group hotel (pre-expedition hotel night included in mandatory transfer package). Day 2: After an early breakfast at the hotel, the group will transfer to the airport and board our private charter flight to Ushuaia, Argentina. Upon arrival, you will be transferred from the airport to a central downtown location to explore this quaint port town on your own before making your way to the designated meeting spot for transfer to the ship. After a late afternoon embarkation, we will sail along the historic Beagle Channel, which cuts through the Tierra del Fuego…",
+   "[]"
+  ],
+  [
+   "18049040",
+   "Quark Expeditions",
+   "Antarctic Explorer – Discovering The 7Th Continent",
+   "2026-12-18",
+   10,
+   "Antarctica",
+   "antarctic-explorer-discovering-the-7th-continent-12nov2026-22nov2026",
+   "",
+   "Ocean Explorer",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/13927600_2_36.webp",
+   "Day 1: You will begin your journey in Ushuaia, a small but bustling port town at the tip of South America. This Argentine town is an ideal gateway for you to explore the southern extent of Patagonia while preparing for your adventure ahead. Enjoy the mountains or sample handcrafted chocolate at a café in town. Day 2: Embarkation will occur in the late afternoon, after which your vessel will sail down the historic Beagle Channel, which transects the Tierra del Fuego archipelago in the extreme south of South America. Expect an air of anticipation as you depart—the next time you see land, you'll be on the world's most southern continent! Day 3: Your days at sea are filled with presentations…",
    "[]"
   ],
   [
@@ -2551,20 +2551,6 @@
    "[{\"name\":\"Explorer's Choice - Choose Your Amenity\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Mar 2028\"}]"
   ],
   [
-   "18049041",
-   "Quark Expeditions",
-   "Antarctic Explorer – Discovering The 7Th Continent",
-   "2026-12-27",
-   10,
-   "Antarctica",
-   "antarctic-explorer-discovering-the-7th-continent-12nov2026-22nov2026",
-   "",
-   "Ocean Explorer",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/13927600_2_36.webp",
-   "Day 1: You will begin your journey in Ushuaia, a small but bustling port town at the tip of South America. This Argentine town is an ideal gateway for you to explore the southern extent of Patagonia while preparing for your adventure ahead. Enjoy the mountains or sample handcrafted chocolate at a café in town. Day 2: Embarkation will occur in the late afternoon, after which your vessel will sail down the historic Beagle Channel, which transects the Tierra del Fuego archipelago in the extreme south of South America. Expect an air of anticipation as you depart—the next time you see land, you'll be on the world's most southern continent! Day 3: Your days at sea are filled with presentations…",
-   "[]"
-  ],
-  [
    "18048757",
    "Quark Expeditions",
    "Antarctic Explorer – Discovering The 7Th Continent",
@@ -2576,6 +2562,20 @@
    "World Voyager",
    "https://media.virtuoso.com/m/Images/Brochures/h400/13927600_2_0.webp",
    "Day 1: Upon arriving in this splendid city, known for its architecture and rich European heritage, you will independently transfer to your group hotel (pre-expedition hotel night included in mandatory transfer package). Day 2: After an early breakfast at the hotel, the group will transfer to the airport and board our private charter flight to Ushuaia, Argentina. Upon arrival, you will be transferred from the airport to a central downtown location to explore this quaint port town on your own before making your way to the designated meeting spot for transfer to the ship. After a late afternoon embarkation, we will sail along the historic Beagle Channel, which cuts through the Tierra del Fuego…",
+   "[]"
+  ],
+  [
+   "18049041",
+   "Quark Expeditions",
+   "Antarctic Explorer – Discovering The 7Th Continent",
+   "2026-12-27",
+   10,
+   "Antarctica",
+   "antarctic-explorer-discovering-the-7th-continent-12nov2026-22nov2026",
+   "",
+   "Ocean Explorer",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/13927600_2_36.webp",
+   "Day 1: You will begin your journey in Ushuaia, a small but bustling port town at the tip of South America. This Argentine town is an ideal gateway for you to explore the southern extent of Patagonia while preparing for your adventure ahead. Enjoy the mountains or sample handcrafted chocolate at a café in town. Day 2: Embarkation will occur in the late afternoon, after which your vessel will sail down the historic Beagle Channel, which transects the Tierra del Fuego archipelago in the extreme south of South America. Expect an air of anticipation as you depart—the next time you see land, you'll be on the world's most southern continent! Day 3: Your days at sea are filled with presentations…",
    "[]"
   ],
   [
@@ -3125,20 +3125,6 @@
    "[{\"name\":\"Enjoy up to 30% included Bonus Savings on all-inclusive fares!\",\"exclusive\":true,\"dates\":\"Valid for Travel Now Through 30 Dec 2028\"},{\"name\":\"Refer a friend - $600 savings\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Dec 2028\"}]"
   ],
   [
-   "18049042",
-   "Quark Expeditions",
-   "Antarctic Explorer – Discovering The 7Th Continent",
-   "2027-01-05",
-   10,
-   "Antarctica",
-   "antarctic-explorer-discovering-the-7th-continent-12nov2026-22nov2026",
-   "",
-   "Ocean Explorer",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/13927600_2_36.webp",
-   "Day 1: You will begin your journey in Ushuaia, a small but bustling port town at the tip of South America. This Argentine town is an ideal gateway for you to explore the southern extent of Patagonia while preparing for your adventure ahead. Enjoy the mountains or sample handcrafted chocolate at a café in town. Day 2: Embarkation will occur in the late afternoon, after which your vessel will sail down the historic Beagle Channel, which transects the Tierra del Fuego archipelago in the extreme south of South America. Expect an air of anticipation as you depart—the next time you see land, you'll be on the world's most southern continent! Day 3: Your days at sea are filled with presentations…",
-   "[]"
-  ],
-  [
    "18048761",
    "Quark Expeditions",
    "Antarctic Explorer – Discovering The 7Th Continent",
@@ -3150,6 +3136,20 @@
    "World Voyager",
    "https://media.virtuoso.com/m/Images/Brochures/h400/13927600_2_0.webp",
    "Day 1: Upon arriving in this splendid city, known for its architecture and rich European heritage, you will independently transfer to your group hotel (pre-expedition hotel night included in mandatory transfer package). Day 2: After an early breakfast at the hotel, the group will transfer to the airport and board our private charter flight to Ushuaia, Argentina. Upon arrival, you will be transferred from the airport to a central downtown location to explore this quaint port town on your own before making your way to the designated meeting spot for transfer to the ship. After a late afternoon embarkation, we will sail along the historic Beagle Channel, which cuts through the Tierra del Fuego…",
+   "[]"
+  ],
+  [
+   "18049042",
+   "Quark Expeditions",
+   "Antarctic Explorer – Discovering The 7Th Continent",
+   "2027-01-05",
+   10,
+   "Antarctica",
+   "antarctic-explorer-discovering-the-7th-continent-12nov2026-22nov2026",
+   "",
+   "Ocean Explorer",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/13927600_2_36.webp",
+   "Day 1: You will begin your journey in Ushuaia, a small but bustling port town at the tip of South America. This Argentine town is an ideal gateway for you to explore the southern extent of Patagonia while preparing for your adventure ahead. Enjoy the mountains or sample handcrafted chocolate at a café in town. Day 2: Embarkation will occur in the late afternoon, after which your vessel will sail down the historic Beagle Channel, which transects the Tierra del Fuego archipelago in the extreme south of South America. Expect an air of anticipation as you depart—the next time you see land, you'll be on the world's most southern continent! Day 3: Your days at sea are filled with presentations…",
    "[]"
   ],
   [
@@ -4819,20 +4819,6 @@
    "[{\"name\":\"Black Friday\",\"endDate\":\"2028-12-31\",\"exclusive\":false,\"description\":\"Free two category veranda suite upgrade, up to $2000 USD Shipboard Credit per Suite and 15% reduced deposit.\"}]"
   ],
   [
-   "16845404",
-   "National Geographic-Lindblad Expeditions",
-   "Exploring Galápagos",
-   "2027-01-29",
-   9,
-   "South America",
-   "exploring-galapagos-04sep2026-13sep2026",
-   "",
-   "National Geographic Gemini",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/15385293_2_0.webp",
-   "Day 1: Arrive in Quito, Ecuador's capital city in the Andes, where guests are met and transferred to a hotel for an overnight stay. At 9,350 feet above sea level, Quito's elevation makes early arrival beneficial for acclimatization. Pre-voyage extensions are available, including experiences in the lush cloud forest of the tropical Andes or additional time to explore Quito and its surrounding cultural highlights. Additional nights in Quito may also be reserved to further enhance the journey. Day 2: In the morning, transfers to the airport and luggage assistance are provided for the recommended flight to the Galápagos Islands. Upon arrival, embark the ship. Day 8: Below is a selection of…",
-   "[{\"name\":\"5% Savings on Groups of 8 or more\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 24 Aug 2029\"}]"
-  ],
-  [
    "16845403",
    "National Geographic-Lindblad Expeditions",
    "Exploring Galápagos",
@@ -4847,18 +4833,18 @@
    "[{\"name\":\"Celebrate Life's Milestones!\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 27 Nov 2027\"},{\"name\":\"5% Savings on Groups of 8 or more\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 24 Aug 2029\"}]"
   ],
   [
-   "16847846",
+   "16845404",
    "National Geographic-Lindblad Expeditions",
-   "Exploring Galápagos, Machu Picchu, and Peru's Land of The Inca",
+   "Exploring Galápagos",
    "2027-01-29",
-   15,
+   9,
    "South America",
-   "exploring-galapagos-machu-picchu-and-perus-land-of-the-inca-04sep2026-19sep2026",
+   "exploring-galapagos-04sep2026-13sep2026",
    "",
    "National Geographic Gemini",
    "https://media.virtuoso.com/m/Images/Brochures/h400/15385293_2_0.webp",
-   "Day 1: Arrive in Quito, Ecuador's capital city in the Andes, where guests are met and transferred to a hotel for an overnight stay. At 9,350 feet above sea level, Quito's elevation makes early arrival beneficial for acclimatization. Pre-voyage extensions are available, including experiences in the lush cloud forest of the tropical Andes or additional time to explore Quito and its surrounding cultural highlights. Additional nights in Quito may also be reserved to further enhance the journey. Day 2: In the morning, transfers to the airport and luggage assistance are provided for the recommended flight to the Galápagos Islands. Upon arrival, embark the ship. Day 8: Below are a selection of…",
-   "[{\"name\":\"Celebrate Life's Milestones!\",\"endDate\":\"2027-11-27\",\"exclusive\":false,\"description\":\"Celebrate your greatest milestones—the big birthdays, anniversaries, family reunions, graduations, retirements, vow renewals—with a group of eight or more and enjoy an amenity package including: 5% savings on cabin fares Custom group photo A total of $150 shipboard credit for the group Other special gifts Terms & Conditions: Celebrate a milestone with a group of eight or more and enjoy a special amenity package including: 5% savings on cabin fares, custom group photo, a total of $150 shipboard credit for the group and other special gifts. $150 shipboard credit is allocated to the lead guest…\"},{\"name\":\"50% Reduced Deposit\",\"endDate\":\"2027-12-31\",\"exclusive\":false,\"description\":\"SECURE YOUR PLACE With a 50% reduced deposit on all voyages departing October 1, 2026 through 2027 Your next extraordinary adventure may be closer than you think. With a 50% reduced deposit on eligible 2026 and 2027 expeditions, now is an ideal time to reserve the voyage you've been dreaming about. From Antarctica’s towering icebergs and Alaska’s glacier-carved fjords to the wildlife-rich waters of Baja California and the legendary Galápagos Islands, National Geographic-Lindblad Expeditions takes you deeper into the world’s most extraordinary places through immersive, up-close exploration.…\"},{\"name\":\"Special Offer for Solo Travelers\",\"endDate\":\"2028-12-31\",\"exclusive\":false,\"description\":\"TRAVEL SOLO, YOUR WAY Solo travel with National Geographic-Lindblad Expeditions offers the freedom to explore the world’s most extraordinary places on your own terms, alongside a welcoming community of like-minded adventurers. From open-seating dining to shared discoveries in the field, each expedition creates natural ways to connect with fellow travelers. Varied accommodations and opportunities to reduce the additional cost of going solo make independent travel even more rewarding. SPECIAL OFFER: Reduced solo premiums—starting from just 25% above current fares—are offered on select voyages…\"}]"
+   "Day 1: Arrive in Quito, Ecuador's capital city in the Andes, where guests are met and transferred to a hotel for an overnight stay. At 9,350 feet above sea level, Quito's elevation makes early arrival beneficial for acclimatization. Pre-voyage extensions are available, including experiences in the lush cloud forest of the tropical Andes or additional time to explore Quito and its surrounding cultural highlights. Additional nights in Quito may also be reserved to further enhance the journey. Day 2: In the morning, transfers to the airport and luggage assistance are provided for the recommended flight to the Galápagos Islands. Upon arrival, embark the ship. Day 8: Below is a selection of…",
+   "[{\"name\":\"5% Savings on Groups of 8 or more\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 24 Aug 2029\"}]"
   ],
   [
    "16847845",
@@ -4873,6 +4859,20 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/15385293_2_0.webp",
    "Day 1: Arrive in Quito, Ecuador's capital city in the Andes, where guests are met and transferred to a hotel for an overnight stay. At 9,350 feet above sea level, Quito's elevation makes early arrival beneficial for acclimatization. Pre-voyage extensions are available, including experiences in the lush cloud forest of the tropical Andes or additional time to explore Quito and its surrounding cultural highlights. Additional nights in Quito may also be reserved to further enhance the journey. Day 2: In the morning, transfers to the airport and luggage assistance are provided for the recommended flight to the Galápagos Islands. Upon arrival, embark the ship. Day 8: Below are a selection of…",
    "[{\"name\":\"Celebrate Life's Milestones!\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 27 Nov 2027\"}]"
+  ],
+  [
+   "16847846",
+   "National Geographic-Lindblad Expeditions",
+   "Exploring Galápagos, Machu Picchu, and Peru's Land of The Inca",
+   "2027-01-29",
+   15,
+   "South America",
+   "exploring-galapagos-machu-picchu-and-perus-land-of-the-inca-04sep2026-19sep2026",
+   "",
+   "National Geographic Gemini",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15385293_2_0.webp",
+   "Day 1: Arrive in Quito, Ecuador's capital city in the Andes, where guests are met and transferred to a hotel for an overnight stay. At 9,350 feet above sea level, Quito's elevation makes early arrival beneficial for acclimatization. Pre-voyage extensions are available, including experiences in the lush cloud forest of the tropical Andes or additional time to explore Quito and its surrounding cultural highlights. Additional nights in Quito may also be reserved to further enhance the journey. Day 2: In the morning, transfers to the airport and luggage assistance are provided for the recommended flight to the Galápagos Islands. Upon arrival, embark the ship. Day 8: Below are a selection of…",
+   "[{\"name\":\"Celebrate Life's Milestones!\",\"endDate\":\"2027-11-27\",\"exclusive\":false,\"description\":\"Celebrate your greatest milestones—the big birthdays, anniversaries, family reunions, graduations, retirements, vow renewals—with a group of eight or more and enjoy an amenity package including: 5% savings on cabin fares Custom group photo A total of $150 shipboard credit for the group Other special gifts Terms & Conditions: Celebrate a milestone with a group of eight or more and enjoy a special amenity package including: 5% savings on cabin fares, custom group photo, a total of $150 shipboard credit for the group and other special gifts. $150 shipboard credit is allocated to the lead guest…\"},{\"name\":\"50% Reduced Deposit\",\"endDate\":\"2027-12-31\",\"exclusive\":false,\"description\":\"SECURE YOUR PLACE With a 50% reduced deposit on all voyages departing October 1, 2026 through 2027 Your next extraordinary adventure may be closer than you think. With a 50% reduced deposit on eligible 2026 and 2027 expeditions, now is an ideal time to reserve the voyage you've been dreaming about. From Antarctica’s towering icebergs and Alaska’s glacier-carved fjords to the wildlife-rich waters of Baja California and the legendary Galápagos Islands, National Geographic-Lindblad Expeditions takes you deeper into the world’s most extraordinary places through immersive, up-close exploration.…\"},{\"name\":\"Special Offer for Solo Travelers\",\"endDate\":\"2028-12-31\",\"exclusive\":false,\"description\":\"TRAVEL SOLO, YOUR WAY Solo travel with National Geographic-Lindblad Expeditions offers the freedom to explore the world’s most extraordinary places on your own terms, alongside a welcoming community of like-minded adventurers. From open-seating dining to shared discoveries in the field, each expedition creates natural ways to connect with fellow travelers. Varied accommodations and opportunities to reduce the additional cost of going solo make independent travel even more rewarding. SPECIAL OFFER: Reduced solo premiums—starting from just 25% above current fares—are offered on select voyages…\"}]"
   ],
   [
    "16845510",
@@ -7185,20 +7185,6 @@
    "[{\"name\":\"Black Friday\",\"endDate\":\"2028-12-31\",\"exclusive\":false,\"description\":\"Free two category veranda suite upgrade, up to $2000 USD Shipboard Credit per Suite and 15% reduced deposit.\"}]"
   ],
   [
-   "18492309",
-   "HX Expeditions",
-   "Iconic Antarctica Expedition Cruise – The Explorer's Route",
-   "2027-03-04",
-   15,
-   "Antarctica",
-   "iconic-antarctica-expedition-cruise-the-explorers-route-31oct2026-15nov2026",
-   "",
-   "MS Roald Amundsen",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/16735976_2_0.webp",
-   "Day 1: Feel the rhythm of Buenos Aires and get into the spirit of adventure. An overnight stay in Buenos Aires is the ideal way to start your Antarctic voyage. Home to a proud and diverse community of porteños, or 'people of the port', the city is a sensuous fusion of faded European splendor and Latin American panache. There are plenty of places to explore, including many parrillas serving authentic Argentine steak. Or maybe you'd like to practice your dance moves in the famous hometown of the tango. Why not consider arriving a few days early to see all this vibrant city has to offer or explore the region with an optional Pre-Program. Day 2: Set sail from the capital of Tierra del Fuego.…",
-   "[{\"name\":\"Black Friday\",\"endDate\":\"2028-03-31\",\"exclusive\":false,\"description\":\"To celebrate Black Friday we are offering Up to 40% discount on our Black Friday deals. Discounts on selected HX departures from 1 December 2026 to 31 March 2028 (inclusive)\"}]"
-  ],
-  [
    "18225608",
    "HX Expeditions",
    "Iconic Antarctica Expedition Cruise – The Explorer's Route",
@@ -7211,6 +7197,20 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/16735980_2_0.webp",
    "",
    "[{\"name\":\"130th Anniversary Offers\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Mar 2028\"}]"
+  ],
+  [
+   "18492309",
+   "HX Expeditions",
+   "Iconic Antarctica Expedition Cruise – The Explorer's Route",
+   "2027-03-04",
+   15,
+   "Antarctica",
+   "iconic-antarctica-expedition-cruise-the-explorers-route-31oct2026-15nov2026",
+   "",
+   "MS Roald Amundsen",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/16735976_2_0.webp",
+   "Day 1: Feel the rhythm of Buenos Aires and get into the spirit of adventure. An overnight stay in Buenos Aires is the ideal way to start your Antarctic voyage. Home to a proud and diverse community of porteños, or 'people of the port', the city is a sensuous fusion of faded European splendor and Latin American panache. There are plenty of places to explore, including many parrillas serving authentic Argentine steak. Or maybe you'd like to practice your dance moves in the famous hometown of the tango. Why not consider arriving a few days early to see all this vibrant city has to offer or explore the region with an optional Pre-Program. Day 2: Set sail from the capital of Tierra del Fuego.…",
+   "[{\"name\":\"Black Friday\",\"endDate\":\"2028-03-31\",\"exclusive\":false,\"description\":\"To celebrate Black Friday we are offering Up to 40% discount on our Black Friday deals. Discounts on selected HX departures from 1 December 2026 to 31 March 2028 (inclusive)\"}]"
   ],
   [
    "18228884",
@@ -9129,6 +9129,20 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/16797293_2_0.webp",
    "",
    "[{\"name\":\"Exclusive Offer for Virtuoso Travel Week 2026\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Dec 2028\"}]"
+  ],
+  [
+   "18318356",
+   "Silversea",
+   "The Galápagos – Exploring The Inner and Outer Loops",
+   "2027-04-03",
+   14,
+   "South America",
+   "the-galapagos-exploring-the-inner-and-outer-loops-03apr2027-17apr2027",
+   "",
+   "Silver Origin",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15903670_2_0.webp",
+   "",
+   "[{\"name\":\"BLACK FRIDAY: SAVE UP TO 45%\",\"endDate\":\"2029-11-02\",\"exclusive\":false,\"description\":\"Black Friday savings of up to 45% await on more than 850 voyages worldwide. From the sun-drenched shores of the Mediterranean to the awe-inspiring landscapes of Antarctica, discover extraordinary journeys paired with Silversea's all-inclusive luxury. Reserve your suite with your Virtuoso travel advisor by December 7, 2026, and take advantage of reduced deposits starting from just 15%.\"}]"
   ],
   [
    "18391575",
@@ -11411,6 +11425,20 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/16469302_2_0.webp",
    "",
    "[{\"name\":\"Virtuoso Exclusive Benefit from Atlas Ocean Voyages\",\"exclusive\":true,\"dates\":\"Valid for Travel Now Through 10 Oct 2027\"}]"
+  ],
+  [
+   "18273978",
+   "Quark Expeditions",
+   "Svalbard in Spring – Sea Ice, Pristine Snow, and Wildlife",
+   "2027-05-09",
+   10,
+   "Europe",
+   "svalbard-in-spring-sea-ice-pristine-snow-and-wildlife-09may2027-19may2027",
+   "",
+   "Ocean Explorer",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15938868_2_0.webp",
+   "Day 1: Arrive in the Finnish capital and make your way to the group hotel located right at Helsinki Airport, included in your Charter Flight & Hotel Package. You will have the rest of the day to explore explore the many museums, galleries, and restaurants, relax at a Finnish sauna, or wander the vibrant Design District. If you do plan to visit Helsinki city center, take advantage of the convenient 40-minute rail service from the airport. Day 2: After breakfast, the group will transfer to the Helsinki airport and board a private charter flight to Longyearbyen, included in your Charter Flight & Hotel Package. Our journey to the High Arctic now truly begins. You will see the coastal and birch…",
+   "[]"
   ],
   [
    "18091647",
@@ -15277,20 +15305,6 @@
    "[{\"name\":\"Moana Explorer Program and Kids Sail Free\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 29 Dec 2027\"},{\"name\":\"Enjoy up to 30% included Bonus Savings on all-inclusive fares!\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Dec 2028\"},{\"name\":\"Kids Sail Free\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Dec 2027\"}]"
   ],
   [
-   "18318362",
-   "Silversea",
-   "The Galápagos – Exploring The Inner and Outer Loops",
-   "2027-06-26",
-   14,
-   "South America",
-   "the-galapagos-exploring-the-inner-and-outer-loops-12jun2027-26jun2027",
-   "",
-   "Silver Origin",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/15903670_2_0.webp",
-   "",
-   "[{\"name\":\"BLACK FRIDAY: SAVE UP TO 45%\",\"endDate\":\"2029-11-02\",\"exclusive\":false,\"description\":\"Black Friday savings of up to 45% await on more than 850 voyages worldwide. From the sun-drenched shores of the Mediterranean to the awe-inspiring landscapes of Antarctica, discover extraordinary journeys paired with Silversea's all-inclusive luxury. Reserve your suite with your Virtuoso travel advisor by December 7, 2026, and take advantage of reduced deposits starting from just 15%.\"}]"
-  ],
-  [
    "18256750",
    "Silversea",
    "The Galápagos – Exploring The Inner Loop",
@@ -16467,20 +16481,6 @@
    "[{\"name\":\"Black Friday\",\"endDate\":\"2028-03-31\",\"exclusive\":false,\"description\":\"To celebrate Black Friday we are offering Up to 40% discount on our Black Friday deals. Discounts on selected HX departures from 1 December 2026 to 31 March 2028 (inclusive)\"}]"
   ],
   [
-   "18600702",
-   "HX Expeditions",
-   "Circumnavigating Svalbard",
-   "2027-07-12",
-   13,
-   "Europe",
-   "circumnavigating-svalbard-14jun2027-27jun2027",
-   "",
-   "MS Spitsbergen",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/16735974_2_0.webp",
-   "Day 1: Your expedition begins in Oslo, Norway's fjord-side capital, a city rich in history with a thriving art scene. Wander the Ekebergparken sculpture park, admire the striking Opera House and Munch Museum, relax in a floating sauna on the harbor, or head to Sørenga for urban beach life and New Nordic cuisine, before settling in for the night in an airport hotel. Day 2: After an early breakfast, you'll fly to Longyearbyen. A short panoramic bus tour offers a first glimpse of the town and its surroundings before lunch. Afterwards, enjoy some free time in Longyearbyen before being transferred to the ship for boarding. This former coal-mining settlement is small and easy to explore on foot.…",
-   "[{\"name\":\"Black Friday\",\"endDate\":\"2028-03-31\",\"exclusive\":false,\"description\":\"To celebrate Black Friday we are offering Up to 40% discount on our Black Friday deals. Discounts on selected HX departures from 1 December 2026 to 31 March 2028 (inclusive)\"}]"
-  ],
-  [
    "18631065",
    "HX Expeditions",
    "Circumnavigating Svalbard",
@@ -16492,6 +16492,20 @@
    "MS Spitsbergen",
    "https://media.virtuoso.com/m/Images/Brochures/h400/16735974_2_0.webp",
    "Day 1: From Oslo to the town at the top of the world. After a flight from Oslo, your adventure begins with an overnight stay in the world's northernmost town, Longyearbyen. A colorful frontier settlement where people are outnumbered by snowmobiles, Longyearbyen is a unique place on the edge of the Arctic wilderness. If you have time, head out to explore this special town, before enjoying a relaxing evening at your leisure. Day 2: Explore this colorful frontier town. After breakfast, it's time to experience Longyearbyen. The town is perfect for exploring on foot. Stroll down the main street and you might see Svalbard reindeer saunter by. Although wild, they're curious and tame. Before…",
+   "[{\"name\":\"Black Friday\",\"endDate\":\"2028-03-31\",\"exclusive\":false,\"description\":\"To celebrate Black Friday we are offering Up to 40% discount on our Black Friday deals. Discounts on selected HX departures from 1 December 2026 to 31 March 2028 (inclusive)\"}]"
+  ],
+  [
+   "18600702",
+   "HX Expeditions",
+   "Circumnavigating Svalbard",
+   "2027-07-12",
+   13,
+   "Europe",
+   "circumnavigating-svalbard-14jun2027-27jun2027",
+   "",
+   "MS Spitsbergen",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/16735974_2_0.webp",
+   "Day 1: Your expedition begins in Oslo, Norway's fjord-side capital, a city rich in history with a thriving art scene. Wander the Ekebergparken sculpture park, admire the striking Opera House and Munch Museum, relax in a floating sauna on the harbor, or head to Sørenga for urban beach life and New Nordic cuisine, before settling in for the night in an airport hotel. Day 2: After an early breakfast, you'll fly to Longyearbyen. A short panoramic bus tour offers a first glimpse of the town and its surroundings before lunch. Afterwards, enjoy some free time in Longyearbyen before being transferred to the ship for boarding. This former coal-mining settlement is small and easy to explore on foot.…",
    "[{\"name\":\"Black Friday\",\"endDate\":\"2028-03-31\",\"exclusive\":false,\"description\":\"To celebrate Black Friday we are offering Up to 40% discount on our Black Friday deals. Discounts on selected HX departures from 1 December 2026 to 31 March 2028 (inclusive)\"}]"
   ],
   [
@@ -21617,6 +21631,20 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/6965776_2_0.webp",
    "",
    "[{\"name\":\"Enjoy up to 30% included Bonus Savings on all-inclusive fares!\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Dec 2028\"},{\"name\":\"Kids Sail Free\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Dec 2027\"},{\"name\":\"Zero or Reduced Single Supplement\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 31 Dec 2028\"}]"
+  ],
+  [
+   "18318365",
+   "Silversea",
+   "The Galápagos – Exploring The Inner and Outer Loops",
+   "2027-09-18",
+   14,
+   "South America",
+   "the-galapagos-exploring-the-inner-and-outer-loops-12jun2027-26jun2027",
+   "",
+   "Silver Origin",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15903670_2_0.webp",
+   "",
+   "[{\"name\":\"BLACK FRIDAY: SAVE UP TO 45%\",\"endDate\":\"2029-11-02\",\"exclusive\":false,\"description\":\"Black Friday savings of up to 45% await on more than 850 voyages worldwide. From the sun-drenched shores of the Mediterranean to the awe-inspiring landscapes of Antarctica, discover extraordinary journeys paired with Silversea's all-inclusive luxury. Reserve your suite with your Virtuoso travel advisor by December 7, 2026, and take advantage of reduced deposits starting from just 15%.\"}]"
   ],
   [
    "18256765",
@@ -27382,7 +27410,7 @@
    "secrets-of-central-america-25dec2027-04jan2028",
    "",
    "Le Bellot",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/15693410_2_0.webp",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15450562_2_0.webp",
    "",
    "[{\"name\":\"Zero Single Supplement for Solo Travelers on over 100 PONANT sailings!\",\"exclusive\":true,\"dates\":\"Valid for Travel Now Through 31 Dec 2028\"},{\"name\":\"Enjoy up to 30% included Bonus Savings on all-inclusive fares!\",\"exclusive\":true,\"dates\":\"Valid for Travel Now Through 30 Dec 2028\"}]"
   ],
@@ -37383,6 +37411,20 @@
    "[{\"name\":\"Celebrate Life's Milestones!\",\"endDate\":\"2027-11-27\",\"exclusive\":false,\"description\":\"Celebrate your greatest milestones—the big birthdays, anniversaries, family reunions, graduations, retirements, vow renewals—with a group of eight or more and enjoy an amenity package including: 5% savings on cabin fares Custom group photo A total of $150 shipboard credit for the group Other special gifts Terms & Conditions: Celebrate a milestone with a group of eight or more and enjoy a special amenity package including: 5% savings on cabin fares, custom group photo, a total of $150 shipboard credit for the group and other special gifts. $150 shipboard credit is allocated to the lead guest…\"},{\"name\":\"50% Reduced Deposit\",\"endDate\":\"2027-12-31\",\"exclusive\":false,\"description\":\"SECURE YOUR PLACE With a 50% reduced deposit on all voyages departing October 1, 2026 through 2027 Your next extraordinary adventure may be closer than you think. With a 50% reduced deposit on eligible 2026 and 2027 expeditions, now is an ideal time to reserve the voyage you've been dreaming about. From Antarctica’s towering icebergs and Alaska’s glacier-carved fjords to the wildlife-rich waters of Baja California and the legendary Galápagos Islands, National Geographic-Lindblad Expeditions takes you deeper into the world’s most extraordinary places through immersive, up-close exploration.…\"},{\"name\":\"Special Offer for Solo Travelers\",\"endDate\":\"2028-12-31\",\"exclusive\":false,\"description\":\"TRAVEL SOLO, YOUR WAY Solo travel with National Geographic-Lindblad Expeditions offers the freedom to explore the world’s most extraordinary places on your own terms, alongside a welcoming community of like-minded adventurers. From open-seating dining to shared discoveries in the field, each expedition creates natural ways to connect with fellow travelers. Varied accommodations and opportunities to reduce the additional cost of going solo make independent travel even more rewarding. SPECIAL OFFER: Reduced solo premiums—starting from just 25% above current fares—are offered on select voyages…\"}]"
   ],
   [
+   "18662315",
+   "PONANT EXPLORATIONS",
+   "An Ode to Contemporary Art, With The Pinault Collection",
+   "2028-05-19",
+   12,
+   "Europe",
+   "an-ode-to-contemporary-art-with-the-pinault-collection-19may2028-31may2028",
+   "",
+   "L'Austral",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/9891394_2_0.webp",
+   "Day 5: Sailing in front of Stromboli",
+   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
+  ],
+  [
    "18578767",
    "National Geographic-Lindblad Expeditions",
    "Ancient Isles – England, Ireland, and Scotland",
@@ -38503,6 +38545,20 @@
    "[{\"name\":\"Exploration Awaits Event\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 21 Apr 2029\"}]"
   ],
   [
+   "18662318",
+   "PONANT EXPLORATIONS",
+   "Jewels of The Italian Coastlines",
+   "2028-05-31",
+   10,
+   "Europe",
+   "jewels-of-the-italian-coastlines-31may2028-10jun2028",
+   "",
+   "L'Austral",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/9891394_2_0.webp",
+   "",
+   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
+  ],
+  [
    "18652109",
    "Atlas Ocean Voyages",
    "Monaco Grand Prix and The Greek Isles",
@@ -38725,6 +38781,20 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/15738499_2_0.webp",
    "Day 1: Arrive in Tromsø, known as the \"gateway to the Arctic\" due to the large number of Arctic expeditions that originated here. Transfer to the meeting place in the city and spend the day at your own pace exploring the sights, sounds, and tastes of this Arctic capital. Check in with the hospitality desk this afternoon before embarking the ship. Day 3: Off Norway's coast, two of its largest islands offer stunning landscapes, challenging and rewarding hikes, and protected fjords to explore. The mountainous island of Sørøya, known for its scenic bays, pristine nature reserves, and large populations of skrei, or cod, welcomes you to its shores. After exploring this gateway to Finnmark,…",
    "[{\"name\":\"5% Savings on Groups of 8 or more\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 24 Aug 2029\"}]"
+  ],
+  [
+   "18352308",
+   "Aqua Expeditions",
+   "West and East Galápagos",
+   "2028-06-02",
+   14,
+   "South America",
+   "west-and-east-galapagos-09oct2026-23oct2026",
+   "",
+   "Aqua Mare",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/16299339_2_0.webp",
+   "Day 1: Once you arrive at the airport, you will be met by your team and escorted on a cross-island van and ferry transfer of approximately 1.5 hours to Puerto Ayora on Santa Cruz Island. On the way there, enjoy a delicious outdoor lunch at a Giant Tortoise Reserve, followed by your first excursion to the highlands of Santa Cruz. Receive a warm welcome aboard Aqua Mare, the Galápagos Islands' first 50-meter luxury superyacht. After a delicious lunch, pick out your snorkeling kit and receive a waterproof bag and Aqua Expeditions water bottle as a welcome gift. In the evening, you will have some leisure time to explore the main town of Puerto Ayora. Consider strolling along the main waterfront…",
+   "[{\"name\":\"Groups Special\",\"endDate\":\"2027-12-31\",\"exclusive\":false,\"description\":\"Exclusive 15+1 group booking rates and special offer for tour organizers present a fantastic opportunity for travelers to enjoy first-hand our bespoke expeditions and unique guest experience. Group Bookings Special The 16th passenger on group travels for free. For each group of 15 paid passengers, Aqua Expeditions will grant one additional passenger free travel in a double cabin. This benefit is only available for double occupancy cabins and the rate will be calculated based on the lowest category. This offer is only available for Aqua Blu, Aqua Mekong, Aqua Nera, and Aria Amazon. Exclusive…\"},{\"name\":\"Solo Traveler Special\",\"endDate\":\"2028-12-31\",\"exclusive\":false,\"description\":\"In the mood for a solo adventure? Sail the world’s most remote destinations in luxury on board our award-winning fleet.Enjoy a waiver of the single supplement fee (usually an additional 25%) on selected 2026 and 2027 departures on board Aqua Nera, Aqua Blu and Aqua Mekong. Valid for: Aqua Nera 2026 and 2027 departures in June and September. Aqua Blu’s 7-night departures in March & November 2026, and May & August 2027 Aqua Mekong’s 2026 and 2027 departures in April, August, and September. Terms & Conditions: Savings are applied through the waiver of the single supplement fee on the…\"}]"
   ],
   [
    "18352488",
@@ -39019,20 +39089,6 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/15938868_2_0.webp",
    "Day 1: Arrive in the Finnish capital and make your way to the group hotel located right at Helsinki Airport—included in your Charter Flight & Hotel Package. You will have the rest of the day to explore the many museums, galleries, and restaurants, relax at a Finnish sauna, or wander the vibrant Design District. If you do plan to visit Helsinki city center, take advantage of the convenient 40-minute rail service from the airport. Day 2: After breakfast, the group will transfer to the Helsinki airport and board a private charter flight to Longyearbyen, part of your Charter Flight & Hotel Package. Our journey to the High Arctic now truly begins. You will see the coastal and birch forests of…",
    "[]"
-  ],
-  [
-   "18568213",
-   "PONANT EXPLORATIONS",
-   "Sweet Mediterranean Escape",
-   "2028-06-05",
-   12,
-   "Europe",
-   "sweet-mediterranean-escape-05jun2028-17jun2028",
-   "",
-   "Le Dumont d'Urville",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/15660522_2_0.webp",
-   "",
-   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
   ],
   [
    "18578907",
@@ -39369,6 +39425,20 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/16370210_2_0.webp",
    "Day 1: Arrive in Quito, Ecuador's capital city in the Andes, where guests are met and transferred to a hotel for an overnight stay. At 9,350 feet above sea level, Quito's elevation makes early arrival beneficial for acclimatization. Additional nights in Quito may also be reserved to further enhance the journey. Day 2: Fly to Baltra in the center of Galápagos, a little world unto itself in the Tropical Pacific, where you'll be welcomed by your naturalist staff as you begin exploring the islands. Day 6: Listed below is a sample of islands you may visit during your expedition. Expeditions begin and end at Baltra and include visits to Isla Santa Cruz and a careful selection of diverse islands.…",
    "[{\"name\":\"5% Savings on Groups of 8 or more\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 24 Aug 2029\"}]"
+  ],
+  [
+   "18662319",
+   "PONANT EXPLORATIONS",
+   "Liguria, Tuscany, and Sicily",
+   "2028-06-10",
+   5,
+   "Europe",
+   "liguria-tuscany-and-sicily-10jun2028-15jun2028",
+   "",
+   "L'Austral",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/9891394_2_0.webp",
+   "",
+   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
   ],
   [
    "18392715",
@@ -39861,20 +39931,6 @@
    "[]"
   ],
   [
-   "18352378",
-   "Aqua Expeditions",
-   "West and East Galápagos",
-   "2028-06-16",
-   14,
-   "South America",
-   "west-and-east-galapagos-09oct2026-23oct2026",
-   "",
-   "Aqua Mare",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/16299339_2_0.webp",
-   "Day 1: Once you arrive at the airport, you will be met by your team and escorted on a cross-island van and ferry transfer of approximately 1.5 hours to Puerto Ayora on Santa Cruz Island. On the way there, enjoy a delicious outdoor lunch at a Giant Tortoise Reserve, followed by your first excursion to the highlands of Santa Cruz. Receive a warm welcome aboard Aqua Mare, the Galápagos Islands' first 50-meter luxury superyacht. After a delicious lunch, pick out your snorkeling kit and receive a waterproof bag and Aqua Expeditions water bottle as a welcome gift. In the evening, you will have some leisure time to explore the main town of Puerto Ayora. Consider strolling along the main waterfront…",
-   "[{\"name\":\"Groups Special\",\"endDate\":\"2027-12-31\",\"exclusive\":false,\"description\":\"Exclusive 15+1 group booking rates and special offer for tour organizers present a fantastic opportunity for travelers to enjoy first-hand our bespoke expeditions and unique guest experience. Group Bookings Special The 16th passenger on group travels for free. For each group of 15 paid passengers, Aqua Expeditions will grant one additional passenger free travel in a double cabin. This benefit is only available for double occupancy cabins and the rate will be calculated based on the lowest category. This offer is only available for Aqua Blu, Aqua Mekong, Aqua Nera, and Aria Amazon. Exclusive…\"},{\"name\":\"Solo Traveler Special\",\"endDate\":\"2028-12-31\",\"exclusive\":false,\"description\":\"In the mood for a solo adventure? Sail the world’s most remote destinations in luxury on board our award-winning fleet.Enjoy a waiver of the single supplement fee (usually an additional 25%) on selected 2026 and 2027 departures on board Aqua Nera, Aqua Blu and Aqua Mekong. Valid for: Aqua Nera 2026 and 2027 departures in June and September. Aqua Blu’s 7-night departures in March & November 2026, and May & August 2027 Aqua Mekong’s 2026 and 2027 departures in April, August, and September. Terms & Conditions: Savings are applied through the waiver of the single supplement fee on the…\"}]"
-  ],
-  [
    "18352530",
    "Aqua Expeditions",
    "West Galápagos",
@@ -39929,20 +39985,6 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/16457942_2_0.webp",
    "",
    "[{\"name\":\"Virtuoso Exclusive Benefit from Atlas Ocean Voyages\",\"endDate\":\"2027-10-10\",\"exclusive\":true,\"description\":\"Your client receives a choice of $150 shipboard credit per guest or $300 savings per booking on select expeditions when booked with a Virtuoso Travel Advisor through June 30, 2026. Terms and Conditions: Promotion applies to new bookings made by June 30, 2026 on the above select expeditions. Cruise Fares are quoted in U.S. dollars per guest, based on double occupancy and select voyages have an additional bonus savings up to 40%. Must request the offer to be applied. Applicable to NEW BOOKINGS ONLY – No re-faring/rebooking of existing reservations allowed. Government taxes and Fees between $330…\"},{\"name\":\"Season of Discovery Savings Event\",\"endDate\":\"2027-12-01\",\"exclusive\":false,\"description\":\"SAVE UP TO 40% BONUS SAVINGS PLUS UP TO $2,000 AIR CREDIT Discover extraordinary destinations with Season of Discovery. Book select 2026 and 2027 all-suite, all-inclusive luxury expedition cruises and enjoy up to 40% Bonus Savings, plus your choice of one complimentary Explorer’s Choice amenity: Up to $2,000 Air Credit Savings 1-Night Pre-Expedition Hotel Package Enhanced Unlimited WiFi Sail the sun-washed coasts of the Mediterranean and the storied fjords and capitals of Northern Europe aboard our intimate yachts. Or venture to the polar regions, where the Arctic reveals glacier-carved…\"},{\"name\":\"Black Friday Sale\",\"endDate\":\"2028-10-13\",\"exclusive\":false,\"description\":\"BLACK FRIDAY SALE Save Up to 55% + Up to $2,000 Air Credit Savings Fares from $2,971 per guest Our best sale of the year is almost here. Get your clients on the priority booking list now, and their reservations will receive priority processing when our 5-day Black Friday Sale opens November 24. Atlas Yacht Club™ members will be booked first, followed by all other clients on the priority list. With savings of up to 55% PLUS up to $2,000 air credit, don’t wait. Black Friday Savings is valid on new individual bookings made between November 24 and November 28, 2026, on select expeditions; cancel…\"}]"
-  ],
-  [
-   "18568157",
-   "PONANT EXPLORATIONS",
-   "at The Heart of The Greek Islands",
-   "2028-06-17",
-   7,
-   "Europe",
-   "at-the-heart-of-the-greek-islands-17jun2028-24jun2028",
-   "",
-   "Le Dumont d'Urville",
-   "https://media.virtuoso.com/m/Images/Brochures/h400/15450564_2_0.webp",
-   "",
-   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
   ],
   [
    "18352423",
@@ -47869,6 +47911,20 @@
    "[{\"name\":\"Celebrate Life's Milestones!\",\"endDate\":\"2027-11-27\",\"exclusive\":false,\"description\":\"Celebrate your greatest milestones—the big birthdays, anniversaries, family reunions, graduations, retirements, vow renewals—with a group of eight or more and enjoy an amenity package including: 5% savings on cabin fares Custom group photo A total of $150 shipboard credit for the group Other special gifts Terms & Conditions: Celebrate a milestone with a group of eight or more and enjoy a special amenity package including: 5% savings on cabin fares, custom group photo, a total of $150 shipboard credit for the group and other special gifts. $150 shipboard credit is allocated to the lead guest…\"},{\"name\":\"50% Reduced Deposit\",\"endDate\":\"2027-12-31\",\"exclusive\":false,\"description\":\"SECURE YOUR PLACE With a 50% reduced deposit on all voyages departing October 1, 2026 through 2027 Your next extraordinary adventure may be closer than you think. With a 50% reduced deposit on eligible 2026 and 2027 expeditions, now is an ideal time to reserve the voyage you've been dreaming about. From Antarctica’s towering icebergs and Alaska’s glacier-carved fjords to the wildlife-rich waters of Baja California and the legendary Galápagos Islands, National Geographic-Lindblad Expeditions takes you deeper into the world’s most extraordinary places through immersive, up-close exploration.…\"},{\"name\":\"Special Offer for Solo Travelers\",\"endDate\":\"2028-12-31\",\"exclusive\":false,\"description\":\"TRAVEL SOLO, YOUR WAY Solo travel with National Geographic-Lindblad Expeditions offers the freedom to explore the world’s most extraordinary places on your own terms, alongside a welcoming community of like-minded adventurers. From open-seating dining to shared discoveries in the field, each expedition creates natural ways to connect with fellow travelers. Varied accommodations and opportunities to reduce the additional cost of going solo make independent travel even more rewarding. SPECIAL OFFER: Reduced solo premiums—starting from just 25% above current fares—are offered on select voyages…\"}]"
   ],
   [
+   "18662316",
+   "PONANT EXPLORATIONS",
+   "An Ode to Contemporary Art, With The Pinault Collection",
+   "2028-09-25",
+   10,
+   "Europe",
+   "an-ode-to-contemporary-art-with-the-pinault-collection-25sep2028-05oct2028",
+   "",
+   "L'Austral",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/9891394_2_0.webp",
+   "",
+   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
+  ],
+  [
    "18580217",
    "Atlas Ocean Voyages",
    "Bountiful Harvest",
@@ -51621,6 +51677,20 @@
    "[{\"name\":\"Black Friday\",\"endDate\":\"2028-03-31\",\"exclusive\":false,\"description\":\"To celebrate Black Friday we are offering Up to 40% discount on our Black Friday deals. Discounts on selected HX departures from 1 December 2026 to 31 March 2028 (inclusive)\"}]"
   ],
   [
+   "18662317",
+   "PONANT EXPLORATIONS",
+   "From The Seychelles to Madagascar",
+   "2028-12-03",
+   10,
+   "Africa",
+   "from-the-seychelles-to-madagascar-31jan2027-10feb2027",
+   "",
+   "Le Bougainville",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15660521_2_0.webp",
+   "",
+   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
+  ],
+  [
    "18631492",
    "Atlas Ocean Voyages",
    "Drake Express",
@@ -52249,6 +52319,20 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/12987692_2_0.webp",
    "Day 1: Arrive in Ushuaia. Sandwiched between ice-mantled peaks and the frigid waters of the Beagle Channel, this is a fittingly wild place to be known as \"El Fin del Mundo\" or \"The End of the World\". Transfer from the airport to your hotel. In the evening, enjoy dinner and attend a briefing on your upcoming adventure. Day 2: Check out of your hotel and begin exploring this amazing region. Visit Tierra del Fuego National Park, clad in dense beech forest just as much of Antarctica was millions of years ago. Savor lunch onboard a private catamaran as you cruise the channel, keeping an eye out for plump South American sea lions and sleek seabirds like the imperial cormorant. By day's end,…",
    "[{\"name\":\"5% Savings on Groups of 8 or more\",\"exclusive\":false,\"dates\":\"Valid for Travel Now Through 24 Aug 2029\"}]"
+  ],
+  [
+   "18662320",
+   "PONANT EXPLORATIONS",
+   "Little-Known Madagascar",
+   "2028-12-13",
+   9,
+   "Africa",
+   "little-known-madagascar-13dec2028-22dec2028",
+   "",
+   "Le Bougainville",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15660521_2_0.webp",
+   "",
+   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
   ],
   [
    "18579184",
@@ -52921,6 +53005,20 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/16735981_2_0.webp",
    "Day 1: Start your adventure in ancient and modern Lima. Welcome to Peru, one of the most fascinating countries in South America! Lima, Peru's vibrant capital, offers a rich fusion of history, culture, and coastal beauty. The historic center, a UNESCO World Heritage Site, features stunning colonial architecture. Along the Pacific coastline, districts like Miraflores and Barranco captivate with ocean views, bohemian charm, street art, and lively nightlife. With its mix of ancient ruins, such as Huaca Pucllana, and modern urban energy, Lima is a compelling gateway to Peru's diverse identity. Settle into your hotel and enjoy an overnight stay. Day 2: Discover Lima's historical center and more.…",
    "[{\"name\":\"Black Friday\",\"endDate\":\"2028-03-31\",\"exclusive\":false,\"description\":\"To celebrate Black Friday we are offering Up to 40% discount on our Black Friday deals. Discounts on selected HX departures from 1 December 2026 to 31 March 2028 (inclusive)\"}]"
+  ],
+  [
+   "18662321",
+   "PONANT EXPLORATIONS",
+   "Madagascar, Zanzibar, and The Jewels of The Indian Ocean",
+   "2028-12-22",
+   14,
+   "Africa",
+   "madagascar-zanzibar-and-the-jewels-of-the-indian-ocean-22dec2028-05jan2029",
+   "",
+   "Le Bougainville",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15660521_2_0.webp",
+   "",
+   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
   ],
   [
    "18578833",
@@ -53721,6 +53819,20 @@
    "[{\"name\":\"Black Friday\",\"endDate\":\"2028-03-31\",\"exclusive\":false,\"description\":\"To celebrate Black Friday we are offering Up to 40% discount on our Black Friday deals. Discounts on selected HX departures from 1 December 2026 to 31 March 2028 (inclusive)\"}]"
   ],
   [
+   "18662322",
+   "PONANT EXPLORATIONS",
+   "Tanzania and Seychelles – Natural Treasures of The Indian Ocean – With Smithsonian Journeys",
+   "2029-01-05",
+   12,
+   "Africa",
+   "tanzania-and-seychelles-natural-treasures-of-the-indian-ocean-with-smithsonian-j-05jan2029-17jan2029",
+   "",
+   "Le Bougainville",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15660521_2_0.webp",
+   "",
+   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
+  ],
+  [
    "18564682",
    "Quark Expeditions",
    "Antarctica by Helicopter – Crossing The Circle and The Peninsula",
@@ -54351,6 +54463,20 @@
    "[{\"name\":\"Moana Explorer Program and Kids Sail Free\",\"endDate\":\"2027-12-29\",\"exclusive\":false,\"description\":\"Unique South Pacific Discovery for Young Explorers The South Pacific is a dream destination—and aboard the m/s Paul Gauguin it’s also a once-in-a-lifetime opportunity for your family to strengthen bonds and create memories you’ll cherish forever through our Moana Explorer program. Offered in partnership with Te mana o te moana, a South Pacific marine education and conservation foundation, this one-of-a-kind program invites children and teens, ages 6-15, to discover and value the natural wonders of this breathtaking part of the world through hands-on, interactive learning. Every day of the…\"},{\"name\":\"Kids Sail Free\",\"endDate\":\"2027-12-31\",\"exclusive\":false,\"description\":\"Kids sail free as a third guest in the stateroom. Pricing for the third guest in the same stateroom is as follows: 17 years old and under, sail FREE; 18 years of age or older, 30% of adult cruise fare + taxes and fees will apply. Triples are available in ALL sailings, in select staterooms, are capacity controlled and subject to change at anytime without notice.\"},{\"name\":\"Holiday Sale | 10% Savings\",\"endDate\":\"2028-02-12\",\"exclusive\":false,\"description\":\"Holiday Sale | 10% Savings Enjoy the wonder of exploration Discover French Polynesia at its most authentic aboard the award-winning m/s Paul Gauguin on the 2027 itinerary of your choice. Explore Bora Bora’s fabled lagoon, snorkel coral gardens in the Tuamotus, and discover ancient culture amidst the rain forested peaks of the Marquesas. Our Holiday Sale makes it easier than ever to share the gift of discovery this season when you book by January 4, 2027 with code HOLIDAY26. Terms & Conditions: Offer valid from November 4, 2026 to January 4, 2027 granting 10% savings on a selection of cruises.…\"}]"
   ],
   [
+   "18662323",
+   "PONANT EXPLORATIONS",
+   "The Essential Seychelles",
+   "2029-01-17",
+   8,
+   "Africa",
+   "the-essential-seychelles-17jan2029-25jan2029",
+   "",
+   "Le Bougainville",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15660521_2_0.webp",
+   "",
+   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
+  ],
+  [
    "18620280",
    "HX Expeditions",
    "Antarctica and Falklands Expedition Cruise",
@@ -54739,6 +54865,20 @@
    "",
    "Le Soléal",
    "https://media.virtuoso.com/m/Images/Brochures/h400/11328758_2_0.webp",
+   "",
+   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
+  ],
+  [
+   "18662324",
+   "PONANT EXPLORATIONS",
+   "The Essential Seychelles",
+   "2029-01-25",
+   8,
+   "Africa",
+   "the-essential-seychelles-17jan2029-25jan2029",
+   "",
+   "Le Bougainville",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15660521_2_0.webp",
    "",
    "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
   ],
@@ -55161,6 +55301,20 @@
    "https://media.virtuoso.com/m/Images/Brochures/h400/16744391_2_0.webp",
    "Day 1: You may arrive in Ushuaia at any time on Day 1. This southernmost city of South America is known for its beautiful mountainous surroundings, so you are encouraged to consider arriving a day or two before your expedition. A transfer from the airport to your hotel and an accommodation are included in the cost of your trip. An optional pre-departure briefing will be held in the lobby of your hotel at 6 pm. Day 2: Your luggage will be collected from the lobby of your hotel in the morning and transferred to the ship. Embarkation is usually around 4 pm. Guests will meet at a designated location near the pier, and board the buses for transfer to the ship. Information about embarkation will…",
    "[]"
+  ],
+  [
+   "18662325",
+   "PONANT EXPLORATIONS",
+   "The Essential Seychelles",
+   "2029-02-02",
+   8,
+   "Africa",
+   "the-essential-seychelles-17jan2029-25jan2029",
+   "",
+   "Le Bougainville",
+   "https://media.virtuoso.com/m/Images/Brochures/h400/15660521_2_0.webp",
+   "",
+   "[{\"name\":\"Le Commandant Charcot Pre or Post Hotel Package Offer\",\"endDate\":\"2027-01-23\",\"exclusive\":false,\"description\":\"Complimentary Pre or Post Hotel Night Stay in Helsinki on select voyages aboard Le Commandant Charcot for new bookings created and deposited between March 10 and January 15, 2027. Promo codes: PREHELSI and POSTHELSI.\"},{\"name\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel\",\"endDate\":\"2027-03-13\",\"exclusive\":false,\"description\":\"NEW! St. Lawrence River Offer: Complimentary Pre- or Post-Cruise Hotel Night Stay in Montreal on select North America voyages aboard Le Commandant Charcot for new bookings created and deposited between March 26 and January 15, 2027. Promo codes: PREMTL and POSTMTL. The offer is featured on this content experience: https://inspires.to/invite/st-lawrence-river-aboar... Applicable voyages: The St. Lawrence River in the Heart of the Boreal Winter 14 Nights Roundtrip Montreal February 13 and 27, 2027 From the St Lawrence to Greenland, the Last Moments of Winter 14 Nights Montreal to Nuuk Flight…\"},{\"name\":\"Grand Voyage from Montréal to Nuuk\",\"endDate\":\"2027-03-27\",\"exclusive\":false,\"description\":\"50% savings on the fare of the March 13, 2027 voyage when combined with the February 27, 2027 and/or the March 27, 2027 voyages Terms & Conditions: 50% savings on the fare of voyage CC130327 valid for new bookings made between 8/1/2026 to 3/13/2027 when combined with either CC270227 or CC270327. Savings apply only to CC130327 on new bookings made either online using the OFFER CODE: COMBO50, through your preferred travel advisor or by phone with our Customer Care Team.\"}]"
   ],
   [
    "18637345",

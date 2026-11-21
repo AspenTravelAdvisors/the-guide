@@ -5,9 +5,9 @@
   "atlas": "train",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 103,
-  "journeysWithStays": 99,
-  "journeysWithHouse": 44,
+  "journeysTotal": 102,
+  "journeysWithStays": 98,
+  "journeysWithHouse": 43,
   "gateways": 43,
   "hotels": 150,
   "houses": [
@@ -4176,11 +4176,6 @@
    "house": "Belmond"
   },
   "18535684": {
-   "pre": "London",
-   "post": "London",
-   "house": "Belmond"
-  },
-  "18535748": {
    "pre": "London",
    "post": "London",
    "house": "Belmond"
