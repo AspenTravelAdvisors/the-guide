@@ -11801,6 +11801,40 @@
     ]
    }
   ],
+  "18488737": [
+   {
+    "n": "Johannesburg",
+    "r": "SOUTHERN",
+    "ll": [
+     -26.2,
+     28.0833
+    ]
+   },
+   {
+    "n": "Livingstone",
+    "r": "ZAMBEZI",
+    "ll": [
+     -17.85,
+     25.8667
+    ]
+   },
+   {
+    "n": "Okavango Delta",
+    "r": "OKAVANGO",
+    "ll": [
+     -19.25,
+     22.75
+    ]
+   },
+   {
+    "n": "Johannesburg",
+    "r": "SOUTHERN",
+    "ll": [
+     -26.2,
+     28.0833
+    ]
+   }
+  ],
   "18505877": [
    {
     "n": "Cape Town",
@@ -16556,6 +16590,96 @@
     "ll": [
      -18.8923,
      26.8789
+    ]
+   }
+  ],
+  "18616789": [
+   {
+    "n": "Seoul",
+    "r": null,
+    "ll": [
+     37.5664,
+     127
+    ]
+   },
+   {
+    "n": "Osaka",
+    "r": null,
+    "ll": [
+     34.6667,
+     135.5
+    ]
+   },
+   {
+    "n": "Sakaiminato",
+    "r": null,
+    "ll": [
+     35.55,
+     133.225
+    ]
+   },
+   {
+    "n": "Hagi",
+    "r": null,
+    "ll": [
+     34.4,
+     131.417
+    ]
+   },
+   {
+    "n": "Beppu",
+    "r": null,
+    "ll": [
+     33.3,
+     131.533
+    ]
+   },
+   {
+    "n": "Uwajima",
+    "r": null,
+    "ll": [
+     34.3383,
+     133.055
+    ]
+   },
+   {
+    "n": "Hiroshima",
+    "r": null,
+    "ll": [
+     34.4,
+     132.45
+    ]
+   },
+   {
+    "n": "Tamano",
+    "r": null,
+    "ll": [
+     34.4833,
+     133.95
+    ]
+   },
+   {
+    "n": "Sakaiminato",
+    "r": null,
+    "ll": [
+     35.55,
+     133.225
+    ]
+   },
+   {
+    "n": "Tokyo",
+    "r": null,
+    "ll": [
+     35.6833,
+     139.75
+    ]
+   },
+   {
+    "n": "Osaka",
+    "r": null,
+    "ll": [
+     34.6667,
+     135.5
     ]
    }
   ],
@@ -22511,6 +22635,70 @@
     }
    ],
    "route": "18338887"
+  },
+  {
+   "id": "18488737",
+   "n": "A&K Sanctuary Southern Africa Safari and Victoria Falls",
+   "b": "ak",
+   "g": [
+    "OKAVANGO",
+    "SOUTHERN",
+    "ZAMBEZI"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18488737/aksanctuarysouthernafricasafariandvictoriafalls",
+   "days": 9,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_0.webp",
+   "from": "Johannesburg, South Africa",
+   "to": "Johannesburg, South Africa",
+   "country": "Botswana",
+   "world": false,
+   "mks": [
+    "2026-11",
+    "2026-12"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures: 05 Sep 2026 - 25 Dec 2026",
+   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
+   "included": [],
+   "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
+     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
+     "endDate": "2027-03-31",
+     "exclusive": false,
+     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
+    },
+    {
+     "name": "The A&K Worldwide Sale",
+     "endDate": "2027-05-31",
+     "exclusive": false,
+     "description": "Save up to $3,000 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Plus, $1,000 air credit each. US Terms and Conditions: Offer valid for international air only on new bookings for 2027 journeys made between November 10-January 31, 2027. Air must be booked and ticketed through Abercrombie & Kent. Air credit will appear as a discount off the journey on the traveller's invoice. Excludes Tailormade Journeys, A&K Villas, Canal Barge Cruises, Beaches and A&K Sanctuary Stays. Guest can alternatively convert air credit to a $500 savings per person. Up to…"
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Johannesburg"
+    },
+    {
+     "d": 2,
+     "n": "Livingstone"
+    },
+    {
+     "d": 4,
+     "n": "Okavango Delta"
+    },
+    {
+     "d": 1,
+     "n": "Johannesburg"
+    }
+   ],
+   "route": "18488737"
   },
   {
    "id": "18360200",
@@ -43267,6 +43455,84 @@
     }
    ],
    "route": "18593039"
+  },
+  {
+   "id": "18616789",
+   "n": "Sakura Seas: South Korea & Japan - Eastbound",
+   "b": "tauck",
+   "g": [],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18616789/sakuraseassouthkoreajapaneastbound",
+   "days": 14,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2834_2_3.webp",
+   "from": "Seoul, South Korea",
+   "to": "Osaka, Japan",
+   "country": "Japan",
+   "world": false,
+   "d": "4/12/2027",
+   "r": "4/25/2027",
+   "mks": [
+    "2027-04"
+   ],
+   "win": "Dates: 12 Apr 2027 - 25 Apr 2027",
+   "description": "An unforgettable 14 day journey / 7 day cruise begins in the dynamic, historic city of Seoul, South Korea, a new destination for Tauck, before embarking on a cruise through the Japanese archipelago. Highlights include scenic stops in historic cities like Hiroshima, Hagi, and Beppu, along with a visit to the serene island of Miyajima. Immerse in local culture, from tea ceremonies and art museums to Japanese gardens, experiencing a unique blend of history, tradition, and natural beauty.",
+   "included": [
+    "Sharing the storied coast of the Sea of Japan, South Korea and Japan reveal a compelling blend of ancient traditions and modern vitality. Begin with three nights in Seoul, exploring royal palaces, vibrant markets, and centuries-old cultural landmarks before traveling by high-speed train to Busan to embark on an 8-night cruise aboard Le Soleal. Sail to historic Japanese ports rich in heritage and hospitality, including the fishing port of Sakaiminato, the castle town of Hagi, the hot springs of Beppu, pearl-farming Uwajima, sacred Miyajima and Hiroshima, and the art-inspired shores of Tamano. After disembarking in Osaka, journey by Shinkansen to Tokyo for a two-night stay in Japan's dynamic capital. Along the way, savor regional flavors and authentic cultural encounters that bring daily life vividly into focus."
+   ],
+   "promotions": [
+    {
+     "name": "Tauck Bridges: Save When You Travel As A Group",
+     "endDate": "2027-12-31",
+     "exclusive": false,
+     "description": "Tauck Bridges family adventures are designed to bring generations together through enriching experiences, shared discoveries and seamless planning. From grandparents and parents to children and grandchildren, families can explore the world together while Tauck takes care of the details. When 8 guests travel together on the same departure, the 9th guest travels free — and groups of exactly 8 receive 50% off one guest’s fare. It’s an unforgettable way to celebrate life’s special moments while making the most of your time together."
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Seoul"
+    },
+    {
+     "d": 2,
+     "n": "Osaka"
+    },
+    {
+     "d": 5,
+     "n": "Sakaiminato"
+    },
+    {
+     "d": 6,
+     "n": "Hagi"
+    },
+    {
+     "d": 7,
+     "n": "Beppu"
+    },
+    {
+     "d": 8,
+     "n": "Uwajima"
+    },
+    {
+     "d": 9,
+     "n": "Hiroshima"
+    },
+    {
+     "d": 10,
+     "n": "Tamano"
+    },
+    {
+     "d": 5,
+     "n": "Sakaiminato"
+    },
+    {
+     "d": 12,
+     "n": "Tokyo"
+    },
+    {
+     "d": 2,
+     "n": "Osaka"
+    }
+   ],
+   "route": "18616789"
   },
   {
    "id": "18554130",

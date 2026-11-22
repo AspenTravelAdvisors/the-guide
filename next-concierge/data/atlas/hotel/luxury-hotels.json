@@ -2791,7 +2791,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 17,
+   "total": 18,
    "recommendedPercent": 100
   },
   "tags": [
@@ -3899,7 +3899,7 @@
    "ISO 14001"
   ],
   "reviews": {
-   "total": 2,
+   "total": 3,
    "recommendedPercent": 100
   },
   "tags": [
@@ -4694,25 +4694,25 @@
   ],
   "promotions": [
    {
-    "id": "18338968",
-    "name": "Hidden Art",
-    "endDate": "2026-11-21",
-    "exclusive": false,
-    "description": "Time for art Transform your stay into an immersive artistic experience. Spend 2 nights in an exclusive terrace suite, where you’ll sleep surrounded by a private exhibition of carefully curated art. Awaken to a personal, face-to-face tour of Catherine Parra’s atelier, where you’ll gain an intimate glimpse into her creative world and witness the magic behind her process firsthand. And… shhh, we’ve hidden a one-of-a-kind artwork by Catherine Parra in your room—if you find it, it’s yours to keep, a secret treasure waiting to be uncovered. The art experience includes: 2 nights in an exclusive art…"
-   },
-   {
-    "id": "18338967",
-    "name": "Inner Voice by Mariona Espinet",
-    "endDate": "2026-11-21",
-    "exclusive": false,
-    "description": "Inner Voice by Mariona Espinet Time for ArtTransform your stay into a poetic, contemplative moment. Spend two nights in the exclusive Suite 701, surrounded by Mariona Espinet’s Eter collection—a series of works where imperfect shapes, repeated lines, and quiet voids create a gentle rhythm that invites you to pause. Each work evokes reflection and emotion, letting you live within art itself. The Notebook of Living – A Silent, Poetic Intervention by Mariona EspinetDuring your stay, you will encounter a crafted notebook specially created by the artist. This interactive object invites each…"
-   },
-   {
     "id": "18622929",
     "name": "Thanksgiving in Barcelona",
     "endDate": "2026-11-28",
     "exclusive": false,
     "description": "Celebrate Thanksgiving with a menu built on tradition and flavor: sip on our Autumn Harvest cocktail, a warm blend of bourbon, apple and maple, before digging into a golden, oven-roasted turkey drenched in rich gravy, creamy mashed potatoes, tangy cranberry sauce, herb-scented stuffing, buttery green beans and sweet corn on the cob. Finish things off the classic way, with a slice of spiced pumpkin pie or a decadent, gooey pecan pie. 120€ per person. Wine list not included. Up to 20% off your room rate A traditional Thanksgiving for your family Virtuoso Benefits Free Wifi and international and…"
+   },
+   {
+    "id": "18622930",
+    "name": "Autumn Offer",
+    "endDate": "2026-11-30",
+    "exclusive": false,
+    "description": "Step into the quieter season. Let the city speak to you with exclusive benefits. Autumn is Barcelona’s best-kept secret. Book now and enjoy up to 20% off, complimentary daily breakfast, a curated “Local in a Day” itinerary waiting in your room, and the freedom of flexible dates. With the following advantages: Up to 20% discount on rate Virtuoso Amenities included Flexible booking: Change your dates if needed, with ease 24/7 access to Fitness Center Autumn in Barcelona: A Season of Magic As summer fades, Barcelona awakens with a different kind of fire. In September, the city bursts into…"
+   },
+   {
+    "id": "18649851",
+    "name": "11/11 限定 · 第 4 晚免費 / 2027 冬季，兩座城市同享獨家優惠。",
+    "endDate": "2027-02-18",
+    "exclusive": true,
+    "description": "優惠內容 • 入住 4 晚，僅需支付 3 晚房價 • 包含 Virtuoso 專屬禮遇 • 限時 15% 佣金 • 預訂 Almanac Suite 以上房型，即享免費來回接送服務 讓我們共同為您的客戶規劃下一次入住體驗。"
    }
   ],
   "hasPromotion": true,
@@ -4739,7 +4739,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 46,
+   "total": 47,
    "recommendedPercent": 96
   },
   "tags": [
@@ -11741,18 +11741,18 @@
   ],
   "promotions": [
    {
-    "id": "18561761",
-    "name": "20% Saving on All Room Categories (Extra USD 100 for Suites and Villas)",
-    "endDate": "2027-06-30",
-    "exclusive": false,
-    "description": "20% SAVINGS Enjoy 20 % savings across all room and suite categories. BOOKING PERIOD: 15 June 2026 - 30 June 2027 STAY PERIOD: 01 July 2026 - 30 June 2027 Term & conditions apply."
-   },
-   {
     "id": "18561758",
     "name": "Stay 3 Pay 2",
     "endDate": "2027-06-30",
     "exclusive": false,
     "description": "OFFER 1: STAY 3 PAY 2 Enjoy an additional night on us in selected room categories, including: 1) Deluxe Room 2) Siam Room 3) Kasara Executive Room 4) Siam Suite BOOKING PERIOD: 15 June 2026 - 30 June 2027 STAY PERIOD: 01 July 2026 - 30 June 2027"
+   },
+   {
+    "id": "18561761",
+    "name": "20% Saving on All Room Categories (Extra USD 100 for Suites and Villas)",
+    "endDate": "2027-06-30",
+    "exclusive": false,
+    "description": "20% SAVINGS Enjoy 20 % savings across all room and suite categories. BOOKING PERIOD: 15 June 2026 - 30 June 2027 STAY PERIOD: 01 July 2026 - 30 June 2027 Term & conditions apply."
    }
   ],
   "hasPromotion": true,
@@ -23560,13 +23560,6 @@
     "endDate": "2026-12-20",
     "exclusive": false,
     "description": "Complimentary room upgrade is guaranteed at the time of booking for the 2026 season (next room category level, availability applies. Secure your Stay at the much-anticipated Borgo Pignano Florence, opening this September 2026. For arrivals through December 20th, our guests will be treated to an exclusive Virtuoso privilege: a guaranteed upgrade at the time of booking (to the next room category) along with a bespoke signature welcome cocktail crafted to capture the spirit of Florence. Set in the heart of the city, this refined new address seamlessly blends timeless Florentine elegance with…"
-   },
-   {
-    "id": "18662224",
-    "name": "A taste of Borgo Pignano",
-    "endDate": "2027-05-01",
-    "exclusive": false,
-    "description": "A Taste of PignanoDiscover the taste of Tuscany, in its most intimate expression. Book a two-night stay in any Room category and enjoy a complimentary private wine tasting for two, featuring a curated selection of wines from Borgo Pignano and the surrounding Tuscan landscape, while taking advantage from 20% off the best available rate. A sensorial introduction to the estate, its terroir and the pleasures of the region — best enjoyed slowly, with time to savour every glass. Your stay also includes: Daily organic buffet breakfast In-villa parking with valet service 24-hour concierge service…"
    },
    {
     "id": "18658545",
@@ -125953,18 +125946,18 @@
   ],
   "promotions": [
    {
-    "id": "18528791",
-    "name": "Miraval Ultimate Wellbeing Package",
-    "endDate": "2028-12-31",
-    "exclusive": true,
-    "description": "Embrace limitless possibilities with an all-inclusive wellness journey and turn your intentions into reality. Every fee-based activity and workshop is yours to explore with our Ultimate Wellbeing Package. Plus, enjoy a $175 nightly resort credit per person for spa treatments and private sessions to elevate your wellbeing. Nourish your mind, body, and soul while indulging in the ultimate self-care experience at Miraval Berkshires. *Private sessions and culinary workshops are not included. $175 nightly per person resort credit may be used toward spa services, private sessions, and culinary…"
-   },
-   {
     "id": "18528783",
     "name": "Miraval Package",
     "endDate": "2028-12-31",
     "exclusive": true,
     "description": "Enjoy $175 resort credit, per person-per night, savor healthful cuisine, and indulge in the most innovative spa treatments in the world. Experience a daily schedule of complimentary wellness activities including yoga, meditation, fitness, outdoor adventures, and wellness lectures – endless choices are tailored to your intentions. Your Miraval Package Includes: Our package inclusions keep you present to what matters most. It’s all about your intentions and giving you the best value for your wellbeing journey. $175 nightly resort credit, per person to use toward spa & fee-based activities…"
+   },
+   {
+    "id": "18528791",
+    "name": "Miraval Ultimate Wellbeing Package",
+    "endDate": "2028-12-31",
+    "exclusive": true,
+    "description": "Embrace limitless possibilities with an all-inclusive wellness journey and turn your intentions into reality. Every fee-based activity and workshop is yours to explore with our Ultimate Wellbeing Package. Plus, enjoy a $175 nightly resort credit per person for spa treatments and private sessions to elevate your wellbeing. Nourish your mind, body, and soul while indulging in the ultimate self-care experience at Miraval Berkshires. *Private sessions and culinary workshops are not included. $175 nightly per person resort credit may be used toward spa services, private sessions, and culinary…"
    }
   ],
   "hasPromotion": true,
@@ -159881,11 +159874,11 @@
     "description": "Celebrate this Festive Season in the heart of Vancouver. Indulge in lavish amenities and endless experiences. WHAT'S INCLUDED Luxury Accommodations (all Rooms & Suites categories) One-category upgrade upon arrival, based on availability CAD 100 hotel credit per stay to be used for a Spa Treatment or at Restaurants Complimentary late check out until 2 pm Complimentary wireless Internet access Complimentary Valet Parking MINIMUM STAY: No Minimum Length of Stay POLICIES, TERMS & CONDITIONSOffer is available at the Best Available Rate and includes a CAD100 credit per stay. Credit may be applied…"
    },
    {
-    "id": "18192014",
-    "name": "4th Night on Us",
+    "id": "18053844",
+    "name": "Suite Sojourn Offer - Great Savings on Posh Accommodations",
     "endDate": "2027-03-31",
-    "exclusive": false,
-    "description": "Enjoy a complimentary night at Rosewood Hotel Georgia—from the breathtaking setting to a cosmopolitan treasure hunt of things to explore. Use your extra day to venture out and enjoy Vancouver, with easy access to shopping, entertainment, and attractions including the famous Stanley Park just minutes away."
+    "exclusive": true,
+    "description": "Elevate your stay in one of our reimagined suites, carefully crafted for the ultimate luxury experience, extend your stay to a minimum of 2 nights to obtain this offer. Enjoy up to 25% off our best available rate on suites."
    }
   ],
   "hasPromotion": true,
@@ -199172,18 +199165,18 @@
   ],
   "promotions": [
    {
-    "id": "18478602",
-    "name": "Stay Longer On Us!",
-    "endDate": "2026-12-31",
-    "exclusive": false,
-    "description": "Receive 15% off when you stay 3 nights or longer. Virtuoso Benefits included. Rate code API. Book under \"Virtuoso Stay Longer Promotion\" Offers are non-combinable. Subject to availability. Promotion available for Superior and Deluxe Room categories."
-   },
-   {
     "id": "18478599",
     "name": "Go Ahead Stay A While",
     "endDate": "2026-12-31",
     "exclusive": false,
     "description": "Book three consecutive nights and receive the third night complimentary. Virtuoso Benefits Included. Rate code API. Book under \"Virtuoso Comp Night Offer\" Offers are non-combinable. Subject to availability. Promotion available from Premier room category."
+   },
+   {
+    "id": "18478602",
+    "name": "Stay Longer On Us!",
+    "endDate": "2026-12-31",
+    "exclusive": false,
+    "description": "Receive 15% off when you stay 3 nights or longer. Virtuoso Benefits included. Rate code API. Book under \"Virtuoso Stay Longer Promotion\" Offers are non-combinable. Subject to availability. Promotion available for Superior and Deluxe Room categories."
    }
   ],
   "hasPromotion": true,
@@ -205639,13 +205632,6 @@
   ],
   "promotions": [
    {
-    "id": "18103324",
-    "name": "Kids 5 & Under Eat Free",
-    "endDate": "2026-11-21",
-    "exclusive": false,
-    "description": "Dine with ease! Kids 5 & under eat free at participating Atlantis dining venues. Enjoy an entrée on the Kid’s menu free of charge when accompanied by at least one (1) adult ordering a full priced entrée. Kid’s menus are available at the following participating restaurants: Breakfast: Murray’s, and Poseidon’s Table Lunch: Murray’s, Cocodrillo, and Amber Dinner: Murray’s, Seafire Steakhouse, Bimini Road, Poseidon’s Table, and Amber More information: Kids 5 & Under Eat Free | Atlantis Bahamas Terms and Conditions: The ‘Kids 5 & Under Eat Free’ promotion is open to registered guests of The Coral,…"
-   },
-   {
     "id": "18562769",
     "name": "Fall into Paradise! Up to 35% Savings",
     "endDate": "2027-01-31",
@@ -210680,18 +210666,18 @@
   ],
   "promotions": [
    {
-    "id": "16868205",
-    "name": "Suite Offer with %20 - 150 USD Hotel Credit",
-    "endDate": "2026-12-31",
-    "exclusive": false,
-    "description": "Book a Suite and get complimentary Club Lounge Access with $150 USD Hotel Credit. Personalized welcome amenity Complimentary breakfast daily for two guests per room $150 USD Food and Beverage credit per stay. (not combinable, not valid on room rate, no cash value if not redeemed in full, not valid for In Room Dining, Minibar, Nobu) Complimentary basic Wi-Fi daily Early check-in and late check-out (when available) Complimentary upgrade (if available at check-in) In-person warm welcome Personalized welcome note from GM acknowledging Virtuoso agency/advisor"
-   },
-   {
     "id": "16868203",
     "name": "Extend Your Stay, Enjoy 10% Off",
     "endDate": "2026-12-31",
     "exclusive": false,
     "description": "Extend Your Stay, Enjoy 10% Off when you stay 3 nights or longer Personalized welcome amenity Complimentary breakfast daily for two guests per room $100 USD hotel credit (once per stay) Complimentary basic Wi-Fi daily Early check-in and late check-out (when available) Complimentary upgrade (if available at check-in) In-person warm welcome Personalized welcome note from GM acknowledging Virtuoso agency/advisor"
+   },
+   {
+    "id": "16868205",
+    "name": "Suite Offer with %20 - 150 USD Hotel Credit",
+    "endDate": "2026-12-31",
+    "exclusive": false,
+    "description": "Book a Suite and get complimentary Club Lounge Access with $150 USD Hotel Credit. Personalized welcome amenity Complimentary breakfast daily for two guests per room $150 USD Food and Beverage credit per stay. (not combinable, not valid on room rate, no cash value if not redeemed in full, not valid for In Room Dining, Minibar, Nobu) Complimentary basic Wi-Fi daily Early check-in and late check-out (when available) Complimentary upgrade (if available at check-in) In-person warm welcome Personalized welcome note from GM acknowledging Virtuoso agency/advisor"
    },
    {
     "id": "16868210",
@@ -210924,18 +210910,11 @@
   ],
   "promotions": [
    {
-    "id": "16220481",
-    "name": "Exclusive Family Escape",
+    "id": "16220477",
+    "name": "4th Night Complimentary Stay",
     "endDate": "2026-12-20",
     "exclusive": false,
-    "description": "Exclusive Family Escape Book a suite and enjoy 50% saving on the 2nd room booked Customized welcome amenities for kids and parents Valid from now until 20 December 2026 Not combinable with other promotional offers Blackout dates apply."
-   },
-   {
-    "id": "16220479",
-    "name": "One Journey, Two Capitals-Discover Tokyo & Kyoto with Ritz-Carlton Journeys",
-    "endDate": "2026-12-20",
-    "exclusive": false,
-    "description": "One Journey, Two Capitals (Tokyo and Kyoto) - Get 15% Off Discover Japan with exclusive Ritz-Carlton experiences of Tokyo & Kyoto properties. Take a journey through time and experience the two faces of Japan. Enjoy luxurious accommodations at The Ritz-Carlton, Kyoto and The Ritz-Carlton, Tokyo and let us curate a unique experience to explore the two fascinating capitals of Japan. A unique setting for all discerning guests with a range of interests from culinary experiences, Spa/Wellness, Romantic/Couples/Weddings/Honeymoons getaways, Family/Children Programs along with young, Hot & Hip Trends…"
+    "description": "4th Night Complimentary Stay Book a room for minimum four consecutive nights and receive 4th night complimentary Based on a minimum four consecutive night stay valid until 20 December 2026 Blackout dates apply. applicable to all room categories automatically offer this promotion anytime a request is received via email or direct channel where dates exceed 4 nights The Deduction of the complimentary night will be reflected after the booking is confirmed."
    },
    {
     "id": "16220478",
@@ -210943,6 +210922,13 @@
     "endDate": "2026-12-20",
     "exclusive": false,
     "description": "3rd Night Complimentary Stay Book a suite for minimum three consecutive nights and receive 3rd night complimentary Applicable to all suite categories. Valid for stays until December 20, 2026. Subject to availability. 2025 Blackout dates apply. The Deduction of the complimentary night will be reflected after the booking is confirmed."
+   },
+   {
+    "id": "16220479",
+    "name": "One Journey, Two Capitals-Discover Tokyo & Kyoto with Ritz-Carlton Journeys",
+    "endDate": "2026-12-20",
+    "exclusive": false,
+    "description": "One Journey, Two Capitals (Tokyo and Kyoto) - Get 15% Off Discover Japan with exclusive Ritz-Carlton experiences of Tokyo & Kyoto properties. Take a journey through time and experience the two faces of Japan. Enjoy luxurious accommodations at The Ritz-Carlton, Kyoto and The Ritz-Carlton, Tokyo and let us curate a unique experience to explore the two fascinating capitals of Japan. A unique setting for all discerning guests with a range of interests from culinary experiences, Spa/Wellness, Romantic/Couples/Weddings/Honeymoons getaways, Family/Children Programs along with young, Hot & Hip Trends…"
    }
   ],
   "hasPromotion": true,
@@ -214538,13 +214524,6 @@
   ],
   "promotions": [
    {
-    "id": "18103320",
-    "name": "Kids 5 & Under Eat Free",
-    "endDate": "2026-11-21",
-    "exclusive": false,
-    "description": "Dine with ease! Kids 5 & under eat free at participating Atlantis dining venues. Enjoy an entrée on the Kid’s menu free of charge when accompanied by at least one (1) adult ordering a full priced entrée. Kid’s menus are available at the following participating restaurants: Breakfast: Murray’s, and Poseidon’s Table Lunch: Murray’s, Cocodrillo, and Amber Dinner: Murray’s, Seafire Steakhouse, Bimini Road, Poseidon’s Table, and Amber More information: Kids 5 & Under Eat Free | Atlantis Bahamas Terms and Conditions: The ‘Kids 5 & Under Eat Free’ promotion is open to registered guests of The Coral,…"
-   },
-   {
     "id": "18562805",
     "name": "Fall into Paradise! Up to 35% Savings",
     "endDate": "2027-01-31",
@@ -214557,6 +214536,13 @@
     "endDate": "2027-12-18",
     "exclusive": false,
     "description": "Plan for Paradise and enjoy up to 30% in savings. Wake up to turquoise waters, indulge in celebrity chef dining, or explore Bahamian private beaches via yacht charter. Offer is combinable with your Virtuoso exclusive amenities including daily breakfast for two, $100 resort credit, upgrade based on availability at time of check in, and early check-in and late check-out based on availability. Savings are available for travel now through September 2027. Terms & Conditions: Save up to 30% off our Best Available Rates with a minimum 2-night stay. Travel now through September 2027. Non-refundable…"
+   },
+   {
+    "id": "16874338",
+    "name": "Exclusive Bonus Amenity",
+    "endDate": "2027-12-31",
+    "exclusive": false,
+    "description": "Now part of the Virtuoso Preferred Hotel Program, The Royal offers an awe-inspiring experience for everyone. From newly renovated rooms and suites and unforgettable experiences to world-class entertainment and celebrity chef dinning, this iconic resort has it all. Stay 7 nights or more in a 1-2-Bedroom Regal or Grand Suite and receive a $300 Resort Credit. This credit is in addition to the standard Virtuoso amenities that include Daily Breakfast for two, a $100 Resort Credit, and more. Discover Paradise Now."
    }
   ],
   "hasPromotion": true,
@@ -216016,16 +216002,8 @@
    "Voicemail",
    "Washer/Dryer"
   ],
-  "promotions": [
-   {
-    "id": "18514667",
-    "name": "Virtuoso 4th Night Free",
-    "endDate": "2026-11-25",
-    "exclusive": false,
-    "description": "To truly immerse yourself in the allure of The Setai Miami Beach, we invite you to extend your stay with our Virtuoso 4th Night Free Offer (combinable with Virtuoso exclusive amenities). Reserve three consecutive nights and enjoy the fourth on us, for more time to unwind and soak in the best of Miami Beach. Guests booked in the Ocean Suites building will enjoy the following additional amenities, making the experience exceptional and singular: Private roundtrip transfers between Miami and Fort Lauderdale airports and cruise ports Daily Setai Grand Breakfast at Jaya or in-suite Non-alcoholic…"
-   }
-  ],
-  "hasPromotion": true,
+  "promotions": [],
+  "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3975_2_0.webp",
@@ -218728,18 +218706,18 @@
   ],
   "promotions": [
    {
-    "id": "18503522",
-    "name": "Guaranteed Upgrade at Time of Booking – Opening Benefit",
-    "endDate": "2026-11-30",
-    "exclusive": true,
-    "description": "Guaranteed Upgrade at Time of Booking – Opening Benefit Enhance your stay at The St. Regis Costa Mujeres Resort with a guaranteed upgrade at the time of booking, ensuring a more elevated experience from the moment your reservation is confirmed. This exclusive opening benefit includes an upgrade from Deluxe Mangrove View to Deluxe Ocean Front, with the possibility to upgrade to a Suite subject to availability at the time of booking. This offer includes exclusive Virtuoso benefits such as daily breakfast for two, a $100 USD resort credit per stay, early check-in and late check-out based on…"
-   },
-   {
     "id": "18374263",
     "name": "Stay 4 Nights, Pay for 3",
     "endDate": "2026-11-30",
     "exclusive": true,
     "description": "Stay 4 Nights, Pay for 3 Extend your stay at The St. Regis Costa Mujeres Resort and enjoy your fourth night complimentary. Discover an exceptional beachfront retreat just 25 minutes from Cancún International Airport, where pristine Caribbean shores are naturally not affected by sargassum. Immerse yourself in the destination’s heritage with an ancient Mayan ruin thoughtfully integrated into our luxurious spa, while enjoying signature St. Regis Butler Service, elevated dining, and unparalleled relaxation. Stay four consecutive nights and pay for only three."
+   },
+   {
+    "id": "18503522",
+    "name": "Guaranteed Upgrade at Time of Booking – Opening Benefit",
+    "endDate": "2026-11-30",
+    "exclusive": true,
+    "description": "Guaranteed Upgrade at Time of Booking – Opening Benefit Enhance your stay at The St. Regis Costa Mujeres Resort with a guaranteed upgrade at the time of booking, ensuring a more elevated experience from the moment your reservation is confirmed. This exclusive opening benefit includes an upgrade from Deluxe Mangrove View to Deluxe Ocean Front, with the possibility to upgrade to a Suite subject to availability at the time of booking. This offer includes exclusive Virtuoso benefits such as daily breakfast for two, a $100 USD resort credit per stay, early check-in and late check-out based on…"
    },
    {
     "id": "18503497",
@@ -219895,16 +219873,8 @@
    "Slippers",
    "Turn Down Service"
   ],
-  "promotions": [
-   {
-    "id": "18508483",
-    "name": "Resort Retreat Offer - Enjoy 50€ daily resort credit",
-    "endDate": "2026-11-21",
-    "exclusive": false,
-    "description": "Reserve a stay of 3 nights or more and enjoy a 50 EUR daily resort credit per stay. Terms & Conditions: Minimum length of stay of 3 nights. The offer is not combinable with other offers. Changes to the length of stay, including early departures may result in a rate change and a cancellation of the credit. The resort credit can be applied to spa treatments and dining at our restaurants Terra, Mar Sea Club, and The St. Regis Bar except Es Fum, Michelin-starred restaurant and spa products. The resort credit will be applied to the final hotel invoice during check-out and cannot be used towards…"
-   }
-  ],
-  "hasPromotion": true,
+  "promotions": [],
+  "hasPromotion": false,
   "bookUrl": "https://www.VipTravelAi.com",
   "bookPassword": "VIP",
   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4621_2_0.webp",
@@ -220182,8 +220152,8 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 26,
-   "recommendedPercent": 88
+   "total": 27,
+   "recommendedPercent": 89
   },
   "tags": [
    "city-life",
@@ -221316,8 +221286,8 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 24,
-   "recommendedPercent": 92
+   "total": 26,
+   "recommendedPercent": 88
   },
   "tags": [
    "city-life",
@@ -221694,7 +221664,7 @@
    "Welcome fruit and turndown tea in the evening",
    "Early Check-In / Late Check-Out, subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "Characterized by originality, simplicity, and functionality, the hotel’s distinctive design features an alluring collection of materials and textures. Comprises of 170 guest rooms and 31 suites ranging from 44 to 172 square-metre, amongst the largest in the city with sweeping city view. Eclectic dining venues including the Michelin Plate Italian restaurant La Scala, and URBAN Lounge with over 300 global gins. For meetings and celebrations, the hotel facilitates 450 square-metre of event space. To feel rejuvenated, visit the 24-hour fitness studio, 25-metre indoor heated pool, and The Retreat Spa.",
@@ -221807,7 +221777,7 @@
   "vipUpgrades": [
    "Upgrade on arrival, subject to availability (excludes suites and accessible rooms)",
    "Daily breakfast credit of $45 per person, for up to two guests per bedroom, served in the restaurant (credit is non-cumulative)",
-   "$100 USD equivalent Resort or Hotel credit to be utilized during stay (not combinable, not valid on room rate, no cash value if not redeemed in full)",
+   "$100 USD equivalent Resort or Hotel credit to be utilized during stay (not applicable towards valet, not combinable, not valid on room rate, no cash value if not redeemed in full)",
    "Early Check-In / Late Check-Out, subject to availability"
   ],
   "perksYear": 2027,
@@ -222565,18 +222535,18 @@
   ],
   "promotions": [
    {
-    "id": "18365746",
-    "name": "Stay 4, Get 50% off the 4th Night (Suites)",
-    "endDate": "2026-12-26",
-    "exclusive": false,
-    "description": "Stay four or more nights in a suite and enjoy 50% off every fourth night! Your discounted night will be applied at checkout. Offer valid exclusively for suites and composite suites."
-   },
-   {
     "id": "18365745",
     "name": "Stay 3, Get 25% Off (Guest Rooms)",
     "endDate": "2026-12-26",
     "exclusive": false,
     "description": "Stay three or more nights in and enjoy 25% off the entire stay. Discounted rate will be reflected at the time of booking. Offer valid for standard guest rooms and composite guest rooms."
+   },
+   {
+    "id": "18365746",
+    "name": "Stay 4, Get 50% off the 4th Night (Suites)",
+    "endDate": "2026-12-26",
+    "exclusive": false,
+    "description": "Stay four or more nights in a suite and enjoy 50% off every fourth night! Your discounted night will be applied at checkout. Offer valid exclusively for suites and composite suites."
    },
    {
     "id": "18586004",
@@ -226242,27 +226212,27 @@
     "description": "View Room Gallery The pinnacle of grandeur A stay in the hotel’s most prestigious suite, where elegance meets cultural richness. Featuring fine art by renowned…"
    },
    {
-    "name": "Suite Executive",
-    "description": "View Room Gallery Classic cosmopolitan comfort ideal for both professional and leisurely pursuits, these spacious and refined suites offer separate living and…"
-   },
-   {
-    "name": "Premium Suite",
+    "name": "Family Suite",
     "description": "View Room Gallery Refined elegance and recently renovated with charming touches, these beautifully appointed suites offer views of the city or the peaceful…"
    },
    {
-    "name": "Executive Suite with Terrace",
+    "name": "Tivoli Terrace Suite",
     "description": "View Room Gallery City views from a chic retreat bathed in natural light, these expansive suites feature two private balconies with views to the historic…"
    },
    {
-    "name": "Executive Suite Signature",
+    "name": "Executive Suite ",
     "description": "View Room Gallery Refreshed elegance with historic charm inspired by the hotel’s 1950s architecture, these newly designed suites blend timeless elegance,…"
    },
    {
-    "name": "Premium Suite Signature",
+    "name": "Premium Suite ",
     "description": "View Room Gallery Refined elegance with a brand-new design signature style, inspired by the hotel’s history, these suites offer serene patio views or to the…"
+   },
+   {
+    "name": "Junior Suite ",
+    "description": "View Room Gallery Style and comfort reimagined. Unveiling a brand-new aesthetic, blending modern elegance with the hotel’s historic charm, our Junior Suites…"
    }
   ],
-  "roomTypeCount": 17,
+  "roomTypeCount": 11,
   "roomAmenities": [
    "Air Conditioning",
    "Balcony/Lanai/Terrace",
@@ -228059,8 +228029,8 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 6,
-   "recommendedPercent": 83
+   "total": 7,
+   "recommendedPercent": 86
   },
   "tags": [
    "classic",
@@ -230671,7 +230641,7 @@
    "$100 USD equivalent Resort or Hotel credit to be utilized during stay (Not combinable, not valid on room rate, no cash value if not redeemed in full)",
    "Early check-in / Late check-out, subject to availability"
   ],
-  "perksYear": 2026,
+  "perksYear": 2027,
   "perksStale": false,
   "hideAmenities": false,
   "description": "Set in the upscale NoMad (“North of Madison Avenue”) district, Viceroy Park Avenue is modeled after Manhattan’s characterful private homes rather than its standardized hotels. With interiors by Meyer Davis Studio, awash in soothing sage greens and walnut browns, the accommodations range from entry-level guestrooms to penthouse suites to The Park House, a two-story presidential penthouse. A rooftop pool, buzzy social hubs, three dedicated event spaces, and a ground-floor restaurant and café are primed to weave the surrounding neighborhood into the property vibe.",
@@ -231239,7 +231209,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 17,
+   "total": 18,
    "recommendedPercent": 94
   },
   "tags": [
@@ -231669,7 +231639,7 @@
    "Green Key"
   ],
   "reviews": {
-   "total": 27,
+   "total": 28,
    "recommendedPercent": 96
   },
   "tags": [
@@ -234459,7 +234429,7 @@
   "hideAmenities": false,
   "description": "When Goethe called Taormina a “piece of paradise on earth,” he may well have been describing Villa Sant'Andrea. Along one of Italy's most picturesque bays on a private beach with exclusive cabanas, this villa is just a courtesy shuttle ride away from the town center. Rest in blissful refuge in one of 69 elegantly furnished guest rooms. Take in panoramic views from the heated outdoor swimming pool. Revel in complimentary morning boat cruises, relish fresh seafood at Ristorante Sant'Andrea, and relax with a soothing massage in your room or beneath an orange tree. Little guests can enjoy fun activities at the dedicated Smile Club.",
   "inTheKnow": "Ask for dinner reservations at Ristorante Sant'Andrea; being there for sunset is a must. –Ralph Iantosca Valley Ranch, Texas",
-  "summary": "Villa Sant'Andrea is now open and will close on 3rd November, 2026. Villa Sant’Andrea, A Belmond Hotel, Taormina Mare, is a charming beachside residence overlooking Sicily’s Bay of Mazzarò. Created over a century ago as a prominent Englishman’s summer home, it was transformed into an intimate hotel in the 1950s and went on to welcome a host of eminent guests, from Winston Churchill to Elizabeth Taylor and Al Pacino. Embraced by the Sicilian sea, the villa offers a full immersion of the senses. Each light, lavish room and suite faces out on the water, so guests awaken every day to a soothing seascape. The villa’s charming Mid-Century Modern décor includes classical archways and columns, with…",
+  "summary": "Villa Sant'Andrea is now closed and will reopen on 1st June 2027. Villa Sant’Andrea, A Belmond Hotel, Taormina Mare, is a charming beachside residence overlooking Sicily’s Bay of Mazzarò. Created over a century ago as a prominent Englishman’s summer home, it was transformed into an intimate hotel in the 1950s and went on to welcome a host of eminent guests, from Winston Churchill to Elizabeth Taylor and Al Pacino. Embraced by the Sicilian sea, the villa offers a full immersion of the senses. Each light, lavish room and suite faces out on the water, so guests awaken every day to a soothing seascape. The villa’s charming Mid-Century Modern décor includes classical archways and columns, with…",
   "rooms": [
    {
     "name": "Villa Sant'Andrea Suite",
@@ -236060,8 +236030,8 @@
    "Biosphere Responsible Tourism Standard"
   ],
   "reviews": {
-   "total": 9,
-   "recommendedPercent": 78
+   "total": 10,
+   "recommendedPercent": 70
   },
   "tags": [
    "beach",
@@ -242024,7 +241994,7 @@
   ],
   "sustainability": [],
   "reviews": {
-   "total": 98,
+   "total": 99,
    "recommendedPercent": 97
   },
   "tags": [

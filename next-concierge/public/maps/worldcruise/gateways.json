@@ -5,8 +5,8 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 332,
-  "journeysWithStays": 328,
+  "journeysTotal": 329,
+  "journeysWithStays": 325,
   "journeysWithHouse": 0,
   "gateways": 55,
   "hotels": 181,
@@ -4767,10 +4767,6 @@
    "pre": "Sydney, Australia",
    "post": "Tokyo, Japan"
   },
-  "16923907": {
-   "pre": "Miami, FL, United States",
-   "post": "Miami, FL, United States"
-  },
   "17900072": {
    "pre": "Fort Lauderdale, FL, United States",
    "post": "Greenwich, United Kingdom"
@@ -5154,10 +5150,6 @@
   "18300440": {
    "pre": null,
    "post": "Ushuaia, Argentina"
-  },
-  "18300512": {
-   "pre": "Miami, FL, United States",
-   "post": "Fort Lauderdale, FL, United States"
   },
   "18300570": {
    "pre": "Miami, FL, United States",
@@ -5650,10 +5642,6 @@
   "18491959": {
    "pre": "Tokyo, Japan",
    "post": "Hong Kong, China"
-  },
-  "18507842": {
-   "pre": "San Diego, CA, United States",
-   "post": "Singapore, Singapore"
   },
   "18513606": {
    "pre": "Fort Lauderdale, FL, United States",
