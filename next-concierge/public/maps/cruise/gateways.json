@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4394,
-  "journeysWithStays": 3686,
+  "journeysTotal": 4393,
+  "journeysWithStays": 3685,
   "journeysWithHouse": 0,
   "gateways": 107,
   "hotels": 285,
@@ -15,63 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_01284": {
-   "n": "Mango House Seychelles, LXR Hotels & Resorts",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Victoria",
-   "country": "Seychelles",
-   "ll": [
-    -4.7402,
-    55.4686
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16201061_2_8.webp",
-   "rooms": 41,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00400": {
-   "n": "Cheval Blanc Seychelles",
-   "house": "Cheval Blanc by LVMH Hotel Management",
-   "aff": null,
-   "city": "Takamaka",
-   "country": "Seychelles",
-   "ll": [
-    -4.784,
-    55.4993
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18103339_2_0.webp",
-   "rooms": 52,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01398": {
-   "n": "North Island",
-   "house": null,
-   "aff": null,
-   "city": "North Island ",
-   "country": "Seychelles",
-   "ll": [
-    -4.39496,
-    55.2453
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3747_2_27.webp",
-   "rooms": 11,
-   "perks": [
-    "Daily breakfast",
-    "$200 credit",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
   "h_00141": {
    "n": "Arakur Ushuaia Resort & Spa",
    "house": null,
@@ -601,6 +544,63 @@
     "Daily breakfast",
     "Room upgrade",
     "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_01284": {
+   "n": "Mango House Seychelles, LXR Hotels & Resorts",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Victoria",
+   "country": "Seychelles",
+   "ll": [
+    -4.7402,
+    55.4686
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16201061_2_8.webp",
+   "rooms": 41,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00400": {
+   "n": "Cheval Blanc Seychelles",
+   "house": "Cheval Blanc by LVMH Hotel Management",
+   "aff": null,
+   "city": "Takamaka",
+   "country": "Seychelles",
+   "ll": [
+    -4.784,
+    55.4993
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18103339_2_0.webp",
+   "rooms": 52,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01398": {
+   "n": "North Island",
+   "house": null,
+   "aff": null,
+   "city": "North Island ",
+   "country": "Seychelles",
+   "ll": [
+    -4.39496,
+    55.2453
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3747_2_27.webp",
+   "rooms": 11,
+   "perks": [
+    "Daily breakfast",
+    "$200 credit",
+    "Early check-in"
    ],
    "promo": 0
   },
@@ -5429,27 +5429,6 @@
   }
  },
  "GATES": {
-  "L'Escale Marina, Mahé, Seychelles, Seychelles": {
-   "n": "L'Escale Marina, Mahé, Seychelles, Seychelles",
-   "ll": [
-    -4.65,
-    55.475
-   ],
-   "h": [
-    [
-     "h_01284",
-     10.1
-    ],
-    [
-     "h_00400",
-     15.1
-    ],
-    [
-     "h_01398",
-     38.1
-    ]
-   ]
-  },
   "Ushuaia, Argentina": {
    "n": "Ushuaia, Argentina",
    "ll": [
@@ -5667,6 +5646,27 @@
     [
      "h_00937",
      4.1
+    ]
+   ]
+  },
+  "L'Escale Marina, Mahé, Seychelles, Seychelles": {
+   "n": "L'Escale Marina, Mahé, Seychelles, Seychelles",
+   "ll": [
+    -4.65,
+    55.475
+   ],
+   "h": [
+    [
+     "h_01284",
+     10.1
+    ],
+    [
+     "h_00400",
+     15.1
+    ],
+    [
+     "h_01398",
+     38.1
     ]
    ]
   },
@@ -13921,10 +13921,6 @@
   "18392685": {
    "pre": null,
    "post": "Glasgow, United Kingdom"
-  },
-  "18392708": {
-   "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
-   "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
   },
   "18392709": {
    "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",

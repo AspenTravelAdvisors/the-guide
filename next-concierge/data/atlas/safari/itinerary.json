@@ -5173,72 +5173,6 @@
     ]
    }
   ],
-  "18103448": [
-   {
-    "n": "Hanoi",
-    "r": null,
-    "ll": [
-     21.0333,
-     105.85
-    ]
-   },
-   {
-    "n": "Ha Long Bay",
-    "r": null,
-    "ll": [
-     20.8782,
-     107.205
-    ]
-   },
-   {
-    "n": "Hue",
-    "r": null,
-    "ll": [
-     16.4667,
-     107.6
-    ]
-   },
-   {
-    "n": "Hoi An",
-    "r": null,
-    "ll": [
-     15.8794,
-     108.335
-    ]
-   },
-   {
-    "n": "Ho Chi Minh City",
-    "r": "BORNEO",
-    "ll": [
-     10.8231,
-     106.63
-    ]
-   },
-   {
-    "n": "Siem Reap",
-    "r": null,
-    "ll": [
-     13.4167,
-     103.817
-    ]
-   },
-   {
-    "n": "Luang Prabang",
-    "r": null,
-    "ll": [
-     19.8834,
-     102.135
-    ]
-   },
-   {
-    "n": "Bangkok Noi",
-    "r": null,
-    "ll": [
-     13.75,
-     100.483
-    ]
-   }
-  ],
   "18104198": [
    {
     "n": "Masai Mara National Reserve",
@@ -5496,6 +5430,56 @@
     "ll": [
      -26.2,
      28.0833
+    ]
+   }
+  ],
+  "18106901": [
+   {
+    "n": "Mumbai",
+    "r": "SUBCONTINENT",
+    "ll": [
+     18.975,
+     72.8258
+    ]
+   },
+   {
+    "n": "Udaipur",
+    "r": "SUBCONTINENT",
+    "ll": [
+     27.7167,
+     75.4833
+    ]
+   },
+   {
+    "n": "Jaipur",
+    "r": "SUBCONTINENT",
+    "ll": [
+     26.9167,
+     75.8167
+    ]
+   },
+   {
+    "n": "Agra",
+    "r": "SUBCONTINENT",
+    "ll": [
+     27.1833,
+     78.0167
+    ]
+   },
+   {
+    "n": "Varanasi",
+    "r": "SUBCONTINENT",
+    "ll": [
+     25.3333,
+     83
+    ]
+   },
+   {
+    "n": "Delhi",
+    "r": "SUBCONTINENT",
+    "ll": [
+     28.6667,
+     77.2167
     ]
    }
   ],
@@ -9515,6 +9499,16 @@
     ]
    }
   ],
+  "18363952": [
+   {
+    "n": "Lima",
+    "r": null,
+    "ll": [
+     -12.05,
+     -77.05
+    ]
+   }
+  ],
   "18364254": [
    {
     "n": "Johannesburg",
@@ -12320,24 +12314,6 @@
     "ll": [
      -3.3678,
      36.6333
-    ]
-   }
-  ],
-  "18525463": [
-   {
-    "n": "South Luangwa National Park",
-    "r": "ZAMBEZI",
-    "ll": [
-     -12.8066,
-     31.6282
-    ]
-   },
-   {
-    "n": "Lower Zambezi National Park",
-    "r": "ZAMBEZI",
-    "ll": [
-     -15.2791,
-     29.7166
     ]
    }
   ],
@@ -21555,7 +21531,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/15686176/azambiazimbabwesafari",
    "days": 9,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_287_0827.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_301.webp",
    "from": "Kafue, Zambia",
    "to": "Hwange National Park, Zimbabwe",
    "country": "Zambia",
@@ -22319,6 +22295,40 @@
     }
    ],
    "route": "18363931"
+  },
+  {
+   "id": "18363952",
+   "n": "A&K Sanctuary Peruvian Amazon Cruise (6 Days)",
+   "b": "ak",
+   "g": [],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18363952/aksanctuaryperuvianamazoncruise6days",
+   "days": 6,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15690947_2_0.webp",
+   "from": "Lima, Peru",
+   "to": "Lima, Peru",
+   "country": "Peru",
+   "world": false,
+   "mks": [
+    "2026-12"
+   ],
+   "onDemand": true,
+   "win": "Valid for Departures Now Through: 23 Dec 2026",
+   "description": "Covering 60 percent of the country, Peru’s Amazonian region is a magnet for wildlife lovers. Sleepy backwaters, lush islands and deep jungle make up the Pacaya-Samiria National Reserve, a place of exceptional beauty and biodiversity and Peru’s largest protected area at 8,000 square miles. From June to November is low-water season. Birders and wildlife enthusiasts will leap at the chance to venture into the habitat of some of the rarest and most iconic species on Earth, while visits to local communities of ribereños, or river people, provide insight into local culture and village life. In high-water season, from December to May, the Amazon River and its tributaries (the Marañón and Ucayali)…",
+   "included": [
+    "English-Speaking Local Guides",
+    "Airport Meet and Greet",
+    "Entrance Fees and Taxes",
+    "24/7 A&K On-Call Support",
+    "Internal Air Included (Economy Class, AU$610 value) Lima/Iquitos/Lima"
+   ],
+   "promotions": [],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Lima"
+    }
+   ],
+   "route": "18363952"
   },
   {
    "id": "18338097",
@@ -26515,7 +26525,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18344830/botswanaprivatesafarimashatunortherntuliadventure",
    "days": 9,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_323_0827.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_337.webp",
    "from": "Mashatu Game Reserve, Botswana",
    "to": "Mashatu Game Reserve, Botswana",
    "country": "Botswana",
@@ -34522,6 +34532,79 @@
    "route": "18505877"
   },
   {
+   "id": "18106901",
+   "n": "India and the Taj Mahal: A Private Journey",
+   "b": "ak",
+   "g": [
+    "SUBCONTINENT"
+   ],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18106901/indiaandthetajmahalaprivatejourney",
+   "days": 14,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_24.webp",
+   "from": "Mumbai, India",
+   "to": "Delhi, India",
+   "country": "India",
+   "world": false,
+   "d": "12/20/2026",
+   "r": "1/2/2027",
+   "mks": [
+    "2026-12",
+    "2027-01"
+   ],
+   "win": "Dates: 20 Dec 2026 - 02 Jan 2027",
+   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
+   "included": [
+    "The Taj Mahal at dawn, a Bengal tiger resting amid teak forest shadows, the sensory cavalcade of a Mumbai marketplace, time-honored rituals playing out along the Ganges — this is India revealed only as A&K can. Experience this irrepressibly vibrant destination on a private journey as you stay in grand palaces, track game in reserves teeming with wildlife and immerse yourself in the incomparable cities of Mumbai, Delhi and Varanasi."
+   ],
+   "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
+     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
+     "endDate": "2027-03-31",
+     "exclusive": false,
+     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
+    },
+    {
+     "name": "The A&K Worldwide Sale",
+     "endDate": "2027-05-31",
+     "exclusive": false,
+     "description": "Save up to $3,000 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Plus, $1,000 air credit each. US Terms and Conditions: Offer valid for international air only on new bookings for 2027 journeys made between November 10-January 31, 2027. Air must be booked and ticketed through Abercrombie & Kent. Air credit will appear as a discount off the journey on the traveller's invoice. Excludes Tailormade Journeys, A&K Villas, Canal Barge Cruises, Beaches and A&K Sanctuary Stays. Guest can alternatively convert air credit to a $500 savings per person. Up to…"
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Mumbai"
+    },
+    {
+     "d": 3,
+     "n": "Udaipur"
+    },
+    {
+     "d": 5,
+     "n": "Jaipur"
+    },
+    {
+     "d": 7,
+     "n": "Agra"
+    },
+    {
+     "d": 11,
+     "n": "Varanasi"
+    },
+    {
+     "d": 13,
+     "n": "Delhi"
+    }
+   ],
+   "route": "18106901"
+  },
+  {
    "id": "18114464",
    "n": "India by Private Jet",
    "b": "ak",
@@ -37566,55 +37649,6 @@
    "route": "14450642"
   },
   {
-   "id": "18525463",
-   "n": "Leopards, Lions And Tigerfish",
-   "b": "africantravel",
-   "g": [
-    "ZAMBEZI"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18525463/leopardslionsandtigerfish",
-   "days": 8,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2631_2_40.webp",
-   "from": "South Luangwa National Park, Zambia",
-   "to": "Lower Zambezi National Park, Zambia",
-   "country": "Zambia",
-   "world": false,
-   "mks": [
-    "2026-11"
-   ],
-   "onDemand": true,
-   "win": "Valid for Departures Now Through: 30 Nov 2026",
-   "description": "African Travel, Inc. is proud to be a preferred partner of Virtuoso. For 50 years, we have been creating extraordinary, handcrafted luxury safari experiences, ensuring immersive and authentic wildlife and cultural encounters across the continent. Our specialty is crafting tailor-made safaris, complemented by exclusive small-group journeys. Whether you prefer a personalized journey or the camaraderie of a small group, African Travel brings the magic of Africa to life in a way that’s uniquely yours. Access Advisor Resources: https://linktr.ee/africantravelvirtuoso",
-   "included": [
-    "Discover the wild heart of Zambia as you explore two of its most celebrated national parks. In South Luangwa, immerse yourself in pristine wilderness alive with elephants, elusive leopards, and the thrill of walking safaris pioneered here. Then venture to Lower Zambezi, where riverbanks teem with elephants, hippos, and diverse birdlife, and enjoy canoeing, boating, and bush experiences. Stay at beloved safari camps known for their authentic atmosphere and deep connection to nature. This is immersive Zambia—where raw adventure meets soulful tranquility. Highlights: Explore the unspoiled South Luangwa National Park in search of elephants, leopards, wild dogs and a myriad of wildlife. Discover a new perspective of the bush as you walk with your armed scout and get up close to the grazing game and the abundant birdlife. Experience unparalleled game viewing, the finest Zambian hospitality and a diversity of activity from your perfectly positioned tented bush home on the Zambezi River. Enjoy a fusion of modern European and African cuisine at your well-appointed lodging."
-   ],
-   "promotions": [
-    {
-     "name": "The Best of South Africa – with an Extra Night Free in Private Reserves",
-     "endDate": "2027-02-28",
-     "exclusive": false,
-     "description": "Experience the Best of South Africa – Now with an Extra Night Free in Luxury Private Reserves Cape Town & Shamwari: City, Coast & Safari This tailor-made journey pairs the vibrant energy of Cape Town with the wild beauty of Shamwari Private Game Reserve, offering a seamless blend of culture, cuisine, and classic Big Five safari. Stay at the iconic Belmond Mount Nelson, exploring Cape Town at your own pace—from the Cape Peninsula and Boulders Beach penguins to the Winelands and the city’s culinary delights. From the coast, fly to the Eastern Cape for an immersive safari at Shamwari Eagles…"
-    },
-    {
-     "name": "Guests Save Up to $2,500 Per Couple on Luxury African Safaris",
-     "endDate": "2028-12-31",
-     "exclusive": false,
-     "description": "BLACK FRIDAY OFFER SAVE UP TO $2,500 PER COUPLE Safari More. Save More. Feel the ground shake as the Great Migration thunders across the Serengeti, track the Big Five in a private Kruger reserve, or glide through the Okavango by mokoro. From the sweeping plains of Tanzania and Kenya to the waterways of Botswana, the diverse landscapes of South Africa and the mountain gorillas of Rwanda, Africa offers extraordinary experiences at every turn. Save on 2027 or 2028 African Travel journeys* Land price per person / Savings per person Up to $10,000: save $500 $10,001–$20,000: save $750 $20,001 and…"
-    }
-   ],
-   "itin": [
-    {
-     "d": 1,
-     "n": "South Luangwa National Park"
-    },
-    {
-     "d": 6,
-     "n": "Lower Zambezi National Park"
-    }
-   ],
-   "route": "18525463"
-  },
-  {
    "id": "18050231",
    "n": "Lisbon & São Tomé and Princípe Luxury Vacation",
    "b": "kerdowney",
@@ -38492,7 +38526,7 @@
    "g": [],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18375341/luxuryswitzerlandtour",
    "days": 10,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_112_0827.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_126.webp",
    "from": "Gstaad, Switzerland",
    "to": "Lucerne, Switzerland",
    "country": "Switzerland",
@@ -38648,7 +38682,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/15674922/luxuryzambiasafari",
    "days": 11,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_80_0827.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_214.webp",
    "from": "Livingstone, Zambia",
    "to": "Lower Zambezi National Park, Zambia",
    "country": "Zambia",
@@ -38927,7 +38961,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18220178/madagascarluxurytour",
    "days": 16,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_156_0827.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_170.webp",
    "from": "Antananarivo, Madagascar",
    "to": "Antananarivo, Madagascar",
    "country": "Madagascar",
@@ -39905,90 +39939,6 @@
     }
    ],
    "route": "18651072"
-  },
-  {
-   "id": "18103448",
-   "n": "Multi-Country Travel to Indochina",
-   "b": "kerdowney",
-   "g": [
-    "BORNEO"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18103448/multicountrytraveltoindochina",
-   "days": 20,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_248.webp",
-   "from": "Hanoi, Vietnam",
-   "to": "Bangkok Noi, Thailand",
-   "country": "Cambodia",
-   "world": false,
-   "mks": [
-    "2026-11",
-    "2026-12",
-    "2027-01",
-    "2027-02",
-    "2027-03",
-    "2027-04",
-    "2027-05",
-    "2027-06",
-    "2027-07",
-    "2027-08",
-    "2027-09",
-    "2027-10",
-    "2027-11",
-    "2027-12",
-    "2028-01",
-    "2028-02",
-    "2028-03",
-    "2028-04",
-    "2028-05"
-   ],
-   "onDemand": true,
-   "win": "Valid for Departures Now Through: 16 May 2028",
-   "description": "Discover the wonder of multi-country travel to Indochina on this fully customizable Southeast Asia luxury tour by Ker & Downey. Enjoy Vietnam's royal dynasties, the Khmer civilization of Cambodia, Laotian monks, & modern society in Bangkok, Thailand.",
-   "included": [
-    "Airport arrival service and private transfers throughout",
-    "19 nights accommodation in five-star hotels in Vietnam, Cambodia, Laos, and Thailand",
-    "Privately guided touring in Hanoi, Hue, Hoi An, and Ho Chi Minh City",
-    "Shared cruise on board a luxury junk in Ha Long Bay",
-    "Privately guided tours of the temple complexes near Siem Reap, including a sunset hot air balloon ride at Angkor Wat",
-    "Privately guided touring in and around Luang Prabang",
-    "Privately guided touring in and around Bangkok"
-   ],
-   "promotions": [],
-   "itin": [
-    {
-     "d": 1,
-     "n": "Hanoi"
-    },
-    {
-     "d": 3,
-     "n": "Ha Long Bay"
-    },
-    {
-     "d": 4,
-     "n": "Hue"
-    },
-    {
-     "d": 6,
-     "n": "Hoi An"
-    },
-    {
-     "d": 9,
-     "n": "Ho Chi Minh City"
-    },
-    {
-     "d": 12,
-     "n": "Siem Reap"
-    },
-    {
-     "d": 15,
-     "n": "Luang Prabang"
-    },
-    {
-     "d": 18,
-     "n": "Bangkok Noi"
-    }
-   ],
-   "route": "18103448"
   },
   {
    "id": "18527789",
@@ -44313,7 +44263,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18384197/southafricaandmozambiqueluxurysafari",
    "days": 13,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_101_0827.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_115.webp",
    "from": "Cape Town, South Africa",
    "to": "Vilanculos, Mozambique",
    "country": "Mozambique",
@@ -47312,7 +47262,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/15668185/thebotswanafamilysafaribykerdowney",
    "days": 12,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_35_0827.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_116.webp",
    "from": "Johannesburg, South Africa",
    "to": "Kalahari Desert, Botswana",
    "country": "Botswana",
@@ -51677,7 +51627,7 @@
    ],
    "u": "https://www.virtuoso.com/advisor/brianharris/tours/18460017/waterwaysofsouthernafrica",
    "days": 16,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_111_1008.webp",
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/15647107_2_116.webp",
    "from": "Johannesburg, South Africa",
    "to": "Cape Town, South Africa",
    "country": "Botswana",

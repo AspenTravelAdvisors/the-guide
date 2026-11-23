@@ -8,8 +8,8 @@
   "journeysTotal": 103,
   "journeysWithStays": 99,
   "journeysWithHouse": 44,
-  "gateways": 43,
-  "hotels": 150,
+  "gateways": 42,
+  "hotels": 146,
   "houses": [
    "Belmond",
    "Orient Express"
@@ -2564,82 +2564,6 @@
    ],
    "promo": 1
   },
-  "h_02374": {
-   "n": "Victoria Falls River Lodge",
-   "house": null,
-   "aff": null,
-   "city": "Victoria Falls",
-   "country": "Zimbabwe",
-   "ll": [
-    -17.9318,
-    25.8256
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15588570_2_0.webp",
-   "rooms": 19,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02218": {
-   "n": "The Royal Livingstone Victoria Falls Zambia Hotel by Anantara",
-   "house": "Minor Hotels",
-   "aff": null,
-   "city": "Livingstone",
-   "country": "Zambia",
-   "ll": [
-    -17.918671,
-    25.863776
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4668_2_0.webp",
-   "rooms": 173,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00117": {
-   "n": "Anantara Stanley & Livingstone Victoria Falls Hotel",
-   "house": "Minor Hotels",
-   "aff": null,
-   "city": "Victoria Falls",
-   "country": "Zimbabwe",
-   "ll": [
-    -18.0044,
-    25.8111
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18241092_2_0.webp",
-   "rooms": 16,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01349": {
-   "n": "Mukwa River Lodge",
-   "house": null,
-   "aff": null,
-   "city": "Livingstone",
-   "country": "Zambia",
-   "ll": [
-    -17.805163,
-    25.685646
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218779_2_0.webp",
-   "rooms": 8,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Spa treatment"
-   ],
-   "promo": 1
-  },
   "h_00744": {
    "n": "Grand Hotel Stockholm",
    "house": null,
@@ -3768,31 +3692,6 @@
     ]
    ]
   },
-  "Victoria Falls": {
-   "n": "Victoria Falls",
-   "ll": [
-    -17.9333,
-    25.8333
-   ],
-   "h": [
-    [
-     "h_02374",
-     0.8
-    ],
-    [
-     "h_02218",
-     3.6
-    ],
-    [
-     "h_00117",
-     8.2
-    ],
-    [
-     "h_01349",
-     21.1
-    ]
-   ]
-  },
   "Stockholm": {
    "n": "Stockholm",
    "ll": [
@@ -3907,6 +3806,10 @@
    "pre": "Warsaw",
    "post": "Warsaw"
   },
+  "16265799": {
+   "pre": "Vancouver",
+   "post": "Calgary"
+  },
   "16265804": {
    "pre": "Vancouver",
    "post": "Calgary"
@@ -3926,10 +3829,6 @@
   "16517350": {
    "pre": "Cape Town",
    "post": null
-  },
-  "16517353": {
-   "pre": null,
-   "post": "Victoria Falls"
   },
   "16530773": {
    "pre": "Oslo",

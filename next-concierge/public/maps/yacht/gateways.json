@@ -794,7 +794,7 @@
     -8.36799,
     115.236
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16268178_2_18.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16268178_2_0.webp",
    "rooms": 16,
    "perks": [
     "Daily breakfast",
@@ -3004,7 +3004,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_v18513512": {
    "n": "VILLA Copenhagen",
