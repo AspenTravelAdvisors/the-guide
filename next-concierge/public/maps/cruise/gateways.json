@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4393,
-  "journeysWithStays": 3685,
+  "journeysTotal": 4386,
+  "journeysWithStays": 3679,
   "journeysWithHouse": 0,
   "gateways": 107,
   "hotels": 285,
@@ -15,234 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_00141": {
-   "n": "Arakur Ushuaia Resort & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.7864,
-    -68.2575
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
-   "rooms": 129,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Airport transfer"
-   ],
-   "promo": 0
-  },
-  "h_01191": {
-   "n": "Los Cauquenes Resort + Spa + Experiences",
-   "house": null,
-   "aff": null,
-   "city": "Ushuaia",
-   "country": "Argentina",
-   "ll": [
-    -54.8364,
-    -68.3502
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
-   "rooms": 48,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_00877": {
-   "n": "Hotel Kamp",
-   "house": null,
-   "aff": null,
-   "city": "Helsinki",
-   "country": "Finland",
-   "ll": [
-    60.1679,
-    24.9472
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15422578_2_0.webp",
-   "rooms": 179,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_v18535557": {
-   "n": "Waldorf Astoria Helsinki",
-   "house": "Hilton Luxury Brands",
-   "aff": null,
-   "city": "Helsinki",
-   "country": "Finland",
-   "ll": [
-    60.1738,
-    24.9567
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0.webp",
-   "rooms": 116,
-   "perks": [
-    "Daily breakfast",
-    "Property credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00532": {
-   "n": "El Silencio Lodge & Spa -  Relais & Chateaux",
-   "house": null,
-   "aff": null,
-   "city": "Alajuela",
-   "country": "Costa Rica",
-   "ll": [
-    9.99827,
-    -84.2041
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6160093_2_0.webp",
-   "rooms": 24,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_02129": {
-   "n": "The Retreat Costa Rica, Wellness Resort & Spa",
-   "house": null,
-   "aff": null,
-   "city": "Alajuela",
-   "country": "Costa Rica",
-   "ll": [
-    9.97005,
-    -84.4304
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16625139_2_0.webp",
-   "rooms": 25,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01293": {
-   "n": "Mashpi Lodge",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.223252,
-    -78.5141
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0.webp",
-   "rooms": 24,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_00347": {
-   "n": "Casa Gangotena",
-   "house": null,
-   "aff": null,
-   "city": "Quito",
-   "country": "Ecuador",
-   "ll": [
-    -0.194181,
-    -78.4532
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
-   "rooms": 30,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_02170": {
-   "n": "The Ritz-Carlton, Bali",
-   "house": "Luxury Group at Marriott International",
-   "aff": "Ritz-Carlton",
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.80331,
-    115.218
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14729615_2_0.webp",
-   "rooms": 313,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_02246": {
-   "n": "The St. Regis Bali Resort",
-   "house": "Luxury Group at Marriott International",
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.81286,
-    115.227
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6606680_2_0.webp",
-   "rooms": 124,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00674": {
-   "n": "Four Seasons Resort Bali at Jimbaran Bay",
-   "house": "Four Seasons Hotels and Resorts",
-   "aff": "Four Seasons",
-   "city": "Denpasar",
-   "country": "Indonesia",
-   "ll": [
-    -8.78308,
-    115.162
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3755_2_0.webp",
-   "rooms": 156,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_01901": {
-   "n": "The Apurva Kempinski Bali",
-   "house": "Kempinski Hotels",
-   "aff": null,
-   "city": "Bali",
-   "country": "Indonesia",
-   "ll": [
-    -8.82556,
-    115.221
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18117848_2_0.webp",
-   "rooms": 465,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
   "h_01583": {
    "n": "REMOTA",
    "house": null,
@@ -528,6 +300,44 @@
    ],
    "promo": 0
   },
+  "h_01293": {
+   "n": "Mashpi Lodge",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.223252,
+    -78.5141
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/12041365_2_0.webp",
+   "rooms": 24,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_00347": {
+   "n": "Casa Gangotena",
+   "house": null,
+   "aff": null,
+   "city": "Quito",
+   "country": "Ecuador",
+   "ll": [
+    -0.194181,
+    -78.4532
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11155102_2_0.webp",
+   "rooms": 30,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
   "h_00937": {
    "n": "Hotel del Parque",
    "house": null,
@@ -544,6 +354,44 @@
     "Daily breakfast",
     "Room upgrade",
     "Spa treatment"
+   ],
+   "promo": 0
+  },
+  "h_00141": {
+   "n": "Arakur Ushuaia Resort & Spa",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.7864,
+    -68.2575
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14502947_2_1.webp",
+   "rooms": 129,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Airport transfer"
+   ],
+   "promo": 0
+  },
+  "h_01191": {
+   "n": "Los Cauquenes Resort + Spa + Experiences",
+   "house": null,
+   "aff": null,
+   "city": "Ushuaia",
+   "country": "Argentina",
+   "ll": [
+    -54.8364,
+    -68.3502
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6879105_2_0.webp",
+   "rooms": 48,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
    ],
    "promo": 0
   },
@@ -699,6 +547,44 @@
    ],
    "promo": 0
   },
+  "h_00532": {
+   "n": "El Silencio Lodge & Spa -  Relais & Chateaux",
+   "house": null,
+   "aff": null,
+   "city": "Alajuela",
+   "country": "Costa Rica",
+   "ll": [
+    9.99827,
+    -84.2041
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6160093_2_0.webp",
+   "rooms": 24,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_02129": {
+   "n": "The Retreat Costa Rica, Wellness Resort & Spa",
+   "house": null,
+   "aff": null,
+   "city": "Alajuela",
+   "country": "Costa Rica",
+   "ll": [
+    9.97005,
+    -84.4304
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16625139_2_0.webp",
+   "rooms": 25,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
   "h_02459": {
    "n": "Waldorf Astoria Panama",
    "house": "Hilton Luxury Brands",
@@ -812,6 +698,120 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_00877": {
+   "n": "Hotel Kamp",
+   "house": null,
+   "aff": null,
+   "city": "Helsinki",
+   "country": "Finland",
+   "ll": [
+    60.1679,
+    24.9472
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/15422578_2_0.webp",
+   "rooms": 179,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_v18535557": {
+   "n": "Waldorf Astoria Helsinki",
+   "house": "Hilton Luxury Brands",
+   "aff": null,
+   "city": "Helsinki",
+   "country": "Finland",
+   "ll": [
+    60.1738,
+    24.9567
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18526570_2_0.webp",
+   "rooms": 116,
+   "perks": [
+    "Daily breakfast",
+    "Property credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02170": {
+   "n": "The Ritz-Carlton, Bali",
+   "house": "Luxury Group at Marriott International",
+   "aff": "Ritz-Carlton",
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.80331,
+    115.218
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/14729615_2_0.webp",
+   "rooms": 313,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_02246": {
+   "n": "The St. Regis Bali Resort",
+   "house": "Luxury Group at Marriott International",
+   "aff": null,
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.81286,
+    115.227
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/6606680_2_0.webp",
+   "rooms": 124,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_00674": {
+   "n": "Four Seasons Resort Bali at Jimbaran Bay",
+   "house": "Four Seasons Hotels and Resorts",
+   "aff": "Four Seasons",
+   "city": "Denpasar",
+   "country": "Indonesia",
+   "ll": [
+    -8.78308,
+    115.162
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/3755_2_0.webp",
+   "rooms": 156,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
+  },
+  "h_01901": {
+   "n": "The Apurva Kempinski Bali",
+   "house": "Kempinski Hotels",
+   "aff": null,
+   "city": "Bali",
+   "country": "Indonesia",
+   "ll": [
+    -8.82556,
+    115.221
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18117848_2_0.webp",
+   "rooms": 465,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
   },
   "h_v16336359": {
    "n": "Shangri-La The Marina Cairns",
@@ -4893,7 +4893,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 1
+   "promo": 0
   },
   "h_00135": {
    "n": "Andaz Tokyo Toranomon Hills",
@@ -5429,99 +5429,6 @@
   }
  },
  "GATES": {
-  "Ushuaia, Argentina": {
-   "n": "Ushuaia, Argentina",
-   "ll": [
-    -54.8,
-    -68.3
-   ],
-   "h": [
-    [
-     "h_00141",
-     3.1
-    ],
-    [
-     "h_01191",
-     5.2
-    ]
-   ]
-  },
-  "Helsinki, Finland": {
-   "n": "Helsinki, Finland",
-   "ll": [
-    60.1712,
-    24.9326
-   ],
-   "h": [
-    [
-     "h_00877",
-     0.9
-    ],
-    [
-     "h_v18535557",
-     1.4
-    ]
-   ]
-  },
-  "San Jose, Costa Rica": {
-   "n": "San Jose, Costa Rica",
-   "ll": [
-    9.9253,
-    -84.0787
-   ],
-   "h": [
-    [
-     "h_00532",
-     16
-    ],
-    [
-     "h_02129",
-     38.8
-    ]
-   ]
-  },
-  "Quito, Ecuador": {
-   "n": "Quito, Ecuador",
-   "ll": [
-    -0.2167,
-    -78.5
-   ],
-   "h": [
-    [
-     "h_01293",
-     1.7
-    ],
-    [
-     "h_00347",
-     5.8
-    ]
-   ]
-  },
-  "Benoa (Bali), Indonesia": {
-   "n": "Benoa (Bali), Indonesia",
-   "ll": [
-    -8.7667,
-    115.217
-   ],
-   "h": [
-    [
-     "h_02170",
-     4.1
-    ],
-    [
-     "h_02246",
-     5.2
-    ],
-    [
-     "h_00674",
-     6.3
-    ],
-    [
-     "h_01901",
-     6.6
-    ]
-   ]
-  },
   "Puerto Natales, Chile": {
    "n": "Puerto Natales, Chile",
    "ll": [
@@ -5636,6 +5543,23 @@
     ]
    ]
   },
+  "Quito, Ecuador": {
+   "n": "Quito, Ecuador",
+   "ll": [
+    -0.2167,
+    -78.5
+   ],
+   "h": [
+    [
+     "h_01293",
+     1.7
+    ],
+    [
+     "h_00347",
+     5.8
+    ]
+   ]
+  },
   "Guayaquil, Ecuador": {
    "n": "Guayaquil, Ecuador",
    "ll": [
@@ -5646,6 +5570,23 @@
     [
      "h_00937",
      4.1
+    ]
+   ]
+  },
+  "Ushuaia, Argentina": {
+   "n": "Ushuaia, Argentina",
+   "ll": [
+    -54.8,
+    -68.3
+   ],
+   "h": [
+    [
+     "h_00141",
+     3.1
+    ],
+    [
+     "h_01191",
+     5.2
     ]
    ]
   },
@@ -5708,6 +5649,23 @@
     ]
    ]
   },
+  "San Jose, Costa Rica": {
+   "n": "San Jose, Costa Rica",
+   "ll": [
+    9.9253,
+    -84.0787
+   ],
+   "h": [
+    [
+     "h_00532",
+     16
+    ],
+    [
+     "h_02129",
+     38.8
+    ]
+   ]
+  },
   "Panama City, Panama": {
    "n": "Panama City, Panama",
    "ll": [
@@ -5747,6 +5705,48 @@
     [
      "h_01811",
      25.1
+    ]
+   ]
+  },
+  "Helsinki, Finland": {
+   "n": "Helsinki, Finland",
+   "ll": [
+    60.1712,
+    24.9326
+   ],
+   "h": [
+    [
+     "h_00877",
+     0.9
+    ],
+    [
+     "h_v18535557",
+     1.4
+    ]
+   ]
+  },
+  "Benoa (Bali), Indonesia": {
+   "n": "Benoa (Bali), Indonesia",
+   "ll": [
+    -8.7667,
+    115.217
+   ],
+   "h": [
+    [
+     "h_02170",
+     4.1
+    ],
+    [
+     "h_02246",
+     5.2
+    ],
+    [
+     "h_00674",
+     6.3
+    ],
+    [
+     "h_01901",
+     6.6
     ]
    ]
   },
@@ -7926,10 +7926,6 @@
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
   },
-  "16845762": {
-   "pre": "San Jose, Costa Rica",
-   "post": "San Jose, Costa Rica"
-  },
   "16845803": {
    "pre": "Panama City, Panama",
    "post": "Panama City, Panama"
@@ -8238,10 +8234,6 @@
    "pre": "Santiago, Chile",
    "post": "Santiago, Chile"
   },
-  "16852251": {
-   "pre": "Quito, Ecuador",
-   "post": "Quito, Ecuador"
-  },
   "16852268": {
    "pre": "Quito, Ecuador",
    "post": "Quito, Ecuador"
@@ -8522,10 +8514,6 @@
    "pre": "Ushuaia, Argentina",
    "post": null
   },
-  "16918141": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
   "16918142": {
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
@@ -8657,10 +8645,6 @@
   "17900077": {
    "pre": "Montreal, QC, Canada",
    "post": "Montreal, QC, Canada"
-  },
-  "18047378": {
-   "pre": "Helsinki, Finland",
-   "post": "Helsinki, Finland"
   },
   "18047379": {
    "pre": "Helsinki, Finland",
@@ -11842,10 +11826,6 @@
    "pre": "Glasgow, United Kingdom",
    "post": "Reykjavík, Iceland"
   },
-  "18170357": {
-   "pre": "Ushuaia, Argentina",
-   "post": "Ushuaia, Argentina"
-  },
   "18170981": {
    "pre": "Livorno, Italy",
    "post": "Dubrovnik, Croatia"
@@ -13669,10 +13649,6 @@
   "18373288": {
    "pre": "Nice, France",
    "post": "Barcelona, Spain"
-  },
-  "18375709": {
-   "pre": "Benoa (Bali), Indonesia",
-   "post": "Benoa (Bali), Indonesia"
   },
   "18375793": {
    "pre": "Nice, France",

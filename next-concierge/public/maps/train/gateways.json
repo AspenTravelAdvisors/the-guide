@@ -5,8 +5,8 @@
   "atlas": "train",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 103,
-  "journeysWithStays": 99,
+  "journeysTotal": 106,
+  "journeysWithStays": 102,
   "journeysWithHouse": 44,
   "gateways": 42,
   "hotels": 146,
@@ -1270,7 +1270,7 @@
     "$100 credit",
     "Room upgrade"
    ],
-   "promo": 0
+   "promo": 1
   },
   "h_01995": {
    "n": "The Hazelton Hotel",
@@ -3806,6 +3806,14 @@
    "pre": "Warsaw",
    "post": "Warsaw"
   },
+  "16264675": {
+   "pre": "Vancouver",
+   "post": "Vancouver"
+  },
+  "16265362": {
+   "pre": "Vancouver",
+   "post": "Calgary"
+  },
   "16265799": {
    "pre": "Vancouver",
    "post": "Calgary"
@@ -4215,6 +4223,10 @@
    "house": "Belmond"
   },
   "18649476": {
+   "pre": "Vancouver",
+   "post": "Calgary"
+  },
+  "18663228": {
    "pre": "Vancouver",
    "post": "Calgary"
   }
