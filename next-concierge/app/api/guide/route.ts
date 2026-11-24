@@ -429,15 +429,20 @@ async function runGuideTurnStream({
   // at full input rate on each of up to MAX_TOOL_ROUNDS requests per question,
   // which was ~88% of this endpoint's token spend.
   //
-  // The default five-minute TTL covers the tool-use rounds inside a turn and
-  // back-to-back travelers. The prefix only actually changes when `today` rolls
-  // over, so `ttl: "1h"` is the next lever if traffic stays bursty — it bills the
-  // write at 2x base instead of 1.25x, which one extra hit repays.
+  // One-hour TTL on this prefix (24 November 2026). With the five-minute default,
+  // any gap of more than five minutes between travelers re-wrote the whole ~36k
+  // prefix: the Nov 22–24 logs show about half of all turns paying a ~27–34k
+  // cache write (~$0.08 a turn) instead of a read (~$0.02), because traffic was
+  // arriving every five to fifteen minutes. The prefix only changes when `today`
+  // rolls over, so it can safely live for an hour. A 1h write bills at 2x base
+  // instead of 1.25x, and the first extra read inside the hour pays that back.
+  // The rolling breakpoint on `messages` (lib/guide-tokens.ts) stays at five
+  // minutes: it is per-conversation and does not outlive a traveler's pause.
   const system: Anthropic.TextBlockParam[] = [
     {
       type: "text",
       text: `${GUIDE_PROMPT}\n\nToday's date is ${today}.`,
-      cache_control: { type: "ephemeral" },
+      cache_control: { type: "ephemeral", ttl: "1h" },
     },
   ];
 
