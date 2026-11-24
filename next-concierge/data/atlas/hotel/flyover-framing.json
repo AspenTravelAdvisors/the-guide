@@ -7,7 +7,6 @@
   "h_00005": {"bearing":47,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":35},"height":null,"clear":true,"at":"2026-11-02"},
   "h_00006": {"bearing":62,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
   "h_00007": {"bearing":302,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
-  "h_00008": {"bearing":147,"tilt":30,"range":240,"lift":20,"arrive":{"range":340,"tilt":35},"height":45,"clear":false,"at":"2026-11-02"},
   "h_00010": {"bearing":172,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
   "h_00011": {"bearing":192,"tilt":61.9,"range":240,"lift":10,"arrive":{"range":340,"tilt":55},"height":13,"clear":true,"at":"2026-11-02"},
   "h_00012": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
@@ -23,8 +22,11 @@
   "h_00029": {"bearing":292,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
   "h_00033": {"bearing":282,"tilt":62,"range":240,"lift":10,"arrive":{"range":340,"tilt":55},"height":6,"clear":true,"at":"2026-11-02"},
   "h_00035": {"bearing":327,"tilt":62,"range":240,"lift":10,"arrive":{"range":340,"tilt":55},"height":10,"clear":true,"at":"2026-11-02"},
+  "h_00036": {"bearing":262,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-24"},
+  "h_00039": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-24"},
   "h_00393": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"},
   "h_01482": {"bearing":182,"tilt":62,"range":240,"lift":10,"arrive":{"range":340,"tilt":55},"height":6,"clear":true,"at":"2026-11-02"},
+  "h_v18402385": {"bearing":327,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-24"},
   "h_v6164008": {"bearing":52,"tilt":62,"range":240,"lift":15,"arrive":{"range":340,"tilt":55},"height":null,"clear":true,"at":"2026-11-02"}
  }
 }
