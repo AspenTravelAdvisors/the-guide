@@ -72,7 +72,12 @@ function rateFor(model: string): ModelRate {
 }
 
 const CACHE_READ_MULTIPLIER = 0.1;
-const CACHE_WRITE_MULTIPLIER = 1.25;
+// The Guide's system prefix is cached with a one-hour TTL, billed at 2x base;
+// the rolling message breakpoint is five-minute, billed at 1.25x. The usage
+// total does not say which is which, so every write is counted at the 1h rate.
+// That overcounts the small message writes, which is the safe direction for a
+// spending ceiling.
+const CACHE_WRITE_MULTIPLIER = 2;
 
 /** What one turn's token usage cost, in dollars. */
 export function turnCostUsd(usage: GuideUsage, model: string): number {
