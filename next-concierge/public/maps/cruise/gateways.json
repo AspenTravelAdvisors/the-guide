@@ -5,8 +5,8 @@
   "atlas": "cruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 4386,
-  "journeysWithStays": 3679,
+  "journeysTotal": 4374,
+  "journeysWithStays": 3677,
   "journeysWithHouse": 0,
   "gateways": 107,
   "hotels": 285,
@@ -15,82 +15,6 @@
  "radiusKm": 40,
  "clusterKm": 15,
  "HOTELS": {
-  "h_01583": {
-   "n": "REMOTA",
-   "house": null,
-   "aff": null,
-   "city": "Puerto Natales",
-   "country": "Chile",
-   "ll": [
-    -51.7088,
-    -72.5077
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4387_2_0.webp",
-   "rooms": 72,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Early check-in"
-   ],
-   "promo": 0
-  },
-  "h_02239": {
-   "n": "The Singular Patagonia, Chile",
-   "house": null,
-   "aff": null,
-   "city": "Puerto Natales",
-   "country": "Chile",
-   "ll": [
-    -51.7003,
-    -72.5258
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13102422_2_7.webp",
-   "rooms": 57,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 1
-  },
-  "h_00724": {
-   "n": "Gran Hotel Miramar",
-   "house": null,
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.7207,
-    -4.40818
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0.webp",
-   "rooms": 200,
-   "perks": [
-    "Daily breakfast",
-    "$100 credit",
-    "Room upgrade"
-   ],
-   "promo": 0
-  },
-  "h_01124": {
-   "n": "La Zambra Resort",
-   "house": "Hyatt Hotels Corporation",
-   "aff": null,
-   "city": "Málaga",
-   "country": "Spain",
-   "ll": [
-    36.553,
-    -4.66678
-   ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
-   "rooms": 196,
-   "perks": [
-    "Daily breakfast",
-    "Room upgrade",
-    "Early check-in"
-   ],
-   "promo": 1
-  },
   "h_00464": {
    "n": "Country Club Lima Hotel",
    "house": null,
@@ -698,6 +622,44 @@
     "Room upgrade"
    ],
    "promo": 0
+  },
+  "h_01583": {
+   "n": "REMOTA",
+   "house": null,
+   "aff": null,
+   "city": "Puerto Natales",
+   "country": "Chile",
+   "ll": [
+    -51.7088,
+    -72.5077
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4387_2_0.webp",
+   "rooms": 72,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Early check-in"
+   ],
+   "promo": 0
+  },
+  "h_02239": {
+   "n": "The Singular Patagonia, Chile",
+   "house": null,
+   "aff": null,
+   "city": "Puerto Natales",
+   "country": "Chile",
+   "ll": [
+    -51.7003,
+    -72.5258
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/13102422_2_7.webp",
+   "rooms": 57,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 1
   },
   "h_00877": {
    "n": "Hotel Kamp",
@@ -2151,7 +2113,7 @@
     22.977854,
     -109.769086
    ],
-   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4247_2_21.webp",
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/4247_2_47.webp",
    "rooms": 84,
    "perks": [
     "Daily breakfast",
@@ -2267,6 +2229,44 @@
    ],
    "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/11652963_2_0.webp",
    "rooms": 208,
+   "perks": [
+    "Daily breakfast",
+    "Room upgrade",
+    "Early check-in"
+   ],
+   "promo": 1
+  },
+  "h_00724": {
+   "n": "Gran Hotel Miramar",
+   "house": null,
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.7207,
+    -4.40818
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/16792453_2_0.webp",
+   "rooms": 200,
+   "perks": [
+    "Daily breakfast",
+    "$100 credit",
+    "Room upgrade"
+   ],
+   "promo": 0
+  },
+  "h_01124": {
+   "n": "La Zambra Resort",
+   "house": "Hyatt Hotels Corporation",
+   "aff": null,
+   "city": "Málaga",
+   "country": "Spain",
+   "ll": [
+    36.553,
+    -4.66678
+   ],
+   "thumb": "https://media.virtuoso.com/m/Images/Brochures/h400/18218783_2_0.webp",
+   "rooms": 196,
    "perks": [
     "Daily breakfast",
     "Room upgrade",
@@ -5429,40 +5429,6 @@
   }
  },
  "GATES": {
-  "Puerto Natales, Chile": {
-   "n": "Puerto Natales, Chile",
-   "ll": [
-    -51.7333,
-    -72.5167
-   ],
-   "h": [
-    [
-     "h_01583",
-     2.8
-    ],
-    [
-     "h_02239",
-     3.7
-    ]
-   ]
-  },
-  "Málaga, Spain": {
-   "n": "Málaga, Spain",
-   "ll": [
-    36.7167,
-    -4.4167
-   ],
-   "h": [
-    [
-     "h_00724",
-     0.9
-    ],
-    [
-     "h_01124",
-     28.8
-    ]
-   ]
-  },
   "Lima, Peru": {
    "n": "Lima, Peru",
    "ll": [
@@ -5705,6 +5671,23 @@
     [
      "h_01811",
      25.1
+    ]
+   ]
+  },
+  "Puerto Natales, Chile": {
+   "n": "Puerto Natales, Chile",
+   "ll": [
+    -51.7333,
+    -72.5167
+   ],
+   "h": [
+    [
+     "h_01583",
+     2.8
+    ],
+    [
+     "h_02239",
+     3.7
     ]
    ]
   },
@@ -6318,6 +6301,23 @@
     [
      "h_00291",
      23.2
+    ]
+   ]
+  },
+  "Málaga, Spain": {
+   "n": "Málaga, Spain",
+   "ll": [
+    36.7167,
+    -4.4167
+   ],
+   "h": [
+    [
+     "h_00724",
+     0.9
+    ],
+    [
+     "h_01124",
+     28.8
     ]
    ]
   },
@@ -7666,10 +7666,6 @@
    "pre": "Santiago, Chile",
    "post": "Santiago, Chile"
   },
-  "16845296": {
-   "pre": "Puerto Natales, Chile",
-   "post": "Puerto Natales, Chile"
-  },
   "16845304": {
    "pre": "Puerto Natales, Chile",
    "post": "Puerto Natales, Chile"
@@ -8173,10 +8169,6 @@
   "16847973": {
    "pre": "Quito, Ecuador",
    "post": "Lima, Peru"
-  },
-  "16852190": {
-   "pre": "Puerto Natales, Chile",
-   "post": "Puerto Natales, Chile"
   },
   "16852194": {
    "pre": "Puerto Natales, Chile",
@@ -8738,8 +8730,8 @@
    "pre": "Ushuaia, Argentina",
    "post": "Ushuaia, Argentina"
   },
-  "18049076": {
-   "pre": "Buenos Aires, Argentina",
+  "18049051": {
+   "pre": null,
    "post": "Buenos Aires, Argentina"
   },
   "18049077": {
@@ -9313,10 +9305,6 @@
   "18091610": {
    "pre": null,
    "post": "Casablanca, Morocco"
-  },
-  "18091611": {
-   "pre": "Málaga, Spain",
-   "post": null
   },
   "18091613": {
    "pre": "Osaka, Japan",
@@ -12198,10 +12186,6 @@
    "pre": "Reykjavík, Iceland",
    "post": null
   },
-  "18220466": {
-   "pre": "Bridgetown, Barbados",
-   "post": "Philipsburg, Sint Maarten"
-  },
   "18220469": {
    "pre": "Ushuaia, Argentina",
    "post": null
@@ -13666,10 +13650,6 @@
    "pre": "Monte-Carlo, Monaco",
    "post": "Lisbon, Portugal"
   },
-  "18376585": {
-   "pre": "Naples, Italy",
-   "post": "Valletta, Malta"
-  },
   "18376588": {
    "pre": "Ijmuiden, Netherlands",
    "post": "Bordeaux, France"
@@ -13898,6 +13878,10 @@
    "pre": null,
    "post": "Glasgow, United Kingdom"
   },
+  "18392706": {
+   "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
+   "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
+  },
   "18392709": {
    "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
    "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
@@ -13998,6 +13982,10 @@
    "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
    "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
   },
+  "18392761": {
+   "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
+   "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
+  },
   "18392762": {
    "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
    "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
@@ -14007,6 +13995,10 @@
    "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
   },
   "18392764": {
+   "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
+   "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
+  },
+  "18392765": {
    "pre": "L'Escale Marina, Mahé, Seychelles, Seychelles",
    "post": "L'Escale Marina, Mahé, Seychelles, Seychelles"
   },

@@ -9813,6 +9813,32 @@
     ]
    }
   ],
+  "18377118": [
+   {
+    "n": "Lima",
+    "r": null,
+    "ll": [
+     -12.05,
+     -77.05
+    ]
+   },
+   {
+    "n": "Nauta",
+    "r": null,
+    "ll": [
+     -4.5333,
+     -73.55
+    ]
+   },
+   {
+    "n": "Lima",
+    "r": null,
+    "ll": [
+     -12.05,
+     -77.05
+    ]
+   }
+  ],
   "18377133": [
    {
     "n": "Bogotá",
@@ -11926,56 +11952,6 @@
     "ll": [
      -12.05,
      -77.05
-    ]
-   }
-  ],
-  "18514094": [
-   {
-    "n": "Quito",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.2167,
-     -78.5
-    ]
-   },
-   {
-    "n": "Espanola Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -1.3666,
-     -89.6833
-    ]
-   },
-   {
-    "n": "Floreana Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -1.2975,
-     -90.4342
-    ]
-   },
-   {
-    "n": "Santa Cruz Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.622,
-     -90.3551
-    ]
-   },
-   {
-    "n": "South Plaza Island",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.5843,
-     -90.1636
-    ]
-   },
-   {
-    "n": "Quito",
-    "r": "GALAPAGOS",
-    "ll": [
-     -0.2167,
-     -78.5
     ]
    }
   ],
@@ -21862,7 +21838,6 @@
    "country": "Uganda",
    "world": false,
    "mks": [
-    "2026-11",
     "2026-12"
    ],
    "onDemand": true,
@@ -21972,7 +21947,6 @@
    "country": "Uganda",
    "world": false,
    "mks": [
-    "2026-11",
     "2026-12"
    ],
    "onDemand": true,
@@ -22089,7 +22063,6 @@
    "country": "Kenya",
    "world": false,
    "mks": [
-    "2026-11",
     "2026-12"
    ],
    "onDemand": true,
@@ -22262,6 +22235,64 @@
    "route": "18363205"
   },
   {
+   "id": "18377118",
+   "n": "A&K Sanctuary Peruvian Amazon Cruise (5 Days)",
+   "b": "ak",
+   "g": [],
+   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18377118/aksanctuaryperuvianamazoncruise5days",
+   "days": 5,
+   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_196.webp",
+   "from": "Lima, Peru",
+   "to": "Lima, Peru",
+   "country": "Brazil",
+   "world": false,
+   "d": "12/22/2026",
+   "r": "12/26/2026",
+   "mks": [
+    "2026-12"
+   ],
+   "win": "Dates: 22 Dec 2026 - 26 Dec 2026",
+   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
+   "included": [
+    "Covering 60 percent of the country, Peru’s Amazonian region is a magnet for wildlife lovers. Sleepy backwaters, lush islands and deep jungle make up the Pacaya-Samiria National Reserve, a place of exceptional beauty and biodiversity and Peru’s largest protected area at 8,000 square miles. From June to November is low-water season. Birders and wildlife enthusiasts will leap at the chance to venture into the habitat of some of the rarest and most iconic species on Earth, while visits to local communities of ribereños, or river people, provide insight into local culture and village life. In high-water season, from December to May, the Amazon River and its tributaries (the Marañón and Ucayali) flood, and most of the Pacaya-Samiria reserve is submerged. Though this may sound limiting, it also opens up a perspective on the entire landscape and riverscape that is nothing less than enchanting – and whenever you choose to visit, this untouched wilderness is alive with a seasonal rotation of sloths, monkeys, caimans, pink river dolphins, turtles, manatees and stunning birdlife."
+   ],
+   "promotions": [
+    {
+     "name": "Air Credit Offer - TBD",
+     "endDate": "2027-01-31",
+     "exclusive": false,
+     "description": "Offer coming soon on November 12"
+    },
+    {
+     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
+     "endDate": "2027-03-31",
+     "exclusive": false,
+     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
+    },
+    {
+     "name": "The A&K Worldwide Sale",
+     "endDate": "2027-05-31",
+     "exclusive": false,
+     "description": "Save up to $3,000 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Plus, $1,000 air credit each. US Terms and Conditions: Offer valid for international air only on new bookings for 2027 journeys made between November 10-January 31, 2027. Air must be booked and ticketed through Abercrombie & Kent. Air credit will appear as a discount off the journey on the traveller's invoice. Excludes Tailormade Journeys, A&K Villas, Canal Barge Cruises, Beaches and A&K Sanctuary Stays. Guest can alternatively convert air credit to a $500 savings per person. Up to…"
+    }
+   ],
+   "itin": [
+    {
+     "d": 1,
+     "n": "Lima"
+    },
+    {
+     "d": 2,
+     "n": "Nauta"
+    },
+    {
+     "d": 1,
+     "n": "Lima"
+    }
+   ],
+   "route": "18377118"
+  },
+  {
    "id": "18363931",
    "n": "A&K Sanctuary Peruvian Amazon Cruise (5 Days)",
    "b": "ak",
@@ -22274,7 +22305,6 @@
    "country": "Peru",
    "world": false,
    "mks": [
-    "2026-11",
     "2026-12"
    ],
    "onDemand": true,
@@ -28831,79 +28861,6 @@
     }
    ],
    "route": "18645736"
-  },
-  {
-   "id": "18514094",
-   "n": "Coastal Landscapes on a Galápagos Cruise: A Private Journey",
-   "b": "ak",
-   "g": [
-    "GALAPAGOS"
-   ],
-   "u": "https://www.virtuoso.com/advisor/brianharris/tours/18514094/coastallandscapesonagalpagoscruiseaprivatejourney",
-   "days": 9,
-   "img": "https://media.virtuoso.com/m/Images/Brochures/h400/2591_2_155.webp",
-   "from": "Quito, Ecuador",
-   "to": "Quito, Ecuador",
-   "country": "Ecuador",
-   "world": false,
-   "d": "11/28/2026",
-   "r": "12/6/2026",
-   "mks": [
-    "2026-11",
-    "2026-12"
-   ],
-   "win": "Dates: 28 Nov 2026 - 06 Dec 2026",
-   "description": "Abercrombie & Kent is the world’s leading luxury travel company, renowned for creating thrilling, innovative and ultra-exclusive experiences on all seven continents. Since 1962, when we pioneered a safari camp unprecedented in its sophistication, we have been spinning dreams into adventures for the most discerning of travellers. Immersive moments are at the heart of every A&K journey, whether you choose an Expedition Cruise to the far corners of the earth, a globe-spanning voyage by Private Jet or a Tailormade adventure custom designed for just you and your private party. Backing them all is an international network of more than 3,000 staff, in over 70 offices serving 83 countries,…",
-   "included": [
-    "Get ready for an adventure beyond Darwin’s wildest dreams. Cruising the islands’ southern and central routes, our Ecoventura adventure yachts offer attentive Relais & Châteaux hospitality and the most intimate guest-to-staff ratio in the region. Expert naturalist guides lead the way, revealing giant tortoises, marine iguanas, blue-footed boobies, sea lions, penguins and more with a host of exciting snorkeling, kayaking, Zodiac and shore excursions."
-   ],
-   "promotions": [
-    {
-     "name": "Air Credit Offer - TBD",
-     "endDate": "2027-01-31",
-     "exclusive": false,
-     "description": "Offer coming soon on November 12"
-    },
-    {
-     "name": "Save up to $2,500 per person on select departures of Small Group, Small Jet",
-     "endDate": "2027-03-31",
-     "exclusive": false,
-     "description": "Save up to $2,500 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Offer valid on new bookings for select departure dates as indicated on abercrombiekent.com for 2026 Small Group, Small Jet, and Private Ready-to-Book Journeys. Offer not combinable with Prepay and Save, subject to availability and may be withdrawn at any time. Other restrictions may apply."
-    },
-    {
-     "name": "The A&K Worldwide Sale",
-     "endDate": "2027-05-31",
-     "exclusive": false,
-     "description": "Save up to $3,000 per person on select departures of Small Group, Small Jet and Private Ready-to-Book Journeys. Plus, $1,000 air credit each. US Terms and Conditions: Offer valid for international air only on new bookings for 2027 journeys made between November 10-January 31, 2027. Air must be booked and ticketed through Abercrombie & Kent. Air credit will appear as a discount off the journey on the traveller's invoice. Excludes Tailormade Journeys, A&K Villas, Canal Barge Cruises, Beaches and A&K Sanctuary Stays. Guest can alternatively convert air credit to a $500 savings per person. Up to…"
-    }
-   ],
-   "itin": [
-    {
-     "d": 1,
-     "n": "Quito"
-    },
-    {
-     "d": 4,
-     "n": "Espanola Island"
-    },
-    {
-     "d": 5,
-     "n": "Floreana Island"
-    },
-    {
-     "d": 6,
-     "n": "Santa Cruz Island"
-    },
-    {
-     "d": 8,
-     "n": "South Plaza Island"
-    },
-    {
-     "d": 1,
-     "n": "Quito"
-    }
-   ],
-   "route": "18514094"
   },
   {
    "id": "18654711",

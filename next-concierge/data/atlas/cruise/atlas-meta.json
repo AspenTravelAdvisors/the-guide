@@ -141,7 +141,7 @@
     -64.5,
     -62
    ],
-   "count": 694
+   "count": 693
   },
   "Caribbean & Bermuda": {
    "name": "Caribbean & Bermuda",
@@ -149,7 +149,7 @@
     16,
     -66
    ],
-   "count": 68
+   "count": 67
   },
   "Galápagos": {
    "name": "Galápagos",
@@ -157,7 +157,7 @@
     -0.7,
     -90.5
    ],
-   "count": 1440
+   "count": 1439
   },
   "Mediterranean": {
    "name": "Mediterranean",
@@ -165,7 +165,7 @@
     39,
     14
    ],
-   "count": 245
+   "count": 244
   },
   "Other": {
    "name": "Other & Repositioning",
@@ -189,7 +189,7 @@
     14,
     105
    ],
-   "count": 199
+   "count": 190
   },
   "Atlantic Islands": {
    "name": "Atlantic Islands",
@@ -197,7 +197,7 @@
     32,
     -23
    ],
-   "count": 47
+   "count": 46
   },
   "Canada & New England": {
    "name": "Canada & New England",
@@ -221,7 +221,7 @@
     -12,
     45
    ],
-   "count": 95
+   "count": 97
   },
   "US Rivers & Coast": {
    "name": "US Rivers & Coast",

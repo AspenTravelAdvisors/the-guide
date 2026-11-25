@@ -5,8 +5,8 @@
   "atlas": "worldcruise",
   "radiusKm": 40,
   "clusterKm": 15,
-  "journeysTotal": 329,
-  "journeysWithStays": 325,
+  "journeysTotal": 331,
+  "journeysWithStays": 327,
   "journeysWithHouse": 0,
   "gateways": 55,
   "hotels": 181,
@@ -5151,6 +5151,10 @@
    "pre": null,
    "post": "Ushuaia, Argentina"
   },
+  "18300512": {
+   "pre": "Miami, FL, United States",
+   "post": "Fort Lauderdale, FL, United States"
+  },
   "18300570": {
    "pre": "Miami, FL, United States",
    "post": "Miami, FL, United States"
@@ -5722,6 +5726,10 @@
   "18536749": {
    "pre": "Buenos Aires, Argentina",
    "post": "Southampton, United Kingdom"
+  },
+  "18548660": {
+   "pre": "Barcelona, Spain",
+   "post": "Los Angeles, CA, United States"
   },
   "18575163": {
    "pre": "Istanbul, Türkiye",

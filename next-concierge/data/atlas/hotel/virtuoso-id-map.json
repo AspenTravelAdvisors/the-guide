@@ -1,7 +1,7 @@
 {
  "_meta": {
   "purpose": "Maps local hotel ids to Virtuoso product ids. Regenerate with scripts/match-virtuoso-hotels.mjs.",
-  "generated": "2026-11-19T18:09:10.695Z",
+  "generated": "2026-11-25T19:06:04.677Z",
   "feedSynced": null,
   "localCount": 2475,
   "feedCount": 2098,
@@ -26406,7 +26406,7 @@
   {
    "vid": "18649706",
    "name": "Dusit Thani Bangkok",
-   "city": "Bang Rak",
+   "city": "Bangkok",
    "country": "Thailand"
   },
   {
